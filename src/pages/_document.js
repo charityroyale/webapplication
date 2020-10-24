@@ -43,7 +43,7 @@ export default class MyDocument extends Document {
 
 	render() {
 		return (
-			<Html>
+			<Html lang="de">
 				<Head>
 					<title>Charity Royale 2020</title>
 					<link
@@ -67,6 +67,10 @@ export default class MyDocument extends Document {
 					<meta name="msapplication-TileColor" content="#ffffff"></meta>
 					<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png"></meta>
 					<meta name="theme-color" content="#ffffff"></meta>
+					<meta
+						name="description"
+						content="Größtes Stream,- und Gaming Charity Projekt Österreichs von Venicraft und willhaben."
+					></meta>
 				</Head>
 				<body>
 					<Main />
