@@ -41,10 +41,11 @@ export const StyledMain = styled.main`
 	grid-template-rows: auto auto auto;
 	grid-template-areas: 'featured' 'featured-header' 'upcoming';
 
+	padding-top: 40px; // charity royale logo
 	background-color: ${(p) => p.theme.color.harvestGold};
 `
 export const StyledFeatured = styled.div`
-	overflow: hidden;
+	position: relative;
 	grid-area: featured;
 	display: flex;
 	justify-content: center;
@@ -142,4 +143,13 @@ export const StyleUpcomingStreamsHeader = styled.h5`
 	${(p) => p.theme.media.phone} {
 		font-size: 24px;
 	}
+`
+
+export const StyledFeaturedStreamCharityRoyaleLogo = styled.img`
+	position: absolute;
+	top: 0;
+	transform: translateY(-50%);
+	width: 150px;
+	height: auto;
+	z-index: 200;
 `

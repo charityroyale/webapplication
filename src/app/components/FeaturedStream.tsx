@@ -1,5 +1,5 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
-import { StyledFeatured } from '../../styles/common.styles'
+import { StyledFeatured, StyledFeaturedStreamCharityRoyaleLogo } from '../../styles/common.styles'
 
 const FeaturedStream: React.FunctionComponent = () => {
 	const featuredStreamRef = useRef(null)
@@ -32,7 +32,11 @@ const FeaturedStream: React.FunctionComponent = () => {
 		})
 	}, [])
 
-	return <StyledFeatured ref={featuredStreamRef} id="twitch-embed"></StyledFeatured>
+	return (
+		<StyledFeatured ref={featuredStreamRef} id="twitch-embed">
+			<StyledFeaturedStreamCharityRoyaleLogo src="/Charity_Royale_RGB.png" alt="Charity Royale 2020 Logo" />
+		</StyledFeatured>
+	)
 }
 
 export default FeaturedStream
