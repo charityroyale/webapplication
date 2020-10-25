@@ -1,7 +1,6 @@
 TODO
 
 - strapi cms
-- responsive layout
 - embedded twitch streams
 - make-a-wish donation form
 - header
@@ -14,6 +13,7 @@ TODO
 
 DONE
 
+- responsive layout
 - add styled theme
 - typescript support
 - SSR for styled-components and global css
