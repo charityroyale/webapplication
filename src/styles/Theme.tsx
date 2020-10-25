@@ -1,9 +1,23 @@
 import baseStyled, { ThemedStyledInterface } from 'styled-components'
 
+// References to https://blog.agney.dev/styled-components-&-typescript/
+const customMediaQuery = (maxWidth: number): string => `@media (max-width: ${maxWidth}px)`
+
 export const theme = {
 	color: {
 		primary: 'red',
 		secondary: 'green',
+	},
+	fontSize: {
+		s: 12,
+		m: 14,
+		l: 18,
+		xl: 24,
+	},
+	media: {
+		desktop: customMediaQuery(922),
+		tablet: customMediaQuery(768),
+		phone: customMediaQuery(576),
 	},
 }
 
