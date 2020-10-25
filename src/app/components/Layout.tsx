@@ -1,11 +1,7 @@
 import React from 'react'
 import { StyledLayout } from '../../styles/common.styles'
 
-interface LayoutProps {
-	children?: JSX.Element[]
-}
-
-const Layout: React.FunctionComponent<LayoutProps> = ({ children }: LayoutProps) => {
+const Layout: React.FunctionComponent = ({ children }) => {
 	return <StyledLayout>{children}</StyledLayout>
 }
 

@@ -1,12 +1,7 @@
 import React from 'react'
 import { StyledMain } from '../../styles/common.styles'
 
-// refactor use typed props with children
-interface MainProps {
-	children?: JSX.Element[] | JSX.Element
-}
-
-const Main: React.FunctionComponent<MainProps> = ({ children }: MainProps) => {
+const Main: React.FunctionComponent = ({ children }) => {
 	return <StyledMain>{children}</StyledMain>
 }
 
