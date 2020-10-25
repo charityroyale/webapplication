@@ -8,8 +8,8 @@ const FeaturedStream: React.FunctionComponent = () => {
 	useLayoutEffect(() => {
 		function updateSize() {
 			setSize([window.innerWidth, window.innerHeight])
-			if (featuredStreamRef.current?.children[0]) {
-				const el: HTMLIFrameElement = featuredStreamRef.current?.children[0] // twitch injected iframe stream window
+			if (featuredStreamRef.current?.children[1]) {
+				const el: HTMLIFrameElement = featuredStreamRef.current?.children[1] // twitch injected iframe stream window
 				let newWidth = window.innerWidth
 				if (newWidth >= 769) {
 					newWidth = window.innerWidth / 2

@@ -8,6 +8,23 @@ export const Heading = styled.h1`
 	}
 `
 
+export const DonateButton = styled.button`
+	padding: ${(p) => p.theme.space.m}px ${(p) => p.theme.space.xxl}px;
+	background: ${(p) => p.theme.color.willhaben};
+	color: ${(p) => p.theme.color.white};
+	letter-spacing: 3px;
+	border-radius: ${(p) => p.theme.space.xl}px;
+	font-family: inherit;
+	display: inline-block;
+	font-weight: 600;
+	width: fit-content; // check compatibility firefox
+	border: 2px solid white;
+
+	&:hover {
+		cursor: pointer;
+	}
+`
+
 export const StyledLayout = styled.div`
 	display: grid;
 	grid-template-rows: 75px auto 75px;
@@ -24,6 +41,7 @@ export const StyledHeader = styled.header`
 	grid-template-areas: 'left center right';
 
 	background-color: ${(p) => p.theme.color.harvestGold};
+	padding: ${(p) => p.theme.space.m}px ${(p) => p.theme.space.l}px;
 `
 
 export const StyledFooter = styled.footer`

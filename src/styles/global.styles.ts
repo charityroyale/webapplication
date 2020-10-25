@@ -16,4 +16,10 @@ export const GlobalStyle = createGlobalStyle`
 	p, div {
 		margin: 0;
 	}
+
+	button {
+		outline: none;
+		appearance: none;
+		border: none;
+	}
 `
