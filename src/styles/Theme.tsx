@@ -6,6 +6,8 @@ const customMediaQuery = (minWidth: number, maxWidth: number): string =>
 
 export const theme = {
 	color: {
+		white: 'white',
+		black: 'black',
 		primary: 'red',
 		secondary: 'green',
 		blackPeral: '#050F1A',
@@ -20,10 +22,12 @@ export const theme = {
 		xl: 24,
 	},
 	space: {
+		xs: 4,
 		s: 8,
 		m: 12,
 		l: 16,
 		xl: 24,
+		xxl: 36,
 	},
 	media: {
 		desktop: customMediaQuery(769, 9999999),

@@ -10,9 +10,10 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 IndexPage.getInitialProps = async ({ req }) => {
 	const userAgent = req ? req.headers['user-agent'] : navigator.userAgent
 	return {
-		shedule: shedule,
+		shedule,
 		userAgent,
-	}
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	} as any
 }
 
 export default IndexPage

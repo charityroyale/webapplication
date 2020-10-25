@@ -4,11 +4,12 @@ const fs = require('fs')
 const dummyStreams = []
 for (let i = 0; i < 24; i++) {
 	dummyStreams.push({
-		streamLink: `streamLink ${i}`,
+		streamLink: `#`,
 		descripion: `descripion ${i}`,
-		imgUrl: `imgUrl ${i}`,
+		imgUrl: `Charity_Royale_RGB.png`,
 		donationGoal: i + 100,
 		donationProgress: i + 100,
+		date: new Date(),
 	})
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyledUpcoming } from '../../styles/common.styles'
+import { StyledUpcoming, StyleUpcomingStreamsHeader } from '../../styles/common.styles'
 import UpcomingStream, { UpcomingStreamProps } from './UpcomingStream'
 
 interface UpcomingStreams {
@@ -8,11 +8,14 @@ interface UpcomingStreams {
 
 const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ shedule }: UpcomingStreams) => {
 	return (
-		<StyledUpcoming>
-			{shedule.map((stream, index) => {
-				return <UpcomingStream key={index} {...stream} />
-			})}
-		</StyledUpcoming>
+		<React.Fragment>
+			<StyleUpcomingStreamsHeader>Programm</StyleUpcomingStreamsHeader>
+			<StyledUpcoming>
+				{shedule.map((stream, index) => {
+					return <UpcomingStream key={index} {...stream} />
+				})}
+			</StyledUpcoming>
+		</React.Fragment>
 	)
 }
 
