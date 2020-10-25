@@ -28,7 +28,7 @@ const FeaturedStream: React.FunctionComponent = () => {
 			width: 854,
 			height: 480,
 			layout: 'video',
-			channel: 'heideltrautEUW',
+			channel: 'veni',
 		})
 	}, [])
 

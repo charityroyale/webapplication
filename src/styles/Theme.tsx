@@ -19,6 +19,12 @@ export const theme = {
 		l: 18,
 		xl: 24,
 	},
+	space: {
+		s: 8,
+		m: 12,
+		l: 16,
+		xl: 24,
+	},
 	media: {
 		desktop: customMediaQuery(769, 9999999),
 		tablet: customMediaQuery(577, 768),

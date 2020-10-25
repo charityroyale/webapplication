@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
 import { GlobalStyle } from '../styles/global.styles'
 import { ThemeProvider } from 'styled-components'
 import { theme } from '../styles/Theme'
@@ -8,12 +8,14 @@ import Footer from './components/Footer'
 import Main from './components/Main'
 import FeaturedStream from './components/FeaturedStream'
 import UpcomingFeatures from './components/UpcomingStreams'
+import { UpcomingStreamProps } from './components/UpcomingStream'
 
 export interface InitialAppProps {
 	userAgent?: string
+	shedule?: UpcomingStreamProps[]
 }
 
-const App = (): JSX.Element => {
+const App: FunctionComponent<InitialAppProps> = ({ userAgent, shedule }: InitialAppProps): JSX.Element => {
 	return (
 		<div>
 			<GlobalStyle />
@@ -26,7 +28,7 @@ const App = (): JSX.Element => {
 					</Header>
 					<Main>
 						<FeaturedStream />
-						<UpcomingFeatures />
+						<UpcomingFeatures shedule={shedule} />
 					</Main>
 					<Footer>
 						<p>Hallo Left</p>
