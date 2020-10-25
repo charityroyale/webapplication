@@ -71,6 +71,7 @@ export default class MyDocument extends Document {
 						name="description"
 						content="Größtes Stream,- und Gaming Charity Projekt Österreichs von Venicraft und willhaben."
 					></meta>
+					<script src="https://embed.twitch.tv/embed/v1.js"></script>
 				</Head>
 				<body>
 					<Main />

@@ -11,5 +11,6 @@ export const GlobalStyle = createGlobalStyle`
 
 	p, div {
 		margin: 0;
+		border: 1px dashed black;
 	}
 `

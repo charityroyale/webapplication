@@ -34,7 +34,7 @@ export const StyledFooter = styled.footer`
 export const StyledMain = styled.main`
 	grid-area: main;
 	display: grid;
-	grid-template-rows: 75px auto;
+	grid-template-rows: auto auto;
 	grid-template-areas: 'featured' 'upcoming';
 `
 export const StyledFeatured = styled.div`
