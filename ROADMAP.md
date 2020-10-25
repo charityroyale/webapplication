@@ -1,7 +1,6 @@
 TODO
 
 - strapi cms
-- embedded twitch streams
 - make-a-wish donation form
 - header
 - footer
@@ -10,6 +9,8 @@ TODO
 - add different favicon
 - dockerfile
 - skeleton load
+- improved featured iframe responsiveness
+- fix featured iframe width size
 
 DONE
 
@@ -19,3 +20,4 @@ DONE
 - SSR for styled-components and global css
 - setup project
 - add favicon
+- embedded twitch stream
