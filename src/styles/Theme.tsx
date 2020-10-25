@@ -7,6 +7,10 @@ export const theme = {
 	color: {
 		primary: 'red',
 		secondary: 'green',
+		blackPeral: '#050F1A',
+		harvestGold: '#E1C478',
+		willhaben: '#049EE7',
+		decentBeton: '#E6E6E6',
 	},
 	fontSize: {
 		s: 12,
