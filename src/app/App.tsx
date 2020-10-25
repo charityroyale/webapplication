@@ -1,21 +1,28 @@
 import React from 'react'
-import Title from './components/Title'
 import { GlobalStyle } from '../styles/global.styles'
 import { ThemeProvider } from 'styled-components'
 import { theme } from '../styles/Theme'
+import Layout from './components/Layout'
+import Header from './components/Header'
 
 export interface InitialAppProps {
 	userAgent?: string
 }
 
-const App = ({ userAgent }: InitialAppProps): JSX.Element => {
+const App = (): JSX.Element => {
 	return (
 		<div>
 			<GlobalStyle />
 			<ThemeProvider theme={theme}>
-				<React.Fragment>
-					<Title text={`Hi, you are using ${userAgent}`} />
-				</React.Fragment>
+				<Layout>
+					<Header>
+						<p>Hallo Left</p>
+						<p>Hallo Center</p>
+						<p>Hallo Right</p>
+					</Header>
+					<main>I am the main content</main>
+					<footer>I am the footer</footer>
+				</Layout>
 			</ThemeProvider>
 		</div>
 	)
