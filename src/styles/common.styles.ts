@@ -39,6 +39,9 @@ export const StyledMain = styled.main`
 `
 export const StyledFeatured = styled.div`
 	grid-area: featured;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 `
 
 export const StyledUpcoming = styled.div`
