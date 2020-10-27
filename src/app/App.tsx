@@ -10,6 +10,7 @@ import FeaturedStream from './components/FeaturedStream'
 import UpcomingFeatures from './components/UpcomingStreams'
 import { UpcomingStreamProps } from './components/UpcomingStream'
 import { DonateButton } from '../styles/common.styles'
+import cmsContent from '../../_posts/stream/2020-10-27-test.md'
 
 export interface InitialAppProps {
 	userAgent?: string
@@ -29,6 +30,8 @@ const App: FunctionComponent<InitialAppProps> = ({ userAgent, shedule }: Initial
 					</Header>
 					<Main>
 						<FeaturedStream />
+						<cmsContent.react />
+						<p>{JSON.stringify(cmsContent.attributes)}</p>
 						<UpcomingFeatures shedule={shedule} />
 					</Main>
 					<Footer>
