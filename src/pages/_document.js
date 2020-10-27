@@ -72,6 +72,7 @@ export default class MyDocument extends Document {
 						content="Größtes Stream,- und Gaming Charity Projekt Österreichs von Venicraft und willhaben."
 					></meta>
 					<script src="https://embed.twitch.tv/embed/v1.js"></script>
+					<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 				</Head>
 				<body>
 					<Main />
