@@ -3,26 +3,35 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 media_folder: 'public/uploads' # Media files will be stored in the repo under images/uploads
-public_folder: '/uploads'
+public_folder: 'public/uploads'
 
 collections:
-  - name: 'stream' # Used in routes, e.g., /admin/collections/blog
-    label: 'Streams' # Used in the UI
-    folder: '_posts/stream' # The path to the folder where the documents are stored
+  - name: 'frontpage' # Used in routes, e.g., /admin/collections/blog
+    label: 'Frontpage' # Used in the UI
+    folder: '_posts/frontpage' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
-      - { label: 'Rating (scale of 1-5)', name: 'rating', widget: 'number' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Streams'
-        name: 'streams'
+      - label: 'Upcoming Streams'
+        name: 'upcoming'
         widget: 'list'
         fields:
-          - label: StreamLink
-            name: streamlink
+          - label: Streamer Name
+            name: streamerName
             widget: string
-            default: 'https://www.twitch.tv/veni'
+          - label: Stream Link
+            name: streamLink
+            widget: string
+          - label: Description
+            name: descripion
+            widget: string
+          - label: Image
+            name: imgUrl
+            widget: image
+          - label: Date
+            name: date
+            widget: datetime
