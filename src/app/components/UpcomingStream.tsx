@@ -11,6 +11,7 @@ import {
 	StyledStreamerProjectHeader,
 } from '../../styles/common.styles'
 export interface UpcomingStreamProps {
+	streamerName: string
 	streamLink: string
 	descripion: string
 	imgUrl: string
@@ -20,6 +21,7 @@ export interface UpcomingStreamProps {
 }
 
 const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
+	streamerName,
 	streamLink,
 	descripion,
 	imgUrl,
@@ -29,14 +31,14 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 }: UpcomingStreamProps) => {
 	return (
 		<StyledUpcomingStream>
-			<StyledStreamerProjectHeader>StrizzziTV</StyledStreamerProjectHeader>
+			<StyledStreamerProjectHeader>{streamerName}</StyledStreamerProjectHeader>
 			<a style={{ display: 'flex' }} href={streamLink} target="_blank" rel="noreferrer">
 				<StyledUpcomingStreamPlaceholderImage src={`/Placeholder_Avatar.png`} alt="Logo für StreamProjekt" />
 			</a>
 			<StyledUpcomingStreamFooter>
 				<StreamerIconWrapper>
 					<a href={streamLink} target="_blank" rel="noreferrer">
-						<img src={`/Charity_Royale_RGB.png`} alt="Logo des Streamers" />
+						<img src={imgUrl} alt="Logo des Streamers" />
 					</a>
 				</StreamerIconWrapper>
 
@@ -46,7 +48,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 				<div>
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
 					<div>
-						<p>{`${donationProgress} / ${donationGoal}`}</p>
+						<p>{`${donationProgress} / ${donationGoal}`}</p> {/*TODO: i guess we need to load this dynamically*/}
 					</div>
 				</div>
 			</StyledUpcomingStreamFooter>

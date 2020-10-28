@@ -1,19 +1,18 @@
 import React from 'react'
 import App, { InitialAppProps } from '../app/App'
-import { NextPage } from 'next'
-import shedule from '../../shedule.json'
+import { GetStaticProps, NextPage } from 'next'
+import cmsContent from '../../_posts/frontpage/charity-royale.md'
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 	return <App {...props} />
 }
 
-IndexPage.getInitialProps = async ({ req }) => {
-	const userAgent = req ? req.headers['user-agent'] : navigator.userAgent
+export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
+	const schedule = cmsContent.attributes.upcoming
+	const featuredStream = cmsContent.attributes.featuredStream
 	return {
-		shedule,
-		userAgent,
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	} as any
+		props: { shedule: schedule, featuredStream },
+	}
 }
 
 export default IndexPage

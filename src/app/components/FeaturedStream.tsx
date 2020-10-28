@@ -1,7 +1,11 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { StyledFeatured, StyledFeaturedStreamCharityRoyaleLogo } from '../../styles/common.styles'
 
-const FeaturedStream: React.FunctionComponent = () => {
+export interface FeaturedStreamProps {
+	channel: string
+}
+
+const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel }: FeaturedStreamProps) => {
 	const featuredStreamRef = useRef(null)
 	const [size, setSize] = useState([0, 0])
 
@@ -28,7 +32,7 @@ const FeaturedStream: React.FunctionComponent = () => {
 			width: 854,
 			height: 480,
 			layout: 'video',
-			channel: 'veni',
+			channel,
 		})
 	}, [])
 

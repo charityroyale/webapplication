@@ -1,4 +1,7 @@
 declare module '*.md' {
-	const value: any
+	const value: {
+		react: React.FunctionComponent
+		attributes: Record<string, unkown>
+	}
 	export default value
 }
