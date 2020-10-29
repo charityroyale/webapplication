@@ -1,5 +1,6 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { StyledFeatured, StyledFeaturedStreamCharityRoyaleLogo } from '../../styles/common.styles'
+import useIsomorphicLayoutEffect from '../hooks/useIsophormicLayoutEffect'
 
 export interface FeaturedStreamProps {
 	channel: string
@@ -7,9 +8,18 @@ export interface FeaturedStreamProps {
 
 const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel }: FeaturedStreamProps) => {
 	const featuredStreamRef = useRef(null)
-	const [size, setSize] = useState([0, 0])
+	const [, setSize] = useState([0, 0])
 
-	useLayoutEffect(() => {
+	useEffect(() => {
+		new Twitch.Embed('twitch-embed', {
+			width: 854,
+			height: 480,
+			layout: 'video',
+			channel,
+		})
+	}, [])
+
+	useIsomorphicLayoutEffect(() => {
 		function updateSize() {
 			setSize([window.innerWidth, window.innerHeight])
 			if (featuredStreamRef.current?.children[1]) {
@@ -25,15 +35,6 @@ const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel 
 		window.addEventListener('resize', updateSize)
 		updateSize()
 		return () => window.removeEventListener('resize', updateSize)
-	}, [])
-
-	useEffect(() => {
-		new Twitch.Embed('twitch-embed', {
-			width: 854,
-			height: 480,
-			layout: 'video',
-			channel,
-		})
 	}, [])
 
 	return (
