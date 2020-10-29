@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react'
-import dateFormat from 'dateformat'
 
 import {
 	StyledUpcomingStream,
@@ -43,7 +42,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 				</StreamerIconWrapper>
 
 				<StreamProjectDateWrapper>
-					<p>{dateFormat(date, "dddd 'um' HH:MM")}</p>
+					<p>{date}</p>
 				</StreamProjectDateWrapper>
 				<div>
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
