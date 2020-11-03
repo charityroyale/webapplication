@@ -78,6 +78,7 @@ export const StyledMain = styled.main`
 	padding-top: 20px; // charity royale logo
 	background-color: ${(p) => p.theme.color.harvestGold};
 `
+
 export const StyledFeatured = styled.div`
 	position: relative;
 	grid-area: featured;
@@ -86,6 +87,17 @@ export const StyledFeatured = styled.div`
 	align-items: center;
 
 	background-color: ${(p) => p.theme.color.harvestGold};
+`
+
+export const StyledFeaturedPlaceholder = styled.div`
+	width: 100%;
+	position: absolute;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: ${(p) => p.theme.fontSize.l}px;
 `
 
 export const StyledUpcoming = styled.div`
