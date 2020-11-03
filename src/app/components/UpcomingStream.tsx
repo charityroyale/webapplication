@@ -9,6 +9,8 @@ import {
 	StreamProjectDateWrapper,
 	StyledStreamerProjectHeader,
 } from '../../styles/common.styles'
+import { formatDate } from '../utils/formatUtils'
+
 export interface UpcomingStreamProps {
 	streamerName: string
 	streamLink: string
@@ -42,7 +44,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 				</StreamerIconWrapper>
 
 				<StreamProjectDateWrapper>
-					<p>{date}</p>
+					<p>{formatDate(date)}</p>
 				</StreamProjectDateWrapper>
 				<div>
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>

@@ -9,16 +9,15 @@ export const Heading = styled.h1`
 `
 
 export const DonateButton = styled.button`
-	padding: ${(p) => p.theme.space.m}px ${(p) => p.theme.space.xxl}px;
+	padding: 24px 48px;
 	background: ${(p) => p.theme.color.willhaben};
 	color: ${(p) => p.theme.color.white};
+	font-size: ${(p) => p.theme.fontSize.l};
 	letter-spacing: 3px;
-	border-radius: ${(p) => p.theme.space.xl}px;
 	font-family: inherit;
 	display: inline-block;
 	font-weight: 600;
 	width: fit-content; // check compatibility firefox
-	border: 2px solid white;
 
 	&:hover {
 		cursor: pointer;
@@ -45,6 +44,7 @@ export const StyledHeaderCenterItem = styled.div`
 export const StyledHeaderRightItem = styled.div`
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 `
 
 export const StyledHeader = styled.header`
