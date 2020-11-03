@@ -11,7 +11,10 @@ const Header: React.FunctionComponent = () => {
 	return (
 		<StyledHeader>
 			<StyledHeaderLeftItem>
-				<p>Hallo Left</p>
+				<a href={'/'}>
+					<img width="150px" src="/Charity_Royale_RGB.png" alt="Charity Royale 2020" />
+				</a>
+				<h1 style={{ textIndent: '-10000px' }}>Charity Royale 2020</h1>
 			</StyledHeaderLeftItem>
 			<StyledHeaderCenterItem />
 			<StyledHeaderRightItem>
