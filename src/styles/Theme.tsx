@@ -1,4 +1,5 @@
 import baseStyled, { ThemedStyledInterface } from 'styled-components'
+import { responsiveMaxSizeThreshold } from '../app/utils/commonUtils'
 
 // References to https://blog.agney.dev/styled-components-&-typescript/
 const customMediaQuery = (minWidth: number, maxWidth: number): string =>
@@ -30,9 +31,9 @@ export const theme = {
 		xxl: 36,
 	},
 	media: {
-		desktop: customMediaQuery(769, 9999999),
-		tablet: customMediaQuery(577, 768),
-		phone: customMediaQuery(0, 576),
+		desktop: customMediaQuery(769, responsiveMaxSizeThreshold.desktop),
+		tablet: customMediaQuery(577, responsiveMaxSizeThreshold.tablet),
+		phone: customMediaQuery(0, responsiveMaxSizeThreshold.phone),
 	},
 }
 

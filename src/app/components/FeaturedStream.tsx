@@ -1,6 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { StyledFeatured } from '../../styles/common.styles'
 import useIsomorphicLayoutEffect from '../hooks/useIsophormicLayoutEffect'
+import { getFeaturedStreamSize } from '../utils/commonUtils'
 
 export interface FeaturedStreamProps {
 	channel: string
@@ -8,12 +9,12 @@ export interface FeaturedStreamProps {
 
 const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel }: FeaturedStreamProps) => {
 	const featuredStreamRef = useRef(null)
-	const [, setSize] = useState([0, 0])
 
 	useEffect(() => {
+		const { width, height } = { ...getFeaturedStreamSize() }
 		new Twitch.Embed('twitch-embed', {
-			width: 854,
-			height: 480,
+			width: width,
+			height: height,
 			layout: 'video',
 			channel,
 		})
@@ -21,15 +22,11 @@ const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel 
 
 	useIsomorphicLayoutEffect(() => {
 		function updateSize() {
-			setSize([window.innerWidth, window.innerHeight])
 			if (featuredStreamRef.current?.children[0]) {
 				const el: HTMLIFrameElement = featuredStreamRef.current?.children[0] // twitch injected iframe stream window
-				let newWidth = window.innerWidth
-				if (newWidth >= 769) {
-					newWidth = window.innerWidth / 2
-				}
-				el.width = `${newWidth}px`
-				el.height = `${newWidth * (9 / 16)}px`
+				const { width } = { ...getFeaturedStreamSize() }
+				el.width = `${width}px`
+				el.height = `${width * (9 / 16)}px`
 			}
 		}
 		window.addEventListener('resize', updateSize)
