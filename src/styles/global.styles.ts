@@ -18,7 +18,6 @@ export const GlobalStyle = createGlobalStyle`
 	}
 
 	button {
-		outline: none;
 		appearance: none;
 		border: none;
 	}
