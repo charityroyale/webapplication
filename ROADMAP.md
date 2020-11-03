@@ -9,6 +9,7 @@ TODO
 - skeleton load
 - improved featured iframe responsiveness
 - fix featured iframe width size
+- IE notification
 
 DONE
 
