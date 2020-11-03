@@ -1,19 +1,18 @@
 TODO
 
-- strapi cms
 - make-a-wish donation form
 - header
 - footer
 - accessibility checks
-- light / mode
+- light / dark mode
 - add different favicon
-- dockerfile
 - skeleton load
 - improved featured iframe responsiveness
 - fix featured iframe width size
 
 DONE
 
+- netlify cms
 - responsive layout
 - add styled theme
 - typescript support
