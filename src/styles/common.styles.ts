@@ -27,7 +27,7 @@ export const DonateButton = styled.button`
 
 export const StyledLayout = styled.div`
 	display: grid;
-	grid-template-rows: 75px auto 75px;
+	grid-template-rows: 75px auto auto;
 	grid-template-areas:
 		'header'
 		'main'
@@ -45,11 +45,13 @@ export const StyledHeader = styled.header`
 `
 
 export const StyledFooter = styled.footer`
-	grid-area: footer;
 	display: grid;
-	grid-template-columns: 6fr 1fr;
-	grid-template-areas: 'left right';
-
+	padding: 36px 24px;
+	grid-area: footer;
+	justify-content: center;
+	display: grid;
+	grid-gap: 36px;
+	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 	background-color: ${(p) => p.theme.color.harvestGold};
 `
 
