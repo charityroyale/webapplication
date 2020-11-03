@@ -61,7 +61,7 @@ export const StyledMain = styled.main`
 	grid-template-rows: auto auto auto;
 	grid-template-areas: 'featured' 'featured-header' 'upcoming';
 
-	padding-top: 40px; // charity royale logo
+	padding-top: 20px; // charity royale logo
 	background-color: ${(p) => p.theme.color.harvestGold};
 `
 export const StyledFeatured = styled.div`
@@ -71,11 +71,11 @@ export const StyledFeatured = styled.div`
 	justify-content: center;
 	align-items: center;
 
-	background-color: ${(p) => p.theme.color.decentBeton};
+	background-color: ${(p) => p.theme.color.harvestGold};
 `
 
 export const StyledUpcoming = styled.div`
-	padding: ${(p) => p.theme.space.xxl}px ${(p) => p.theme.space.xl}px;
+	padding: 0 ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xxl}px ${(p) => p.theme.space.xl}px;
 	grid-area: upcoming;
 	justify-content: center;
 	display: grid;
