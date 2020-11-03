@@ -1,5 +1,7 @@
 TODO
 
+- fix flickering featuredStreamPlaceholder (width, height)
+
 - make-a-wish donation form
 - header
 - footer
