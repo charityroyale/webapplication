@@ -27,21 +27,35 @@ export const DonateButton = styled.button`
 
 export const StyledLayout = styled.div`
 	display: grid;
-	grid-template-rows: 75px auto auto;
+	grid-template-rows: auto auto auto;
 	grid-template-areas:
 		'header'
 		'main'
 		'footer';
 `
 
-export const StyledHeader = styled.header`
-	grid-area: header;
-	display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
-	grid-template-areas: 'left center right';
+export const StyledHeaderLeftItem = styled.div`
+	display: flex;
+	justify-content: flex-start;
+`
+export const StyledHeaderCenterItem = styled.div`
+	display: flex;
+	justify-content: center;
+`
+export const StyledHeaderRightItem = styled.div`
+	display: flex;
+	justify-content: flex-end;
+`
 
+export const StyledHeader = styled.header`
+	display: grid;
+	grid-area: header;
+	justify-content: center;
+	display: grid;
+	grid-gap: 36px;
+	padding: 36px 24px;
+	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 	background-color: ${(p) => p.theme.color.harvestGold};
-	padding: ${(p) => p.theme.space.m}px ${(p) => p.theme.space.l}px;
 `
 
 export const StyledFooter = styled.footer`

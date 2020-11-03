@@ -6,7 +6,6 @@ import Main from './components/Main'
 import FeaturedStream from './components/FeaturedStream'
 import UpcomingFeatures from './components/UpcomingStreams'
 import { UpcomingStreamProps } from './components/UpcomingStream'
-import { DonateButton } from '../styles/common.styles'
 
 export interface InitialAppProps {
 	featuredStream?: string
@@ -17,11 +16,7 @@ const App: FunctionComponent<InitialAppProps> = ({ shedule, featuredStream }: In
 	return (
 		<div>
 			<Layout>
-				<Header>
-					<p>Hallo Left</p>
-					<p>Hallo Center</p>
-					<DonateButton aria-label="Jetzt Spenden">SPENDEN</DonateButton>
-				</Header>
+				<Header />
 				<Main>
 					<FeaturedStream channel={featuredStream} />
 					<UpcomingFeatures shedule={shedule} />
