@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { StyledFeatured, StyledFeaturedStreamCharityRoyaleLogo } from '../../styles/common.styles'
+import { StyledFeatured } from '../../styles/common.styles'
 import useIsomorphicLayoutEffect from '../hooks/useIsophormicLayoutEffect'
 
 export interface FeaturedStreamProps {
@@ -37,11 +37,7 @@ const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel 
 		return () => window.removeEventListener('resize', updateSize)
 	}, [])
 
-	return (
-		<StyledFeatured ref={featuredStreamRef} id="twitch-embed">
-			<StyledFeaturedStreamCharityRoyaleLogo src="/Charity_Royale_RGB.png" alt="Charity Royale 2020 Logo" />
-		</StyledFeatured>
-	)
+	return <StyledFeatured ref={featuredStreamRef} id="twitch-embed"></StyledFeatured>
 }
 
 export default FeaturedStream

@@ -162,12 +162,3 @@ export const StyleUpcomingStreamsHeader = styled.h5`
 		font-size: 24px;
 	}
 `
-
-export const StyledFeaturedStreamCharityRoyaleLogo = styled.img`
-	position: absolute;
-	top: 0;
-	transform: translateY(-50%);
-	width: 150px;
-	height: auto;
-	z-index: 200;
-`
