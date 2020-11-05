@@ -89,17 +89,6 @@ export const StyledFeatured = styled.div`
 	background-color: ${(p) => p.theme.color.harvestGold};
 `
 
-export const StyledFeaturedPlaceholder = styled.div`
-	width: 100%;
-	position: absolute;
-	background-color: black;
-	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: ${(p) => p.theme.fontSize.l}px;
-`
-
 export const StyledUpcoming = styled.div`
 	padding: 0 ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xxl}px ${(p) => p.theme.space.xl}px;
 	grid-area: upcoming;

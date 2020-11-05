@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react'
-import { StyledFeatured, StyledFeaturedPlaceholder } from '../../styles/common.styles'
+import React, { useEffect, useRef } from 'react'
+import { StyledFeatured } from '../../styles/common.styles'
 import useIsomorphicLayoutEffect from '../hooks/useIsophormicLayoutEffect'
 import { getFeaturedStreamSize } from '../utils/commonUtils'
 
@@ -9,28 +9,15 @@ export interface FeaturedStreamProps {
 
 const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel }: FeaturedStreamProps) => {
 	const featuredStreamRef = useRef(null)
-	const featuredStreamPlaceholderRef = useRef(null)
-	const [featuredStreamLoaded, setFeaturedStreamLoaded] = useState(false)
 
 	useEffect(() => {
 		const { width, height } = { ...getFeaturedStreamSize() }
-		const featuredStreamPlaceholder = featuredStreamPlaceholderRef.current
-		if (featuredStreamPlaceholder) {
-			;(featuredStreamPlaceholder as HTMLDivElement).style.width = `${width}px`
-			;(featuredStreamPlaceholder as HTMLDivElement).style.height = `${width * (9 / 16)}px`
-		}
 		new Twitch.Embed('twitch-embed', {
 			width: width,
 			height: height,
 			layout: 'video',
 			channel,
 		})
-		const featuredStreamIFrame = featuredStreamRef.current?.querySelector('iframe')
-		if (featuredStreamIFrame) {
-			featuredStreamIFrame.onload = function () {
-				setFeaturedStreamLoaded(true)
-			}
-		}
 	}, [])
 
 	useIsomorphicLayoutEffect(() => {
@@ -48,11 +35,7 @@ const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel 
 
 	return (
 		<>
-			<StyledFeatured ref={featuredStreamRef} id="twitch-embed">
-				{!featuredStreamLoaded && (
-					<StyledFeaturedPlaceholder ref={featuredStreamPlaceholderRef}>Lade Stream ... </StyledFeaturedPlaceholder>
-				)}
-			</StyledFeatured>
+			<StyledFeatured ref={featuredStreamRef} id="twitch-embed" />
 		</>
 	)
 }
