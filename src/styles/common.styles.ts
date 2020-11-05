@@ -63,7 +63,6 @@ export const StyledFooter = styled.footer`
 	padding: 36px 24px;
 	grid-area: footer;
 	justify-content: center;
-	display: grid;
 	grid-gap: 36px;
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 	background-color: ${(p) => p.theme.color.harvestGold};
