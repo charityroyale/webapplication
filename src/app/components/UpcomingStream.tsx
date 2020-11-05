@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react'
+import React, { FunctionComponent, useCallback, useState } from 'react'
 
 import {
 	StyledUpcomingStream,
@@ -30,11 +30,22 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 	donationGoal,
 	donationProgress,
 }: UpcomingStreamProps) => {
+	const [isImageLoaded, setIsImageLoaded] = useState(false)
+
+	const onLoad = useCallback(() => {
+		setIsImageLoaded(true)
+	}, [])
+
 	return (
 		<StyledUpcomingStream>
 			<StyledStreamerProjectHeader>{streamerName}</StyledStreamerProjectHeader>
 			<a style={{ display: 'flex' }} href={streamLink} target="_blank" rel="noreferrer">
-				<StyledUpcomingStreamPlaceholderImage src={`/Placeholder_Avatar.png`} alt="Logo für StreamProjekt" />
+				{!isImageLoaded && <div>LOADING</div>}
+				<StyledUpcomingStreamPlaceholderImage
+					onLoad={onLoad}
+					src={`/Placeholder_Avatar.png`}
+					alt="Logo für StreamProjekt"
+				/>
 			</a>
 			<StyledUpcomingStreamFooter>
 				<StreamerIconWrapper>
