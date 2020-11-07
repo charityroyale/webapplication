@@ -10,13 +10,16 @@ TODO
 - accessibility checks
 - light / dark mode
 - add different favicon
-- skeleton load
 - IE notification
 - FAQ 1 youtube embedded box with preview and description donations (under featured stream)
-- FAQ page for donations
 
 DONE
 
+- skeleton load
+- fix SSR image lost event handlers
+- fetch twich user avatars
+- basic donate page layout with progress visualization
+- FAQ page for donations
 - add nprogress
 - implement provisional faq page
 - implement mainLayout component
