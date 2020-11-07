@@ -14,6 +14,8 @@ TODO
 
 DONE
 
+- add nprogress
+- implement provisional faq page
 - implement mainLayout component
 - provisional feature toggle for release
 - basic make-a-wish donation form + page
