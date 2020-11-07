@@ -4,7 +4,6 @@ import Head from 'next/head'
 import PageWithLayoutType from '../app/types/PageWithLayout'
 import {
 	StyledDonationFormIframe,
-	StyledDonationHeader,
 	StyledDonationSumWidget,
 	StyledDonatorsWidget,
 	StyledLatestDonatorssWidget,
@@ -13,6 +12,7 @@ import DonationLayout from '../app/layouts/DonationLayout'
 import DonationWidget from '../app/components/DonationWidget'
 import DonationWidgetList from '../app/components/DonatorsWidgetList'
 import DonationWidgetCount from '../app/components/DonationWidgetcount'
+import DonationHeader from '../app/components/DonationHeader'
 
 const highestDonatorsList = [
 	{
@@ -76,7 +76,13 @@ const DonatePage: NextPage = () => {
 			<Head>
 				<title>Charity Royale 2020 - Spenden</title>
 			</Head>
-			<StyledDonationHeader>I am a DonationHeader</StyledDonationHeader>
+
+			<DonationHeader
+				title={'Spendenprojekt: VeniCraft'}
+				description={
+					'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'
+				}
+			/>
 
 			<StyledDonationFormIframe src={'https://streamer.make-a-wish.at/'} title="Spendenformular" />
 

@@ -198,24 +198,25 @@ export const StyledDonationFormIframe = styled.iframe`
 
 export const StyledDonationHeader = styled.div`
 	grid-area: donation-header;
-	text-align: center;
+	background-color: ${(p) => p.theme.color.white};
+	border-radius: ${(p) => p.theme.space.xs}px;
 `
 
 export const StyledDonationSumWidget = styled.div`
 	grid-area: donation-widget-top-donation-sum;
-	border-radius: ${(p) => p.theme.space.s}px;
+	border-radius: ${(p) => p.theme.space.xs}px;
 	background-color: ${(p) => p.theme.color.white};
 `
 
 export const StyledDonatorsWidget = styled.div`
 	grid-area: donation-widget-top-donators;
-	border-radius: ${(p) => p.theme.space.s}px;
+	border-radius: ${(p) => p.theme.space.xs}px;
 	background-color: ${(p) => p.theme.color.white};
 `
 
 export const StyledLatestDonatorssWidget = styled.div`
 	grid-area: donation-widget-top-latest-donators;
-	border-radius: ${(p) => p.theme.space.s}px;
+	border-radius: ${(p) => p.theme.space.xs}px;
 	background-color: ${(p) => p.theme.color.white};
 `
 
