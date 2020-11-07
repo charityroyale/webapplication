@@ -13,7 +13,6 @@ const StyledWidgetHeader = styled.p`
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: ${(p) => p.theme.color.white};
-	border-bottom: 1px solid ${(p) => p.theme.color.blackPeral};
 	border-top-right-radius: ${(p) => p.theme.space.xs}px;
 	border-top-left-radius: ${(p) => p.theme.space.xs}px;
 `
