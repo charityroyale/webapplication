@@ -152,9 +152,6 @@ export const StreamerIconWrapper = styled.div`
 	justify-content: center;
 	align-items: center;
 	margin-right: ${(p) => p.theme.space.s}px;
-	img {
-		width: 100%;
-	}
 `
 
 export const StyledStreamerProjectHeader = styled.div`

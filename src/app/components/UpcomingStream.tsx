@@ -10,6 +10,7 @@ import {
 	StreamProjectDateWrapper,
 	StyledStreamerProjectHeader,
 } from '../../styles/common.styles'
+import { styled } from '../../styles/Theme'
 import { formatDate } from '../utils/formatUtils'
 import { useIsSSR } from './isSSR'
 
@@ -22,6 +23,12 @@ export interface UpcomingStreamProps {
 	donationProgress: number
 	date: Date
 }
+
+const UpcomingStreamIcon = styled.img`
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+`
 
 const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 	streamerName,
@@ -51,11 +58,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 
 			{!isSSR && (
 				<a style={{ display: !imageLoaded ? 'none' : 'flex' }} href={streamLink} target="_blank" rel="noreferrer">
-					<StyledUpcomingStreamPlaceholderImage
-						onLoad={onImageLoad}
-						src={`/Placeholder_Avatar.png`}
-						alt="Logo für StreamProjekt"
-					/>
+					<StyledUpcomingStreamPlaceholderImage onLoad={onImageLoad} src={imgUrl} alt="Logo für StreamProjekt" />
 				</a>
 			)}
 			<StyledUpcomingStreamFooter>
@@ -63,7 +66,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 					{!iconLoaded && <Skeleton circle={true} height={50} width={50} />}
 					{!isSSR && (
 						<a href={streamLink} target="_blank" rel="noreferrer">
-							<img
+							<UpcomingStreamIcon
 								onLoad={onIconImageLoad}
 								style={{ display: !iconLoaded ? 'none' : 'flex' }}
 								src={imgUrl}

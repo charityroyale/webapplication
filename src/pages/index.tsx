@@ -8,6 +8,7 @@ import PageWithLayoutType from '../app/types/PageWithLayout'
 import FeaturedStream from '../app/components/FeaturedStream'
 import UpcomingFeatures from '../app/components/UpcomingStreams'
 import { UpcomingStreamProps } from '../app/components/UpcomingStream'
+import { fetchStream } from '../app/utils/commonUtils'
 
 export interface InitialAppProps {
 	featuredStream?: string
@@ -41,6 +42,12 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 	const schedule = cmsContent.attributes.upcoming
 	const featuredStream = cmsContent.attributes.featuredStream
+
+	for (const scheduleEl of schedule) {
+		scheduleEl.imgUrl = ((await fetchStream('veni')) as any).data[0].thumbnail_url
+	}
+	schedule[1].imgUrl = ((await fetchStream('revedtv')) as any).data[0].thumbnail_url
+
 	return {
 		props: { schedule, featuredStream },
 	}
