@@ -11,7 +11,7 @@ import {
 import DonationLayout from '../app/layouts/DonationLayout'
 import DonationWidget from '../app/components/DonationWidget'
 import DonationWidgetList from '../app/components/DonatorsWidgetList'
-import DonationWidgetCount from '../app/components/DonationWidgetcount'
+import DonationWidgetCount from '../app/components/DonationWidgetCount'
 import DonationHeader from '../app/components/DonationHeader'
 
 const highestDonatorsList = [
