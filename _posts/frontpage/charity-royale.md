@@ -10,8 +10,8 @@ upcoming:
     descripion: blabla
     imgUrl: /uploads/charity_royale_rgb.png
   - date: 2020-12-02T19:00:00.000Z
-    streamerName: Other Streamer 2
-    streamLink: https://www.twitch.tv/twitch
+    streamerName: Revedtv
+    streamLink: https://www.twitch.tv/revedtv
     imgUrl: /uploads/charity_royale_rgb.png
     descripion: blablub
   - date: 2020-12-03T19:00:00.000Z
