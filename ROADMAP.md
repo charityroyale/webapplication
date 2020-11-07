@@ -1,7 +1,5 @@
 TODO
 
-- make-a-wish donation form + page
-- feature toggle for release
 - fancy donation counter (potentially with days remaining, goal, donators/supporters ...)
 - api make-a-wish for current projects progress and goals
 - header
@@ -16,6 +14,9 @@ TODO
 
 DONE
 
+- implement mainLayout component
+- provisional feature toggle for release
+- basic make-a-wish donation form + page
 - netlify cms
 - responsive layout
 - add styled theme
