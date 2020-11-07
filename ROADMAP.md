@@ -1,6 +1,6 @@
 TODO
 
-- individual sub donation pages
+- link to donation pages on main page
 - featured donation link
 
 - fancy donation counter (potentially with days remaining, goal, donators/supporters ...)
@@ -15,6 +15,7 @@ TODO
 
 DONE
 
+- individual sub donation pages
 - skeleton load
 - fix SSR image lost event handlers
 - fetch twich user avatars
