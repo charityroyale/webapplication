@@ -12,7 +12,7 @@ const DonatePage: NextPage = () => {
 				<title>Charity Royale 2020 - Spenden</title>
 			</Head>
 			<StyledDonationFormIframe
-				src={'https://www.make-a-wish.at/spenden/'}
+				src={'https://streamer.make-a-wish.at/'}
 				title="Spendenformular"
 			></StyledDonationFormIframe>
 		</>

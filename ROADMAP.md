@@ -1,5 +1,8 @@
 TODO
 
+- individual sub donation pages
+- featured donation link
+
 - fancy donation counter (potentially with days remaining, goal, donators/supporters ...)
 - api make-a-wish for current projects progress and goals
 - header
