@@ -6,11 +6,14 @@ import { ThemeProvider } from 'styled-components'
 import { theme } from '../styles/Theme'
 
 function MyApp({ Component, pageProps }) {
+	const Layout = Component.layout ? Component.layout : React.Fragment
 	return (
 		<>
 			<GlobalStyle />
 			<ThemeProvider theme={theme}>
-				<Component {...pageProps} />
+				<Layout>
+					<Component {...pageProps} />
+				</Layout>
 			</ThemeProvider>
 		</>
 	)

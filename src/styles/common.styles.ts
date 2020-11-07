@@ -189,3 +189,8 @@ export const StyleUpcomingStreamsHeader = styled.h5`
 		font-size: 24px;
 	}
 `
+
+export const StyledDonationFormIframe = styled.iframe`
+	width: 100%;
+	height: 100vh;
+`
