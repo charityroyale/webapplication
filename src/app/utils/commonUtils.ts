@@ -21,3 +21,7 @@ export function getFeaturedStreamSize(): StreamSize {
 	}
 	return { width, height: width * (9 / 16) }
 }
+
+export function getPercentage(current: number, goal: number): number {
+	return (100 * current) / goal
+}

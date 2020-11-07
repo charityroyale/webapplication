@@ -193,4 +193,40 @@ export const StyleUpcomingStreamsHeader = styled.h5`
 export const StyledDonationFormIframe = styled.iframe`
 	width: 100%;
 	height: 100vh;
+	grid-area: donation-form;
+`
+
+export const StyledDonationHeader = styled.div`
+	grid-area: donation-header;
+	text-align: center;
+`
+
+export const StyledDonationSumWidget = styled.div`
+	grid-area: donation-widget-top-donation-sum;
+	border-radius: ${(p) => p.theme.space.s}px;
+	background-color: ${(p) => p.theme.color.white};
+`
+
+export const StyledDonatorsWidget = styled.div`
+	grid-area: donation-widget-top-donators;
+	border-radius: ${(p) => p.theme.space.s}px;
+	background-color: ${(p) => p.theme.color.white};
+`
+
+export const StyledLatestDonatorssWidget = styled.div`
+	grid-area: donation-widget-top-latest-donators;
+	border-radius: ${(p) => p.theme.space.s}px;
+	background-color: ${(p) => p.theme.color.white};
+`
+
+export const StyledDonationMainGrid = styled.div`
+	display: grid;
+	margin: auto;
+	grid-gap: ${(p) => p.theme.space.xxl}px;
+	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
+	grid-template-areas:
+		'donation-header donation-header donation-header'
+		'donation-form donation-form donation-widget-top-donation-sum'
+		'donation-form donation-form donation-widget-top-donators'
+		'donation-form donation-form donation-widget-top-latest-donators';
 `
