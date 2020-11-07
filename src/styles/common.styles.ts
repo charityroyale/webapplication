@@ -144,6 +144,7 @@ export const StyledDescriptionText = styled.p`
 
 export const StreamerIconWrapper = styled.div`
 	padding: ${(p) => p.theme.space.s}px;
+	position: relative;
 	border-radius: 100%;
 	background-color: ${(p) => p.theme.color.decentBeton};
 	height: 50px;
@@ -191,6 +192,7 @@ export const StyleUpcomingStreamsHeader = styled.h5`
 export const StyledDonationFormIframe = styled.iframe`
 	width: 100%;
 	height: 100vh;
+	border: none;
 	grid-area: donation-form;
 `
 

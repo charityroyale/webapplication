@@ -22,11 +22,22 @@ export interface UpcomingStreamProps {
 	donationGoal: number
 	donationProgress: number
 	date: Date
+	is_live?: boolean
 }
 
 const UpcomingStreamIcon = styled.img`
 	height: 50px;
 	width: 50px;
+	border-radius: 50%;
+`
+
+const StyleOnlineBadge = styled.span`
+	width: 11px;
+	height: 11px;
+	background-color: ${(p) => p.theme.color.emerald};
+	position: absolute;
+	top: 2px;
+	right: 2px;
 	border-radius: 50%;
 `
 
@@ -38,6 +49,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 	date,
 	donationGoal,
 	donationProgress,
+	is_live,
 }: UpcomingStreamProps) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
@@ -74,6 +86,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 							/>
 						</a>
 					)}
+					<StyleOnlineBadge style={{ backgroundColor: !is_live ? '#F16373' : '#50C878' }} />
 				</StreamerIconWrapper>
 
 				<StreamProjectDateWrapper>

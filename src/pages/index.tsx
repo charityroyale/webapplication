@@ -8,7 +8,7 @@ import PageWithLayoutType from '../app/types/PageWithLayout'
 import FeaturedStream from '../app/components/FeaturedStream'
 import UpcomingFeatures from '../app/components/UpcomingStreams'
 import { UpcomingStreamProps } from '../app/components/UpcomingStream'
-import { fetchStream } from '../app/utils/commonUtils'
+import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
 
 export interface InitialAppProps {
 	featuredStream?: string
@@ -42,11 +42,11 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 	const schedule = cmsContent.attributes.upcoming
 	const featuredStream = cmsContent.attributes.featuredStream
+	const twitchUsers = (await fetchTwitchUsersBySchedule(schedule)).data
 
-	for (const scheduleEl of schedule) {
-		scheduleEl.imgUrl = ((await fetchStream('veni')) as any).data[0].thumbnail_url
+	for (let i = 0; i < twitchUsers.length; i++) {
+		schedule[i].imgUrl = twitchUsers[i].profile_image_url
 	}
-	schedule[1].imgUrl = ((await fetchStream('revedtv')) as any).data[0].thumbnail_url
 
 	return {
 		props: { schedule, featuredStream },
