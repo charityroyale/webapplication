@@ -24,6 +24,17 @@ export const DonateButton = styled.button`
 	}
 `
 
+export const StyledWebsiteInProgress = styled.div`
+	background-color: ${(p) => p.theme.color.willhaben};
+	width: 100%;
+	flex-direction: column;
+	color: ${(p) => p.theme.color.decentBeton};
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+`
+
 export const StyledLayout = styled.div`
 	display: grid;
 	grid-template-rows: auto auto auto;
