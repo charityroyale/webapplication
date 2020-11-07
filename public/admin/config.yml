@@ -29,6 +29,9 @@ collections:
           - label: Stream Link
             name: streamLink
             widget: string
+          - label: Project id (Make-a-wish)
+            name: makeAWishProjectId
+            widget: string
           - label: Description
             name: descripion
             widget: string
