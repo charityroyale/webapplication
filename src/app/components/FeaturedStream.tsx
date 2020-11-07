@@ -1,14 +1,18 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
+import Skeleton from 'react-loading-skeleton'
 import { StyledFeatured } from '../../styles/common.styles'
 import useIsomorphicLayoutEffect from '../hooks/useIsophormicLayoutEffect'
 import { getFeaturedStreamSize } from '../utils/commonUtils'
+import { useIsSSR } from './isSSR'
 
 export interface FeaturedStreamProps {
 	channel: string
 }
 
 const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel }: FeaturedStreamProps) => {
+	const isSSR = useIsSSR()
 	const featuredStreamRef = useRef(null)
+	const [featuredStreamLoaded, setFeaturedStreamLoaded] = useState(false)
 
 	useEffect(() => {
 		const { width, height } = { ...getFeaturedStreamSize() }
@@ -18,6 +22,11 @@ const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel 
 			layout: 'video',
 			channel,
 		})
+
+		const ref = featuredStreamRef.current
+		if (ref) {
+			ref.onload = setFeaturedStreamLoaded(true)
+		}
 	}, [])
 
 	useIsomorphicLayoutEffect(() => {
@@ -35,6 +44,11 @@ const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel 
 
 	return (
 		<>
+			{isSSR || !featuredStreamLoaded ? (
+				<StyledFeatured>
+					<Skeleton height={600} width={300} />
+				</StyledFeatured>
+			) : null}
 			<StyledFeatured ref={featuredStreamRef} id="twitch-embed" />
 		</>
 	)

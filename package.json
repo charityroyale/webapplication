@@ -5,10 +5,11 @@
 	"description": "charityroyale-donationpage",
 	"main": "src/index.js",
 	"dependencies": {
+		"dateformat": "^3.0.3",
 		"next": "^9.4.4",
 		"react": "^16.13.1",
-		"dateformat": "^3.0.3",
 		"react-dom": "^16.13.1",
+		"react-loading-skeleton": "^2.1.1",
 		"styled-components": "^5.1.1"
 	},
 	"devDependencies": {
