@@ -23,6 +23,9 @@ collections:
           - label: Streamer Name
             name: streamerName
             widget: string
+          - label: Streamer Channel (Twitch username in lower case)
+            name: streamerChannel
+            widget: string
           - label: Stream Link
             name: streamLink
             widget: string
