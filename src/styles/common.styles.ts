@@ -65,6 +65,7 @@ export const StyledHeader = styled.header`
 	display: grid;
 	grid-gap: 36px;
 	padding: 36px 24px;
+	grid-template-areas: 'header-row header-row header-row';
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 	background-color: ${(p) => p.theme.color.harvestGold};
 `
