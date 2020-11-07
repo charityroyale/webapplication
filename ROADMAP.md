@@ -2,7 +2,7 @@ TODO
 
 - make-a-wish donation form + page
 - feature toggle for release
-- fancy donation counter (potentially with days remaining, goal, ...)
+- fancy donation counter (potentially with days remaining, goal, donators/supporters ...)
 - api make-a-wish for current projects progress and goals
 - header
 - footer
@@ -11,6 +11,8 @@ TODO
 - add different favicon
 - skeleton load
 - IE notification
+- FAQ 1 youtube embedded box with preview and description donations (under featured stream)
+- FAQ page for donations
 
 DONE
 
