@@ -15,7 +15,7 @@ export interface InitialAppProps {
 	schedule?: UpcomingStreamProps[]
 }
 
-const websiteReleased = process.env.RELEASED_FOR_ALL_USERS === undefined ? 'true' : process.env.RELEASED_FOR_ALL_USERS
+const websiteReleased = false
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 	const { schedule, featuredStream } = props
@@ -24,7 +24,7 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 			<Head>
 				<title>Charity Royale 2020</title>
 			</Head>
-			{websiteReleased === 'true' ? (
+			{websiteReleased ? (
 				<>
 					<FeaturedStream channel={featuredStream} />
 					<UpcomingFeatures schedule={schedule} />
