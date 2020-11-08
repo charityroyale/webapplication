@@ -21,7 +21,7 @@ const Header: React.FunctionComponent = () => {
 
 	return (
 		<StyledHeader>
-			<div style={{ gridArea: 'header-row header-row header-row', display: 'flex', justifyContent: 'space-between' }}>
+			<div style={{ gridArea: 'header-row', display: 'flex', justifyContent: 'space-between' }}>
 				<StyledHeaderLeftItem>
 					{!imageLoaded && <Skeleton circle={true} height={140} width={140} />}
 					<Link href="/">
@@ -39,15 +39,14 @@ const Header: React.FunctionComponent = () => {
 					</Link>
 					<h1 style={{ textIndent: '-10000px' }}>Charity Royale 2020</h1>
 				</StyledHeaderLeftItem>
-				<StyledHeaderCenterItem>
+				<StyledHeaderCenterItem></StyledHeaderCenterItem>
+				<StyledHeaderRightItem>
 					<DonationHeaderCount
 						donation_goal={1000}
 						current_donation_count={250}
 						donations_count={12}
 						donation_days_to_go={23}
 					></DonationHeaderCount>
-				</StyledHeaderCenterItem>
-				<StyledHeaderRightItem>
 					<Link href="/donate">
 						<DonateButton aria-label="Jetzt Spenden">SPENDEN</DonateButton>
 					</Link>

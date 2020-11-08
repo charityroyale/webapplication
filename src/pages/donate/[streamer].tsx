@@ -15,6 +15,7 @@ import {
 } from '../../styles/common.styles'
 import DonationLayout from '../../app/layouts/DonationLayout'
 import PageWithLayoutType from '../../app/types/PageWithLayout'
+import { makeAWishAPI } from '../../config'
 
 interface InitialDonationProps {
 	project: Upcoming
@@ -108,7 +109,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			<DonationHeader title={`Spendenprojekt: ${project.streamerName}`} description={project.descripion} />
 
 			<StyledDonationFormIframe
-				src={`https://streamer.make-a-wish.at/charityroyale2020/donate/${project.makeAWishProjectId}`}
+				src={`${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}`}
 				title="Spendenformular"
 			/>
 
