@@ -4,8 +4,8 @@ import { Circle } from 'rc-progress'
 import { getPercentage } from '../utils/commonUtils'
 
 interface DonationWidgetCountProps {
-	current_amount: number
-	donation_goal_amount: number
+	current_amount: string
+	donation_goal_amount: string
 }
 
 const CurrentAmountDisplay = styled.div`
@@ -36,7 +36,7 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 	donation_goal_amount,
 }: DonationWidgetCountProps) => {
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
-	const percentage = getPercentage(current_amount, donation_goal_amount)
+	const percentage = getPercentage(parseFloat(current_amount), parseFloat(donation_goal_amount))
 
 	useEffect(() => {
 		if (percentage >= 100) {

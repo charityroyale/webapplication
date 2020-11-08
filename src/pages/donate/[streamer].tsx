@@ -6,7 +6,7 @@ import Head from 'next/head'
 import DonationHeader from '../../app/components/DonationHeader'
 import DonationWidget from '../../app/components/DonationWidget'
 import DonationWidgetCount from '../../app/components/DonationWidgetCount'
-import DonationWidgetList from '../../app/components/DonatorsWidgetList'
+import DonationWidgetList, { List } from '../../app/components/DonatorsWidgetList'
 import {
 	StyledDonationFormIframe,
 	StyledDonationSumWidget,
@@ -16,6 +16,9 @@ import {
 import DonationLayout from '../../app/layouts/DonationLayout'
 import PageWithLayoutType from '../../app/types/PageWithLayout'
 import { makeAWishAPI } from '../../config'
+import useMakeAWish from '../../app/hooks/useMakeAWish'
+import { MakeWishDonationProjectDTO } from '../../app/dto/MakeAWishDonationsDTO'
+import { formatDate } from '../../app/utils/formatUtils'
 
 interface InitialDonationProps {
 	project: Upcoming
@@ -41,65 +44,28 @@ interface CmsContent {
 
 const cmsContent = rawCmsContent.attributes as CmsContent
 
-const highestDonatorsList = [
-	{
-		col_1: '1',
-		col_2: 'Philos',
-		col_3: '3.184,06',
-	},
-	{
-		col_1: '2',
-		col_2: 'FrufruTv',
-		col_3: '1.760,56',
-	},
-	{
-		col_1: '3',
-		col_2: 'swissduayne1996',
-		col_3: '1.419,97',
-	},
-	{
-		col_1: '4',
-		col_2: 'FreeSteyler01',
-		col_3: '862,92',
-	},
-	{
-		col_1: '5',
-		col_2: 'Darina420',
-		col_3: '530,12',
-	},
-]
-
-const latestDonators = [
-	{
-		col_1: 'Mo 21:02',
-		col_2: 'Philos',
-		col_3: '103,88',
-	},
-	{
-		col_1: 'Mo 09:53',
-		col_2: 'FrufruTv',
-		col_3: '50,00',
-	},
-	{
-		col_1: 'So 19:23',
-		col_2: 'swissduayne1996',
-		col_3: '60,00',
-	},
-	{
-		col_1: 'So 19:21',
-		col_2: 'FreeSteyler01',
-		col_3: '31,42',
-	},
-	{
-		col_1: 'So 19:15',
-		col_2: 'Darina420',
-		col_3: '103,88',
-	},
-]
-
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
 	const router = useRouter()
 	const { streamer } = router.query
+
+	const makeAWish = useMakeAWish()
+	let makeAWishProject: MakeWishDonationProjectDTO
+	let latestDonatorsList = new Array<List>()
+	let highestDonatorsList = new Array<List>()
+	if (!makeAWish.isError && !makeAWish.isLoading) {
+		makeAWishProject = makeAWish.data.projects[project.makeAWishProjectId]
+		latestDonatorsList = makeAWishProject.recent_donators.map((r) => ({
+			col_1: formatDate(new Date(r.unix_timestamp)),
+			col_2: r.name,
+			col_3: r.amount,
+		}))
+		highestDonatorsList = makeAWishProject.top_donators.map((r, i) => ({
+			col_1: `${i + 1}`,
+			col_2: r.name,
+			col_3: r.amount,
+		}))
+	}
+
 	return (
 		<>
 			<Head>
@@ -115,7 +81,10 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 
 			<StyledDonationSumWidget>
 				<DonationWidget title={'Spendensumme'}>
-					<DonationWidgetCount current_amount={30} donation_goal_amount={100} />
+					<DonationWidgetCount
+						current_amount={makeAWishProject ? makeAWishProject.current_donation_sum : '0'}
+						donation_goal_amount={makeAWishProject ? makeAWishProject.donation_goal : '0'}
+					/>
 				</DonationWidget>
 			</StyledDonationSumWidget>
 			<StyledDonatorsWidget>
@@ -125,7 +94,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			</StyledDonatorsWidget>
 			<StyledLatestDonatorssWidget>
 				<DonationWidget title={'Letzte Spender'}>
-					<DonationWidgetList list={latestDonators} />
+					<DonationWidgetList list={latestDonatorsList} />
 				</DonationWidget>
 			</StyledLatestDonatorssWidget>
 		</>
