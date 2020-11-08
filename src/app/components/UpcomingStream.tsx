@@ -16,11 +16,13 @@ import { useIsSSR } from './isSSR'
 
 export interface UpcomingStreamProps {
 	streamerName: string
+	streamerChannel: string
 	streamLink: string
+	makeAWishProjectId: string
 	descripion: string
 	imgUrl: string
-	donationGoal: number
-	donationProgress: number
+	donationGoal: string
+	donationProgress: string
 	date: Date
 }
 
