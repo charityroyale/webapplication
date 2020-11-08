@@ -120,56 +120,56 @@ upcoming:
     streamerName: Other Streamer 17
     streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb.png
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 17
     descripion: blablub
   - date: 2020-12-18T19:00:00.000Z
     streamerName: Other Streamer 18
     streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb.png
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 18
     descripion: blablub
   - date: 2020-12-19T19:00:00.000Z
     streamerName: Other Streamer 19
     streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb.png
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 19
     descripion: blablub
   - date: 2020-12-20T19:00:00.000Z
     streamerName: Other Streamer 20
     streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb.png
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 20
     descripion: blablub
   - date: 2020-12-21T19:00:00.000Z
     streamerName: Other Streamer 21
     streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb.png
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 21
     descripion: blablub
   - date: 2020-12-22T19:00:00.000Z
     streamerName: Other Streamer 22
     streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb.png
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 22
     descripion: blablub
   - date: 2020-12-23T19:00:00.000Z
     streamerName: Other Streamer 23
     streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb.png
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 23
     descripion: blablub
   - date: 2020-12-24T19:00:00.000Z
     streamerName: Other Streamer 24
     streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb.png
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 24
     descripion: blablub
 ---
