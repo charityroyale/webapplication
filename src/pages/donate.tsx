@@ -88,7 +88,7 @@ const DonatePage: NextPage = () => {
 
 			<StyledDonationSumWidget>
 				<DonationWidget title={'Spendensumme'}>
-					<DonationWidgetCount current_amount={30} donation_goal_amount={100} />
+					<DonationWidgetCount current_amount={'30'} donation_goal_amount={'100'} />
 				</DonationWidget>
 			</StyledDonationSumWidget>
 			<StyledDonatorsWidget>
