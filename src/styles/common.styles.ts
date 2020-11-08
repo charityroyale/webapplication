@@ -55,7 +55,6 @@ export const StyledHeaderCenterItem = styled.div`
 export const StyledHeaderRightItem = styled.div`
 	display: flex;
 	justify-content: flex-end;
-	align-items: center;
 `
 
 export const StyledHeader = styled.header`
