@@ -15,6 +15,8 @@ export const theme = {
 		harvestGold: '#E1C478',
 		willhaben: '#049EE7',
 		decentBeton: '#E6E6E6',
+		emerald: '#50C878',
+		recordRed: '#F16373',
 	},
 	fontSize: {
 		s: 12,

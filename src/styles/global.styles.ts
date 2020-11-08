@@ -7,13 +7,19 @@ export const GlobalStyle = createGlobalStyle`
 		width: 100%;
 		height: 100%;
 		font-family: 'Roboto', sans-serif;
+		background-color: #E1C478;
 	}
 
 	* {
 		box-sizing: border-box;
 	}
 
-	p, div {
+	p, div, h5 {
+		margin: 0;
+	}
+
+	ul, ol {
+		padding: 0;
 		margin: 0;
 	}
 

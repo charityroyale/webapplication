@@ -5,10 +5,11 @@
 	"description": "charityroyale-donationpage",
 	"main": "src/index.js",
 	"dependencies": {
+		"dateformat": "^3.0.3",
 		"next": "^9.4.4",
 		"react": "^16.13.1",
-		"dateformat": "^3.0.3",
 		"react-dom": "^16.13.1",
+		"react-loading-skeleton": "^2.1.1",
 		"styled-components": "^5.1.1"
 	},
 	"devDependencies": {
@@ -28,7 +29,9 @@
 		"frontmatter-markdown-loader": "^3.6.1",
 		"husky": "^4.2.5",
 		"lint-staged": "^10.2.11",
+		"nprogress": "^0.2.0",
 		"prettier": "^2.0.5",
+		"rc-progress": "^3.1.1",
 		"typescript": "^3.9.7"
 	},
 	"scripts": {

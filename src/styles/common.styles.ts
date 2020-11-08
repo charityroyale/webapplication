@@ -55,7 +55,6 @@ export const StyledHeaderCenterItem = styled.div`
 export const StyledHeaderRightItem = styled.div`
 	display: flex;
 	justify-content: flex-end;
-	align-items: center;
 `
 
 export const StyledHeader = styled.header`
@@ -65,16 +64,7 @@ export const StyledHeader = styled.header`
 	display: grid;
 	grid-gap: 36px;
 	padding: 36px 24px;
-	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
-	background-color: ${(p) => p.theme.color.harvestGold};
-`
-
-export const StyledFooter = styled.footer`
-	display: grid;
-	padding: 36px 24px;
-	grid-area: footer;
-	justify-content: center;
-	grid-gap: 36px;
+	grid-template-areas: 'header-row header-row header-row';
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 	background-color: ${(p) => p.theme.color.harvestGold};
 `
@@ -143,6 +133,7 @@ export const StyledDescriptionText = styled.p`
 
 export const StreamerIconWrapper = styled.div`
 	padding: ${(p) => p.theme.space.s}px;
+	position: relative;
 	border-radius: 100%;
 	background-color: ${(p) => p.theme.color.decentBeton};
 	height: 50px;
@@ -151,9 +142,6 @@ export const StreamerIconWrapper = styled.div`
 	justify-content: center;
 	align-items: center;
 	margin-right: ${(p) => p.theme.space.s}px;
-	img {
-		width: 100%;
-	}
 `
 
 export const StyledStreamerProjectHeader = styled.div`
@@ -187,5 +175,71 @@ export const StyleUpcomingStreamsHeader = styled.h5`
 
 	${(p) => p.theme.media.phone} {
 		font-size: 24px;
+	}
+`
+
+export const StyledDonationFormIframe = styled.iframe`
+	width: 100%;
+	height: 100vh;
+	border: none;
+	grid-area: donation-form;
+`
+
+export const StyledDonationHeader = styled.div`
+	grid-area: donation-header;
+	background-color: ${(p) => p.theme.color.white};
+	border-radius: ${(p) => p.theme.space.xs}px;
+`
+
+export const StyledDonationSumWidget = styled.div`
+	grid-area: donation-widget-top-donation-sum;
+	border-radius: ${(p) => p.theme.space.xs}px;
+	background-color: ${(p) => p.theme.color.white};
+`
+
+export const StyledDonatorsWidget = styled.div`
+	grid-area: donation-widget-top-donators;
+	border-radius: ${(p) => p.theme.space.xs}px;
+	background-color: ${(p) => p.theme.color.white};
+`
+
+export const StyledLatestDonatorssWidget = styled.div`
+	grid-area: donation-widget-top-latest-donators;
+	border-radius: ${(p) => p.theme.space.xs}px;
+	background-color: ${(p) => p.theme.color.white};
+`
+
+export const StyledDonationMainGrid = styled.div`
+	display: grid;
+	margin: auto;
+	padding: 0 ${(p) => p.theme.space.xxl}px;
+	grid-gap: ${(p) => p.theme.space.xxl}px;
+	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
+	grid-template-areas:
+		'donation-header donation-header donation-header'
+		'donation-form donation-form donation-widget-top-donation-sum'
+		'donation-form donation-form donation-widget-top-donators'
+		'donation-form donation-form donation-widget-top-latest-donators';
+
+	${(p) => p.theme.media.phone} {
+		width: 100%;
+		grid-template-columns: 1fr;
+		padding: 0 ${(p) => p.theme.space.xl}px;
+		grid-template-areas:
+			'donation-header'
+			'donation-form'
+			'donation-widget-top-donation-sum'
+			'donation-widget-top-donators'
+			'donation-widget-top-latest-donators';
+	}
+
+	${(p) => p.theme.media.tablet} {
+		width: 100%;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			'donation-header donation-header'
+			'donation-form donation-form'
+			'donation-widget-top-donation-sum donation-widget-top-donators'
+			'donation-widget-top-latest-donators donation-widget-top-latest-donators';
 	}
 `

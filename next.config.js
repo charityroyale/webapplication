@@ -7,4 +7,8 @@ module.exports = {
 		})
 		return cfg
 	},
+	env: {
+		TWITCH_ACCESS_TOKEN: '',
+		TWITCH_CLIENT_ID: '',
+	},
 }
