@@ -13,10 +13,7 @@ const MainLayout: React.FunctionComponent<LayoutProps> = ({ children }) => {
 		<StyledLayout>
 			<Header />
 			<Main>{children}</Main>
-			<Footer>
-				<p>Hallo Left</p>
-				<p>Hallo Right</p>
-			</Footer>
+			<Footer />
 		</StyledLayout>
 	)
 }

@@ -18,6 +18,11 @@ export const GlobalStyle = createGlobalStyle`
 		margin: 0;
 	}
 
+	ul, ol {
+		padding: 0;
+		margin: 0;
+	}
+
 	button {
 		appearance: none;
 		border: none;
