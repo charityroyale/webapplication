@@ -7,6 +7,9 @@ import 'nprogress/nprogress.css'
 import { GlobalStyle } from '../styles/global.styles'
 import { ThemeProvider } from 'styled-components'
 import { theme } from '../styles/Theme'
+import { useIsSSR } from '../app/components/isSSR'
+import { isClientSideIE } from '../app/utils/commonUtils'
+import InternetExplorerNotSupported from '../app/components/InternetExplorerNotSupported'
 
 Router.events.on('routeChangeStart', () => NProgress.start())
 Router.events.on('routeChangeComplete', () => NProgress.done())
@@ -14,13 +17,18 @@ Router.events.on('routeChangeError', () => NProgress.done())
 
 function MyApp({ Component, pageProps }) {
 	const Layout = Component.layout ? Component.layout : React.Fragment
+	const isSSR = useIsSSR()
 	return (
 		<>
 			<GlobalStyle />
 			<ThemeProvider theme={theme}>
-				<Layout>
-					<Component {...pageProps} />
-				</Layout>
+				{!isSSR && isClientSideIE() ? (
+					<InternetExplorerNotSupported />
+				) : (
+					<Layout>
+						<Component {...pageProps} />
+					</Layout>
+				)}
 			</ThemeProvider>
 		</>
 	)

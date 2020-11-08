@@ -84,3 +84,14 @@ export async function fetchMakeAWishData(): Promise<MakeWishDonationsDTO> {
 		console.log(e)
 	}
 }
+
+export function isClientSideIE(): boolean {
+	const ua = window.navigator.userAgent
+	const msie = ua.indexOf('MSIE ')
+
+	if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv:11\./)) {
+		return true
+	} else {
+		return false
+	}
+}
