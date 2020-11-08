@@ -10,7 +10,8 @@
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
 		"react-loading-skeleton": "^2.1.1",
-		"styled-components": "^5.1.1"
+		"styled-components": "^5.1.1",
+		"swr": "^0.3.8"
 	},
 	"devDependencies": {
 		"@types/dateformat": "^3.0.1",

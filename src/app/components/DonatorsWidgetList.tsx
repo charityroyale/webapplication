@@ -1,7 +1,7 @@
 import React from 'react'
 import { styled } from '../../styles/Theme'
 
-interface List {
+export interface List {
 	col_1: string
 	col_2: string
 	col_3: string
