@@ -1,7 +1,6 @@
 TODO
 
 - fancy donation counter (potentially with days remaining, goal, donators/supporters ...)
-- api make-a-wish for current projects progress and goals
 - header
 - footer
 - accessibility checks
@@ -12,6 +11,7 @@ TODO
 
 DONE
 
+- api make-a-wish for current projects progress and goals
 - link to donation pages on main page
 - featured donation link
 - feature toggle for release
