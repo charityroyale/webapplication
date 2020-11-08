@@ -69,16 +69,6 @@ export const StyledHeader = styled.header`
 	background-color: ${(p) => p.theme.color.harvestGold};
 `
 
-export const StyledFooter = styled.footer`
-	display: grid;
-	padding: 36px 24px;
-	grid-area: footer;
-	justify-content: center;
-	grid-gap: 36px;
-	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
-	background-color: ${(p) => p.theme.color.harvestGold};
-`
-
 export const StyledMain = styled.main`
 	grid-area: main;
 	display: grid;
