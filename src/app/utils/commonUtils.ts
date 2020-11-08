@@ -1,3 +1,5 @@
+import { makeAWishAPI } from '../../config'
+import { MakeWishDonationsDTO } from '../dto/MakeAWishDonationsDTO'
 import { TwitchStreamsDTO } from '../dto/TwitchStreamsDTO'
 import { TwitchUsersDTO } from '../dto/TwitchUsersDTO'
 
@@ -69,6 +71,15 @@ export async function fetchTwitchStreamBySchedule(schedule: any): Promise<Twitch
 			},
 		})
 		return (await res.json()) as TwitchStreamsDTO
+	} catch (e) {
+		console.log(e)
+	}
+}
+
+export async function fetchMakeAWishData(): Promise<MakeWishDonationsDTO> {
+	try {
+		const res = await fetch(`${makeAWishAPI.donationsURL}`, {})
+		return (await res.json()) as MakeWishDonationsDTO
 	} catch (e) {
 		console.log(e)
 	}
