@@ -12,7 +12,11 @@ import { useIsSSR } from './isSSR'
 import Skeleton from 'react-loading-skeleton'
 import useMakeAWish from '../hooks/useMakeAWish'
 
-const Header: React.FunctionComponent = () => {
+const Header: React.FunctionComponent<{ featuredStream: string }> = ({
+	featuredStream,
+}: {
+	featuredStream: string
+}) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
 
@@ -50,7 +54,7 @@ const Header: React.FunctionComponent = () => {
 						donations_count={12}
 						donation_days_to_go={23}
 					></DonationHeaderCount>
-					<Link href="/donate">
+					<Link href={`/donate/${featuredStream}`}>
 						<DonateButton aria-label="Jetzt Spenden">SPENDEN</DonateButton>
 					</Link>
 				</StyledHeaderRightItem>

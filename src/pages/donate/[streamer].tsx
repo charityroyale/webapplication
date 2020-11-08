@@ -111,7 +111,7 @@ export const getStaticProps: GetStaticProps<InitialDonationProps> = async ({ par
 		}
 	}
 	return {
-		props: { project: currentStream },
+		props: { project: currentStream, featuredStream: cmsContent.featuredStream },
 	}
 }
 

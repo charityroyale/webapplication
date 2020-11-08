@@ -2,7 +2,7 @@
 title: Charity Royale
 date: 2020-10-28T21:45:39.757Z
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: Veni
+featuredStream: veni
 upcoming:
   - date: 2020-12-01T19:00:00.000Z
     streamerName: Venicraft
