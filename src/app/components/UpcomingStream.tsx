@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 
@@ -35,6 +36,7 @@ const UpcomingStreamIcon = styled.img`
 const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 	streamerName,
 	streamLink,
+	streamerChannel,
 	descripion,
 	imgUrl,
 	date,
@@ -59,9 +61,11 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 			{!imageLoaded && <Skeleton height={275} />}
 
 			{!isSSR && (
-				<a style={{ display: !imageLoaded ? 'none' : 'flex' }} href={streamLink} target="_blank" rel="noreferrer">
-					<StyledUpcomingStreamPlaceholderImage onLoad={onImageLoad} src={imgUrl} alt="Logo für StreamProjekt" />
-				</a>
+				<Link href={`/donate/${streamerChannel}`}>
+					<a style={{ display: !imageLoaded ? 'none' : 'flex' }} href={`/donate/${streamerChannel}`}>
+						<StyledUpcomingStreamPlaceholderImage onLoad={onImageLoad} src={imgUrl} alt="Logo für StreamProjekt" />
+					</a>
+				</Link>
 			)}
 			<StyledUpcomingStreamFooter>
 				<StreamerIconWrapper>
