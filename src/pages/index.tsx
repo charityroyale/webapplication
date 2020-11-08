@@ -2,13 +2,13 @@ import React from 'react'
 import { GetStaticProps, NextPage } from 'next'
 import cmsContent from '../../_posts/frontpage/charity-royale.md'
 import Head from 'next/head'
-import { StyledWebsiteInProgress } from '../styles/common.styles'
 import MainLayout from '../app/layouts/MainLayout'
 import PageWithLayoutType from '../app/types/PageWithLayout'
 import FeaturedStream from '../app/components/FeaturedStream'
 import UpcomingFeatures from '../app/components/UpcomingStreams'
 import { UpcomingStreamProps } from '../app/components/UpcomingStream'
 import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
+import ComingSoonLayout from '../app/layouts/ComingSoonLayout'
 
 export interface InitialAppProps {
 	featuredStream?: string
@@ -24,17 +24,10 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 			<Head>
 				<title>Charity Royale 2020</title>
 			</Head>
-			{websiteReleased ? (
-				<>
-					<FeaturedStream channel={featuredStream} />
-					<UpcomingFeatures schedule={schedule} />
-				</>
-			) : (
-				<StyledWebsiteInProgress>
-					<img width="250px" src="/Charity_Royale_RGB.png" alt="Charity Royale 2020" />
-					<h1>Coming soon</h1>
-				</StyledWebsiteInProgress>
-			)}
+			<>
+				<FeaturedStream channel={featuredStream} />
+				<UpcomingFeatures schedule={schedule} />
+			</>
 		</>
 	)
 }
@@ -52,6 +45,6 @@ export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 		props: { schedule, featuredStream },
 	}
 }
-;(IndexPage as PageWithLayoutType).layout = MainLayout
+;(IndexPage as PageWithLayoutType).layout = websiteReleased ? MainLayout : ComingSoonLayout
 
 export default IndexPage
