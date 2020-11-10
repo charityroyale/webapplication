@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
 				{!isSSR && isClientSideIE() ? (
 					<InternetExplorerNotSupported />
 				) : (
-					<Layout>
+					<Layout {...pageProps}>
 						<Component {...pageProps} />
 					</Layout>
 				)}
