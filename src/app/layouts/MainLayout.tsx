@@ -14,7 +14,7 @@ const MainLayout: React.FunctionComponent<LayoutProps> = ({ children, featuredSt
 		<StyledLayout>
 			<Header featuredStream={featuredStream} />
 			<Main>{children}</Main>
-			<Footer />
+			<Footer featuredStream={featuredStream} />
 		</StyledLayout>
 	)
 }

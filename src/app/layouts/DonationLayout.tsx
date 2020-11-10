@@ -13,7 +13,7 @@ const DonationLayout: React.FunctionComponent<LayoutProps> = ({ children, featur
 		<StyledLayout>
 			<Header featuredStream={featuredStream} />
 			<StyledDonationMainGrid>{children}</StyledDonationMainGrid>
-			<Footer />
+			<Footer featuredStream={featuredStream} />
 		</StyledLayout>
 	)
 }
