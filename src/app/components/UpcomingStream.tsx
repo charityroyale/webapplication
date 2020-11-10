@@ -88,7 +88,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 				<div>
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
 					<div>
-						<p>{`${donationProgress} / ${donationGoal}`}</p> {/*TODO: i guess we need to load this dynamically*/}
+						<p>{`€${donationProgress} / €${donationGoal}`}</p> {/*TODO: i guess we need to load this dynamically*/}
 					</div>
 				</div>
 			</StyledUpcomingStreamFooter>
