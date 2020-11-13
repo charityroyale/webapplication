@@ -5,6 +5,10 @@ TODO
 - make theme look nicer and add stream layout highlights
 - light / dark mode
 - add different favicon
+- add calendar reminder feature (download outlook file)
+- info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte)
+- recommendation projects to donate to
+- forms a dynamically related to the project
 - FAQ 1 youtube embedded box with preview and description donations (under featured stream)
 
 DONE
