@@ -5,7 +5,7 @@ thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: veni
 upcoming:
   - date: 2020-12-01T19:00:00.000Z
-    streamerName: Venicraft
+    streamerName: Veni
     streamerChannel: veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: 1
