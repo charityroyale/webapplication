@@ -3,7 +3,6 @@ TODO
 - accessibility checks
 
 - light / dark mode
-- display done streams (order to the end)
 - implement placeholder streambox --> by cms (TBA info)
 - loader donationform
 - add different favicon
@@ -16,6 +15,7 @@ TODO
 
 DONE
 
+- display done streams (order to the end)
 - make theme look nicer and add stream layout highlights
 - improve style donation counter (potentially with days remaining, goal, donators/supporters ...)
 - static exported links (SSR)
