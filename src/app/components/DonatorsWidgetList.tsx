@@ -25,7 +25,7 @@ const DonationList = styled.div`
 	font-size: ${(p) => p.theme.fontSize.m}px;
 
 	${DonationListRow}:not(:last-child) {
-		border-bottom: 1px solid black;
+		border-bottom: 2px solid ${(p) => p.theme.color.veniPurple};
 	}
 `
 

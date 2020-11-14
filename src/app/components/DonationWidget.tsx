@@ -12,6 +12,8 @@ const StyledWidgetHeader = styled.p`
 	padding: ${(p) => p.theme.space.m}px ${(p) => p.theme.space.l}px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	font-weight: 500;
+	font-size: ${(p) => p.theme.fontSize.l}px;
 	color: ${(p) => p.theme.color.white};
 `
 

@@ -30,9 +30,11 @@ const StyledHeaderContent = styled.div`
 
 const DonationHeaderCounterAndButtonWrapper = styled.div`
 	display: flex;
+	align-items: center;
 
 	${(p) => p.theme.media.phone} {
 		flex-direction: column;
+		align-items: center;
 	}
 `
 
@@ -79,8 +81,8 @@ const Header: React.FunctionComponent<{ featuredStream: string }> = ({
 							donations_count={makeAWish.isLoading || makeAWish.isError ? 0 : makeAWish.data.total_donation_count}
 						></DonationHeaderCount>
 						<ClientLink href={`/donate/${featuredStream}`}>
-						  <DonateButton aria-label="Jetzt Spenden">SPENDEN</DonateButton>
-					  </ClientLink>
+							<DonateButton aria-label="Jetzt Spenden">SPENDEN</DonateButton>
+						</ClientLink>
 					</DonationHeaderCounterAndButtonWrapper>
 				</StyledHeaderRightItem>
 			</StyledHeaderContent>

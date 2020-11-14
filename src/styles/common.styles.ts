@@ -68,6 +68,11 @@ export const StyledHeaderRightItem = styled.div`
 		margin-top: ${(p) => p.theme.space.xl}px;
 		justify-content: center;
 	}
+
+	${(p) => p.theme.media.tablet} {
+		margin-top: ${(p) => p.theme.space.xl}px;
+		justify-content: center;
+	}
 `
 
 export const StyledHeader = styled.header`
