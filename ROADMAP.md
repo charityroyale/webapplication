@@ -12,6 +12,7 @@ TODO
 - info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte) - text
 - recommendation projects to donate to
 - FAQ 1 youtube embedded box with preview and description donations (under featured stream)
+- static exported links (SSR)
 
 DONE
 

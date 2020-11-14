@@ -12,7 +12,9 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 
 	return (
 		<React.Fragment>
-			<StyleUpcomingStreamsHeader>Programm</StyleUpcomingStreamsHeader>
+			<StyleUpcomingStreamsHeader>
+				Programm<a href={`/calendar/all.ics`}>Calendar</a>
+			</StyleUpcomingStreamsHeader>
 			<StyledUpcoming>
 				{schedule.map((stream, index) => {
 					let donationGoal = '0'
