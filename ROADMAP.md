@@ -4,6 +4,9 @@ TODO
 - accessibility checks
 - make theme look nicer and add stream layout highlights
 - light / dark mode
+- order shedule by date
+- display done streams
+- implement TBA streambox
 - add different favicon
 - add calendar reminder feature (download outlook file)
 - info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte)
