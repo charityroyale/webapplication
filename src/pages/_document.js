@@ -68,7 +68,7 @@ export default class MyDocument extends Document {
 					<meta name="theme-color" content="#ffffff"></meta>
 					<meta
 						name="description"
-						content="Größtes Stream,- und Gaming Charity Projekt Österreichs von Venicraft und willhaben."
+						content="Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben."
 					></meta>
 					<script src="https://embed.twitch.tv/embed/v1.js"></script>
 					<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
