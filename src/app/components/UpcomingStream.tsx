@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 
@@ -9,11 +8,11 @@ import {
 	StreamerIconWrapper,
 	StyledDescriptionText,
 	StreamProjectDateWrapper,
-	StyledStreamerProjectHeader,
+	StyledUpcomingStreamDonationStatus,
 } from '../../styles/common.styles'
 import { styled } from '../../styles/Theme'
-import { formatDate } from '../utils/formatUtils'
 import { useIsSSR } from './isSSR'
+import ClientLink from './ClientLink'
 
 export interface UpcomingStreamProps {
 	streamerName: string
@@ -55,41 +54,44 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 		setIconLoaded(true)
 	}, [])
 
+	const donateLinkHref = `/donate/${streamerChannel}`
+
 	return (
 		<StyledUpcomingStream>
-			<StyledStreamerProjectHeader>{streamerName}</StyledStreamerProjectHeader>
-			{!imageLoaded && <Skeleton height={275} />}
+			<ClientLink href={donateLinkHref}>
+				{!imageLoaded && <Skeleton height={275} />}
+				{!isSSR && (
+					<StyledUpcomingStreamPlaceholderImage
+						style={{ display: imageLoaded ? 'flex' : 'none' }}
+						onLoad={onImageLoad}
+						src={imgUrl}
+						alt="Logo für StreamProjekt"
+					/>
+				)}
+			</ClientLink>
 
-			{!isSSR && (
-				<Link href={`/donate/${streamerChannel}`}>
-					<a style={{ display: !imageLoaded ? 'none' : 'flex' }} href={`/donate/${streamerChannel}`}>
-						<StyledUpcomingStreamPlaceholderImage onLoad={onImageLoad} src={imgUrl} alt="Logo für StreamProjekt" />
-					</a>
-				</Link>
-			)}
 			<StyledUpcomingStreamFooter>
 				<StreamerIconWrapper>
-					{!iconLoaded && <Skeleton circle={true} height={50} width={50} />}
-					{!isSSR && (
-						<a href={streamLink} target="_blank" rel="noreferrer">
+					<ClientLink href={streamLink} target="_blank">
+						{!iconLoaded && <Skeleton circle={true} height={50} width={50} />}
+						{!isSSR && (
 							<UpcomingStreamIcon
 								onLoad={onIconImageLoad}
 								style={{ display: !iconLoaded ? 'none' : 'flex' }}
 								src={imgUrl}
 								alt="Logo des Streamers"
 							/>
-						</a>
-					)}
+						)}
+					</ClientLink>
 				</StreamerIconWrapper>
 
 				<StreamProjectDateWrapper>
-					<p>{formatDate(date)}</p>
+					<p>{streamerName}</p>
 				</StreamProjectDateWrapper>
 				<div>
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
-					<div>
-						<p>{`€${donationProgress} / €${donationGoal}`}</p> {/*TODO: i guess we need to load this dynamically*/}
-					</div>
+					<StyledUpcomingStreamDonationStatus>{`€${donationProgress} / €${donationGoal}`}</StyledUpcomingStreamDonationStatus>
+					{/*TODO: i guess we need to load this dynamically*/}
 				</div>
 			</StyledUpcomingStreamFooter>
 		</StyledUpcomingStream>

@@ -18,9 +18,13 @@ interface StreamSize {
 
 export function getFeaturedStreamSize(): StreamSize {
 	let width = document.body.clientWidth
+
+	// padding for phone
 	if (window.innerWidth > responsiveMaxSizeThreshold.phone) {
 		width = document.body.clientWidth - 48
 	}
+
+	// maximum iframe size
 	if (width > maxWidth) {
 		width = maxWidth
 	}

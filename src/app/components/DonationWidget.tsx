@@ -7,14 +7,14 @@ interface DonationWidgetProps {
 }
 
 const StyledWidgetHeader = styled.p`
-	background-color: ${(p) => p.theme.color.willhaben};
+	background-color: ${(p) => p.theme.color.veniPurple};
 	text-align: center;
 	padding: ${(p) => p.theme.space.m}px ${(p) => p.theme.space.l}px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	font-weight: 500;
+	font-size: ${(p) => p.theme.fontSize.l}px;
 	color: ${(p) => p.theme.color.white};
-	border-top-right-radius: ${(p) => p.theme.space.xs}px;
-	border-top-left-radius: ${(p) => p.theme.space.xs}px;
 `
 
 const StyledWidgetContent = styled.div`

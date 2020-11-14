@@ -18,7 +18,11 @@ const InternetExplorerNotSupported: React.FunctionComponent = () => {
 			<p>
 				<strong>Internet Explorer</strong> wird{' '}
 				<strong>
-					<a href="https://www.microsoft.com/de-at/microsoft-365/windows/end-of-ie-support">
+					<a
+						href="https://www.microsoft.com/de-at/microsoft-365/windows/end-of-ie-support"
+						target={'_blank'}
+						rel="noreferrer"
+					>
 						nicht mehr weiterentwickelt
 					</a>
 					,
