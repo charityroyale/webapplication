@@ -18,7 +18,7 @@ import PageWithLayoutType from '../../app/types/PageWithLayout'
 import { makeAWishAPI } from '../../config'
 import useMakeAWish from '../../app/hooks/useMakeAWish'
 import { MakeWishDonationProjectDTO } from '../../app/dto/MakeAWishDonationsDTO'
-import { formatDate } from '../../app/utils/formatUtils'
+import { formatDateDefault } from '../../app/utils/formatUtils'
 
 interface InitialDonationProps {
 	project: Upcoming
@@ -55,12 +55,12 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	if (!makeAWish.isError && !makeAWish.isLoading) {
 		makeAWishProject = makeAWish.data.projects[project.makeAWishProjectId]
 		latestDonatorsList = makeAWishProject.recent_donators.map((r) => ({
-			col_1: formatDate(new Date(r.unix_timestamp)),
+			col_1: formatDateDefault(new Date(r.unix_timestamp)),
 			col_2: r.name,
 			col_3: r.amount,
 		}))
 		highestDonatorsList = makeAWishProject.top_donators.map((r, i) => ({
-			col_1: `${i + 1}`,
+			col_1: `${i + 1}.`,
 			col_2: r.name,
 			col_3: r.amount,
 		}))

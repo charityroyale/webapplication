@@ -1,8 +1,7 @@
 TODO
 
-- fancy donation counter (potentially with days remaining, goal, donators/supporters ...)
 - accessibility checks
-- make theme look nicer and add stream layout highlights
+
 - light / dark mode
 - display done streams (order to the end)
 - implement placeholder streambox --> by cms (TBA info)
@@ -10,10 +9,15 @@ TODO
 - add different favicon
 - info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte) - text
 - recommendation projects to donate to
+- donationpage indicator on streamer boxes
+- on hover twitch screen
+- tagline for subdonationpages (e.g. "v. will in den zoo")
 - FAQ 1 youtube embedded box with preview and description donations (under featured stream)
 
 DONE
 
+- make theme look nicer and add stream layout highlights
+- improve style donation counter (potentially with days remaining, goal, donators/supporters ...)
 - static exported links (SSR)
 - add calendar reminder feature (download outlook file)
 - api make-a-wish for current projects progress and goals

@@ -12,7 +12,8 @@ export const theme = {
 		primary: 'red',
 		secondary: 'green',
 		blackPeral: '#050F1A',
-		harvestGold: '#E1C478',
+		veniPurple: '#231565',
+		royaleGold: '#E1C478',
 		willhaben: '#049EE7',
 		decentBeton: '#E6E6E6',
 		emerald: '#50C878',
@@ -24,6 +25,11 @@ export const theme = {
 		l: 18,
 		xl: 24,
 	},
+	gridGrap: {
+		phone: 8,
+		tablet: 24,
+		desktop: 28,
+	},
 	space: {
 		xs: 4,
 		s: 8,
@@ -33,8 +39,8 @@ export const theme = {
 		xxl: 36,
 	},
 	media: {
-		desktop: customMediaQuery(769, responsiveMaxSizeThreshold.desktop),
-		tablet: customMediaQuery(577, responsiveMaxSizeThreshold.tablet),
+		desktop: customMediaQuery(responsiveMaxSizeThreshold.tablet + 1, responsiveMaxSizeThreshold.desktop),
+		tablet: customMediaQuery(responsiveMaxSizeThreshold.phone + 1, responsiveMaxSizeThreshold.tablet),
 		phone: customMediaQuery(0, responsiveMaxSizeThreshold.phone),
 	},
 }

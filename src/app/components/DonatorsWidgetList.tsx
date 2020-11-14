@@ -30,7 +30,7 @@ const DonationList = styled.div`
 `
 
 const DonationAmount = styled.div`
-	color: ${(p) => p.theme.color.willhaben};
+	color: ${(p) => p.theme.color.veniPurple};
 	font-weight: 800;
 `
 
@@ -39,9 +39,10 @@ const DonationWidgetList: React.FunctionComponent<DonationWidgetListProps> = ({ 
 		<DonationList>
 			{list.map((item, index) => (
 				<DonationListRow key={index}>
-					<div style={{ fontWeight: 'bold' }}>{item.col_1}</div>
-					<div>{item.col_2}</div>
-					<DonationAmount>{item.col_3} €</DonationAmount>
+					<div>
+						{item.col_1} <strong>{item.col_2}</strong>
+					</div>
+					<DonationAmount>{item.col_3}€</DonationAmount>
 				</DonationListRow>
 			))}
 		</DonationList>
