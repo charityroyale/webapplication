@@ -17,7 +17,7 @@ const CurrentAmountDisplay = styled.div`
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%);
-	color: ${(p) => p.theme.color.willhaben};
+	color: ${(p) => p.theme.color.veniPurple};
 `
 const GoalAmountDisplay = styled.div`
 	font-size: ${(p) => p.theme.fontSize.xl}px;
@@ -28,7 +28,7 @@ const GoalAmountDisplay = styled.div`
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%);
-	color: ${(p) => p.theme.color.willhaben};
+	color: ${(p) => p.theme.color.veniPurple};
 `
 
 const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = ({
@@ -63,7 +63,7 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 					trailWidth={6}
 					strokeLinecap="round"
 					style={{ transform: 'rotateY(180deg)' }}
-					strokeColor={hasReachedGoal ? '#50C878' : '#049EE7'}
+					strokeColor={hasReachedGoal ? '#50C878' : '#231565'}
 				/>
 			</div>
 		</React.Fragment>

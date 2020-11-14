@@ -6,7 +6,6 @@ interface DonationHeaderCountProps {
 	donation_goal: number
 	current_donation_count: number
 	donations_count: number
-	donation_days_to_go: number
 }
 
 const DonationCountWrapper = styled.div`
@@ -14,27 +13,66 @@ const DonationCountWrapper = styled.div`
 	justify-content: center;
 	font-size: ${(p) => p.theme.fontSize.l}px;
 	font-weight: bold;
+	background-color: ${(p) => p.theme.color.veniPurple};
+	color: ${(p) => p.theme.color.white};
+
+	${(p) => p.theme.media.phone} {
+		margin-right: 0;
+	}
+`
+
+const DonationLabel = styled.div`
+	font-size: ${(p) => p.theme.fontSize.m}px;
+`
+
+const DonationUnit = styled.div`
+	font-size: ${(p) => p.theme.fontSize.xl}px;
+`
+
+const DonationCountBox = styled.div`
+	text-align: left;
+`
+
+const DonationCountCol = styled.div`
+	display: flex;
 	flex-direction: column;
-	background-color: ${(p) => p.theme.color.white};
-	color: ${(p) => p.theme.color.willhaben};
+	justify-content: space-between;
 	padding: ${(p) => p.theme.space.m}px;
+
+	${DonationCountBox}:not(:last-child) {
+		margin-bottom: ${(p) => p.theme.space.m}px;
+	}
 `
 
 const DonationHeaderCount: React.FunctionComponent<DonationHeaderCountProps> = ({
 	donation_goal,
 	current_donation_count,
 	donations_count,
-	donation_days_to_go,
 }: DonationHeaderCountProps) => {
-	const percentage = getPercentage(current_donation_count, donation_goal)
+	const percentage = getPercentage(current_donation_count, donation_goal).toFixed(2)
 	return (
 		<DonationCountWrapper>
-			<div>
-				Gespendet €{current_donation_count} ({percentage}% erreicht)
-			</div>
-			<div>Ziel €{donation_goal}</div>
-			<div>Spender {donations_count}</div>
-			<div>Läuft noch {donation_days_to_go} Tage</div>
+			<DonationCountCol style={{ marginRight: '12px' }}>
+				<DonationCountBox>
+					<DonationLabel>Gespendet</DonationLabel>
+					<DonationUnit>€{current_donation_count.toLocaleString('de-DE')}</DonationUnit>
+				</DonationCountBox>
+				<DonationCountBox>
+					<DonationLabel>Ziel</DonationLabel>
+					<DonationUnit>€{donation_goal.toLocaleString('de-DE')}</DonationUnit>
+				</DonationCountBox>
+			</DonationCountCol>
+
+			<DonationCountCol>
+				<DonationCountBox>
+					<DonationLabel>Spender</DonationLabel>
+					<DonationUnit>{donations_count}</DonationUnit>
+				</DonationCountBox>
+				<DonationCountBox>
+					<DonationLabel>Erreicht </DonationLabel>
+					<DonationUnit>{percentage}%</DonationUnit>
+				</DonationCountBox>
+			</DonationCountCol>
 		</DonationCountWrapper>
 	)
 }
