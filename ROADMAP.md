@@ -8,7 +8,6 @@ TODO
 - implement placeholder streambox --> by cms (TBA info)
 - loader donationform
 - add different favicon
-- add calendar reminder feature (download outlook file)
 - info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte) - text
 - recommendation projects to donate to
 - FAQ 1 youtube embedded box with preview and description donations (under featured stream)
@@ -16,6 +15,7 @@ TODO
 
 DONE
 
+- add calendar reminder feature (download outlook file)
 - api make-a-wish for current projects progress and goals
 - header
 - upcomginstream shedule order by date --> by cms
