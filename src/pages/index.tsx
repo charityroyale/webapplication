@@ -15,7 +15,7 @@ export interface InitialAppProps {
 	schedule?: UpcomingStreamProps[]
 }
 
-const websiteReleased = true
+const websiteReleased = false
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 	const { schedule, featuredStream } = props

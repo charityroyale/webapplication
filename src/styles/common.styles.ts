@@ -163,11 +163,19 @@ export const StreamProjectDateWrapper = styled.div`
 	transform: translateY(-100%);
 `
 
-export const StyleUpcomingStreamsHeader = styled.h5`
+export const StyleUpcomingStreamsHeader = styled.div`
 	grid-area: featured-header;
+	margin: 64px 0;
 	text-align: center;
+`
+
+export const StyledKalenderDownloadLink = styled.a`
+	color: black;
+	font-weight: 300;
+`
+
+export const StyleUpcomingStreamsTitle = styled.h5`
 	font-size: 54px;
-	margin: 1em;
 
 	${(p) => p.theme.media.tablet} {
 		font-size: 38px;

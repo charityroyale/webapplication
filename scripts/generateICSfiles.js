@@ -13,8 +13,8 @@ fs.readFile('./_posts/frontpage/charity-royale.md', 'utf8', function (err, data)
 	calendarAll = upcomingStream.map((stream) => {
 		const startDate = new Date(stream.date)
 		return {
-			title: `Charity Royale 2020 - ${stream.streamerName}`,
-			duration: { hours: 4 },
+			title: `${stream.streamerName} - Charity Royale 2020`,
+			end: [startDate.getFullYear(), startDate.getMonth() + 1, startDate.getDate(), 24, 0],
 			description: stream.streamLink,
 			start: [
 				startDate.getFullYear(),
