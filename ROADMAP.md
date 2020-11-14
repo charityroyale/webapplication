@@ -4,20 +4,20 @@ TODO
 - accessibility checks
 - make theme look nicer and add stream layout highlights
 - light / dark mode
-- order shedule by date
-- display done streams
-- implement TBA streambox
+- display done streams (order to the end)
+- implement placeholder streambox --> by cms (TBA info)
+- loader donationform
 - add different favicon
 - add calendar reminder feature (download outlook file)
-- info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte)
+- info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte) - text
 - recommendation projects to donate to
-- forms a dynamically related to the project
 - FAQ 1 youtube embedded box with preview and description donations (under featured stream)
 
 DONE
 
 - api make-a-wish for current projects progress and goals
 - header
+- upcomginstream shedule order by date --> by cms
 - footer
 - IE notification
 - link to donation pages on main page
