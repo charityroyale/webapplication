@@ -1,5 +1,10 @@
 import React from 'react'
-import { StyledUpcoming, StyleUpcomingStreamsHeader } from '../../styles/common.styles'
+import {
+	StyledKalenderDownloadLink,
+	StyledUpcoming,
+	StyleUpcomingStreamsHeader,
+	StyleUpcomingStreamsTitle,
+} from '../../styles/common.styles'
 import useMakeAWish from '../hooks/useMakeAWish'
 import UpcomingStream, { UpcomingStreamProps } from './UpcomingStream'
 
@@ -13,7 +18,14 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 	return (
 		<React.Fragment>
 			<StyleUpcomingStreamsHeader>
-				Programm<a href={`/calendar/all.ics`}>Calendar</a>
+				<StyleUpcomingStreamsTitle>Programm</StyleUpcomingStreamsTitle>
+				<p>
+					Aktuelles Programm als Kalenderdatei{' '}
+					<StyledKalenderDownloadLink aria-describedby="Programm als Kalender" href={`/calendar/all.ics`}>
+						herunterladen
+					</StyledKalenderDownloadLink>
+					.
+				</p>
 			</StyleUpcomingStreamsHeader>
 			<StyledUpcoming>
 				{schedule.map((stream, index) => {
