@@ -13,7 +13,7 @@ import {
 import { styled } from '../../styles/Theme'
 import { formatDate } from '../utils/formatUtils'
 import { useIsSSR } from './isSSR'
-import SSRClientSideLink from './SSRLink'
+import ClientLink from './ClientLink'
 
 export interface UpcomingStreamProps {
 	streamerName: string
@@ -55,12 +55,13 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 		setIconLoaded(true)
 	}, [])
 
+	const donateLinkHref = `/donate/${streamerChannel}`
+
 	return (
 		<StyledUpcomingStream>
 			<StyledStreamerProjectHeader>{streamerName}</StyledStreamerProjectHeader>
-			{!imageLoaded && <Skeleton height={275} />}
-
-			<SSRClientSideLink href={`/donate/${streamerChannel}`}>
+			<ClientLink href={donateLinkHref}>
+				{!imageLoaded && <Skeleton height={275} />}
 				{!isSSR && (
 					<StyledUpcomingStreamPlaceholderImage
 						style={{ display: imageLoaded ? 'flex' : 'none' }}
@@ -69,12 +70,12 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 						alt="Logo für StreamProjekt"
 					/>
 				)}
-			</SSRClientSideLink>
+			</ClientLink>
 
 			<StyledUpcomingStreamFooter>
 				<StreamerIconWrapper>
-					{!iconLoaded && <Skeleton circle={true} height={50} width={50} />}
-					<SSRClientSideLink href={streamLink} target="_blank">
+					<ClientLink href={streamLink} target="_blank">
+						{!iconLoaded && <Skeleton circle={true} height={50} width={50} />}
 						{!isSSR && (
 							<UpcomingStreamIcon
 								onLoad={onIconImageLoad}
@@ -83,7 +84,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 								alt="Logo des Streamers"
 							/>
 						)}
-					</SSRClientSideLink>
+					</ClientLink>
 				</StreamerIconWrapper>
 
 				<StreamProjectDateWrapper>

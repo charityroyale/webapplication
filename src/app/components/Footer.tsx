@@ -1,6 +1,6 @@
-import Link from 'next/link'
 import React from 'react'
 import { styled } from '../../styles/Theme'
+import ClientLink from './ClientLink'
 
 const FooterListTitle = styled.p`
 	margin-bottom: ${(p) => p.theme.fontSize.m}px;
@@ -72,14 +72,10 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 				<FooterListTitle>Jetzt spenden</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
-						<Link href={`/donate/${featuredStream}`}>
-							<a href={`/donate/${featuredStream}`}>Spenden</a>
-						</Link>
+						<ClientLink href={`/donate/${featuredStream}`}>Spenden</ClientLink>
 					</FooterListItem>
 					<FooterListItem>
-						<Link href={'/faq'}>
-							<a href={'/faq'}>FAQ</a>
-						</Link>
+						<ClientLink href={'/faq'}>FAQ</ClientLink>
 					</FooterListItem>
 				</FooterList>
 			</FooterLeftGridItem>

@@ -6,11 +6,11 @@ import {
 	StyledHeaderLeftItem,
 	StyledHeaderRightItem,
 } from '../../styles/common.styles'
-import Link from 'next/link'
 import DonationHeaderCount from './DonationHeaderCount'
 import { useIsSSR } from './isSSR'
 import Skeleton from 'react-loading-skeleton'
 import useMakeAWish from '../hooks/useMakeAWish'
+import ClientLink from './ClientLink'
 
 const Header: React.FunctionComponent<{ featuredStream: string }> = ({
 	featuredStream,
@@ -30,8 +30,8 @@ const Header: React.FunctionComponent<{ featuredStream: string }> = ({
 		<StyledHeader>
 			<div style={{ gridArea: 'header-row', display: 'flex', justifyContent: 'space-between' }}>
 				<StyledHeaderLeftItem>
-					{!imageLoaded && <Skeleton circle={true} height={140} width={140} />}
-					<a href="/">
+					<ClientLink href="/">
+						{!imageLoaded && <Skeleton circle={true} height={140} width={140} />}
 						{!isSSR && (
 							<img
 								onLoad={onImageLoad}
@@ -41,7 +41,7 @@ const Header: React.FunctionComponent<{ featuredStream: string }> = ({
 								alt="Charity Royale 2020"
 							/>
 						)}
-					</a>
+					</ClientLink>
 					<h1 style={{ textIndent: '-10000px' }}>Charity Royale 2020</h1>
 				</StyledHeaderLeftItem>
 				<StyledHeaderCenterItem></StyledHeaderCenterItem>
@@ -52,9 +52,9 @@ const Header: React.FunctionComponent<{ featuredStream: string }> = ({
 						donations_count={12}
 						donation_days_to_go={23}
 					></DonationHeaderCount>
-					<Link href={`/donate/${featuredStream}`}>
+					<ClientLink href={`/donate/${featuredStream}`}>
 						<DonateButton aria-label="Jetzt Spenden">SPENDEN</DonateButton>
-					</Link>
+					</ClientLink>
 				</StyledHeaderRightItem>
 			</div>
 		</StyledHeader>
