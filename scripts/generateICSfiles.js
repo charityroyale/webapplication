@@ -27,5 +27,12 @@ fs.readFile('./_posts/frontpage/charity-royale.md', 'utf8', function (err, data)
 	})
 
 	const calendarEvents = ics.createEvents(calendarAll)
-	fs.writeFileSync(`${__dirname}/../public/calendar/all.ics`, calendarEvents.value)
+
+	const distUrl = `${__dirname}/../public/calendar/`
+	const fileLocation = `${distUrl}/all.ics`
+
+	if (!fs.existsSync(distUrl)) {
+		fs.mkdirSync(distUrl)
+	}
+	fs.writeFileSync(fileLocation, calendarEvents.value)
 })
