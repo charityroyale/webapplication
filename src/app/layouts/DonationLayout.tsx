@@ -5,14 +5,15 @@ import Header from '../components/Header'
 
 type LayoutProps = {
 	children: React.ReactNode
+	featuredStream: string
 }
 
-const DonationLayout: React.FunctionComponent<LayoutProps> = ({ children }) => {
+const DonationLayout: React.FunctionComponent<LayoutProps> = ({ children, featuredStream }: LayoutProps) => {
 	return (
 		<StyledLayout>
-			<Header />
+			<Header featuredStream={featuredStream} />
 			<StyledDonationMainGrid>{children}</StyledDonationMainGrid>
-			<Footer />
+			<Footer featuredStream={featuredStream} />
 		</StyledLayout>
 	)
 }

@@ -61,15 +61,19 @@ const StyledFooter = styled.footer`
 	}
 `
 
-const Footer: React.FunctionComponent = () => {
+const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
+	featuredStream,
+}: {
+	featuredStream: string
+}) => {
 	return (
 		<StyledFooter>
 			<FooterLeftGridItem>
 				<FooterListTitle>Jetzt spenden</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
-						<Link href={'/donate'}>
-							<a href={'/donate'}>Spenden</a>
+						<Link href={`/donate/${featuredStream}`}>
+							<a href={`/donate/${featuredStream}`}>Spenden</a>
 						</Link>
 					</FooterListItem>
 					<FooterListItem>

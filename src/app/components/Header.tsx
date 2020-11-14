@@ -10,10 +10,17 @@ import Link from 'next/link'
 import DonationHeaderCount from './DonationHeaderCount'
 import { useIsSSR } from './isSSR'
 import Skeleton from 'react-loading-skeleton'
+import useMakeAWish from '../hooks/useMakeAWish'
 
-const Header: React.FunctionComponent = () => {
+const Header: React.FunctionComponent<{ featuredStream: string }> = ({
+	featuredStream,
+}: {
+	featuredStream: string
+}) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
+
+	const makeAWish = useMakeAWish()
 
 	const onImageLoad = useCallback(() => {
 		setIsImagedLoaded(true)
@@ -43,11 +50,11 @@ const Header: React.FunctionComponent = () => {
 				<StyledHeaderRightItem>
 					<DonationHeaderCount
 						donation_goal={1000}
-						current_donation_count={250}
+						current_donation_count={makeAWish.isLoading || makeAWish.isError ? 0 : makeAWish.data.total_donation_count}
 						donations_count={12}
 						donation_days_to_go={23}
 					></DonationHeaderCount>
-					<Link href="/donate">
+					<Link href={`/donate/${featuredStream}`}>
 						<DonateButton aria-label="Jetzt Spenden">SPENDEN</DonateButton>
 					</Link>
 				</StyledHeaderRightItem>

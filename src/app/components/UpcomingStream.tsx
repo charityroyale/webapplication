@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 
@@ -16,13 +17,14 @@ import { useIsSSR } from './isSSR'
 
 export interface UpcomingStreamProps {
 	streamerName: string
+	streamerChannel: string
 	streamLink: string
+	makeAWishProjectId: string
 	descripion: string
 	imgUrl: string
-	donationGoal: number
-	donationProgress: number
+	donationGoal: string
+	donationProgress: string
 	date: Date
-	is_live?: boolean
 }
 
 const UpcomingStreamIcon = styled.img`
@@ -31,25 +33,15 @@ const UpcomingStreamIcon = styled.img`
 	border-radius: 50%;
 `
 
-const StyleOnlineBadge = styled.span`
-	width: 11px;
-	height: 11px;
-	background-color: ${(p) => p.theme.color.emerald};
-	position: absolute;
-	top: 2px;
-	right: 2px;
-	border-radius: 50%;
-`
-
 const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 	streamerName,
 	streamLink,
+	streamerChannel,
 	descripion,
 	imgUrl,
 	date,
 	donationGoal,
 	donationProgress,
-	is_live,
 }: UpcomingStreamProps) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
@@ -69,9 +61,11 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 			{!imageLoaded && <Skeleton height={275} />}
 
 			{!isSSR && (
-				<a style={{ display: !imageLoaded ? 'none' : 'flex' }} href={streamLink} target="_blank" rel="noreferrer">
-					<StyledUpcomingStreamPlaceholderImage onLoad={onImageLoad} src={imgUrl} alt="Logo für StreamProjekt" />
-				</a>
+				<Link href={`/donate/${streamerChannel}`}>
+					<a style={{ display: !imageLoaded ? 'none' : 'flex' }} href={`/donate/${streamerChannel}`}>
+						<StyledUpcomingStreamPlaceholderImage onLoad={onImageLoad} src={imgUrl} alt="Logo für StreamProjekt" />
+					</a>
+				</Link>
 			)}
 			<StyledUpcomingStreamFooter>
 				<StreamerIconWrapper>
@@ -86,7 +80,6 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 							/>
 						</a>
 					)}
-					<StyleOnlineBadge style={{ backgroundColor: !is_live ? '#F16373' : '#50C878' }} />
 				</StreamerIconWrapper>
 
 				<StreamProjectDateWrapper>
@@ -95,7 +88,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 				<div>
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
 					<div>
-						<p>{`${donationProgress} / ${donationGoal}`}</p> {/*TODO: i guess we need to load this dynamically*/}
+						<p>{`€${donationProgress} / €${donationGoal}`}</p> {/*TODO: i guess we need to load this dynamically*/}
 					</div>
 				</div>
 			</StyledUpcomingStreamFooter>

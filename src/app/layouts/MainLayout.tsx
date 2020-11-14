@@ -6,14 +6,15 @@ import Main from '../components/Main'
 
 type LayoutProps = {
 	children: React.ReactNode
+	featuredStream: string
 }
 
-const MainLayout: React.FunctionComponent<LayoutProps> = ({ children }) => {
+const MainLayout: React.FunctionComponent<LayoutProps> = ({ children, featuredStream }: LayoutProps) => {
 	return (
 		<StyledLayout>
-			<Header />
+			<Header featuredStream={featuredStream} />
 			<Main>{children}</Main>
-			<Footer />
+			<Footer featuredStream={featuredStream} />
 		</StyledLayout>
 	)
 }

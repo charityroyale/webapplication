@@ -1,17 +1,26 @@
 TODO
 
 - fancy donation counter (potentially with days remaining, goal, donators/supporters ...)
-- api make-a-wish for current projects progress and goals
-- header
-- footer
 - accessibility checks
+- make theme look nicer and add stream layout highlights
 - light / dark mode
+- display done streams (order to the end)
+- implement placeholder streambox --> by cms (TBA info)
+- loader donationform
 - add different favicon
-- IE notification
+- add calendar reminder feature (download outlook file)
+- info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte) - text
+- recommendation projects to donate to
 - FAQ 1 youtube embedded box with preview and description donations (under featured stream)
+- static exported links (SSR)
 
 DONE
 
+- api make-a-wish for current projects progress and goals
+- header
+- upcomginstream shedule order by date --> by cms
+- footer
+- IE notification
 - link to donation pages on main page
 - featured donation link
 - feature toggle for release

@@ -180,7 +180,7 @@ export const StyleUpcomingStreamsHeader = styled.h5`
 
 export const StyledDonationFormIframe = styled.iframe`
 	width: 100%;
-	height: 100vh;
+	height: 850px;
 	border: none;
 	grid-area: donation-form;
 `

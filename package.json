@@ -10,7 +10,8 @@
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
 		"react-loading-skeleton": "^2.1.1",
-		"styled-components": "^5.1.1"
+		"styled-components": "^5.1.1",
+		"swr": "^0.3.8"
 	},
 	"devDependencies": {
 		"@types/dateformat": "^3.0.1",
@@ -26,8 +27,10 @@
 		"eslint-plugin-prettier": "^3.1.4",
 		"eslint-plugin-react": "^7.20.3",
 		"eslint-plugin-react-hooks": "^4.0.8",
+		"front-matter": "^4.0.2",
 		"frontmatter-markdown-loader": "^3.6.1",
 		"husky": "^4.2.5",
+		"ics": "^2.26.1",
 		"lint-staged": "^10.2.11",
 		"nprogress": "^0.2.0",
 		"prettier": "^2.0.5",
@@ -36,8 +39,9 @@
 	},
 	"scripts": {
 		"dev": "next",
-		"build": "next build",
-		"build-netlify": "next build && next export",
+		"build-ics": "node ./scripts/generateICSfiles.js",
+		"build": "npm run build-ics && next build",
+		"build-netlify": "npm run build && next export",
 		"start": "next start",
 		"lint": "eslint src --ext .ts,.tsx",
 		"lint:fix": "npm run lint -- --fix"
