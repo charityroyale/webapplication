@@ -4,7 +4,6 @@ TODO
 - accessibility checks
 - make theme look nicer and add stream layout highlights
 - light / dark mode
-- display done streams (order to the end)
 - implement placeholder streambox --> by cms (TBA info)
 - loader donationform
 - add different favicon
@@ -14,6 +13,7 @@ TODO
 
 DONE
 
+- display done streams (order to the end)
 - static exported links (SSR)
 - add calendar reminder feature (download outlook file)
 - api make-a-wish for current projects progress and goals
