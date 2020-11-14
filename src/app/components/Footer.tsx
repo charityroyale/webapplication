@@ -90,7 +90,7 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 						<a href={'https://www.make-a-wish.at/'}>make-a-wish</a>
 					</FooterListItem>
 					<FooterListItem>
-						<a href={'https://twitter.com/Venitroll'}>VeniCraft</a>
+						<a href={'https://twitter.com/Venitroll'}>Veni</a>
 					</FooterListItem>
 				</FooterList>
 			</FooterCenterGridItem>
