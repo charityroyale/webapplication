@@ -31,19 +31,17 @@ const Header: React.FunctionComponent<{ featuredStream: string }> = ({
 			<div style={{ gridArea: 'header-row', display: 'flex', justifyContent: 'space-between' }}>
 				<StyledHeaderLeftItem>
 					{!imageLoaded && <Skeleton circle={true} height={140} width={140} />}
-					<Link href="/">
-						<a href="/">
-							{!isSSR && (
-								<img
-									onLoad={onImageLoad}
-									style={{ display: !imageLoaded ? 'none' : 'flex' }}
-									width="150px"
-									src="/Charity_Royale_RGB.png"
-									alt="Charity Royale 2020"
-								/>
-							)}
-						</a>
-					</Link>
+					<a href="/">
+						{!isSSR && (
+							<img
+								onLoad={onImageLoad}
+								style={{ display: !imageLoaded ? 'none' : 'flex' }}
+								width="150px"
+								src="/Charity_Royale_RGB.png"
+								alt="Charity Royale 2020"
+							/>
+						)}
+					</a>
 					<h1 style={{ textIndent: '-10000px' }}>Charity Royale 2020</h1>
 				</StyledHeaderLeftItem>
 				<StyledHeaderCenterItem></StyledHeaderCenterItem>
