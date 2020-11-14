@@ -4,6 +4,20 @@ date: 2020-10-28T21:45:39.757Z
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: veni
 upcoming:
+  - date: 2020-12-01T17:00:00.000Z
+    streamerName: BastiGHG
+    streamerChannel: bastighg
+    streamLink: https://www.twitch.tv/bastighg
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: 3
+    descripion: blablub
+  - date: 2020-12-02T19:00:00.000Z
+    streamerName: Stegi
+    streamerChannel: stegi
+    streamLink: https://www.twitch.tv/Stegi
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: 4
+    descripion: blablub
   - date: 2020-12-01T19:00:00.000Z
     streamerName: Veni
     streamerChannel: veni
@@ -18,24 +32,10 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 2
     descripion: blablub
-  - date: 2020-12-03T19:00:00.000Z
-    streamerName: Other Streamer 3
-    streamerChannel: veni
-    streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: 3
-    descripion: blablub
-  - date: 2020-12-04T19:00:00.000Z
-    streamerName: Other Streamer 4
-    streamerChannel: veni
-    streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: 4
-    descripion: blablub
-  - date: 2020-12-05T19:00:00.000Z
-    streamerName: Other Streamer 5
-    streamerChannel: veni
-    streamLink: https://www.twitch.tv/twitch
+  - date: 2020-12-06T19:00:00.000Z
+    streamerName: JustBecci
+    streamerChannel: beccisplayground
+    streamLink: https://www.twitch.tv/beccisplayground
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 5
     descripion: blablub
