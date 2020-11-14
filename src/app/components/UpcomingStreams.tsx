@@ -14,6 +14,30 @@ interface UpcomingStreams {
 
 const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }: UpcomingStreams) => {
 	const makeAWish = useMakeAWish()
+	const now = new Date()
+
+	const isInThePast = (stream: UpcomingStreamProps) => {
+		const streamDate = new Date(stream.date)
+		return streamDate < now
+	}
+
+	const isInTheFuture = (stream: UpcomingStreamProps) => {
+		const streamDate = new Date(stream.date)
+		return streamDate >= now
+	}
+
+	const createUpcomingStream = (stream: UpcomingStreamProps, index: number) => {
+		let donationGoal = '0'
+		let donationProgess = '0'
+		if (!makeAWish.isError && !makeAWish.isLoading) {
+			const makeAWishProject = makeAWish.data.projects[stream.makeAWishProjectId]
+			if (makeAWishProject) {
+				donationGoal = makeAWishProject.donation_goal
+				donationProgess = makeAWishProject.current_donation_sum
+			}
+		}
+		return <UpcomingStream key={index} {...stream} donationProgress={donationProgess} donationGoal={donationGoal} />
+	}
 
 	return (
 		<React.Fragment>
@@ -28,20 +52,8 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 				</p>
 			</StyleUpcomingStreamsHeader>
 			<StyledUpcoming>
-				{schedule.map((stream, index) => {
-					let donationGoal = '0'
-					let donationProgess = '0'
-					if (!makeAWish.isError && !makeAWish.isLoading) {
-						const makeAWishProject = makeAWish.data.projects[stream.makeAWishProjectId]
-						if (makeAWishProject) {
-							donationGoal = makeAWishProject.donation_goal
-							donationProgess = makeAWishProject.current_donation_sum
-						}
-					}
-					return (
-						<UpcomingStream key={index} {...stream} donationProgress={donationProgess} donationGoal={donationGoal} />
-					)
-				})}
+				{schedule.filter(isInTheFuture).map(createUpcomingStream)}
+				{schedule.filter(isInThePast).map(createUpcomingStream)}
 			</StyledUpcoming>
 		</React.Fragment>
 	)
