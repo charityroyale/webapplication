@@ -11,6 +11,30 @@ import { useIsSSR } from './isSSR'
 import Skeleton from 'react-loading-skeleton'
 import useMakeAWish from '../hooks/useMakeAWish'
 import ClientLink from './ClientLink'
+import { styled } from '../../styles/Theme'
+
+const StyledHeaderContent = styled.div`
+	grid-area: header-row;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	${(p) => p.theme.media.tablet} {
+		flex-direction: column;
+	}
+
+	${(p) => p.theme.media.phone} {
+		flex-direction: column;
+	}
+`
+
+const DonationHeaderCounterAndButtonWrapper = styled.div`
+	display: flex;
+
+	${(p) => p.theme.media.phone} {
+		flex-direction: column;
+	}
+`
 
 const Header: React.FunctionComponent<{ featuredStream: string }> = ({
 	featuredStream,
@@ -28,7 +52,7 @@ const Header: React.FunctionComponent<{ featuredStream: string }> = ({
 
 	return (
 		<StyledHeader>
-			<div style={{ gridArea: 'header-row', display: 'flex', justifyContent: 'space-between' }}>
+			<StyledHeaderContent>
 				<StyledHeaderLeftItem>
 					<ClientLink href="/">
 						{!imageLoaded && <Skeleton circle={true} height={140} width={140} />}
@@ -46,17 +70,20 @@ const Header: React.FunctionComponent<{ featuredStream: string }> = ({
 				</StyledHeaderLeftItem>
 				<StyledHeaderCenterItem></StyledHeaderCenterItem>
 				<StyledHeaderRightItem>
-					<DonationHeaderCount
-						donation_goal={1000}
-						current_donation_count={makeAWish.isLoading || makeAWish.isError ? 0 : makeAWish.data.total_donation_count}
-						donations_count={12}
-						donation_days_to_go={23}
-					></DonationHeaderCount>
-					<ClientLink href={`/donate/${featuredStream}`}>
-						<DonateButton aria-label="Jetzt Spenden">SPENDEN</DonateButton>
-					</ClientLink>
+					<DonationHeaderCounterAndButtonWrapper>
+						<DonationHeaderCount
+							donation_goal={50000}
+							current_donation_count={
+								makeAWish.isLoading || makeAWish.isError ? 0 : parseInt(makeAWish.data.total_donation_sum)
+							}
+							donations_count={makeAWish.isLoading || makeAWish.isError ? 0 : makeAWish.data.total_donation_count}
+						></DonationHeaderCount>
+						<ClientLink href={`/donate/${featuredStream}`}>
+						  <DonateButton aria-label="Jetzt Spenden">SPENDEN</DonateButton>
+					  </ClientLink>
+					</DonationHeaderCounterAndButtonWrapper>
 				</StyledHeaderRightItem>
-			</div>
+			</StyledHeaderContent>
 		</StyledHeader>
 	)
 }

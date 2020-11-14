@@ -8,10 +8,9 @@ import {
 	StreamerIconWrapper,
 	StyledDescriptionText,
 	StreamProjectDateWrapper,
-	StyledStreamerProjectHeader,
+	StyledUpcomingStreamDonationStatus,
 } from '../../styles/common.styles'
 import { styled } from '../../styles/Theme'
-import { formatDate } from '../utils/formatUtils'
 import { useIsSSR } from './isSSR'
 import ClientLink from './ClientLink'
 
@@ -59,7 +58,6 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 
 	return (
 		<StyledUpcomingStream>
-			<StyledStreamerProjectHeader>{streamerName}</StyledStreamerProjectHeader>
 			<ClientLink href={donateLinkHref}>
 				{!imageLoaded && <Skeleton height={275} />}
 				{!isSSR && (
@@ -88,13 +86,12 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 				</StreamerIconWrapper>
 
 				<StreamProjectDateWrapper>
-					<p>{formatDate(date)}</p>
+					<p>{streamerName}</p>
 				</StreamProjectDateWrapper>
 				<div>
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
-					<div>
-						<p>{`€${donationProgress} / €${donationGoal}`}</p> {/*TODO: i guess we need to load this dynamically*/}
-					</div>
+					<StyledUpcomingStreamDonationStatus>{`€${donationProgress} / €${donationGoal}`}</StyledUpcomingStreamDonationStatus>
+					{/*TODO: i guess we need to load this dynamically*/}
 				</div>
 			</StyledUpcomingStreamFooter>
 		</StyledUpcomingStream>

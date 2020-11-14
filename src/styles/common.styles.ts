@@ -10,14 +10,19 @@ export const Heading = styled.h1`
 
 export const DonateButton = styled.button`
 	padding: 24px 48px;
-	background: ${(p) => p.theme.color.willhaben};
+	background-color: ${(p) => p.theme.color.veniPurple};
+	border: 2px solid ${(p) => p.theme.color.royaleGold};
 	color: ${(p) => p.theme.color.white};
-	font-size: ${(p) => p.theme.fontSize.l};
+	font-size: ${(p) => p.theme.fontSize.l}px;
 	letter-spacing: 3px;
 	font-family: inherit;
 	display: inline-block;
 	font-weight: 600;
-	width: fit-content; // check compatibility firefox
+	margin: 10px 0 10px 10px;
+
+	${(p) => p.theme.media.phone} {
+		margin: 0;
+	}
 
 	&:hover {
 		cursor: pointer;
@@ -46,15 +51,23 @@ export const StyledLayout = styled.div`
 
 export const StyledHeaderLeftItem = styled.div`
 	display: flex;
+	align-items: center;
 	justify-content: flex-start;
 `
 export const StyledHeaderCenterItem = styled.div`
 	display: flex;
+	align-items: center;
 	justify-content: center;
 `
 export const StyledHeaderRightItem = styled.div`
 	display: flex;
+	align-items: center;
 	justify-content: flex-end;
+
+	${(p) => p.theme.media.phone} {
+		margin-top: ${(p) => p.theme.space.xl}px;
+		justify-content: center;
+	}
 `
 
 export const StyledHeader = styled.header`
@@ -62,11 +75,11 @@ export const StyledHeader = styled.header`
 	grid-area: header;
 	justify-content: center;
 	display: grid;
-	grid-gap: 36px;
+	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 	padding: 36px 24px;
 	grid-template-areas: 'header-row header-row header-row';
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
-	background-color: ${(p) => p.theme.color.harvestGold};
+	background-color: ${(p) => p.theme.color.veniPurple};
 `
 
 export const StyledMain = styled.main`
@@ -76,7 +89,7 @@ export const StyledMain = styled.main`
 	grid-template-areas: 'featured' 'featured-header' 'upcoming';
 
 	padding-top: 20px; // charity royale logo
-	background-color: ${(p) => p.theme.color.harvestGold};
+	background-color: ${(p) => p.theme.color.veniPurple};
 `
 
 export const StyledFeatured = styled.div`
@@ -86,7 +99,19 @@ export const StyledFeatured = styled.div`
 	justify-content: center;
 	align-items: center;
 
-	background-color: ${(p) => p.theme.color.harvestGold};
+	background-color: ${(p) => p.theme.color.veniPurple};
+
+	iframe {
+		border: 2px solid ${(p) => p.theme.color.royaleGold};
+		box-sizing: content-box;
+		background-color: black;
+
+		${(p) => p.theme.media.phone} {
+			border: none;
+			border-top: 2px solid ${(p) => p.theme.color.royaleGold};
+			border-bottom: 2px solid ${(p) => p.theme.color.royaleGold};
+		}
+	}
 `
 
 export const StyledUpcoming = styled.div`
@@ -94,40 +119,52 @@ export const StyledUpcoming = styled.div`
 	grid-area: upcoming;
 	justify-content: center;
 	display: grid;
-	grid-gap: ${(p) => p.theme.space.xxl}px;
+	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 	// grid-template-columns: 1fr 1fr 1fr;
 
 	${(p) => p.theme.media.tablet} {
 		padding: ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xl}px;
 		grid-template-columns: 1fr 1fr;
-		grid-gap: ${(p) => p.theme.space.xl}px;
+		grid-gap: ${(p) => p.theme.gridGrap.tablet}px;
 	}
 
 	${(p) => p.theme.media.phone} {
 		padding: 0;
 		grid-template-columns: 1fr;
-		grid-gap: ${(p) => p.theme.space.s}px;
+		grid-gap: ${(p) => p.theme.gridGrap.phone}px;
 	}
 `
 
 export const StyledUpcomingStream = styled.div`
-	background-color: ${(p) => p.theme.color.decentBeton};
+	// background-color: ${(p) => p.theme.color.decentBeton};
 `
 
 export const StyledUpcomingStreamPlaceholderImage = styled.img`
+	border: 2px solid ${(p) => p.theme.color.royaleGold};
+	background-color: ${(p) => p.theme.color.willhaben};
 	width: 100%;
+
+	${(p) => p.theme.media.phone} {
+		border-left: none;
+		border-right: none;
+	}
 `
 
 export const StyledUpcomingStreamFooter = styled.div`
 	display: flex;
 	align-items: center;
 	padding: ${(p) => p.theme.space.s}px ${(p) => p.theme.space.xs}px;
-	background-color: ${(p) => p.theme.color.harvestGold};
+	background-color: ${(p) => p.theme.color.veniPurple};
 	position: relative;
 `
 
+export const StyledUpcomingStreamDonationStatus = styled.p`
+	color: ${(p) => p.theme.color.white};
+`
+
 export const StyledDescriptionText = styled.p`
+	color: ${(p) => p.theme.color.white};
 	font-weight: 600;
 `
 
@@ -145,7 +182,8 @@ export const StreamerIconWrapper = styled.div`
 `
 
 export const StyledStreamerProjectHeader = styled.div`
-	background-color: ${(p) => p.theme.color.harvestGold};
+	color: ${(p) => p.theme.color.white};
+	background-color: ${(p) => p.theme.color.veniPurple};
 	padding: ${(p) => p.theme.space.m}px ${(p) => p.theme.space.s}px;
 	font-weight: 600;
 	font-size: ${(p) => p.theme.fontSize.xl}px;
@@ -154,23 +192,26 @@ export const StyledStreamerProjectHeader = styled.div`
 
 export const StreamProjectDateWrapper = styled.div`
 	position: absolute;
-	padding: ${(p) => p.theme.space.xs / 2}px ${(p) => p.theme.space.xs}px;
 	left: 0;
-	color: ${(p) => p.theme.color.white};
-	background-color: ${(p) => p.theme.color.willhaben};
+	background-color: ${(p) => p.theme.color.royaleGold};
+	color: ${(p) => p.theme.color.veniPurple};
 	top: 0;
 	border-top-right-radius: ${(p) => p.theme.space.xs}px;
 	transform: translateY(-100%);
+	font-weight: bold;
+	font-size: ${(p) => p.theme.fontSize.xl}px;
+	padding: 0px 8px;
 `
 
 export const StyleUpcomingStreamsHeader = styled.div`
+	color: ${(p) => p.theme.color.white};
 	grid-area: featured-header;
 	margin: 64px 0;
 	text-align: center;
 `
 
 export const StyledKalenderDownloadLink = styled.a`
-	color: black;
+	color: ${(p) => p.theme.color.white};
 	font-weight: 300;
 `
 
@@ -193,27 +234,18 @@ export const StyledDonationFormIframe = styled.iframe`
 	grid-area: donation-form;
 `
 
-export const StyledDonationHeader = styled.div`
-	grid-area: donation-header;
-	background-color: ${(p) => p.theme.color.white};
-	border-radius: ${(p) => p.theme.space.xs}px;
-`
-
 export const StyledDonationSumWidget = styled.div`
 	grid-area: donation-widget-top-donation-sum;
-	border-radius: ${(p) => p.theme.space.xs}px;
 	background-color: ${(p) => p.theme.color.white};
 `
 
 export const StyledDonatorsWidget = styled.div`
 	grid-area: donation-widget-top-donators;
-	border-radius: ${(p) => p.theme.space.xs}px;
 	background-color: ${(p) => p.theme.color.white};
 `
 
 export const StyledLatestDonatorssWidget = styled.div`
 	grid-area: donation-widget-top-latest-donators;
-	border-radius: ${(p) => p.theme.space.xs}px;
 	background-color: ${(p) => p.theme.color.white};
 `
 
@@ -221,7 +253,7 @@ export const StyledDonationMainGrid = styled.div`
 	display: grid;
 	margin: auto;
 	padding: 0 ${(p) => p.theme.space.xxl}px;
-	grid-gap: ${(p) => p.theme.space.xxl}px;
+	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 	grid-template-areas:
 		'donation-header donation-header donation-header'

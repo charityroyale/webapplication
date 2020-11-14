@@ -45,13 +45,14 @@ const StyledFooter = styled.footer`
 	padding: 56px 24px 56px 24px;
 	grid-area: footer;
 	justify-content: center;
-	grid-gap: 36px;
+	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 	grid-template-areas: 'footer-left footer-center footer-right';
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
-	background-color: ${(p) => p.theme.color.white};
+	background-color: ${(p) => p.theme.color.veniPurple};
+	color: ${(p) => p.theme.color.white};
 
 	a {
-		color: ${(p) => p.theme.color.willhaben};
+		color: ${(p) => p.theme.color.royaleGold};
 	}
 
 	${(p) => p.theme.media.phone} {
