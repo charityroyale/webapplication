@@ -9,6 +9,7 @@ import UpcomingFeatures from '../app/components/UpcomingStreams'
 import { UpcomingStreamProps } from '../app/components/UpcomingStream'
 import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
 import ComingSoonLayout from '../app/layouts/ComingSoonLayout'
+import FaqBox from '../app/components/FaqBox'
 
 export interface InitialAppProps {
 	featuredStream?: string
@@ -25,6 +26,7 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 				<title>Charity Royale 2020</title>
 			</Head>
 			<>
+				<FaqBox />
 				<FeaturedStream channel={featuredStream} />
 				<UpcomingFeatures schedule={schedule} />
 			</>
