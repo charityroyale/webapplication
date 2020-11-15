@@ -124,9 +124,8 @@ export const StyledUpcoming = styled.div`
 	grid-area: upcoming;
 	justify-content: center;
 	display: grid;
-	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
-	// grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 
 	${(p) => p.theme.media.tablet} {
 		padding: ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xl}px;
