@@ -15,6 +15,8 @@ TODO
 
 DONE
 
+- add responsive videos, iframe and embed component
+- add basic FAQ button on frontpage
 - display done streams (order to the end)
 - make theme look nicer and add stream layout highlights
 - improve style donation counter (potentially with days remaining, goal, donators/supporters ...)
