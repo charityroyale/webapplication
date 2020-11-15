@@ -55,7 +55,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	if (!makeAWish.isError && !makeAWish.isLoading) {
 		makeAWishProject = makeAWish.data.projects[project.makeAWishProjectId]
 		latestDonatorsList = makeAWishProject.recent_donators.map((r) => ({
-			col_1: formatDateDefault(new Date(r.unix_timestamp)),
+			col_1: formatDateDefault(new Date(r.unix_timestamp * 1000)),
 			col_2: r.name,
 			col_3: r.amount,
 		}))
