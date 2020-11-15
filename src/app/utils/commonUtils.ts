@@ -26,7 +26,7 @@ export function getFeaturedStreamSize(): StreamSize {
 
 	// maximum iframe size
 	if (width > maxWidth) {
-		width = maxWidth
+		width = maxWidth - 21
 	}
 	return { width, height: width * (9 / 16) }
 }
