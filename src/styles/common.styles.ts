@@ -91,7 +91,7 @@ export const StyledMain = styled.main`
 	grid-area: main;
 	display: grid;
 	grid-template-rows: auto auto auto;
-	grid-template-areas: 'featured' 'featured-header' 'upcoming';
+	grid-template-areas: 'featured' 'faq-box' 'featured-header' 'upcoming';
 
 	padding-top: 20px; // charity royale logo
 	background-color: ${(p) => p.theme.color.veniPurple};
