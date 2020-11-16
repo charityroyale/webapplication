@@ -85,6 +85,7 @@ const FaqQuestionBox: FunctionComponent<FaqQuestionBoxProps> = ({ question, answ
 interface InitialFaqProps {
 	questions: FAQEntry[]
 	videos: FAQVideoEntry[]
+	featuredStream?: string
 }
 
 const FaqPage: NextPage<InitialFaqProps> = ({ questions, videos }: InitialFaqProps) => {
@@ -112,7 +113,11 @@ const FaqPage: NextPage<InitialFaqProps> = ({ questions, videos }: InitialFaqPro
 
 export const getStaticProps: GetStaticProps<InitialFaqProps> = async () => {
 	return {
-		props: { questions: cmsContent.faq, videos: cmsContent.faqvideos },
+		props: {
+			questions: cmsContent.faq,
+			videos: cmsContent.faqvideos,
+			featuredStream: cmsContent.featuredStream,
+		},
 	}
 }
 ;((FaqPage as unknown) as PageWithLayoutType).layout = MainLayout

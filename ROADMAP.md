@@ -1,10 +1,8 @@
 TODO
 
 - accessibility checks
-
 - light / dark mode
 - implement placeholder streambox --> by cms (TBA info)
-- loader donationform
 - add different favicon
 - info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte) - text
 - recommendation projects to donate to
@@ -15,6 +13,8 @@ TODO
 
 DONE
 
+- loader donationform
+- resize donation iframe form on postMessage
 - add responsive videos, iframe and embed component
 - add basic FAQ button on frontpage
 - display done streams (order to the end)
