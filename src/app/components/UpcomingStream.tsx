@@ -13,6 +13,29 @@ import {
 import { styled } from '../../styles/Theme'
 import { useIsSSR } from './isSSR'
 import ClientLink from './ClientLink'
+import { formatDate } from '../utils/formatUtils'
+import { BsCalendar } from 'react-icons/bs'
+
+const StreamerImageWrapper = styled.div`
+	position: relative;
+`
+
+const UpcomingStreamDescription = styled.div`
+	display: flex;
+	flex-direction: column;
+`
+
+const UpcomingStreamDate = styled.p`
+	background-color: ${(p) => p.theme.color.royaleGold};
+	color: ${(p) => p.theme.color.veniPurple};
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	font-size: ${(p) => p.theme.fontSize.l}px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	padding: 4px 8px;
+`
 
 export interface UpcomingStreamProps {
 	streamerName: string
@@ -58,16 +81,25 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 
 	return (
 		<StyledUpcomingStream>
+			<UpcomingStreamDate>
+				<BsCalendar style={{ marginRight: '8px' }} />
+				<span>{formatDate(date)}</span>
+			</UpcomingStreamDate>
 			<ClientLink href={donateLinkHref}>
-				{!imageLoaded && <Skeleton height={275} />}
-				{!isSSR && (
-					<StyledUpcomingStreamPlaceholderImage
-						style={{ display: imageLoaded ? 'flex' : 'none' }}
-						onLoad={onImageLoad}
-						src={imgUrl}
-						alt="Logo für StreamProjekt"
-					/>
-				)}
+				<StreamerImageWrapper>
+					{!imageLoaded && <Skeleton height={275} />}
+					{!isSSR && (
+						<StyledUpcomingStreamPlaceholderImage
+							style={{ display: imageLoaded ? 'flex' : 'none' }}
+							onLoad={onImageLoad}
+							src={imgUrl}
+							alt="Logo für StreamProjekt"
+						/>
+					)}
+					<StreamProjectDateWrapper>
+						<p>{streamerName}</p>
+					</StreamProjectDateWrapper>
+				</StreamerImageWrapper>
 			</ClientLink>
 
 			<StyledUpcomingStreamFooter>
@@ -84,15 +116,13 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 						)}
 					</ClientLink>
 				</StreamerIconWrapper>
-
-				<StreamProjectDateWrapper>
-					<p>{streamerName}</p>
-				</StreamProjectDateWrapper>
-				<div>
+				<UpcomingStreamDescription>
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
-					<StyledUpcomingStreamDonationStatus>{`€${donationProgress} / €${donationGoal}`}</StyledUpcomingStreamDonationStatus>
+					<StyledUpcomingStreamDonationStatus>
+						{`€${donationProgress} / €${donationGoal}`}
+					</StyledUpcomingStreamDonationStatus>
 					{/*TODO: i guess we need to load this dynamically*/}
-				</div>
+				</UpcomingStreamDescription>
 			</StyledUpcomingStreamFooter>
 		</StyledUpcomingStream>
 	)
