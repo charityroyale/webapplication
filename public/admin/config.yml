@@ -26,6 +26,16 @@ collections:
           - label: Answer
             name: answer
             widget: string
+      - label: FAQ Videos
+        name: faqvideos
+        widget: list
+        fields:
+          - label: Video Url
+            name: url
+            widget: string
+          - label: Video Name
+            name: name
+            widget: string
       - label: 'Upcoming Streams'
         name: 'upcoming'
         widget: 'list'

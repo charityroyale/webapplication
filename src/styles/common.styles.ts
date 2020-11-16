@@ -145,7 +145,6 @@ export const StyledUpcomingStream = styled.div`
 `
 
 export const StyledUpcomingStreamPlaceholderImage = styled.img`
-	border: 2px solid ${(p) => p.theme.color.royaleGold};
 	background-color: ${(p) => p.theme.color.willhaben};
 	width: 100%;
 
@@ -199,9 +198,8 @@ export const StreamProjectDateWrapper = styled.div`
 	left: 0;
 	background-color: ${(p) => p.theme.color.royaleGold};
 	color: ${(p) => p.theme.color.veniPurple};
-	top: 0;
+	bottom: 0;
 	border-top-right-radius: ${(p) => p.theme.space.xs}px;
-	transform: translateY(-100%);
 	font-weight: bold;
 	font-size: ${(p) => p.theme.fontSize.xl}px;
 	padding: 0px 8px;
@@ -229,13 +227,6 @@ export const StyleUpcomingStreamsTitle = styled.h5`
 	${(p) => p.theme.media.phone} {
 		font-size: 24px;
 	}
-`
-
-export const StyledDonationFormIframe = styled.iframe`
-	width: 100%;
-	height: 850px;
-	border: none;
-	grid-area: donation-form;
 `
 
 export const StyledDonationSumWidget = styled.div`

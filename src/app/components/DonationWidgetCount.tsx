@@ -31,12 +31,28 @@ const GoalAmountDisplay = styled.div`
 	color: ${(p) => p.theme.color.veniPurple};
 `
 
+const GoalReachedTitle = styled.p`
+	text-align: center;
+	font-weight: 500;
+	margin: 18px 0;
+`
+
+const GoalReachCount = styled.span`
+	font-weight: bold;
+	color: #50c878;
+`
+
+const MakeAWishLink = styled.a`
+	color: ${(p) => p.theme.color.veniPurple};
+`
+
 const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = ({
 	current_amount,
 	donation_goal_amount,
 }: DonationWidgetCountProps) => {
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 	const percentage = getPercentage(parseFloat(current_amount), parseFloat(donation_goal_amount))
+	const absDiff = parseFloat((parseFloat(current_amount) - parseFloat(donation_goal_amount)).toFixed(2)).toFixed(2)
 
 	useEffect(() => {
 		if (percentage >= 100) {
@@ -66,6 +82,15 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 					strokeColor={hasReachedGoal ? '#50C878' : '#231565'}
 				/>
 			</div>
+			{hasReachedGoal && (
+				<div>
+					<GoalReachedTitle>Winner Winner Chicken Dinner, Spendenziel erreicht!</GoalReachedTitle>
+					<p>
+						Die Spendendifferenz von <GoalReachCount>{absDiff} €</GoalReachCount> wird an unerfüllte{' '}
+						<MakeAWishLink href={'https://www.make-a-wish.at/'}>make-a-wish.at</MakeAWishLink> Projekte gespendet.
+					</p>
+				</div>
+			)}
 		</React.Fragment>
 	)
 }

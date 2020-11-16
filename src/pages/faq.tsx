@@ -1,10 +1,14 @@
 import React, { FunctionComponent } from 'react'
-import { NextPage } from 'next'
+import { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import PageWithLayoutType from '../app/types/PageWithLayout'
 import MainLayout from '../app/layouts/MainLayout'
 import { styled } from '../styles/Theme'
 import { ResponsiveVideo } from '../app/components/ResponsiveVideo'
+import rawCmsContent from '../../_posts/frontpage/charity-royale.md'
+import { CmsContent, FAQEntry, FAQVideoEntry } from '../app/types/CmsContent'
+
+const cmsContent = rawCmsContent.attributes as CmsContent
 
 const FaqMainWrapper = styled.div`
 	margin: auto;
@@ -78,10 +82,13 @@ const FaqQuestionBox: FunctionComponent<FaqQuestionBoxProps> = ({ question, answ
 	)
 }
 
-const text =
-	'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmodtempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam etusto duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolorsit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed diam voluptua.'
+interface InitialFaqProps {
+	questions: FAQEntry[]
+	videos: FAQVideoEntry[]
+	featuredStream?: string
+}
 
-const FaqPage: NextPage = () => {
+const FaqPage: NextPage<InitialFaqProps> = ({ questions, videos }: InitialFaqProps) => {
 	return (
 		<>
 			<Head>
@@ -89,20 +96,30 @@ const FaqPage: NextPage = () => {
 			</Head>
 			<FaqMainWrapper>
 				<FaqVideoSection>
-					<ResponsiveVideo url={'https://www.youtube-nocookie.com/embed/Vyfb7EzbJbQ'} title={'ss'}></ResponsiveVideo>
-					<ResponsiveVideo url={'https://www.youtube-nocookie.com/embed/Vyfb7EzbJbQ'} title={'ss'}></ResponsiveVideo>
+					{videos.map((video, i) => (
+						<ResponsiveVideo key={i} url={video.url} title={video.name}></ResponsiveVideo>
+					))}
 				</FaqVideoSection>
 				<FaqContentHeader>Antworten und Fragen zum Projekt und spenden</FaqContentHeader>
 				<FaqContenSection>
-					<FaqQuestionBox question={'Wie spät ist es?'} answer={text} />
-					<FaqQuestionBox question={'Wie spät ist es?'} answer={text} />
-					<FaqQuestionBox question={'Wie spät ist es?'} answer={text} />
+					{questions.map((question, i) => (
+						<FaqQuestionBox key={i} question={question.question} answer={question.answer} />
+					))}
 				</FaqContenSection>
 			</FaqMainWrapper>
 		</>
 	)
 }
 
-;(FaqPage as PageWithLayoutType).layout = MainLayout
+export const getStaticProps: GetStaticProps<InitialFaqProps> = async () => {
+	return {
+		props: {
+			questions: cmsContent.faq,
+			videos: cmsContent.faqvideos,
+			featuredStream: cmsContent.featuredStream,
+		},
+	}
+}
+;((FaqPage as unknown) as PageWithLayoutType).layout = MainLayout
 
 export default FaqPage
