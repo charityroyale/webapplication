@@ -1,21 +1,22 @@
 import React from 'react'
 import { GetStaticProps, NextPage } from 'next'
-import cmsContent from '../../_posts/frontpage/charity-royale.md'
+import rawCmsContent from '../../_posts/frontpage/charity-royale.md'
 import Head from 'next/head'
 import MainLayout from '../app/layouts/MainLayout'
 import PageWithLayoutType from '../app/types/PageWithLayout'
 import FeaturedStream from '../app/components/FeaturedStream'
 import UpcomingFeatures from '../app/components/UpcomingStreams'
-import { UpcomingStreamProps } from '../app/components/UpcomingStream'
 import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
 import ComingSoonLayout from '../app/layouts/ComingSoonLayout'
 import FaqBox from '../app/components/FaqBox'
+import { CmsContent, Upcoming } from '../app/types/CmsContent'
 
 export interface InitialAppProps {
 	featuredStream?: string
-	schedule?: UpcomingStreamProps[]
+	schedule?: Upcoming[]
 }
 
+const cmsContent = rawCmsContent.attributes as CmsContent
 const websiteReleased = false
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
@@ -35,8 +36,8 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 }
 
 export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
-	const schedule = cmsContent.attributes.upcoming
-	const featuredStream = cmsContent.attributes.featuredStream
+	const schedule = cmsContent.upcoming
+	const featuredStream = cmsContent.featuredStream
 	const twitchUsers = (await fetchTwitchUsersBySchedule(schedule)).data
 
 	for (let i = 0; i < twitchUsers.length; i++) {

@@ -6,27 +6,28 @@ import {
 	StyleUpcomingStreamsTitle,
 } from '../../styles/common.styles'
 import useMakeAWish from '../hooks/useMakeAWish'
-import UpcomingStream, { UpcomingStreamProps } from './UpcomingStream'
+import { Upcoming } from '../types/CmsContent'
+import UpcomingStream from './UpcomingStream'
 
 interface UpcomingStreams {
-	schedule: UpcomingStreamProps[]
+	schedule: Upcoming[]
 }
 
 const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }: UpcomingStreams) => {
 	const makeAWish = useMakeAWish()
 	const now = new Date()
 
-	const isInThePast = (stream: UpcomingStreamProps) => {
+	const isInThePast = (stream: Upcoming) => {
 		const streamDate = new Date(stream.date)
 		return streamDate < now
 	}
 
-	const isInTheFuture = (stream: UpcomingStreamProps) => {
+	const isInTheFuture = (stream: Upcoming) => {
 		const streamDate = new Date(stream.date)
 		return streamDate >= now
 	}
 
-	const createUpcomingStream = (stream: UpcomingStreamProps, index: number) => {
+	const createUpcomingStream = (stream: Upcoming, index: number) => {
 		let donationGoal = '0'
 		let donationProgess = '0'
 		if (!makeAWish.isError && !makeAWish.isLoading) {

@@ -17,6 +17,7 @@ import { formatDateDefault } from '../../app/utils/formatUtils'
 import { styled } from '../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
 import { useIsSSR } from '../../app/components/isSSR'
+import { CmsContent, Upcoming } from '../../app/types/CmsContent'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
@@ -45,24 +46,6 @@ const IFrameLoadErrorMessage = styled.p`
 
 interface InitialDonationProps {
 	project: Upcoming
-}
-
-interface Upcoming {
-	date: string
-	streamerName: string
-	streamerChannel: string
-	streamLink: string
-	makeAWishProjectId: string
-	descripion: string
-	imgUrl: string
-}
-
-interface CmsContent {
-	title: string
-	date: string
-	thumbnail: string
-	featuredStream: string
-	upcoming: Array<Upcoming>
 }
 
 const cmsContent = rawCmsContent.attributes as CmsContent
