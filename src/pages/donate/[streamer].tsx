@@ -128,7 +128,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 				)}
 				{!isSSR && (
 					<StyledDonationFormIframe
-						height={iFrameHeight}
+						height={iFrameLoading ? 0 : iFrameHeight}
 						onLoad={iFrameLoaded}
 						onError={iFrameLoadedError}
 						id="iframe"
