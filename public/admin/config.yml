@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: release # Branch to update (optional; defaults to master)
 
 media_folder: 'public/uploads' # Media files will be stored in the repo under images/uploads
 public_folder: '/uploads'
@@ -16,6 +16,26 @@ collections:
       - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
       - { label: 'Featured Stream', name: 'featuredStream', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: FAQ
+        name: faq
+        widget: list
+        fields:
+          - label: Question
+            name: question
+            widget: string
+          - label: Answer
+            name: answer
+            widget: string
+      - label: FAQ Videos
+        name: faqvideos
+        widget: list
+        fields:
+          - label: Video Url
+            name: url
+            widget: string
+          - label: Video Name
+            name: name
+            widget: string
       - label: 'Upcoming Streams'
         name: 'upcoming'
         widget: 'list'
@@ -29,15 +49,21 @@ collections:
           - label: Stream Link
             name: streamLink
             widget: string
+          - label: Streamer Image
+            name: imgUrl
+            widget: image
+          - label: Stream Date
+            name: date
+            widget: datetime
           - label: Project id (Make-a-wish)
             name: makeAWishProjectId
             widget: string
           - label: Description
             name: descripion
             widget: string
-          - label: Image
-            name: imgUrl
-            widget: image
-          - label: Date
-            name: date
-            widget: datetime
+          - label: Tagline
+            name: tagline
+            widget: string
+          - label: Child Name
+            name: childname
+            widget: string

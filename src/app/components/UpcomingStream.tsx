@@ -38,6 +38,7 @@ const UpcomingStreamDate = styled.p`
 `
 
 export interface UpcomingStreamProps {
+	date: string
 	streamerName: string
 	streamerChannel: string
 	streamLink: string
@@ -46,7 +47,6 @@ export interface UpcomingStreamProps {
 	imgUrl: string
 	donationGoal: string
 	donationProgress: string
-	date: Date
 }
 
 const UpcomingStreamIcon = styled.img`
@@ -56,12 +56,12 @@ const UpcomingStreamIcon = styled.img`
 `
 
 const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
+	date,
 	streamerName,
 	streamLink,
 	streamerChannel,
 	descripion,
 	imgUrl,
-	date,
 	donationGoal,
 	donationProgress,
 }: UpcomingStreamProps) => {
@@ -83,7 +83,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 		<StyledUpcomingStream>
 			<UpcomingStreamDate>
 				<BsCalendar style={{ marginRight: '8px' }} />
-				<span>{formatDate(date)}</span>
+				<span>{formatDate(new Date(date))}</span>
 			</UpcomingStreamDate>
 			<ClientLink href={donateLinkHref}>
 				<StreamerImageWrapper>
