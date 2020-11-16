@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import { useRouter } from 'next/router'
 import rawCmsContent from '../../../_posts/frontpage/charity-royale.md'
@@ -7,19 +7,42 @@ import DonationHeader from '../../app/components/DonationHeader'
 import DonationWidget from '../../app/components/DonationWidget'
 import DonationWidgetCount from '../../app/components/DonationWidgetCount'
 import DonationWidgetList, { List } from '../../app/components/DonatorsWidgetList'
-import {
-	StyledDonationFormIframe,
-	StyledDonationSumWidget,
-	StyledDonatorsWidget,
-	StyledLatestDonatorssWidget,
-} from '../../styles/common.styles'
+import { StyledDonationSumWidget, StyledDonatorsWidget, StyledLatestDonatorssWidget } from '../../styles/common.styles'
 import DonationLayout from '../../app/layouts/DonationLayout'
 import PageWithLayoutType from '../../app/types/PageWithLayout'
 import { makeAWishAPI } from '../../config'
 import useMakeAWish from '../../app/hooks/useMakeAWish'
 import { MakeWishDonationProjectDTO } from '../../app/dto/MakeAWishDonationsDTO'
 import { formatDateDefault } from '../../app/utils/formatUtils'
+import { styled } from '../../styles/Theme'
+import Skeleton from 'react-loading-skeleton'
+import { useIsSSR } from '../../app/components/isSSR'
 import { CmsContent, Upcoming } from '../../app/types/CmsContent'
+
+const DonationIFrameWrapper = styled.div`
+	grid-area: donation-form;
+`
+
+const DonationFormHeader = styled.p`
+	background-color: ${(p) => p.theme.color.veniPurple};
+	text-align: left;
+	padding: ${(p) => p.theme.space.m}px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
+	font-size: ${(p) => p.theme.fontSize.l}px;
+	color: ${(p) => p.theme.color.white};
+	font-weight: bold;
+`
+
+const StyledDonationFormIframe = styled.iframe`
+	width: 100%;
+	border: none;
+`
+
+const IFrameLoadErrorMessage = styled.p`
+	color: ${(p) => p.theme.color.white};
+`
 
 interface InitialDonationProps {
 	project: Upcoming
@@ -29,6 +52,10 @@ const cmsContent = rawCmsContent.attributes as CmsContent
 
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
 	const router = useRouter()
+	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by form
+	const [iFrameLoading, setIFrameLoaded] = useState(true)
+	const [iFrameError, setIFrameError] = useState(false)
+	const isSSR = useIsSSR()
 	const { streamer } = router.query
 
 	const makeAWish = useMakeAWish()
@@ -49,6 +76,25 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 		}))
 	}
 
+	useEffect(() => {
+		const handler = (event) => {
+			const data = event.data
+			if (data.hasOwnProperty('frameHeight')) {
+				setIframeHeight(`${data.frameHeight}px`)
+			}
+		}
+		window.addEventListener('message', handler)
+		return () => window.removeEventListener('message', handler)
+	}, [])
+
+	const iFrameLoaded = useCallback(() => {
+		setIFrameLoaded(false)
+	}, [])
+
+	const iFrameLoadedError = useCallback(() => {
+		setIFrameError(true)
+	}, [])
+
 	return (
 		<>
 			<Head>
@@ -57,10 +103,23 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 
 			<DonationHeader title={`Spendenprojekt: ${project.streamerName}`} description={project.descripion} />
 
-			<StyledDonationFormIframe
-				src={`${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}`}
-				title="Spendenformular"
-			/>
+			<DonationIFrameWrapper>
+				<DonationFormHeader>Spendenformular</DonationFormHeader>
+				{iFrameLoading && <Skeleton height={'843px'} />}
+				{iFrameError && (
+					<IFrameLoadErrorMessage>Leider ist ein Fehler beim laden des Formular aufgetreten.</IFrameLoadErrorMessage>
+				)}
+				{!isSSR && (
+					<StyledDonationFormIframe
+						height={iFrameHeight}
+						onLoad={iFrameLoaded}
+						onError={iFrameLoadedError}
+						id="iframe"
+						src={`${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}`}
+						title="Spendenformular"
+					/>
+				)}
+			</DonationIFrameWrapper>
 
 			<StyledDonationSumWidget>
 				<DonationWidget title={'Spendensumme'}>

@@ -231,13 +231,6 @@ export const StyleUpcomingStreamsTitle = styled.h5`
 	}
 `
 
-export const StyledDonationFormIframe = styled.iframe`
-	width: 100%;
-	height: 850px;
-	border: none;
-	grid-area: donation-form;
-`
-
 export const StyledDonationSumWidget = styled.div`
 	grid-area: donation-widget-top-donation-sum;
 	background-color: ${(p) => p.theme.color.white};
