@@ -3,174 +3,231 @@ title: Charity Royale
 date: 2020-10-28T21:45:39.757Z
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: veni
+faq:
+  - question: Wie spät ist es?
+    answer: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+      eirmodtempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      voluptua. At vero eos et accusam etusto duo dolores et ea rebum. Stet
+      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolorsit
+      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+      nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed
+      diam voluptua.
 upcoming:
-  - date: 2020-12-01T17:00:00.000Z
-    streamerName: BastiGHG
+  - descripion: blablub
+    childname: child1
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-01T17:00:00.000Z
     streamerChannel: bastighg
+    streamerName: BastiGHG
     streamLink: https://www.twitch.tv/bastighg
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 3
-    descripion: blablub
-  - date: 2020-12-02T19:00:00.000Z
-    streamerName: Stegi
-    streamerChannel: stegi
-    streamLink: https://www.twitch.tv/Stegi
+  - descripion: blablub
+    childname: child2
     imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-02T19:00:00.000Z
+    streamerChannel: stegi
+    streamerName: Stegi
+    streamLink: https://www.twitch.tv/Stegi
     makeAWishProjectId: 4
-    descripion: blablub
-  - date: 2020-12-01T19:00:00.000Z
-    streamerName: Veni
+  - descripion: blabla
+    childname: child3
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-01T19:00:00.000Z
     streamerChannel: veni
+    streamerName: Veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: 1
-    descripion: blabla
+  - descripion: blablub
+    childname: child4
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-  - date: 2020-12-14T19:00:00.000Z
-    streamerName: Revedtv
+    tagline: Some cool tagline
+    date: 2020-12-14T19:00:00.000Z
     streamerChannel: revedtv
+    streamerName: Revedtv
     streamLink: https://www.twitch.tv/revedtv
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 2
-    descripion: blablub
-  - date: 2020-12-06T19:00:00.000Z
-    streamerName: JustBecci
+  - descripion: blablub
+    childname: child5
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-06T19:00:00.000Z
     streamerChannel: beccisplayground
+    streamerName: JustBecci
     streamLink: https://www.twitch.tv/beccisplayground
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 5
-    descripion: blablub
-  - date: 2020-12-07T21:00:00.000Z
-    streamerName: Zander
+  - descripion: blablub
+    childname: child6
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-07T21:00:00.000Z
     streamerChannel: zander
+    streamerName: Zander
     streamLink: https://www.twitch.tv/zander
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 6
-    descripion: blablub
-  - date: 2020-12-09T18:00:00.000Z
-    streamerName: Fabo
+  - descripion: blablub
+    childname: child7
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-09T18:00:00.000Z
     streamerChannel: thefabo
+    streamerName: Fabo
     streamLink: https://www.twitch.tv/thefabo
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 7
-    descripion: blablub
-  - date: 2020-12-10T19:00:00.000Z
-    streamerName: Eni
+  - descripion: blablub
+    childname: child8
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-10T19:00:00.000Z
     streamerChannel: xoynuzi
+    streamerName: Eni
     streamLink: https://www.twitch.tv/xoynuzi
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 8
-    descripion: blablub
-  - date: 2020-12-11T19:45:00.000Z
-    streamerName: Luigikid
+  - descripion: blablub
+    childname: child9
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-11T19:45:00.000Z
     streamerChannel: luigikid
+    streamerName: Luigikid
     streamLink: https://www.twitch.tv/luigikid
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 9
-    descripion: blablub
-  - date: 2020-12-17T19:00:00.000Z
-    streamerName: NebelNiek
+  - descripion: blablub
+    childname: child10
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-17T19:00:00.000Z
     streamerChannel: nebelniek
+    streamerName: NebelNiek
     streamLink: https://www.twitch.tv/nebelniek
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 10
-    descripion: blablub
-  - date: 2020-12-18T19:00:00.000Z
-    streamerName: Henke
+  - descripion: blablub
+    childname: child11
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-18T19:00:00.000Z
     streamerChannel: henke
+    streamerName: Henke
     streamLink: https://www.twitch.tv/henke
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 11
-    descripion: blablub
-  - date: 2020-12-12T19:00:00.000Z
+  - descripion: blablub
+    childname: child12
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-12T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 12
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 12
-    descripion: blablub
-  - date: 2020-12-13T19:00:00.000Z
+  - descripion: blablub
+    childname: child13
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-13T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 13
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 13
-    descripion: blablub
-  - date: 2020-12-14T19:00:00.000Z
+  - descripion: blablub
+    childname: child14
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-14T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 14
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 14
-    descripion: blablub
-  - date: 2020-12-15T19:00:00.000Z
+  - descripion: blablub
+    childname: child15
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-15T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 15
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 15
-    descripion: blablub
-  - date: 2020-12-16T19:00:00.000Z
+  - descripion: blablub
+    childname: child16
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-16T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 16
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 16
-    descripion: blablub
-  - date: 2020-12-17T19:00:00.000Z
+  - descripion: blablub
+    childname: child17
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-17T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 17
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 17
-    descripion: blablub
-  - date: 2020-12-18T19:00:00.000Z
+  - descripion: blablub
+    childname: child18
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-18T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 18
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 18
-    descripion: blablub
-  - date: 2020-12-19T19:00:00.000Z
+  - descripion: blablub
+    childname: child19
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-19T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 19
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 19
-    descripion: blablub
-  - date: 2020-12-20T19:00:00.000Z
+  - descripion: blablub
+    childname: child20
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-20T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 20
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 20
-    descripion: blablub
-  - date: 2020-12-21T19:00:00.000Z
+  - descripion: blablub
+    childname: child21
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-21T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 21
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 21
-    descripion: blablub
-  - date: 2020-12-22T19:00:00.000Z
+  - descripion: blablub
+    childname: child22
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-22T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 22
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 22
-    descripion: blablub
-  - date: 2020-12-23T19:00:00.000Z
+  - descripion: blablub
+    childname: child23
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-23T19:00:00.000Z
+    streamerChannel: veni
     streamerName: Other Streamer 23
-    streamerChannel: veni
     streamLink: https://www.twitch.tv/twitch
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: 23
-    descripion: blablub
-  - date: 2020-12-24T19:00:00.000Z
-    streamerName: Other Streamer 24
-    streamerChannel: veni
-    streamLink: https://www.twitch.tv/twitch
+  - descripion: blablub
+    childname: child24
     imgUrl: /uploads/charity_royale_rgb_300x300.png
+    tagline: Some cool tagline
+    date: 2020-12-24T19:00:00.000Z
+    streamerChannel: veni
+    streamerName: Other Streamer 24
+    streamLink: https://www.twitch.tv/twitch
     makeAWishProjectId: 24
-    descripion: blablub
 ---
 Hi **there**
