@@ -4,7 +4,6 @@ TODO
 - light / dark mode
 - implement placeholder streambox --> by cms (TBA info)
 - add different favicon
-- info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte) - text
 - recommendation projects to donate to
 - donationpage indicator on streamer boxes
 - on hover twitch screen
@@ -13,6 +12,7 @@ TODO
 
 DONE
 
+- basic version info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte) - text
 - loader donationform
 - resize donation iframe form on postMessage
 - add responsive videos, iframe and embed component
