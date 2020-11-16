@@ -15,6 +15,11 @@ export interface FAQEntry {
 	answer: string
 }
 
+export interface FAQVideoEntry {
+	url: string
+	name: string
+}
+
 export interface CmsContent {
 	title: string
 	date: string
@@ -22,4 +27,5 @@ export interface CmsContent {
 	featuredStream: string
 	upcoming: Array<Upcoming>
 	faq: Array<FAQEntry>
+	faqvideos: Array<FAQVideoEntry>
 }

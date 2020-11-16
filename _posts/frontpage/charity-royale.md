@@ -12,6 +12,27 @@ faq:
       amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
       nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed
       diam voluptua.
+  - question: Wie spät ist es?
+    answer: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+      eirmodtempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      voluptua. At vero eos et accusam etusto duo dolores et ea rebum. Stet
+      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolorsit
+      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+      nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed
+      diam voluptua.
+  - question: Wie spät ist es?
+    answer: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+      eirmodtempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      voluptua. At vero eos et accusam etusto duo dolores et ea rebum. Stet
+      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolorsit
+      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+      nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed
+      diam voluptua.
+faqvideos:
+  - url: https://www.youtube-nocookie.com/embed/Vyfb7EzbJbQ
+    name: Video 1
+  - url: https://www.youtube-nocookie.com/embed/Vyfb7EzbJbQ
+    name: Video 2
 upcoming:
   - descripion: blablub
     childname: child1
