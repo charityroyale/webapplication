@@ -9,6 +9,7 @@ TODO
 - on hover twitch screen
 - tagline for subdonationpages (e.g. "v. will in den zoo")
 - FAQ 1 youtube embedded box with preview and description donations (under featured stream)
+- add trophy to top donator list and enhance generic usage for last-donators
 
 DONE
 
