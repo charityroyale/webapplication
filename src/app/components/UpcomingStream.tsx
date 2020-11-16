@@ -15,6 +15,7 @@ import { useIsSSR } from './isSSR'
 import ClientLink from './ClientLink'
 
 export interface UpcomingStreamProps {
+	date: string
 	streamerName: string
 	streamerChannel: string
 	streamLink: string
@@ -23,7 +24,6 @@ export interface UpcomingStreamProps {
 	imgUrl: string
 	donationGoal: string
 	donationProgress: string
-	date: Date
 }
 
 const UpcomingStreamIcon = styled.img`
@@ -38,7 +38,6 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 	streamerChannel,
 	descripion,
 	imgUrl,
-	date,
 	donationGoal,
 	donationProgress,
 }: UpcomingStreamProps) => {

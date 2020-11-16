@@ -19,27 +19,10 @@ import { makeAWishAPI } from '../../config'
 import useMakeAWish from '../../app/hooks/useMakeAWish'
 import { MakeWishDonationProjectDTO } from '../../app/dto/MakeAWishDonationsDTO'
 import { formatDateDefault } from '../../app/utils/formatUtils'
+import { CmsContent, Upcoming } from '../../app/types/CmsContent'
 
 interface InitialDonationProps {
 	project: Upcoming
-}
-
-interface Upcoming {
-	date: string
-	streamerName: string
-	streamerChannel: string
-	streamLink: string
-	makeAWishProjectId: string
-	descripion: string
-	imgUrl: string
-}
-
-interface CmsContent {
-	title: string
-	date: string
-	thumbnail: string
-	featuredStream: string
-	upcoming: Array<Upcoming>
 }
 
 const cmsContent = rawCmsContent.attributes as CmsContent
