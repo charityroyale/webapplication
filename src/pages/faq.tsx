@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react'
-import { NextPage } from 'next'
+import { GetStaticProps, NextPage } from 'next'
+import cmsContent from '../../_posts/frontpage/charity-royale.md'
 import Head from 'next/head'
 import PageWithLayoutType from '../app/types/PageWithLayout'
 import MainLayout from '../app/layouts/MainLayout'
@@ -81,6 +82,10 @@ const FaqQuestionBox: FunctionComponent<FaqQuestionBoxProps> = ({ question, answ
 const text =
 	'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmodtempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam etusto duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolorsit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed diam voluptua.'
 
+interface InitialFaqPageProps {
+	featuredStream?: string
+}
+
 const FaqPage: NextPage = () => {
 	return (
 		<>
@@ -105,4 +110,10 @@ const FaqPage: NextPage = () => {
 
 ;(FaqPage as PageWithLayoutType).layout = MainLayout
 
+export const getStaticProps: GetStaticProps<InitialFaqPageProps> = async () => {
+	const featuredStream = cmsContent.attributes.featuredStream
+	return {
+		props: { featuredStream },
+	}
+}
 export default FaqPage
