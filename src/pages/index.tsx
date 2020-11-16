@@ -17,7 +17,7 @@ export interface InitialAppProps {
 }
 
 const cmsContent = rawCmsContent.attributes as CmsContent
-const websiteReleased = true
+const websiteReleased = false
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 	const { schedule, featuredStream } = props
