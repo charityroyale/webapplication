@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import { useRouter } from 'next/router'
 import rawCmsContent from '../../../_posts/frontpage/charity-royale.md'
@@ -15,6 +15,8 @@ import useMakeAWish from '../../app/hooks/useMakeAWish'
 import { MakeWishDonationProjectDTO } from '../../app/dto/MakeAWishDonationsDTO'
 import { formatDateDefault } from '../../app/utils/formatUtils'
 import { styled } from '../../styles/Theme'
+import Skeleton from 'react-loading-skeleton'
+import { useIsSSR } from '../../app/components/isSSR'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
@@ -27,7 +29,7 @@ const DonationFormHeader = styled.p`
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 500;
-	font-size: ${(p) => p.theme.fontSize.xl}px;
+	font-size: ${(p) => p.theme.fontSize.l}px;
 	color: ${(p) => p.theme.color.white};
 	font-weight: bold;
 `
@@ -35,6 +37,10 @@ const DonationFormHeader = styled.p`
 const StyledDonationFormIframe = styled.iframe`
 	width: 100%;
 	border: none;
+`
+
+const IFrameLoadErrorMessage = styled.p`
+	color: ${(p) => p.theme.color.white};
 `
 
 interface InitialDonationProps {
@@ -64,6 +70,9 @@ const cmsContent = rawCmsContent.attributes as CmsContent
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
 	const router = useRouter()
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by form
+	const [iFrameLoading, setIFrameLoaded] = useState(true)
+	const [iFrameError, setIFrameError] = useState(false)
+	const isSSR = useIsSSR()
 	const { streamer } = router.query
 
 	const makeAWish = useMakeAWish()
@@ -95,6 +104,14 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 		return () => window.removeEventListener('message', handler)
 	}, [])
 
+	const iFrameLoaded = useCallback(() => {
+		setIFrameLoaded(false)
+	}, [])
+
+	const iFrameLoadedError = useCallback(() => {
+		setIFrameError(true)
+	}, [])
+
 	return (
 		<>
 			<Head>
@@ -105,12 +122,20 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 
 			<DonationIFrameWrapper>
 				<DonationFormHeader>Spendenformular</DonationFormHeader>
-				<StyledDonationFormIframe
-					height={iFrameHeight}
-					id="iframe"
-					src={`${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}`}
-					title="Spendenformular"
-				/>
+				{iFrameLoading && <Skeleton height={'843px'} />}
+				{iFrameError && (
+					<IFrameLoadErrorMessage>Leider ist ein Fehler beim laden des Formular aufgetreten.</IFrameLoadErrorMessage>
+				)}
+				{!isSSR && (
+					<StyledDonationFormIframe
+						height={iFrameHeight}
+						onLoad={iFrameLoaded}
+						onError={iFrameLoadedError}
+						id="iframe"
+						src={`${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}`}
+						title="Spendenformular"
+					/>
+				)}
 			</DonationIFrameWrapper>
 
 			<StyledDonationSumWidget>
