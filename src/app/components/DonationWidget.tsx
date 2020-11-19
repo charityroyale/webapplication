@@ -7,7 +7,6 @@ interface DonationWidgetProps {
 }
 
 const StyledWidgetHeader = styled.p`
-	background-color: ${(p) => p.theme.color.veniPurple};
 	text-align: center;
 	padding: ${(p) => p.theme.space.m}px ${(p) => p.theme.space.l}px;
 	text-transform: uppercase;

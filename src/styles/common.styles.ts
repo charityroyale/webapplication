@@ -8,15 +8,17 @@ export const Heading = styled.h1`
 	}
 `
 
-export const DonateButton = styled.button`
+export const DonateButton = styled.a`
 	padding: 24px 48px;
+	text-decoration: none;
 	background-color: ${(p) => p.theme.color.veniPurple};
 	border: 2px solid ${(p) => p.theme.color.royaleGold};
 	color: ${(p) => p.theme.color.white};
 	font-size: ${(p) => p.theme.fontSize.l}px;
 	letter-spacing: 3px;
 	font-family: inherit;
-	display: inline-block;
+	display: flex;
+	align-items: center;
 	font-weight: 600;
 	margin: 10px 0 10px 10px;
 
@@ -65,8 +67,8 @@ export const StyledHeaderRightItem = styled.div`
 	justify-content: flex-end;
 
 	${(p) => p.theme.media.phone} {
+		width: 100%;
 		margin-top: ${(p) => p.theme.space.xl}px;
-		justify-content: center;
 	}
 
 	${(p) => p.theme.media.tablet} {
@@ -93,7 +95,7 @@ export const StyledMain = styled.main`
 	grid-template-rows: auto auto auto;
 	grid-template-areas: 'featured' 'faq-box' 'featured-header' 'upcoming';
 
-	padding-top: 20px; // charity royale logo
+	padding-top: 20px;
 	background-color: ${(p) => p.theme.color.veniPurple};
 `
 
@@ -217,7 +219,7 @@ export const StyledKalenderDownloadLink = styled.a`
 	font-weight: 300;
 `
 
-export const StyleUpcomingStreamsTitle = styled.h5`
+export const StyleUpcomingStreamsTitle = styled.h2`
 	font-size: 54px;
 
 	${(p) => p.theme.media.tablet} {
@@ -231,23 +233,21 @@ export const StyleUpcomingStreamsTitle = styled.h5`
 
 export const StyledDonationSumWidget = styled.div`
 	grid-area: donation-widget-top-donation-sum;
-	background-color: ${(p) => p.theme.color.white};
 `
 
 export const StyledDonatorsWidget = styled.div`
 	grid-area: donation-widget-top-donators;
-	background-color: ${(p) => p.theme.color.white};
 `
 
 export const StyledLatestDonatorssWidget = styled.div`
 	grid-area: donation-widget-top-latest-donators;
-	background-color: ${(p) => p.theme.color.white};
 `
 
 export const StyledDonationMainGrid = styled.div`
 	display: grid;
+	grid-area: main;
 	margin: auto;
-	padding: 0 ${(p) => p.theme.space.xxl}px;
+	padding: 0 ${(p) => p.theme.space.xl}px;
 	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 	grid-template-areas:
@@ -255,6 +255,17 @@ export const StyledDonationMainGrid = styled.div`
 		'donation-form donation-form donation-widget-top-donation-sum'
 		'donation-form donation-form donation-widget-top-donators'
 		'donation-form donation-form donation-widget-top-latest-donators';
+
+	${(p) => p.theme.media.tablet} {
+		width: 100%;
+		grid-template-columns: 1fr 1fr;
+		padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
+		grid-template-areas:
+			'donation-header donation-header'
+			'donation-form donation-form'
+			'donation-widget-top-donation-sum donation-widget-top-donators'
+			'donation-widget-top-latest-donators donation-widget-top-latest-donators';
+	}
 
 	${(p) => p.theme.media.phone} {
 		width: 100%;
@@ -266,15 +277,5 @@ export const StyledDonationMainGrid = styled.div`
 			'donation-widget-top-donation-sum'
 			'donation-widget-top-donators'
 			'donation-widget-top-latest-donators';
-	}
-
-	${(p) => p.theme.media.tablet} {
-		width: 100%;
-		grid-template-columns: 1fr 1fr;
-		grid-template-areas:
-			'donation-header donation-header'
-			'donation-form donation-form'
-			'donation-widget-top-donation-sum donation-widget-top-donators'
-			'donation-widget-top-latest-donators donation-widget-top-latest-donators';
 	}
 `

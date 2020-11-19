@@ -1,6 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
 import { styled } from '../../styles/Theme'
-import ClientLink from './ClientLink'
 
 const FaqGrid = styled.div`
 	grid-area: faq-box;
@@ -24,7 +24,7 @@ const FaqGrid = styled.div`
 	}
 `
 
-const FaqButton = styled.button`
+const FaqButton = styled.a`
 	width: 100%;
 	height: 100%;
 	border: 2px solid ${(p) => p.theme.color.royaleGold};
@@ -56,9 +56,9 @@ const FaqBox: React.FunctionComponent = () => {
 	return (
 		<FaqGrid>
 			<FaqGridButtonItem>
-				<ClientLink href="/faq">
-					<FaqButton aria-label={'Fragen und Antworten'}>Fragen & Antworten</FaqButton>
-				</ClientLink>
+				<Link href="/faq">
+					<FaqButton href="/faq">Fragen & Antworten</FaqButton>
+				</Link>
 			</FaqGridButtonItem>
 		</FaqGrid>
 	)

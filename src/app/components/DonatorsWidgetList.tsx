@@ -23,14 +23,15 @@ const DonationListRow = styled.div`
 
 const DonationList = styled.div`
 	font-size: ${(p) => p.theme.fontSize.m}px;
+	color: ${(p) => p.theme.color.white};
 
-	${DonationListRow}:not(:last-child) {
-		border-bottom: 2px solid ${(p) => p.theme.color.veniPurple};
+	> div:not(:last-child) {
+		border-bottom: 1px solid ${(p) => p.theme.color.white};
 	}
 `
 
 const DonationAmount = styled.div`
-	color: ${(p) => p.theme.color.veniPurple};
+	color: ${(p) => p.theme.color.white};
 	font-weight: 800;
 `
 

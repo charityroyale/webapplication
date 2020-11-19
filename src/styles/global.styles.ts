@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
 		box-sizing: border-box;
 	}
 
-	p, div, h5 {
+	p, div, h2, h5 {
 		margin: 0;
 	}
 

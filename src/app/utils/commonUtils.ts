@@ -7,7 +7,7 @@ const maxWidth = 972 // 300px x 3 grid item with + 72px padding width
 
 export const responsiveMaxSizeThreshold = {
 	phone: 576,
-	tablet: 768,
+	tablet: 910,
 	desktop: 9999999,
 }
 

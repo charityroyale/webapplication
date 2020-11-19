@@ -1,6 +1,8 @@
 TODO
 
 - accessibility checks
+- add makeawish logo
+- add cms tagline
 - light / dark mode
 - implement placeholder streambox --> by cms (TBA info)
 - add different favicon
@@ -13,6 +15,7 @@ TODO
 
 DONE
 
+- fix accessibility issues
 - basic version info about donations over the limit (spenden darüberhinaus gehen a make-a-wish projekte) - text
 - loader donationform
 - resize donation iframe form on postMessage
