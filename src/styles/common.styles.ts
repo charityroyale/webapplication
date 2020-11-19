@@ -20,7 +20,7 @@ export const DonateButton = styled.a`
 	display: flex;
 	align-items: center;
 	font-weight: 600;
-	margin: 10px 0 10px 10px;
+	margin: 12px 0 12px 10px;
 
 	${(p) => p.theme.media.phone} {
 		margin: 0;
