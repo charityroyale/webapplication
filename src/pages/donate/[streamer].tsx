@@ -119,7 +119,10 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 				<title>Charity Royale 2020 - Spenden</title>
 			</Head>
 
-			<DonationHeader title={`Spendenprojekt: ${project.streamerName}`} description={project.descripion} />
+			<DonationHeader
+				title={`Spendenprojekt: ${project.tagline} unterstützt von ${project.streamerName}`}
+				description={project.descripion}
+			/>
 
 			<DonationIFrameWrapper>
 				<DonationFormHeader>Spendenformular</DonationFormHeader>
