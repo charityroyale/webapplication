@@ -18,6 +18,7 @@ import { styled } from '../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
 import { useIsSSR } from '../../app/components/isSSR'
 import { CmsContent, Upcoming } from '../../app/types/CmsContent'
+import { ImTrophy } from 'react-icons/im'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
@@ -50,6 +51,23 @@ interface InitialDonationProps {
 
 const cmsContent = rawCmsContent.attributes as CmsContent
 
+const getTopDonatorFirstColum = (index) => {
+	switch (index) {
+		case 0: {
+			return <ImTrophy color={'gold'} />
+		}
+		case 1: {
+			return <ImTrophy color={'silver'} />
+		}
+		case 2: {
+			return <ImTrophy color={'sandybrown'} />
+		}
+		default: {
+			return ``
+		}
+	}
+}
+
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
 	const router = useRouter()
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by form
@@ -70,7 +88,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			col_3: r.amount,
 		}))
 		highestDonatorsList = makeAWishProject.top_donators.map((r, i) => ({
-			col_1: `${i + 1}.`,
+			col_1: getTopDonatorFirstColum(i),
 			col_2: r.name,
 			col_3: r.amount,
 		}))

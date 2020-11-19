@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import { styled } from '../../styles/Theme'
 
 export interface List {
-	col_1: string
+	col_1: string | ReactElement
 	col_2: string
 	col_3: string
 }
