@@ -17,7 +17,7 @@ const CurrentAmountDisplay = styled.div`
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%);
-	color: ${(p) => p.theme.color.veniPurple};
+	color: ${(p) => p.theme.color.white};
 `
 const GoalAmountDisplay = styled.div`
 	font-size: ${(p) => p.theme.fontSize.xl}px;
@@ -28,13 +28,18 @@ const GoalAmountDisplay = styled.div`
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%);
-	color: ${(p) => p.theme.color.veniPurple};
+	color: ${(p) => p.theme.color.white};
 `
 
 const GoalReachedTitle = styled.p`
 	text-align: center;
+	color: ${(p) => p.theme.color.white};
 	font-weight: 500;
 	margin: 18px 0;
+`
+
+const GoalReachedText = styled.p`
+	color: ${(p) => p.theme.color.white};
 `
 
 const GoalReachCount = styled.span`
@@ -43,7 +48,7 @@ const GoalReachCount = styled.span`
 `
 
 const MakeAWishLink = styled.a`
-	color: ${(p) => p.theme.color.veniPurple};
+	color: ${(p) => p.theme.color.white};
 `
 
 const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = ({
@@ -85,10 +90,10 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 			{hasReachedGoal && (
 				<div>
 					<GoalReachedTitle>Winner Winner Chicken Dinner, Spendenziel erreicht!</GoalReachedTitle>
-					<p>
+					<GoalReachedText>
 						Die Spendendifferenz von <GoalReachCount>{absDiff} €</GoalReachCount> wird an unerfüllte{' '}
 						<MakeAWishLink href={'https://www.make-a-wish.at/'}>make-a-wish.at</MakeAWishLink> Projekte gespendet.
-					</p>
+					</GoalReachedText>
 				</div>
 			)}
 		</React.Fragment>

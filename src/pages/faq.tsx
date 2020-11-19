@@ -48,7 +48,7 @@ const FaqVideoSection = styled.div`
 	}
 `
 
-const FaqContentHeader = styled.h5`
+const FaqContentHeader = styled.h2`
 	font-size: ${(p) => p.theme.fontSize.xl}px;
 	grid-area: faq-header;
 `

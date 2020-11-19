@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import { styled } from '../../styles/Theme'
 
 export interface List {
-	col_1: string
+	col_1: string | ReactElement
 	col_2: string
 	col_3: string
 }
@@ -23,14 +23,15 @@ const DonationListRow = styled.div`
 
 const DonationList = styled.div`
 	font-size: ${(p) => p.theme.fontSize.m}px;
+	color: ${(p) => p.theme.color.white};
 
-	${DonationListRow}:not(:last-child) {
-		border-bottom: 2px solid ${(p) => p.theme.color.veniPurple};
+	> div:not(:last-child) {
+		border-bottom: 1px solid ${(p) => p.theme.color.white};
 	}
 `
 
 const DonationAmount = styled.div`
-	color: ${(p) => p.theme.color.veniPurple};
+	color: ${(p) => p.theme.color.white};
 	font-weight: 800;
 `
 
