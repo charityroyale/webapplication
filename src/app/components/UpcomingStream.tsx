@@ -93,7 +93,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 							style={{ display: imageLoaded ? 'flex' : 'none' }}
 							onLoad={onImageLoad}
 							src={imgUrl}
-							alt="Logo für StreamProjekt"
+							alt={`Streamer ${streamerName} Logo`}
 						/>
 					)}
 					<StreamProjectDateWrapper>
@@ -111,7 +111,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 								onLoad={onIconImageLoad}
 								style={{ display: !iconLoaded ? 'none' : 'flex' }}
 								src={imgUrl}
-								alt="Logo des Streamers"
+								alt={`Streamer ${streamerName} Logo`}
 							/>
 						)}
 					</ClientLink>
