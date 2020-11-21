@@ -81,13 +81,19 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 				<FooterListTitle>Veranstalter</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
-						<a href={'https://willhaben.at/'}>willhaben</a>
+						<a target="_bank" rel="noreferrer" href={'https://willhaben.at/'}>
+							willhaben
+						</a>
 					</FooterListItem>
 					<FooterListItem>
-						<a href={'https://www.make-a-wish.at/'}>make-a-wish</a>
+						<a target="_bank" rel="noreferrer" href={'https://www.make-a-wish.at/'}>
+							make-a-wish
+						</a>
 					</FooterListItem>
 					<FooterListItem>
-						<a href={'https://twitter.com/Venitroll'}>Veni</a>
+						<a target="_bank" rel="noreferrer" href={'https://twitter.com/Venitroll'}>
+							Veni
+						</a>
 					</FooterListItem>
 				</FooterList>
 			</FooterCenterGridItem>
@@ -95,7 +101,9 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 				<FooterListTitle>Impressum</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
-						<a href={'https://www.willhaben.at/iad/impressum'}>willhaben</a>
+						<a target="_bank" rel="noreferrer" href={'https://www.willhaben.at/iad/impressum'}>
+							willhaben
+						</a>
 					</FooterListItem>
 					<FooterListItem>
 						willhaben internet service GmbH & Co KG <br /> Landstraßer Hauptstraße 97-101 <br /> Bürozentrum 1 1030 Wien

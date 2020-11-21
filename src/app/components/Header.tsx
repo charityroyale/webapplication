@@ -103,7 +103,7 @@ const Header: React.FunctionComponent<{ featuredStream: string; showDonationButt
 					<h1 style={{ textIndent: '-10000px' }}>Charity Royale 2020</h1>
 				</StyledHeaderLeftItem>
 				<StyledHeaderCenterItem>
-					<MakeAWishLogoLink href="https://www.make-a-wish.at/">
+					<MakeAWishLogoLink target="_bank" rel="noreferrer" href="https://www.make-a-wish.at/">
 						{!isSSR && (
 							<img
 								onLoad={onImageLoad}
