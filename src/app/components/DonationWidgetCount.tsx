@@ -1,41 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import { styled } from '../../styles/Theme'
-import { Circle } from 'rc-progress'
 import { getPercentage } from '../utils/commonUtils'
+import { GiChickenOven } from 'react-icons/gi'
 
 interface DonationWidgetCountProps {
 	current_amount: string
 	donation_goal_amount: string
 }
 
-const CurrentAmountDisplay = styled.div`
-	font-size: ${(p) => p.theme.fontSize.xl}px;
-	text-align: center;
-	font-weight: bold;
-	position: absolute;
-	width: 100%;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%);
-	color: ${(p) => p.theme.color.white};
-`
-const GoalAmountDisplay = styled.div`
-	font-size: ${(p) => p.theme.fontSize.xl}px;
-	text-align: center;
-	font-weight: bold;
-	position: absolute;
-	width: 100%;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%);
-	color: ${(p) => p.theme.color.white};
-`
-
 const GoalReachedTitle = styled.p`
 	text-align: center;
 	color: ${(p) => p.theme.color.white};
 	font-weight: 500;
-	margin: 18px 0;
+	margin: ${(p) => p.theme.space.m}px 0;
 `
 
 const GoalReachedText = styled.p`
@@ -69,26 +46,9 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 
 	return (
 		<React.Fragment>
-			<div style={{ position: 'relative' }}>
-				<CurrentAmountDisplay>
-					<div>Stand: {current_amount} €</div>
-				</CurrentAmountDisplay>
-				<GoalAmountDisplay>
-					<div>Ziel: {donation_goal_amount} €</div>
-				</GoalAmountDisplay>
-				<Circle
-					percent={hasReachedGoal ? 100 : percentage}
-					gapDegree={45}
-					gapPosition="top"
-					strokeWidth={6}
-					trailWidth={6}
-					strokeLinecap="round"
-					style={{ transform: 'rotateY(180deg)' }}
-					strokeColor={hasReachedGoal ? '#50C878' : '#231565'}
-				/>
-			</div>
 			{hasReachedGoal && (
-				<div>
+				<div style={{ padding: '0 18px 18px 18px', textAlign: 'center' }}>
+					<GiChickenOven size={125} color={'#ffc439'} />
 					<GoalReachedTitle>Winner Winner Chicken Dinner, Spendenziel erreicht!</GoalReachedTitle>
 					<GoalReachedText>
 						Die Spendendifferenz von <GoalReachCount>{absDiff} €</GoalReachCount> wird an unerfüllte{' '}

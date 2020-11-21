@@ -29,7 +29,7 @@ const DonationUnit = styled.div`
 	font-size: ${(p) => p.theme.fontSize.xl}px;
 `
 
-const DonationCountBox = styled.div`
+const StyledDonationCountBox = styled.div`
 	text-align: left;
 `
 
@@ -39,10 +39,27 @@ const DonationCountCol = styled.div`
 	justify-content: space-between;
 	padding: ${(p) => p.theme.space.m}px;
 
-	${DonationCountBox}:not(:last-child) {
+	${StyledDonationCountBox}:not(:last-child) {
 		margin-bottom: ${(p) => p.theme.space.m}px;
 	}
 `
+
+interface DonationCountBoxProps {
+	title: string
+	text: string
+}
+
+export const DonationCountBox: React.FunctionComponent<DonationCountBoxProps> = ({
+	title,
+	text,
+}: DonationCountBoxProps) => {
+	return (
+		<StyledDonationCountBox>
+			<DonationLabel>{title}</DonationLabel>
+			<DonationUnit>{text}</DonationUnit>
+		</StyledDonationCountBox>
+	)
+}
 
 const DonationHeaderCount: React.FunctionComponent<DonationHeaderCountProps> = ({
 	donation_goal,
@@ -53,25 +70,13 @@ const DonationHeaderCount: React.FunctionComponent<DonationHeaderCountProps> = (
 	return (
 		<DonationCountWrapper>
 			<DonationCountCol style={{ marginRight: '12px' }}>
-				<DonationCountBox>
-					<DonationLabel>Gespendet</DonationLabel>
-					<DonationUnit>€{current_donation_count.toLocaleString('de-DE')}</DonationUnit>
-				</DonationCountBox>
-				<DonationCountBox>
-					<DonationLabel>Ziel</DonationLabel>
-					<DonationUnit>€{donation_goal.toLocaleString('de-DE')}</DonationUnit>
-				</DonationCountBox>
+				<DonationCountBox title={'Gespendet'} text={`€${current_donation_count.toLocaleString('de-DE')}`} />
+				<DonationCountBox title={'Ziel'} text={`€${donation_goal.toLocaleString('de-DE')}`} />
 			</DonationCountCol>
 
 			<DonationCountCol>
-				<DonationCountBox>
-					<DonationLabel>Spender</DonationLabel>
-					<DonationUnit>{donations_count}</DonationUnit>
-				</DonationCountBox>
-				<DonationCountBox>
-					<DonationLabel>Erreicht </DonationLabel>
-					<DonationUnit>{percentage}%</DonationUnit>
-				</DonationCountBox>
+				<DonationCountBox title={'Spender'} text={donations_count.toString()} />
+				<DonationCountBox title={'Erreicht'} text={`${percentage}%`} />
 			</DonationCountCol>
 		</DonationCountWrapper>
 	)

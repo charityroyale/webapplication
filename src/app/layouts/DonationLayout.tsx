@@ -11,7 +11,7 @@ type LayoutProps = {
 const DonationLayout: React.FunctionComponent<LayoutProps> = ({ children, featuredStream }: LayoutProps) => {
 	return (
 		<StyledLayout>
-			<Header featuredStream={featuredStream} />
+			<Header featuredStream={featuredStream} showDonationButton={false} />
 			<StyledDonationMainGrid>{children}</StyledDonationMainGrid>
 			<Footer featuredStream={featuredStream} />
 		</StyledLayout>

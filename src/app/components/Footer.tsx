@@ -24,19 +24,11 @@ const FooterLeftGridItem = styled.div`
 
 const FooterCenterGridItem = styled.div`
 	grid-area: footer-center;
-
-	${(p) => p.theme.media.phone} {
-		text-align: right;
-	}
 `
 
 const FooterRightGridItem = styled.div`
 	text-align: right;
 	grid-area: footer-right;
-
-	${(p) => p.theme.media.phone} {
-		text-align: center;
-	}
 `
 
 const StyledFooter = styled.footer`
@@ -57,8 +49,9 @@ const StyledFooter = styled.footer`
 
 	${(p) => p.theme.media.phone} {
 		grid-template-areas:
-			'footer-left . footer-center '
-			'footer-right footer-right footer-right';
+			'footer-left . .'
+			'footer-center . .'
+			'footer-right footer-right .';
 	}
 `
 
