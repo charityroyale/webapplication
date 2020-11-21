@@ -35,9 +35,19 @@ const DonationHeaderCounterAndButtonWrapper = styled.div`
 	${(p) => p.theme.media.phone} {
 		width: 100%;
 		justify-content: space-between;
-		align-items: center;
 	}
 `
+
+const MakeAWishLogo = styled.img`
+	${(p) => p.theme.media.tablet} {
+		margin-top: ${(p) => p.theme.space.m}px;
+	}
+
+	${(p) => p.theme.media.phone} {
+		margin-top: ${(p) => p.theme.space.m}px;
+	}
+`
+
 interface DonationButtonProps {
 	featuredStream: string
 	text: string
@@ -58,9 +68,11 @@ const DonationButton: React.FunctionComponent<DonationButtonProps> = ({
 	)
 }
 
-const Header: React.FunctionComponent<{ featuredStream: string }> = ({
+const Header: React.FunctionComponent<{ featuredStream: string; showDonationButton?: boolean }> = ({
 	featuredStream,
+	showDonationButton = true,
 }: {
+	showDonationButton?: boolean
 	featuredStream: string
 }) => {
 	const isSSR = useIsSSR()
@@ -92,27 +104,29 @@ const Header: React.FunctionComponent<{ featuredStream: string }> = ({
 				</StyledHeaderLeftItem>
 				<StyledHeaderCenterItem>
 					{!isSSR && (
-						<img
+						<MakeAWishLogo
 							onLoad={onImageLoad}
 							style={{ display: !imageLoaded ? 'none' : 'flex' }}
-							width="200px"
-							src="/make_a_wish_logo.png"
+							width="250px"
+							src="/make-a-wish-oesterreich-logo-white.svg"
 							alt="Make a wish Logo"
 						/>
 					)}
 				</StyledHeaderCenterItem>
-				<StyledHeaderRightItem>
-					<DonationHeaderCounterAndButtonWrapper>
-						<DonationHeaderCount
-							donation_goal={50000}
-							current_donation_count={
-								makeAWish.isLoading || makeAWish.isError ? 0 : parseInt(makeAWish.data.total_donation_sum)
-							}
-							donations_count={makeAWish.isLoading || makeAWish.isError ? 0 : makeAWish.data.total_donation_count}
-						></DonationHeaderCount>
-						<DonationButton text={'SPENDEN'} featuredStream={featuredStream}></DonationButton>
-					</DonationHeaderCounterAndButtonWrapper>
-				</StyledHeaderRightItem>
+				{showDonationButton && (
+					<StyledHeaderRightItem>
+						<DonationHeaderCounterAndButtonWrapper>
+							<DonationHeaderCount
+								donation_goal={50000}
+								current_donation_count={
+									makeAWish.isLoading || makeAWish.isError ? 0 : parseInt(makeAWish.data.total_donation_sum)
+								}
+								donations_count={makeAWish.isLoading || makeAWish.isError ? 0 : makeAWish.data.total_donation_count}
+							></DonationHeaderCount>
+							<DonationButton text={'SPENDEN'} featuredStream={featuredStream}></DonationButton>
+						</DonationHeaderCounterAndButtonWrapper>
+					</StyledHeaderRightItem>
+				)}
 			</StyledHeaderContent>
 		</StyledHeader>
 	)

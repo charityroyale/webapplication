@@ -19,6 +19,8 @@ import Skeleton from 'react-loading-skeleton'
 import { useIsSSR } from '../../app/components/isSSR'
 import { CmsContent, Upcoming } from '../../app/types/CmsContent'
 import { ImTrophy } from 'react-icons/im'
+import { DonationCountBox } from '../../app/components/DonationHeaderCount'
+import { getPercentage } from '../../app/utils/commonUtils'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
@@ -68,6 +70,37 @@ const getTopDonatorFirstColum = (index) => {
 	}
 }
 
+const ProjectDonationStatsWrapper = styled.div`
+	display: grid;
+	height: 100%;
+	grid-template-columns: auto auto;
+	margin-left: ${(p) => p.theme.space.xl}px;
+	padding-left: ${(p) => p.theme.space.xl}px;
+
+	border-left: 2px solid ${(p) => p.theme.color.royaleGold};
+
+	& > div:nth-child(1) {
+		margin-bottom: ${(p) => p.theme.space.l}px;
+	}
+
+	& > div:nth-child(odd) {
+		margin-right: ${(p) => p.theme.space.l}px;
+	}
+
+	${(p) => p.theme.media.phone} {
+		& > div:nth-child(1) {
+			margin-bottom: 0;
+		}
+		margin-left: 0;
+		padding-left: 0;
+		border-left: none;
+		margin-top: ${(p) => p.theme.space.l}px;
+		padding-top: ${(p) => p.theme.space.l}px;
+		border-top: 2px solid ${(p) => p.theme.color.royaleGold};
+		grid-template-columns: auto auto auto auto;
+	}
+`
+
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
 	const router = useRouter()
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by form
@@ -116,13 +149,51 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	return (
 		<>
 			<Head>
-				<title>Charity Royale 2020 - Spenden</title>
+				<title>Charity Royal 2020 - {project.streamerName}</title>
 			</Head>
 
 			<DonationHeader
-				title={`Spendenprojekt: ${project.tagline} unterstützt von ${project.streamerName}`}
+				title={`${project.tagline} unterstützt von ${project.streamerName}`}
 				description={project.descripion}
-			/>
+			>
+				<ProjectDonationStatsWrapper>
+					<DonationCountBox
+						title={'Gespendet'}
+						text={`€${
+							makeAWish.isLoading || makeAWish.isError
+								? 0
+								: parseInt(makeAWishProject.current_donation_sum).toLocaleString('de-DE')
+						}`}
+					/>
+					<DonationCountBox
+						title={'Ziel'}
+						text={`€${
+							makeAWish.isLoading || makeAWish.isError
+								? 0
+								: parseInt(makeAWishProject.donation_goal).toLocaleString('de-DE')
+						}`}
+					/>
+					<DonationCountBox
+						title={'Spender'}
+						text={`${
+							makeAWish.isLoading || makeAWish.isError
+								? 0
+								: makeAWishProject.current_donation_count.toLocaleString('de-DE')
+						}`}
+					/>
+					<DonationCountBox
+						title={'Erreicht'}
+						text={`${
+							makeAWish.isLoading || makeAWish.isError
+								? 0
+								: getPercentage(
+										makeAWishProject.current_donation_count,
+										parseInt(makeAWishProject.donation_goal)
+								  ).toFixed(2)
+						}%`}
+					/>
+				</ProjectDonationStatsWrapper>
+			</DonationHeader>
 
 			<DonationIFrameWrapper>
 				<DonationFormHeader>Spendenformular</DonationFormHeader>
@@ -143,12 +214,10 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			</DonationIFrameWrapper>
 
 			<StyledDonationSumWidget>
-				<DonationWidget title={'Spendensumme'}>
-					<DonationWidgetCount
-						current_amount={makeAWishProject ? makeAWishProject.current_donation_sum : '0'}
-						donation_goal_amount={makeAWishProject ? makeAWishProject.donation_goal : '0'}
-					/>
-				</DonationWidget>
+				<DonationWidgetCount
+					current_amount={makeAWishProject ? makeAWishProject.current_donation_sum : '0'}
+					donation_goal_amount={makeAWishProject ? makeAWishProject.donation_goal : '0'}
+				/>
 			</StyledDonationSumWidget>
 			<StyledDonatorsWidget>
 				<DonationWidget title={'TOP-Spender'}>
