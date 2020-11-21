@@ -38,7 +38,7 @@ const DonationHeaderCounterAndButtonWrapper = styled.div`
 	}
 `
 
-const MakeAWishLogo = styled.img`
+const MakeAWishLogoLink = styled.a`
 	${(p) => p.theme.media.tablet} {
 		margin-top: ${(p) => p.theme.space.m}px;
 	}
@@ -62,7 +62,7 @@ const DonationButton: React.FunctionComponent<DonationButtonProps> = ({
 	return (
 		<Link href={`/donate/${featuredStream}`}>
 			<DonateButton href={`/donate/${featuredStream}`} target={target} rel={target === '_blank' ? 'noreferrer' : ''}>
-				{text}
+				<span>{text}</span>
 			</DonateButton>
 		</Link>
 	)
@@ -103,15 +103,17 @@ const Header: React.FunctionComponent<{ featuredStream: string; showDonationButt
 					<h1 style={{ textIndent: '-10000px' }}>Charity Royale 2020</h1>
 				</StyledHeaderLeftItem>
 				<StyledHeaderCenterItem>
-					{!isSSR && (
-						<MakeAWishLogo
-							onLoad={onImageLoad}
-							style={{ display: !imageLoaded ? 'none' : 'flex' }}
-							width="250px"
-							src="/make-a-wish-oesterreich-logo-white.svg"
-							alt="Make a wish Logo"
-						/>
-					)}
+					<MakeAWishLogoLink target="_bank" rel="noreferrer" href="https://www.make-a-wish.at/">
+						{!isSSR && (
+							<img
+								onLoad={onImageLoad}
+								style={{ display: !imageLoaded ? 'none' : 'flex' }}
+								width="250px"
+								src="/make-a-wish-oesterreich-logo-white.svg"
+								alt="Make a wish Logo"
+							/>
+						)}
+					</MakeAWishLogoLink>
 				</StyledHeaderCenterItem>
 				{showDonationButton && (
 					<StyledHeaderRightItem>

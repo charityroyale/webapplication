@@ -18,6 +18,9 @@ export const theme = {
 		decentBeton: '#E6E6E6',
 		emerald: '#50C878',
 		recordRed: '#F16373',
+		charityPink: '#C03BE4',
+		charityBlue: '#0999F9',
+		charityTeal: '#7DF8FF',
 	},
 	fontSize: {
 		s: 12,

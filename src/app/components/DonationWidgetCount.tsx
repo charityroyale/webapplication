@@ -52,7 +52,10 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 					<GoalReachedTitle>Winner Winner Chicken Dinner, Spendenziel erreicht!</GoalReachedTitle>
 					<GoalReachedText>
 						Die Spendendifferenz von <GoalReachCount>{absDiff} €</GoalReachCount> wird an unerfüllte{' '}
-						<MakeAWishLink href={'https://www.make-a-wish.at/'}>make-a-wish.at</MakeAWishLink> Projekte gespendet.
+						<MakeAWishLink target="_bank" rel="noreferrer" href={'https://www.make-a-wish.at/'}>
+							make-a-wish.at
+						</MakeAWishLink>{' '}
+						Projekte gespendet.
 					</GoalReachedText>
 				</div>
 			)}

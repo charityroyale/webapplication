@@ -22,12 +22,21 @@ export const DonateButton = styled.a`
 	font-weight: 600;
 	margin: 12px 0 12px 10px;
 
-	${(p) => p.theme.media.phone} {
-		margin: 0;
+	transition: background-position 0.17s;
+	will-change: background-position;
+	background: linear-gradient(to right, ${(p) => p.theme.color.royaleGold} 50%, ${(p) => p.theme.color.veniPurple} 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+
+	&:hover,
+	&:focus {
+		background-position: left bottom;
+		color: ${(p) => p.theme.color.veniPurple};
+		cursor: pointer;
 	}
 
-	&:hover {
-		cursor: pointer;
+	${(p) => p.theme.media.phone} {
+		margin: 0;
 	}
 `
 
