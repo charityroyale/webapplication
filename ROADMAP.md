@@ -2,14 +2,22 @@ TODO
 
 - accessibility checks
 - light / dark mode
-- implement placeholder streambox --> by cms (TBA info)
 - add different favicon
 - recommendation projects to donate to
+- finalize theme design (borders, background, animation)
+- theme design spendensumme visualization (colors, gradient)
+- fix mobile subpage context header (project specific data, remove spenden button top right) --> screenshot
+- visualize done streams
+- improve cms experience
+- add faq markdown cms
+- add "target=\_blank" to outgoing links (open new tab) - footer
+
 - donationpage indicator on streamer boxes
 - on hover twitch screen
 
 DONE
 
+- implement placeholder streambox --> by cms (TBA info)
 - add cms tagline
 - add makeawish logo
 - tagline for subdonationpages (e.g. "v. will in den zoo")
