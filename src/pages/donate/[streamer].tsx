@@ -76,7 +76,6 @@ const ProjectDonationStatsWrapper = styled.div`
 	grid-template-columns: auto auto;
 	margin-left: ${(p) => p.theme.space.xl}px;
 	padding-left: ${(p) => p.theme.space.xl}px;
-
 	border-left: 2px solid ${(p) => p.theme.color.royaleGold};
 
 	& > div:nth-child(1) {
@@ -88,8 +87,19 @@ const ProjectDonationStatsWrapper = styled.div`
 	}
 
 	${(p) => p.theme.media.phone} {
+		div {
+			text-align: center !important;
+		}
+
 		& > div:nth-child(1) {
 			margin-bottom: 0;
+		}
+
+		& > div:nth-child(odd) {
+			margin-right: ${(p) => p.theme.space.xs}px;
+		}
+		& > div {
+			margin-right: ${(p) => p.theme.space.xs}px;
 		}
 		margin-left: 0;
 		padding-left: 0;
