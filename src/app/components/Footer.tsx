@@ -29,6 +29,10 @@ const FooterCenterGridItem = styled.div`
 const FooterRightGridItem = styled.div`
 	text-align: right;
 	grid-area: footer-right;
+
+	${(p) => p.theme.media.phone} {
+		text-align: left;
+	}
 `
 
 const StyledFooter = styled.footer`
