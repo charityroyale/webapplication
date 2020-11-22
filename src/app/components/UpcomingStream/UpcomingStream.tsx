@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
-
+import { BiDonateHeart } from 'react-icons/bi'
 import {
 	StyledUpcomingStream,
 	StyledUpcomingStreamPlaceholderImage,
@@ -55,6 +55,13 @@ const UpcomingStreamDate = styled.p`
 	padding: 4px 8px;
 `
 
+const DonationLinkIndicator = styled.div`
+	position: absolute;
+	right: 5px;
+	bottom: 0;
+	background-color: transparent;
+`
+
 export interface UpcomingStreamProps {
 	date: string
 	streamerName: string
@@ -98,6 +105,9 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 					<StreamProjectDateWrapper>
 						<p>{streamerName}</p>
 					</StreamProjectDateWrapper>
+					<DonationLinkIndicator>
+						<BiDonateHeart color="#e1c478" size={30} />
+					</DonationLinkIndicator>
 				</StreamerImageWrapper>
 			</ClientLink>
 
