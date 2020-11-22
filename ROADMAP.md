@@ -8,11 +8,21 @@ TODO
 - visualize done streams
 - improve cms experience
 - add faq markdown cms
-- donationpage indicator on streamer boxes
-- on hover twitch screen
+
+- fix half pixel problem when triggering button animation in firefox (by user testing)
+- donation form loader takes way 2 long to show (by user testing)
+- highlight twitch channel link on upcoming streamerbox (by user testing)
+- highlights donation click event on upcoming streambox (indicator - by user testing)
+- add explaining what happens with the donation message (user testing)
+- streamdates are hard to assign to streamerboxes on mobile (user testing)
 
 DONE
 
+- on hover twitch screen
+- add twitch stream link to subpage and improve stats visualization
+- its hard to see on which stream subpage i am (user testing)
+- finding streamers on mobile is a bit hard (by user testing)
+- user-test 1
 - add "target=\_blank" to outgoing links (open new tab) - footer
 - fix mobile subpage context header (project specific data, remove spenden button top right) --> screenshot
 - theme design spendensumme visualization (colors, gradient) --> removed

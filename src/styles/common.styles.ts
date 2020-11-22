@@ -147,7 +147,7 @@ export const StyledUpcoming = styled.div`
 	${(p) => p.theme.media.phone} {
 		padding: 0;
 		grid-template-columns: 1fr;
-		grid-gap: ${(p) => p.theme.gridGrap.phone}px;
+		grid-gap: 0;
 	}
 `
 
@@ -158,41 +158,6 @@ export const StyledUpcomingStream = styled.div`
 export const StyledUpcomingStreamPlaceholderImage = styled.img`
 	background-color: ${(p) => p.theme.color.willhaben};
 	width: 100%;
-
-	${(p) => p.theme.media.phone} {
-		border-left: none;
-		border-right: none;
-	}
-`
-
-export const StyledUpcomingStreamFooter = styled.div`
-	display: flex;
-	align-items: center;
-	padding: ${(p) => p.theme.space.s}px ${(p) => p.theme.space.xs}px;
-	background-color: ${(p) => p.theme.color.veniPurple};
-	position: relative;
-`
-
-export const StyledUpcomingStreamDonationStatus = styled.p`
-	color: ${(p) => p.theme.color.white};
-`
-
-export const StyledDescriptionText = styled.p`
-	color: ${(p) => p.theme.color.white};
-	font-weight: 600;
-`
-
-export const StreamerIconWrapper = styled.div`
-	padding: ${(p) => p.theme.space.s}px;
-	position: relative;
-	border-radius: 100%;
-	background-color: ${(p) => p.theme.color.decentBeton};
-	height: 50px;
-	width: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-right: ${(p) => p.theme.space.s}px;
 `
 
 export const StyledStreamerProjectHeader = styled.div`
@@ -221,6 +186,10 @@ export const StyleUpcomingStreamsHeader = styled.div`
 	grid-area: featured-header;
 	margin: 64px 0;
 	text-align: center;
+
+	${(p) => p.theme.media.phone} {
+		margin: 42px 0;
+	}
 `
 
 export const StyledKalenderDownloadLink = styled.a`
