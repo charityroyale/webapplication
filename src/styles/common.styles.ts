@@ -96,7 +96,6 @@ export const StyledHeader = styled.header`
 	padding: 36px 24px;
 	grid-template-areas: 'header-row header-row header-row';
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
-	background-color: ${(p) => p.theme.color.veniPurple};
 `
 
 export const StyledMain = styled.main`
@@ -106,7 +105,6 @@ export const StyledMain = styled.main`
 	grid-template-areas: 'featured' 'faq-box' 'featured-header' 'upcoming';
 
 	padding-top: 20px;
-	background-color: ${(p) => p.theme.color.veniPurple};
 
 	${(p) => p.theme.media.phone} {
 		padding-top: 0;
@@ -120,7 +118,7 @@ export const StyledFeatured = styled.div`
 	justify-content: center;
 	align-items: center;
 
-	background-color: ${(p) => p.theme.color.veniPurple};
+	// background-color: ${(p) => p.theme.color.veniPurple};
 
 	iframe {
 		border: 2px solid ${(p) => p.theme.color.royaleGold};
@@ -163,7 +161,6 @@ export const StyledUpcomingStreamPlaceholderImage = styled.img`
 
 export const StyledStreamerProjectHeader = styled.div`
 	color: ${(p) => p.theme.color.white};
-	background-color: ${(p) => p.theme.color.veniPurple};
 	padding: ${(p) => p.theme.space.m}px ${(p) => p.theme.space.s}px;
 	font-weight: 600;
 	font-size: ${(p) => p.theme.fontSize.xl}px;

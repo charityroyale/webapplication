@@ -13,7 +13,6 @@ const DonationCountWrapper = styled.div`
 	justify-content: center;
 	font-size: ${(p) => p.theme.fontSize.l}px;
 	font-weight: bold;
-	background-color: ${(p) => p.theme.color.veniPurple};
 	color: ${(p) => p.theme.color.white};
 
 	${(p) => p.theme.media.phone} {

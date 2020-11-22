@@ -19,7 +19,7 @@ const StreamerImageWrapper = styled.div`
 		left: 0;
 		height: 100%;
 		width: 100%;
-		background-color: #231565cc;
+		background-color: #231565cc; // transparent hover
 		display: none;
 		justify-content: center;
 		align-items: center;
