@@ -13,7 +13,6 @@ const StyledUpcomingStreamFooter = styled.div`
 	display: flex;
 	justify-content: space-between;
 	padding: ${(p) => p.theme.space.s}px ${(p) => p.theme.space.s}px;
-	background-color: ${(p) => p.theme.color.veniPurple};
 	position: relative;
 `
 
@@ -65,7 +64,6 @@ const UpcomingStreamIcon = styled.img`
 	width: 50px;
 	border-radius: 50%;
 	border: 1px solid ${(p) => p.theme.color.royaleGold};
-	box-shadow: 0 0 3px 1px ${(p) => p.theme.color.royaleGold};
 `
 
 const UpcomingStreamDescription = styled.div`

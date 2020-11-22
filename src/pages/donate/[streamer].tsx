@@ -30,7 +30,6 @@ const DonationIFrameWrapper = styled.div`
 
 const DonationFormHeader = styled.h2`
 	font-size: ${(p) => p.theme.fontSize.xl}px;
-	background-color: ${(p) => p.theme.color.veniPurple};
 	text-align: left;
 	padding: ${(p) => p.theme.space.m}px 0px;
 	font-weight: normal;

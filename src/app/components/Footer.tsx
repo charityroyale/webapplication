@@ -44,7 +44,6 @@ const StyledFooter = styled.footer`
 	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 	grid-template-areas: 'footer-left footer-center footer-right';
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
-	background-color: ${(p) => p.theme.color.veniPurple};
 	color: ${(p) => p.theme.color.white};
 
 	a {
