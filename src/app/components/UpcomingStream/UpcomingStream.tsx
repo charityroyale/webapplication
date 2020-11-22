@@ -4,25 +4,43 @@ import Skeleton from 'react-loading-skeleton'
 import {
 	StyledUpcomingStream,
 	StyledUpcomingStreamPlaceholderImage,
-	StyledUpcomingStreamFooter,
-	StreamerIconWrapper,
-	StyledDescriptionText,
 	StreamProjectDateWrapper,
-	StyledUpcomingStreamDonationStatus,
-} from '../../styles/common.styles'
-import { styled } from '../../styles/Theme'
-import { useIsSSR } from './isSSR'
-import ClientLink from './ClientLink'
-import { formatDate } from '../utils/formatUtils'
+} from '../../../styles/common.styles'
+import { styled } from '../../../styles/Theme'
+import { useIsSSR } from '../isSSR'
+import ClientLink from '../ClientLink'
+import { formatDate } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
+import { UpcomingStreamFooter } from './UpcomingStreamFooter'
 
 const StreamerImageWrapper = styled.div`
 	position: relative;
-`
 
-const UpcomingStreamDescription = styled.div`
-	display: flex;
-	flex-direction: column;
+	&:before {
+		content: 'Jetzt für das Projekt spenden';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: #231565cc;
+		display: none;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-weight: bold;
+	}
+
+	${(p) => p.theme.media.desktop} {
+		&:hover:before {
+			cursor: pointer;
+			display: flex;
+		}
+	}
+
+	${(p) => p.theme.media.phone} {
+		display: none !important;
+	}
 `
 
 const UpcomingStreamDate = styled.p`
@@ -49,32 +67,13 @@ export interface UpcomingStreamProps {
 	donationProgress: string
 }
 
-const UpcomingStreamIcon = styled.img`
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-`
-
-const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
-	date,
-	streamerName,
-	streamLink,
-	streamerChannel,
-	descripion,
-	imgUrl,
-	donationGoal,
-	donationProgress,
-}: UpcomingStreamProps) => {
+const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingStreamProps) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
-	const [iconLoaded, setIconLoaded] = useState(false)
+	const { streamerChannel, date, imgUrl, streamerName } = props
 
 	const onImageLoad = useCallback(() => {
 		setIsImagedLoaded(true)
-	}, [])
-
-	const onIconImageLoad = useCallback(() => {
-		setIconLoaded(true)
 	}, [])
 
 	const donateLinkHref = `/donate/${streamerChannel}`
@@ -102,28 +101,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = ({
 				</StreamerImageWrapper>
 			</ClientLink>
 
-			<StyledUpcomingStreamFooter>
-				<StreamerIconWrapper>
-					<ClientLink href={streamLink} target="_blank">
-						{!iconLoaded && <Skeleton circle={true} height={50} width={50} />}
-						{!isSSR && (
-							<UpcomingStreamIcon
-								onLoad={onIconImageLoad}
-								style={{ display: !iconLoaded ? 'none' : 'flex' }}
-								src={imgUrl}
-								alt={`Streamer ${streamerName} Logo`}
-							/>
-						)}
-					</ClientLink>
-				</StreamerIconWrapper>
-				<UpcomingStreamDescription>
-					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
-					<StyledUpcomingStreamDonationStatus>
-						{`€${donationProgress} / €${donationGoal}`}
-					</StyledUpcomingStreamDonationStatus>
-					{/*TODO: i guess we need to load this dynamically*/}
-				</UpcomingStreamDescription>
-			</StyledUpcomingStreamFooter>
+			<UpcomingStreamFooter {...props} />
 		</StyledUpcomingStream>
 	)
 }

@@ -7,7 +7,7 @@ import {
 } from '../../styles/common.styles'
 import useMakeAWish from '../hooks/useMakeAWish'
 import { Upcoming } from '../types/CmsContent'
-import UpcomingStream from './UpcomingStream'
+import UpcomingStream from './UpcomingStream/UpcomingStream'
 
 interface UpcomingStreams {
 	schedule: Upcoming[]
