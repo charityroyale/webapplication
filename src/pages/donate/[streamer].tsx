@@ -19,23 +19,25 @@ import Skeleton from 'react-loading-skeleton'
 import { useIsSSR } from '../../app/components/isSSR'
 import { CmsContent, Upcoming } from '../../app/types/CmsContent'
 import { ImTrophy } from 'react-icons/im'
-import { DonationCountBox } from '../../app/components/DonationHeaderCount'
+import { BsFillPeopleFill } from 'react-icons/bs'
+import { FaDove } from 'react-icons/fa'
+import { Line } from 'rc-progress'
 import { getPercentage } from '../../app/utils/commonUtils'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
 `
 
-const DonationFormHeader = styled.p`
+const DonationFormHeader = styled.h2`
+	font-size: ${(p) => p.theme.fontSize.xl}px;
 	background-color: ${(p) => p.theme.color.veniPurple};
 	text-align: left;
 	padding: ${(p) => p.theme.space.m}px 0px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 500;
-	font-size: ${(p) => p.theme.fontSize.l}px;
+	font-weight: normal;
 	color: ${(p) => p.theme.color.white};
-	font-weight: bold;
+
+	display: flex;
+	align-items: flex-end;
 `
 
 const StyledDonationFormIframe = styled.iframe`
@@ -70,45 +72,29 @@ const getTopDonatorFirstColum = (index) => {
 	}
 }
 
-const ProjectDonationStatsWrapper = styled.div`
-	display: grid;
-	height: 100%;
-	grid-template-columns: auto auto;
-	margin-left: ${(p) => p.theme.space.xl}px;
-	padding-left: ${(p) => p.theme.space.xl}px;
-	border-left: 2px solid ${(p) => p.theme.color.royaleGold};
-
-	& > div:nth-child(1) {
-		margin-bottom: ${(p) => p.theme.space.l}px;
-	}
-
-	& > div:nth-child(odd) {
-		margin-right: ${(p) => p.theme.space.l}px;
-	}
+const DonationSubPageStats = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4px;
 
 	${(p) => p.theme.media.phone} {
-		div {
-			text-align: center !important;
-		}
-
-		& > div:nth-child(1) {
-			margin-bottom: 0;
-		}
-
-		& > div:nth-child(odd) {
-			margin-right: ${(p) => p.theme.space.xs}px;
-		}
-		& > div {
-			margin-right: ${(p) => p.theme.space.xs}px;
-		}
-		margin-left: 0;
-		padding-left: 0;
-		border-left: none;
-		margin-top: ${(p) => p.theme.space.l}px;
-		padding-top: ${(p) => p.theme.space.l}px;
-		border-top: 2px solid ${(p) => p.theme.color.royaleGold};
-		grid-template-columns: auto auto auto auto;
+		width: 100%;
 	}
+`
+
+const DonationStatsWidget = styled.div`
+	flex-grow: 1;
+`
+
+const DonationStatsWidgetGoal = styled.p`
+	margin-top: -5px;
+	text-align: right;
+`
+
+const DonationStatsTitle = styled.p`
+	font-size: ${(p) => p.theme.fontSize.xl}px;
+	margin-bottom: ${(p) => p.theme.space.m}px;
 `
 
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
@@ -118,6 +104,8 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	const [iFrameError, setIFrameError] = useState(false)
 	const isSSR = useIsSSR()
 	const { streamer } = router.query
+
+	const [hasReachedGoal, setHasReachGoal] = useState(false)
 
 	const makeAWish = useMakeAWish()
 	let makeAWishProject: MakeWishDonationProjectDTO
@@ -156,6 +144,30 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 		setIFrameError(true)
 	}, [])
 
+	const donationSum =
+		makeAWish.isLoading || makeAWish.isError
+			? '0'
+			: parseInt(makeAWishProject.current_donation_sum).toLocaleString('de-DE')
+
+	const donationGoal =
+		makeAWish.isLoading || makeAWish.isError ? '0' : parseInt(makeAWishProject.donation_goal).toLocaleString('de-DE')
+
+	const donatorsCount =
+		makeAWish.isLoading || makeAWish.isError ? '0' : makeAWishProject.current_donation_count.toLocaleString('de-DE')
+
+	const percentage = getPercentage(
+		makeAWish.isLoading || makeAWish.isError ? 0 : parseInt(makeAWishProject.current_donation_sum),
+		makeAWish.isLoading || makeAWish.isError ? 0 : parseInt(makeAWishProject.donation_goal)
+	)
+
+	useEffect(() => {
+		if (percentage >= 100) {
+			setHasReachGoal(true)
+		} else {
+			setHasReachGoal(false)
+		}
+	}, [])
+
 	return (
 		<>
 			<Head>
@@ -163,46 +175,39 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			</Head>
 
 			<DonationHeader
-				title={`${project.tagline} unterstützt von ${project.streamerName}`}
+				streamLink={project.streamLink}
+				streamerName={project.streamerName}
+				title={project.tagline}
 				description={project.descripion}
 			>
-				<ProjectDonationStatsWrapper>
-					<DonationCountBox
-						title={'Gespendet'}
-						text={`€${
-							makeAWish.isLoading || makeAWish.isError
-								? 0
-								: parseInt(makeAWishProject.current_donation_sum).toLocaleString('de-DE')
-						}`}
-					/>
-					<DonationCountBox
-						title={'Ziel'}
-						text={`€${
-							makeAWish.isLoading || makeAWish.isError
-								? 0
-								: parseInt(makeAWishProject.donation_goal).toLocaleString('de-DE')
-						}`}
-					/>
-					<DonationCountBox
-						title={'Spender'}
-						text={`${
-							makeAWish.isLoading || makeAWish.isError
-								? 0
-								: makeAWishProject.current_donation_count.toLocaleString('de-DE')
-						}`}
-					/>
-					<DonationCountBox
-						title={'Erreicht'}
-						text={`${
-							makeAWish.isLoading || makeAWish.isError
-								? 0
-								: getPercentage(
-										makeAWishProject.current_donation_count,
-										parseInt(makeAWishProject.donation_goal)
-								  ).toFixed(2)
-						}%`}
-					/>
-				</ProjectDonationStatsWrapper>
+				<React.Fragment>
+					<DonationStatsTitle>Spendenübersicht</DonationStatsTitle>
+					<DonationSubPageStats>
+						<div style={{ marginRight: '20px' }}>
+							<FaDove color="white" size="40" />
+						</div>
+
+						<DonationStatsWidget>
+							<p>Gespendet {donationSum}€</p>
+							<Line
+								style={{ padding: '4px 0' }}
+								percent={percentage}
+								strokeWidth={4}
+								trailWidth={4}
+								trailColor="white"
+								strokeColor={hasReachedGoal && !makeAWish.isLoading ? 'green' : 'gold'}
+							/>
+							<DonationStatsWidgetGoal>Ziel {donationGoal}€</DonationStatsWidgetGoal>
+						</DonationStatsWidget>
+					</DonationSubPageStats>
+					<DonationSubPageStats>
+						<div style={{ marginRight: '20px' }}>
+							<BsFillPeopleFill color="white" size="40" />
+						</div>
+
+						<DonationStatsWidget>Spender {donatorsCount}</DonationStatsWidget>
+					</DonationSubPageStats>
+				</React.Fragment>
 			</DonationHeader>
 
 			<DonationIFrameWrapper>
