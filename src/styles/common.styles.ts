@@ -147,7 +147,7 @@ export const StyledUpcoming = styled.div`
 	${(p) => p.theme.media.phone} {
 		padding: 0;
 		grid-template-columns: 1fr;
-		grid-gap: ${(p) => p.theme.gridGrap.phone}px;
+		grid-gap: 0;
 	}
 `
 
@@ -186,6 +186,10 @@ export const StyleUpcomingStreamsHeader = styled.div`
 	grid-area: featured-header;
 	margin: 64px 0;
 	text-align: center;
+
+	${(p) => p.theme.media.phone} {
+		margin: 42px 0;
+	}
 `
 
 export const StyledKalenderDownloadLink = styled.a`
