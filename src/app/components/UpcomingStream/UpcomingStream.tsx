@@ -1,11 +1,7 @@
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
-
-import {
-	StyledUpcomingStream,
-	StyledUpcomingStreamPlaceholderImage,
-	StreamProjectDateWrapper,
-} from '../../../styles/common.styles'
+import { BiDonateHeart } from 'react-icons/bi'
+import { StyledUpcomingStreamPlaceholderImage, StreamProjectDateWrapper } from '../../../styles/common.styles'
 import { styled } from '../../../styles/Theme'
 import { useIsSSR } from '../isSSR'
 import ClientLink from '../ClientLink'
@@ -53,6 +49,25 @@ const UpcomingStreamDate = styled.p`
 	display: flex;
 	align-items: center;
 	padding: 4px 8px;
+
+	${(p) => p.theme.media.phone} {
+		display: none;
+	}
+`
+
+const DonationLinkIndicator = styled.div`
+	position: absolute;
+	right: 5px;
+	bottom: 0;
+	background-color: transparent;
+`
+
+const StyledUpcomingStream = styled.div`
+	overflow: hidden;
+
+	${(p) => p.theme.media.phone} {
+		border-bottom: 1px solid ${(p) => p.theme.color.royaleGold};
+	}
 `
 
 export interface UpcomingStreamProps {
@@ -98,6 +113,9 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 					<StreamProjectDateWrapper>
 						<p>{streamerName}</p>
 					</StreamProjectDateWrapper>
+					<DonationLinkIndicator>
+						<BiDonateHeart color="#e1c478" size={30} />
+					</DonationLinkIndicator>
 				</StreamerImageWrapper>
 			</ClientLink>
 

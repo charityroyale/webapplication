@@ -63,9 +63,9 @@ export default class MyDocument extends Document {
 					<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png"></link>
 					<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"></link>
 					<link rel="manifest" href="/favicon/manifest.json"></link>
-					<meta name="msapplication-TileColor" content="#ffffff"></meta>
 					<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png"></meta>
-					<meta name="theme-color" content="#ffffff"></meta>
+					<meta name="msapplication-TileColor" content="#231565"></meta>
+					<meta name="theme-color" content="#231565"></meta>
 					<meta
 						name="description"
 						content="Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben."

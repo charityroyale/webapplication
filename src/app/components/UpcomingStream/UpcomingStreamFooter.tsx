@@ -5,6 +5,9 @@ import { styled } from '../../../styles/Theme'
 import ClientLink from '../ClientLink'
 import { useIsSSR } from '../isSSR'
 import { UpcomingStreamProps } from './UpcomingStream'
+import { RiTwitchFill } from 'react-icons/ri'
+import { formatDate } from '../../utils/formatUtils'
+import { BsCalendar } from 'react-icons/bs'
 
 const StyledUpcomingStreamFooter = styled.div`
 	display: flex;
@@ -14,9 +17,10 @@ const StyledUpcomingStreamFooter = styled.div`
 	position: relative;
 `
 
-const UpcomingStreamTwitchLink = styled.p`
+const UpcomingStreamTwitchLink = styled.div`
 	color: ${(p) => p.theme.color.white};
 	display: flex;
+	margin-bottom: 4px;
 
 	a {
 		color: ${(p) => p.theme.color.white};
@@ -24,9 +28,23 @@ const UpcomingStreamTwitchLink = styled.p`
 	}
 `
 
+const UpcomingStreamDateMobile = styled.div`
+	color: ${(p) => p.theme.color.white};
+	display: none;
+
+	${(p) => p.theme.media.phone} {
+		margin-top: '4px';
+		display: flex;
+	}
+`
+
 const StyledDescriptionText = styled.p`
 	color: ${(p) => p.theme.color.white};
 	font-weight: 600;
+
+	${(p) => p.theme.media.phone} {
+		margin-bottom: ${(p) => p.theme.space.xs}px;
+	}
 `
 
 const StreamerIconWrapper = styled.div`
@@ -46,6 +64,8 @@ const UpcomingStreamIcon = styled.img`
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
+	border: 1px solid ${(p) => p.theme.color.royaleGold};
+	box-shadow: 0 0 3px 1px ${(p) => p.theme.color.royaleGold};
 `
 
 const UpcomingStreamDescription = styled.div`
@@ -56,11 +76,20 @@ const UpcomingStreamDescription = styled.div`
 const UpcomingStreamerFooterLeft = styled.div`
 	display: flex;
 	align-items: center;
+
+	${(p) => p.theme.media.phone} {
+		align-items: flex-start;
+	}
 `
 
 const UpcomingStreamerFooterRight = styled.div`
 	display: flex;
 	align-items: center;
+	display: none;
+
+	${(p) => p.theme.media.phone} {
+		display: flex;
+	}
 `
 
 const UpcomingStreamerDonationLink = styled.a`
@@ -87,6 +116,7 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 	streamerChannel,
 	descripion,
 	imgUrl,
+	date,
 }: UpcomingStreamProps) => {
 	const [iconLoaded, setIconLoaded] = useState(false)
 	const isSSR = useIsSSR()
@@ -114,9 +144,15 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 				<UpcomingStreamDescription>
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
 					<UpcomingStreamTwitchLink>
-						<span style={{ marginRight: '4px' }}>Live auf </span>
-						<a href={streamLink}>{streamerChannel}</a>
+						<RiTwitchFill size={20} style={{ marginRight: '4px' }} />
+						<a href={streamLink} target="_blank" rel="noreferrer">
+							{`${streamerChannel}`}
+						</a>
 					</UpcomingStreamTwitchLink>
+					<UpcomingStreamDateMobile>
+						<BsCalendar style={{ marginLeft: '1px', marginRight: '8px' }} />
+						<span>{formatDate(new Date(date))}</span>
+					</UpcomingStreamDateMobile>
 				</UpcomingStreamDescription>
 			</UpcomingStreamerFooterLeft>
 			<UpcomingStreamerFooterRight>
