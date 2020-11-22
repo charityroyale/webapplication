@@ -35,6 +35,7 @@ const DonationHeaderCounterAndButtonWrapper = styled.div`
 	${(p) => p.theme.media.phone} {
 		width: 100%;
 		justify-content: space-between;
+		display: block;
 	}
 `
 

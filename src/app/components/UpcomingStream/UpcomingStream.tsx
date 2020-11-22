@@ -1,11 +1,7 @@
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import { BiDonateHeart } from 'react-icons/bi'
-import {
-	StyledUpcomingStream,
-	StyledUpcomingStreamPlaceholderImage,
-	StreamProjectDateWrapper,
-} from '../../../styles/common.styles'
+import { StyledUpcomingStreamPlaceholderImage, StreamProjectDateWrapper } from '../../../styles/common.styles'
 import { styled } from '../../../styles/Theme'
 import { useIsSSR } from '../isSSR'
 import ClientLink from '../ClientLink'
@@ -53,6 +49,10 @@ const UpcomingStreamDate = styled.p`
 	display: flex;
 	align-items: center;
 	padding: 4px 8px;
+
+	${(p) => p.theme.media.phone} {
+		display: none;
+	}
 `
 
 const DonationLinkIndicator = styled.div`
@@ -60,6 +60,14 @@ const DonationLinkIndicator = styled.div`
 	right: 5px;
 	bottom: 0;
 	background-color: transparent;
+`
+
+const StyledUpcomingStream = styled.div`
+	overflow: hidden;
+
+	${(p) => p.theme.media.phone} {
+		border-bottom: 1px solid ${(p) => p.theme.color.royaleGold};
+	}
 `
 
 export interface UpcomingStreamProps {

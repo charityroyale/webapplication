@@ -21,6 +21,7 @@ export const DonateButton = styled.a`
 	align-items: center;
 	font-weight: 600;
 	margin: 12px 0 12px 10px;
+	justify-content: center;
 
 	transition: background-position 0.17s;
 	will-change: background-position;
@@ -106,6 +107,10 @@ export const StyledMain = styled.main`
 
 	padding-top: 20px;
 	background-color: ${(p) => p.theme.color.veniPurple};
+
+	${(p) => p.theme.media.phone} {
+		padding-top: 0;
+	}
 `
 
 export const StyledFeatured = styled.div`
@@ -149,10 +154,6 @@ export const StyledUpcoming = styled.div`
 		grid-template-columns: 1fr;
 		grid-gap: 0;
 	}
-`
-
-export const StyledUpcomingStream = styled.div`
-	// background-color: ${(p) => p.theme.color.decentBeton};
 `
 
 export const StyledUpcomingStreamPlaceholderImage = styled.img`

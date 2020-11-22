@@ -11,13 +11,13 @@ TODO
 
 - fix half pixel problem when triggering button animation in firefox (by user testing)
 - donation form loader takes way 2 long to show (by user testing)
-- highlight twitch channel link on upcoming streamerbox (by user testing)
-- highlights donation click event on upcoming streambox (indicator - by user testing)
 - add explaining what happens with the donation message (user testing)
-- streamdates are hard to assign to streamerboxes on mobile (user testing)
 
 DONE
 
+- highlight twitch channel link on upcoming streamerbox (by user testing)
+- streamdates are hard to assign to streamerboxes on mobile (user testing)
+- highlights donation click event on upcoming streambox (indicator - by user testing)
 - on hover twitch screen
 - add twitch stream link to subpage and improve stats visualization
 - its hard to see on which stream subpage i am (user testing)
