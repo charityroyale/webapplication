@@ -2,7 +2,6 @@ TODO
 
 - accessibility checks
 - light / dark mode
-- add different favicon
 - recommendation projects to donate to
 - finalize theme design (borders, background, animation)
 - visualize done streams
@@ -13,6 +12,7 @@ TODO
 
 DONE
 
+- add different favicon
 - (hack)fix layout shifts because grid gets destroyed by link twitch name links
 - fix half pixel problem when triggering button animation in firefox (by user testing) --> Faq button has fixed 300 width
 - update Make-A-Wish naming
