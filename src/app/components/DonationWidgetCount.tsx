@@ -53,7 +53,7 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 					<GoalReachedText>
 						Die Spendendifferenz von <GoalReachCount>{absDiff} €</GoalReachCount> wird an unerfüllte{' '}
 						<MakeAWishLink target="_bank" rel="noreferrer" href={'https://www.make-a-wish.at/'}>
-							make-a-wish.at
+							Make-A-Wish
 						</MakeAWishLink>{' '}
 						Projekte gespendet.
 					</GoalReachedText>

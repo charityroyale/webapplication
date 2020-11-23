@@ -86,7 +86,7 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 					</FooterListItem>
 					<FooterListItem>
 						<a target="_bank" rel="noreferrer" href={'https://www.make-a-wish.at/'}>
-							make-a-wish
+							Make-A-Wish
 						</a>
 					</FooterListItem>
 					<FooterListItem>
