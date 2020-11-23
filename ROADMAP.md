@@ -15,6 +15,7 @@ TODO
 
 DONE
 
+- update Make-A-Wish naming
 - highlight twitch channel link on upcoming streamerbox (by user testing)
 - streamdates are hard to assign to streamerboxes on mobile (user testing)
 - highlights donation click event on upcoming streambox (indicator - by user testing)
