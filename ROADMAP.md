@@ -9,12 +9,13 @@ TODO
 - improve cms experience
 - add faq markdown cms
 
-- fix half pixel problem when triggering button animation in firefox (by user testing)
-- donation form loader takes way 2 long to show (by user testing)
 - add explaining what happens with the donation message (user testing)
 
 DONE
 
+- (hack)fix layout shifts because grid gets destroyed by link twitch name links
+- fix half pixel problem when triggering button animation in firefox (by user testing) --> Faq button has fixed 300 width
+- update Make-A-Wish naming
 - highlight twitch channel link on upcoming streamerbox (by user testing)
 - streamdates are hard to assign to streamerboxes on mobile (user testing)
 - highlights donation click event on upcoming streambox (indicator - by user testing)
@@ -73,3 +74,7 @@ DONE
 - improved featured iframe responsiveness
 - fix featured iframe width size
 - fix flickering featuredStreamPlaceholder (width, height)
+
+NICE-TO-HAVE
+
+- donation form loader takes quiet some time to fire onLoad event

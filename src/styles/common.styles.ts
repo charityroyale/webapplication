@@ -8,39 +8,6 @@ export const Heading = styled.h1`
 	}
 `
 
-export const DonateButton = styled.a`
-	padding: 24px 48px;
-	text-decoration: none;
-	background-color: ${(p) => p.theme.color.veniPurple};
-	border: 2px solid ${(p) => p.theme.color.royaleGold};
-	color: ${(p) => p.theme.color.white};
-	font-size: ${(p) => p.theme.fontSize.l}px;
-	letter-spacing: 3px;
-	font-family: inherit;
-	display: flex;
-	align-items: center;
-	font-weight: 600;
-	margin: 12px 0 12px 10px;
-	justify-content: center;
-
-	transition: background-position 0.17s;
-	will-change: background-position;
-	background: linear-gradient(to right, ${(p) => p.theme.color.royaleGold} 50%, ${(p) => p.theme.color.veniPurple} 50%);
-	background-size: 200% 100%;
-	background-position: right bottom;
-
-	&:hover,
-	&:focus {
-		background-position: left bottom;
-		color: ${(p) => p.theme.color.veniPurple};
-		cursor: pointer;
-	}
-
-	${(p) => p.theme.media.phone} {
-		margin: 0;
-	}
-`
-
 export const StyledWebsiteInProgress = styled.div`
 	background-color: ${(p) => p.theme.color.willhaben};
 	width: 100%;

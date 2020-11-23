@@ -46,7 +46,7 @@ const FeaturedStream: React.FunctionComponent<FeaturedStreamProps> = ({ channel 
 		<>
 			{isSSR || !featuredStreamLoaded ? (
 				<StyledFeatured>
-					<Skeleton height={600} width={300} />
+					<Skeleton height={600} />
 				</StyledFeatured>
 			) : null}
 			<StyledFeatured ref={featuredStreamRef} id="twitch-embed" />

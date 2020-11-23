@@ -23,7 +23,6 @@ const UpcomingStreamTwitchLink = styled.div`
 
 	a {
 		color: ${(p) => p.theme.color.white};
-		display: block;
 	}
 `
 
@@ -66,10 +65,7 @@ const UpcomingStreamIcon = styled.img`
 	border: 1px solid ${(p) => p.theme.color.royaleGold};
 `
 
-const UpcomingStreamDescription = styled.div`
-	display: flex;
-	flex-direction: column;
-`
+const UpcomingStreamDescription = styled.div``
 
 const UpcomingStreamerFooterLeft = styled.div`
 	display: flex;
@@ -81,17 +77,16 @@ const UpcomingStreamerFooterLeft = styled.div`
 `
 
 const UpcomingStreamerFooterRight = styled.div`
-	display: flex;
-	align-items: center;
 	display: none;
 
 	${(p) => p.theme.media.phone} {
+		align-items: center;
 		display: flex;
 	}
 `
 
 const UpcomingStreamerDonationLink = styled.a`
-	padding: 8px 32px;
+	padding: 8px 18px;
 	display: none;
 	text-decoration: none;
 	color: ${(p) => p.theme.color.white};
@@ -143,10 +138,11 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
 					<UpcomingStreamTwitchLink>
 						<RiTwitchFill size={20} style={{ marginRight: '4px' }} />
-						<a href={streamLink} target="_blank" rel="noreferrer">
-							{`${streamerChannel}`}
+						<a style={{ width: '100px' }} href={streamLink} target="_blank" rel="noreferrer">
+							<span>{streamerChannel}</span>
 						</a>
 					</UpcomingStreamTwitchLink>
+
 					<UpcomingStreamDateMobile>
 						<BsCalendar style={{ marginLeft: '1px', marginRight: '8px' }} />
 						<span>{formatDate(new Date(date))}</span>
