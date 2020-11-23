@@ -9,12 +9,12 @@ TODO
 - improve cms experience
 - add faq markdown cms
 
-- fix half pixel problem when triggering button animation in firefox (by user testing)
 - donation form loader takes way 2 long to show (by user testing)
 - add explaining what happens with the donation message (user testing)
 
 DONE
 
+- fix half pixel problem when triggering button animation in firefox (by user testing) --> Faq button has fixed 300 width
 - update Make-A-Wish naming
 - highlight twitch channel link on upcoming streamerbox (by user testing)
 - streamdates are hard to assign to streamerboxes on mobile (user testing)
