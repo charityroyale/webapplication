@@ -124,7 +124,7 @@ const Header: React.FunctionComponent<{ featuredStream: string; showDonationButt
 								onLoad={onImageLoad}
 								style={{ display: !imageLoaded ? 'none' : 'flex' }}
 								width="150px"
-								src="/Charity_Royale_RGB.png"
+								src="/cr2020_logo_small.png"
 								alt="Charity Royale 2020 Logo"
 							/>
 						)}
