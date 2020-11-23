@@ -86,7 +86,7 @@ const UpcomingStreamerFooterRight = styled.div`
 `
 
 const UpcomingStreamerDonationLink = styled.a`
-	padding: 8px 32px;
+	padding: 8px 18px;
 	display: none;
 	text-decoration: none;
 	color: ${(p) => p.theme.color.white};
