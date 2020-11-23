@@ -63,8 +63,6 @@ const DonationLinkIndicator = styled.div`
 `
 
 const StyledUpcomingStream = styled.div`
-	overflow: hidden;
-
 	${(p) => p.theme.media.phone} {
 		border-bottom: 1px solid ${(p) => p.theme.color.royaleGold};
 	}
@@ -118,7 +116,6 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 					</DonationLinkIndicator>
 				</StreamerImageWrapper>
 			</ClientLink>
-
 			<UpcomingStreamFooter {...props} />
 		</StyledUpcomingStream>
 	)
