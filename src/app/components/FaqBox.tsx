@@ -35,20 +35,12 @@ const FaqButton = styled.a`
 	align-items: center;
 	font-size: ${(p) => p.theme.fontSize.l}px;
 	font-weight: 600;
+	transition: background-color 0.17s;
 
-	transition: background-position 0.18s;
-	will-change: background-position;
-	background: linear-gradient(to right, ${(p) => p.theme.color.royaleGold} 50%, ${(p) => p.theme.color.veniPurple} 50%);
-	background-size: 200% 100%;
-	background-position: right bottom;
-
-	&:hover {
-		background-position: left bottom;
+	&:hover,
+	&:focus {
 		color: ${(p) => p.theme.color.veniPurple};
-		cursor: pointer;
-	}
-
-	&:hover {
+		background-color: ${(p) => p.theme.color.royaleGold};
 		cursor: pointer;
 	}
 `

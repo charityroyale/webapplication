@@ -63,31 +63,13 @@ const DonateButton = styled.a`
 	margin: 12px 0 12px 10px;
 	justify-content: center;
 	position: relative;
-
-	span {
-		z-index: 10;
-	}
+	transition: background-color 0.17s;
 
 	&:hover,
 	&:focus {
 		color: ${(p) => p.theme.color.veniPurple};
+		background-color: ${(p) => p.theme.color.royaleGold};
 		cursor: pointer;
-
-		&:after {
-			width: 100%;
-		}
-	}
-
-	&:after {
-		position: absolute;
-		content: '';
-		top: 0;
-		left: 0;
-		width: 0;
-		height: 100%;
-		background: ${(p) => p.theme.color.royaleGold};
-		transition: all 0.17s;
-		z-index: 5;
 	}
 
 	${(p) => p.theme.media.phone} {
