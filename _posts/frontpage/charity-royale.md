@@ -17,7 +17,7 @@ faq:
       diam nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 
-      A nice link: [willhaben](www.willhaben.at)
+      A nice link: [willhaben](https://www.willhaben.at)
   - question: Wie spät ist es?
     answer: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
       eirmodtempor invidunt ut labore et dolore magna aliquyam erat, sed diam
