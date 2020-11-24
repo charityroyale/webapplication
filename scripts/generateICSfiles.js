@@ -3,7 +3,7 @@ const fs = require('fs')
 const fm = require('front-matter')
 const ics = require('ics')
 
-fs.readFile('./_posts/frontpage/charity-royale.md', 'utf8', function (err, data) {
+fs.readFile('./_cms/frontpage/charity-royale.md', 'utf8', function (err, data) {
 	if (err) throw err
 
 	const cmsContent = fm(data).attributes
