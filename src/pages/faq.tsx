@@ -5,7 +5,7 @@ import PageWithLayoutType from '../app/types/PageWithLayout'
 import MainLayout from '../app/layouts/MainLayout'
 import { styled } from '../styles/Theme'
 import { ResponsiveVideo } from '../app/components/ResponsiveVideo'
-import rawCmsContent from '../../_cms/frontpage/charity-royale.md'
+import rawCmsContent from '../../_cms/charity-royale.md'
 import { CmsContent, FAQEntry, FAQVideoEntry } from '../app/types/CmsContent'
 import ReactMarkdown from 'react-markdown'
 
