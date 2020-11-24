@@ -25,7 +25,7 @@ collections:
             widget: string
           - label: Answer
             name: answer
-            widget: string
+            widget: markdown
       - label: FAQ Videos
         name: faqvideos
         widget: list
