@@ -7,6 +7,7 @@ import { styled } from '../styles/Theme'
 import { ResponsiveVideo } from '../app/components/ResponsiveVideo'
 import rawCmsContent from '../../_posts/frontpage/charity-royale.md'
 import { CmsContent, FAQEntry, FAQVideoEntry } from '../app/types/CmsContent'
+import ReactMarkdown from 'react-markdown'
 
 const cmsContent = rawCmsContent.attributes as CmsContent
 
@@ -77,7 +78,9 @@ const FaqQuestionBox: FunctionComponent<FaqQuestionBoxProps> = ({ question, answ
 	return (
 		<FaqQuestionBoxWrapper>
 			<FaqQuestion>{question}</FaqQuestion>
-			<FaqAnswer>{answer}</FaqAnswer>
+			<FaqAnswer>
+				<ReactMarkdown>{answer}</ReactMarkdown>
+			</FaqAnswer>
 		</FaqQuestionBoxWrapper>
 	)
 }
