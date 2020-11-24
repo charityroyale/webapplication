@@ -26,6 +26,8 @@ export interface CmsContent {
 	thumbnail: string
 	featuredStream: string
 	upcoming: Array<Upcoming>
-	faq: Array<FAQEntry>
-	faqvideos: Array<FAQVideoEntry>
+	faq: {
+		questions: Array<FAQEntry>
+		videos: Array<FAQVideoEntry>
+	}
 }

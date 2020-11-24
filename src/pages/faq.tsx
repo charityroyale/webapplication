@@ -5,7 +5,7 @@ import PageWithLayoutType from '../app/types/PageWithLayout'
 import MainLayout from '../app/layouts/MainLayout'
 import { styled } from '../styles/Theme'
 import { ResponsiveVideo } from '../app/components/ResponsiveVideo'
-import rawCmsContent from '../../_posts/frontpage/charity-royale.md'
+import rawCmsContent from '../../_cms/frontpage/charity-royale.md'
 import { CmsContent, FAQEntry, FAQVideoEntry } from '../app/types/CmsContent'
 import ReactMarkdown from 'react-markdown'
 
@@ -117,8 +117,8 @@ const FaqPage: NextPage<InitialFaqProps> = ({ questions, videos }: InitialFaqPro
 export const getStaticProps: GetStaticProps<InitialFaqProps> = async () => {
 	return {
 		props: {
-			questions: cmsContent.faq,
-			videos: cmsContent.faqvideos,
+			questions: cmsContent.faq.questions,
+			videos: cmsContent.faq.videos,
 			featuredStream: cmsContent.featuredStream,
 		},
 	}

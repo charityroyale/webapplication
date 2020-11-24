@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import { useRouter } from 'next/router'
-import rawCmsContent from '../../../_posts/frontpage/charity-royale.md'
+import rawCmsContent from '../../../_cms/frontpage/charity-royale.md'
 import Head from 'next/head'
 import DonationHeader from '../../app/components/DonationHeader'
 import DonationWidget from '../../app/components/DonationWidget'
