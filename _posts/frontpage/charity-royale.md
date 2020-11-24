@@ -44,7 +44,7 @@ upcoming:
     childname: child1
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     tagline: Some cool tagline
-    date: 2020-12-01T17:00:00.000Z
+    date: 2020-11-01T17:00:00.000Z
     streamerChannel: bastighg
     streamerName: BastiGHG
     streamLink: https://www.twitch.tv/bastighg

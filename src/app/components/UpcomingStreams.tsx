@@ -1,7 +1,9 @@
 import React from 'react'
 import {
 	StyledKalenderDownloadLink,
+	StyledPast,
 	StyledUpcoming,
+	StylePastStreamsHeader,
 	StyleUpcomingStreamsHeader,
 	StyleUpcomingStreamsTitle,
 } from '../../styles/common.styles'
@@ -52,10 +54,12 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 					.
 				</p>
 			</StyleUpcomingStreamsHeader>
-			<StyledUpcoming>
-				{schedule.filter(isInTheFuture).map(createUpcomingStream)}
-				{schedule.filter(isInThePast).map(createUpcomingStream)}
-			</StyledUpcoming>
+			<StyledUpcoming>{schedule.filter(isInTheFuture).map(createUpcomingStream)}</StyledUpcoming>
+
+			<StylePastStreamsHeader>
+				<StyleUpcomingStreamsTitle>Vergangene Streams</StyleUpcomingStreamsTitle>
+			</StylePastStreamsHeader>
+			<StyledPast>{schedule.filter(isInThePast).map(createUpcomingStream)}</StyledPast>
 		</React.Fragment>
 	)
 }

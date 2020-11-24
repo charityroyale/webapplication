@@ -68,8 +68,8 @@ export const StyledHeader = styled.header`
 export const StyledMain = styled.main`
 	grid-area: main;
 	display: grid;
-	grid-template-rows: auto auto auto;
-	grid-template-areas: 'featured' 'faq-box' 'featured-header' 'upcoming';
+	grid-template-rows: auto auto auto auto auto auto;
+	grid-template-areas: 'featured' 'faq-box' 'featured-header' 'upcoming' 'past-header' 'past';
 
 	padding-top: 20px;
 
@@ -121,6 +121,27 @@ export const StyledUpcoming = styled.div`
 	}
 `
 
+export const StyledPast = styled.div`
+	padding: 0 ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xxl}px ${(p) => p.theme.space.xl}px;
+	grid-area: past;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
+	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
+
+	${(p) => p.theme.media.tablet} {
+		padding: ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xl}px;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: ${(p) => p.theme.gridGrap.tablet}px;
+	}
+
+	${(p) => p.theme.media.phone} {
+		padding: 0;
+		grid-template-columns: 1fr;
+		grid-gap: 0;
+	}
+`
+
 export const StyledUpcomingStreamPlaceholderImage = styled.img`
 	background-color: ${(p) => p.theme.color.willhaben};
 	width: 100%;
@@ -149,6 +170,17 @@ export const StreamProjectDateWrapper = styled.div`
 export const StyleUpcomingStreamsHeader = styled.div`
 	color: ${(p) => p.theme.color.white};
 	grid-area: featured-header;
+	margin: 64px 0;
+	text-align: center;
+
+	${(p) => p.theme.media.phone} {
+		margin: 42px 0;
+	}
+`
+
+export const StylePastStreamsHeader = styled.div`
+	color: ${(p) => p.theme.color.white};
+	grid-area: past-header;
 	margin: 64px 0;
 	text-align: center;
 
