@@ -4,13 +4,13 @@ TODO
 - light / dark mode
 - recommendation projects to donate to
 - finalize theme design (borders, background, animation)
-- visualize done streams
-- improve cms experience
 
 - add explaining what happens with the donation message (user testing)
 
 DONE
 
+- improve cms experience
+- visualize done streams
 - add faq markdown cms
 - add different favicon
 - (hack)fix layout shifts because grid gets destroyed by link twitch name links
