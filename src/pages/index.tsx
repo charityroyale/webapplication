@@ -1,6 +1,6 @@
 import React from 'react'
 import { GetStaticProps, NextPage } from 'next'
-import rawCmsContent from '../../_posts/frontpage/charity-royale.md'
+import rawCmsContent from '../../_cms/frontpage/charity-royale.md'
 import Head from 'next/head'
 import MainLayout from '../app/layouts/MainLayout'
 import PageWithLayoutType from '../app/types/PageWithLayout'
