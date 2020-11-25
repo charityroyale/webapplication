@@ -20,7 +20,7 @@ upcoming:
     streamerChannel: veni
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: 1
+    makeAWishProjectId: "3"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-14T19:00:00.000Z
     streamerChannel: revedtv
