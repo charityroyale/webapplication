@@ -8,7 +8,7 @@ import {
 	StyleUpcomingStreamsTitle,
 } from '../../styles/common.styles'
 import useMakeAWish from '../hooks/useMakeAWish'
-import { Upcoming } from '../types/CmsContent'
+import { Upcoming } from '../cms/cms'
 import UpcomingStream from './UpcomingStream/UpcomingStream'
 
 interface UpcomingStreams {

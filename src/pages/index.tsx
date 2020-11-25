@@ -1,6 +1,5 @@
 import React from 'react'
 import { GetStaticProps, NextPage } from 'next'
-import rawCmsContent from '../../_cms/charity-royale.md'
 import Head from 'next/head'
 import MainLayout from '../app/layouts/MainLayout'
 import PageWithLayoutType from '../app/types/PageWithLayout'
@@ -9,14 +8,13 @@ import UpcomingFeatures from '../app/components/UpcomingStreams'
 import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
 import ComingSoonLayout from '../app/layouts/ComingSoonLayout'
 import FaqBox from '../app/components/FaqBox'
-import { CmsContent, Upcoming } from '../app/types/CmsContent'
+import cmsContent, { Upcoming } from '../app/cms/cms'
 
 export interface InitialAppProps {
 	featuredStream?: string
 	schedule?: Upcoming[]
 }
 
-const cmsContent = rawCmsContent.attributes as CmsContent
 const websiteReleased = false
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
