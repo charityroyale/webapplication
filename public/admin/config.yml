@@ -28,12 +28,7 @@ collections:
               - { label: 'Stream Date', name: 'date', widget: 'datetime' }
               - label: Make-a-Wish project
                 name: makeAWishProjectId
-                widget: relation
-                collection: pages
-                file: cr2020
-                search_fields: ['makeAWishProjects.*.childname', 'makeAWishProjects.*.makeAWishProjectId']
-                value_field: makeAWishProjects.*.makeAWishProjectId
-                display_fields: ['{{makeAWishProjects.*.makeAWishProjectId}} - {{makeAWishProjects.*.childname}}']
+                widget: string
 
           - label: Make-a-Wish projects
             name: 'makeAWishProjects'
