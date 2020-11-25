@@ -7,6 +7,7 @@ TODO
 - better visualize past streams (grayscale, show donation amount)
 - https://www.netlifycms.org/docs/widgets/relation/ relation wish <--> streamer
 - upgrade netlify plan
+- add google analytics
 
 DONE
 
