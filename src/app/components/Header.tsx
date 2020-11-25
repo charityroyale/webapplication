@@ -52,7 +52,7 @@ const DonateButton = styled.a`
 	padding: 24px 48px;
 	text-decoration: none;
 	background-color: ${(p) => p.theme.color.veniPurple};
-	border: 2px solid ${(p) => p.theme.color.royaleGold};
+	border: 2px solid ${(p) => p.theme.color.charityTeal};
 	color: ${(p) => p.theme.color.white};
 	font-size: ${(p) => p.theme.fontSize.l}px;
 	letter-spacing: 3px;
@@ -65,10 +65,25 @@ const DonateButton = styled.a`
 	position: relative;
 	transition: background-color 0.17s;
 
+	border: 10px solid;
+	border-width: 3px;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(
+		to right,
+		${(p) => p.theme.color.charityTeal},
+		${(p) => p.theme.color.charityPink}
+	);
+	box-shadow: 4px 4px 3px 1px #000000;
+
 	&:hover,
 	&:focus {
 		color: ${(p) => p.theme.color.veniPurple};
-		background-color: ${(p) => p.theme.color.royaleGold};
+		background-color: ${(p) => p.theme.color.charityTeal};
+		border-image-source: linear-gradient(
+			to right,
+			${(p) => p.theme.color.charityTeal},
+			${(p) => p.theme.color.charityTeal}
+		);
 		cursor: pointer;
 	}
 

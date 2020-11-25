@@ -27,7 +27,7 @@ const FaqGrid = styled.div`
 const FaqButton = styled.a`
 	width: 100%;
 	height: 100%;
-	border: 2px solid ${(p) => p.theme.color.royaleGold};
+	border: 2px solid ${(p) => p.theme.color.charityTeal};
 	background-color: ${(p) => p.theme.color.veniPurple};
 	color: ${(p) => p.theme.color.white};
 	display: flex;
@@ -37,10 +37,25 @@ const FaqButton = styled.a`
 	font-weight: 600;
 	transition: background-color 0.17s;
 
+	border: 10px solid;
+	border-width: 3px;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(
+		to right,
+		${(p) => p.theme.color.charityTeal},
+		${(p) => p.theme.color.charityPink}
+	);
+	box-shadow: 4px 4px 3px 1px #000000;
+
 	&:hover,
 	&:focus {
 		color: ${(p) => p.theme.color.veniPurple};
-		background-color: ${(p) => p.theme.color.royaleGold};
+		border-image-source: linear-gradient(
+			to right,
+			${(p) => p.theme.color.charityTeal},
+			${(p) => p.theme.color.charityTeal}
+		);
+		background-color: ${(p) => p.theme.color.charityTeal};
 		cursor: pointer;
 	}
 `

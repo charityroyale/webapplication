@@ -78,7 +78,7 @@ const DonationHeaderStreamLink = styled.p`
 	margin: 8px 0;
 
 	a {
-		color: ${(p) => p.theme.color.royaleGold};
+		color: ${(p) => p.theme.color.charityTeal};
 	}
 `
 

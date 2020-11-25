@@ -3,12 +3,15 @@ TODO
 - accessibility checks
 - light / dark mode
 - recommendation projects to donate to
-- finalize theme design (borders, background, animation)
-
 - add explaining what happens with the donation message (user testing)
+- better visualize past streams (grayscale, show donation amount)
+- https://www.netlifycms.org/docs/widgets/relation/ relation wish <--> streamer
+- upgrade netlify plan
 
 DONE
 
+- faq <a> and <ul>/<ol> styling in cms markdown
+- adapt theme design (borders, background, animation)
 - improve cms experience
 - visualize done streams
 - add faq markdown cms

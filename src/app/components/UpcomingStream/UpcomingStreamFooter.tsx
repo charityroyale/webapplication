@@ -20,10 +20,6 @@ const UpcomingStreamTwitchLink = styled.div`
 	color: ${(p) => p.theme.color.white};
 	display: flex;
 	margin-bottom: 4px;
-
-	a {
-		color: ${(p) => p.theme.color.white};
-	}
 `
 
 const UpcomingStreamDateMobile = styled.div`
@@ -58,11 +54,11 @@ const StreamerIconWrapper = styled.div`
 	margin-right: ${(p) => p.theme.space.s}px;
 `
 
-const UpcomingStreamIcon = styled.img`
+export const UpcomingStreamIcon = styled.img`
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
-	border: 1px solid ${(p) => p.theme.color.royaleGold};
+	border: 1px solid ${(p) => p.theme.color.charityTeal};
 `
 
 const UpcomingStreamDescription = styled.div``
@@ -85,16 +81,17 @@ const UpcomingStreamerFooterRight = styled.div`
 	}
 `
 
-const UpcomingStreamerDonationLink = styled.a`
+export const UpcomingStreamerDonationLink = styled.a`
 	padding: 8px 18px;
 	display: none;
 	text-decoration: none;
 	color: ${(p) => p.theme.color.white};
-	border: 2px solid ${(p) => p.theme.color.royaleGold};
+	border: 2px solid ${(p) => p.theme.color.charityTeal};
+	box-shadow: -3px 3px black;
 
 	&:hover,
 	&:focus {
-		background-color: ${(p) => p.theme.color.royaleGold};
+		background-color: ${(p) => p.theme.color.charityTeal};
 		color: ${(p) => p.theme.color.veniPurple};
 	}
 
@@ -138,7 +135,7 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 					<StyledDescriptionText>Wish für {descripion}</StyledDescriptionText>
 					<UpcomingStreamTwitchLink>
 						<RiTwitchFill size={20} style={{ marginRight: '4px' }} />
-						<a style={{ width: '100px' }} href={streamLink} target="_blank" rel="noreferrer">
+						<a href={streamLink} target="_blank" rel="noreferrer">
 							<span>{streamerChannel}</span>
 						</a>
 					</UpcomingStreamTwitchLink>

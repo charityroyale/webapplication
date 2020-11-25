@@ -26,6 +26,8 @@ const DonationLabel = styled.div`
 
 const DonationUnit = styled.div`
 	font-size: ${(p) => p.theme.fontSize.xl}px;
+	color: ${(p) => p.theme.color.charityTeal};
+	text-shadow: 2px 2px 0px #7df8ff30;
 `
 
 const StyledDonationCountBox = styled.div`
