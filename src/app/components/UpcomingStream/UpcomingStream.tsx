@@ -8,6 +8,7 @@ import ClientLink from '../ClientLink'
 import { formatDate } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 import { UpcomingStreamFooter } from './UpcomingStreamFooter'
+import { MakeAWishProject } from '../../cms/cms'
 
 const StreamerImageWrapper = styled.div`
 	position: relative;
@@ -74,7 +75,7 @@ export interface UpcomingStreamProps {
 	streamerChannel: string
 	streamLink: string
 	makeAWishProjectId: string
-	descripion: string
+	makeAWish: MakeAWishProject
 	imgUrl: string
 	donationGoal: string
 	donationProgress: string

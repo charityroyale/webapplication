@@ -16,6 +16,7 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
           - { label: 'Featured Stream', name: 'featuredStream', widget: 'string' }
+
           - label: 'Upcoming Streams'
             name: 'upcoming'
             widget: 'list'
@@ -25,23 +26,37 @@ collections:
               - { label: 'Stream Link', name: 'streamLink', widget: 'string' }
               - { label: 'Streamer Image', name: 'imgUrl', widget: 'image' }
               - { label: 'Stream Date', name: 'date', widget: 'datetime' }
+              - label: Make-a-Wish project
+                name: makeAWishProjectId
+                widget: relation
+                collection: pages
+                file: cr2020
+                search_fields: ['makeAWishProjects.*.childname', 'makeAWishProjects.*.makeAWishProjectId']
+                value_field: makeAWishProjects.*.makeAWishProjectId
+                display_fields: ['{{makeAWishProjects.*.makeAWishProjectId}} - {{makeAWishProjects.*.childname}}']
+
+          - label: Make-a-Wish projects
+            name: 'makeAWishProjects'
+            widget: list
+            fields:
               - { label: 'Project id (Make-a-wish)', name: 'makeAWishProjectId', widget: 'string' }
               - { label: 'Description', name: 'descripion', widget: 'string' }
               - { label: 'Tagline', name: 'tagline', widget: 'string' }
               - { label: 'Child Name', name: 'childname', widget: 'string' }
+
           - label: FAQ
             name: faq
             widget: object
             fields:
-            - label: Questions
-              name: questions
-              widget: list
-              fields:
-                - { label: 'Question', name: 'question', widget: 'string' }
-                - { label: 'Answer', name: 'answer', widget: 'markdown' }
-            - label: Videos
-              name: videos
-              widget: list
-              fields:
-                - { label: 'Video Url', name: 'url', widget: 'string' }
-                - { label: 'Video Name', name: 'name', widget: 'string' }
+              - label: Questions
+                name: questions
+                widget: list
+                fields:
+                  - { label: 'Question', name: 'question', widget: 'string' }
+                  - { label: 'Answer', name: 'answer', widget: 'markdown' }
+              - label: Videos
+                name: videos
+                widget: list
+                fields:
+                  - { label: 'Video Url', name: 'url', widget: 'string' }
+                  - { label: 'Video Name', name: 'name', widget: 'string' }

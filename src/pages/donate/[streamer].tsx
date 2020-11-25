@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import { useRouter } from 'next/router'
-import rawCmsContent from '../../../_cms/charity-royale.md'
 import Head from 'next/head'
 import DonationHeader from '../../app/components/DonationHeader'
 import DonationWidget from '../../app/components/DonationWidget'
@@ -17,12 +16,12 @@ import { formatDateDefault } from '../../app/utils/formatUtils'
 import { styled } from '../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
 import { useIsSSR } from '../../app/components/isSSR'
-import { CmsContent, Upcoming } from '../../app/types/CmsContent'
 import { ImTrophy } from 'react-icons/im'
 import { BsFillPeopleFill } from 'react-icons/bs'
 import { FaDove } from 'react-icons/fa'
 import { Line } from 'rc-progress'
 import { getPercentage } from '../../app/utils/commonUtils'
+import cmsContent, { Upcoming } from '../../app/cms/cms'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
@@ -51,8 +50,6 @@ const IFrameLoadErrorMessage = styled.p`
 interface InitialDonationProps {
 	project: Upcoming
 }
-
-const cmsContent = rawCmsContent.attributes as CmsContent
 
 const getTopDonatorFirstColum = (index) => {
 	switch (index) {
@@ -111,7 +108,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	let latestDonatorsList = new Array<List>()
 	let highestDonatorsList = new Array<List>()
 	if (!makeAWish.isError && !makeAWish.isLoading) {
-		makeAWishProject = makeAWish.data.projects[project.makeAWishProjectId]
+		makeAWishProject = makeAWish.data.projects[project.makeAWish.makeAWishProjectId]
 		latestDonatorsList = makeAWishProject.recent_donators.map((r) => ({
 			col_1: formatDateDefault(new Date(r.unix_timestamp * 1000)),
 			col_2: r.name,
@@ -176,8 +173,8 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			<DonationHeader
 				streamLink={project.streamLink}
 				streamerName={project.streamerName}
-				title={project.tagline}
-				description={project.descripion}
+				title={project.makeAWish.tagline}
+				description={project.makeAWish.descripion}
 			>
 				<React.Fragment>
 					<DonationStatsTitle>Spendenübersicht</DonationStatsTitle>

@@ -5,11 +5,8 @@ import PageWithLayoutType from '../app/types/PageWithLayout'
 import MainLayout from '../app/layouts/MainLayout'
 import { styled } from '../styles/Theme'
 import { ResponsiveVideo } from '../app/components/ResponsiveVideo'
-import rawCmsContent from '../../_cms/charity-royale.md'
-import { CmsContent, FAQEntry, FAQVideoEntry } from '../app/types/CmsContent'
+import cmsContent, { FAQEntry, FAQVideoEntry } from '../app/cms/cms'
 import ReactMarkdown from 'react-markdown'
-
-const cmsContent = rawCmsContent.attributes as CmsContent
 
 const FaqMainWrapper = styled.div`
 	margin: auto;

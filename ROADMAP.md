@@ -7,6 +7,8 @@ TODO
 - better visualize past streams (grayscale, show donation amount)
 - https://www.netlifycms.org/docs/widgets/relation/ relation wish <--> streamer
 - upgrade netlify plan
+- add google analytics
+- fix minor header image (cr2020) on ios safari centered
 
 DONE
 
