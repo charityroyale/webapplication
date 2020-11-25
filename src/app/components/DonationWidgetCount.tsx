@@ -24,9 +24,7 @@ const GoalReachCount = styled.span`
 	color: #50c878;
 `
 
-const MakeAWishLink = styled.a`
-	color: ${(p) => p.theme.color.white};
-`
+const MakeAWishLink = styled.a``
 
 const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = ({
 	current_amount,

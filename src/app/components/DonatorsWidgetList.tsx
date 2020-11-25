@@ -31,7 +31,7 @@ const DonationList = styled.div`
 `
 
 const DonationAmount = styled.div`
-	color: ${(p) => p.theme.color.white};
+	color: ${(p) => p.theme.color.charityTeal};
 	font-weight: 800;
 `
 

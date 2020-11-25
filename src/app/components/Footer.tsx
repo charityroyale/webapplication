@@ -47,7 +47,7 @@ const StyledFooter = styled.footer`
 	color: ${(p) => p.theme.color.white};
 
 	a {
-		color: ${(p) => p.theme.color.royaleGold};
+		color: ${(p) => p.theme.color.charityTeal};
 	}
 
 	${(p) => p.theme.media.phone} {

@@ -16,6 +16,10 @@ export const GlobalStyle = createGlobalStyle`
 		box-sizing: border-box;
 	}
 
+	a {
+		color: #7DF8FF;
+	}
+
 	p, div, h2, h5 {
 		margin: 0;
 	}
@@ -28,5 +32,15 @@ export const GlobalStyle = createGlobalStyle`
 	button {
 		appearance: none;
 		border: none;
+	}
+
+	// cms
+	.faq-answer ul, ol {
+		margin-left: 24px;
+
+		li {
+		margin: 4px 0;
+
+		}
 	}
 `

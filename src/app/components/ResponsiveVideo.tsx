@@ -11,6 +11,7 @@ const VideoContainer = styled.div`
 	padding-top: 0;
 	height: 0;
 	overflow: hidden;
+	box-shadow: 4px 4px 3px 1px #000000;
 
 	iframe,
 	embed,
@@ -20,7 +21,15 @@ const VideoContainer = styled.div`
 		left: 0;
 		width: 100%;
 		height: 100%;
-		border: 2px solid ${(p) => p.theme.color.royaleGold};
+		border: 10px solid;
+		border-width: 3px;
+		border-image-slice: 1;
+		border-image-source: linear-gradient(
+			to right,
+			${(p) => p.theme.color.charityTeal},
+			${(p) => p.theme.color.charityBlue},
+			${(p) => p.theme.color.charityPink}
+		);
 	}
 `
 

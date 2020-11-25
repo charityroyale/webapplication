@@ -13,7 +13,6 @@ export const theme = {
 		secondary: 'green',
 		blackPeral: '#050F1A',
 		veniPurple: '#231565',
-		royaleGold: '#E1C478',
 		willhaben: '#049EE7',
 		decentBeton: '#E6E6E6',
 		emerald: '#50C878',

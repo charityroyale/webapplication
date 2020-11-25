@@ -64,7 +64,7 @@ const FaqQuestion = styled.p`
 	margin-bottom: ${(p) => p.theme.space.m}px;
 `
 
-const FaqAnswer = styled.p`
+const FaqAnswer = styled.div`
 	font-size: ${(p) => p.theme.fontSize.m}px;
 	margin-bottom: ${(p) => p.theme.space.m}px;
 `
@@ -78,7 +78,7 @@ const FaqQuestionBox: FunctionComponent<FaqQuestionBoxProps> = ({ question, answ
 	return (
 		<FaqQuestionBoxWrapper>
 			<FaqQuestion>{question}</FaqQuestion>
-			<FaqAnswer>
+			<FaqAnswer className="faq-answer">
 				<ReactMarkdown>{answer}</ReactMarkdown>
 			</FaqAnswer>
 		</FaqQuestionBoxWrapper>

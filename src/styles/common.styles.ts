@@ -85,19 +85,38 @@ export const StyledFeatured = styled.div`
 	justify-content: center;
 	align-items: center;
 
-	// background-color: ${(p) => p.theme.color.veniPurple};
-
 	iframe {
-		border: 2px solid ${(p) => p.theme.color.royaleGold};
+		border: 2px solid ${(p) => p.theme.color.charityTeal};
 		box-sizing: content-box;
 		background-color: black;
+		border: 10px solid;
+		border-width: 3px;
+		border-image-slice: 1;
+		border-image-source: linear-gradient(
+			to right,
+			${(p) => p.theme.color.charityTeal},
+			${(p) => p.theme.color.charityBlue},
+			${(p) => p.theme.color.charityPink}
+		);
 
 		${(p) => p.theme.media.phone} {
 			border: none;
-			border-top: 2px solid ${(p) => p.theme.color.royaleGold};
-			border-bottom: 2px solid ${(p) => p.theme.color.royaleGold};
+			border-top: 2px solid ${(p) => p.theme.color.charityTeal};
+			border-bottom: 2px solid ${(p) => p.theme.color.charityTeal};
 		}
 	}
+`
+
+export const StreamProjectDateWrapper = styled.div`
+	position: absolute;
+	left: 0;
+	background-color: ${(p) => p.theme.color.charityTeal};
+	color: ${(p) => p.theme.color.veniPurple};
+	bottom: 0;
+	border-top-right-radius: ${(p) => p.theme.space.xs}px;
+	font-weight: bold;
+	font-size: ${(p) => p.theme.fontSize.xl}px;
+	padding: 0px 8px;
 `
 
 export const StyledUpcoming = styled.div`
@@ -105,8 +124,9 @@ export const StyledUpcoming = styled.div`
 	grid-area: upcoming;
 	justify-content: center;
 	display: grid;
-	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
+	margin: auto;
 
 	${(p) => p.theme.media.tablet} {
 		padding: ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xl}px;
@@ -118,6 +138,7 @@ export const StyledUpcoming = styled.div`
 		padding: 0;
 		grid-template-columns: 1fr;
 		grid-gap: 0;
+		margin: 0;
 	}
 `
 
@@ -144,6 +165,7 @@ export const StyledPast = styled.div`
 
 export const StyledUpcomingStreamPlaceholderImage = styled.img`
 	background-color: ${(p) => p.theme.color.willhaben};
+	border: 1px solid ${(p) => p.theme.color.charityTeal};
 	width: 100%;
 `
 
@@ -153,18 +175,6 @@ export const StyledStreamerProjectHeader = styled.div`
 	font-weight: 600;
 	font-size: ${(p) => p.theme.fontSize.xl}px;
 	text-align: center;
-`
-
-export const StreamProjectDateWrapper = styled.div`
-	position: absolute;
-	left: 0;
-	background-color: ${(p) => p.theme.color.royaleGold};
-	color: ${(p) => p.theme.color.veniPurple};
-	bottom: 0;
-	border-top-right-radius: ${(p) => p.theme.space.xs}px;
-	font-weight: bold;
-	font-size: ${(p) => p.theme.fontSize.xl}px;
-	padding: 0px 8px;
 `
 
 export const StyleUpcomingStreamsHeader = styled.div`

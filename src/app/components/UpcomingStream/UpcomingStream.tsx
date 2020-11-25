@@ -39,8 +39,8 @@ const StreamerImageWrapper = styled.div`
 	}
 `
 
-const UpcomingStreamDate = styled.p`
-	background-color: ${(p) => p.theme.color.royaleGold};
+export const UpcomingStreamDate = styled.p`
+	background-color: ${(p) => p.theme.color.charityTeal};
 	color: ${(p) => p.theme.color.veniPurple};
 	border-top-right-radius: 2px;
 	border-top-left-radius: 2px;
@@ -55,16 +55,16 @@ const UpcomingStreamDate = styled.p`
 	}
 `
 
-const DonationLinkIndicator = styled.div`
+export const DonationLinkIndicator = styled.div`
 	position: absolute;
 	right: 5px;
 	bottom: 0;
 	background-color: transparent;
 `
 
-const StyledUpcomingStream = styled.div`
+export const StyledUpcomingStream = styled.div`
 	${(p) => p.theme.media.phone} {
-		border-bottom: 1px solid ${(p) => p.theme.color.royaleGold};
+		border-bottom: 1px solid ${(p) => p.theme.color.charityTeal};
 	}
 `
 
@@ -99,7 +99,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 			</UpcomingStreamDate>
 			<ClientLink href={donateLinkHref}>
 				<StreamerImageWrapper>
-					{!imageLoaded && <Skeleton height={275} />}
+					{!imageLoaded && <Skeleton height={300} width={300} />}
 					{!isSSR && (
 						<StyledUpcomingStreamPlaceholderImage
 							style={{ display: imageLoaded ? 'flex' : 'none' }}
@@ -112,7 +112,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 						<p>{streamerName}</p>
 					</StreamProjectDateWrapper>
 					<DonationLinkIndicator>
-						<BiDonateHeart color="#e1c478" size={30} />
+						<BiDonateHeart color="#7DF8FF" size={30} />
 					</DonationLinkIndicator>
 				</StreamerImageWrapper>
 			</ClientLink>
