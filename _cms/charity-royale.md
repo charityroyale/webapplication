@@ -148,89 +148,103 @@ upcoming:
     streamLink: https://www.twitch.tv/twitch
     makeAWishProjectId: 24
 makeAWishProjects:
-  - descripion: blablub
-    childname: child1
-    tagline: Some cool tagline
+  - descripion: Ich möchte ins Disneyland fahren und Donald besuchen
+    childname: Lilli
+    tagline: Lilli möchte ins Disneyland
     makeAWishProjectId: 1
-  - descripion: blablub
-    childname: child2
-    tagline: Some cool tagline
+  - descripion: Ich möchte schöne Tage mit meiner Familie in Istanbul verbringen
+    childname: Eren
+    tagline: Eren möchte nach Istanbul mit seiner Familie
     makeAWishProjectId: 2
   - descripion: blabla
     childname: child3
     tagline: Some cool tagline
     makeAWishProjectId: 3
-  - descripion: blablub
-    childname: child4
-    tagline: Some cool tagline
+  - descripion: Mein absoluter Herzenswunsch ist eine Rundreise durch Norwegen,
+      Island und Amsterdam. Das Anne Frank-Haus und eine Grachtenrundfahrt in
+      Amsterdam, die Blue Lagoon in Island und nicht zuletzt eine Fjordfahrt
+      möchte ich unbedingt erleben.
+    childname: Loreen
+    tagline: Loreen möchte weit hinaus
     makeAWishProjectId: 4
-  - descripion: blablub
-    childname: child5
-    tagline: Some cool tagline
+  - descripion: Ich wünsche mir ein neues Jugendzimmer. Es soll Schaukelsessel drin
+      sein und eine LED–Beleuchtung für mein Bett. Toll wäre auch ein
+      Wandtattoo.
+    childname: Abdalla
+    tagline: Ein neues Jugendzimmer für Abdalla
     makeAWishProjectId: 5
-  - descripion: blablub
-    childname: child6
-    tagline: Some cool tagline
+  - descripion: Ich möchte ein Mal nach New York und so viele Sehenswürdigkeiten wie
+      möglich sehen.
+    childname: Jonas
+    tagline: Jonas war noch niemals in New York
     makeAWishProjectId: 6
-  - descripion: blablub
-    childname: child7
-    tagline: Some cool tagline
+  - descripion: Ich möchte Mickey Mouse in Disneyland besuchen und mit ihr Mittagessen.
+    childname: Simon
+    tagline: Simon möchte ins Disneyland
     makeAWishProjectId: 7
   - descripion: blablub
     childname: child8
     tagline: Some cool tagline
     makeAWishProjectId: 8
-  - descripion: blablub
-    childname: child9
-    tagline: Some cool tagline
+  - descripion: Ich möchte im Disneyland all die lustigen Disneyfiguren kennenlernen.
+    childname: Hanna
+    tagline: Hanna möchte ins Disneyland
     makeAWishProjectId: 9
-  - descripion: blablub
-    childname: child10
-    tagline: Some cool tagline
+  - descripion: Besuch einer Farbik für Kinderspielanlagen und beim Bau einer
+      solchen Anlage dabei zu sein
+    childname: Karl
+    tagline: Karl möchte eine Kinderspielanlage bauen
     makeAWishProjectId: 10
-  - descripion: blablub
-    childname: child11
-    tagline: Some cool tagline
+  - descripion: Ich möchte mit allem was möglich ist im Disneyland fahren und alle
+      Attraktionen sehen.
+    childname: Jonas
+    tagline: Alles was fährt für Jonas im Disneyland
     makeAWishProjectId: 11
-  - descripion: blablub
-    childname: child12
-    tagline: Some cool tagline
+  - descripion: "Mein Herzenswunsch seit Kindertagen: mit einem Schreitbagger zu fahren."
+    childname: Dominik
+    tagline: Ein Schreitbagger für Dominik
     makeAWishProjectId: 12
   - descripion: blablub
     childname: child13
     tagline: Some cool tagline
     makeAWishProjectId: 13
-  - descripion: blablub
-    childname: child14
-    tagline: Some cool tagline
+  - descripion: "Mein Herzenswunsch: ein DJ Equipment"
+    childname: Lena
+    tagline: Equipment für DJ Lena
     makeAWishProjectId: 14
   - descripion: blablub
     childname: child15
     tagline: Some cool tagline
     makeAWishProjectId: 15
-  - descripion: blablub
-    childname: child16
-    tagline: Some cool tagline
+  - descripion: Ich bin ein großer Super Mario Fan und wünsch mir deshalb sehnlich
+      eine Nintendo Switch Console Super Mario Odyssey Edition und ein dazu
+      passendes Spiel
+    childname: Dominic
+    tagline: It's-a Me, Mario! eeh Dominic!
     makeAWishProjectId: 16
-  - descripion: blablub
-    childname: child17
-    tagline: Some cool tagline
+  - descripion: Ich wünsch mir einen Laptop, damit ich mit meinen Freunden spielen
+      kann - auch wenn ich im Krankenhaus bin.
+    childname: Filip
+    tagline: Ein Laptop für Filip um mit seinen Freunden in Kontakt zu bleiben
     makeAWishProjectId: 17
-  - descripion: blablub
-    childname: child18
-    tagline: Some cool tagline
+  - descripion: Mein Herzenswunsch ist eine X-Box mit Spielen, mit der ich spielen
+      kann, wenn ich allein zuhause bin.
+    childname: Mert
+    tagline: Eine X-Box für Mert
     makeAWishProjectId: 18
-  - descripion: blablub
-    childname: child19
-    tagline: Some cool tagline
+  - descripion: Ich wünsch mir ein Tablet mit dem ich Spiele spielen kann, wenn ich
+      im Krankenhaus bin
+    childname: Zeynep
+    tagline: Ein Tablet zum Spiele spielen für Zeynep
     makeAWishProjectId: 19
   - descripion: blablub
     childname: child20
     tagline: Some cool tagline
     makeAWishProjectId: 20
-  - descripion: blablub
-    childname: child21
-    tagline: Some cool tagline
+  - descripion: Ein Go-Kart ist mein großer Wunsch, eines, das richtig schnell geht,
+      wünsch ich mir.
+    childname: Abu
+    tagline: Ein Go-Kart für Abu
     makeAWishProjectId: 21
   - descripion: blablub
     childname: child22
@@ -240,9 +254,11 @@ makeAWishProjects:
     childname: child23
     tagline: Some cool tagline
     makeAWishProjectId: 23
-  - descripion: blablub
-    childname: child24
-    tagline: Some cool tagline
+  - descripion: Ich möchte unbedingt ganz neue Erfahrungen machen, völlig neue Dinge
+      sehen. Ich liebe alles, was aus Amerika kommt und deshalb ist es mein
+      größter Wunsch New York zu besuchen
+    childname: Theresa
+    tagline: Theresa möchte Amerika in New York erleben
     makeAWishProjectId: 24
 faq:
   questions:
