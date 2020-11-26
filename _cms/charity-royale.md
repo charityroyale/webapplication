@@ -34,7 +34,7 @@ upcoming:
     streamLink: https://www.twitch.tv/orangemorange
     makeAWishProjectId: "7"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-06T18:00:00.000Z
+    date: 2020-12-06T16:00:00.000Z
     streamerChannel: beccisplayground
     streamerName: Just Becci
     streamLink: https://www.twitch.tv/beccisplayground
