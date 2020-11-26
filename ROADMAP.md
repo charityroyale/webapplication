@@ -5,13 +5,13 @@ TODO
 - recommendation projects to donate to
 - add explaining what happens with the donation message (user testing)
 - better visualize past streams (grayscale, show donation amount)
-- https://www.netlifycms.org/docs/widgets/relation/ relation wish <--> streamer
-- upgrade netlify plan
 - add google analytics
 - fix minor header image (cr2020) on ios safari centered
 
 DONE
 
+- upgrade netlify plan
+- https://www.netlifycms.org/docs/widgets/relation/ relation wish <--> streamer
 - faq <a> and <ul>/<ol> styling in cms markdown
 - adapt theme design (borders, background, animation)
 - improve cms experience
