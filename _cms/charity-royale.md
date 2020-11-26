@@ -16,12 +16,6 @@ upcoming:
     streamLink: https://www.twitch.tv/Stegi
     makeAWishProjectId: "14"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-03T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: TBA
-    streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "24"
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-04T15:00:00.000Z
     streamerChannel: timjacken
     streamerName: Tim Jacken
@@ -45,12 +39,6 @@ upcoming:
     streamerName: Zander
     streamLink: https://www.twitch.tv/zander
     makeAWishProjectId: "12"
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-08T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: TBA
-    streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "24"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-09T18:00:00.000Z
     streamerChannel: fabo
@@ -76,12 +64,6 @@ upcoming:
     streamLink: https://www.twitch.tv/mrsxeniatv
     makeAWishProjectId: "9"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-13T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: TBA
-    streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "24"
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-14T15:00:00.000Z
     streamerChannel: revedtv
     streamerName: Reved
@@ -93,12 +75,6 @@ upcoming:
     streamerName: Petrit
     streamLink: https://www.twitch.tv/petrit
     makeAWishProjectId: "10"
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-16T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: TBA
-    streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "24"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-17T13:00:00.000Z
     streamerChannel: nebelniek
@@ -117,18 +93,6 @@ upcoming:
     streamerName: BastiGHG
     streamLink: https://www.twitch.tv/bastighg
     makeAWishProjectId: "5"
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-20T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: TBA
-    streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "24"
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-21T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: TBA
-    streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "24"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-22T11:00:00.000Z
     streamerChannel: veni
