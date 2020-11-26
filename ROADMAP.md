@@ -1,15 +1,13 @@
 TODO
 
-- accessibility checks
-- light / dark mode
 - recommendation projects to donate to
 - add explaining what happens with the donation message (user testing)
 - better visualize past streams (grayscale, show donation amount)
-- add google analytics
 - fix minor header image (cr2020) on ios safari centered
 
 DONE
 
+- add google analytics
 - upgrade netlify plan
 - https://www.netlifycms.org/docs/widgets/relation/ relation wish <--> streamer
 - faq <a> and <ul>/<ol> styling in cms markdown
@@ -79,7 +77,3 @@ DONE
 - improved featured iframe responsiveness
 - fix featured iframe width size
 - fix flickering featuredStreamPlaceholder (width, height)
-
-NICE-TO-HAVE
-
-- donation form loader takes quiet some time to fire onLoad event
