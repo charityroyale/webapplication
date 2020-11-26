@@ -98,7 +98,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 				<BsCalendar style={{ marginRight: '8px' }} />
 				<span>{formatDate(new Date(date))}</span>
 			</UpcomingStreamDate>
-			<ClientLink href={donateLinkHref}>
+			<ClientLink href={donateLinkHref} ariaLabel={`Streamer ${streamerName} Logo`}>
 				<StreamerImageWrapper>
 					{!imageLoaded && <Skeleton height={300} width={300} />}
 					{!isSSR && (
