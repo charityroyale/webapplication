@@ -20,6 +20,10 @@ const UpcomingStreamTwitchLink = styled.div`
 	color: ${(p) => p.theme.color.white};
 	display: flex;
 	margin-bottom: 4px;
+
+	${(p) => p.theme.media.phone} {
+		margin-bottom: 6px;
+	}
 `
 
 const UpcomingStreamDateMobile = styled.div`
@@ -34,11 +38,8 @@ const UpcomingStreamDateMobile = styled.div`
 
 const StyledDescriptionText = styled.p`
 	color: ${(p) => p.theme.color.white};
+	margin-bottom: ${(p) => p.theme.space.xs}px;
 	font-weight: 600;
-
-	${(p) => p.theme.media.phone} {
-		margin-bottom: ${(p) => p.theme.space.xs}px;
-	}
 `
 
 const StreamerIconWrapper = styled.div`
