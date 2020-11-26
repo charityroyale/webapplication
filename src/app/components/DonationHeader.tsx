@@ -49,6 +49,7 @@ const DonationProjectContent = styled.div`
 const DonationHeaderProject = styled.div`
 	display: flex;
 	justify-content: space-between;
+	margin-top: ${(p) => p.theme.space.l}px;
 
 	${(p) => p.theme.media.phone} {
 		flex-direction: column;

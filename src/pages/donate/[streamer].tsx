@@ -93,6 +93,11 @@ const DonationStatsTitle = styled.p`
 	margin-bottom: ${(p) => p.theme.space.m}px;
 `
 
+const DonationStatNumbers = styled.span`
+	color: ${(p) => p.theme.color.charityTeal};
+	font-weight: bold;
+`
+
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
 	const router = useRouter()
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by form
@@ -184,7 +189,9 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 						</div>
 
 						<DonationStatsWidget>
-							<p>Gespendet {donationSum}€</p>
+							<p>
+								Gespendet <DonationStatNumbers>{donationSum}€</DonationStatNumbers>
+							</p>
 							<Line
 								style={{ padding: '4px 0' }}
 								percent={percentage}
@@ -193,7 +200,9 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 								trailColor="white"
 								strokeColor={hasReachedGoal && !makeAWish.isLoading ? 'green' : 'gold'}
 							/>
-							<DonationStatsWidgetGoal>Ziel {donationGoal}€</DonationStatsWidgetGoal>
+							<DonationStatsWidgetGoal>
+								Ziel <DonationStatNumbers>{donationGoal}€</DonationStatNumbers>
+							</DonationStatsWidgetGoal>
 						</DonationStatsWidget>
 					</DonationSubPageStats>
 					<DonationSubPageStats>
@@ -201,7 +210,9 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 							<BsFillPeopleFill color="white" size="40" />
 						</div>
 
-						<DonationStatsWidget>Spender {donatorsCount}</DonationStatsWidget>
+						<DonationStatsWidget>
+							Spender <DonationStatNumbers>{donatorsCount}</DonationStatNumbers>
+						</DonationStatsWidget>
 					</DonationSubPageStats>
 				</React.Fragment>
 			</DonationHeader>
