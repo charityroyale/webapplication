@@ -8,6 +8,7 @@ import { UpcomingStreamProps } from './UpcomingStream'
 import { RiTwitchFill } from 'react-icons/ri'
 import { formatDate } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
+import { useInView } from 'react-intersection-observer'
 
 const StyledUpcomingStreamFooter = styled.div`
 	display: flex;
@@ -111,13 +112,14 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 }: UpcomingStreamProps) => {
 	const [iconLoaded, setIconLoaded] = useState(false)
 	const isSSR = useIsSSR()
+	const { ref, inView } = useInView({ triggerOnce: true })
 
 	const onIconImageLoad = useCallback(() => {
 		setIconLoaded(true)
 	}, [])
 
 	return (
-		<StyledUpcomingStreamFooter>
+		<StyledUpcomingStreamFooter ref={ref}>
 			<UpcomingStreamerFooterLeft>
 				<StreamerIconWrapper>
 					<ClientLink href={streamLink} target="_blank">
@@ -126,7 +128,7 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 							<UpcomingStreamIcon
 								onLoad={onIconImageLoad}
 								style={{ display: !iconLoaded ? 'none' : 'flex' }}
-								src={imgUrl}
+								src={inView ? imgUrl : ''}
 								alt={`Streamer ${streamerName} Logo`}
 							/>
 						)}
