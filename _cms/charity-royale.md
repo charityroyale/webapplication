@@ -5,148 +5,142 @@ featuredStream: veni
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-11-01T17:00:00.000Z
-    streamerChannel: bastighg
-    streamerName: BastiGHG
-    streamLink: https://www.twitch.tv/bastighg
-    makeAWishProjectId: 3
+    streamerChannel: zayuri
+    streamerName: Zayuri
+    streamLink: https://www.twitch.tv/zayuri
+    makeAWishProjectId: "1"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-02T19:00:00.000Z
     streamerChannel: stegi
     streamerName: Stegi
     streamLink: https://www.twitch.tv/Stegi
-    makeAWishProjectId: 4
+    makeAWishProjectId: "14"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-01T19:00:00.000Z
+    date: 2020-12-03T19:00:00.000Z
     streamerChannel: veni
-    streamerName: Veni
+    streamerName: TBA
     streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "3"
+    makeAWishProjectId: "24"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-14T19:00:00.000Z
-    streamerChannel: revedtv
-    streamerName: Revedtv
-    streamLink: https://www.twitch.tv/revedtv
-    makeAWishProjectId: 2
+    date: 2020-12-04T15:00:00.000Z
+    streamerChannel: timjacken
+    streamerName: Tim Jacken
+    streamLink: https://www.twitch.tv/timjacken
+    makeAWishProjectId: "21"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-06T19:00:00.000Z
+    date: 2020-12-05T19:00:00.000Z
+    streamerChannel: orangemorange
+    streamerName: Orange Morange
+    streamLink: https://www.twitch.tv/orangemorange
+    makeAWishProjectId: "7"
+  - imgUrl: /uploads/charity_royale_rgb_300x300.png
+    date: 2020-12-06T18:00:00.000Z
     streamerChannel: beccisplayground
-    streamerName: JustBecci
+    streamerName: Just Becci
     streamLink: https://www.twitch.tv/beccisplayground
-    makeAWishProjectId: 5
+    makeAWishProjectId: "4"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-07T21:00:00.000Z
+    date: 2020-12-07T13:00:00.000Z
     streamerChannel: zander
     streamerName: Zander
     streamLink: https://www.twitch.tv/zander
-    makeAWishProjectId: 6
+    makeAWishProjectId: "12"
+  - imgUrl: /uploads/charity_royale_rgb_300x300.png
+    date: 2020-12-08T19:00:00.000Z
+    streamerChannel: veni
+    streamerName: TBA
+    streamLink: https://www.twitch.tv/veni
+    makeAWishProjectId: "24"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-09T18:00:00.000Z
-    streamerChannel: thefabo
+    streamerChannel: fabo
     streamerName: Fabo
-    streamLink: https://www.twitch.tv/thefabo
-    makeAWishProjectId: 7
+    streamLink: https://www.twitch.tv/fabo
+    makeAWishProjectId: "18"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-10T19:00:00.000Z
+    date: 2020-12-10T18:00:00.000Z
     streamerChannel: xoynuzi
-    streamerName: Eni
+    streamerName: XoYnUzi
     streamLink: https://www.twitch.tv/xoynuzi
-    makeAWishProjectId: 8
+    makeAWishProjectId: "19"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-11T19:45:00.000Z
+    date: 2020-12-11T17:00:00.000Z
     streamerChannel: luigikid
     streamerName: Luigikid
     streamLink: https://www.twitch.tv/luigikid
-    makeAWishProjectId: 9
+    makeAWishProjectId: "16"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-17T19:00:00.000Z
+    date: 2020-12-12T15:00:00.000Z
+    streamerChannel: mrsxeniatv
+    streamerName: MrsXenia
+    streamLink: https://www.twitch.tv/mrsxeniatv
+    makeAWishProjectId: "9"
+  - imgUrl: /uploads/charity_royale_rgb_300x300.png
+    date: 2020-12-13T19:00:00.000Z
+    streamerChannel: veni
+    streamerName: TBA
+    streamLink: https://www.twitch.tv/veni
+    makeAWishProjectId: "24"
+  - imgUrl: /uploads/charity_royale_rgb_300x300.png
+    date: 2020-12-14T15:00:00.000Z
+    streamerChannel: revedtv
+    streamerName: Reved
+    streamLink: https://www.twitch.tv/revedtv
+    makeAWishProjectId: "6"
+  - imgUrl: /uploads/charity_royale_rgb_300x300.png
+    date: 2020-12-15T19:00:00.000Z
+    streamerChannel: petrit
+    streamerName: Petrit
+    streamLink: https://www.twitch.tv/petrit
+    makeAWishProjectId: "10"
+  - imgUrl: /uploads/charity_royale_rgb_300x300.png
+    date: 2020-12-16T19:00:00.000Z
+    streamerChannel: veni
+    streamerName: TBA
+    streamLink: https://www.twitch.tv/veni
+    makeAWishProjectId: "24"
+  - imgUrl: /uploads/charity_royale_rgb_300x300.png
+    date: 2020-12-17T13:00:00.000Z
     streamerChannel: nebelniek
     streamerName: NebelNiek
     streamLink: https://www.twitch.tv/nebelniek
-    makeAWishProjectId: 10
+    makeAWishProjectId: 17
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-18T19:00:00.000Z
     streamerChannel: henke
     streamerName: Henke
     streamLink: https://www.twitch.tv/henke
-    makeAWishProjectId: 11
+    makeAWishProjectId: "11"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-12T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: Other Streamer 12
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 12
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-13T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: Other Streamer 13
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 13
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-14T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: Other Streamer 14
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 14
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-15T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: Other Streamer 15
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 15
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-16T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: Other Streamer 16
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 16
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-17T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: Other Streamer 17
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 17
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-18T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: Other Streamer 18
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 18
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-19T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: Other Streamer 19
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 19
+    date: 2020-12-19T11:00:00.000Z
+    streamerChannel: bastighg
+    streamerName: BastiGHG
+    streamLink: https://www.twitch.tv/bastighg
+    makeAWishProjectId: "5"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-20T19:00:00.000Z
     streamerChannel: veni
-    streamerName: Other Streamer 20
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 20
+    streamerName: TBA
+    streamLink: https://www.twitch.tv/veni
+    makeAWishProjectId: "24"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-21T19:00:00.000Z
     streamerChannel: veni
-    streamerName: Other Streamer 21
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 21
+    streamerName: TBA
+    streamLink: https://www.twitch.tv/veni
+    makeAWishProjectId: "24"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-22T19:00:00.000Z
+    date: 2020-12-22T11:00:00.000Z
     streamerChannel: veni
-    streamerName: Other Streamer 22
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 22
+    streamerName: Veni
+    streamLink: https://www.twitch.tv/veni
+    makeAWishProjectId: "24"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-23T19:00:00.000Z
     streamerChannel: veni
-    streamerName: Other Streamer 23
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 23
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-24T19:00:00.000Z
-    streamerChannel: veni
-    streamerName: Other Streamer 24
-    streamLink: https://www.twitch.tv/twitch
-    makeAWishProjectId: 24
+    streamerName: Veni
+    streamLink: https://www.twitch.tv/veni
+    makeAWishProjectId: "24"
 makeAWishProjects:
   - descripion: Ich möchte ins Disneyland fahren und Donald besuchen
     childname: Lilli
