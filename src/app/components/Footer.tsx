@@ -105,6 +105,11 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 						</a>
 					</FooterListItem>
 					<FooterListItem>
+						<a target="_bank" rel="noreferrer" href={'https://www.willhaben.at/iad/datenschutzerklaerung'}>
+							Datenschutzerklärung
+						</a>
+					</FooterListItem>
+					<FooterListItem>
 						willhaben internet service GmbH & Co KG <br /> Landstraßer Hauptstraße 97-101 <br /> Bürozentrum 1 1030 Wien
 					</FooterListItem>
 				</FooterList>
