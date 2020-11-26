@@ -9,6 +9,7 @@ import { formatDate } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 import { UpcomingStreamFooter } from './UpcomingStreamFooter'
 import { MakeAWishProject } from '../../cms/cms'
+import { useInView } from 'react-intersection-observer'
 
 const StreamerImageWrapper = styled.div`
 	position: relative;
@@ -85,6 +86,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
 	const { streamerChannel, date, imgUrl, streamerName } = props
+	const { ref, inView } = useInView({ triggerOnce: true })
 
 	const onImageLoad = useCallback(() => {
 		setIsImagedLoaded(true)
@@ -93,19 +95,19 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 	const donateLinkHref = `/donate/${streamerChannel}`
 
 	return (
-		<StyledUpcomingStream>
+		<StyledUpcomingStream ref={ref}>
 			<UpcomingStreamDate>
 				<BsCalendar style={{ marginRight: '8px' }} />
 				<span>{formatDate(new Date(date))}</span>
 			</UpcomingStreamDate>
-			<ClientLink href={donateLinkHref}>
+			<ClientLink href={donateLinkHref} ariaLabel={`Streamer ${streamerName} Logo`}>
 				<StreamerImageWrapper>
 					{!imageLoaded && <Skeleton height={300} width={300} />}
 					{!isSSR && (
 						<StyledUpcomingStreamPlaceholderImage
 							style={{ display: imageLoaded ? 'flex' : 'none' }}
 							onLoad={onImageLoad}
-							src={imgUrl}
+							src={inView ? imgUrl : ''}
 							alt={`Streamer ${streamerName} Logo`}
 						/>
 					)}
