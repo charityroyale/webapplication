@@ -72,6 +72,15 @@ export default class MyDocument extends Document {
 					></meta>
 					<script src="https://embed.twitch.tv/embed/v1.js"></script>
 					<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+					<script async src="https://www.googletagmanager.com/gtag/js?id=G-2LB5JE6MLN"></script>
+					<script
+						dangerouslySetInnerHTML={{
+							__html: `window.dataLayer = window.dataLayer || [];
+										function gtag(){dataLayer.push(arguments);}
+										gtag('js', new Date());
+										gtag('config', '${process.env.GA_ID}');`,
+						}}
+					></script>
 				</Head>
 				<body>
 					<Main />
