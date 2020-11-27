@@ -9,6 +9,12 @@ upcoming:
     streamerName: Zayuri
     streamLink: https://www.twitch.tv/zayuri
     makeAWishProjectId: "1"
+  - date: 2020-12-02T07:00:50.263Z
+    streamerName: Colleesi
+    streamerChannel: colleesi
+    streamLink: https://www.twitch.tv/colleesi
+    makeAWishProjectId: "3"
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-03T19:00:00.000Z
     streamerChannel: stegi
@@ -105,12 +111,6 @@ upcoming:
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
-  - date: 2020-12-02T07:00:50.263Z
-    streamerName: Colleesi
-    streamerChannel: colleesi
-    streamLink: https://www.twitch.tv/colleesi
-    makeAWishProjectId: "3"
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
 makeAWishProjects:
   - descripion: Ich möchte ins Disneyland fahren und Donald besuchen
     childname: Lilli
