@@ -4,7 +4,7 @@ thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: veni
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-11-01T17:00:00.000Z
+    date: 2020-12-01T17:00:00.000Z
     streamerChannel: zayuri
     streamerName: Zayuri
     streamLink: https://www.twitch.tv/zayuri
