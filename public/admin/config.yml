@@ -20,7 +20,7 @@ collections:
           - label: 'Upcoming Streams'
             name: 'upcoming'
             widget: 'list'
-            summary: '{{fields.streamerName}} ({{fields.date}})'
+            summary: '{{fields.streamerName}})'
             fields:
               - { label: 'Streamer Name', name: 'streamerName', widget: 'string' }
               - { label: 'Streamer Channel (Twitch username in lower case)', name: 'streamerChannel', widget: 'string' }
