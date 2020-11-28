@@ -1,11 +1,11 @@
 TODO
 
-- recommendation projects to donate to
-- add explaining what happens with the donation message (user testing)
 - fix minor header image (cr2020) on ios safari centered
 
 DONE
 
+- recommendation projects to donate to
+- add explaining what happens with the donation message (user testing)
 - better visualize past streams (grayscale, show donation amount)
 - fix twitch avatars if a streamer is multiple times in the list
 - add child name to summary/title in cms
