@@ -1,9 +1,8 @@
 TODO
 
-- fix minor header image (cr2020) on ios safari centered
-
 DONE
 
+- fix minor header image (cr2020) on ios safari centered
 - recommendation projects to donate to
 - add explaining what happens with the donation message (user testing)
 - better visualize past streams (grayscale, show donation amount)
@@ -13,7 +12,7 @@ DONE
 - add google analytics
 - upgrade netlify plan
 - https://www.netlifycms.org/docs/widgets/relation/ relation wish <--> streamer
-- faq <a> and <ul>/<ol> styling in cms markdown
+- faq a and ul, ol styling in cms markdown
 - adapt theme design (borders, background, animation)
 - improve cms experience
 - visualize done streams
@@ -30,7 +29,7 @@ DONE
 - its hard to see on which stream subpage i am (user testing)
 - finding streamers on mobile is a bit hard (by user testing)
 - user-test 1
-- add "target=\_blank" to outgoing links (open new tab) - footer
+- add "target=blank" to outgoing links (open new tab) - footer
 - fix mobile subpage context header (project specific data, remove spenden button top right) --> screenshot
 - theme design spendensumme visualization (colors, gradient) --> removed
 - implement placeholder streambox --> by cms (TBA info)
