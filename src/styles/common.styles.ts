@@ -122,7 +122,6 @@ export const StreamProjectDateWrapper = styled.div`
 export const StyledUpcoming = styled.div`
 	padding: 0 ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xxl}px ${(p) => p.theme.space.xl}px;
 	grid-area: upcoming;
-	justify-content: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
@@ -161,12 +160,6 @@ export const StyledPast = styled.div`
 		grid-template-columns: 1fr;
 		grid-gap: 0;
 	}
-`
-
-export const StyledUpcomingStreamPlaceholderImage = styled.img`
-	background-color: ${(p) => p.theme.color.willhaben};
-	border: 1px solid ${(p) => p.theme.color.charityTeal};
-	width: 100%;
 `
 
 export const StyledStreamerProjectHeader = styled.div`

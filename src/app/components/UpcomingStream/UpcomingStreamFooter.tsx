@@ -9,6 +9,7 @@ import { RiTwitchFill } from 'react-icons/ri'
 import { formatDate } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 import { useInView } from 'react-intersection-observer'
+import { HiOutlineHeart } from 'react-icons/hi'
 
 const StyledUpcomingStreamFooter = styled.div`
 	display: flex;
@@ -37,10 +38,17 @@ const UpcomingStreamDateMobile = styled.div`
 	}
 `
 
+const HeartWrapper = styled.span`
+	margin-right: 4px;
+	display: flex;
+`
+
 const StyledDescriptionText = styled.p`
 	color: ${(p) => p.theme.color.white};
 	margin-bottom: ${(p) => p.theme.space.xs}px;
 	font-weight: 600;
+	display: flex;
+	align-items: center;
 `
 
 const StreamerIconWrapper = styled.div`
@@ -63,7 +71,14 @@ export const UpcomingStreamIcon = styled.img`
 	border: 1px solid ${(p) => p.theme.color.charityTeal};
 `
 
-const UpcomingStreamDescription = styled.div``
+const UpcomingStreamDescription = styled.div`
+	a {
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+`
 
 const UpcomingStreamerFooterLeft = styled.div`
 	display: flex;
@@ -102,6 +117,20 @@ export const UpcomingStreamerDonationLink = styled.a`
 	}
 `
 
+const DescriptionTextMobile = styled.span`
+	display: none;
+	${(p) => p.theme.media.phone} {
+		display: inline-block;
+	}
+`
+
+const DescriptionTextTabletDesktop = styled.span`
+	display: inline-block;
+	${(p) => p.theme.media.phone} {
+		display: none;
+	}
+`
+
 export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 	streamerName,
 	streamLink,
@@ -135,7 +164,18 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 					</ClientLink>
 				</StreamerIconWrapper>
 				<UpcomingStreamDescription>
-					<StyledDescriptionText>Wish für {makeAWish.childname}</StyledDescriptionText>
+					<StyledDescriptionText>
+						<HeartWrapper>
+							<HiOutlineHeart size={20} />
+						</HeartWrapper>
+						<Link href={`donate/${streamerChannel}`}>
+							<span>
+								<DescriptionTextMobile>Wunsch</DescriptionTextMobile>
+								<DescriptionTextTabletDesktop>Herzenswunsch</DescriptionTextTabletDesktop>{' '}
+								<a href={`donate/${streamerChannel}`}>{makeAWish.childname}</a>
+							</span>
+						</Link>
+					</StyledDescriptionText>
 					<UpcomingStreamTwitchLink>
 						<RiTwitchFill size={20} style={{ marginRight: '4px' }} />
 						<a href={streamLink} target="_blank" rel="noreferrer">

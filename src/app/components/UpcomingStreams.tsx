@@ -37,7 +37,15 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 				donationProgess = makeAWishProject.current_donation_sum
 			}
 		}
-		return <UpcomingStream key={index} {...stream} donationProgress={donationProgess} donationGoal={donationGoal} />
+		return (
+			<UpcomingStream
+				projectDone={isInThePast(stream)}
+				key={index}
+				{...stream}
+				donationProgress={donationProgess}
+				donationGoal={donationGoal}
+			/>
+		)
 	}
 
 	return (
