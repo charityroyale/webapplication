@@ -1,9 +1,8 @@
 TODO
 
-- fix minor header image (cr2020) on ios safari centered
-
 DONE
 
+- fix minor header image (cr2020) on ios safari centered
 - recommendation projects to donate to
 - add explaining what happens with the donation message (user testing)
 - better visualize past streams (grayscale, show donation amount)
