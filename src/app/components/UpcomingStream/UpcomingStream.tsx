@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import { BiDonateHeart } from 'react-icons/bi'
-import { StyledUpcomingStreamPlaceholderImage, StreamProjectDateWrapper } from '../../../styles/common.styles'
+import { StreamProjectDateWrapper } from '../../../styles/common.styles'
 import { styled } from '../../../styles/Theme'
 import { useIsSSR } from '../isSSR'
 import ClientLink from '../ClientLink'
@@ -41,7 +41,7 @@ const StreamerImageWrapper = styled.div`
 	}
 `
 
-export const UpcomingStreamDate = styled.p`
+export const UpcomingStreamDate = styled.p<{ projectDone: boolean }>`
 	background-color: ${(p) => p.theme.color.charityTeal};
 	color: ${(p) => p.theme.color.veniPurple};
 	border-top-right-radius: 2px;
@@ -51,23 +51,43 @@ export const UpcomingStreamDate = styled.p`
 	display: flex;
 	align-items: center;
 	padding: 4px 8px;
+	display: ${(p) => (p.projectDone ? 'none' : 'block')};
 
 	${(p) => p.theme.media.phone} {
 		display: none;
 	}
 `
 
-export const DonationLinkIndicator = styled.div`
+export const DonationLinkIndicator = styled.div<{ projectDone: boolean }>`
 	position: absolute;
 	right: 5px;
 	bottom: 0;
 	background-color: transparent;
+	display: ${(p) => (p.projectDone ? 'none' : 'block')};
 `
 
 export const StyledUpcomingStream = styled.div`
 	${(p) => p.theme.media.phone} {
 		border-bottom: 1px solid ${(p) => p.theme.color.charityTeal};
 	}
+`
+
+export const StyledUpcomingStreamPlaceholderImage = styled.img<{ projectDone: boolean }>`
+	background-color: ${(p) => p.theme.color.willhaben};
+	border: 1px solid ${(p) => p.theme.color.charityTeal};
+	width: 100%;
+	filter: ${(p) => (p.projectDone ? 'grayscale(1)' : '')};
+`
+
+export const DoneStreamDonation = styled.div<{ projectDone: boolean }>`
+	position: absolute;
+	bottom: 29px;
+	padding: 4px 8px;
+	background: linear-gradient(to right, ${(p) => p.theme.color.charityBlue}, ${(p) => p.theme.color.charityPink});
+	color: white;
+	font-weight: bold;
+	font-size: 28px;
+	display: ${(p) => (p.projectDone ? 'block' : 'none')};
 `
 
 export interface UpcomingStreamProps {
@@ -80,12 +100,13 @@ export interface UpcomingStreamProps {
 	imgUrl: string
 	donationGoal: string
 	donationProgress: string
+	projectDone: boolean
 }
 
 const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingStreamProps) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
-	const { streamerChannel, date, imgUrl, streamerName } = props
+	const { streamerChannel, date, imgUrl, streamerName, projectDone, donationProgress } = props
 	const { ref, inView } = useInView({ triggerOnce: true })
 
 	const onImageLoad = useCallback(() => {
@@ -96,7 +117,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 
 	return (
 		<StyledUpcomingStream ref={ref}>
-			<UpcomingStreamDate>
+			<UpcomingStreamDate projectDone={projectDone}>
 				<BsCalendar style={{ marginRight: '8px' }} />
 				<span>{formatDate(new Date(date))}</span>
 			</UpcomingStreamDate>
@@ -105,16 +126,18 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 					{!imageLoaded && <Skeleton height={300} />}
 					{!isSSR && (
 						<StyledUpcomingStreamPlaceholderImage
+							projectDone={projectDone}
 							style={{ display: imageLoaded ? 'flex' : 'none' }}
 							onLoad={onImageLoad}
 							src={inView ? imgUrl : ''}
 							alt={`Streamer ${streamerName} Logo`}
 						/>
 					)}
+					<DoneStreamDonation projectDone={projectDone}>{donationProgress}€</DoneStreamDonation>
 					<StreamProjectDateWrapper>
 						<p>{streamerName}</p>
 					</StreamProjectDateWrapper>
-					<DonationLinkIndicator>
+					<DonationLinkIndicator projectDone={projectDone}>
 						<BiDonateHeart color="#7DF8FF" size={30} />
 					</DonationLinkIndicator>
 				</StreamerImageWrapper>

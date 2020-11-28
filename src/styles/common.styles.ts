@@ -162,12 +162,6 @@ export const StyledPast = styled.div`
 	}
 `
 
-export const StyledUpcomingStreamPlaceholderImage = styled.img`
-	background-color: ${(p) => p.theme.color.willhaben};
-	border: 1px solid ${(p) => p.theme.color.charityTeal};
-	width: 100%;
-`
-
 export const StyledStreamerProjectHeader = styled.div`
 	color: ${(p) => p.theme.color.white};
 	padding: ${(p) => p.theme.space.m}px ${(p) => p.theme.space.s}px;
