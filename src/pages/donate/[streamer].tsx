@@ -22,6 +22,7 @@ import { FaDove } from 'react-icons/fa'
 import { Line } from 'rc-progress'
 import { getPercentage } from '../../app/utils/commonUtils'
 import cmsContent, { Upcoming } from '../../app/cms/cms'
+import Link from 'next/link'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
@@ -96,6 +97,11 @@ const DonationStatsTitle = styled.p`
 const DonationStatNumbers = styled.span`
 	color: ${(p) => p.theme.color.charityTeal};
 	font-weight: bold;
+`
+
+const FaqDonationMessageText = styled.p`
+	color: white;
+	margin-bottom: 10px;
 `
 
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
@@ -180,6 +186,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 				streamerName={project.streamerName}
 				title={project.makeAWish.tagline}
 				description={project.makeAWish.descripion}
+				date={project.date}
 			>
 				<React.Fragment>
 					<DonationStatsTitle>Spendenübersicht</DonationStatsTitle>
@@ -219,6 +226,16 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 
 			<DonationIFrameWrapper>
 				<DonationFormHeader>Spendenformular</DonationFormHeader>
+
+				<FaqDonationMessageText>
+					Wo wird meine{' '}
+					<Link href={`/faq`}>
+						<a href={`/faq`} aria-label={'FAQ'}>
+							Spendennachricht
+						</a>
+					</Link>{' '}
+					angezeigt?
+				</FaqDonationMessageText>
 				{iFrameLoading && <Skeleton height={'843px'} />}
 				{iFrameError && (
 					<IFrameLoadErrorMessage>Leider ist ein Fehler beim laden des Formular aufgetreten.</IFrameLoadErrorMessage>

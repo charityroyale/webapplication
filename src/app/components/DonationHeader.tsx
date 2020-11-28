@@ -1,6 +1,8 @@
 import React, { ReactElement } from 'react'
 import { styled } from '../../styles/Theme'
 import { RiTwitchFill } from 'react-icons/ri'
+import { formatDate } from '../utils/formatUtils'
+import { BsCalendar } from 'react-icons/bs'
 
 interface DonationHeaderProps {
 	streamerName: string
@@ -8,6 +10,7 @@ interface DonationHeaderProps {
 	description: string
 	children: ReactElement
 	streamLink: string
+	date: string
 }
 
 const StyledDonationHeaderTitle = styled.h2`
@@ -17,6 +20,11 @@ const StyledDonationHeaderTitle = styled.h2`
 `
 
 const StyledDonationHeaderDescription = styled.div``
+
+const StyledDonationHeaderDescriptionPrefix = styled.p`
+	color: ${(p) => p.theme.color.charityTeal};
+	margin-bottom: 2px;
+`
 
 export const StyledDonationHeader = styled.div`
 	grid-area: donation-header;
@@ -89,6 +97,7 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 	children,
 	streamerName,
 	streamLink,
+	date,
 }: DonationHeaderProps) => {
 	return (
 		<StyledDonationHeader>
@@ -103,10 +112,17 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 						twitch.tv/{streamerName.toLowerCase()}
 					</a>
 				</DonationHeaderStreamLink>
+				<DonationHeaderStreamLink>
+					<BsCalendar size={20} style={{ marginRight: '8px', marginLeft: '2px' }} />
+					<span>{formatDate(new Date(date))}</span>
+				</DonationHeaderStreamLink>
 				<DonationHeaderProject>
 					<DonationProjectContent>
 						<StyledDonationHeaderTitle>{title}</StyledDonationHeaderTitle>
-						<StyledDonationHeaderDescription>{description}</StyledDonationHeaderDescription>
+						<StyledDonationHeaderDescription>
+							<StyledDonationHeaderDescriptionPrefix>Herzenswunsch </StyledDonationHeaderDescriptionPrefix>
+							{description}
+						</StyledDonationHeaderDescription>
 					</DonationProjectContent>
 				</DonationHeaderProject>
 			</DonationDescriptionGridArea>
