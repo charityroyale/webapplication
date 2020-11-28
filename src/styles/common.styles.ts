@@ -122,7 +122,6 @@ export const StreamProjectDateWrapper = styled.div`
 export const StyledUpcoming = styled.div`
 	padding: 0 ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xxl}px ${(p) => p.theme.space.xl}px;
 	grid-area: upcoming;
-	justify-content: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
