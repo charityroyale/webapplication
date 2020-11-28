@@ -4,12 +4,12 @@ TODO
 - add explaining what happens with the donation message (user testing)
 - better visualize past streams (grayscale, show donation amount)
 - fix minor header image (cr2020) on ios safari centered
-- add time puffer for past streams
 - fix twitch avatars if a streamer is multiple times in the list
 - add child name to summary/title in cms
 
 DONE
 
+- add time buffer for past streams
 - add google analytics
 - upgrade netlify plan
 - https://www.netlifycms.org/docs/widgets/relation/ relation wish <--> streamer
