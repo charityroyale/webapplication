@@ -4,13 +4,19 @@ thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: veni
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-11-01T17:00:00.000Z
+    date: 2020-12-01T17:00:00.000Z
     streamerChannel: zayuri
     streamerName: Zayuri
     streamLink: https://www.twitch.tv/zayuri
     makeAWishProjectId: "1"
+  - date: 2020-12-02T07:00:50.263Z
+    streamerName: Colleesi
+    streamerChannel: colleesi
+    streamLink: https://www.twitch.tv/colleesi
+    makeAWishProjectId: "3"
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-02T19:00:00.000Z
+    date: 2020-12-03T19:00:00.000Z
     streamerChannel: stegi
     streamerName: Stegi
     streamLink: https://www.twitch.tv/Stegi
@@ -41,9 +47,9 @@ upcoming:
     makeAWishProjectId: "12"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-09T18:00:00.000Z
-    streamerChannel: fabo
-    streamerName: Fabo
-    streamLink: https://www.twitch.tv/fabo
+    streamerChannel: thefabo
+    streamerName: TheFabo
+    streamLink: https://www.twitch.tv/thefabo
     makeAWishProjectId: "18"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-10T18:00:00.000Z
@@ -114,9 +120,10 @@ makeAWishProjects:
     childname: Eren
     tagline: Eren möchte nach Istanbul mit seiner Familie
     makeAWishProjectId: 2
-  - descripion: blabla
-    childname: child3
-    tagline: Some cool tagline
+  - descripion: Ich wünsche mir, im Salzburger Zoo Backstage dabei sein zu können,
+      um Giraffen und Pandas - meine Lieblingstiere - zu pflegen und zu füttern.
+    childname: Valentina
+    tagline: Valentina möchte Backstage in den Zoo
     makeAWishProjectId: 3
   - descripion: Mein absoluter Herzenswunsch ist eine Rundreise durch Norwegen,
       Island und Amsterdam. Das Anne Frank-Haus und eine Grachtenrundfahrt in
