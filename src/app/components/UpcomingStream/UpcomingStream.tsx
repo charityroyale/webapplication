@@ -102,7 +102,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 			</UpcomingStreamDate>
 			<ClientLink href={donateLinkHref} ariaLabel={`Streamer ${streamerName} Logo`}>
 				<StreamerImageWrapper>
-					{!imageLoaded && <Skeleton height={300} width={300} />}
+					{!imageLoaded && <Skeleton height={300} />}
 					{!isSSR && (
 						<StyledUpcomingStreamPlaceholderImage
 							style={{ display: imageLoaded ? 'flex' : 'none' }}
