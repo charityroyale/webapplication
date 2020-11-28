@@ -31,7 +31,7 @@ export const StyledLayout = styled.div`
 export const StyledHeaderLeftItem = styled.div`
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: center;
 `
 export const StyledHeaderCenterItem = styled.div`
 	display: flex;
