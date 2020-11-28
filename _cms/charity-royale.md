@@ -115,7 +115,7 @@ upcoming:
     streamerName: Heideltraut
     streamerChannel: heideltrauteuw
     streamLink: https://www.twitch.tv/heideltrauteuw
-    makeAWishProjectId: "24"
+    makeAWishProjectId: "25"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
 makeAWishProjects:
   - descripion: Ich möchte ins Disneyland fahren und Donald besuchen
@@ -231,6 +231,12 @@ makeAWishProjects:
     childname: Theresa
     tagline: Theresa möchte Amerika in New York erleben
     makeAWishProjectId: 24
+  - descripion: TEST Ich möchte unbedingt ganz neue Erfahrungen machen, völlig neue
+      Dinge sehen. Ich liebe alles, was aus Amerika kommt und deshalb ist es
+      mein größter Wunsch New York zu besuchen
+    makeAWishProjectId: "24"
+    tagline: TEST Theresa möchte Amerika in New York erleben
+    childname: Patrick
 faq:
   questions:
     - question: Wie spät ist es?
