@@ -234,7 +234,7 @@ makeAWishProjects:
   - descripion: TEST Ich möchte unbedingt ganz neue Erfahrungen machen, völlig neue
       Dinge sehen. Ich liebe alles, was aus Amerika kommt und deshalb ist es
       mein größter Wunsch New York zu besuchen
-    makeAWishProjectId: "24"
+    makeAWishProjectId: "25"
     tagline: TEST Theresa möchte Amerika in New York erleben
     childname: Patrick
 faq:
