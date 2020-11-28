@@ -17,17 +17,15 @@ interface UpcomingStreams {
 
 const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }: UpcomingStreams) => {
 	const makeAWish = useMakeAWish()
+
+	const getStreamEndDate = (stream: Upcoming) => {
+		const startDate = new Date(stream.date)
+		const hoursToAdd = 6
+		return new Date(startDate.getTime() + hoursToAdd * 3600000)
+	}
 	const now = new Date()
-
-	const isInThePast = (stream: Upcoming) => {
-		const streamDate = new Date(stream.date)
-		return streamDate < now
-	}
-
-	const isInTheFuture = (stream: Upcoming) => {
-		const streamDate = new Date(stream.date)
-		return streamDate >= now
-	}
+	const isInThePast = (stream: Upcoming) => now > getStreamEndDate(stream)
+	const isInTheFuture = (stream: Upcoming) => now <= getStreamEndDate(stream)
 
 	const createUpcomingStream = (stream: Upcoming, index: number) => {
 		let donationGoal = '0'

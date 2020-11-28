@@ -9,6 +9,7 @@ import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
 import ComingSoonLayout from '../app/layouts/ComingSoonLayout'
 import FaqBox from '../app/components/FaqBox'
 import cmsContent, { Upcoming } from '../app/cms/cms'
+import { TwitchUserDTO } from '../app/dto/TwitchUserDTO'
 
 export interface InitialAppProps {
 	featuredStream?: string
@@ -38,8 +39,13 @@ export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 	const featuredStream = cmsContent.featuredStream
 	const twitchUsers = (await fetchTwitchUsersBySchedule(schedule)).data
 
-	for (let i = 0; i < twitchUsers.length; i++) {
-		schedule[i].imgUrl = twitchUsers[i].profile_image_url
+	const twitchUsersDict: { [userid: string]: TwitchUserDTO } = {}
+	for (const twitchUser of twitchUsers) {
+		twitchUsersDict[twitchUser.login] = twitchUser
+	}
+
+	for (const stream of schedule) {
+		stream.imgUrl = twitchUsersDict[stream.streamerChannel].profile_image_url
 	}
 
 	return {

@@ -20,6 +20,7 @@ collections:
           - label: 'Upcoming Streams'
             name: 'upcoming'
             widget: 'list'
+            summary: '{{fields.streamerName}} ({{fields.date}})'
             fields:
               - { label: 'Streamer Name', name: 'streamerName', widget: 'string' }
               - { label: 'Streamer Channel (Twitch username in lower case)', name: 'streamerChannel', widget: 'string' }
@@ -33,6 +34,7 @@ collections:
           - label: Make-a-Wish projects
             name: 'makeAWishProjects'
             widget: list
+            summary: '{{fields.makeAWishProjectId}} - {{fields.childname}}'
             fields:
               - { label: 'Project id (Make-a-wish)', name: 'makeAWishProjectId', widget: 'string' }
               - { label: 'Description', name: 'descripion', widget: 'string' }
