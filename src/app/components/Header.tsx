@@ -137,14 +137,14 @@ const Header: React.FunctionComponent<{ featuredStream: string; showDonationButt
 						{!isSSR && (
 							<img
 								onLoad={onImageLoad}
-								style={{ display: !imageLoaded ? 'none' : 'flex' }}
+								style={{ display: !imageLoaded ? 'none' : 'flex', margin: 'auto' }}
 								width="150px"
 								src="/cr2020_logo_small.png"
 								alt="Charity Royale 2020 Logo"
 							/>
 						)}
 					</ClientLink>
-					<h1 style={{ textIndent: '-10000px' }}>Charity Royale 2020</h1>
+					<h1 style={{ textIndent: '-10000px', position: 'absolute' }}>Charity Royale 2020</h1>
 				</StyledHeaderLeftItem>
 				<StyledHeaderCenterItem>
 					<MakeAWishLogoLink target="_bank" rel="noreferrer" href="https://www.make-a-wish.at/">
