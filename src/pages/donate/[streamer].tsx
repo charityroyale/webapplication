@@ -141,10 +141,10 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			if (data.hasOwnProperty('command')) {
 				if (data.command == 'scrollIFrameCenter') {
 					// Scroll to center of iframe
-					let iframe = document.getElementById('iframe');
-					let centerY = iframe.offsetTop + iframe.offsetHeight / 2;
-					let centerX = iframe.offsetLeft + iframe.offsetWidth / 2;
-					window.scrollTo(centerX - window.innerWidth / 2, centerY - window.innerHeight / 2);
+					const iframe = document.getElementById('iframe')
+					const centerY = iframe.offsetTop + iframe.offsetHeight / 2
+					const centerX = iframe.offsetLeft + iframe.offsetWidth / 2
+					window.scrollTo(centerX - window.innerWidth / 2, centerY - window.innerHeight / 2)
 				}
 			}
 		}
@@ -187,7 +187,9 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	return (
 		<>
 			<Head>
-				<title>Charity Royal 2020 - {project.streamerName}</title>
+				<title>Charity Royale 2020 - {project.streamerName}</title>
+				<link rel="preload" as="document" href="${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}">
+				<link rel="preload" as="script" href="https://www.paypal.com/sdk/js?client-id=ATL90eAe-2zLX8e1YYlyI_O6-gd_6qs9gBTimJ7hNiOa1ZUKNNs0XBy1MuF2vb_tY709L13K9akFjhWs&currency=EUR">
 			</Head>
 
 			<DonationHeader
