@@ -141,10 +141,10 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			if (data.hasOwnProperty('command')) {
 				if (data.command == 'scrollIFrameCenter') {
 					// Scroll to center of iframe
-					let iframe = document.getElementById('iframe');
-					let centerY = iframe.offsetTop + iframe.offsetHeight / 2;
-					let centerX = iframe.offsetLeft + iframe.offsetWidth / 2;
-					window.scrollTo(centerX - window.innerWidth / 2, centerY - window.innerHeight / 2);
+					const iframe = document.getElementById('iframe')
+					const centerY = iframe.offsetTop + iframe.offsetHeight / 2
+					const centerX = iframe.offsetLeft + iframe.offsetWidth / 2
+					window.scrollTo(centerX - window.innerWidth / 2, centerY - window.innerHeight / 2)
 				}
 			}
 		}
@@ -187,7 +187,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	return (
 		<>
 			<Head>
-				<title>Charity Royal 2020 - {project.streamerName}</title>
+				<title>Charity Royale 2020 - {project.streamerName}</title>
 			</Head>
 
 			<DonationHeader
