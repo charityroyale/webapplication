@@ -121,11 +121,6 @@ const DonationStatNumbers = styled.span`
 	font-weight: bold;
 `
 
-const FaqDonationMessageText = styled.p`
-	color: white;
-	margin-bottom: 10px;
-`
-
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
 	const router = useRouter()
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by form
@@ -233,6 +228,29 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 					as="script"
 					href="https://www.paypal.com/sdk/js?client-id=ATL90eAe-2zLX8e1YYlyI_O6-gd_6qs9gBTimJ7hNiOa1ZUKNNs0XBy1MuF2vb_tY709L13K9akFjhWs&currency=EUR"
 				></link>
+
+				<meta name="twitter:card" content="summary" key="twcard" />
+				<meta name="twitter:site" content={'@CharityRoyale'} key="twsite" />
+				<meta name="twitter:creator" content={'@CharityRoyale'} key="twcreator" />
+
+				<meta property="og:url" content={'https://charityroyale.at/'} key="ogurl" />
+				<meta
+					property="og:image"
+					content={'https://charityroyale.at/uploads/charity_royale_rgb_300x300.png'}
+					key="ogimage"
+				/>
+				<meta property="og:image:width" content={'300'} key="ogimagewidth" />
+				<meta property="og:image:height" content={'300'} key="ogimageheight" />
+				<meta property="og:site_name" content={'Charity Royale 2020'} key="ogsitename" />
+				<meta property="og:title" content={`${project.streamerName}'s Spendenseite`} key="ogtitlestreamer" />
+				<meta property="og:type" content={'website'} key="ogtype" />
+				<meta property="og:locale" content={'de_AT'} key="oglocale" />
+				<meta property="fb:app_id" content={process.env.FB_ID} key="fbappid" />
+				<meta
+					property="og:description"
+					content={'Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.'}
+					key="ogdesc"
+				/>
 			</Head>
 
 			<DonationHeader
@@ -281,15 +299,6 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			<DonationIFrameWrapper>
 				<DonationFormHeader>Spendenformular</DonationFormHeader>
 
-				<FaqDonationMessageText>
-					Wo wird meine{' '}
-					<Link href={`/faq`}>
-						<a href={`/faq`} aria-label={'FAQ'}>
-							Spendennachricht
-						</a>
-					</Link>{' '}
-					angezeigt?
-				</FaqDonationMessageText>
 				{iFrameLoading && <Skeleton height={'843px'} />}
 				{iFrameError && (
 					<IFrameLoadErrorMessage>Leider ist ein Fehler beim laden des Formular aufgetreten.</IFrameLoadErrorMessage>
