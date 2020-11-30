@@ -75,8 +75,14 @@ upcoming:
     streamerName: Reved
     streamLink: https://www.twitch.tv/revedtv
     makeAWishProjectId: "6"
+  - date: 2020-12-15T12:00:38.983Z
+    streamerName: Solaaaa
+    streamerChannel: solaaaa
+    streamLink: https://www.twitch.tv/solaaaa
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "2"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-15T19:00:00.000Z
+    date: 2020-12-16T19:00:00.000Z
     streamerChannel: petrit
     streamerName: Petrit
     streamLink: https://www.twitch.tv/petrit
@@ -99,6 +105,12 @@ upcoming:
     streamerName: BastiGHG
     streamLink: https://www.twitch.tv/bastighg
     makeAWishProjectId: "5"
+  - date: 2020-12-20T18:00:57.001Z
+    streamLink: https://www.twitch.tv/clym
+    streamerName: Clym
+    streamerChannel: clym
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "20"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-22T11:00:00.000Z
     streamerChannel: veni
@@ -117,12 +129,6 @@ upcoming:
     streamLink: https://www.twitch.tv/heideltrauteuw
     makeAWishProjectId: "25"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-  - date: 2020-12-20T18:00:57.001Z
-    streamLink: https://www.twitch.tv/clym
-    streamerName: Clym
-    streamerChannel: clym
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: "20"
 makeAWishProjects:
   - descripion: Ich möchte ins Disneyland fahren und Donald besuchen
     childname: Lilli
