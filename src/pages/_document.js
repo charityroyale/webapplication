@@ -71,15 +71,6 @@ export default class MyDocument extends Document {
 						content="Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben."
 					></meta>
 					<script src="https://embed.twitch.tv/embed/v1.js"></script>
-					<script async src="https://www.googletagmanager.com/gtag/js?id=G-2LB5JE6MLN"></script>
-					<script
-						dangerouslySetInnerHTML={{
-							__html: `window.dataLayer = window.dataLayer || [];
-										function gtag(){dataLayer.push(arguments);}
-										gtag('js', new Date());
-										gtag('config', '${process.env.GA_ID}');`,
-						}}
-					></script>
 				</Head>
 				<body>
 					<Main />
