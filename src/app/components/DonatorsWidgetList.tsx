@@ -12,9 +12,7 @@ interface DonationWidgetListProps {
 }
 
 const DonationListRow = styled.div`
-	display: flex;
-	justify-content: space-between;
-	padding: ${(p) => p.theme.space.s}px ${(p) => p.theme.space.s}px;
+	padding: ${(p) => p.theme.space.s}px 0;
 
 	&:first-child {
 		padding-top: 0;
@@ -35,15 +33,24 @@ const DonationAmount = styled.div`
 	font-weight: 800;
 `
 
+const DonationDonatorPlaceAndName = styled.div`
+	overflow: hidden;
+	text-overflow: ellipsis;
+`
+
 const DonationWidgetList: React.FunctionComponent<DonationWidgetListProps> = ({ list }: DonationWidgetListProps) => {
 	return (
 		<DonationList>
 			{list.map((item, index) => (
 				<DonationListRow key={index}>
-					<div>
-						{item.col_1} <strong>{item.col_2}</strong>
+					<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+						<span>{item.col_1}</span> <DonationAmount> {item.col_3}€</DonationAmount>
 					</div>
-					<DonationAmount>{item.col_3}€</DonationAmount>
+					<DonationDonatorPlaceAndName>
+						<span>
+							<strong>{item.col_2}</strong>
+						</span>
+					</DonationDonatorPlaceAndName>
 				</DonationListRow>
 			))}
 		</DonationList>

@@ -48,6 +48,16 @@ const IFrameLoadErrorMessage = styled.p`
 	color: ${(p) => p.theme.color.white};
 `
 
+const TopPlaceMentItem = styled.div`
+	display: flex;
+	align-items: center;
+
+	> svg {
+		margin-bottom: 1px;
+		margin-right: 4px;
+	}
+`
+
 interface InitialDonationProps {
 	project: Upcoming
 }
@@ -55,16 +65,28 @@ interface InitialDonationProps {
 const getTopDonatorFirstColum = (index) => {
 	switch (index) {
 		case 0: {
-			return <ImTrophy color={'gold'} />
+			return (
+				<TopPlaceMentItem>
+					<ImTrophy color={'gold'} /> {index + 1}. Top-Spender
+				</TopPlaceMentItem>
+			)
 		}
 		case 1: {
-			return <ImTrophy color={'silver'} />
+			return (
+				<TopPlaceMentItem>
+					<ImTrophy color={'silver'} /> {index + 1}. Top-Spender
+				</TopPlaceMentItem>
+			)
 		}
 		case 2: {
-			return <ImTrophy color={'sandybrown'} />
+			return (
+				<TopPlaceMentItem>
+					<ImTrophy color={'sandybrown'} /> {index + 1}. Top-Spender
+				</TopPlaceMentItem>
+			)
 		}
 		default: {
-			return ``
+			return `${index + 1}. Top-Spender`
 		}
 	}
 }
