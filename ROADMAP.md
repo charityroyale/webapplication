@@ -2,6 +2,7 @@ TODO
 
 DONE
 
+- fix very long donator names in widgetlist
 - fix minor header image (cr2020) on ios safari centered
 - recommendation projects to donate to
 - add explaining what happens with the donation message (user testing)
