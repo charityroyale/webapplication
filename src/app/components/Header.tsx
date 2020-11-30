@@ -165,7 +165,7 @@ const Header: React.FunctionComponent<{ featuredStream: string; showDonationButt
 							<DonationHeaderCount
 								donation_goal={50000}
 								current_donation_count={
-									makeAWish.isLoading || makeAWish.isError ? 0 : parseInt(makeAWish.data.total_donation_sum)
+									makeAWish.isLoading || makeAWish.isError ? 0 : parseFloat(makeAWish.data.total_donation_sum)
 								}
 								donations_count={makeAWish.isLoading || makeAWish.isError ? 0 : makeAWish.data.total_donation_count}
 							></DonationHeaderCount>

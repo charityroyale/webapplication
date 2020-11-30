@@ -147,11 +147,28 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			col_2: r.name,
 			col_3: r.amount,
 		}))
+
+		while (latestDonatorsList.length < 10) {
+			latestDonatorsList.push({
+				col_1: 'Hier könnte',
+				col_2: 'dein Name stehen',
+				col_3: '0,00',
+			})
+		}
+
 		highestDonatorsList = makeAWishProject.top_donators.map((r, i) => ({
 			col_1: getTopDonatorFirstColum(i),
 			col_2: r.name,
 			col_3: r.amount,
 		}))
+
+		while (highestDonatorsList.length < 10) {
+			highestDonatorsList.push({
+				col_1: 'Hier könnte',
+				col_2: 'dein Name stehen',
+				col_3: '0,00',
+			})
+		}
 	}
 
 	useEffect(() => {
@@ -185,17 +202,17 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	const donationSum =
 		makeAWish.isLoading || makeAWish.isError
 			? '0'
-			: parseInt(makeAWishProject.current_donation_sum).toLocaleString('de-DE')
+			: parseFloat(makeAWishProject.current_donation_sum).toLocaleString('de-DE')
 
 	const donationGoal =
-		makeAWish.isLoading || makeAWish.isError ? '0' : parseInt(makeAWishProject.donation_goal).toLocaleString('de-DE')
+		makeAWish.isLoading || makeAWish.isError ? '0' : parseFloat(makeAWishProject.donation_goal).toLocaleString('de-DE')
 
 	const donatorsCount =
 		makeAWish.isLoading || makeAWish.isError ? '0' : makeAWishProject.current_donation_count.toLocaleString('de-DE')
 
 	const percentage = getPercentage(
-		makeAWish.isLoading || makeAWish.isError ? 0 : parseInt(makeAWishProject.current_donation_sum),
-		makeAWish.isLoading || makeAWish.isError ? 0 : parseInt(makeAWishProject.donation_goal)
+		makeAWish.isLoading || makeAWish.isError ? 0 : parseFloat(makeAWishProject.current_donation_sum),
+		makeAWish.isLoading || makeAWish.isError ? 0 : parseFloat(makeAWishProject.donation_goal)
 	)
 
 	useEffect(() => {
