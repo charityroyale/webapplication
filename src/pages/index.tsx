@@ -38,6 +38,7 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 				<meta property="og:title" content={'Charity Royale 2020'} key="ogtitle" />
 				<meta property="og:type" content={'website'} key="ogtype" />
 				<meta property="og:locale" content={'de_AT'} key="oglocale" />
+				<meta property="fb:app_id" content={process.env.FB_ID} key="fbappid" />
 				<meta
 					property="og:description"
 					content={'Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.'}

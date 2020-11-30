@@ -245,6 +245,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 				<meta property="og:title" content={`${project.streamerName}'s Spendenseite`} key="ogtitlestreamer" />
 				<meta property="og:type" content={'website'} key="ogtype" />
 				<meta property="og:locale" content={'de_AT'} key="oglocale" />
+				<meta property="fb:app_id" content={process.env.FB_ID} key="fbappid" />
 				<meta
 					property="og:description"
 					content={'Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.'}
