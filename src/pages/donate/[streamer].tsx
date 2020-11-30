@@ -210,7 +210,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 		<React.Fragment>
 			<Head>
 				<title>Charity Royale 2020 - {project.streamerName}</title>
-				<link rel="preload" as="document" href="${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}"></link>
+				<link rel="preload" as="document" href={`${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}`}></link>
 				<link
 					rel="preload"
 					as="script"
