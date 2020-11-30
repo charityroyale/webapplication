@@ -183,9 +183,10 @@ makeAWishProjects:
     childname: Simon
     tagline: Simon möchte ins Disneyland
     makeAWishProjectId: 7
-  - descripion: blablub
-    childname: child8
-    tagline: Some cool tagline
+  - descripion: Mein Herzenswunsch ist ein Urlaub mit meiner Familie in Kroatien und
+      endlich im Meer schwimmen zu gehen.
+    childname: Luca
+    tagline: Luca möchte mit seiner Familie ans Meer
     makeAWishProjectId: 8
   - descripion: Ich möchte im Disneyland all die lustigen Disneyfiguren kennenlernen.
     childname: Hanna
@@ -205,17 +206,18 @@ makeAWishProjects:
     childname: Dominik
     tagline: Ein Schreitbagger für Dominik
     makeAWishProjectId: 12
-  - descripion: blablub
-    childname: child13
-    tagline: Some cool tagline
+  - descripion: Ich wünsche mir ein Motorrad
+    childname: Lukas
+    tagline: Lukas wünscht sich sehnlichst ein Motorrad
     makeAWishProjectId: 13
   - descripion: "Mein Herzenswunsch: ein DJ Equipment"
     childname: Lena
     tagline: Equipment für DJ Lena
     makeAWishProjectId: 14
-  - descripion: blablub
-    childname: child15
-    tagline: Some cool tagline
+  - descripion: Ich möchte im Heidpark mit ganz vielen Attraktionen fahren und in
+      einem dieser tollen Themen-Zimmer übernachten.
+    childname: Philipp
+    tagline: Philipp möchte den Heidpark besuchen
     makeAWishProjectId: 15
   - descripion: Ich bin ein großer Super Mario Fan und wünsch mir deshalb sehnlich
       eine Nintendo Switch Console Super Mario Odyssey Edition und ein dazu
@@ -249,13 +251,14 @@ makeAWishProjects:
     childname: Abu
     tagline: Ein Go-Kart für Abu
     makeAWishProjectId: 21
-  - descripion: blablub
-    childname: child22
-    tagline: Some cool tagline
+  - descripion: Ich möchte gerne ein Liverpool Spiel live erleben
+    childname: Manuel
+    tagline: Manuel möchte gerne ein Liverpool-Match erleben
     makeAWishProjectId: 22
-  - descripion: blablub
-    childname: child23
-    tagline: Some cool tagline
+  - descripion: Ich wünsche mir ins Legoland zu reisen und dabei im Piratenzimmer zu
+      übernachten.
+    childname: Simon
+    tagline: Simon möchte ins Legoland fahren
     makeAWishProjectId: 23
   - descripion: Ich möchte unbedingt ganz neue Erfahrungen machen, völlig neue Dinge
       sehen. Ich liebe alles, was aus Amerika kommt und deshalb ist es mein
