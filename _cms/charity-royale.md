@@ -314,7 +314,7 @@ faq:
       answer: Deine Spendennachricht wird als Alert im jeweiligen Live-Stream
         automatisch angezeigt.
   videos:
-    - url: https://youtu.be/shnCxQK6Ehk
+    - url: https://www.youtube.com/embed/shnCxQK6Ehk
       name: Charity Royale 2020 Promovideo
     - url: https://www.youtube-nocookie.com/embed/Vyfb7EzbJbQ
       name: Video 2
