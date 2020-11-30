@@ -29,9 +29,16 @@ const CookieButton = styled.button`
 	background-color: ${(p) => p.theme.color.veniPurple};
 	color: ${(p) => p.theme.color.white};
 	padding: 10px;
+	border: 2px solid ${(p) => p.theme.color.charityTeal};
 
 	&:hover {
 		cursor: pointer;
+	}
+
+	&:hover,
+	&:focus {
+		background-color: ${(p) => p.theme.color.charityTeal};
+		color: ${(p) => p.theme.color.veniPurple};
 	}
 `
 
@@ -62,17 +69,15 @@ const CookieBanner: React.FunctionComponent = () => {
 	}, [])
 
 	useEffect(() => {
-		if (gaDisabled) {
-			window[gaDisableCookieName] = gaDisabled
-		}
+		window[gaDisableCookieName] = gaDisabled
 	}, [gaDisabled])
 
 	return gaDisabled === undefined ? (
 		<CookieWrapper>
-			<p>Hilf uns die Charity Royale 2020 Website und erlaube uns Cookies zu verwenden.</p>
+			<p>Hilf uns die Charity Royale 2020 Website zu verbessern und erlaube uns Cookies zu verwenden.</p>
 			<CookieButtonWrapper>
-				<CookieButton onClick={() => disable()}>Ja, Cookies!</CookieButton>
-				<CookieButton onClick={() => enable()}>Cookies nicht erlauben</CookieButton>
+				<CookieButton onClick={() => disable()}>Cookies zulassen!</CookieButton>
+				<CookieButton onClick={() => enable()}>Cookies nicht zulassen!</CookieButton>
 			</CookieButtonWrapper>
 		</CookieWrapper>
 	) : null

@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyledDonationMainGrid, StyledLayout } from '../../styles/common.styles'
+import CookieBanner from '../components/CookieBanner'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
@@ -11,6 +12,7 @@ type LayoutProps = {
 const DonationLayout: React.FunctionComponent<LayoutProps> = ({ children, featuredStream }: LayoutProps) => {
 	return (
 		<StyledLayout>
+			<CookieBanner />
 			<Header featuredStream={featuredStream} showDonationButton={false} />
 			<StyledDonationMainGrid>{children}</StyledDonationMainGrid>
 			<Footer featuredStream={featuredStream} />
