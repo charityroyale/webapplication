@@ -42,6 +42,19 @@ const CookieButton = styled.button`
 	}
 `
 
+const CookieButtonLink = styled.button`
+	border: none;
+	background-color: transparent;
+	text-decoration: underline;
+
+	color: ${(p) => p.theme.color.white};
+	padding: 10px;
+
+	&:hover {
+		cursor: pointer;
+	}
+`
+
 const CookieButtonWrapper = styled.div`
 	${CookieButton}:first-child {
 		margin-right: 8px;
@@ -76,8 +89,8 @@ const CookieBanner: React.FunctionComponent = () => {
 		<CookieWrapper>
 			<p>Hilf uns die Charity Royale 2020 Website zu verbessern und erlaube uns Cookies zu verwenden.</p>
 			<CookieButtonWrapper>
-				<CookieButton onClick={() => disable()}>Cookies zulassen!</CookieButton>
-				<CookieButton onClick={() => enable()}>Cookies nicht zulassen!</CookieButton>
+				<CookieButtonLink onClick={() => enable()}>Cookies nicht zulassen</CookieButtonLink>
+				<CookieButton onClick={() => disable()}>Cookies zulassen</CookieButton>
 			</CookieButtonWrapper>
 		</CookieWrapper>
 	) : null
