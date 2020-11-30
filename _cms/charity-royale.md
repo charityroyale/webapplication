@@ -117,6 +117,12 @@ upcoming:
     streamLink: https://www.twitch.tv/heideltrauteuw
     makeAWishProjectId: "25"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
+  - date: 2020-12-20T18:00:57.001Z
+    streamLink: https://www.twitch.tv/clym
+    streamerName: Clym
+    streamerChannel: clym
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "20"
 makeAWishProjects:
   - descripion: Ich möchte ins Disneyland fahren und Donald besuchen
     childname: Lilli
@@ -208,9 +214,11 @@ makeAWishProjects:
     childname: Zeynep
     tagline: Ein Tablet zum Spiele spielen für Zeynep
     makeAWishProjectId: 19
-  - descripion: blablub
-    childname: child20
-    tagline: Some cool tagline
+  - descripion: Ich wünsche mir ein Handy, mit dem ich Fotos meiner Eltern machen
+      kann, um diese meinen beiden großen Schwestern, die in Georgien wohnen, zu
+      schicken.
+    childname: Irakli
+    tagline: Ein Handy um Fotos zu machen.
     makeAWishProjectId: 20
   - descripion: Ein Go-Kart ist mein großer Wunsch, eines, das richtig schnell geht,
       wünsch ich mir.
