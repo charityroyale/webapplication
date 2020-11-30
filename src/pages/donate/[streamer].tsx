@@ -121,11 +121,6 @@ const DonationStatNumbers = styled.span`
 	font-weight: bold;
 `
 
-const FaqDonationMessageText = styled.p`
-	color: white;
-	margin-bottom: 10px;
-`
-
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
 	const router = useRouter()
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by form
@@ -281,15 +276,6 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			<DonationIFrameWrapper>
 				<DonationFormHeader>Spendenformular</DonationFormHeader>
 
-				<FaqDonationMessageText>
-					Wo wird meine{' '}
-					<Link href={`/faq`}>
-						<a href={`/faq`} aria-label={'FAQ'}>
-							Spendennachricht
-						</a>
-					</Link>{' '}
-					angezeigt?
-				</FaqDonationMessageText>
 				{iFrameLoading && <Skeleton height={'843px'} />}
 				{iFrameError && (
 					<IFrameLoadErrorMessage>Leider ist ein Fehler beim laden des Formular aufgetreten.</IFrameLoadErrorMessage>
