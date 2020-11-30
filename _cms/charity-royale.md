@@ -8,79 +8,79 @@ upcoming:
     streamerChannel: zayuri
     streamerName: Zayuri
     streamLink: https://www.twitch.tv/zayuri
-    makeAWishProjectId: '1'
+    makeAWishProjectId: "1"
   - date: 2020-12-02T07:00:50.263Z
     streamerName: Colleesi
     streamerChannel: colleesi
     streamLink: https://www.twitch.tv/colleesi
-    makeAWishProjectId: '3'
+    makeAWishProjectId: "3"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-03T19:00:00.000Z
     streamerChannel: stegi
     streamerName: Stegi
     streamLink: https://www.twitch.tv/Stegi
-    makeAWishProjectId: '14'
+    makeAWishProjectId: "14"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-04T15:00:00.000Z
     streamerChannel: timjacken
     streamerName: Tim Jacken
     streamLink: https://www.twitch.tv/timjacken
-    makeAWishProjectId: '21'
+    makeAWishProjectId: "21"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-05T19:00:00.000Z
     streamerChannel: orangemorange
     streamerName: Orange Morange
     streamLink: https://www.twitch.tv/orangemorange
-    makeAWishProjectId: '7'
+    makeAWishProjectId: "7"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-06T16:00:00.000Z
     streamerChannel: beccisplayground
     streamerName: Just Becci
     streamLink: https://www.twitch.tv/beccisplayground
-    makeAWishProjectId: '4'
+    makeAWishProjectId: "4"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-07T13:00:00.000Z
     streamerChannel: zander
     streamerName: Zander
     streamLink: https://www.twitch.tv/zander
-    makeAWishProjectId: '12'
+    makeAWishProjectId: "12"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-09T18:00:00.000Z
     streamerChannel: thefabo
     streamerName: TheFabo
     streamLink: https://www.twitch.tv/thefabo
-    makeAWishProjectId: '18'
+    makeAWishProjectId: "18"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-10T18:00:00.000Z
     streamerChannel: xoynuzi
     streamerName: XoYnUzi
     streamLink: https://www.twitch.tv/xoynuzi
-    makeAWishProjectId: '19'
+    makeAWishProjectId: "19"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-11T17:00:00.000Z
     streamerChannel: luigikid
     streamerName: Luigikid
     streamLink: https://www.twitch.tv/luigikid
-    makeAWishProjectId: '16'
+    makeAWishProjectId: "16"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-12T15:00:00.000Z
     streamerChannel: mrsxeniatv
     streamerName: MrsXenia
     streamLink: https://www.twitch.tv/mrsxeniatv
-    makeAWishProjectId: '9'
+    makeAWishProjectId: "9"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-14T15:00:00.000Z
     streamerChannel: revedtv
     streamerName: Reved
     streamLink: https://www.twitch.tv/revedtv
-    makeAWishProjectId: '6'
+    makeAWishProjectId: "6"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-15T19:00:00.000Z
     streamerChannel: petrit
     streamerName: Petrit
     streamLink: https://www.twitch.tv/petrit
-    makeAWishProjectId: '10'
+    makeAWishProjectId: "10"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-17T13:00:00.000Z
     streamerChannel: nebelniek
@@ -92,30 +92,30 @@ upcoming:
     streamerChannel: henke
     streamerName: Henke
     streamLink: https://www.twitch.tv/henke
-    makeAWishProjectId: '11'
+    makeAWishProjectId: "11"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-19T11:00:00.000Z
     streamerChannel: bastighg
     streamerName: BastiGHG
     streamLink: https://www.twitch.tv/bastighg
-    makeAWishProjectId: '5'
+    makeAWishProjectId: "5"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-22T11:00:00.000Z
     streamerChannel: veni
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: '24'
+    makeAWishProjectId: "24"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-23T19:00:00.000Z
     streamerChannel: veni
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: '24'
+    makeAWishProjectId: "24"
   - date: 2020-09-06T11:15:14.045Z
     streamerName: Heideltraut
     streamerChannel: heideltrauteuw
     streamLink: https://www.twitch.tv/heideltrauteuw
-    makeAWishProjectId: '25'
+    makeAWishProjectId: "25"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
 makeAWishProjects:
   - descripion: Ich möchte ins Disneyland fahren und Donald besuchen
@@ -171,7 +171,7 @@ makeAWishProjects:
     childname: Jonas
     tagline: Alles was fährt für Jonas im Disneyland
     makeAWishProjectId: 11
-  - descripion: 'Mein Herzenswunsch seit Kindertagen: mit einem Schreitbagger zu fahren.'
+  - descripion: "Mein Herzenswunsch seit Kindertagen: mit einem Schreitbagger zu fahren."
     childname: Dominik
     tagline: Ein Schreitbagger für Dominik
     makeAWishProjectId: 12
@@ -179,7 +179,7 @@ makeAWishProjects:
     childname: child13
     tagline: Some cool tagline
     makeAWishProjectId: 13
-  - descripion: 'Mein Herzenswunsch: ein DJ Equipment'
+  - descripion: "Mein Herzenswunsch: ein DJ Equipment"
     childname: Lena
     tagline: Equipment für DJ Lena
     makeAWishProjectId: 14
@@ -239,36 +239,44 @@ makeAWishProjects:
     childname: Patrick
 faq:
   questions:
-    - question: Wie spät ist es?
+    - question: Was ist Charity Royale?
       answer: >-
-        Lorem ipsum **dolor** sit amet, consetetur sadipscing elitr,
+        Charity Royale entstand 2018, als sich [Veni
+        ](https://www.twitch.tv/veni)und der größte digitale Marktplatz
+        Österreichs [willhaben](https://www.willhaben.at/iad) für einen
+        einmaligen 24h-Charity-Stream (damals noch unter dem Namen "Gaming
+        Against Cancer") zusammengetan hatten. Wegen des großen Erfolgs und der
+        unfassbar hohen Spendenbereitschaft der Zuseher gehen wir 2020 bereits
+        in die dritte Runde des Spenden-Events für den guten Zweck.
 
 
-        * sed diam nonumy eirmodtempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam etusto duo dolores et ea rebum.
-
-        * Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolorsit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+        2018 erreichten wir 10.450€ für die [Kinderkrebsforschung des St. Anna Kinderspitals](https://kinderkrebsforschung.at/).
 
 
-        diam nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat, sed diam voluptua.
+        2019 ging es mit Licht ins Dunkel um das [Projekt PROSA - Schule für alle](https://www.prosa-schule.org/), für das wir 27.100€ sammeln konnten.
 
 
-        A nice link: [willhaben](https://www.willhaben.at)!
-    - question: Wie spät ist es?
-      answer: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmodtempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam etusto duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolorsit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat,
-        sed diam voluptua.
-    - question: Wie spät ist es?
-      answer: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmodtempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam etusto duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolorsit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat,
-        sed diam voluptua.
+        2020 wollen wir mit der [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at/) Herzenswünsche schwerkranker Kinder erfüllen und möchten 50.000€ an Spenden erzielen. Dafür haben wir vom 1.-23. Dezember 2020 Corona-konforme Twitch-Streams mit Größen der deutschsprachigen Twitch-Szene vorbereitet.
+    - question: Was ist die Make-A-Wish Foundation?
+      answer: "Vor 40 Jahren führte der Wunsch eines siebenjährigen krebskranken
+        Jungen, der unbedingt Polizist werden wollte, zur Gründung einer
+        Foundation, die seitdem unzähligen schwerkranken Kindern weltweit das
+        Leben verschönert hat: die Make-A-Wish Foundation®. Seit diesem Tag an
+        schenkt die Organisation Kindern zwischen 3 und 18 Jahren und deren
+        Familien Mut, Kraft und unvergessliche Momente in ihren schwersten
+        Zeiten."
+    - question: Wie kann ich spenden?
+      answer: >-
+        Jeder Programmpunkt bzw. Streamer hat sich für Charity Royale 2020 einen
+        Herzenswunsch eines Kindes ausgesucht. Am Tag des Live-Streams ist der
+        aktuelle Spendenlink ausschließlich für dieses Projekt freigeschaltet.
+        Es gehen also alle Spenden direkt an den aktuellen Herzenswunsch. 
+
+
+        Sollten die Spenden das Spendenziel des Herzenswunsches übertreffen, werden die Beträge für weitere offene Wünsche schwerkranker Kinder bei Make-A-Wish genutzt.
+
+
+        Gespendet werden kann per PayPal, eps-Überweisung, Sofort oder Kreditkarte.
   videos:
     - url: https://www.youtube-nocookie.com/embed/Vyfb7EzbJbQ
       name: Video 1
