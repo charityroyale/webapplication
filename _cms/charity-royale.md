@@ -242,6 +242,12 @@ makeAWishProjects:
     childname: Theresa
     tagline: Theresa möchte Amerika in New York erleben
     makeAWishProjectId: 24
+  - descripion: TEST Ich möchte unbedingt ganz neue Erfahrungen machen, völlig neue
+      Dinge sehen. Ich liebe alles, was aus Amerika kommt und deshalb ist es
+      mein größter Wunsch New York zu besuchen
+    makeAWishProjectId: 25
+    tagline: TEST Theresa möchte Amerika in New York erleben
+    childname: Patrick
 faq:
   questions:
     - question: Was ist Charity Royale?
@@ -304,8 +310,8 @@ faq:
   videos:
     - url: https://www.youtube.com/embed/shnCxQK6Ehk
       name: Charity Royale 2020 Promovideo
-    - url: https://www.youtube.com/embed/GPC_qLs5ark
-      name: 40 Jahre Make-A-Wish
+    - url: https://www.youtube.com/embed/6n2pAeFuhsc
+      name: Charity Royale 2020 FAQs mit Veni
 ---
 
 Hi **there**
