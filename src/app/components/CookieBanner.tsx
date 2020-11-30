@@ -71,6 +71,7 @@ const CookieButtonWrapper = styled.div`
 
 const CookieBanner: React.FunctionComponent = () => {
 	const [gaDisabled, setGaDisabled] = useState(cookies.get(gaDisableCookieName))
+	const [isMounted, setIsMounted] = useState(false)
 	const disable = useCallback(() => {
 		setGaDisabled(true)
 		cookies.set(gaDisableCookieName, true)
@@ -85,7 +86,11 @@ const CookieBanner: React.FunctionComponent = () => {
 		window[gaDisableCookieName] = gaDisabled
 	}, [gaDisabled])
 
-	return gaDisabled === undefined ? (
+	useEffect(() => {
+		setIsMounted(true)
+	}, [])
+
+	return isMounted && gaDisabled === undefined ? (
 		<CookieWrapper>
 			<p>Hilf uns die Charity Royale 2020 Website zu verbessern und erlaube uns Cookies zu verwenden.</p>
 			<CookieButtonWrapper>
