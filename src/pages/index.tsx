@@ -16,8 +16,6 @@ export interface InitialAppProps {
 	schedule?: Upcoming[]
 }
 
-const websiteReleased = false
-
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 	const { schedule, featuredStream } = props
 	return (
@@ -52,6 +50,6 @@ export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 		props: { schedule, featuredStream },
 	}
 }
-;(IndexPage as PageWithLayoutType).layout = websiteReleased ? MainLayout : ComingSoonLayout
+;(IndexPage as PageWithLayoutType).layout = MainLayout
 
 export default IndexPage
