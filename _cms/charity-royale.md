@@ -328,6 +328,9 @@ faq:
         Spenden-Formulare auf charityroyale.at sind direkte Einbindungen der
         Spendenformulare von Make-A-Wish und werden nicht über Drittanbieter
         gesammelt.
+    - question: Wo wird meine Spendennachricht angezeigt?
+      answer: Deine Spendennachricht wird als Alert im jeweiligen Live-Stream
+        automatisch angezeigt.
   videos:
     - url: https://www.youtube-nocookie.com/embed/Vyfb7EzbJbQ
       name: Video 1
