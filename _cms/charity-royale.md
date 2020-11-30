@@ -123,12 +123,6 @@ upcoming:
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
-  - date: 2020-09-06T11:15:14.045Z
-    streamerName: Heideltraut
-    streamerChannel: heideltrauteuw
-    streamLink: https://www.twitch.tv/heideltrauteuw
-    makeAWishProjectId: "25"
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
 makeAWishProjects:
   - descripion: Ich möchte ins Disneyland fahren und Donald besuchen
     childname: Lilli
@@ -248,12 +242,6 @@ makeAWishProjects:
     childname: Theresa
     tagline: Theresa möchte Amerika in New York erleben
     makeAWishProjectId: 24
-  - descripion: TEST Ich möchte unbedingt ganz neue Erfahrungen machen, völlig neue
-      Dinge sehen. Ich liebe alles, was aus Amerika kommt und deshalb ist es
-      mein größter Wunsch New York zu besuchen
-    makeAWishProjectId: 25
-    tagline: TEST Theresa möchte Amerika in New York erleben
-    childname: Patrick
 faq:
   questions:
     - question: Was ist Charity Royale?
