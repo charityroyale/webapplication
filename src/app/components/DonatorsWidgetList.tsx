@@ -28,8 +28,8 @@ const DonationList = styled.div`
 	}
 `
 
-const DonationAmount = styled.div`
-	color: ${(p) => p.theme.color.charityTeal};
+const DonationAmount = styled.div<{ isZero: boolean }>`
+	color: ${(p) => (p.isZero ? p.theme.color.white : p.theme.color.charityTeal)};
 	font-weight: 800;
 `
 
@@ -41,18 +41,21 @@ const DonationDonatorPlaceAndName = styled.div`
 const DonationWidgetList: React.FunctionComponent<DonationWidgetListProps> = ({ list }: DonationWidgetListProps) => {
 	return (
 		<DonationList>
-			{list.map((item, index) => (
-				<DonationListRow key={index}>
-					<div style={{ display: 'flex', justifyContent: 'space-between' }}>
-						<span>{item.col_1}</span> <DonationAmount> {item.col_3}€</DonationAmount>
-					</div>
-					<DonationDonatorPlaceAndName>
-						<span>
-							<strong>{item.col_2}</strong>
-						</span>
-					</DonationDonatorPlaceAndName>
-				</DonationListRow>
-			))}
+			{list.map((item, index) => {
+				return (
+					<DonationListRow key={index}>
+						<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+							<span>{item.col_1}</span>{' '}
+							<DonationAmount isZero={parseFloat(item.col_3) <= 0}>{parseFloat(item.col_3).toFixed(2)}€</DonationAmount>
+						</div>
+						<DonationDonatorPlaceAndName>
+							<span>
+								<strong>{item.col_2}</strong>
+							</span>
+						</DonationDonatorPlaceAndName>
+					</DonationListRow>
+				)
+			})}
 		</DonationList>
 	)
 }
