@@ -5,7 +5,7 @@ import { StreamProjectDateWrapper } from '../../../styles/common.styles'
 import { styled } from '../../../styles/Theme'
 import { useIsSSR } from '../isSSR'
 import ClientLink from '../ClientLink'
-import { formatDate } from '../../utils/formatUtils'
+import { formatDate, formatMoneyWithSign } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 import { UpcomingStreamFooter } from './UpcomingStreamFooter'
 import { MakeAWishProject } from '../../cms/cms'
@@ -133,7 +133,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 							alt={`Streamer ${streamerName} Logo`}
 						/>
 					)}
-					<DoneStreamDonation projectDone={projectDone}>{donationProgress}€</DoneStreamDonation>
+					<DoneStreamDonation projectDone={projectDone}>{formatMoneyWithSign(donationProgress)}</DoneStreamDonation>
 					<StreamProjectDateWrapper>
 						<p>{streamerName}</p>
 					</StreamProjectDateWrapper>

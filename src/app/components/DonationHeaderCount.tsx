@@ -1,6 +1,7 @@
 import React from 'react'
 import { getPercentage } from '../utils/commonUtils'
 import { styled } from '../../styles/Theme'
+import { formatMoneyWithSign } from '../utils/formatUtils'
 
 interface DonationHeaderCountProps {
 	donation_goal: number
@@ -71,12 +72,12 @@ const DonationHeaderCount: React.FunctionComponent<DonationHeaderCountProps> = (
 	return (
 		<DonationCountWrapper>
 			<DonationCountCol style={{ marginRight: '12px' }}>
-				<DonationCountBox title={'Gespendet'} text={`€${current_donation_count.toLocaleString('de-DE')}`} />
-				<DonationCountBox title={'Ziel'} text={`€${donation_goal.toLocaleString('de-DE')}`} />
+				<DonationCountBox title={'Gespendet'} text={formatMoneyWithSign(current_donation_count)} />
+				<DonationCountBox title={'Ziel'} text={formatMoneyWithSign(donation_goal)} />
 			</DonationCountCol>
 
 			<DonationCountCol>
-				<DonationCountBox title={'Spender'} text={donations_count.toString()} />
+				<DonationCountBox title={'Spender'} text={donations_count.toLocaleString('de-DE')} />
 				<DonationCountBox title={'Erreicht'} text={`${percentage}%`} />
 			</DonationCountCol>
 		</DonationCountWrapper>
