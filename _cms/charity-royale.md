@@ -250,10 +250,16 @@ faq:
         in die dritte Runde des Spenden-Events für den guten Zweck.
 
 
+
+
         2018 erreichten wir 10.450€ für die [Kinderkrebsforschung des St. Anna Kinderspitals](https://kinderkrebsforschung.at/).
 
 
+
+
         2019 ging es mit Licht ins Dunkel um das [Projekt PROSA - Schule für alle](https://www.prosa-schule.org/), für das wir 27.100€ sammeln konnten.
+
+
 
 
         2020 wollen wir mit der [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at/) Herzenswünsche schwerkranker Kinder erfüllen und möchten 50.000€ an Spenden erzielen. Dafür haben wir vom 1.-23. Dezember 2020 Corona-konforme Twitch-Streams mit Größen der deutschsprachigen Twitch-Szene vorbereitet.
@@ -261,10 +267,10 @@ faq:
       answer: "Vor 40 Jahren führte der Wunsch eines siebenjährigen krebskranken
         Jungen, der unbedingt Polizist werden wollte, zur Gründung einer
         Foundation, die seitdem unzähligen schwerkranken Kindern weltweit das
-        Leben verschönert hat: die Make-A-Wish Foundation®. Seit diesem Tag an
-        schenkt die Organisation Kindern zwischen 3 und 18 Jahren und deren
-        Familien Mut, Kraft und unvergessliche Momente in ihren schwersten
-        Zeiten."
+        Leben verschönert hat: die [Make-A-Wish
+        Foundation®](https://www.make-a-wish.at/). Seit diesem Tag an schenkt
+        die Organisation Kindern zwischen 3 und 18 Jahren und deren Familien
+        Mut, Kraft und unvergessliche Momente in ihren schwersten Zeiten."
     - question: Wie kann ich spenden?
       answer: >-
         Jeder Programmpunkt bzw. Streamer hat sich für Charity Royale 2020 einen
@@ -273,7 +279,11 @@ faq:
         Es gehen also alle Spenden direkt an den aktuellen Herzenswunsch. 
 
 
+
+
         Sollten die Spenden das Spendenziel des Herzenswunsches übertreffen, werden die Beträge für weitere offene Wünsche schwerkranker Kinder bei Make-A-Wish genutzt.
+
+
 
 
         Gespendet werden kann per PayPal, eps-Überweisung, Sofort oder Kreditkarte.
@@ -282,12 +292,15 @@ faq:
         Ja, in Österreich und Deutschland geht das auf jeden Fall. 
 
 
+
+
         Spender bekommen in der Dankes-Email von Make-A-Wish genaue Informationen zur Absetzbarkeit und derer Abwicklung zugeschickt. Folgt diesen Informationen, um eure Spende von der Steuer absetzen zu können.
     - question: Kann ich sicher sein, dass meine Spenden auch wirklich ankommen?
-      answer: Ja, die Make-A-Wish Foundation Österreich ist mit dem Österreichischen
-        Spenden-Gütesiegel ausgezeichnet. Die Spenden-Formulare auf
-        charityroyale.at sind direkte Einbindungen der Spendenformulare von
-        Make-A-Wish und werden nicht über Drittanbieter gesammelt.
+      answer: Ja, die Make-A-Wish Foundation Österreich ist mit dem [Österreichischen
+        Spenden-Gütesiegel](https://www.osgs.at/) ausgezeichnet. Die
+        Spenden-Formulare auf charityroyale.at sind direkte Einbindungen der
+        Spendenformulare von Make-A-Wish und werden nicht über Drittanbieter
+        gesammelt.
   videos:
     - url: https://www.youtube-nocookie.com/embed/Vyfb7EzbJbQ
       name: Video 1
