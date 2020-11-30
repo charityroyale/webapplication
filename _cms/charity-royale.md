@@ -250,19 +250,11 @@ faq:
         in die dritte Runde des Spenden-Events für den guten Zweck.
 
 
+        * 2018 erreichten wir 10.450€ für die [Kinderkrebsforschung des St. Anna Kinderspitals](https://kinderkrebsforschung.at/).
 
+        * 2019 ging es mit Licht ins Dunkel um das [Projekt PROSA - Schule für alle](https://www.prosa-schule.org/), für das wir 27.100€ sammeln konnten.
 
-        2018 erreichten wir 10.450€ für die [Kinderkrebsforschung des St. Anna Kinderspitals](https://kinderkrebsforschung.at/).
-
-
-
-
-        2019 ging es mit Licht ins Dunkel um das [Projekt PROSA - Schule für alle](https://www.prosa-schule.org/), für das wir 27.100€ sammeln konnten.
-
-
-
-
-        2020 wollen wir mit der [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at/) Herzenswünsche schwerkranker Kinder erfüllen und möchten 50.000€ an Spenden erzielen. Dafür haben wir vom 1.-23. Dezember 2020 Corona-konforme Twitch-Streams mit Größen der deutschsprachigen Twitch-Szene vorbereitet.
+        * 2020 wollen wir mit der [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at/) Herzenswünsche schwerkranker Kinder erfüllen und möchten 50.000€ an Spenden erzielen. Dafür haben wir vom 1.-23. Dezember 2020 Corona-konforme Twitch-Streams mit Größen der deutschsprachigen Twitch-Szene vorbereitet.
     - question: Was ist die Make-A-Wish Foundation?
       answer: "Vor 40 Jahren führte der Wunsch eines siebenjährigen krebskranken
         Jungen, der unbedingt Polizist werden wollte, zur Gründung einer
