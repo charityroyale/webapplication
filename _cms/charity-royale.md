@@ -123,12 +123,6 @@ upcoming:
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
-  - date: 2020-09-06T11:15:14.045Z
-    streamerName: Heideltraut
-    streamerChannel: heideltrauteuw
-    streamLink: https://www.twitch.tv/heideltrauteuw
-    makeAWishProjectId: "25"
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
 makeAWishProjects:
   - descripion: Ich möchte ins Disneyland fahren und Donald besuchen
     childname: Lilli
