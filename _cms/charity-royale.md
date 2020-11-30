@@ -316,8 +316,8 @@ faq:
   videos:
     - url: https://www.youtube.com/embed/shnCxQK6Ehk
       name: Charity Royale 2020 Promovideo
-    - url: https://www.youtube-nocookie.com/embed/Vyfb7EzbJbQ
-      name: Video 2
+    - url: https://www.youtube.com/embed/GPC_qLs5ark
+      name: 40 Jahre Make-A-Wish
 ---
 
 Hi **there**
