@@ -277,6 +277,17 @@ faq:
 
 
         Gespendet werden kann per PayPal, eps-Überweisung, Sofort oder Kreditkarte.
+    - question: Ist meine Spende von der Steuer absetzbar?
+      answer: >-
+        Ja, in Österreich und Deutschland geht das auf jeden Fall. 
+
+
+        Spender bekommen in der Dankes-Email von Make-A-Wish genaue Informationen zur Absetzbarkeit und derer Abwicklung zugeschickt. Folgt diesen Informationen, um eure Spende von der Steuer absetzen zu können.
+    - question: Kann ich sicher sein, dass meine Spenden auch wirklich ankommen?
+      answer: Ja, die Make-A-Wish Foundation Österreich ist mit dem Österreichischen
+        Spenden-Gütesiegel ausgezeichnet. Die Spenden-Formulare auf
+        charityroyale.at sind direkte Einbindungen der Spendenformulare von
+        Make-A-Wish und werden nicht über Drittanbieter gesammelt.
   videos:
     - url: https://www.youtube-nocookie.com/embed/Vyfb7EzbJbQ
       name: Video 1
