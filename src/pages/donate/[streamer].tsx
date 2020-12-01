@@ -12,7 +12,7 @@ import PageWithLayoutType from '../../app/types/PageWithLayout'
 import { makeAWishAPI } from '../../config'
 import useMakeAWish from '../../app/hooks/useMakeAWish'
 import { MakeWishDonationProjectDTO } from '../../app/dto/MakeAWishDonationsDTO'
-import { formatDateDefault } from '../../app/utils/formatUtils'
+import { formatDateDefault, formatMoneyWithSign } from '../../app/utils/formatUtils'
 import { styled } from '../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
 import { useIsSSR } from '../../app/components/isSSR'
@@ -135,7 +135,8 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	let makeAWishProject: MakeWishDonationProjectDTO
 	let latestDonatorsList = new Array<List>()
 	let highestDonatorsList = new Array<List>()
-	if (!makeAWish.isError && !makeAWish.isLoading) {
+	const isMakeAWishDataAvailable = !makeAWish.isError && !makeAWish.isLoading
+	if (isMakeAWishDataAvailable) {
 		makeAWishProject = makeAWish.data.projects[project.makeAWish.makeAWishProjectId]
 		latestDonatorsList = makeAWishProject.recent_donators.map((r) => ({
 			col_1: formatDateDefault(new Date(r.unix_timestamp * 1000)),
@@ -194,21 +195,20 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 		setIFrameError(true)
 	}, [])
 
-	const donationSum =
-		makeAWish.isLoading || makeAWish.isError
-			? '0'
-			: parseFloat(makeAWishProject.current_donation_sum).toLocaleString('de-DE')
+	let donationSum = '0'
+	let donationGoal = '0'
+	let percentage = 0
+	let donatorsCount = '0'
 
-	const donationGoal =
-		makeAWish.isLoading || makeAWish.isError ? '0' : parseFloat(makeAWishProject.donation_goal).toLocaleString('de-DE')
-
-	const donatorsCount =
-		makeAWish.isLoading || makeAWish.isError ? '0' : makeAWishProject.current_donation_count.toLocaleString('de-DE')
-
-	const percentage = getPercentage(
-		makeAWish.isLoading || makeAWish.isError ? 0 : parseFloat(makeAWishProject.current_donation_sum),
-		makeAWish.isLoading || makeAWish.isError ? 0 : parseFloat(makeAWishProject.donation_goal)
-	)
+	if (isMakeAWishDataAvailable) {
+		donationSum = makeAWishProject.current_donation_sum
+		donationGoal = makeAWishProject.donation_goal
+		donatorsCount = makeAWishProject.current_donation_count.toLocaleString('de-DE')
+		percentage = getPercentage(
+			parseFloat(makeAWishProject.current_donation_sum),
+			parseFloat(makeAWishProject.donation_goal)
+		)
+	}
 
 	useEffect(() => {
 		if (percentage >= 100) {
@@ -269,7 +269,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 
 						<DonationStatsWidget>
 							<p>
-								Gespendet <DonationStatNumbers>{donationSum}€</DonationStatNumbers>
+								Gespendet <DonationStatNumbers>{formatMoneyWithSign(donationSum)}</DonationStatNumbers>
 							</p>
 							<Line
 								style={{ padding: '4px 0' }}
@@ -280,7 +280,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 								strokeColor={hasReachedGoal && !makeAWish.isLoading ? 'green' : 'gold'}
 							/>
 							<DonationStatsWidgetGoal>
-								Ziel <DonationStatNumbers>{donationGoal}€</DonationStatNumbers>
+								Ziel <DonationStatNumbers>{formatMoneyWithSign(donationGoal)}</DonationStatNumbers>
 							</DonationStatsWidgetGoal>
 						</DonationStatsWidget>
 					</DonationSubPageStats>

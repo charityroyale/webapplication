@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { styled } from '../../styles/Theme'
 import { getPercentage } from '../utils/commonUtils'
 import { GiChickenOven } from 'react-icons/gi'
+import { formatMoneyWithSign } from '../utils/formatUtils'
 
 interface DonationWidgetCountProps {
 	current_amount: string
@@ -32,7 +33,7 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 }: DonationWidgetCountProps) => {
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 	const percentage = getPercentage(parseFloat(current_amount), parseFloat(donation_goal_amount))
-	const absDiff = parseFloat((parseFloat(current_amount) - parseFloat(donation_goal_amount)).toFixed(2)).toFixed(2)
+	const absDiff = parseFloat(current_amount) - parseFloat(donation_goal_amount)
 
 	useEffect(() => {
 		if (percentage >= 100) {
@@ -49,7 +50,7 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 					<GiChickenOven size={125} color={'#ffc439'} />
 					<GoalReachedTitle>Winner Winner Chicken Dinner, Spendenziel erreicht!</GoalReachedTitle>
 					<GoalReachedText>
-						Die Spendendifferenz von <GoalReachCount>{absDiff} €</GoalReachCount> wird an unerfüllte{' '}
+						Die Spendendifferenz von <GoalReachCount>{formatMoneyWithSign(absDiff)}</GoalReachCount> wird an unerfüllte{' '}
 						<MakeAWishLink target="_bank" rel="noreferrer" href={'https://www.make-a-wish.at/'}>
 							Make-A-Wish
 						</MakeAWishLink>{' '}
