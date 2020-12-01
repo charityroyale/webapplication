@@ -45,12 +45,6 @@ upcoming:
     streamerName: Zander
     streamLink: https://www.twitch.tv/zander
     makeAWishProjectId: "12"
-  - date: 2020-12-08T19:00:20.425Z
-    streamerName: Maxamillion
-    streamerChannel: chefmaxamillion
-    streamLink: https://www.twitch.tv/chefmaxamillion
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: "25"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-09T18:00:00.000Z
     streamerChannel: thefabo
