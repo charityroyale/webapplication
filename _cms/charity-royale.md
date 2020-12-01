@@ -88,7 +88,7 @@ upcoming:
     streamLink: https://www.twitch.tv/revedtv
     makeAWishProjectId: "6"
   - date: 2020-12-15T12:00:38.983Z
-    streamerName: Solaaaa
+    streamerName: Sola
     streamerChannel: solaaaa
     streamLink: https://www.twitch.tv/solaaaa
     imgUrl: /uploads/charity_royale_rgb_300x300.png
