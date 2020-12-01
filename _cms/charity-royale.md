@@ -4,7 +4,7 @@ thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: zayuri
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-01T17:00:00.000Z
+    date: 2020-12-01T16:00:00.000Z
     streamerChannel: zayuri
     streamerName: Zayuri
     streamLink: https://www.twitch.tv/zayuri
@@ -45,6 +45,12 @@ upcoming:
     streamerName: Zander
     streamLink: https://www.twitch.tv/zander
     makeAWishProjectId: "12"
+  - date: 2020-12-08T19:00:20.425Z
+    streamerName: Maxamillion
+    streamerChannel: chefmaxamillion
+    streamLink: https://www.twitch.tv/chefmaxamillion
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "25"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-09T18:00:00.000Z
     streamerChannel: thefabo
@@ -69,6 +75,12 @@ upcoming:
     streamerName: MrsXenia
     streamLink: https://www.twitch.tv/mrsxeniatv
     makeAWishProjectId: "9"
+  - date: 2020-12-13T20:00:15.324Z
+    streamerName: Syrinxx
+    streamerChannel: syrinxx1337
+    streamLink: https://www.twitch.tv/syrinxx1337
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "25"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-14T15:00:00.000Z
     streamerChannel: revedtv
