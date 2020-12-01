@@ -80,7 +80,7 @@ upcoming:
     streamerChannel: syrinxx1337
     streamLink: https://www.twitch.tv/syrinxx1337
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: "25"
+    makeAWishProjectId: "15"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-14T15:00:00.000Z
     streamerChannel: revedtv
