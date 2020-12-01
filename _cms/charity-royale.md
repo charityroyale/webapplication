@@ -135,25 +135,29 @@ makeAWishProjects:
     childname: Lilli
     tagline: Lilli möchte ins Disneyland
     makeAWishProjectId: 1
-  - descripion: Ich möchte schöne Tage mit meiner Familie in Istanbul verbringen
+  - descripion: Der 12-jährige Eren leidet an Knochenkrebs. Er möchte mit seiner
+      Familie schöne Tage in Istanbul verbringen und dort gemeinsam Kraft
+      tanken.
     childname: Eren
     tagline: Eren möchte nach Istanbul mit seiner Familie
     makeAWishProjectId: 2
-  - descripion: Ich wünsche mir, im Salzburger Zoo Backstage dabei sein zu können,
-      um Giraffen und Pandas - meine Lieblingstiere - zu pflegen und zu füttern.
+  - descripion: Die 14-jährige Valentina hat einen Gehirntumor. Sie wünscht sich
+      nichts sehnlicher, als im Salzburger Zoo Backstage dabei sein zu dürfen,
+      um ihre Lieblingstiere - Giraffen und Pandas - hautnah füttern und pflegen
+      zu können.
     childname: Valentina
     tagline: Valentina möchte Backstage in den Zoo
     makeAWishProjectId: 3
-  - descripion: Mein absoluter Herzenswunsch ist eine Rundreise durch Norwegen,
-      Island und Amsterdam. Das Anne Frank-Haus und eine Grachtenrundfahrt in
-      Amsterdam, die Blue Lagoon in Island und nicht zuletzt eine Fjordfahrt
-      möchte ich unbedingt erleben.
+  - descripion: Der absolute Herzenswunsch von Loreen (18, bösartiger Tumor) ist
+      eine Rundreise durch Norwegen, Island und Amsterdam. Das Anne Frank-Haus
+      und eine Grachtenrundfahrt in Amsterdam, die Blue Lagoon in Island und
+      nicht zuletzt eine Fjordfahrt möchte sie unbedingt erleben.
     childname: Loreen
     tagline: Loreen möchte weit hinaus
     makeAWishProjectId: 4
-  - descripion: Ich wünsche mir ein neues Jugendzimmer. Es soll Schaukelsessel drin
-      sein und eine LED–Beleuchtung für mein Bett. Toll wäre auch ein
-      Wandtattoo.
+  - descripion: Der 17-jährige Abdallah leidet an Leukämie und wünscht sich ein
+      neues Jugendzimmer. Es soll ein Schaukelsessel dabei sein und eine
+      LED–Beleuchtung für sein Bett haben. Toll wäre auch ein Wandtattoo!
     childname: Abdalla
     tagline: Ein neues Jugendzimmer für Abdalla
     makeAWishProjectId: 5
