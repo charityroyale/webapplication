@@ -22,7 +22,6 @@ import { FaDove } from 'react-icons/fa'
 import { Line } from 'rc-progress'
 import { getPercentage } from '../../app/utils/commonUtils'
 import cmsContent, { Upcoming } from '../../app/cms/cms'
-import Link from 'next/link'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;

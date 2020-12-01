@@ -74,12 +74,12 @@ const CookieBanner: React.FunctionComponent = () => {
 	const [isMounted, setIsMounted] = useState(false)
 	const disable = useCallback(() => {
 		setGaDisabled(true)
-		cookies.set(gaDisableCookieName, true)
+		cookies.set(gaDisableCookieName, true, { path: '/', maxAge: 2147483647 })
 	}, [])
 
 	const enable = useCallback(() => {
 		setGaDisabled(false)
-		cookies.set(gaDisableCookieName, false)
+		cookies.set(gaDisableCookieName, false, { path: '/', maxAge: 2147483647 })
 	}, [])
 
 	useEffect(() => {
