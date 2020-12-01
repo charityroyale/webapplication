@@ -136,7 +136,8 @@ upcoming:
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
 makeAWishProjects:
-  - descripion: Ich möchte ins Disneyland fahren und Donald besuchen
+  - descripion: "Die 14-jährige Lilli leidet an Leukämie. Ihr Herzenswunsch ist es,
+      einmal das Disneyland zu besuchen und dort Donald Duck zu treffen.  "
     childname: Lilli
     tagline: Lilli möchte ins Disneyland
     makeAWishProjectId: 1
