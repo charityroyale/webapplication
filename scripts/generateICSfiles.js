@@ -14,7 +14,7 @@ fs.readFile('./_cms/charity-royale.md', 'utf8', function (err, data) {
 		const startDate = new Date(stream.date)
 		return {
 			title: `${stream.streamerName} - Charity Royale 2020`,
-			end: [startDate.getFullYear(), startDate.getMonth() + 1, startDate.getDate(), 24, 0],
+			end: [startDate.getFullYear(), startDate.getMonth() + 1, startDate.getDate(), 23, 59],
 			description: stream.streamLink,
 			start: [
 				startDate.getFullYear(),
