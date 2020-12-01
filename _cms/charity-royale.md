@@ -161,21 +161,24 @@ makeAWishProjects:
     childname: Abdalla
     tagline: Ein neues Jugendzimmer für Abdalla
     makeAWishProjectId: 5
-  - descripion: Ich möchte ein Mal nach New York und so viele Sehenswürdigkeiten wie
-      möglich sehen.
+  - descripion: Der 16-jährige Jonas mit Lymphdrüsenkrebs möchte ein Mal nach New
+      York und so viele Sehenswürdigkeiten wie möglich sehen.
     childname: Jonas
     tagline: Jonas war noch niemals in New York
     makeAWishProjectId: 6
-  - descripion: Ich möchte Mickey Mouse in Disneyland besuchen und mit ihr Mittagessen.
+  - descripion: Simon (11) leidet an Muskelschwund. Sein Herzenswunsch ist ein
+      Besuch im Disneyland, bei dem er mit Mickey Mouse zu Mittag isst.
     childname: Simon
     tagline: Simon möchte ins Disneyland
     makeAWishProjectId: 7
-  - descripion: Mein Herzenswunsch ist ein Urlaub mit meiner Familie in Kroatien und
-      endlich im Meer schwimmen zu gehen.
+  - descripion: Der 9-jährige Luca leidet an Leukämie. Sein Herzenswunsch ist ein
+      Urlaub mit seiner Familie in Kroatien, wo er endlich im Meer schwimmen
+      gehen will.
     childname: Luca
     tagline: Luca möchte mit seiner Familie ans Meer
     makeAWishProjectId: 8
-  - descripion: Ich möchte im Disneyland all die lustigen Disneyfiguren kennenlernen.
+  - descripion: Die 6-jährige Hanna hat einen bösartigen Tumor. Ein Besuch im
+      Disneyland mit allen lustigen Disneyfiguren ist ihr Herzenswunsch.
     childname: Hanna
     tagline: Hanna möchte ins Disneyland
     makeAWishProjectId: 9
