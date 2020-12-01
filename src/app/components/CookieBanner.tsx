@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Cookies from 'universal-cookie'
 import { styled } from '../../styles/Theme'
 const cookies = new Cookies()
-const gaDisableCookieName = `ga-disable-${process.env.GA_ID}`
+const gaDisableCookieName = `ga-disable-G-2LB5JE6MLN`
 
 const CookieWrapper = styled.div`
 	color: white;
@@ -74,12 +74,12 @@ const CookieBanner: React.FunctionComponent = () => {
 	const [isMounted, setIsMounted] = useState(false)
 	const disable = useCallback(() => {
 		setGaDisabled(true)
-		cookies.set(gaDisableCookieName, true)
+		cookies.set(gaDisableCookieName, true, { path: '/', maxAge: 2147483647 })
 	}, [])
 
 	const enable = useCallback(() => {
 		setGaDisabled(false)
-		cookies.set(gaDisableCookieName, false)
+		cookies.set(gaDisableCookieName, false, { path: '/', maxAge: 2147483647 })
 	}, [])
 
 	useEffect(() => {
