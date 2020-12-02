@@ -129,6 +129,12 @@ upcoming:
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
+  - date: 2020-12-03T19:00:16.557Z
+    streamerName: Sintica
+    streamerChannel: sintica
+    streamLink: https://www.twitch.tv/sintica
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "14"
 makeAWishProjects:
   - descripion: "Die 14-jährige Lilli leidet an Leukämie. Ihr Herzenswunsch ist es,
       einmal das Disneyland zu besuchen und dort Donald Duck zu treffen.  "
