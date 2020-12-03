@@ -212,7 +212,12 @@ makeAWishProjects:
     childname: Lukas
     tagline: Lukas wünscht sich sehnlichst ein Motorrad
     makeAWishProjectId: 13
-  - descripion: "Mein Herzenswunsch: ein DJ Equipment"
+  - descripion: Lena leidet an einem bösartigen Tumor. Das hindert sie aber nicht
+      daran ihrer Leidenschaft, der Musik, nachzugehen. Sie spielt Gitarre und
+      Klavier und singt im Chor.  Der Stiefvater der 18-jährigen ist Hobby-DJ
+      und nimmt Lena immer wieder mal zu seinen Auftritten mit. Nicht
+      verwunderlich, dass das Mädchen Feuer gefangen hat und nun selbst auch ein
+      DJ-Equipment haben möchte, um ihr neues Hobby voll ausleben zu können.
     childname: Lena
     tagline: Equipment für DJ Lena
     makeAWishProjectId: 14
