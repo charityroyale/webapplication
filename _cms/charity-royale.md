@@ -135,6 +135,12 @@ upcoming:
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
+  - date: 2020-12-08T15:00:24.343Z
+    streamerName: CastCrafter
+    streamerChannel: https://www.twitch.tv/castcrafter
+    streamLink: castcrafter
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "15"
 makeAWishProjects:
   - descripion: "Die 14-jährige Lilli leidet an Leukämie. Ihr Herzenswunsch ist es,
       einmal das Disneyland zu besuchen und dort Donald Duck zu treffen.  "
