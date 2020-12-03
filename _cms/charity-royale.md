@@ -53,8 +53,8 @@ upcoming:
     makeAWishProjectId: "12"
   - date: 2020-12-08T15:00:24.343Z
     streamerName: CastCrafter
-    streamerChannel: https://www.twitch.tv/castcrafter
-    streamLink: castcrafter
+    streamerChannel: castcrafter
+    streamLink: https://www.twitch.tv/castcrafter
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "15"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
