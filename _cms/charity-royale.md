@@ -142,28 +142,45 @@ upcoming:
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
 makeAWishProjects:
-  - descripion: "Die 14-jährige Lilli leidet an Leukämie. Ihr Herzenswunsch ist es,
-      einmal das Disneyland zu besuchen und dort Donald Duck zu treffen.  "
+  - descripion: "Lilly wusste sofort, was sie sich wünscht: einen Besuch im
+      Disneyland um Donald und die Minnie Mouse zu besuchen. Das 13jährige
+      Mädchen ist sehr abenteuerlustig. So überrascht auch nicht, dass sie bei
+      ihrem Wunsch angeführt hat, dass sie alle Attraktionen im Disneyland
+      erleben möchte. Um es mit ihren Worten zu sagen „Je wilder, desto lieber!“
+       Lillys liebstes Hobby ist Reiten.  Sie ist aber auch eine begeisterte
+      Gamerin – Monster High ist ihr Lieblingsspiel. Die aktionsgeladene junge
+      Dame steht auf Cupcakes und bunte (natürlich alkoholfreie) Cocktails."
     childname: Lilli
     tagline: Lilli möchte ins Disneyland
     makeAWishProjectId: 1
-  - descripion: Der 12-jährige Eren leidet an Knochenkrebs. Er möchte mit seiner
-      Familie schöne Tage in Istanbul verbringen und dort gemeinsam Kraft
-      tanken.
+  - descripion: "Eren hat viel Zeit im Krankenhaus verbracht. Jetzt wo es ihm besser
+      geht, wünscht er sich mit seiner Familie Urlaub zu machen in der Heimat
+      seiner Eltern. Er war noch nie in Istanbul und deshalb möchte der an
+      Knochenkrebst erkrankte Junge gerne alle Sehenswürdigkeiten der Metropole
+      erleben. Besonders freut er sich auf die Märkte und deren Gerüche. Der
+      anfangs sehr schüchterne 12-jährige, liebt Pizza und Fußball. Wenn möglich
+      würde er – so sich die Chance ergibt - auch gerne bei einem Match seines
+      Lieblingsclubs Galatasaray live dabei sein. "
     childname: Eren
     tagline: Eren möchte nach Istanbul mit seiner Familie
     makeAWishProjectId: 2
-  - descripion: Die 14-jährige Valentina hat einen Gehirntumor. Sie wünscht sich
-      nichts sehnlicher, als im Salzburger Zoo Backstage dabei sein zu dürfen,
-      um ihre Lieblingstiere - Giraffen und Pandas - hautnah füttern und pflegen
-      zu können.
+  - descripion: "Valentina wünschte sich einen Tag im Zoo zu verbringen und dabei
+      auch „hinter die Kulissen“ zu schauen. Die 14-jährige, die an einem
+      Gehirntumor leidet, liebt Tiere über alles. Deshalb soll es kein
+      gewöhnlicher Zoo-Besuch sein, sondern sie möchte die Tierpfleger bei ihrer
+      Arbeit begleiten: die Tier füttern, Neues erfahren und ganz nahe an die
+      Tiere herankommen (vielleicht sogar manche von ihnen angreifen – Schlangen
+      nicht! Das hat sie gleich mal klargestellt ;-) )  Das begeisterungsfähige
+      Mädchen hat auch einen sehr wilden Hund, der die Familie auf Trab hält."
     childname: Valentina
     tagline: Valentina möchte Backstage in den Zoo
     makeAWishProjectId: 3
-  - descripion: Der absolute Herzenswunsch von Loreen (18, bösartiger Tumor) ist
-      eine Rundreise durch Norwegen, Island und Amsterdam. Das Anne Frank-Haus
-      und eine Grachtenrundfahrt in Amsterdam, die Blue Lagoon in Island und
-      nicht zuletzt eine Fjordfahrt möchte sie unbedingt erleben.
+  - descripion: Loreen hat in der Schule viel über verschiedene Länder gelernt. Die
+      wissbegierige 18-jährige, die an einem bösartigen Tumor leidet,
+      interessiert sich besonders für Geografie und Geschichte. Die
+      Fjordlandschaft in Norwegen und die Grachten sowie das Anne Frank Haus in
+      Amsterdam begeistern sie ganz besonders und diese möchte sie auch
+      unbedingt auf ihrer Rundreise durch Skandinavien besuchen.
     childname: Loreen
     tagline: Loreen möchte weit hinaus
     makeAWishProjectId: 4
@@ -173,13 +190,24 @@ makeAWishProjects:
     childname: Abdalla
     tagline: Ein neues Jugendzimmer für Abdalla
     makeAWishProjectId: 5
-  - descripion: Der 16-jährige Jonas mit Lymphdrüsenkrebs möchte ein Mal nach New
-      York und so viele Sehenswürdigkeiten wie möglich sehen.
+  - descripion: "Jonas wünscht sich seit der Volksschule, wo er das erste Mal von
+      New York gehört hat eine Reise in die Metropole. Ganz wichtig dabei: Er
+      möchte so viele Sehenswürdigkeiten wie möglich sehen. Keinesfalls
+      auslassen möchte er den Central Park, die Freiheitsstatue und den
+      Stadtteil Manhattan. Auch die Zimmerdekoration des an Lymphdrüsenkrebs
+      erkrankten Teenagers lässt schon auf seine Liebe zum Big Apple schließen:
+      Bilder von der Stadt, die niemals schläft und Stars and Stripes Flaggen
+      zieren die Wände. "
     childname: Jonas
     tagline: Jonas war noch niemals in New York
     makeAWishProjectId: 6
-  - descripion: Simon (11) leidet an Muskelschwund. Sein Herzenswunsch ist ein
-      Besuch im Disneyland, bei dem er mit Mickey Mouse zu Mittag isst.
+  - descripion: "Simon ist 11 Jahre alt und leidet an Muskelschwund. Der kleine
+      Wirbelwind lässt sich aber von seiner Erkrankung keineswegs einschränken.
+      Ganz im Gegenteil: Er ist ein ausgesprochen aktives, extrovertiertes Kind,
+      das seinen Herzenswunsch sofort benennen kann: Eine Reise ins Disneyland
+      Paris und insbesondere ein Treffen mit Mickey Mouse. Als er erzählt, was
+      er alles erleben möchten, glitzern seine Augen voll Vorfreude auf das
+      kommende Erlebnis. "
     childname: Simon
     tagline: Simon möchte ins Disneyland
     makeAWishProjectId: 7
@@ -189,22 +217,51 @@ makeAWishProjects:
     childname: Luca
     tagline: Luca möchte mit seiner Familie ans Meer
     makeAWishProjectId: 8
-  - descripion: Die 6-jährige Hanna hat einen bösartigen Tumor. Ein Besuch im
-      Disneyland mit allen lustigen Disneyfiguren ist ihr Herzenswunsch.
+  - descripion: "Hanna ist bereits mit 2 Jahren an einem Tumor erkrankt, der ihr
+      Leben für lange Zeit sehr eingeschränkt hat. Nichts desto trotz ist sie
+      ein lebenslustiges Mädchen, dessen Augen funkeln, wenn sie von Micky,
+      Minnie, den Disney Prinzessinnen und natürlich der Eiskönigin Elsa
+      spricht. Wo sonst als im Disneyland Paris kann sie all diese Charaktere
+      treffen? Der Herzenswunsch war also gleich mal klar: Eine Reise zu Mickey
+      und Co! Außerdem möchte sie mit all den Attraktionen fahren, denn auch
+      wenn die 6-jährige anfangs recht schüchtern wirkt, ist sie doch ein
+      richtiger Wirbelwind!  Es heißt nicht umsonst, dass Vorfreude die schönste
+      Freude ist – bei Hanna kann man das wirklich spüren!"
     childname: Hanna
     tagline: Hanna möchte ins Disneyland
     makeAWishProjectId: 9
-  - descripion: Besuch einer Farbik für Kinderspielanlagen und beim Bau einer
-      solchen Anlage dabei zu sein
+  - descripion: "Karl ist ein geschickter und bescheidener Junge, der sich sehr für
+      handwerkliche Dinge interessiert. Deshalb hat er auch seine eigene kleine
+      Werkstatt neben der von seinem Papa daheim. Der 13-jährige, der an
+      epileptischer Aphasie leidet, baut jeden Tag irgendetwas für sich selbst.
+      Jetzt ist es Zeit für etwas Größeres gekommen!  Sein Wunsch steht deshalb
+      fest: Er möchte unbedingt bei einem Aufbau eines Turmes auf einem
+      Kinderspielplatz dabei sein und dabei selbst Hand anlegen. In Zukunft will
+      er nämlich in einer selbstgebauten Burg mit seiner kleinen Nachbarin
+      wohnen und gleichzeitig Feuerwehrmann und Weinbauer sein."
     childname: Karl
     tagline: Karl möchte eine Kinderspielanlage bauen
     makeAWishProjectId: 10
-  - descripion: Ich möchte mit allem was möglich ist im Disneyland fahren und alle
-      Attraktionen sehen.
+  - descripion: "Der 8-jährige Jonas schickte uns ein Video, in dem er eine Minnie
+      Mouse Maske trug. Somit war sein Wunsch eigentlich schon klar, bevor er
+      ihn überhaupt ausgesprochen hat: Er möchte gerne mit seiner Mama und
+      seinen Schwestern ins Disneyland fahren, um endlich Mickey Mouse
+      persönlich zu treffen und die Cars aus dem gleichnamigen Film live zu
+      erleben. Außerdem will er Pinocchio, die Dalmatiner und die Charaktere aus
+      dem Dschungelbuch treffen. Und nicht zu vergessen: In der Nacht beim
+      Feuerwerk dabei sein! Der süße Bub leidet an einem Herzfehler, der ihn
+      immer wieder ins Krankenhaus bringt. Trotzdem schwimmt Jonas für sein
+      Leben gerne und er hat auch noch ein ganz besonderes Hobby: er schnitzt
+      gerne Krampus Masken. "
     childname: Jonas
     tagline: Alles was fährt für Jonas im Disneyland
     makeAWishProjectId: 11
-  - descripion: "Mein Herzenswunsch seit Kindertagen: mit einem Schreitbagger zu fahren."
+  - descripion: "Seit frühester Kindheit liebt Dominik Baustellenfahrzeuge und
+      Baustellen. So stand der Herzenswunsch des 18-jährigen, der eine
+      Herztransplantation benötigte, sehr rasch fest: Er wollte mit einem
+      Schreitbagger arbeiten, da dieses Baustellenfahrzeug in Österreich kaum zu
+      finden ist. Der technikbegeisterte Teenager möchte dabei selbst etwas
+      umgraben und herausfinden, wie das Gerät funktioniert. "
     childname: Dominik
     tagline: Ein Schreitbagger für Dominik
     makeAWishProjectId: 12
@@ -221,40 +278,72 @@ makeAWishProjects:
     childname: Lena
     tagline: Equipment für DJ Lena
     makeAWishProjectId: 14
-  - descripion: Ich möchte im Heidpark mit ganz vielen Attraktionen fahren und in
-      einem dieser tollen Themen-Zimmer übernachten.
+  - descripion: "Der Superhelden-Fan Philipp hat es nicht so mit Besichtigungen von
+      Sehenswürdigkeiten Deshalb möchte unbedingt in den Heidepark fahren um
+      möglichst viel erleben und mit so vielen Attraktionen wie möglich fahren.
+      Kurz gesagt: Er ist eher der Action-Typ. ;-) Nachdem sich der an Leukämie
+      erkrankte Bub ein bisschen auf der Heidepark-Website schlau gemacht hat,
+      war auch klar, in welchem Zimmer er gerne übernachten möchte: Es soll das
+      coole „Dschungel-Zimmer“ sein. Philipp übt täglich seine Qigong Abfolgen,
+      die ihm helfen, besser mit seiner Krankheit umzugehen. Aber, wenn man ihn
+      nach seinen Hobbies fragt, geht es wieder weniger beschaulich zu: Der
+      10-jährige ist ein großer Musikfan und möchte auch bald mal Skifahren
+      lernen. Er liebt Eis, „aber ich mag nichts Weißes essen“ – somit ist es
+      eher das Schoko-Eis, das ihn anlacht. Seine Lieblingsspeise ist Schnitzel
+      mit Knödel und Sauce…"
     childname: Philipp
     tagline: Philipp möchte den Heidpark besuchen
     makeAWishProjectId: 15
-  - descripion: Ich bin ein großer Super Mario Fan und wünsch mir deshalb sehnlich
-      eine Nintendo Switch Console Super Mario Odyssey Edition und ein dazu
-      passendes Spiel
+  - descripion: Der Super Mario Fan Dominic wünscht sich – wie kann es anders sein –
+      eine Nintendo-Switch-Konsole - Super Mario Odyssey Edition und das dazu
+      passende Spiel. Aufgrund seiner Erkrankung muss Mario öfter als andere
+      Kinder daheimbleiben und so sind Computer-Spiele natürlich eine gelungene
+      Abwechslung für ihn. Die kann er mit seinen Geschwistern spielen und dann
+      haben sie gemeinsam jede Menge Spaß!
     childname: Dominic
     tagline: It's-a Me, Mario! eeh Dominic!
     makeAWishProjectId: 16
-  - descripion: Ich wünsch mir einen Laptop, damit ich mit meinen Freunden spielen
-      kann - auch wenn ich im Krankenhaus bin.
+  - descripion: "Filip hat nicht lange über seinen Herzenswunsch nachdenken müssen –
+      er wusste sofort was er möchte! Der herzliche 10-jährige, der
+      unwahrscheinlich positiv rüberkommt, wünscht sich einen eigenen Laptop,
+      damit er darauf seine Lieblings-Games mit seinen Freunden spielen kann.
+      Der Laptop ist dem an Leukämie erkrankten Kind besonders wichtig, da er zu
+      Beginn seiner Krankheit viele Spitalsaufenthalte hatte und er sich sehr
+      isoliert fühlt.  Ein Laptop ist einfach perfekt, um sich ein wenig die
+      Zeit zu vertreiben und auch wieder mit seinen Schulfreunden online zu
+      spielen. Ein Zitat von Filip: „Wenn ich mir eine Superkraft aussuchen
+      könnte, würde ich gerne bakterienresistent werden und alle kranken
+      Menschen gesund machen!“"
     childname: Filip
     tagline: Ein Laptop für Filip um mit seinen Freunden in Kontakt zu bleiben
     makeAWishProjectId: 17
-  - descripion: Mein Herzenswunsch ist eine X-Box mit Spielen, mit der ich spielen
-      kann, wenn ich allein zuhause bin.
+  - descripion: "Mert ist ein 12-jähriger schüchterner Junge, der wegen seiner
+      Krankheit (Cystische Fibrose), nicht oft außer Haus gehen darf. Umso
+      wichtiger ist es für ihn, virtuell mit seinen Freunden spielen zu können:
+      Sein Herzenswunsch ist deshalb eine X-Box und ein dazu passendes Spiel. "
     childname: Mert
     tagline: Eine X-Box für Mert
     makeAWishProjectId: 18
-  - descripion: Ich wünsch mir ein Tablet mit dem ich Spiele spielen kann, wenn ich
-      im Krankenhaus bin
+  - descripion: Zeynep ist ein ruhiges Mädchen, das durch ihre Krankheit viel Zeit
+      im Krankenhaus verbringen muss. Damit die Zeit dort ein bisschen rascher
+      vergeht, wünscht sich die 6-jährige ein Tablett, auf dem sie spielen und
+      vielleicht auch mal „Liselotte die Kuh“ ansehen kann.
     childname: Zeynep
     tagline: Ein Tablet zum Spiele spielen für Zeynep
     makeAWishProjectId: 19
-  - descripion: Ich wünsche mir ein Handy, mit dem ich Fotos meiner Eltern machen
-      kann, um diese meinen beiden großen Schwestern, die in Georgien wohnen, zu
-      schicken.
+  - descripion: "Irakli kommt aus Georgien und ist ein sehr bescheidener junger
+      Mann. Sein großer Herzenswunsch ist ein Handy, mit dem der an einem
+      Gehirntumor erkrankte 12-jährige Fotos von sich und seiner Familie machen
+      und seinen Schwestern in der Heimat schicken kann. "
     childname: Irakli
     tagline: Ein Handy um Fotos zu machen.
     makeAWishProjectId: 20
-  - descripion: Ein Go-Kart ist mein großer Wunsch, eines, das richtig schnell geht,
-      wünsch ich mir.
+  - descripion: "Gleich bei seiner ersten Fahrt mit einem richtigen Renn-Go-Kart
+      stand es für Abu fest: Der 18-jährige, der an Epilepsie leidet, möchte so
+      ein Teil selbst besitzen und jederzeit damit fahren können. Das Strahlen
+      in den Augen des Jungen, als er von seinem Wunsch erzählt, macht klar: DAS
+      ist sein Herzenswunsch. Zu definieren waren nur mehr Farbe, Anzahl und Art
+      der Aufkleber. "
     childname: Abu
     tagline: Ein Go-Kart für Abu
     makeAWishProjectId: 21
@@ -267,9 +356,12 @@ makeAWishProjects:
     childname: Simon
     tagline: Simon möchte ins Legoland fahren
     makeAWishProjectId: 23
-  - descripion: Ich möchte unbedingt ganz neue Erfahrungen machen, völlig neue Dinge
-      sehen. Ich liebe alles, was aus Amerika kommt und deshalb ist es mein
-      größter Wunsch New York zu besuchen
+  - descripion: Für die 18-jährige Theresa ist New York die schönste Stadt der Welt.
+      Naheliegend, dass es ihr Herzenswunsch ist, diese Metropole zu besuchen,
+      denn sie liebt alles, was aus Amerika kommt. Da die an Lymphdrüsenkrebs
+      Erkrankte auch Silvester über alles liebt, möchte sie das Ende des Jahres
+      und Neujahr im Big Apple verbringen und „im Lichtermeer alle Sorgen
+      vergessen“.
     childname: Theresa
     tagline: Theresa möchte Amerika in New York erleben
     makeAWishProjectId: 24
