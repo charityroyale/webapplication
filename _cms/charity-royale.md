@@ -15,14 +15,8 @@ upcoming:
     streamLink: https://www.twitch.tv/colleesi
     makeAWishProjectId: "3"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-03T16:00:00.000Z
-    streamerChannel: stegi
-    streamerName: Stegi
-    streamLink: https://www.twitch.tv/Stegi
-    makeAWishProjectId: "14"
   - date: 2020-12-03T16:00:16.557Z
-    streamerName: Sintica
+    streamerName: Sintica & Stegi
     streamerChannel: sintica
     streamLink: https://www.twitch.tv/sintica
     imgUrl: /uploads/charity_royale_rgb_300x300.png
