@@ -422,11 +422,20 @@ faq:
 
         Spender bekommen in der Dankes-Email von Make-A-Wish genaue Informationen zur Absetzbarkeit und derer Abwicklung zugeschickt. Folgt diesen Informationen, um eure Spende von der Steuer absetzen zu können.
     - question: Kann ich sicher sein, dass meine Spenden auch wirklich ankommen?
-      answer: Ja, die Make-A-Wish Foundation Österreich ist mit dem [Österreichischen
-        Spenden-Gütesiegel](https://www.osgs.at/) ausgezeichnet. Die
-        Spenden-Formulare auf charityroyale.at sind direkte Einbindungen der
-        Spendenformulare von Make-A-Wish und werden nicht über Drittanbieter
-        gesammelt.
+      answer: >-
+        Ja, die Make-A-Wish Foundation Österreich ist mit dem [Österreichischen
+        Spenden-Gütesiegel](https://www.osgs.at/) ausgezeichnet, das ein
+        wichtiges Qualitätsmerkmal darstellt und mit strengen Prüfrichtlinien
+        verbunden ist. Alle Finanzen werden jährlich transparent im
+        [Jahresbericht von
+        Make-A-Wish](https://www.make-a-wish.at/ueber-make-a-wish/taetigkeitsberichte/)
+        offengelegt. 
+
+
+        Make-A-Wish arbeitet größtenteils mit ehrenamtlichen Mitgliedern. In Österreich sind das 126 Freiwillige, sowie 4 Teilzeitkräfte.
+
+
+        Die Spenden-Formulare auf charityroyale.at sind direkte Einbindungen der Spendenformulare von Make-A-Wish und werden nicht über Drittanbieter gesammelt.
     - question: Wo wird meine Spendennachricht angezeigt?
       answer: Deine Spendennachricht wird als Alert im jeweiligen Live-Stream
         automatisch angezeigt.
