@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react'
-import { styled } from '../../styles/Theme'
-import { formatMoneyWithSign } from '../utils/formatUtils'
+import { styled } from '../../../styles/Theme'
+import { formatMoneyWithSign } from '../../utils/formatUtils'
 
 const DonationListRow = styled.div`
 	padding: ${(p) => p.theme.space.s}px 0;

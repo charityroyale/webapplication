@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { styled } from '../../styles/Theme'
-import { getPercentage } from '../utils/commonUtils'
 import { GiChickenOven } from 'react-icons/gi'
-import { formatMoneyWithSign } from '../utils/formatUtils'
+import { styled } from '../../../styles/Theme'
+import { getPercentage } from '../../utils/commonUtils'
+import { formatMoneyWithSign } from '../../utils/formatUtils'
 
 const GoalReachedTitle = styled.p`
 	text-align: center;
