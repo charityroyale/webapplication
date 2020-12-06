@@ -42,12 +42,15 @@ export const MainGrid = styled.div`
 	}
 `
 
-export interface LayoutProps {
+interface DonationLayoutProps {
 	children: React.ReactNode
 	featuredStream: string
 }
 
-const DonationLayout: React.FunctionComponent<LayoutProps> = ({ children, featuredStream }: LayoutProps) => {
+const DonationLayout: React.FunctionComponent<DonationLayoutProps> = ({
+	children,
+	featuredStream,
+}: DonationLayoutProps) => {
 	return (
 		<StyledLayout>
 			<CookieBanner />

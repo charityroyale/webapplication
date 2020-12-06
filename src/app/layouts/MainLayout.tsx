@@ -5,12 +5,12 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Main from '../components/Main'
 
-type LayoutProps = {
+interface MainLayoutProps {
 	children: React.ReactNode
 	featuredStream: string
 }
 
-const MainLayout: React.FunctionComponent<LayoutProps> = ({ children, featuredStream }: LayoutProps) => {
+const MainLayout: React.FunctionComponent<MainLayoutProps> = ({ children, featuredStream }: MainLayoutProps) => {
 	return (
 		<StyledLayout>
 			<CookieBanner />
