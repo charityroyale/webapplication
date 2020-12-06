@@ -5,7 +5,7 @@ import useIsomorphicLayoutEffect from '../hooks/useIsophormicLayoutEffect'
 import { getFeaturedStreamSize } from '../utils/commonUtils'
 import { useIsSSR } from '../hooks/useIsSSR'
 
-export interface FeaturedStreamProps {
+interface FeaturedStreamProps {
 	channel: string
 }
 

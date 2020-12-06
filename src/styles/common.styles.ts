@@ -65,19 +65,6 @@ export const StyledHeader = styled.header`
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 `
 
-export const StyledMain = styled.main`
-	grid-area: main;
-	display: grid;
-	grid-template-rows: auto auto auto auto auto auto;
-	grid-template-areas: 'featured' 'faq-box' 'featured-header' 'upcoming' 'past-header' 'past';
-
-	padding-top: 20px;
-
-	${(p) => p.theme.media.phone} {
-		padding-top: 0;
-	}
-`
-
 export const StyledFeatured = styled.div`
 	position: relative;
 	grid-area: featured;

@@ -112,16 +112,14 @@ const DonationButton: React.FunctionComponent<DonationButtonProps> = ({
 	)
 }
 
-const Header: React.FunctionComponent<{ featuredStream: string; showDonationButton?: boolean }> = ({
-	featuredStream,
-	showDonationButton = true,
-}: {
-	showDonationButton?: boolean
+interface HeaderProps {
 	featuredStream: string
-}) => {
+	showDonationButton?: boolean
+}
+
+const Header: React.FunctionComponent<HeaderProps> = ({ featuredStream, showDonationButton = true }: HeaderProps) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
-
 	const makeAWish = useMakeAWish()
 
 	const onImageLoad = useCallback(() => {

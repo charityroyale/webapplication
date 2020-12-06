@@ -26,7 +26,7 @@ const StyledDonationHeaderDescriptionPrefix = styled.p`
 	margin-bottom: 2px;
 `
 
-export const StyledDonationHeader = styled.div`
+const StyledDonationHeader = styled.div`
 	grid-area: donation-header;
 	display: grid;
 	justify-content: space-between;

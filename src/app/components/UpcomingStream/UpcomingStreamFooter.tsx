@@ -64,7 +64,7 @@ const StreamerIconWrapper = styled.div`
 	margin-right: ${(p) => p.theme.space.s}px;
 `
 
-export const UpcomingStreamIcon = styled.img`
+const UpcomingStreamIcon = styled.img`
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
