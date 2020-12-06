@@ -52,7 +52,7 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 						<a target="_bank" rel="noreferrer" href={'https://www.make-a-wish.at/'}>
 							Make-A-Wish
 						</a>{' '}
-						Projekte gespendet.
+						Herzenswünsche gespendet.
 					</GoalReachedText>
 				</div>
 			)}
