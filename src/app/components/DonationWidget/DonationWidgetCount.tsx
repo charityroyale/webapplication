@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { styled } from '../../styles/Theme'
-import { getPercentage } from '../utils/commonUtils'
 import { GiChickenOven } from 'react-icons/gi'
-import { formatMoneyWithSign } from '../utils/formatUtils'
-
-interface DonationWidgetCountProps {
-	current_amount: string
-	donation_goal_amount: string
-}
+import { styled } from '../../../styles/Theme'
+import { getPercentage } from '../../utils/commonUtils'
+import { formatMoneyWithSign } from '../../utils/formatUtils'
 
 const GoalReachedTitle = styled.p`
 	text-align: center;
@@ -25,7 +20,10 @@ const GoalReachCount = styled.span`
 	color: #50c878;
 `
 
-const MakeAWishLink = styled.a``
+interface DonationWidgetCountProps {
+	current_amount: string
+	donation_goal_amount: string
+}
 
 const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = ({
 	current_amount,
@@ -51,10 +49,10 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 					<GoalReachedTitle>Winner Winner Chicken Dinner, Spendenziel erreicht!</GoalReachedTitle>
 					<GoalReachedText>
 						Die Spendendifferenz von <GoalReachCount>{formatMoneyWithSign(absDiff)}</GoalReachCount> wird an unerfüllte{' '}
-						<MakeAWishLink target="_bank" rel="noreferrer" href={'https://www.make-a-wish.at/'}>
+						<a target="_bank" rel="noreferrer" href={'https://www.make-a-wish.at/'}>
 							Make-A-Wish
-						</MakeAWishLink>{' '}
-						Projekte gespendet.
+						</a>{' '}
+						Herzenswünsche gespendet.
 					</GoalReachedText>
 				</div>
 			)}

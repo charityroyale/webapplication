@@ -3,12 +3,6 @@ import { getPercentage } from '../utils/commonUtils'
 import { styled } from '../../styles/Theme'
 import { formatMoneyWithSign } from '../utils/formatUtils'
 
-interface DonationHeaderCountProps {
-	donation_goal: number
-	current_donation_count: number
-	donations_count: number
-}
-
 const DonationCountWrapper = styled.div`
 	display: flex;
 	justify-content: center;
@@ -45,7 +39,6 @@ const DonationCountCol = styled.div`
 		margin-bottom: ${(p) => p.theme.space.m}px;
 	}
 `
-
 interface DonationCountBoxProps {
 	title: string
 	text: string
@@ -61,6 +54,12 @@ export const DonationCountBox: React.FunctionComponent<DonationCountBoxProps> = 
 			<DonationUnit>{text}</DonationUnit>
 		</StyledDonationCountBox>
 	)
+}
+
+interface DonationHeaderCountProps {
+	donation_goal: number
+	current_donation_count: number
+	donations_count: number
 }
 
 const DonationHeaderCount: React.FunctionComponent<DonationHeaderCountProps> = ({

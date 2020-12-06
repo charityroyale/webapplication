@@ -6,7 +6,7 @@ import {
 	StyledHeaderRightItem,
 } from '../../styles/common.styles'
 import DonationHeaderCount from './DonationHeaderCount'
-import { useIsSSR } from './isSSR'
+import { useIsSSR } from '../hooks/useIsSSR'
 import Skeleton from 'react-loading-skeleton'
 import useMakeAWish from '../hooks/useMakeAWish'
 import ClientLink from './ClientLink'
@@ -112,16 +112,14 @@ const DonationButton: React.FunctionComponent<DonationButtonProps> = ({
 	)
 }
 
-const Header: React.FunctionComponent<{ featuredStream: string; showDonationButton?: boolean }> = ({
-	featuredStream,
-	showDonationButton = true,
-}: {
-	showDonationButton?: boolean
+interface HeaderProps {
 	featuredStream: string
-}) => {
+	showDonationButton?: boolean
+}
+
+const Header: React.FunctionComponent<HeaderProps> = ({ featuredStream, showDonationButton = true }: HeaderProps) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
-
 	const makeAWish = useMakeAWish()
 
 	const onImageLoad = useCallback(() => {

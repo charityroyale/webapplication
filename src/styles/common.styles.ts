@@ -65,19 +65,6 @@ export const StyledHeader = styled.header`
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 `
 
-export const StyledMain = styled.main`
-	grid-area: main;
-	display: grid;
-	grid-template-rows: auto auto auto auto auto auto;
-	grid-template-areas: 'featured' 'faq-box' 'featured-header' 'upcoming' 'past-header' 'past';
-
-	padding-top: 20px;
-
-	${(p) => p.theme.media.phone} {
-		padding-top: 0;
-	}
-`
-
 export const StyledFeatured = styled.div`
 	position: relative;
 	grid-area: featured;
@@ -220,41 +207,4 @@ export const StyledDonatorsWidget = styled.div`
 
 export const StyledLatestDonatorssWidget = styled.div`
 	grid-area: donation-widget-top-latest-donators;
-`
-
-export const StyledDonationMainGrid = styled.div`
-	display: grid;
-	grid-area: main;
-	margin: auto;
-	padding: 0 ${(p) => p.theme.space.xl}px;
-	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
-	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
-	grid-template-areas:
-		'donation-header donation-header donation-header'
-		'donation-form donation-form donation-widget-top-donation-sum'
-		'donation-form donation-form donation-widget-top-donators'
-		'donation-form donation-form donation-widget-top-latest-donators';
-
-	${(p) => p.theme.media.tablet} {
-		width: 100%;
-		grid-template-columns: 1fr 1fr;
-		padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
-		grid-template-areas:
-			'donation-header donation-header'
-			'donation-form donation-form'
-			'donation-widget-top-donation-sum donation-widget-top-donators'
-			'donation-widget-top-latest-donators donation-widget-top-latest-donators';
-	}
-
-	${(p) => p.theme.media.phone} {
-		width: 100%;
-		grid-template-columns: 1fr;
-		padding: 0 ${(p) => p.theme.space.xl}px;
-		grid-template-areas:
-			'donation-header'
-			'donation-form'
-			'donation-widget-top-donation-sum'
-			'donation-widget-top-donators'
-			'donation-widget-top-latest-donators';
-	}
 `

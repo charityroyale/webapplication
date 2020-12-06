@@ -34,13 +34,15 @@ export const GlobalStyle = createGlobalStyle`
 		border: none;
 	}
 
-	// cms
+	/**
+	*
+	* FAQ CMS related styles for WYSIWYG
+	*
+	*/
 	.faq-answer ul, ol {
 		margin-left: 24px;
-
 		li {
-		margin: 4px 0;
-
+			margin: 4px 0;
 		}
 	}
 `

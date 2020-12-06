@@ -1,16 +1,6 @@
 import React, { ReactElement } from 'react'
-import { styled } from '../../styles/Theme'
-import { formatMoneyWithSign } from '../utils/formatUtils'
-
-export interface List {
-	col_1: string | ReactElement
-	col_2: string
-	col_3: string
-}
-
-interface DonationWidgetListProps {
-	list: List[]
-}
+import { styled } from '../../../styles/Theme'
+import { formatMoneyWithSign } from '../../utils/formatUtils'
 
 const DonationListRow = styled.div`
 	padding: ${(p) => p.theme.space.s}px 0;
@@ -38,6 +28,16 @@ const DonationDonatorPlaceAndName = styled.div`
 	overflow: hidden;
 	text-overflow: ellipsis;
 `
+
+export interface List {
+	col_1: string | ReactElement
+	col_2: string
+	col_3: string
+}
+
+interface DonationWidgetListProps {
+	list: List[]
+}
 
 const DonationWidgetList: React.FunctionComponent<DonationWidgetListProps> = ({ list }: DonationWidgetListProps) => {
 	return (

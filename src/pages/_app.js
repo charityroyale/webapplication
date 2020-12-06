@@ -7,7 +7,7 @@ import 'nprogress/nprogress.css'
 import { GlobalStyle } from '../styles/global.styles'
 import { ThemeProvider } from 'styled-components'
 import { theme } from '../styles/Theme'
-import { useIsSSR } from '../app/components/isSSR'
+import { useIsSSR } from '../app/hooks/useIsSSR'
 import { isClientSideIE } from '../app/utils/commonUtils'
 import InternetExplorerNotSupported from '../app/components/InternetExplorerNotSupported'
 
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
 	const Layout = Component.layout ? Component.layout : React.Fragment
 	const isSSR = useIsSSR()
 	return (
-		<>
+		<React.Fragment>
 			<GlobalStyle />
 			<ThemeProvider theme={theme}>
 				{!isSSR && isClientSideIE() ? (
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
 					</Layout>
 				)}
 			</ThemeProvider>
-		</>
+		</React.Fragment>
 	)
 }
 

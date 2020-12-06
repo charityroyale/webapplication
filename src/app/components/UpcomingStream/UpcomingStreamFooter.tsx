@@ -3,7 +3,7 @@ import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import { styled } from '../../../styles/Theme'
 import ClientLink from '../ClientLink'
-import { useIsSSR } from '../isSSR'
+import { useIsSSR } from '../../hooks/useIsSSR'
 import { UpcomingStreamProps } from './UpcomingStream'
 import { RiTwitchFill } from 'react-icons/ri'
 import { formatDate } from '../../utils/formatUtils'
@@ -64,7 +64,7 @@ const StreamerIconWrapper = styled.div`
 	margin-right: ${(p) => p.theme.space.s}px;
 `
 
-export const UpcomingStreamIcon = styled.img`
+const UpcomingStreamIcon = styled.img`
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;

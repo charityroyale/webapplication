@@ -3,9 +3,9 @@ import Skeleton from 'react-loading-skeleton'
 import { StyledFeatured } from '../../styles/common.styles'
 import useIsomorphicLayoutEffect from '../hooks/useIsophormicLayoutEffect'
 import { getFeaturedStreamSize } from '../utils/commonUtils'
-import { useIsSSR } from './isSSR'
+import { useIsSSR } from '../hooks/useIsSSR'
 
-export interface FeaturedStreamProps {
+interface FeaturedStreamProps {
 	channel: string
 }
 

@@ -1,9 +1,5 @@
 import baseStyled, { ThemedStyledInterface } from 'styled-components'
-import { responsiveMaxSizeThreshold } from '../app/utils/commonUtils'
-
-// References to https://blog.agney.dev/styled-components-&-typescript/
-const customMediaQuery = (minWidth: number, maxWidth: number): string =>
-	`@media (min-width: ${minWidth}px) and (max-width: ${maxWidth}px)`
+import { customMediaQuery, responsiveMaxSizeThreshold } from '../app/utils/commonUtils'
 
 export const theme = {
 	color: {

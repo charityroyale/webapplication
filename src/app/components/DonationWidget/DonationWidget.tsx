@@ -1,10 +1,5 @@
 import React from 'react'
-import { styled } from '../../styles/Theme'
-
-interface DonationWidgetProps {
-	title: string
-	children: React.ReactNode
-}
+import { styled } from '../../../styles/Theme'
 
 const StyledWidgetHeader = styled.p`
 	text-align: center;
@@ -19,6 +14,11 @@ const StyledWidgetHeader = styled.p`
 const StyledWidgetContent = styled.div`
 	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
 `
+
+interface DonationWidgetProps {
+	title: string
+	children: React.ReactNode
+}
 
 const DonationWidget: React.FunctionComponent<DonationWidgetProps> = ({ title, children }: DonationWidgetProps) => {
 	return (
