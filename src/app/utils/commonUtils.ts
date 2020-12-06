@@ -100,3 +100,7 @@ export function isClientSideIE(): boolean {
 		return false
 	}
 }
+
+// References to https://blog.agney.dev/styled-components-&-typescript/
+export const customMediaQuery = (minWidth: number, maxWidth: number): string =>
+	`@media (min-width: ${minWidth}px) and (max-width: ${maxWidth}px)`
