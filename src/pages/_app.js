@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
 	const Layout = Component.layout ? Component.layout : React.Fragment
 	const isSSR = useIsSSR()
 	return (
-		<>
+		<React.Fragment>
 			<GlobalStyle />
 			<ThemeProvider theme={theme}>
 				{!isSSR && isClientSideIE() ? (
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
 					</Layout>
 				)}
 			</ThemeProvider>
-		</>
+		</React.Fragment>
 	)
 }
 
