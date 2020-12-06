@@ -11,7 +11,7 @@ const fontDisplayOptions = {
 	optional: 'optional',
 }
 
-const fontDisplay = fontDisplayOptions.block
+const fontDisplay = fontDisplayOptions.swap
 
 export default class MyDocument extends Document {
 	static async getInitialProps(ctx) {
