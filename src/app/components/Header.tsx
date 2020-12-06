@@ -6,7 +6,7 @@ import {
 	StyledHeaderRightItem,
 } from '../../styles/common.styles'
 import DonationHeaderCount from './DonationHeaderCount'
-import { useIsSSR } from './isSSR'
+import { useIsSSR } from '../hooks/useIsSSR'
 import Skeleton from 'react-loading-skeleton'
 import useMakeAWish from '../hooks/useMakeAWish'
 import ClientLink from './ClientLink'

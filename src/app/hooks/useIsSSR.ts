@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-export const useIsSSR = () => {
+export const useIsSSR = (): boolean => {
 	const [isSSR, setIsSSR] = useState(true)
 	useEffect(() => {
 		setIsSSR(false)
