@@ -1,5 +1,7 @@
-import React, { FunctionComponent } from 'react'
+import React, { FunctionComponent, useCallback, useState } from 'react'
+import Skeleton from 'react-loading-skeleton'
 import { styled } from '../../styles/Theme'
+import { useIsSSR } from '../hooks/useIsSSR'
 
 const VideoContainerWrapper = styled.div`
 	max-width: 100%;
@@ -13,6 +15,7 @@ const VideoContainer = styled.div`
 	overflow: hidden;
 	box-shadow: 4px 4px 3px 1px #000000;
 
+	.iframe-placeholder,
 	iframe,
 	embed,
 	object {
@@ -46,10 +49,28 @@ export const ResponsiveVideo: FunctionComponent<ResponsiveVideoProps> = ({
 	width = '100%',
 	height = '100%',
 }: ResponsiveVideoProps) => {
+	const isSSR = useIsSSR()
+	const [isIframedLoaded, setIsIframeLoaded] = useState(false)
+
+	const onIframeLoaded = useCallback(() => {
+		setIsIframeLoaded(true)
+	}, [])
+
 	return (
 		<VideoContainerWrapper style={{ width }}>
 			<VideoContainer>
-				<iframe title={title} src={url} width={width} height={height} frameBorder="0" allowFullScreen></iframe>
+				{!isIframedLoaded && <Skeleton className="iframe-placeholder" height={height} width={width} />}
+				{!isSSR && (
+					<iframe
+						title={title}
+						src={url}
+						width={width}
+						height={height}
+						frameBorder="0"
+						onLoad={onIframeLoaded}
+						allowFullScreen
+					></iframe>
+				)}
 			</VideoContainer>
 		</VideoContainerWrapper>
 	)
