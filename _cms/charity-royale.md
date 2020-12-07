@@ -292,7 +292,7 @@ makeAWishProjects:
       eher das Schoko-Eis, das ihn anlacht. Seine Lieblingsspeise ist Schnitzel
       mit Knödel und Sauce…"
     childname: Philipp
-    tagline: Philipp möchte den Heidpark besuchen
+    tagline: Philipp möchte den Heidepark besuchen
     makeAWishProjectId: 15
   - descripion: Der Super Mario Fan Dominic wünscht sich – wie kann es anders sein –
       eine Nintendo-Switch-Konsole - Super Mario Odyssey Edition und das dazu
