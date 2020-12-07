@@ -135,6 +135,12 @@ upcoming:
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
+  - date: 2020-12-06T18:00:17.067Z
+    streamLink: https://www.twitch.tv/zander
+    streamerName: Zander
+    streamerChannel: zander
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "12"
 makeAWishProjects:
   - descripion: "Lilly wusste sofort, was sie sich wünscht: einen Besuch im
       Disneyland um Donald und die Minnie Mouse zu besuchen. Das 13jährige
