@@ -139,6 +139,7 @@ upcoming:
     streamLink: https://www.twitch.tv/zander
     streamerName: Zander
     streamerChannel: zander
+    customLink: "zander-dominik"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "12"
 makeAWishProjects:

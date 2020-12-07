@@ -4,6 +4,7 @@ export interface Upcoming {
 	streamerName: string
 	streamerChannel: string
 	streamLink: string
+	customLink?: string
 	imgUrl: string
 	date: string
 	makeAWishProjectId: string

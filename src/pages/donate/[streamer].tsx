@@ -338,7 +338,7 @@ export const getStaticProps: GetStaticProps<InitialDonationProps> = async ({ par
 	let currentStream: Upcoming
 	const streamer = params.streamer as string
 	for (const stream of cmsContent.upcoming) {
-		if (stream.streamerChannel === streamer) {
+		if (stream.customLink == streamer || stream.streamerChannel === streamer) {
 			currentStream = stream
 			break
 		}
@@ -351,7 +351,7 @@ export const getStaticProps: GetStaticProps<InitialDonationProps> = async ({ par
 export const getStaticPaths: GetStaticPaths = async () => {
 	const upcoming = cmsContent.upcoming
 	return {
-		paths: upcoming.map((u) => ({ params: { streamer: u.streamerChannel } })),
+		paths: upcoming.map((u) => ({ params: { streamer: u.customLink || u.streamerChannel } })),
 		fallback: false,
 	}
 }
