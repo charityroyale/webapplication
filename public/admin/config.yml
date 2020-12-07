@@ -16,6 +16,7 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
           - { label: 'Featured Stream', name: 'featuredStream', widget: 'string' }
+          - { label: 'Custom Donation Link', name: 'customDonationLink', required: false, widget: 'string' }
 
           - label: 'Upcoming Streams'
             name: 'upcoming'
@@ -25,6 +26,7 @@ collections:
               - { label: 'Streamer Name', name: 'streamerName', widget: 'string' }
               - { label: 'Streamer Channel (Twitch username in lower case)', name: 'streamerChannel', widget: 'string' }
               - { label: 'Stream Link', name: 'streamLink', widget: 'string' }
+              - { label: 'Custom donation link', name: 'customLink', required: false, widget: 'string' }
               - { label: 'Streamer Image', name: 'imgUrl', widget: 'image' }
               - { label: 'Stream Date', name: 'date', widget: 'datetime' }
               - label: Make-a-Wish project
