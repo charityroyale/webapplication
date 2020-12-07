@@ -320,9 +320,10 @@ makeAWishProjects:
   - descripion: "Mert ist ein 12-jähriger schüchterner Junge, der wegen seiner
       Krankheit (Cystische Fibrose), nicht oft außer Haus gehen darf. Umso
       wichtiger ist es für ihn, virtuell mit seinen Freunden spielen zu können:
-      Sein Herzenswunsch ist deshalb eine X-Box und ein dazu passendes Spiel. "
+      Sein Herzenswunsch ist deshalb eine Playstation und ein dazu passendes
+      Spiel. "
     childname: Mert
-    tagline: Eine X-Box für Mert
+    tagline: Eine Playstation für Mert
     makeAWishProjectId: 18
   - descripion: Zeynep ist ein ruhiges Mädchen, das durch ihre Krankheit viel Zeit
       im Krankenhaus verbringen muss. Damit die Zeit dort ein bisschen rascher
