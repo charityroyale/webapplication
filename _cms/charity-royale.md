@@ -44,7 +44,7 @@ upcoming:
     streamerChannel: zander
     streamerName: Zander
     streamLink: https://www.twitch.tv/zander
-    makeAWishProjectId: "12"
+    makeAWishProjectId: "26"
   - date: 2020-12-08T15:00:24.343Z
     streamerName: CastCrafter
     streamerChannel: castcrafter
@@ -365,6 +365,11 @@ makeAWishProjects:
     makeAWishProjectId: 25
     tagline: TEST Theresa möchte Amerika in New York erleben
     childname: Patrick
+  - makeAWishProjectId: "26"
+    childname: M.
+    tagline: Violetta live erleben!
+    descripion: Ich möchte ein Konzert von Martina Stössel (Violetta) live erleben
+      und ein Foto mit ihr machen
 faq:
   questions:
     - question: Was ist Charity Royale?
