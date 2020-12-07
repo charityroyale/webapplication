@@ -367,9 +367,16 @@ makeAWishProjects:
     childname: Patrick
   - makeAWishProjectId: "26"
     childname: M.
-    tagline: Violetta live erleben!
-    descripion: Ich möchte ein Konzert von Martina Stössel (Violetta) live erleben
-      und ein Foto mit ihr machen
+    tagline: Konzert Martina Stössel (Violetta)
+    descripion: Ms Herzenswunsch ist es, ein Konzert von „Tini Stoessl“ gemeinsam
+      mit ihrer Familie zu besuchen. Tini Stoessl- alias Violetta- ist eine
+      argentinische Schauspielering der Serie „Violetta“ und ist das Idol
+      unseres Wunschkinds und ihrer Schwester. Die beiden haben sich in der
+      langen Phase der Erkrankung (undifferenziertes Sarkom) von M. die Zeit mit
+      Violetta und ihren Erlebnissen im Fernsehen und dem Hören der Lieder, zu
+      denen sie getanzt haben, vertrieben.  „Sie ist so wunderschön und kann so
+      gut singen“ schwärmt die 10-jährige und stimmt gleich einen Song ihres
+      Stars an.
 faq:
   questions:
     - question: Was ist Charity Royale?
