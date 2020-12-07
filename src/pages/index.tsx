@@ -68,7 +68,7 @@ export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 	}
 
 	return {
-		props: { schedule, featuredStream },
+		props: { schedule, featuredStream, customDonationLink: cmsContent.customDonationLink || null },
 	}
 }
 ;(IndexPage as PageWithLayoutType).layout = MainLayout

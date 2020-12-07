@@ -4,6 +4,7 @@ export interface Upcoming {
 	streamerName: string
 	streamerChannel: string
 	streamLink: string
+	customLink?: string
 	imgUrl: string
 	date: string
 	makeAWishProjectId: string
@@ -32,6 +33,7 @@ export interface CmsContent {
 	date: string
 	thumbnail: string
 	featuredStream: string
+	customDonationLink?: string
 	upcoming: Array<Upcoming>
 	makeAWishProjects: Array<MakeAWishProject>
 	faq: {

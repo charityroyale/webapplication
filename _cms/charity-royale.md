@@ -2,6 +2,7 @@
 title: Charity Royale
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: zander
+customDonationLink: ""
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-01T16:00:00.000Z
@@ -139,6 +140,7 @@ upcoming:
     streamLink: https://www.twitch.tv/zander
     streamerName: Zander
     streamerChannel: zander
+    customLink: "zander-dominik"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "12"
 makeAWishProjects:

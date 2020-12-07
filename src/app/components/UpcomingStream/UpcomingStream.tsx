@@ -95,6 +95,7 @@ export interface UpcomingStreamProps {
 	streamerName: string
 	streamerChannel: string
 	streamLink: string
+	customLink?: string
 	makeAWishProjectId: string
 	makeAWish: MakeAWishProject
 	imgUrl: string
@@ -106,14 +107,14 @@ export interface UpcomingStreamProps {
 const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingStreamProps) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
-	const { streamerChannel, date, imgUrl, streamerName, projectDone, donationProgress } = props
+	const { streamerChannel, date, imgUrl, streamerName, projectDone, donationProgress, customLink } = props
 	const { ref, inView } = useInView({ triggerOnce: true })
 
 	const onImageLoad = useCallback(() => {
 		setIsImagedLoaded(true)
 	}, [])
 
-	const donateLinkHref = `/donate/${streamerChannel}`
+	const donateLinkHref = `/donate/${customLink || streamerChannel}`
 
 	return (
 		<StyledUpcomingStream ref={ref}>
