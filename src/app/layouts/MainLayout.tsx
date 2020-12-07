@@ -20,21 +20,16 @@ const MainGrid = styled.main`
 
 interface MainLayoutProps {
 	children: React.ReactNode
-	featuredStream: string
-	customDonationLink: string
+	featuredDonationLink: string
 }
 
-const MainLayout: React.FunctionComponent<MainLayoutProps> = ({
-	children,
-	featuredStream,
-	customDonationLink,
-}: MainLayoutProps) => {
+const MainLayout: React.FunctionComponent<MainLayoutProps> = ({ children, featuredDonationLink }: MainLayoutProps) => {
 	return (
 		<StyledLayout>
 			<CookieBanner />
-			<Header featuredStream={customDonationLink || featuredStream} />
+			<Header featuredStream={featuredDonationLink} />
 			<MainGrid>{children}</MainGrid>
-			<Footer featuredStream={customDonationLink || featuredStream} />
+			<Footer featuredStream={featuredDonationLink} />
 		</StyledLayout>
 	)
 }

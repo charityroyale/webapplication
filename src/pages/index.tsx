@@ -55,7 +55,6 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 
 export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 	const schedule = cmsContent.upcoming
-	const featuredStream = cmsContent.featuredStream
 	const twitchUsers = (await fetchTwitchUsersBySchedule(schedule)).data
 
 	const twitchUsersDict: { [userid: string]: TwitchUserDTO } = {}
@@ -68,7 +67,11 @@ export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 	}
 
 	return {
-		props: { schedule, featuredStream, customDonationLink: cmsContent.customDonationLink || null },
+		props: {
+			schedule,
+			featuredStream: cmsContent.featuredStream,
+			featuredDonationLink: cmsContent.customDonationLink || cmsContent.featuredStream,
+		},
 	}
 }
 ;(IndexPage as PageWithLayoutType).layout = MainLayout
