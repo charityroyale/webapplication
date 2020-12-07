@@ -356,21 +356,23 @@ makeAWishProjects:
     childname: Simon
     tagline: Simon möchte ins Legoland fahren
     makeAWishProjectId: 23
-  - descripion: Für die 18-jährige Theresa ist New York die schönste Stadt der Welt.
-      Naheliegend, dass es ihr Herzenswunsch ist, diese Metropole zu besuchen,
-      denn sie liebt alles, was aus Amerika kommt. Da die an Lymphdrüsenkrebs
-      Erkrankte auch Silvester über alles liebt, möchte sie das Ende des Jahres
-      und Neujahr im Big Apple verbringen und „im Lichtermeer alle Sorgen
-      vergessen“.
-    childname: Theresa
-    tagline: Theresa möchte Amerika in New York erleben
+  - descripion: Unser Wunschkind J. wünschte sich ein Lastenfahrrad, damit seine
+      Mama mit ihm auf den Spielplatz fahren kann. Seine Lieblingsfarbe ist rot.
+      Der 6-jährige, der sich aufgrund seiner Krankheit (Down Syndrom) nur in
+      Gebärdensprache verständen kann, ist ein aufgewecktes Kind.
+    childname: "J. "
+    tagline: Mit dem Lastenfahrrad auf den Spielplatz
     makeAWishProjectId: 24
-  - descripion: TEST Ich möchte unbedingt ganz neue Erfahrungen machen, völlig neue
-      Dinge sehen. Ich liebe alles, was aus Amerika kommt und deshalb ist es
-      mein größter Wunsch New York zu besuchen
+  - descripion: "Unser Wunschkind A. wünscht sich einen Standurlaub, in der Nähe
+      eines Waldes, weil ihr diese Kombination gesundheitlich guttun würde – sie
+      leidet an Cystischer Fibrose. „Ich möchte am Strand liegen und schwimmen“,
+      sagt sie um ihren Wunsch zu erklären. Die Bescheidenheit des Teenagers
+      wird klar, wenn man ihren Ersatzwunsch liest (=falls der erste Wunsch
+      nicht erfüllt werden kann): Dann wünscht sie sich mit der Familie Eis
+      essen zu gehen. "
     makeAWishProjectId: 25
-    tagline: TEST Theresa möchte Amerika in New York erleben
-    childname: Patrick
+    tagline: Strandurlaub mit Wald für A.
+    childname: "A. "
   - makeAWishProjectId: "26"
     childname: M.
     tagline: Konzert Martina Stössel (Violetta)
@@ -383,6 +385,16 @@ makeAWishProjects:
       getanzt haben, vertrieben.  „Sie ist so wunderschön und kann so gut
       singen“ schwärmt die 10-jährige und stimmt gleich einen Song ihres Stars
       an.
+  - makeAWishProjectId: "27"
+    descripion: "Unser Wunschkind A. wünscht sich einen Standurlaub, in der Nähe
+      eines Waldes, weil ihr diese Kombination gesundheitlich guttun würde – sie
+      leidet an Cystischer Fibrose. „Ich möchte am Strand liegen und schwimmen“,
+      sagt sie um ihren Wunsch zu erklären. Die Bescheidenheit des Teenagers
+      wird klar, wenn man ihren Ersatzwunsch liest (=falls der erste Wunsch
+      nicht erfüllt werden kann): Dann wünscht sie sich mit der Familie Eis
+      essen zu gehen. "
+    tagline: Als Prinzessin ins Disneyland
+    childname: E.
 faq:
   questions:
     - question: Was ist Charity Royale?
