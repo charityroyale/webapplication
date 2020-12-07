@@ -137,11 +137,13 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 	streamerChannel,
 	makeAWish,
 	imgUrl,
+	customLink,
 	date,
 }: UpcomingStreamProps) => {
 	const [iconLoaded, setIconLoaded] = useState(false)
 	const isSSR = useIsSSR()
 	const { ref, inView } = useInView({ triggerOnce: true })
+	const donateLinkHref = `/donate/${customLink || streamerChannel}`
 
 	const onIconImageLoad = useCallback(() => {
 		setIconLoaded(true)
@@ -168,13 +170,13 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 						<HeartWrapper>
 							<HiOutlineHeart size={20} />
 						</HeartWrapper>
-						<Link href={`donate/${streamerChannel}`}>
-							<span>
-								<DescriptionTextMobile>Wunsch</DescriptionTextMobile>
-								<DescriptionTextTabletDesktop>Herzenswunsch</DescriptionTextTabletDesktop>{' '}
-								<a href={`donate/${streamerChannel}`}>{makeAWish.childname}</a>
-							</span>
-						</Link>
+						<span>
+							<DescriptionTextMobile>Wunsch</DescriptionTextMobile>
+							<DescriptionTextTabletDesktop>Herzenswunsch</DescriptionTextTabletDesktop>{' '}
+							<Link href={donateLinkHref}>
+								<a href={donateLinkHref}>{makeAWish.childname}</a>
+							</Link>
+						</span>
 					</StyledDescriptionText>
 					<UpcomingStreamTwitchLink>
 						<RiTwitchFill size={20} style={{ marginRight: '4px' }} />
