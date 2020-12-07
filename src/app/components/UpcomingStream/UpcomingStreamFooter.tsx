@@ -192,8 +192,8 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 				</UpcomingStreamDescription>
 			</UpcomingStreamerFooterLeft>
 			<UpcomingStreamerFooterRight>
-				<Link href={`donate/${streamerChannel}`}>
-					<UpcomingStreamerDonationLink href={`donate/${streamerChannel}`}>SPENDEN</UpcomingStreamerDonationLink>
+				<Link href={donateLinkHref}>
+					<UpcomingStreamerDonationLink href={donateLinkHref}>SPENDEN</UpcomingStreamerDonationLink>
 				</Link>
 			</UpcomingStreamerFooterRight>
 		</StyledUpcomingStreamFooter>
