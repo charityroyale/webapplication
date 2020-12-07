@@ -141,6 +141,7 @@ upcoming:
     streamerChannel: zander
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "12"
+    customLink: zander-dominik
 makeAWishProjects:
   - descripion: "Lilly wusste sofort, was sie sich wünscht: einen Besuch im
       Disneyland um Donald und die Minnie Mouse zu besuchen. Das 13jährige
