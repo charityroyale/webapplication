@@ -128,13 +128,13 @@ upcoming:
     streamerChannel: veni
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "24"
+    makeAWishProjectId: "28"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-23T19:00:00.000Z
     streamerChannel: veni
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "24"
+    makeAWishProjectId: "28"
   - date: 2020-12-06T18:00:17.067Z
     streamLink: https://www.twitch.tv/zander
     streamerName: Zander
@@ -395,6 +395,15 @@ makeAWishProjects:
       essen zu gehen. "
     tagline: Als Prinzessin ins Disneyland
     childname: E.
+  - makeAWishProjectId: "28"
+    descripion: Für die 18-jährige Theresa ist New York die schönste Stadt der Welt.
+      Naheliegend, dass es ihr Herzenswunsch ist, diese Metropole zu besuchen,
+      denn sie liebt alles, was aus Amerika kommt. Da die an Lymphdrüsenkrebs
+      Erkrankte auch Silvester über alles liebt, möchte sie das Ende des Jahres
+      und Neujahr im Big Apple verbringen und „im Lichtermeer alle Sorgen
+      vergessen“.
+    tagline: Theresa will nach New York
+    childname: Theresa
 faq:
   questions:
     - question: Was ist Charity Royale?
