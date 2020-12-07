@@ -33,6 +33,7 @@ export interface CmsContent {
 	date: string
 	thumbnail: string
 	featuredStream: string
+	customDonationLink?: string
 	upcoming: Array<Upcoming>
 	makeAWishProjects: Array<MakeAWishProject>
 	faq: {

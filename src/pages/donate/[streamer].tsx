@@ -344,7 +344,11 @@ export const getStaticProps: GetStaticProps<InitialDonationProps> = async ({ par
 		}
 	}
 	return {
-		props: { project: currentStream, featuredStream: cmsContent.featuredStream },
+		props: {
+			project: currentStream,
+			featuredStream: cmsContent.featuredStream,
+			customDonationLink: cmsContent.customDonationLink || null,
+		},
 	}
 }
 
