@@ -294,7 +294,7 @@ makeAWishProjects:
       eher das Schoko-Eis, das ihn anlacht. Seine Lieblingsspeise ist Schnitzel
       mit Knödel und Sauce…"
     childname: Philipp
-    tagline: Philipp möchte den Heidpark besuchen
+    tagline: Philipp möchte den Heidepark besuchen
     makeAWishProjectId: 15
   - descripion: Der Super Mario Fan Dominic wünscht sich – wie kann es anders sein –
       eine Nintendo-Switch-Konsole - Super Mario Odyssey Edition und das dazu
@@ -377,14 +377,14 @@ makeAWishProjects:
     childname: M.
     tagline: Konzert Martina Stössel (Violetta)
     descripion: Ms Herzenswunsch ist es, ein Konzert von „Tini Stoessl“ gemeinsam
-      mit ihrer Familie zu besuchen. Tini Stoessl- alias Violetta- ist eine
-      argentinische Schauspielering der Serie „Violetta“ und ist das Idol
-      unseres Wunschkinds und ihrer Schwester. Die beiden haben sich in der
-      langen Phase der Erkrankung (undifferenziertes Sarkom) von M. die Zeit mit
-      Violetta und ihren Erlebnissen im Fernsehen und dem Hören der Lieder, zu
-      denen sie getanzt haben, vertrieben.  „Sie ist so wunderschön und kann so
-      gut singen“ schwärmt die 10-jährige und stimmt gleich einen Song ihres
-      Stars an.
+      mit ihrer Familie zu besuchen. Tini Stoessl - alias Violetta - ist eine
+      argentinische Schauspielerin der Serie „Violetta“ und ist das Idol unseres
+      Wunschkinds und ihrer Schwester. Die beiden haben sich in der langen Phase
+      der Erkrankung (undifferenziertes Sarkom) von M. die Zeit mit Violetta und
+      ihren Erlebnissen im Fernsehen und dem Hören der Lieder, zu denen sie
+      getanzt haben, vertrieben.  „Sie ist so wunderschön und kann so gut
+      singen“ schwärmt die 10-jährige und stimmt gleich einen Song ihres Stars
+      an.
 faq:
   questions:
     - question: Was ist Charity Royale?
