@@ -20,6 +20,10 @@ const FooterList = styled.ul`
 
 const FooterLeftGridItem = styled.div`
 	grid-area: footer-left;
+
+	& > p:not(:first-child) {
+		margin-top: 14px;
+	}
 `
 
 const FooterCenterGridItem = styled.div`
@@ -73,6 +77,18 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 					</FooterListItem>
 					<FooterListItem>
 						<ClientLink href={'/faq'}>FAQ</ClientLink>
+					</FooterListItem>
+				</FooterList>
+				<FooterListTitle>
+					WE{' '}
+					<span role="img" aria-label="love" style={{ color: 'red' }}>
+						{'\u2764'}
+					</span>{' '}
+					Open Source
+				</FooterListTitle>
+				<FooterList>
+					<FooterListItem>
+						<ClientLink href={'https://github.com/p4dd9/charityroyale-donationpage'}>Code</ClientLink>
 					</FooterListItem>
 				</FooterList>
 			</FooterLeftGridItem>

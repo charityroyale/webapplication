@@ -8,7 +8,7 @@ import ClientLink from '../ClientLink'
 import { formatDate, formatMoneyWithSign } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 import { UpcomingStreamFooter } from './UpcomingStreamFooter'
-import { MakeAWishProject } from '../../cms/cms'
+import { MakeAWishProject, Upcoming } from '../../cms/cms'
 import { useInView } from 'react-intersection-observer'
 
 const StreamerImageWrapper = styled.div`
@@ -90,15 +90,7 @@ export const DoneStreamDonation = styled.div<{ projectDone: boolean }>`
 	display: ${(p) => (p.projectDone ? 'block' : 'none')};
 `
 
-export interface UpcomingStreamProps {
-	date: string
-	streamerName: string
-	streamerChannel: string
-	streamLink: string
-	customLink?: string
-	makeAWishProjectId: string
-	makeAWish: MakeAWishProject
-	imgUrl: string
+export interface UpcomingStreamProps extends Upcoming {
 	donationGoal: string
 	donationProgress: string
 	projectDone: boolean
