@@ -1,6 +1,7 @@
 import React from 'react'
 import { styled } from '../../styles/Theme'
 import ClientLink from './ClientLink'
+import { AiFillHeart } from 'react-icons/ai'
 
 const FooterListTitle = styled.p`
 	margin-bottom: ${(p) => p.theme.fontSize.m}px;
@@ -79,11 +80,8 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 						<ClientLink href={'/faq'}>FAQ</ClientLink>
 					</FooterListItem>
 				</FooterList>
-				<FooterListTitle>
-					WE{' '}
-					<span role="img" aria-label="love" style={{ color: 'red' }}>
-						{'\u2764'}
-					</span>{' '}
+				<FooterListTitle style={{ display: 'flex' }}>
+					WE <AiFillHeart aria-label="heart" size={20} color={'red'} style={{ margin: '0 1px 0 2px' }} />
 					Open Source
 				</FooterListTitle>
 				<FooterList>
