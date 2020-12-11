@@ -1,7 +1,7 @@
 ---
 title: Charity Royale
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: xoynuzi
+featuredStream: luigikid
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-01T16:00:00.000Z
@@ -297,10 +297,15 @@ makeAWishProjects:
     makeAWishProjectId: 15
   - descripion: Der Super Mario Fan Dominic wünscht sich – wie kann es anders sein –
       eine Nintendo-Switch-Konsole - Super Mario Odyssey Edition und das dazu
-      passende Spiel. Aufgrund seiner Erkrankung muss Mario öfter als andere
+      passende Spiel. Aufgrund seiner Erkrankung muss Dominic öfter als andere
       Kinder daheimbleiben und so sind Computer-Spiele natürlich eine gelungene
       Abwechslung für ihn. Die kann er mit seinen Geschwistern spielen und dann
-      haben sie gemeinsam jede Menge Spaß!
+      haben sie gemeinsam jede Menge Spaß! (The Super Mario Fan Dominic really
+      wants a Limited Super Mario Odyssey Nintendo Switch Edition together with
+      Super Mario Odyssey. Due to his brain tumor, Dominic has to stay at home
+      more and more often compared to other children. Playing Videogames is the
+      perfect distraction. So he can play together with his sibblings and has a
+      lot of fun together with them! Help a fellow dedicated bro!)
     childname: Dominic
     tagline: It's-a Me, Mario! eeh Dominic!
     makeAWishProjectId: 16
