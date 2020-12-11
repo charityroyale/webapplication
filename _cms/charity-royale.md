@@ -39,6 +39,13 @@ upcoming:
     streamerName: Just Becci
     streamLink: https://www.twitch.tv/beccisplayground
     makeAWishProjectId: "4"
+  - date: 2020-12-06T18:00:17.067Z
+    streamLink: https://www.twitch.tv/zander
+    streamerName: Zander
+    streamerChannel: zander
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "12"
+    customLink: zander-dominik
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-07T13:00:00.000Z
     streamerChannel: zander
@@ -135,13 +142,6 @@ upcoming:
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "28"
-  - date: 2020-12-06T18:00:17.067Z
-    streamLink: https://www.twitch.tv/zander
-    streamerName: Zander
-    streamerChannel: zander
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: "12"
-    customLink: zander-dominik
 makeAWishProjects:
   - descripion: "Lilly wusste sofort, was sie sich wünscht: einen Besuch im
       Disneyland um Donald und die Minnie Mouse zu besuchen. Das 13jährige
