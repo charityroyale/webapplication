@@ -334,18 +334,37 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	)
 }
 
-export const getStaticProps: GetStaticProps<InitialDonationProps> = async ({ params }) => {
-	let currentStream: Upcoming
-	const streamer = params.streamer as string
+const getUpcomingForStreamer = (streamer: string) => {
+	let upcoming = getUpcomingFromCustomLink(streamer)
+	if (upcoming === undefined) {
+		upcoming = getUpcomingFromStreamerChannel(streamer)
+	}
+
+	return upcoming
+}
+
+const getUpcomingFromCustomLink = (streamer: string) => {
 	for (const stream of cmsContent.upcoming) {
-		if (stream.customLink == streamer || stream.streamerChannel === streamer) {
-			currentStream = stream
-			break
+		if (stream.customLink === streamer) {
+			return stream
 		}
 	}
+}
+
+const getUpcomingFromStreamerChannel = (streamer: string) => {
+	for (const stream of cmsContent.upcoming) {
+		if (!stream.customLink && stream.streamerChannel === streamer) {
+			return stream
+		}
+	}
+}
+
+export const getStaticProps: GetStaticProps<InitialDonationProps> = async ({ params }) => {
+	const streamer = params.streamer as string
+
 	return {
 		props: {
-			project: currentStream,
+			project: getUpcomingForStreamer(streamer),
 			featuredDonationLink: cmsContent.customDonationLink || cmsContent.featuredStream,
 		},
 	}
