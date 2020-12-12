@@ -139,6 +139,7 @@ export const getStaticProps: GetStaticProps<InitialFaqProps> = async () => {
 			questions: cmsContent.faq.questions,
 			videos: cmsContent.faq.videos,
 			featuredStream: cmsContent.featuredStream,
+			featuredDonationLink: cmsContent.customDonationLink || cmsContent.featuredStream,
 		},
 	}
 }
