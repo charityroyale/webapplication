@@ -1,8 +1,7 @@
 ---
 title: Charity Royale
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: zander
-customDonationLink: ""
+featuredStream: mrsxeniatv
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-01T16:00:00.000Z
@@ -40,6 +39,13 @@ upcoming:
     streamerName: Just Becci
     streamLink: https://www.twitch.tv/beccisplayground
     makeAWishProjectId: "4"
+  - date: 2020-12-06T18:00:17.067Z
+    streamLink: https://www.twitch.tv/zander
+    streamerName: Zander
+    streamerChannel: zander
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "12"
+    customLink: zander-dominik
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-07T13:00:00.000Z
     streamerChannel: zander
@@ -51,7 +57,7 @@ upcoming:
     streamerChannel: castcrafter
     streamLink: https://www.twitch.tv/castcrafter
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: "15"
+    makeAWishProjectId: "8"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-09T17:00:00.000Z
     streamerChannel: thefabo
@@ -59,7 +65,7 @@ upcoming:
     streamLink: https://www.twitch.tv/thefabo
     makeAWishProjectId: "18"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-10T18:00:00.000Z
+    date: 2020-12-10T17:00:00.000Z
     streamerChannel: xoynuzi
     streamerName: XoYnUzi
     streamLink: https://www.twitch.tv/xoynuzi
@@ -129,20 +135,13 @@ upcoming:
     streamerChannel: veni
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "24"
+    makeAWishProjectId: "28"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-23T19:00:00.000Z
     streamerChannel: veni
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "24"
-  - date: 2020-12-06T18:00:17.067Z
-    streamLink: https://www.twitch.tv/zander
-    streamerName: Zander
-    streamerChannel: zander
-    customLink: "zander-dominik"
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: "12"
+    makeAWishProjectId: "28"
 makeAWishProjects:
   - descripion: "Lilly wusste sofort, was sie sich wünscht: einen Besuch im
       Disneyland um Donald und die Minnie Mouse zu besuchen. Das 13jährige
@@ -298,10 +297,15 @@ makeAWishProjects:
     makeAWishProjectId: 15
   - descripion: Der Super Mario Fan Dominic wünscht sich – wie kann es anders sein –
       eine Nintendo-Switch-Konsole - Super Mario Odyssey Edition und das dazu
-      passende Spiel. Aufgrund seiner Erkrankung muss Mario öfter als andere
+      passende Spiel. Aufgrund seiner Erkrankung muss Dominic öfter als andere
       Kinder daheimbleiben und so sind Computer-Spiele natürlich eine gelungene
       Abwechslung für ihn. Die kann er mit seinen Geschwistern spielen und dann
-      haben sie gemeinsam jede Menge Spaß!
+      haben sie gemeinsam jede Menge Spaß! (The Super Mario Fan Dominic really
+      wants a Limited Super Mario Odyssey Nintendo Switch Edition together with
+      Super Mario Odyssey. Due to his brain tumor, Dominic has to stay at home
+      more and more often compared to other children. Playing Videogames is the
+      perfect distraction. So he can play together with his sibblings and has a
+      lot of fun together with them! Help a fellow dedicated bro!)
     childname: Dominic
     tagline: It's-a Me, Mario! eeh Dominic!
     makeAWishProjectId: 16
@@ -322,9 +326,10 @@ makeAWishProjects:
   - descripion: "Mert ist ein 12-jähriger schüchterner Junge, der wegen seiner
       Krankheit (Cystische Fibrose), nicht oft außer Haus gehen darf. Umso
       wichtiger ist es für ihn, virtuell mit seinen Freunden spielen zu können:
-      Sein Herzenswunsch ist deshalb eine X-Box und ein dazu passendes Spiel. "
+      Sein Herzenswunsch ist deshalb eine Playstation und ein dazu passendes
+      Spiel. "
     childname: Mert
-    tagline: Eine X-Box für Mert
+    tagline: Eine Playstation für Mert
     makeAWishProjectId: 18
   - descripion: Zeynep ist ein ruhiges Mädchen, das durch ihre Krankheit viel Zeit
       im Krankenhaus verbringen muss. Damit die Zeit dort ein bisschen rascher
@@ -358,21 +363,23 @@ makeAWishProjects:
     childname: Simon
     tagline: Simon möchte ins Legoland fahren
     makeAWishProjectId: 23
-  - descripion: Für die 18-jährige Theresa ist New York die schönste Stadt der Welt.
-      Naheliegend, dass es ihr Herzenswunsch ist, diese Metropole zu besuchen,
-      denn sie liebt alles, was aus Amerika kommt. Da die an Lymphdrüsenkrebs
-      Erkrankte auch Silvester über alles liebt, möchte sie das Ende des Jahres
-      und Neujahr im Big Apple verbringen und „im Lichtermeer alle Sorgen
-      vergessen“.
-    childname: Theresa
-    tagline: Theresa möchte Amerika in New York erleben
+  - descripion: Unser Wunschkind J. wünschte sich ein Lastenfahrrad, damit seine
+      Mama mit ihm auf den Spielplatz fahren kann. Seine Lieblingsfarbe ist rot.
+      Der 6-jährige, der sich aufgrund seiner Krankheit (Down Syndrom) nur in
+      Gebärdensprache verständen kann, ist ein aufgewecktes Kind.
+    childname: "J. "
+    tagline: Mit dem Lastenfahrrad auf den Spielplatz
     makeAWishProjectId: 24
-  - descripion: TEST Ich möchte unbedingt ganz neue Erfahrungen machen, völlig neue
-      Dinge sehen. Ich liebe alles, was aus Amerika kommt und deshalb ist es
-      mein größter Wunsch New York zu besuchen
+  - descripion: "Unser Wunschkind A. wünscht sich einen Standurlaub, in der Nähe
+      eines Waldes, weil ihr diese Kombination gesundheitlich guttun würde – sie
+      leidet an Cystischer Fibrose. „Ich möchte am Strand liegen und schwimmen“,
+      sagt sie um ihren Wunsch zu erklären. Die Bescheidenheit des Teenagers
+      wird klar, wenn man ihren Ersatzwunsch liest (=falls der erste Wunsch
+      nicht erfüllt werden kann): Dann wünscht sie sich mit der Familie Eis
+      essen zu gehen. "
     makeAWishProjectId: 25
-    tagline: TEST Theresa möchte Amerika in New York erleben
-    childname: Patrick
+    tagline: Strandurlaub mit Wald für A.
+    childname: "A. "
   - makeAWishProjectId: "26"
     childname: M.
     tagline: Konzert Martina Stössel (Violetta)
@@ -385,6 +392,25 @@ makeAWishProjects:
       getanzt haben, vertrieben.  „Sie ist so wunderschön und kann so gut
       singen“ schwärmt die 10-jährige und stimmt gleich einen Song ihres Stars
       an.
+  - makeAWishProjectId: "27"
+    descripion: "Unser Wunschkind A. wünscht sich einen Standurlaub, in der Nähe
+      eines Waldes, weil ihr diese Kombination gesundheitlich guttun würde – sie
+      leidet an Cystischer Fibrose. „Ich möchte am Strand liegen und schwimmen“,
+      sagt sie um ihren Wunsch zu erklären. Die Bescheidenheit des Teenagers
+      wird klar, wenn man ihren Ersatzwunsch liest (=falls der erste Wunsch
+      nicht erfüllt werden kann): Dann wünscht sie sich mit der Familie Eis
+      essen zu gehen. "
+    tagline: Als Prinzessin ins Disneyland
+    childname: E.
+  - makeAWishProjectId: "28"
+    descripion: Für die 18-jährige Theresa ist New York die schönste Stadt der Welt.
+      Naheliegend, dass es ihr Herzenswunsch ist, diese Metropole zu besuchen,
+      denn sie liebt alles, was aus Amerika kommt. Da die an Lymphdrüsenkrebs
+      Erkrankte auch Silvester über alles liebt, möchte sie das Ende des Jahres
+      und Neujahr im Big Apple verbringen und „im Lichtermeer alle Sorgen
+      vergessen“.
+    tagline: Theresa will nach New York
+    childname: Theresa
 faq:
   questions:
     - question: Was ist Charity Royale?
