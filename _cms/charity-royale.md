@@ -157,7 +157,7 @@ makeAWishProjects:
   - descripion: "Eren hat viel Zeit im Krankenhaus verbracht. Jetzt wo es ihm besser
       geht, wünscht er sich mit seiner Familie Urlaub zu machen in der Heimat
       seiner Eltern. Er war noch nie in Istanbul und deshalb möchte der an
-      Knochenkrebst erkrankte Junge gerne alle Sehenswürdigkeiten der Metropole
+      Knochenkrebs erkrankte Junge gerne alle Sehenswürdigkeiten der Metropole
       erleben. Besonders freut er sich auf die Märkte und deren Gerüche. Der
       anfangs sehr schüchterne 12-jährige, liebt Pizza und Fußball. Wenn möglich
       würde er – so sich die Chance ergibt - auch gerne bei einem Match seines
