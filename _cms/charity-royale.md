@@ -94,7 +94,7 @@ upcoming:
     streamerName: Reved
     streamLink: https://www.twitch.tv/revedtv
     makeAWishProjectId: "6"
-  - date: 2020-12-15T12:00:38.983Z
+  - date: 2020-12-15T14:00:00.000Z
     streamerName: Sola
     streamerChannel: solaaaa
     streamLink: https://www.twitch.tv/solaaaa
