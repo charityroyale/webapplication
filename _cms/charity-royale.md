@@ -130,12 +130,12 @@ upcoming:
     streamerChannel: clym
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "20"
-  - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-22T11:00:00.000Z
-    streamerChannel: veni
-    streamerName: Veni
-    streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "28"
+  - date: 2020-12-21T15:00:39.872Z
+    streamerName: Veylaney
+    streamerChannel: veylaney
+    streamLink: https://www.twitch.tv/veylaney/
+    makeAWishProjectId: "23"
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-23T19:00:00.000Z
     streamerChannel: veni
