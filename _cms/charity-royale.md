@@ -358,8 +358,13 @@ makeAWishProjects:
     childname: Manuel
     tagline: Manuel möchte gerne ein Liverpool-Match erleben
     makeAWishProjectId: 22
-  - descripion: Ich wünsche mir ins Legoland zu reisen und dabei im Piratenzimmer zu
-      übernachten.
+  - descripion: "Simon liebt Lego. In jedem Zimmer findet man Legofiguren, die er
+      selbst aufgebaut hat. Auch während seiner Krankheit (Leukämie) waren die
+      Bausteine seine Hauptbeschäftigung und Ablenkung. Dass er nun ins
+      Lego-Mekka fahren möchte, verwundert nicht. Besonders cool findet es der
+      11-jährige, dass er im Piratenzimmer übernachten darf!  Was es noch zu
+      unseren Bastelfan zu sagen gibt: Er liebt Lasagne und weiße Schokolade.
+      Und wenn er nicht gerade Lego baut, dann geht er gerne Fischen."
     childname: Simon
     tagline: Simon möchte ins Legoland fahren
     makeAWishProjectId: 23
