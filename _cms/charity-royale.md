@@ -113,7 +113,7 @@ upcoming:
     streamLink: https://www.twitch.tv/nebelniek
     makeAWishProjectId: 17
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-18T19:00:00.000Z
+    date: 2020-12-18T15:30:00.000Z
     streamerChannel: henke
     streamerName: Henke
     streamLink: https://www.twitch.tv/henke
