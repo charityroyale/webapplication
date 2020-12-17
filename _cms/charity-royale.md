@@ -107,7 +107,7 @@ upcoming:
     streamLink: https://www.twitch.tv/petrit
     makeAWishProjectId: "10"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-17T13:00:00.000Z
+    date: 2020-12-17T19:00:00.000Z
     streamerChannel: nebelniek
     streamerName: NebelNiek
     streamLink: https://www.twitch.tv/nebelniek
