@@ -17,6 +17,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - env:
+          TWITCH_ACCESS_TOKEN: ${{ secrets.TWITCH_ACCESS_TOKEN }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          GA_ID: ${{ secrets.GA_ID }}
+          FB_ID: ${{ secrets.FB_ID }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
