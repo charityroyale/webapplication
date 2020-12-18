@@ -126,7 +126,7 @@ upcoming:
     makeAWishProjectId: "29"
   - date: 2020-12-18T14:00:00.000Z
     streamerName: Shredmir
-    streamerChannel: schredmir
+    streamerChannel: shredmir
     streamLink: https://www.twitch.tv/shredmir
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "29"
