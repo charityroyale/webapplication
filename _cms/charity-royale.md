@@ -1,7 +1,7 @@
 ---
 title: Charity Royale
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: henke
+featuredStream: krokoboss
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-01T16:00:00.000Z
@@ -123,13 +123,13 @@ upcoming:
     streamLink: https://www.twitch.tv/krokoboss
     streamerChannel: krokoboss
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: "29"
+    makeAWishProjectId: "16"
   - date: 2020-12-18T14:00:00.000Z
     streamerName: Shredmir
     streamerChannel: shredmir
     streamLink: https://www.twitch.tv/shredmir
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: "29"
+    makeAWishProjectId: "16"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-19T11:00:00.000Z
     streamerChannel: bastighg
