@@ -416,6 +416,18 @@ makeAWishProjects:
       vergessen“.
     tagline: Theresa will nach New York
     childname: Theresa
+  - makeAWishProjectId: "29"
+    descripion: Mirkos Herzenswunsch war eine rot-blaue Nintendo-Switch Konsole, wie
+      sie sein Idol, der Youtuber Domtendo hat. Der junge Mann ist 15 Jahre alt
+      und leidet an chronischem Leberversagen. Trotz seiner Krankheit ist er ein
+      begeisterter Hobby-Tänzer und wünschte sich deshalb das dazu passende
+      Spiel „Just dance"
+    tagline: Eine Switch für Mirko
+    childname: Mirko
+  - makeAWishProjectId: "30"
+    childname: Lucas
+    tagline: Ein iPhone für Lucas
+    descripion: Der schwerkranke zwölfjährige Bub Lucas wünscht sich sehnlichst ein iPhone.
 faq:
   questions:
     - question: Was ist Charity Royale?
