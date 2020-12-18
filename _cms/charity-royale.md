@@ -148,6 +148,12 @@ upcoming:
     streamLink: https://www.twitch.tv/veylaney
     makeAWishProjectId: "23"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
+  - date: 2020-12-22T15:00:25.330Z
+    streamerName: FineLive
+    streamerChannel: finelive
+    streamLink: https://www.twitch.tv/finelive
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "30"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-23T19:00:00.000Z
     streamerChannel: veni
@@ -438,8 +444,14 @@ makeAWishProjects:
     childname: Mirko
   - makeAWishProjectId: "30"
     childname: Lucas
-    tagline: Ein iPhone für Lucas
-    descripion: Der schwerkranke zwölfjährige Bub Lucas wünscht sich sehnlichst ein iPhone.
+    tagline: Ein iPhone 12 für Lucas
+    descripion: Lucas ist 15 Jahre alt und leidet an einem Lymphknotenkrebs. Der
+      Teenager ist seit Herbst 2020 Lehrling in einem großen Unternehmen und
+      absolviert seine Lehrzeit außerhalb seines Wohnortes. Deshalb ist er von
+      Montag bis Freitag nicht zuhause. Sein Herzenswunsch ist ein neues Handy,
+      aber es soll nicht irgendein Smartphone sein, sondern ein schwarzes IPhone
+      12, damit er trotz der Distanz mit seiner Familie und seinen Freunden
+      Kontakt halten kann.
 faq:
   questions:
     - question: Was ist Charity Royale?
