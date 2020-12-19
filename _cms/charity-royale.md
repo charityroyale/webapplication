@@ -117,7 +117,7 @@ upcoming:
     streamerChannel: henke
     streamerName: Henke
     streamLink: https://www.twitch.tv/henke
-    makeAWishProjectId: "11"
+    makeAWishProjectId: "2"
   - date: 2020-12-18T14:00:00.000Z
     streamerName: Krokoboss
     streamLink: https://www.twitch.tv/krokoboss
