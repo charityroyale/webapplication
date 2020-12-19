@@ -135,7 +135,7 @@ upcoming:
     streamerChannel: bastighg
     streamerName: BastiGHG
     streamLink: https://www.twitch.tv/bastighg
-    makeAWishProjectId: "5"
+    makeAWishProjectId: "22"
   - date: 2020-12-20T18:00:57.001Z
     streamLink: https://www.twitch.tv/clym
     streamerName: Clym
