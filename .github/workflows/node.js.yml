@@ -28,6 +28,6 @@ jobs:
            echo GA_ID=${{ secrets.GA_ID }} >> .env.local
            echo FB_ID=${{ secrets.FB_ID }} >> .env.local
        - name: Build it pls
-         run: npm run build && next export
+         run: node ./scripts/generateICSfiles.js && npx next build && npx next export
        - name: Lint
          run: eslint src --ext .ts,.tsx
