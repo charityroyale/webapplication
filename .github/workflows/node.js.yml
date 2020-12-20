@@ -30,4 +30,4 @@ jobs:
        - name: Build it pls
          run: node ./scripts/generateICSfiles.js && npx next build && npx next export
        - name: Lint
-         run: eslint src --ext .ts,.tsx
+         run: npx eslint src --ext .ts,.tsx
