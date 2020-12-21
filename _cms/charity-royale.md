@@ -120,10 +120,22 @@ upcoming:
     makeAWishProjectId: "2"
   - date: 2020-12-18T14:00:00.000Z
     streamerName: Krokoboss & Shredmir
-    streamLink: https://www.twitch.tv/krokoboss
-    streamerChannel: krokoboss
+    streamLink: https://www.twitch.tv/shredmir
+    streamerChannel: shredmir
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "29"
+  - date: 2020-12-18T14:00:00.000Z
+    streamerName: Krokoboss & Shredmir
+    streamerChannel: krokoboss
+    streamLink: https://www.twitch.tv/krokoboss
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "31"
+  - date: 2020-12-19T15:30:00.000Z
+    streamerName: Henke
+    streamerChannel: henke
+    streamLink: https://www.twitch.tv/henke
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    makeAWishProjectId: "32"
   - date: 2020-12-19T11:00:00.000Z
     makeAWishProjectId: "5"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
