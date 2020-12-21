@@ -124,6 +124,12 @@ upcoming:
     streamerChannel: krokoboss
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "29"
+  - date: 2020-12-19T11:00:00.000Z
+    makeAWishProjectId: "5"
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    streamerName: BastiGHG
+    streamerChannel: bastighg
+    streamLink: https://www.twitch.tv/bastighg
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-19T11:00:00.000Z
     streamerChannel: bastighg
