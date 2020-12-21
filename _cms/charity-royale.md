@@ -129,13 +129,13 @@ upcoming:
     streamerChannel: henke
     streamerName: Henke
     streamLink: https://www.twitch.tv/henke
-    makeAWishProjectId: "32"
+    makeAWishProjectId: "11"
   - date: 2020-12-19T15:30:00.000Z
     streamerName: Henke
     streamerChannel: henke
     streamLink: https://www.twitch.tv/henke
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-    makeAWishProjectId: "2"
+    makeAWishProjectId: "32"
   - date: 2020-12-19T11:00:00.000Z
     makeAWishProjectId: "5"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
@@ -464,6 +464,31 @@ makeAWishProjects:
       aber es soll nicht irgendein Smartphone sein, sondern ein schwarzes IPhone
       12, damit er trotz der Distanz mit seiner Familie und seinen Freunden
       Kontakt halten kann.
+  - makeAWishProjectId: "31"
+    descripion: Der Super Mario Fan Dominic wünscht sich – wie kann es anders sein –
+      eine Nintendo-Switch-Konsole - Super Mario Odyssey Edition und das dazu
+      passende Spiel. Aufgrund seiner Erkrankung muss Dominic öfter als andere
+      Kinder daheimbleiben und so sind Computer-Spiele natürlich eine gelungene
+      Abwechslung für ihn. Die kann er mit seinen Geschwistern spielen und dann
+      haben sie gemeinsam jede Menge Spaß! (The Super Mario Fan Dominic really
+      wants a Limited Super Mario Odyssey Nintendo Switch Edition together with
+      Super Mario Odyssey. Due to his brain tumor, Dominic has to stay at home
+      more and more often compared to other children. Playing Videogames is the
+      perfect distraction. So he can play together with his sibblings and has a
+      lot of fun together with them! Help a fellow dedicated bro!)
+    tagline: It's-a Me, Mario! eeh Dominic!
+    childname: Dominic
+  - makeAWishProjectId: "32"
+    descripion: "Eren hat viel Zeit im Krankenhaus verbracht. Jetzt wo es ihm besser
+      geht, wünscht er sich mit seiner Familie Urlaub zu machen in der Heimat
+      seiner Eltern. Er war noch nie in Istanbul und deshalb möchte der an
+      Knochenkrebs erkrankte Junge gerne alle Sehenswürdigkeiten der Metropole
+      erleben. Besonders freut er sich auf die Märkte und deren Gerüche. Der
+      anfangs sehr schüchterne 12-jährige, liebt Pizza und Fußball. Wenn möglich
+      würde er – so sich die Chance ergibt - auch gerne bei einem Match seines
+      Lieblingsclubs Galatasaray live dabei sein. "
+    tagline: Eren möchte nach Istanbul mit seiner Familie
+    childname: Eren
 faq:
   questions:
     - question: Was ist Charity Royale?
