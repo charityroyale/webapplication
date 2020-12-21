@@ -167,7 +167,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "30"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-23T13:00:00.000Z
+    date: 2020-12-23T11:00:00.000Z
     streamerChannel: veni
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
