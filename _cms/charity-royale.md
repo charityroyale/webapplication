@@ -160,14 +160,14 @@ upcoming:
     streamLink: https://www.twitch.tv/veylaney
     makeAWishProjectId: "23"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-  - date: 2020-12-22T15:00:25.330Z
+  - date: 2020-12-22T17:00:25.330Z
     streamerName: FineLive
     streamerChannel: finelive
     streamLink: https://www.twitch.tv/finelive
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "30"
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
-    date: 2020-12-23T19:00:00.000Z
+    date: 2020-12-23T13:00:00.000Z
     streamerChannel: veni
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
