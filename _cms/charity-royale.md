@@ -136,12 +136,14 @@ upcoming:
     streamLink: https://www.twitch.tv/henke
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     makeAWishProjectId: "32"
+    customLink: henke-eren
   - date: 2020-12-19T11:00:00.000Z
     makeAWishProjectId: "5"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     streamerName: BastiGHG
     streamerChannel: bastighg
     streamLink: https://www.twitch.tv/bastighg
+    customLink: bastighg-abdalla
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-19T11:00:00.000Z
     streamerChannel: bastighg
