@@ -109,7 +109,7 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 				<DonationHeaderStreamLink>
 					<RiTwitchFill size={24} style={{ marginRight: '8px' }} />{' '}
 					<a href={streamLink} rel="noreferrer" target="_blank">
-						twitch.tv/{streamerName.toLowerCase()}
+						{/[^/]*$/.exec(streamLink)[0]}
 					</a>
 				</DonationHeaderStreamLink>
 				<DonationHeaderStreamLink>
