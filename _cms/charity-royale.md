@@ -1,7 +1,7 @@
 ---
 title: Charity Royale
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: finelive
+featuredStream: veni
 featuredYoutubeStream: 
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
