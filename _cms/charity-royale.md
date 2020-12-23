@@ -2,6 +2,7 @@
 title: Charity Royale
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: finelive
+featuredYoutubeStream: https://www.youtube.com/embed/dQw4w9WgXcQ
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-01T16:00:00.000Z

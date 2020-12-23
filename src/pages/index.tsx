@@ -71,6 +71,7 @@ export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 		props: {
 			schedule,
 			featuredStream: cmsContent.featuredStream,
+			featuredYoutubeStream: cmsContent.featuredYoutubeStream,
 			featuredDonationLink: cmsContent.customDonationLink || cmsContent.featuredStream,
 		},
 	}
