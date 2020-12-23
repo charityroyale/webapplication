@@ -20,7 +20,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 
 	const getStreamEndDate = (stream: Upcoming) => {
 		const startDate = new Date(stream.date)
-		const hoursToAdd = 6
+		const hoursToAdd = 12
 		return new Date(startDate.getTime() + hoursToAdd * 3600000)
 	}
 	const now = new Date()
@@ -50,18 +50,21 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 
 	return (
 		<React.Fragment>
-			<StyleUpcomingStreamsHeader>
-				<StyleUpcomingStreamsTitle>Programm</StyleUpcomingStreamsTitle>
-				<p>
-					Aktuelles Programm als Kalenderdatei{' '}
-					<StyledKalenderDownloadLink aria-describedby="Programm als Kalender" href={`/calendar/all.ics`}>
-						herunterladen
-					</StyledKalenderDownloadLink>
-					.
-				</p>
-			</StyleUpcomingStreamsHeader>
-			<StyledUpcoming>{schedule.filter(isInTheFuture).map(createUpcomingStream)}</StyledUpcoming>
-
+			{schedule.filter(isInTheFuture).length > 0 && (
+				<>
+					<StyleUpcomingStreamsHeader>
+						<StyleUpcomingStreamsTitle>Programm</StyleUpcomingStreamsTitle>
+						<p>
+							Aktuelles Programm als Kalenderdatei{' '}
+							<StyledKalenderDownloadLink aria-describedby="Programm als Kalender" href={`/calendar/all.ics`}>
+								herunterladen
+							</StyledKalenderDownloadLink>
+							.
+						</p>
+					</StyleUpcomingStreamsHeader>
+					<StyledUpcoming>{schedule.filter(isInTheFuture).map(createUpcomingStream)}</StyledUpcoming>
+				</>
+			)}
 			<StylePastStreamsHeader>
 				<StyleUpcomingStreamsTitle>Vergangene Streams</StyleUpcomingStreamsTitle>
 			</StylePastStreamsHeader>
