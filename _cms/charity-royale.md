@@ -1,8 +1,8 @@
 ---
 title: Charity Royale
 thumbnail: /uploads/charity_royale_rgb_300x300.png
+featuredYoutubeStream: https://www.youtube.com/embed/76GKh8Uzyh8
 featuredStream: veni
-featuredYoutubeStream: 
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-01T16:00:00.000Z
@@ -174,7 +174,7 @@ upcoming:
     streamerChannel: veni
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
-    makeAWishProjectId: "28"
+    makeAWishProjectId: "24"
 makeAWishProjects:
   - descripion: "Lilly wusste sofort, was sie sich wünscht: einen Besuch im
       Disneyland um Donald und die Minnie Mouse zu besuchen. Das 13jährige
