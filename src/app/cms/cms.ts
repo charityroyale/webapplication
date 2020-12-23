@@ -34,6 +34,7 @@ export interface CmsContent {
 	thumbnail: string
 	featuredStream: string
 	customDonationLink?: string
+	featuredYoutubeStream?: string
 	upcoming: Array<Upcoming>
 	makeAWishProjects: Array<MakeAWishProject>
 	faq: {
