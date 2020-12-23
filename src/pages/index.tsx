@@ -12,11 +12,12 @@ import { TwitchUserDTO } from '../app/dto/TwitchUserDTO'
 
 export interface InitialAppProps {
 	featuredStream?: string
+	featuredYoutubeStream?: string
 	schedule?: Upcoming[]
 }
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
-	const { schedule, featuredStream } = props
+	const { schedule, featuredStream, featuredYoutubeStream } = props
 	return (
 		<>
 			<Head>
@@ -46,7 +47,7 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 			</Head>
 			<>
 				<FaqBox />
-				<FeaturedStream channel={featuredStream} />
+				<FeaturedStream twitchChannelName={featuredStream} youtubeUrl={featuredYoutubeStream} />
 				<UpcomingFeatures schedule={schedule} />
 			</>
 		</>
