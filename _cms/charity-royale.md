@@ -176,8 +176,8 @@ upcoming:
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
   - date: 2020-12-27T18:00:48.672Z
-    streamLink: https://twitch.com/herrHaderer
-    streamerChannel: HerrHaderer
+    streamLink: https://twitch.com/herrhaderer
+    streamerChannel: herrhaderer
     streamerName: HerrHaderer
     makeAWishProjectId: "34"
     imgUrl: /uploads/charity_royale_rgb_300x300.png
