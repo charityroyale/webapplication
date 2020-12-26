@@ -4,15 +4,6 @@ import { RiTwitchFill } from 'react-icons/ri'
 import { formatDate } from '../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 
-interface DonationHeaderProps {
-	streamerName: string
-	title: string
-	description: string
-	children: ReactElement
-	streamLink: string
-	date: string
-}
-
 const StyledDonationHeaderTitle = styled.h2`
 	font-size: ${(p) => p.theme.fontSize.l} px;
 	margin-bottom: 4px;
@@ -54,10 +45,10 @@ const DonationProjectContent = styled.div`
 	}
 `
 
-const DonationHeaderProject = styled.div`
+const DonationHeaderProject = styled.div<{ noMargin: boolean }>`
 	display: flex;
 	justify-content: space-between;
-	margin-top: ${(p) => p.theme.space.l}px;
+	margin-top: ${(p) => (p.noMargin ? '0' : p.theme.space.l)}px;
 
 	${(p) => p.theme.media.phone} {
 		flex-direction: column;
@@ -91,6 +82,16 @@ const DonationHeaderStreamLink = styled.p`
 	}
 `
 
+interface DonationHeaderProps {
+	title: string
+	description: string
+	children: ReactElement
+	streamerName?: string
+	streamLink?: string
+	date?: string
+	noMargin?: boolean
+}
+
 const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 	title,
 	description,
@@ -98,25 +99,35 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 	streamerName,
 	streamLink,
 	date,
+	noMargin,
 }: DonationHeaderProps) => {
 	return (
 		<StyledDonationHeader>
 			<DonationDescriptionGridArea>
-				<DonationHeaderProjectTitle>
-					{streamerName}
-					{`'`}s Spendenprojekt
-				</DonationHeaderProjectTitle>
-				<DonationHeaderStreamLink>
-					<RiTwitchFill size={24} style={{ marginRight: '8px' }} />{' '}
-					<a href={streamLink} rel="noreferrer" target="_blank">
-						{/[^/]*$/.exec(streamLink)[0]}
-					</a>
-				</DonationHeaderStreamLink>
-				<DonationHeaderStreamLink>
-					<BsCalendar size={20} style={{ marginRight: '8px', marginLeft: '2px' }} />
-					<span>{formatDate(new Date(date))}</span>
-				</DonationHeaderStreamLink>
-				<DonationHeaderProject>
+				{streamerName && (
+					<DonationHeaderProjectTitle>
+						{streamerName}
+						{`'`}s Spendenprojekt
+					</DonationHeaderProjectTitle>
+				)}
+
+				{streamLink && (
+					<DonationHeaderStreamLink>
+						<RiTwitchFill size={24} style={{ marginRight: '8px' }} />{' '}
+						<a href={streamLink} rel="noreferrer" target="_blank">
+							{/[^/]*$/.exec(streamLink)[0]}
+						</a>
+					</DonationHeaderStreamLink>
+				)}
+
+				{date && (
+					<DonationHeaderStreamLink>
+						<BsCalendar size={20} style={{ marginRight: '8px', marginLeft: '2px' }} />
+						<span>{formatDate(new Date(date))}</span>
+					</DonationHeaderStreamLink>
+				)}
+
+				<DonationHeaderProject noMargin={noMargin}>
 					<DonationProjectContent>
 						<StyledDonationHeaderTitle>{title}</StyledDonationHeaderTitle>
 						<StyledDonationHeaderDescription>
