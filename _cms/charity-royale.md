@@ -499,8 +499,8 @@ makeAWishProjects:
     tagline: Eren möchte nach Istanbul mit seiner Familie
     childname: Eren
   - makeAWishProjectId: "33"
-    descripion: Herzenswüsche erfüllen
-    tagline: Community Spenden gehen an unerfüllte Make-A-Wish Kinderwünsche.
+    descripion: Community Spenden gehen an unerfüllte Make-A-Wish Kinderwünsche.
+    tagline: Herzenswünsch erfüllen
     childname: Make-A-Wish
   - makeAWishProjectId: "34"
     tagline: It's-a Me, Mario! eeh Dominic!
