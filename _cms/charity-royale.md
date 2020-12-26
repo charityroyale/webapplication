@@ -1,8 +1,8 @@
 ---
 title: Charity Royale
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredYoutubeStream: https://www.youtube.com/embed/fnn1-5FYY4Y
-featuredStream: veni
+featuredYoutubeStream: ""
+featuredStream: herrhaderer
 upcoming:
   - imgUrl: /uploads/charity_royale_rgb_300x300.png
     date: 2020-12-01T16:00:00.000Z
@@ -175,6 +175,12 @@ upcoming:
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
+  - date: 2020-12-27T18:00:48.672Z
+    streamLink: https://twitch.com/herrHaderer
+    streamerChannel: HerrHaderer
+    streamerName: HerrHaderer
+    makeAWishProjectId: "34"
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
 makeAWishProjects:
   - descripion: "Lilly wusste sofort, was sie sich wünscht: einen Besuch im
       Disneyland um Donald und die Minnie Mouse zu besuchen. Das 13jährige
@@ -492,6 +498,24 @@ makeAWishProjects:
       Lieblingsclubs Galatasaray live dabei sein. "
     tagline: Eren möchte nach Istanbul mit seiner Familie
     childname: Eren
+  - makeAWishProjectId: "33"
+    descripion: Herzenswüsche erfüllen
+    tagline: Community Spenden gehen an unerfüllte Make-A-Wish Kinderwünsche.
+    childname: Make-A-Wish
+  - makeAWishProjectId: "34"
+    tagline: It's-a Me, Mario! eeh Dominic!
+    descripion: Der Super Mario Fan Dominic wünscht sich – wie kann es anders sein –
+      eine Nintendo-Switch-Konsole - Super Mario Odyssey Edition und das dazu
+      passende Spiel. Aufgrund seiner Erkrankung muss Dominic öfter als andere
+      Kinder daheimbleiben und so sind Computer-Spiele natürlich eine gelungene
+      Abwechslung für ihn. Die kann er mit seinen Geschwistern spielen und dann
+      haben sie gemeinsam jede Menge Spaß! (The Super Mario Fan Dominic really
+      wants a Limited Super Mario Odyssey Nintendo Switch Edition together with
+      Super Mario Odyssey. Due to his brain tumor, Dominic has to stay at home
+      more and more often compared to other children. Playing Videogames is the
+      perfect distraction. So he can play together with his sibblings and has a
+      lot of fun together with them! Help a fellow dedicated bro!)
+    childname: Dominic
 faq:
   questions:
     - question: Was ist Charity Royale?
