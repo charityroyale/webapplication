@@ -181,6 +181,7 @@ upcoming:
     streamerName: Veni
     streamLink: https://www.twitch.tv/veni
     makeAWishProjectId: "24"
+    customLink: veni-j
   - date: 2020-12-27T18:00:48.672Z
     streamLink: https://twitch.com/herrhaderer
     streamerChannel: herrhaderer
