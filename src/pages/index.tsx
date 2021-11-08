@@ -21,7 +21,7 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 	return (
 		<>
 			<Head>
-				<title>Charity Royale 2020</title>
+				<title>Charity Royale</title>
 				<meta name="twitter:card" content="summary" key="twcard" />
 				<meta name="twitter:site" content={'@CharityRoyale'} key="twsite" />
 				<meta name="twitter:creator" content={'@CharityRoyale'} key="twcreator" />
@@ -34,8 +34,8 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 				/>
 				<meta property="og:image:width" content={'300'} key="ogimagewidth" />
 				<meta property="og:image:height" content={'300'} key="ogimageheight" />
-				<meta property="og:site_name" content={'Charity Royale 2020'} key="ogsitename" />
-				<meta property="og:title" content={'Charity Royale 2020'} key="ogtitle" />
+				<meta property="og:site_name" content={'Charity Royale'} key="ogsitename" />
+				<meta property="og:title" content={'Charity Royale'} key="ogtitle" />
 				<meta property="og:type" content={'website'} key="ogtype" />
 				<meta property="og:locale" content={'de_AT'} key="oglocale" />
 				<meta property="fb:app_id" content={process.env.FB_ID} key="fbappid" />
