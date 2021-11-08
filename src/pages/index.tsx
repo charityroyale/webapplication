@@ -64,7 +64,11 @@ export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 	}
 
 	for (const stream of schedule) {
-		stream.imgUrl = twitchUsersDict[stream.streamerChannel].profile_image_url
+		if (twitchUsersDict[stream.streamerChannel]) {
+			stream.imgUrl = twitchUsersDict[stream.streamerChannel].profile_image_url
+		} else {
+			console.log(`Error retrieving data from channel: ${stream.streamerChannel}`)
+		}
 	}
 
 	return {
