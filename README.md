@@ -4,4 +4,4 @@
 
 https://charityroyale.at/
 
-![Logo of CharityRoyale](public/cr2020_logo_small.png)
+![Logo of CharityRoyale](public/cr_logo_small.png)

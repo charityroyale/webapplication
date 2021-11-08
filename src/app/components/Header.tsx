@@ -137,7 +137,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({ featuredStream, showDona
 								onLoad={onImageLoad}
 								style={{ display: !imageLoaded ? 'none' : 'flex', margin: 'auto' }}
 								width="150px"
-								src="/cr2020_logo_small.png"
+								src="/cr_logo_small.png"
 								alt="Charity Royale Logo"
 							/>
 						)}
