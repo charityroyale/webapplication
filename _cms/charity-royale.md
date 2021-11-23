@@ -597,7 +597,7 @@ faq:
         Charity Royale dabei zu sein. Füll dafür einfach [dieses
         Bewerbungsformular](https://forms.gle/tjqtduMpVhRpPDXx5) aus.
   videos:
-    - url: https://www.youtube.com/watch?v=yYomNE5TDvU
+    - url: https://www.youtube.com/embed/yYomNE5TDvU
       name: "Charity Royale Best of 2021 "
     - url: https://www.youtube.com/embed/6n2pAeFuhsc
       name: Charity Royale 2020 FAQs mit Veni
