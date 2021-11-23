@@ -592,8 +592,8 @@ faq:
       answer: Deine Spendennachricht wird als Alert im jeweiligen Live-Stream
         automatisch angezeigt.
   videos:
-    - url: https://www.youtube.com/embed/shnCxQK6Ehk
-      name: Charity Royale 2020 Promovideo
+    - url: https://www.youtube.com/watch?v=yYomNE5TDvU
+      name: "Charity Royale Best of 2021 "
     - url: https://www.youtube.com/embed/6n2pAeFuhsc
       name: Charity Royale 2020 FAQs mit Veni
 ---
