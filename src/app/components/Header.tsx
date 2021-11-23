@@ -137,12 +137,12 @@ const Header: React.FunctionComponent<HeaderProps> = ({ featuredStream, showDona
 								onLoad={onImageLoad}
 								style={{ display: !imageLoaded ? 'none' : 'flex', margin: 'auto' }}
 								width="150px"
-								src="/cr2020_logo_small.png"
-								alt="Charity Royale 2020 Logo"
+								src="/cr_logo_small.png"
+								alt="Charity Royale Logo"
 							/>
 						)}
 					</ClientLink>
-					<h1 style={{ textIndent: '-10000px', position: 'absolute' }}>Charity Royale 2020</h1>
+					<h1 style={{ textIndent: '-10000px', position: 'absolute' }}>Charity Royale</h1>
 				</StyledHeaderLeftItem>
 				<StyledHeaderCenterItem>
 					<MakeAWishLogoLink target="_bank" rel="noreferrer" href="https://www.make-a-wish.at/">

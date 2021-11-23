@@ -13,7 +13,7 @@ const StyledInternetExplorerNotSupported = styled.div`
 const InternetExplorerNotSupported: React.FunctionComponent = () => {
 	return (
 		<StyledInternetExplorerNotSupported>
-			<img width="225px" src="/Charity_Royale_RGB.png" alt="Charity Royale 2020" />
+			<img width="225px" src="/Charity_Royale_RGB.png" alt="Charity Royale Logo" />
 			<h1>Bitte nutze einen anderen Browser.</h1>
 			<p>
 				<strong>Internet Explorer</strong> wird{' '}

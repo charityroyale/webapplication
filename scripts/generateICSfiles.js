@@ -15,7 +15,7 @@ fs.readFile('./_cms/charity-royale.md', 'utf8', function (err, data) {
 		const endDate = new Date(startDate)
 		endDate.setUTCHours(23)
 		return {
-			title: `${stream.streamerName} - Charity Royale 2020`,
+			title: `${stream.streamerName} - Charity Royale 2021`,
 			description: stream.streamLink,
 			start: [
 				startDate.getFullYear(),

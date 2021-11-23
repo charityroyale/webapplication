@@ -220,7 +220,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	return (
 		<React.Fragment>
 			<Head>
-				<title>Charity Royale 2020 - {project.streamerName}</title>
+				<title>Charity Royale - {project.streamerName}</title>
 				<link rel="preload" as="document" href={`${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}`}></link>
 				<link
 					rel="preload"
@@ -240,7 +240,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 				/>
 				<meta property="og:image:width" content={'300'} key="ogimagewidth" />
 				<meta property="og:image:height" content={'300'} key="ogimageheight" />
-				<meta property="og:site_name" content={'Charity Royale 2020'} key="ogsitename" />
+				<meta property="og:site_name" content={'Charity Royale'} key="ogsitename" />
 				<meta property="og:title" content={`${project.streamerName}'s Spendenseite`} key="ogtitlestreamer" />
 				<meta property="og:type" content={'website'} key="ogtype" />
 				<meta property="og:locale" content={'de_AT'} key="oglocale" />
