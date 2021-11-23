@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react'
-import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
-import { useRouter } from 'next/router'
+import { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import DonationHeader from '../../app/components/DonationHeader'
 import DonationWidget from '../../app/components/DonationWidget/DonationWidget'
@@ -19,7 +18,7 @@ import { BsFillPeopleFill } from 'react-icons/bs'
 import { FaDove } from 'react-icons/fa'
 import { Line } from 'rc-progress'
 import { getPercentage } from '../../app/utils/commonUtils'
-import cmsContent, { MakeAWishProject, Upcoming } from '../../app/cms/cms'
+import cmsContent, { MakeAWishProject } from '../../app/cms/cms'
 import DonationWidgetCount from '../../app/components/DonationWidget/DonationWidgetCount'
 import DonationWidgetList, { List } from '../../app/components/DonationWidget/DonatorsWidgetList'
 
@@ -58,7 +57,7 @@ const TopPlaceMentItem = styled.div`
 `
 
 interface InitialDonationProps {
-	project: MakeAWishProject
+	project: MakeAWishProject | null
 }
 
 const getTopDonatorFirstColum = (index) => {
@@ -133,7 +132,8 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	let latestDonatorsList = new Array<List>()
 	let highestDonatorsList = new Array<List>()
 	const isMakeAWishDataAvailable = !makeAWish.isError && !makeAWish.isLoading
-	if (isMakeAWishDataAvailable) {
+
+	if (project && isMakeAWishDataAvailable && makeAWish.data.projects) {
 		makeAWishProject = makeAWish.data.projects[project.makeAWishProjectId]
 		latestDonatorsList = makeAWishProject.recent_donators.map((r) => ({
 			col_1: formatDateDefault(new Date(r.unix_timestamp * 1000)),
@@ -214,6 +214,10 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			setHasReachGoal(false)
 		}
 	}, [])
+
+	if (!project) {
+		return null
+	}
 
 	return (
 		<React.Fragment>
@@ -327,7 +331,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 }
 
 export const getStaticProps: GetStaticProps<InitialDonationProps> = async () => {
-	let project
+	let project: MakeAWishProject | undefined
 	for (const projectEl of cmsContent.makeAWishProjects) {
 		if (projectEl.makeAWishProjectId === '33') {
 			project = projectEl
@@ -336,7 +340,7 @@ export const getStaticProps: GetStaticProps<InitialDonationProps> = async () => 
 
 	return {
 		props: {
-			project: project,
+			project: typeof project === 'undefined' ? null : project,
 			featuredDonationLink: cmsContent.customDonationLink || cmsContent.featuredStream,
 		},
 	}

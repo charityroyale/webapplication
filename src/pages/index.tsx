@@ -56,11 +56,13 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 
 export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 	const schedule = cmsContent.upcoming
-	const twitchUsers = (await fetchTwitchUsersBySchedule(schedule)).data
+	const twitchUsers: TwitchUserDTO[] | undefined = (await fetchTwitchUsersBySchedule(schedule)).data
 
 	const twitchUsersDict: { [userid: string]: TwitchUserDTO } = {}
-	for (const twitchUser of twitchUsers) {
-		twitchUsersDict[twitchUser.login] = twitchUser
+	if (twitchUsers) {
+		for (const twitchUser of twitchUsers) {
+			twitchUsersDict[twitchUser.login] = twitchUser
+		}
 	}
 
 	for (const stream of schedule) {
