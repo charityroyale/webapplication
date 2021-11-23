@@ -74,7 +74,15 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 				<FooterListTitle>Jetzt spenden</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
-						<ClientLink href={`/donate/${featuredStream}`}>Spenden</ClientLink>
+						<ClientLink
+							href={
+								featuredStream === 'https://www.make-a-wish.at'
+									? 'https://www.make-a-wish.at'
+									: `/donate/${featuredStream}`
+							}
+						>
+							Spenden
+						</ClientLink>
 					</FooterListItem>
 					<FooterListItem>
 						<ClientLink href={'/faq'}>FAQ</ClientLink>

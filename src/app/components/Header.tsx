@@ -104,8 +104,18 @@ const DonationButton: React.FunctionComponent<DonationButtonProps> = ({
 	featuredStream,
 }: DonationButtonProps) => {
 	return (
-		<Link href={`/donate/${featuredStream}`}>
-			<DonateButton href={`/donate/${featuredStream}`} target={target} rel={target === '_blank' ? 'noreferrer' : ''}>
+		<Link
+			href={
+				featuredStream === 'https://www.make-a-wish.at' ? 'https://www.make-a-wish.at' : `/donate/${featuredStream}`
+			}
+		>
+			<DonateButton
+				href={
+					featuredStream === 'https://www.make-a-wish.at' ? 'https://www.make-a-wish.at' : `/donate/${featuredStream}`
+				}
+				target={target}
+				rel={target === '_blank' ? 'noreferrer' : ''}
+			>
 				<span>{text}</span>
 			</DonateButton>
 		</Link>
