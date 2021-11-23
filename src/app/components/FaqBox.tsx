@@ -2,11 +2,11 @@ import Link from 'next/link'
 import React from 'react'
 import { styled } from '../../styles/Theme'
 
-const FaqGrid = styled.div`
+const ButtonsGrid = styled.div`
 	grid-area: faq-box;
 	display: grid;
 	margin: auto;
-	grid-template-columns: minmax(auto, 300px);
+	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px);
 	grid-template-rows: 100px;
 	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 	padding: ${(p) => p.theme.space.xxl}px ${(p) => p.theme.space.xl}px 0 ${(p) => p.theme.space.xl}px;
@@ -18,13 +18,14 @@ const FaqGrid = styled.div`
 	}
 
 	${(p) => p.theme.media.phone} {
+		grid-template-columns: minmax(auto, 300px);
+		grid-template-rows: 100px 100px;
 		padding: 0;
 		padding-top: ${(p) => p.theme.space.xxl}px;
-		grid-gap: ${(p) => p.theme.gridGrap.phone}px;
 	}
 `
 
-const FaqButton = styled.a`
+const Button = styled.a`
 	width: 100%;
 	height: 100%;
 	border: 2px solid ${(p) => p.theme.color.charityTeal};
@@ -60,7 +61,7 @@ const FaqButton = styled.a`
 	}
 `
 
-const FaqGridButtonItem = styled.div`
+const ButtonItemWrapper = styled.div`
 	* {
 		width: 100%;
 		height: 100%;
@@ -71,16 +72,22 @@ const FaqGridButtonItem = styled.div`
 	}
 `
 
-const FaqBox: React.FunctionComponent = () => {
+const ButtonsBox: React.FunctionComponent = () => {
 	return (
-		<FaqGrid>
-			<FaqGridButtonItem>
+		<ButtonsGrid>
+			<ButtonItemWrapper>
+				<Button href="https://forms.gle/tjqtduMpVhRpPDXx5" target="_blank">
+					Mitmachen als Streamer
+				</Button>
+			</ButtonItemWrapper>
+
+			<ButtonItemWrapper>
 				<Link href="/faq">
-					<FaqButton href="/faq">Fragen & Antworten</FaqButton>
+					<Button href="/faq">Fragen & Antworten</Button>
 				</Link>
-			</FaqGridButtonItem>
-		</FaqGrid>
+			</ButtonItemWrapper>
+		</ButtonsGrid>
 	)
 }
 
-export default FaqBox
+export default ButtonsBox

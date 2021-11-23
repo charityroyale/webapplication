@@ -6,7 +6,7 @@ import PageWithLayoutType from '../app/types/PageWithLayout'
 import FeaturedStream from '../app/components/FeaturedStream'
 import UpcomingFeatures from '../app/components/UpcomingStreams'
 import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
-import FaqBox from '../app/components/FaqBox'
+import ButtonsBox from '../app/components/FaqBox'
 import cmsContent, { Upcoming } from '../app/cms/cms'
 import { TwitchUserDTO } from '../app/dto/TwitchUserDTO'
 
@@ -46,7 +46,7 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 				/>
 			</Head>
 			<>
-				<FaqBox />
+				<ButtonsBox />
 				<FeaturedStream twitchChannelName={featuredStream} youtubeUrl={featuredYoutubeStream} />
 				<UpcomingFeatures schedule={schedule} />
 			</>
