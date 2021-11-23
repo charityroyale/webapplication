@@ -65,10 +65,19 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 					<StyledUpcoming>{schedule.filter(isInTheFuture).map(createUpcomingStream)}</StyledUpcoming>
 				</>
 			)}
-			<StylePastStreamsHeader>
-				<StyleUpcomingStreamsTitle>Vergangene Streams</StyleUpcomingStreamsTitle>
-			</StylePastStreamsHeader>
-			<StyledPast>{schedule.filter(isInThePast).map(createUpcomingStream)}</StyledPast>
+			{schedule.filter(isInThePast).length > 0 && (
+				<>
+					<StylePastStreamsHeader>
+						<StyleUpcomingStreamsTitle>Vergangene Streams</StyleUpcomingStreamsTitle>
+					</StylePastStreamsHeader>
+					<StyledPast>{schedule.filter(isInThePast).map(createUpcomingStream)}</StyledPast>
+				</>
+			)}
+			{schedule.length === 0 && (
+				<StylePastStreamsHeader>
+					<StyleUpcomingStreamsTitle>Streams TBA</StyleUpcomingStreamsTitle>
+				</StylePastStreamsHeader>
+			)}
 		</React.Fragment>
 	)
 }
