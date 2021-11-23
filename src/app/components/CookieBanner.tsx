@@ -92,7 +92,7 @@ const CookieBanner: React.FunctionComponent = () => {
 
 	return isMounted && gaDisabled === undefined ? (
 		<CookieWrapper>
-			<p>Hilf uns die Charity Royale 2020 Website zu verbessern und erlaube uns Cookies zu verwenden.</p>
+			<p>Hilf uns die Charity Royale Website zu verbessern und erlaube uns Cookies zu verwenden.</p>
 			<CookieButtonWrapper>
 				<CookieButtonLink onClick={() => enable()}>Cookies nicht zulassen</CookieButtonLink>
 				<CookieButton onClick={() => disable()}>Cookies zulassen</CookieButton>
