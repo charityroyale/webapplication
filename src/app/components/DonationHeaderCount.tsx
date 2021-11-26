@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { getPercentage } from '../utils/commonUtils'
 import { styled } from '../../styles/Theme'
 import { formatMoneyWithSign } from '../utils/formatUtils'
-
+import { Text } from './Text'
 const DonationCountWrapper = styled.div`
 	display: flex;
 	justify-content: center;
@@ -40,7 +40,7 @@ const DonationCountCol = styled.div`
 	}
 `
 interface DonationCountBoxProps {
-	title: string
+	title: ReactNode | string
 	text: string
 }
 
@@ -71,13 +71,19 @@ const DonationHeaderCount: React.FunctionComponent<DonationHeaderCountProps> = (
 	return (
 		<DonationCountWrapper>
 			<DonationCountCol style={{ marginRight: '12px' }}>
-				<DonationCountBox title={'Gespendet'} text={formatMoneyWithSign(current_donation_count)} />
-				<DonationCountBox title={'Ziel'} text={formatMoneyWithSign(donation_goal)} />
+				<DonationCountBox
+					title={<Text content="totalDonationsSum" />}
+					text={formatMoneyWithSign(current_donation_count)}
+				/>
+				<DonationCountBox title={<Text content="totalDonationGoal" />} text={formatMoneyWithSign(donation_goal)} />
 			</DonationCountCol>
 
 			<DonationCountCol>
-				<DonationCountBox title={'Spender'} text={donations_count.toLocaleString('de-DE')} />
-				<DonationCountBox title={'Erreicht'} text={`${percentage}%`} />
+				<DonationCountBox
+					title={<Text content="totalDonatorsCount" />}
+					text={donations_count.toLocaleString('de-DE')}
+				/>
+				<DonationCountBox title={<Text content="totalDonationsProgress" />} text={`${percentage}%`} />
 			</DonationCountCol>
 		</DonationCountWrapper>
 	)

@@ -9,6 +9,7 @@ import { ThemeProvider } from 'styled-components'
 import { theme } from '../styles/Theme'
 import { useIsSSR } from '../app/hooks/useIsSSR'
 import { isClientSideIE } from '../app/utils/commonUtils'
+import { LanguageProvider } from '../app/provider/LanguageProvider'
 import InternetExplorerNotSupported from '../app/components/InternetExplorerNotSupported'
 
 Router.events.on('routeChangeStart', () => NProgress.start())
@@ -21,15 +22,17 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<React.Fragment>
 			<GlobalStyle />
-			<ThemeProvider theme={theme}>
-				{!isSSR && isClientSideIE() ? (
-					<InternetExplorerNotSupported />
-				) : (
-					<Layout {...pageProps}>
-						<Component {...pageProps} />
-					</Layout>
-				)}
-			</ThemeProvider>
+			<LanguageProvider>
+				<ThemeProvider theme={theme}>
+					{!isSSR && isClientSideIE() ? (
+						<InternetExplorerNotSupported />
+					) : (
+						<Layout {...pageProps}>
+							<Component {...pageProps} />
+						</Layout>
+					)}
+				</ThemeProvider>
+			</LanguageProvider>
 		</React.Fragment>
 	)
 }

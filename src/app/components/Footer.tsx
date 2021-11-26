@@ -1,6 +1,7 @@
 import React from 'react'
 import { styled } from '../../styles/Theme'
 import ClientLink from './ClientLink'
+import { Text } from './Text'
 import { AiFillHeart } from 'react-icons/ai'
 
 const FooterListTitle = styled.p`
@@ -71,7 +72,9 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 	return (
 		<StyledFooter>
 			<FooterLeftGridItem>
-				<FooterListTitle>Jetzt spenden</FooterListTitle>
+				<FooterListTitle>
+					<Text content="donateNowText" />
+				</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
 						<ClientLink
@@ -81,7 +84,7 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 									: `/donate/${featuredStream}`
 							}
 						>
-							Spenden
+							<Text content="donationButtonText" />
 						</ClientLink>
 					</FooterListItem>
 					<FooterListItem>
@@ -99,7 +102,9 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 				</FooterList>
 			</FooterLeftGridItem>
 			<FooterCenterGridItem>
-				<FooterListTitle>Veranstalter</FooterListTitle>
+				<FooterListTitle>
+					<Text content="organizersTitle" />
+				</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
 						<a target="_bank" rel="noreferrer" href={'https://willhaben.at/'}>
@@ -119,7 +124,9 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 				</FooterList>
 			</FooterCenterGridItem>
 			<FooterRightGridItem>
-				<FooterListTitle>Impressum</FooterListTitle>
+				<FooterListTitle>
+					<Text content="imprintTitle" />
+				</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
 						<a target="_bank" rel="noreferrer" href={'https://www.willhaben.at/iad/impressum'}>
@@ -128,11 +135,12 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 					</FooterListItem>
 					<FooterListItem>
 						<a target="_bank" rel="noreferrer" href={'https://www.willhaben.at/iad/datenschutzerklaerung'}>
-							Datenschutzerklärung
+							<Text content="privacyPolicyTitle" />
 						</a>
 					</FooterListItem>
 					<FooterListItem>
-						willhaben internet service GmbH & Co KG <br /> Landstraßer Hauptstraße 97-101 <br /> Bürozentrum 1 1030 Wien
+						willhaben internet service GmbH & Co KG <br /> Landstraßer Hauptstraße 97-101 <br /> Bürozentrum 1 1030{' '}
+						<Text content="viennaText" />
 					</FooterListItem>
 				</FooterList>
 			</FooterRightGridItem>

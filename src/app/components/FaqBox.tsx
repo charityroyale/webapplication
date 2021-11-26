@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { Text } from './Text'
 import { styled } from '../../styles/Theme'
 
 const ButtonsGrid = styled.div`
@@ -77,13 +78,15 @@ const ButtonsBox: React.FunctionComponent = () => {
 		<ButtonsGrid>
 			<ButtonItemWrapper>
 				<Button href="https://forms.gle/tjqtduMpVhRpPDXx5" target="_blank">
-					Mitmachen als Streamer
+					<Text content="applyAsStreamerCTA" />
 				</Button>
 			</ButtonItemWrapper>
 
 			<ButtonItemWrapper>
 				<Link href="/faq">
-					<Button href="/faq">Fragen & Antworten</Button>
+					<Button href="/faq">
+						<Text content="questionsAndAnswersCTA" />
+					</Button>
 				</Link>
 			</ButtonItemWrapper>
 		</ButtonsGrid>
