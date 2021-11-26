@@ -1,5 +1,5 @@
 ---
-title: Charity Royale
+title: Charity Royale 👑 Der Charity-Stream Adventkalender für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: https://www.youtube.com/embed/yYomNE5TDvU
 featuredStream: herrhaderer
