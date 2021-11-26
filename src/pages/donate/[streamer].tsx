@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
-import { useRouter } from 'next/router'
 import Head from 'next/head'
 import DonationHeader from '../../app/components/DonationHeader'
 import DonationWidget from '../../app/components/DonationWidget/DonationWidget'
@@ -22,6 +21,7 @@ import { getPercentage } from '../../app/utils/commonUtils'
 import cmsContent, { Upcoming } from '../../app/cms/cms'
 import DonationWidgetCount from '../../app/components/DonationWidget/DonationWidgetCount'
 import DonationWidgetList, { List } from '../../app/components/DonationWidget/DonatorsWidgetList'
+import { Text } from '../../app/components/Text'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
@@ -66,26 +66,26 @@ const getTopDonatorFirstColum = (index) => {
 		case 0: {
 			return (
 				<TopPlaceMentItem>
-					<ImTrophy color={'gold'} /> {index + 1}. Top-Spender
+					<ImTrophy color={'gold'} /> {index + 1}. <Text content="topDonatorText" />
 				</TopPlaceMentItem>
 			)
 		}
 		case 1: {
 			return (
 				<TopPlaceMentItem>
-					<ImTrophy color={'silver'} /> {index + 1}. Top-Spender
+					<ImTrophy color={'silver'} /> {index + 1}. <Text content="topDonatorText" />
 				</TopPlaceMentItem>
 			)
 		}
 		case 2: {
 			return (
 				<TopPlaceMentItem>
-					<ImTrophy color={'sandybrown'} /> {index + 1}. Top-Spender
+					<ImTrophy color={'sandybrown'} /> {index + 1}. <Text content="topDonatorText" />
 				</TopPlaceMentItem>
 			)
 		}
 		default: {
-			return `${index + 1}. Top-Spender`
+			return `${index + 1}. ${(<Text content="topDonatorText" />)}`
 		}
 	}
 }
@@ -121,12 +121,10 @@ const DonationStatNumbers = styled.span`
 `
 
 const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonationProps) => {
-	const router = useRouter()
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by form
 	const [iFrameLoading, setIFrameLoaded] = useState(true)
 	const [iFrameError, setIFrameError] = useState(false)
 	const isSSR = useIsSSR()
-	const { streamer } = router.query
 
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 
@@ -145,8 +143,8 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 
 		while (latestDonatorsList.length < 10) {
 			latestDonatorsList.push({
-				col_1: 'Hier könnte',
-				col_2: 'dein Name stehen',
+				col_1: <Text content="hereCouldYourNameTextPart1" />,
+				col_2: <Text content="hereCouldYourNameTextPart2" />,
 				col_3: '0,00',
 			})
 		}
@@ -159,8 +157,8 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 
 		while (highestDonatorsList.length < 10) {
 			highestDonatorsList.push({
-				col_1: 'Hier könnte',
-				col_2: 'dein Name stehen',
+				col_1: <Text content="hereCouldYourNameTextPart1" />,
+				col_2: <Text content="hereCouldYourNameTextPart2" />,
 				col_3: '0,00',
 			})
 		}
@@ -260,7 +258,9 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 				date={project.date}
 			>
 				<React.Fragment>
-					<DonationStatsTitle>Spendenübersicht</DonationStatsTitle>
+					<DonationStatsTitle>
+						<Text content="donationOverViewText" />
+					</DonationStatsTitle>
 					<DonationSubPageStats>
 						<div style={{ marginRight: '20px' }}>
 							<FaDove color="white" size="40" />
@@ -268,7 +268,8 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 
 						<DonationStatsWidget>
 							<p>
-								Gespendet <DonationStatNumbers>{formatMoneyWithSign(donationSum)}</DonationStatNumbers>
+								<Text content="donationPrependText" />{' '}
+								<DonationStatNumbers>{formatMoneyWithSign(donationSum)}</DonationStatNumbers>
 							</p>
 							<Line
 								style={{ padding: '4px 0' }}
@@ -279,7 +280,8 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 								strokeColor={hasReachedGoal && !makeAWish.isLoading ? 'green' : 'gold'}
 							/>
 							<DonationStatsWidgetGoal>
-								Ziel <DonationStatNumbers>{formatMoneyWithSign(donationGoal)}</DonationStatNumbers>
+								<Text content="donationGoal" />{' '}
+								<DonationStatNumbers>{formatMoneyWithSign(donationGoal)}</DonationStatNumbers>
 							</DonationStatsWidgetGoal>
 						</DonationStatsWidget>
 					</DonationSubPageStats>
@@ -289,18 +291,22 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 						</div>
 
 						<DonationStatsWidget>
-							Spender <DonationStatNumbers>{donatorsCount}</DonationStatNumbers>
+							<Text content="donatorNameText" /> <DonationStatNumbers>{donatorsCount}</DonationStatNumbers>
 						</DonationStatsWidget>
 					</DonationSubPageStats>
 				</React.Fragment>
 			</DonationHeader>
 
 			<DonationIFrameWrapper>
-				<DonationFormHeader>Spendenformular</DonationFormHeader>
+				<DonationFormHeader>
+					<Text content="donationformTitle" />
+				</DonationFormHeader>
 
 				{iFrameLoading && <Skeleton height={'843px'} />}
 				{iFrameError && (
-					<IFrameLoadErrorMessage>Leider ist ein Fehler beim laden des Formular aufgetreten.</IFrameLoadErrorMessage>
+					<IFrameLoadErrorMessage>
+						<Text content="donatioNFormLoadErrorText" />
+					</IFrameLoadErrorMessage>
 				)}
 				{!isSSR && (
 					<StyledDonationFormIframe
@@ -321,12 +327,12 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 				/>
 			</StyledDonationSumWidget>
 			<StyledDonatorsWidget>
-				<DonationWidget title={'TOP-Spender'}>
+				<DonationWidget title={<Text content="topDonatorText" />}>
 					<DonationWidgetList list={highestDonatorsList} />
 				</DonationWidget>
 			</StyledDonatorsWidget>
 			<StyledLatestDonatorssWidget>
-				<DonationWidget title={'Letzte Spender'}>
+				<DonationWidget title={<Text content="latestDonatorsTitle" />}>
 					<DonationWidgetList list={latestDonatorsList} />
 				</DonationWidget>
 			</StyledLatestDonatorssWidget>

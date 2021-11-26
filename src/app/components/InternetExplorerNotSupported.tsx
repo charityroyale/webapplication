@@ -30,6 +30,23 @@ const InternetExplorerNotSupported: React.FunctionComponent = () => {
 				<br />
 				Microsoft empfiehlt die Nutzung von <strong>Microsoft Edge</strong>.
 			</p>
+
+			<h1>Please use a different browser.</h1>
+			<p>
+				<strong>Internet Explorer</strong> is{' '}
+				<strong>
+					<a
+						href="https://docs.microsoft.com/en-us/lifecycle/announcements/internet-explorer-11-end-of-support"
+						target={'_blank'}
+						rel="noreferrer"
+					>
+						not in active development anymore
+					</a>
+					,
+				</strong>
+				<br />
+				Microsoft recommends <strong>Microsoft Edge</strong>.
+			</p>
 		</StyledInternetExplorerNotSupported>
 	)
 }

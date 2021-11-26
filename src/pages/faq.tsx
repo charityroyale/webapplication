@@ -7,6 +7,7 @@ import { styled } from '../styles/Theme'
 import { ResponsiveVideo } from '../app/components/ResponsiveVideo'
 import cmsContent, { FAQEntry, FAQVideoEntry } from '../app/cms/cms'
 import ReactMarkdown from 'react-markdown'
+import { Text } from '../app/components/Text'
 
 const FaqMainWrapper = styled.div`
 	margin: auto;
@@ -122,7 +123,9 @@ const FaqPage: NextPage<InitialFaqProps> = ({ questions, videos }: InitialFaqPro
 						<ResponsiveVideo key={i} url={video.url} title={video.name}></ResponsiveVideo>
 					))}
 				</FaqVideoSection>
-				<FaqContentHeader>Antworten und Fragen zum Projekt und spenden</FaqContentHeader>
+				<FaqContentHeader>
+					<Text content="faqPageTitle" />
+				</FaqContentHeader>
 				<FaqContenSection>
 					{questions.map((question, i) => (
 						<FaqQuestionBox key={i} question={question.question} answer={question.answer} />

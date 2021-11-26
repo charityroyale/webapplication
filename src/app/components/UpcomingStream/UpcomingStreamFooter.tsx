@@ -10,6 +10,7 @@ import { formatDate } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 import { useInView } from 'react-intersection-observer'
 import { HiOutlineHeart } from 'react-icons/hi'
+import { Text } from '../Text'
 
 const StyledUpcomingStreamFooter = styled.div`
 	display: flex;
@@ -171,8 +172,12 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 							<HiOutlineHeart size={20} />
 						</HeartWrapper>
 						<span>
-							<DescriptionTextMobile>Wunsch</DescriptionTextMobile>
-							<DescriptionTextTabletDesktop>Herzenswunsch</DescriptionTextTabletDesktop>{' '}
+							<DescriptionTextMobile>
+								<Text content="wishTitle" />
+							</DescriptionTextMobile>
+							<DescriptionTextTabletDesktop>
+								<Text content="wishByHeartTitle" />
+							</DescriptionTextTabletDesktop>
 							<Link href={donateLinkHref}>
 								<a href={donateLinkHref}>{makeAWish.childname}</a>
 							</Link>
@@ -193,7 +198,9 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 			</UpcomingStreamerFooterLeft>
 			<UpcomingStreamerFooterRight>
 				<Link href={donateLinkHref}>
-					<UpcomingStreamerDonationLink href={donateLinkHref}>SPENDEN</UpcomingStreamerDonationLink>
+					<UpcomingStreamerDonationLink href={donateLinkHref}>
+						<Text content="donateText" />
+					</UpcomingStreamerDonationLink>
 				</Link>
 			</UpcomingStreamerFooterRight>
 		</StyledUpcomingStreamFooter>

@@ -12,6 +12,8 @@ import useMakeAWish from '../hooks/useMakeAWish'
 import ClientLink from './ClientLink'
 import { styled } from '../../styles/Theme'
 import Link from 'next/link'
+import { LanguageSelector } from './LanguageSelector'
+import { Text } from './Text'
 
 const StyledHeaderContent = styled.div`
 	grid-area: header-row;
@@ -94,31 +96,68 @@ const DonateButton = styled.a`
 
 interface DonationButtonProps {
 	featuredStream: string
-	text: string
 	target?: string
 }
 
+const DonationButtonWrapper = styled.div`
+	display: block;
+	width: 100%;
+
+	${(p) => p.theme.media.phone} {
+		margin-bottom: 16px;
+	}
+	${(p) => p.theme.media.tablet} {
+		display: flex;
+	}
+	${(p) => p.theme.media.desktop} {
+		display: flex;
+	}
+
+	position: relative;
+`
+
+const LanguageSelectWrapper = styled.div`
+	& > select {
+		background-color: ${(p) => p.theme.color.veniPurple};
+		color: ${(p) => p.theme.color.white};
+		padding: 5px;
+		position: absolute;
+		border: 1px solid transparent;
+		bottom: -26px;
+
+		${(p) => p.theme.media.phone} {
+			bottom: -36px;
+		}
+		right: 0;
+		letter-spacing: 0.75px;
+	}
+`
+
 const DonationButton: React.FunctionComponent<DonationButtonProps> = ({
 	target,
-	text,
 	featuredStream,
 }: DonationButtonProps) => {
 	return (
-		<Link
-			href={
-				featuredStream === 'https://www.make-a-wish.at' ? 'https://www.make-a-wish.at' : `/donate/${featuredStream}`
-			}
-		>
-			<DonateButton
+		<DonationButtonWrapper>
+			<Link
 				href={
 					featuredStream === 'https://www.make-a-wish.at' ? 'https://www.make-a-wish.at' : `/donate/${featuredStream}`
 				}
-				target={target}
-				rel={target === '_blank' ? 'noreferrer' : ''}
 			>
-				<span>{text}</span>
-			</DonateButton>
-		</Link>
+				<DonateButton
+					href={
+						featuredStream === 'https://www.make-a-wish.at' ? 'https://www.make-a-wish.at' : `/donate/${featuredStream}`
+					}
+					target={target}
+					rel={target === '_blank' ? 'noreferrer' : ''}
+				>
+					<span>{<Text content="donateText" />}</span>
+				</DonateButton>
+			</Link>
+			<LanguageSelectWrapper>
+				<LanguageSelector />
+			</LanguageSelectWrapper>
+		</DonationButtonWrapper>
 	)
 }
 
@@ -167,6 +206,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({ featuredStream, showDona
 						)}
 					</MakeAWishLogoLink>
 				</StyledHeaderCenterItem>
+
 				{showDonationButton && (
 					<StyledHeaderRightItem>
 						<DonationHeaderCounterAndButtonWrapper>
@@ -177,7 +217,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({ featuredStream, showDona
 								}
 								donations_count={makeAWish.isLoading || makeAWish.isError ? 0 : makeAWish.data.total_donation_count}
 							></DonationHeaderCount>
-							<DonationButton text={'SPENDEN'} featuredStream={featuredStream}></DonationButton>
+							<DonationButton featuredStream={featuredStream}></DonationButton>
 						</DonationHeaderCounterAndButtonWrapper>
 					</StyledHeaderRightItem>
 				)}

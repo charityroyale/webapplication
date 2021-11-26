@@ -31,7 +31,7 @@ const DonationDonatorPlaceAndName = styled.div`
 
 export interface List {
 	col_1: string | ReactElement
-	col_2: string
+	col_2: string | ReactElement
 	col_3: string
 }
 

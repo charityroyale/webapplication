@@ -8,14 +8,15 @@ import ClientLink from '../ClientLink'
 import { formatDate, formatMoneyWithSign } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 import { UpcomingStreamFooter } from './UpcomingStreamFooter'
-import { MakeAWishProject, Upcoming } from '../../cms/cms'
+import { Upcoming } from '../../cms/cms'
 import { useInView } from 'react-intersection-observer'
+import { Text } from '../Text'
 
-const StreamerImageWrapper = styled.div`
+const StreamerImageWrapper = styled.div<{ text: string }>`
 	position: relative;
 
 	&:before {
-		content: 'Jetzt für das Projekt spenden';
+		content: ${(p) => p.text};
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -115,7 +116,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 				<span>{formatDate(new Date(date))}</span>
 			</UpcomingStreamDate>
 			<ClientLink href={donateLinkHref} ariaLabel={`Streamer ${streamerName} Logo`}>
-				<StreamerImageWrapper>
+				<StreamerImageWrapper text={(<Text content="donateForStreamerNowText" />).toString()}>
 					{!imageLoaded && <Skeleton height={300} />}
 					{!isSSR && (
 						<StyledUpcomingStreamPlaceholderImage
