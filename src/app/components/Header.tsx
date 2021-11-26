@@ -151,7 +151,7 @@ const DonationButton: React.FunctionComponent<DonationButtonProps> = ({
 					target={target}
 					rel={target === '_blank' ? 'noreferrer' : ''}
 				>
-					<span>{<Text content="donationButtonText" />}</span>
+					<span>{<Text content="donateText" />}</span>
 				</DonateButton>
 			</Link>
 			<LanguageSelectWrapper>

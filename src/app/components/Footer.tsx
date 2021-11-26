@@ -84,7 +84,7 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 									: `/donate/${featuredStream}`
 							}
 						>
-							<Text content="donationButtonText" />
+							<Text content="donateText" />
 						</ClientLink>
 					</FooterListItem>
 					<FooterListItem>

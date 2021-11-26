@@ -3,6 +3,7 @@ import { GiChickenOven } from 'react-icons/gi'
 import { styled } from '../../../styles/Theme'
 import { getPercentage } from '../../utils/commonUtils'
 import { formatMoneyWithSign } from '../../utils/formatUtils'
+import { Text } from '../Text'
 
 const GoalReachedTitle = styled.p`
 	text-align: center;
@@ -46,13 +47,17 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 			{hasReachedGoal && (
 				<div style={{ padding: '0 18px 18px 18px', textAlign: 'center' }}>
 					<GiChickenOven size={125} color={'#ffc439'} />
-					<GoalReachedTitle>Winner Winner Chicken Dinner, Spendenziel erreicht!</GoalReachedTitle>
+					<GoalReachedTitle>
+						<Text content="donationWidgetGoalReachedTitle" />
+					</GoalReachedTitle>
 					<GoalReachedText>
-						Die Spendendifferenz von <GoalReachCount>{formatMoneyWithSign(absDiff)}</GoalReachCount> wird an unerfüllte{' '}
+						<Text content="donationWidgetGoalReachedTextPart1" />{' '}
+						<GoalReachCount>{formatMoneyWithSign(absDiff)}</GoalReachCount>{' '}
+						<Text content="donationWidgetGoalReachedTextPart2" />{' '}
 						<a target="_bank" rel="noreferrer" href={'https://www.make-a-wish.at/'}>
 							Make-A-Wish
 						</a>{' '}
-						Herzenswünsche gespendet.
+						<Text content="donationWidgetGoalReachedTextPart3" />
 					</GoalReachedText>
 				</div>
 			)}

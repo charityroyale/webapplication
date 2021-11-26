@@ -3,12 +3,11 @@ import { createContext, FunctionComponent, useState } from 'react'
 import en from '../languages/en.json'
 import de from '../languages/de.json'
 
-export interface DictionairyEntry {
-	donationButtonText: string
-}
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
+export interface DictionairyEntry {}
 
 export type DictionairyEntryType =
-	| 'donationButtonText'
+	| 'donateText'
 	| 'totalDonationsProgress'
 	| 'totalDonationsSum'
 	| 'totalDonatorsCount'
@@ -20,6 +19,31 @@ export type DictionairyEntryType =
 	| 'imprintTitle'
 	| 'privacyPolicyTitle'
 	| 'viennaText'
+	| 'cookieDescription'
+	| 'cookieAcceptCTA'
+	| 'cookieDeclineCTA'
+	| 'donateForStreamerNowText'
+	| 'wishByHeartTitle'
+	| 'wishTitle'
+	| 'donationWidgetGoalReachedTitle'
+	| 'donationWidgetGoalReachedTextPart1'
+	| 'donationWidgetGoalReachedTextPart2'
+	| 'donationWidgetGoalReachedTextPart3'
+	| 'scheduledStreamsTitle'
+	| 'downloadScheduleTitle'
+	| 'downloadCTA'
+	| 'pastStreamsTitle'
+	| 'topDonatorText'
+	| 'hereCouldYourNameTextPart1'
+	| 'hereCouldYourNameTextPart2'
+	| 'donationOverViewText'
+	| 'donationPrependText'
+	| 'donationGoal'
+	| 'donatorNameText'
+	| 'donationformTitle'
+	| 'donatioNFormLoadErrorText'
+	| 'latestDonatorsTitle'
+	| 'faqPageTitle'
 
 type LanguageTypes = 'en' | 'de'
 type LanguageDictionairyType = { [key in LanguageTypes]: DictionairyEntry }

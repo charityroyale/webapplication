@@ -10,6 +10,7 @@ import {
 import useMakeAWish from '../hooks/useMakeAWish'
 import { Upcoming } from '../cms/cms'
 import UpcomingStream from './UpcomingStream/UpcomingStream'
+import { Text } from './Text'
 
 interface UpcomingStreams {
 	schedule: Upcoming[]
@@ -53,11 +54,13 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 			{schedule.filter(isInTheFuture).length > 0 && (
 				<>
 					<StyleUpcomingStreamsHeader>
-						<StyleUpcomingStreamsTitle>Programm</StyleUpcomingStreamsTitle>
+						<StyleUpcomingStreamsTitle>
+							<Text content="scheduledStreamsTitle" />
+						</StyleUpcomingStreamsTitle>
 						<p>
-							Aktuelles Programm als Kalenderdatei{' '}
+							<Text content="downloadScheduleTitle" />{' '}
 							<StyledKalenderDownloadLink aria-describedby="Programm als Kalender" href={`/calendar/all.ics`}>
-								herunterladen
+								<Text content="downloadCTA" />
 							</StyledKalenderDownloadLink>
 							.
 						</p>
@@ -68,7 +71,9 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 			{schedule.filter(isInThePast).length > 0 && (
 				<>
 					<StylePastStreamsHeader>
-						<StyleUpcomingStreamsTitle>Vergangene Streams</StyleUpcomingStreamsTitle>
+						<StyleUpcomingStreamsTitle>
+							<Text content="pastStreamsTitle" />
+						</StyleUpcomingStreamsTitle>
 					</StylePastStreamsHeader>
 					<StyledPast>{schedule.filter(isInThePast).map(createUpcomingStream)}</StyledPast>
 				</>

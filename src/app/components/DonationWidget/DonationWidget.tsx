@@ -16,7 +16,7 @@ const StyledWidgetContent = styled.div`
 `
 
 interface DonationWidgetProps {
-	title: string
+	title: string | React.ReactNode
 	children: React.ReactNode
 }
 

@@ -2,6 +2,7 @@ import React, { useCallback, useEffect } from 'react'
 import { useState } from 'react'
 import Cookies from 'universal-cookie'
 import { styled } from '../../styles/Theme'
+import { Text } from './Text'
 const cookies = new Cookies()
 const gaDisableCookieName = `ga-disable-G-2LB5JE6MLN`
 
@@ -92,10 +93,16 @@ const CookieBanner: React.FunctionComponent = () => {
 
 	return isMounted && gaDisabled === undefined ? (
 		<CookieWrapper>
-			<p>Hilf uns die Charity Royale Website zu verbessern und erlaube uns Cookies zu verwenden.</p>
+			<p>
+				<Text content="cookieDescription" />
+			</p>
 			<CookieButtonWrapper>
-				<CookieButtonLink onClick={() => enable()}>Cookies nicht zulassen</CookieButtonLink>
-				<CookieButton onClick={() => disable()}>Cookies zulassen</CookieButton>
+				<CookieButtonLink onClick={() => disable()}>
+					<Text content="cookieDeclineCTA" />
+				</CookieButtonLink>
+				<CookieButton onClick={() => enable()}>
+					<Text content="cookieAcceptCTA" />
+				</CookieButton>
 			</CookieButtonWrapper>
 		</CookieWrapper>
 	) : null
