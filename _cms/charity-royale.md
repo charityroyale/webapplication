@@ -1,11 +1,36 @@
 ---
 title: Charity Royale 👑 Der Charity-Stream Adventkalender für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredYoutubeStream: https://www.youtube.com/embed/yYomNE5TDvU
 featuredStream: herrhaderer
-customDonationLink: https://www.make-a-wish.at
-upcoming: []
 makeAWishProjects: []
+featuredYoutubeStream: https://www.youtube.com/embed/yYomNE5TDvU
+customDonationLink: https://www.make-a-wish.at
+upcoming:
+  - date: 2021-11-27T09:49:26.099Z
+    streamerName: Veni
+    streamerChannel: veni
+    streamLink: https://www.twitch.tv/veni
+    wishes:
+      - emelia-iphone
+      - arthur-raumkapsel
+    imgUrl: /uploads/charity_royale_rgb.png
+wishes:
+  - slug: emelia-iphone
+    tagline: Emilia möchte ein iPhone
+    childname: Emelia
+    descripion: Emelia und der iPhone Wunsch Emelia und der iPhone Wunsch Emelia und
+      der iPhone Wunsch Emelia und der iPhone Wunsch
+    donationGoal: "900"
+    streamers:
+      - veni
+  - slug: arthur-raumkapsel
+    childname: Arthur
+    tagline: echte Raumkapsel sehen
+    donationGoal: "2000"
+    streamers:
+      - veni
+    descripion: echte Raumkapsel sehen echte Raumkapsel sehen echte Raumkapsel sehen
+      echte Raumkapsel sehen
 faq:
   questions:
     - question: Was ist Charity Royale?
