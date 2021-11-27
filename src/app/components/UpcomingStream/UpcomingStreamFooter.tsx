@@ -136,7 +136,7 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 	streamerName,
 	streamLink,
 	streamerChannel,
-	makeAWish,
+	wishes,
 	imgUrl,
 	customLink,
 	date,
@@ -171,7 +171,10 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 						<HeartWrapper>
 							<HiOutlineHeart size={20} />
 						</HeartWrapper>
-						<span>
+
+						{/*
+
+<span>
 							<DescriptionTextMobile>
 								<Text content="wishTitle" />
 							</DescriptionTextMobile>
@@ -182,6 +185,7 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 								<a href={donateLinkHref}>{makeAWish.childname}</a>
 							</Link>
 						</span>
+							*/}
 					</StyledDescriptionText>
 					<UpcomingStreamTwitchLink>
 						<RiTwitchFill size={20} style={{ marginRight: '4px' }} />

@@ -1,5 +1,5 @@
 import { makeAWishAPI } from '../../config'
-import { Upcoming } from '../cms/cms'
+import { CmsUpcomingStreamer } from '../cms/cms'
 import { MakeWishDonationsDTO } from '../dto/MakeAWishDonationsDTO'
 import { TwitchStreamsDTO } from '../dto/TwitchStreamsDTO'
 import { TwitchUsersDTO } from '../dto/TwitchUsersDTO'
@@ -41,7 +41,7 @@ export function getLoginDisplayNameFromTwitchURI(twitchURI: string): string {
 	return splitURI[splitURI.length - 1]
 }
 
-export async function fetchTwitchUsersBySchedule(schedule: Upcoming[]): Promise<TwitchUsersDTO> {
+export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]): Promise<TwitchUsersDTO> {
 	try {
 		const loginIds = []
 		for (const el of schedule) {
@@ -61,7 +61,7 @@ export async function fetchTwitchUsersBySchedule(schedule: Upcoming[]): Promise<
 	}
 }
 
-export async function fetchTwitchStreamBySchedule(schedule: Upcoming[]): Promise<TwitchStreamsDTO> {
+export async function fetchTwitchStreamBySchedule(schedule: CmsUpcomingStreamer[]): Promise<TwitchStreamsDTO> {
 	try {
 		const loginIds = []
 		for (const el of schedule) {

@@ -8,7 +8,7 @@ import ClientLink from '../ClientLink'
 import { formatDate, formatMoneyWithSign } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 import { UpcomingStreamFooter } from './UpcomingStreamFooter'
-import { Upcoming } from '../../cms/cms'
+import { CmsUpcomingStreamer } from '../../cms/cms'
 import { useInView } from 'react-intersection-observer'
 import { Text } from '../Text'
 
@@ -91,7 +91,7 @@ export const DoneStreamDonation = styled.div<{ projectDone: boolean }>`
 	display: ${(p) => (p.projectDone ? 'block' : 'none')};
 `
 
-export interface UpcomingStreamProps extends Upcoming {
+export interface UpcomingStreamProps extends CmsUpcomingStreamer {
 	donationGoal: string
 	donationProgress: string
 	projectDone: boolean

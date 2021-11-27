@@ -1,27 +1,37 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
-import DonationHeader from '../../app/components/DonationHeader'
-import DonationWidget from '../../app/components/DonationWidget/DonationWidget'
-import { StyledDonationSumWidget, StyledDonatorsWidget, StyledLatestDonatorssWidget } from '../../styles/common.styles'
-import DonationLayout from '../../app/layouts/DonationLayout'
-import PageWithLayoutType from '../../app/types/PageWithLayout'
-import { makeAWishAPI } from '../../config'
-import useMakeAWish from '../../app/hooks/useMakeAWish'
-import { MakeWishDonationProjectDTO } from '../../app/dto/MakeAWishDonationsDTO'
-import { formatDateDefault, formatMoneyWithSign } from '../../app/utils/formatUtils'
-import { styled } from '../../styles/Theme'
+import DonationHeader from '../../../app/components/DonationHeader'
+import DonationWidget from '../../../app/components/DonationWidget/DonationWidget'
+import {
+	StyledDonationSumWidget,
+	StyledDonatorsWidget,
+	StyledLatestDonatorssWidget,
+} from '../../../styles/common.styles'
+import DonationLayout from '../../../app/layouts/DonationLayout'
+import PageWithLayoutType from '../../../app/types/PageWithLayout'
+import { makeAWishAPI } from '../../../config'
+import useMakeAWish from '../../../app/hooks/useMakeAWish'
+import { MakeWishDonationProjectDTO } from '../../../app/dto/MakeAWishDonationsDTO'
+import { formatDateDefault, formatMoneyWithSign } from '../../../app/utils/formatUtils'
+import { styled } from '../../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
-import { useIsSSR } from '../../app/hooks/useIsSSR'
+import { useIsSSR } from '../../../app/hooks/useIsSSR'
 import { ImTrophy } from 'react-icons/im'
-import { BsFillPeopleFill } from 'react-icons/bs'
+import { BsArrowReturnRight, BsFillPeopleFill } from 'react-icons/bs'
 import { FaDove } from 'react-icons/fa'
 import { Line } from 'rc-progress'
-import { getPercentage } from '../../app/utils/commonUtils'
-import cmsContent, { Upcoming } from '../../app/cms/cms'
-import DonationWidgetCount from '../../app/components/DonationWidget/DonationWidgetCount'
-import DonationWidgetList, { List } from '../../app/components/DonationWidget/DonatorsWidgetList'
-import { Text } from '../../app/components/Text'
+import { getPercentage } from '../../../app/utils/commonUtils'
+import cmsContent, {
+	MakeAWishWish,
+	CmsUpcomingStreamer,
+	paths,
+	streamerWishes,
+	DonationPageProps,
+} from '../../../app/cms/cms'
+import DonationWidgetCount from '../../../app/components/DonationWidget/DonationWidgetCount'
+import DonationWidgetList, { List } from '../../../app/components/DonationWidget/DonatorsWidgetList'
+import { Text } from '../../../app/components/Text'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
@@ -58,7 +68,7 @@ const TopPlaceMentItem = styled.div`
 `
 
 interface InitialDonationProps {
-	project: Upcoming
+	project: DonationPageProps
 }
 
 const getTopDonatorFirstColum = (index) => {
@@ -134,7 +144,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	let highestDonatorsList = new Array<List>()
 	const isMakeAWishDataAvailable = !makeAWish.isError && !makeAWish.isLoading
 	if (isMakeAWishDataAvailable) {
-		makeAWishProject = makeAWish.data.projects[project.makeAWish.makeAWishProjectId]
+		makeAWishProject = makeAWish.data.projects[project.streamer.streamerName.toLocaleLowerCase()] // fix
 		latestDonatorsList = makeAWishProject.recent_donators.map((r) => ({
 			col_1: formatDateDefault(new Date(r.unix_timestamp * 1000)),
 			col_2: r.name,
@@ -218,8 +228,12 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	return (
 		<React.Fragment>
 			<Head>
-				<title>Charity Royale - {project.streamerName}</title>
-				<link rel="preload" as="document" href={`${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}`}></link>
+				<title>Charity Royale - {project.streamer.streamerName}</title>
+				<link
+					rel="preload"
+					as="document"
+					href={`${makeAWishAPI.donationFormURL}${project.streamer.streamerName}/${project.wish.slug}`}
+				></link>
 				<link
 					rel="preload"
 					as="script"
@@ -239,7 +253,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 				<meta property="og:image:width" content={'300'} key="ogimagewidth" />
 				<meta property="og:image:height" content={'300'} key="ogimageheight" />
 				<meta property="og:site_name" content={'Charity Royale'} key="ogsitename" />
-				<meta property="og:title" content={`${project.streamerName}'s Spendenseite`} key="ogtitlestreamer" />
+				<meta property="og:title" content={`${project.streamer.streamerName}'s Spendenseite`} key="ogtitlestreamer" />
 				<meta property="og:type" content={'website'} key="ogtype" />
 				<meta property="og:locale" content={'de_AT'} key="oglocale" />
 				<meta property="fb:app_id" content={process.env.FB_ID} key="fbappid" />
@@ -251,11 +265,11 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			</Head>
 
 			<DonationHeader
-				streamLink={project.streamLink}
-				streamerName={project.streamerName}
-				title={project.makeAWish.tagline}
-				description={project.makeAWish.descripion}
-				date={project.date}
+				streamLink={project.streamer.streamLink}
+				streamerName={project.streamer.streamerName}
+				title={project.streamer.streamerChannel}
+				description={project.streamer.streamerChannel}
+				date={project.streamer.date}
 			>
 				<React.Fragment>
 					<DonationStatsTitle>
@@ -314,7 +328,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 						onLoad={iFrameLoaded}
 						onError={iFrameLoadedError}
 						id="iframe"
-						src={`${makeAWishAPI.donationFormURL}${project.makeAWishProjectId}`}
+						src={`${makeAWishAPI.donationFormURL}${project.streamer}/${project.wish.slug}`}
 						title="Spendenformular"
 					/>
 				)}
@@ -340,46 +354,24 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	)
 }
 
-const getUpcomingForStreamer = (streamer: string) => {
-	let upcoming = getUpcomingFromCustomLink(streamer)
-	if (upcoming === undefined) {
-		upcoming = getUpcomingFromStreamerChannel(streamer)
-	}
-
-	return upcoming
-}
-
-const getUpcomingFromCustomLink = (streamer: string) => {
-	for (const stream of cmsContent.upcoming) {
-		if (stream.customLink === streamer) {
-			return stream
-		}
-	}
-}
-
-const getUpcomingFromStreamerChannel = (streamer: string) => {
-	for (const stream of cmsContent.upcoming) {
-		if (!stream.customLink && stream.streamerChannel === streamer) {
-			return stream
-		}
-	}
-}
-
 export const getStaticProps: GetStaticProps<InitialDonationProps> = async ({ params }) => {
 	const streamer = params.streamer as string
+	const wishSlug = params.wishSlug as string
+
+	const donationPageKey = streamer + wishSlug
 
 	return {
 		props: {
-			project: getUpcomingForStreamer(streamer),
+			project: streamerWishes[donationPageKey],
 			featuredDonationLink: cmsContent.customDonationLink || cmsContent.featuredStream,
 		},
 	}
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-	const upcoming = cmsContent.upcoming
+	console.log(paths)
 	return {
-		paths: upcoming.map((u) => ({ params: { streamer: u.customLink || u.streamerChannel } })),
+		paths,
 		fallback: false,
 	}
 }
