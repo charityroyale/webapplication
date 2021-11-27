@@ -144,10 +144,13 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 
 	const makeAWish = useMakeAWish()
-	let makeAWishProject: MakeAWishStreamerDTO
+	let makeAWishProject: MakeAWishStreamerDTO | undefined
 	let latestDonatorsList = new Array<List>()
 	let highestDonatorsList = new Array<List>()
-	const isMakeAWishDataAvailable = !makeAWish.isError && !makeAWish.isLoading
+	const isMakeAWishDataAvailable =
+		!makeAWish.isError &&
+		!makeAWish.isLoading &&
+		makeAWish.data.streamers[project.streamer.streamerName.toLocaleLowerCase()]
 	if (isMakeAWishDataAvailable) {
 		makeAWishProject =
 			makeAWish.data.streamers[project.streamer.streamerName.toLocaleLowerCase()].wishes[project.wish.slug]

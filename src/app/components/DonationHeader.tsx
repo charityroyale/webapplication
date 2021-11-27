@@ -140,7 +140,7 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 					</DonationHeaderStreamLink>
 				)}
 
-				{wishes && wishes.length > 0 && (
+				{wishes && wishes.length > 1 && (
 					<DonationHeaderStreamLink>
 						<BiDonateHeart size={20} style={{ marginRight: '8px', marginLeft: '2px' }} />
 						<DonationPageNavigation>

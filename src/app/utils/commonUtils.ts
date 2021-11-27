@@ -1,6 +1,6 @@
 import { makeAWishAPI } from '../../config'
 import { CmsUpcomingStreamer } from '../cms/cms'
-import { MakeWishDonationsDTO } from '../dto/MakeAWishDonationsDTO'
+import { MakeAWishInfoJsonDTO } from '../dto/MakeAWishDonationsDTO'
 import { TwitchStreamsDTO } from '../dto/TwitchStreamsDTO'
 import { TwitchUsersDTO } from '../dto/TwitchUsersDTO'
 
@@ -81,10 +81,10 @@ export async function fetchTwitchStreamBySchedule(schedule: CmsUpcomingStreamer[
 	}
 }
 
-export async function fetchMakeAWishData(): Promise<MakeWishDonationsDTO> {
+export async function fetchMakeAWishData(): Promise<MakeAWishInfoJsonDTO> {
 	try {
 		const res = await fetch(`${makeAWishAPI.donationsURL}`, {})
-		return (await res.json()) as MakeWishDonationsDTO
+		return (await res.json()) as MakeAWishInfoJsonDTO
 	} catch (e) {
 		console.log(e)
 	}

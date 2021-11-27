@@ -11,6 +11,7 @@ import useMakeAWish from '../hooks/useMakeAWish'
 import { CmsUpcomingStreamer } from '../cms/cms'
 import UpcomingStream from './UpcomingStream/UpcomingStream'
 import { Text } from './Text'
+import { MakeAWishWishDTO } from '../dto/MakeAWishDonationsDTO'
 
 interface UpcomingStreams {
 	schedule: CmsUpcomingStreamer[]
@@ -32,9 +33,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 		let donationGoal = '0'
 		let donationProgess = '0'
 		if (!makeAWish.isError && !makeAWish.isLoading) {
-			const makeAWishProject = makeAWish.data.wishes[stream.wishes[0]]
-			console.log(makeAWish.data.wishes[stream.wishes[0]].donation_goal)
-			console.log(makeAWish.data.streamers[stream.streamerChannel].wishes[stream.wishes[0]].current_donation_sum)
+			const makeAWishProject: MakeAWishWishDTO | undefined = makeAWish.data.wishes[stream.wishes[0]]
 			if (makeAWishProject) {
 				donationGoal = makeAWish.data.wishes[stream.wishes[0]].donation_goal
 				donationProgess = makeAWish.data.streamers[stream.streamerChannel].wishes[stream.wishes[0]].current_donation_sum
