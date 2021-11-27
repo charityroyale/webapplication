@@ -146,9 +146,14 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 						<DonationPageNavigation>
 							{wishes.map((slug, i) => {
 								return (
-									<ClientLink href={`/donate/${streamerChannel}/${slug}`} key={`${slug}-${i}-link`}>
+									<a
+										href={`/donate/${streamerChannel}/${slug}`}
+										key={`${slug}-${i}-link`}
+										target="_blank"
+										rel="noreferrer"
+									>
 										{slug}
-									</ClientLink>
+									</a>
 								)
 							})}
 						</DonationPageNavigation>
