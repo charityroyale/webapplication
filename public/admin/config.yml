@@ -35,19 +35,25 @@ collections:
               - { label: 'Custom donation link', name: 'customLink', required: false, widget: 'string' }
               - { label: 'Streamer Image', name: 'imgUrl', widget: 'image' }
               - { label: 'Stream Date', name: 'date', widget: 'datetime' }
-              - label: Make-a-Wish project
-                name: makeAWishProjectId
-                widget: string
+              - label: Make-a-Wish Wunsch
+                name: wishes
+                widget: 'list'
+                allow_add: true
 
-          - label: Make-a-Wish projects
-            name: 'makeAWishProjects'
+          - label: Make-a-Wish Wishes
+            name: 'wishes'
             widget: list
-            summary: '{{fields.makeAWishProjectId}} - {{fields.childname}}'
+            summary: '{{fields.slug}} - {{fields.childname}}'
             fields:
-              - { label: 'Project id (Make-a-wish)', name: 'makeAWishProjectId', widget: 'string' }
-              - { label: 'Description', name: 'descripion', widget: 'string' }
+              - { label: 'Slug', name: 'slug', widget: 'string' }
               - { label: 'Tagline', name: 'tagline', widget: 'string' }
               - { label: 'Child Name', name: 'childname', widget: 'string' }
+              - { label: 'Description', name: 'descripion', widget: 'string' }
+              - { label: 'Donation Goal', name: 'donationGoal', widget: 'string' }
+              - label: Streamers
+                name: streamers
+                widget: 'list'
+                allow_add: true
 
           - label: FAQ
             name: faq
