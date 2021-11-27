@@ -187,6 +187,8 @@ wishes:
       Tja, da haben wir nichts mehr hinzuzufügen. ☺
     slug: arina-macbook
     donationGoal: "2500"
+    streamers:
+      - zayuri
   - childname: Karolina
     tagline: Ein Gaming-Set für die kreative Karolina
     descripion: Wenn die besten Freunde viel zu weit weg wohnen, um sich täglich zu
@@ -200,6 +202,8 @@ wishes:
       Non-Alkohol-Trinkerin, kann super zeichnen und mag Ausgefallenes.
     slug: karolina-gamingset
     donationGoal: "2500"
+    streamers:
+      - gtimetv
   - childname: Asma
     tagline: Was tun mit dem Lieblings-Playstation Spiel ohne Fernseher?
     descripion: "Genau dieses Problem hat Asma: Die 5-jährige, die an einem Tumor
@@ -228,6 +232,9 @@ wishes:
       Trommel. Seine Lieblingssänger sind Mark Forster und Andreas Gabalier."
     slug: lukas-fussballer
     donationGoal: "2500"
+    streamers:
+      - shredmir
+      - krokoboss
   - childname: Daria
     tagline: Sandburgen bauen in Zypern
     descripion: Daria wünscht sich einen ausgelassenen Strandurlaub mit Mama und
@@ -238,6 +245,8 @@ wishes:
       auf jede Menge Rutschen-Spaß!
     slug: daria-zypern
     donationGoal: "2500"
+    streamers:
+      - niekbeats
   - slug: marvellous-hubschrauber
     tagline: Aus dem Helikopter nach unten schauen
     descripion: "Marvellous ist 9 Jahre alt und wünscht sich schon lange in einem
@@ -298,6 +307,8 @@ wishes:
       eher ruhig – Ariane Grande hört sie sehr gerne. "
     slug: edanur-macbookair
     donationGoal: "2500"
+    streamers:
+      - mrsxeniatv
   - childname: Ramazan
     tagline: Ramazon wünschte sich ein MacBook, um es ins Krankenhaus mitnehmen zu
       können
@@ -312,6 +323,8 @@ wishes:
       bereits erfüllt.
     slug: ramazan-macbook
     donationGoal: "2500"
+    streamers:
+      - revedtv
   - childname: Dmytro
     tagline: Ich sehe Blumen und Tiere, wenn ich an meinen Herzenswunsch denke
     descripion: "Dmytro hat ein großes Hobby: Er fotografiert für sein Leben gerne.
@@ -324,6 +337,8 @@ wishes:
       Eltern auf Fotosafari gehen und ganz besondere Motive jagen."
     slug: dmytro-kamera
     donationGoal: "2500"
+    streamers:
+      - henke
   - childname: Andrea
     tagline: Ein Sommerurlaub in Ramsau
     descripion: "Andrea leidet an einem Gehirntumor, der sie möglicherweise blind
@@ -347,6 +362,8 @@ wishes:
       von Möbeln und Deko zugeschickt. "
     slug: sara-zimmereinrichtung
     donationGoal: "2500"
+    streamers:
+      - dhalucard
   - childname: Isaac
     descripion: "Der angehende IT-Techniker wünschte sich den Ferrari untern den
       Mobil-Telefonen  Der Herzenswunsch von Isaac ist ein schwarzes iPhone12
@@ -398,6 +415,8 @@ wishes:
       dürfen."
     donationGoal: "2500"
     slug: hanna-fashionshow
+    streamers:
+      - nihachu
   - childname: Valentin
     descripion: Valentin möchte ins Disneyland
     tagline: Valentin möchte ins Disneyland
@@ -418,6 +437,8 @@ wishes:
       ist in Bayern“, so der kleine Kämpfer."
     slug: philipp-fcbayern
     donationGoal: "2500"
+    streamers:
+      - nqrmvn
   - childname: Elias
     tagline: Ich möchte Pluto, Lightning McQueens und Spiderman treffen
     descripion: Elias ist erklärter Disney Fan und liebt viele der tollen Figuren.
