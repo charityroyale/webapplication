@@ -54,7 +54,7 @@ const DonationLayout: React.FunctionComponent<DonationLayoutProps> = ({
 	return (
 		<StyledLayout>
 			<CookieBanner />
-			<Header featuredStream={featuredDonationLink} showDonationButton={false} />
+			<Header featuredStream={featuredDonationLink} showDonationButton={true} />
 			<MainGrid>{children}</MainGrid>
 			<Footer featuredStream={featuredDonationLink} />
 		</StyledLayout>

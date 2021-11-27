@@ -12,7 +12,7 @@ import DonationLayout from '../../../app/layouts/DonationLayout'
 import PageWithLayoutType from '../../../app/types/PageWithLayout'
 import { makeAWishAPI } from '../../../config'
 import useMakeAWish from '../../../app/hooks/useMakeAWish'
-import { MakeWishDonationProjectDTO } from '../../../app/dto/MakeAWishDonationsDTO'
+import { MakeAWishStreamerDTO, MakeAWishWishDTO } from '../../../app/dto/MakeAWishDonationsDTO'
 import { formatDateDefault, formatMoneyWithSign } from '../../../app/utils/formatUtils'
 import { styled } from '../../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
@@ -95,7 +95,12 @@ const getTopDonatorFirstColum = (index) => {
 			)
 		}
 		default: {
-			return `${index + 1}. ${(<Text content="topDonatorText" />)}`
+			return (
+				<>
+					{index + 1}.
+					<Text content="topDonatorText" />
+				</>
+			)
 		}
 	}
 }
@@ -139,15 +144,16 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 
 	const makeAWish = useMakeAWish()
-	let makeAWishProject: MakeWishDonationProjectDTO
+	let makeAWishProject: MakeAWishStreamerDTO
 	let latestDonatorsList = new Array<List>()
 	let highestDonatorsList = new Array<List>()
 	const isMakeAWishDataAvailable = !makeAWish.isError && !makeAWish.isLoading
 	if (isMakeAWishDataAvailable) {
-		makeAWishProject = makeAWish.data.projects[project.streamer.streamerName.toLocaleLowerCase()] // fix
-		latestDonatorsList = makeAWishProject.recent_donators.map((r) => ({
+		makeAWishProject =
+			makeAWish.data.streamers[project.streamer.streamerName.toLocaleLowerCase()].wishes[project.wish.slug]
+		latestDonatorsList = makeAWishProject.recent_donations.map((r) => ({
 			col_1: formatDateDefault(new Date(r.unix_timestamp * 1000)),
-			col_2: r.name,
+			col_2: r.username,
 			col_3: r.amount,
 		}))
 
@@ -159,9 +165,9 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			})
 		}
 
-		highestDonatorsList = makeAWishProject.top_donators.map((r, i) => ({
+		highestDonatorsList = makeAWishProject.top_donors.map((r, i) => ({
 			col_1: getTopDonatorFirstColum(i),
-			col_2: r.name,
+			col_2: r.username,
 			col_3: r.amount,
 		}))
 
@@ -209,12 +215,9 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 
 	if (isMakeAWishDataAvailable) {
 		donationSum = makeAWishProject.current_donation_sum
-		donationGoal = makeAWishProject.donation_goal
+		donationGoal = project.wish.donationGoal
 		donatorsCount = makeAWishProject.current_donation_count.toLocaleString('de-DE')
-		percentage = getPercentage(
-			parseFloat(makeAWishProject.current_donation_sum),
-			parseFloat(makeAWishProject.donation_goal)
-		)
+		percentage = getPercentage(parseFloat(makeAWishProject.current_donation_sum), parseFloat(project.wish.donationGoal))
 	}
 
 	useEffect(() => {
@@ -267,9 +270,11 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			<DonationHeader
 				streamLink={project.streamer.streamLink}
 				streamerName={project.streamer.streamerName}
-				title={project.streamer.streamerChannel}
-				description={project.streamer.streamerChannel}
+				title={project.wish.tagline}
+				description={project.wish.descripion}
 				date={project.streamer.date}
+				streamerChannel={project.streamer.streamerChannel}
+				wishes={project.streamer.wishes}
 			>
 				<React.Fragment>
 					<DonationStatsTitle>
@@ -328,7 +333,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 						onLoad={iFrameLoaded}
 						onError={iFrameLoadedError}
 						id="iframe"
-						src={`${makeAWishAPI.donationFormURL}${project.streamer}/${project.wish.slug}`}
+						src={`${makeAWishAPI.donationFormURL}${project.streamer.streamerChannel}/${project.wish.slug}`}
 						title="Spendenformular"
 					/>
 				)}
@@ -337,7 +342,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			<StyledDonationSumWidget>
 				<DonationWidgetCount
 					current_amount={makeAWishProject ? makeAWishProject.current_donation_sum : '0'}
-					donation_goal_amount={makeAWishProject ? makeAWishProject.donation_goal : '0'}
+					donation_goal_amount={makeAWishProject ? project.wish.donationGoal : '0'}
 				/>
 			</StyledDonationSumWidget>
 			<StyledDonatorsWidget>
@@ -369,7 +374,6 @@ export const getStaticProps: GetStaticProps<InitialDonationProps> = async ({ par
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-	console.log(paths)
 	return {
 		paths,
 		fallback: false,

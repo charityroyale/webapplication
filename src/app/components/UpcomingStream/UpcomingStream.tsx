@@ -107,7 +107,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 		setIsImagedLoaded(true)
 	}, [])
 
-	const donateLinkHref = `/donate/${customLink || streamerChannel}`
+	const donateLinkHref = `/donate/${customLink || streamerChannel}/${props.wishes[0]}`
 
 	return (
 		<StyledUpcomingStream ref={ref}>

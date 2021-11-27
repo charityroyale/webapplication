@@ -5,7 +5,7 @@
 export class MakeAWishInfoJsonDTO {
 	public total_donation_sum = ''
 	public total_donation_count = -1
-	public streamers = {} as { [streamerSlug: string]: MakeAWishStreamerDTO }
+	public streamers = {} as { [streamerSlug: string]: MakeAWishStreamerJSONDTO }
 	public wishes = {} as { [wishSlug: string]: MakeAWishWishDTO }
 	public recent_donations: MakeAWishRecentDonationDTO[]
 	public top_donors: MakeAWishRecentDonationDTO[]
@@ -13,12 +13,12 @@ export class MakeAWishInfoJsonDTO {
 
 export class MakeAWishRecentDonationDTO {
 	public unix_timestamp = -1
-	public name = ''
+	public username = ''
 	public amount = ''
 }
 
 export class MakeAWishTopDonatorDTO {
-	public name = ''
+	public username = ''
 	public amount = ''
 }
 
@@ -29,6 +29,16 @@ export class MakeAWishWishDTO {
 	public wish = ''
 	public donation_goal = '' // number without postfix
 }
+
+export class MakeAwishInfoJsonWishDTO {
+	public current_donation_count: -1
+	public current_donation_sum: ''
+	public id: -1
+	public recent_donations: MakeAWishRecentDonationDTO[]
+	public slug: ''
+	public top_donors: MakeAWishTopDonatorDTO[]
+}
+
 export class MakeAWishStreamerDTO {
 	public id: -1
 	public slug: ''
@@ -39,4 +49,16 @@ export class MakeAWishStreamerDTO {
 	public top_donors: MakeAWishTopDonatorDTO[]
 	public recent_donations: MakeAWishRecentDonationDTO[]
 	public wishes: MakeAWishWishDTO[]
+}
+
+export class MakeAWishStreamerJSONDTO {
+	public id: -1
+	public slug: ''
+	public name: ''
+	public type: '' // 'main' or 'community'
+	public current_donation_sum: ''
+	public current_donation_count: -1
+	public top_donors: MakeAWishTopDonatorDTO[]
+	public recent_donations: MakeAWishRecentDonationDTO[]
+	public wishes: MakeAwishInfoJsonWishDTO[]
 }

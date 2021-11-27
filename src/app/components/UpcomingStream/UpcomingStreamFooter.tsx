@@ -9,7 +9,6 @@ import { RiTwitchFill } from 'react-icons/ri'
 import { formatDate } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 import { useInView } from 'react-intersection-observer'
-import { HiOutlineHeart } from 'react-icons/hi'
 import { Text } from '../Text'
 
 const StyledUpcomingStreamFooter = styled.div`
@@ -38,20 +37,6 @@ const UpcomingStreamDateMobile = styled.div`
 		display: flex;
 	}
 `
-
-const HeartWrapper = styled.span`
-	margin-right: 4px;
-	display: flex;
-`
-
-const StyledDescriptionText = styled.p`
-	color: ${(p) => p.theme.color.white};
-	margin-bottom: ${(p) => p.theme.space.xs}px;
-	font-weight: 600;
-	display: flex;
-	align-items: center;
-`
-
 const StreamerIconWrapper = styled.div`
 	padding: ${(p) => p.theme.space.s}px;
 	position: relative;
@@ -118,25 +103,10 @@ export const UpcomingStreamerDonationLink = styled.a`
 	}
 `
 
-const DescriptionTextMobile = styled.span`
-	display: none;
-	${(p) => p.theme.media.phone} {
-		display: inline-block;
-	}
-`
-
-const DescriptionTextTabletDesktop = styled.span`
-	display: inline-block;
-	${(p) => p.theme.media.phone} {
-		display: none;
-	}
-`
-
 export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 	streamerName,
 	streamLink,
 	streamerChannel,
-	wishes,
 	imgUrl,
 	customLink,
 	date,
@@ -167,26 +137,6 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
 					</ClientLink>
 				</StreamerIconWrapper>
 				<UpcomingStreamDescription>
-					<StyledDescriptionText>
-						<HeartWrapper>
-							<HiOutlineHeart size={20} />
-						</HeartWrapper>
-
-						{/*
-
-<span>
-							<DescriptionTextMobile>
-								<Text content="wishTitle" />
-							</DescriptionTextMobile>
-							<DescriptionTextTabletDesktop>
-								<Text content="wishByHeartTitle" />
-							</DescriptionTextTabletDesktop>
-							<Link href={donateLinkHref}>
-								<a href={donateLinkHref}>{makeAWish.childname}</a>
-							</Link>
-						</span>
-							*/}
-					</StyledDescriptionText>
 					<UpcomingStreamTwitchLink>
 						<RiTwitchFill size={20} style={{ marginRight: '4px' }} />
 						<a href={streamLink} target="_blank" rel="noreferrer">

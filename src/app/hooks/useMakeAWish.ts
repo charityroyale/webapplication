@@ -1,6 +1,6 @@
 import useSWR from 'swr'
 import { makeAWishAPI } from '../../config'
-import { MakeWishDonationsDTO } from '../dto/MakeAWishDonationsDTO'
+import { MakeAWishInfoJsonDTO } from '../dto/MakeAWishDonationsDTO'
 
 const fetcher = (url: string) =>
 	fetch(url, {
@@ -16,7 +16,7 @@ export default function useMakeAWish() {
 	})
 
 	return {
-		data: data as MakeWishDonationsDTO,
+		data: data as MakeAWishInfoJsonDTO,
 		isLoading: !error && !data,
 		isError: !!error,
 	}
