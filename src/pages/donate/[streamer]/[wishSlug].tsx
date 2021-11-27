@@ -150,6 +150,8 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	let percentage = 0
 	let donatorsCount = '0'
 
+	donationGoal = project.wish.donationGoal
+
 	if (isMakeAWishDataAvailable) {
 		console.log(makeAWish.data.streamers)
 		console.log(project.streamer.streamerName.toLocaleLowerCase())
@@ -157,16 +159,17 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 		if (wishFileJsonData) {
 			makeAWishProject =
 				makeAWish.data.streamers[project.streamer.streamerName.toLocaleLowerCase()].wishes[project.wish.slug]
+			if (makeAWishProject) {
+				donationSum = makeAWishProject.current_donation_sum
+				donatorsCount = makeAWishProject.current_donation_count.toLocaleString('de-DE')
+				percentage = getPercentage(
+					parseFloat(makeAWishProject.current_donation_sum),
+					parseFloat(project.wish.donationGoal)
+				)
+			}
 		}
-		donationSum = wishFileJsonData ? makeAWishProject.current_donation_sum : '0'
-		donationGoal = project.wish.donationGoal
-		donatorsCount = wishFileJsonData ? makeAWishProject.current_donation_count.toLocaleString('de-DE') : '0'
-		percentage = getPercentage(
-			parseFloat(wishFileJsonData ? makeAWishProject.current_donation_sum : '0'),
-			parseFloat(project.wish.donationGoal)
-		)
 
-		if (wishFileJsonData) {
+		if (wishFileJsonData && makeAWishProject) {
 			latestDonatorsList = makeAWishProject.recent_donations.map((r) => ({
 				col_1: formatDateDefault(new Date(r.unix_timestamp * 1000)),
 				col_2: r.username,
@@ -182,7 +185,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			})
 		}
 
-		if (wishFileJsonData) {
+		if (wishFileJsonData && makeAWishProject) {
 			highestDonatorsList = makeAWishProject.top_donors.map((r, i) => ({
 				col_1: getTopDonatorFirstColum(i),
 				col_2: r.username,
