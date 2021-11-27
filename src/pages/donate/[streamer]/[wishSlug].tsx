@@ -12,23 +12,17 @@ import DonationLayout from '../../../app/layouts/DonationLayout'
 import PageWithLayoutType from '../../../app/types/PageWithLayout'
 import { makeAWishAPI } from '../../../config'
 import useMakeAWish from '../../../app/hooks/useMakeAWish'
-import { MakeAWishStreamerDTO, MakeAWishWishDTO } from '../../../app/dto/MakeAWishDonationsDTO'
+import { MakeAWishStreamerDTO, MakeAWishStreamerJSONDTO } from '../../../app/dto/MakeAWishDonationsDTO'
 import { formatDateDefault, formatMoneyWithSign } from '../../../app/utils/formatUtils'
 import { styled } from '../../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
 import { useIsSSR } from '../../../app/hooks/useIsSSR'
 import { ImTrophy } from 'react-icons/im'
-import { BsArrowReturnRight, BsFillPeopleFill } from 'react-icons/bs'
+import { BsFillPeopleFill } from 'react-icons/bs'
 import { FaDove } from 'react-icons/fa'
 import { Line } from 'rc-progress'
 import { getPercentage } from '../../../app/utils/commonUtils'
-import cmsContent, {
-	MakeAWishWish,
-	CmsUpcomingStreamer,
-	paths,
-	streamerWishes,
-	DonationPageProps,
-} from '../../../app/cms/cms'
+import cmsContent, { paths, streamerWishes, DonationPageProps } from '../../../app/cms/cms'
 import DonationWidgetCount from '../../../app/components/DonationWidget/DonationWidgetCount'
 import DonationWidgetList, { List } from '../../../app/components/DonationWidget/DonatorsWidgetList'
 import { Text } from '../../../app/components/Text'
@@ -145,20 +139,40 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 
 	const makeAWish = useMakeAWish()
 	let makeAWishProject: MakeAWishStreamerDTO | undefined
+	let wishFileJsonData: MakeAWishStreamerJSONDTO | undefined
 	let latestDonatorsList = new Array<List>()
 	let highestDonatorsList = new Array<List>()
-	const isMakeAWishDataAvailable =
-		!makeAWish.isError &&
-		!makeAWish.isLoading &&
-		makeAWish.data.streamers[project.streamer.streamerName.toLocaleLowerCase()]
+	const isMakeAWishDataAvailable = !makeAWish.isError && !makeAWish.isLoading
+
+	// donation widget
+	let donationSum = '0'
+	let donationGoal = '0'
+	let percentage = 0
+	let donatorsCount = '0'
+
 	if (isMakeAWishDataAvailable) {
-		makeAWishProject =
-			makeAWish.data.streamers[project.streamer.streamerName.toLocaleLowerCase()].wishes[project.wish.slug]
-		latestDonatorsList = makeAWishProject.recent_donations.map((r) => ({
-			col_1: formatDateDefault(new Date(r.unix_timestamp * 1000)),
-			col_2: r.username,
-			col_3: r.amount,
-		}))
+		console.log(makeAWish.data.streamers)
+		console.log(project.streamer.streamerName.toLocaleLowerCase())
+		wishFileJsonData = makeAWish.data.streamers[project.streamer.streamerName.toLocaleLowerCase()]
+		if (wishFileJsonData) {
+			makeAWishProject =
+				makeAWish.data.streamers[project.streamer.streamerName.toLocaleLowerCase()].wishes[project.wish.slug]
+		}
+		donationSum = wishFileJsonData ? makeAWishProject.current_donation_sum : '0'
+		donationGoal = project.wish.donationGoal
+		donatorsCount = wishFileJsonData ? makeAWishProject.current_donation_count.toLocaleString('de-DE') : '0'
+		percentage = getPercentage(
+			parseFloat(wishFileJsonData ? makeAWishProject.current_donation_sum : '0'),
+			parseFloat(project.wish.donationGoal)
+		)
+
+		if (wishFileJsonData) {
+			latestDonatorsList = makeAWishProject.recent_donations.map((r) => ({
+				col_1: formatDateDefault(new Date(r.unix_timestamp * 1000)),
+				col_2: r.username,
+				col_3: r.amount,
+			}))
+		}
 
 		while (latestDonatorsList.length < 10) {
 			latestDonatorsList.push({
@@ -168,11 +182,13 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 			})
 		}
 
-		highestDonatorsList = makeAWishProject.top_donors.map((r, i) => ({
-			col_1: getTopDonatorFirstColum(i),
-			col_2: r.username,
-			col_3: r.amount,
-		}))
+		if (wishFileJsonData) {
+			highestDonatorsList = makeAWishProject.top_donors.map((r, i) => ({
+				col_1: getTopDonatorFirstColum(i),
+				col_2: r.username,
+				col_3: r.amount,
+			}))
+		}
 
 		while (highestDonatorsList.length < 10) {
 			highestDonatorsList.push({
@@ -211,25 +227,13 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 		setIFrameError(true)
 	}, [])
 
-	let donationSum = '0'
-	let donationGoal = '0'
-	let percentage = 0
-	let donatorsCount = '0'
-
-	if (isMakeAWishDataAvailable) {
-		donationSum = makeAWishProject.current_donation_sum
-		donationGoal = project.wish.donationGoal
-		donatorsCount = makeAWishProject.current_donation_count.toLocaleString('de-DE')
-		percentage = getPercentage(parseFloat(makeAWishProject.current_donation_sum), parseFloat(project.wish.donationGoal))
-	}
-
 	useEffect(() => {
 		if (percentage >= 100) {
 			setHasReachGoal(true)
 		} else {
 			setHasReachGoal(false)
 		}
-	}, [])
+	}, [percentage])
 
 	return (
 		<React.Fragment>
