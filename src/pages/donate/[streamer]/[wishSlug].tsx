@@ -153,8 +153,6 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	donationGoal = project.wish.donationGoal
 
 	if (isMakeAWishDataAvailable) {
-		console.log(makeAWish.data.streamers)
-		console.log(project.streamer.streamerName.toLocaleLowerCase())
 		wishFileJsonData = makeAWish.data.streamers[project.streamer.streamerName.toLocaleLowerCase()]
 		if (wishFileJsonData) {
 			makeAWishProject =
