@@ -7,13 +7,13 @@ import FeaturedStream from '../app/components/FeaturedStream'
 import UpcomingFeatures from '../app/components/UpcomingStreams'
 import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
 import ButtonsBox from '../app/components/FaqBox'
-import cmsContent, { Upcoming } from '../app/cms/cms'
+import cmsContent, { CmsUpcomingStreamer } from '../app/cms/cms'
 import { TwitchUserDTO } from '../app/dto/TwitchUserDTO'
 
 export interface InitialAppProps {
 	featuredStream?: string
 	featuredYoutubeStream?: string
-	schedule?: Upcoming[]
+	schedule?: CmsUpcomingStreamer[]
 }
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {

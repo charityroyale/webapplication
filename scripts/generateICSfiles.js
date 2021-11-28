@@ -36,5 +36,8 @@ fs.readFile('./_cms/charity-royale.md', 'utf8', function (err, data) {
 	if (!fs.existsSync(distUrl)) {
 		fs.mkdirSync(distUrl)
 	}
-	fs.writeFileSync(fileLocation, typeof calendarEvents.value === 'undefined' ? '' : calendarEvents.value)
+	fs.writeFileSync(
+		fileLocation,
+		typeof calendarEvents.value === 'undefined' || calendarEvents.value === null ? '' : calendarEvents.value
+	)
 })

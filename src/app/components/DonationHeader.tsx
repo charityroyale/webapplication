@@ -3,6 +3,9 @@ import { styled } from '../../styles/Theme'
 import { RiTwitchFill } from 'react-icons/ri'
 import { formatDate } from '../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
+import { Text } from './Text'
+import { BiDonateHeart } from 'react-icons/bi'
+import ClientLink from './ClientLink'
 
 const StyledDonationHeaderTitle = styled.h2`
 	font-size: ${(p) => p.theme.fontSize.l} px;
@@ -82,6 +85,12 @@ const DonationHeaderStreamLink = styled.p`
 	}
 `
 
+const DonationPageNavigation = styled.div`
+	& > a {
+		margin-right: 8px;
+	}
+`
+
 interface DonationHeaderProps {
 	title: string
 	description: string
@@ -90,6 +99,8 @@ interface DonationHeaderProps {
 	streamLink?: string
 	date?: string
 	noMargin?: boolean
+	streamerChannel: string
+	wishes: string[]
 }
 
 const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
@@ -98,8 +109,10 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 	children,
 	streamerName,
 	streamLink,
+	streamerChannel,
 	date,
 	noMargin,
+	wishes,
 }: DonationHeaderProps) => {
 	return (
 		<StyledDonationHeader>
@@ -107,7 +120,7 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 				{streamerName && (
 					<DonationHeaderProjectTitle>
 						{streamerName}
-						{`'`}s Spendenprojekt
+						{`'`}s <Text content="donationProjectTitle" />
 					</DonationHeaderProjectTitle>
 				)}
 
@@ -127,11 +140,33 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 					</DonationHeaderStreamLink>
 				)}
 
+				{wishes && wishes.length > 1 && (
+					<DonationHeaderStreamLink>
+						<BiDonateHeart size={20} style={{ marginRight: '8px', marginLeft: '2px' }} />
+						<DonationPageNavigation>
+							{wishes.map((slug, i) => {
+								return (
+									<a
+										href={`/donate/${streamerChannel}/${slug}`}
+										key={`${slug}-${i}-link`}
+										target="_blank"
+										rel="noreferrer"
+									>
+										{slug}
+									</a>
+								)
+							})}
+						</DonationPageNavigation>
+					</DonationHeaderStreamLink>
+				)}
+
 				<DonationHeaderProject noMargin={noMargin}>
 					<DonationProjectContent>
 						<StyledDonationHeaderTitle>{title}</StyledDonationHeaderTitle>
 						<StyledDonationHeaderDescription>
-							<StyledDonationHeaderDescriptionPrefix>Herzenswunsch </StyledDonationHeaderDescriptionPrefix>
+							<StyledDonationHeaderDescriptionPrefix>
+								<Text content="wishByHeartTitle" />
+							</StyledDonationHeaderDescriptionPrefix>
 							{description}
 						</StyledDonationHeaderDescription>
 					</DonationProjectContent>

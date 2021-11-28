@@ -8,34 +8,35 @@ import {
 	StyleUpcomingStreamsTitle,
 } from '../../styles/common.styles'
 import useMakeAWish from '../hooks/useMakeAWish'
-import { Upcoming } from '../cms/cms'
+import { CmsUpcomingStreamer } from '../cms/cms'
 import UpcomingStream from './UpcomingStream/UpcomingStream'
 import { Text } from './Text'
+import { MakeAWishWishDTO } from '../dto/MakeAWishDonationsDTO'
 
 interface UpcomingStreams {
-	schedule: Upcoming[]
+	schedule: CmsUpcomingStreamer[]
 }
 
 const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }: UpcomingStreams) => {
 	const makeAWish = useMakeAWish()
 
-	const getStreamEndDate = (stream: Upcoming) => {
+	const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
 		const startDate = new Date(stream.date)
 		const hoursToAdd = 12
 		return new Date(startDate.getTime() + hoursToAdd * 3600000)
 	}
 	const now = new Date()
-	const isInThePast = (stream: Upcoming) => now > getStreamEndDate(stream)
-	const isInTheFuture = (stream: Upcoming) => now <= getStreamEndDate(stream)
+	const isInThePast = (stream: CmsUpcomingStreamer) => now > getStreamEndDate(stream)
+	const isInTheFuture = (stream: CmsUpcomingStreamer) => now <= getStreamEndDate(stream)
 
-	const createUpcomingStream = (stream: Upcoming, index: number) => {
+	const createUpcomingStream = (stream: CmsUpcomingStreamer, index: number) => {
 		let donationGoal = '0'
 		let donationProgess = '0'
 		if (!makeAWish.isError && !makeAWish.isLoading) {
-			const makeAWishProject = makeAWish.data.projects[stream.makeAWishProjectId]
+			const makeAWishProject: MakeAWishWishDTO | undefined = makeAWish.data.wishes[stream.wishes[0]]
 			if (makeAWishProject) {
-				donationGoal = makeAWishProject.donation_goal
-				donationProgess = makeAWishProject.current_donation_sum
+				donationGoal = makeAWish.data.wishes[stream.wishes[0]].donation_goal
+				donationProgess = makeAWish.data.streamers[stream.streamerChannel].wishes[stream.wishes[0]].current_donation_sum
 			}
 		}
 		return (
