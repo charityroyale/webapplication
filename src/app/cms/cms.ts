@@ -30,19 +30,12 @@ export interface FAQVideoEntry {
 	name: string
 }
 
-/*
-"kid_name""=>""Emelia",
-      "wish""=>""iPhone",
-      "slug""=>""emelia-iphone",
-      "donation_goal"=> 900*/
-
 export interface MakeAWishWish {
 	slug: string
 	tagline: string
 	childname: string
 	descripion: string
 	donationGoal: string
-	streamers: string[]
 }
 
 export interface CmsContent {
