@@ -20,9 +20,14 @@ export interface UpcomingStreamerDonationPage {
 	wishes: MakeAWishWish[]
 }
 
-export interface FAQEntry {
-	question: string
-	answer: string
+export interface FAQEntryDe {
+	'question-de': string
+	'answer-de': string
+}
+
+export interface FAQEntryEn {
+	'question-en': string
+	'answer-en': string
 }
 
 export interface FAQVideoEntry {
@@ -48,7 +53,8 @@ export interface CmsContent {
 	upcoming: Array<CmsUpcomingStreamer>
 	wishes: Array<MakeAWishWish>
 	faq: {
-		questions: Array<FAQEntry>
+		'questions-de': Array<FAQEntryDe>
+		'questions-en': Array<FAQEntryEn>
 		videos: Array<FAQVideoEntry>
 	}
 }

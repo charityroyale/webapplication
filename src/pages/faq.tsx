@@ -1,13 +1,14 @@
-import React, { FunctionComponent } from 'react'
+import React, { FunctionComponent, useContext } from 'react'
 import { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import PageWithLayoutType from '../app/types/PageWithLayout'
 import MainLayout from '../app/layouts/MainLayout'
 import { styled } from '../styles/Theme'
 import { ResponsiveVideo } from '../app/components/ResponsiveVideo'
-import cmsContent, { FAQEntry, FAQVideoEntry } from '../app/cms/cms'
+import cmsContent, { FAQVideoEntry, FAQEntryEn, FAQEntryDe } from '../app/cms/cms'
 import ReactMarkdown from 'react-markdown'
 import { Text } from '../app/components/Text'
+import { LanguageContext } from '../app/provider/LanguageProvider'
 
 const FaqMainWrapper = styled.div`
 	margin: auto;
@@ -84,12 +85,15 @@ const FaqQuestionBox: FunctionComponent<FaqQuestionBoxProps> = ({ question, answ
 }
 
 interface InitialFaqProps {
-	questions: FAQEntry[]
+	questionsDe: FAQEntryDe[]
+	questionsEn: FAQEntryEn[]
 	videos: FAQVideoEntry[]
 	featuredStream?: string
 }
 
-const FaqPage: NextPage<InitialFaqProps> = ({ questions, videos }: InitialFaqProps) => {
+const FaqPage: NextPage<InitialFaqProps> = ({ questionsDe, questionsEn, videos }: InitialFaqProps) => {
+	const languageContext = useContext(LanguageContext)
+
 	return (
 		<>
 			<Head>
@@ -127,9 +131,13 @@ const FaqPage: NextPage<InitialFaqProps> = ({ questions, videos }: InitialFaqPro
 					<Text content="faqPageTitle" />
 				</FaqContentHeader>
 				<FaqContenSection>
-					{questions.map((question, i) => (
-						<FaqQuestionBox key={i} question={question.question} answer={question.answer} />
-					))}
+					{languageContext.language === 'de'
+						? questionsDe.map((question, i) => (
+								<FaqQuestionBox key={i} question={question['question-de']} answer={question['answer-de']} />
+						  ))
+						: questionsEn.map((question, i) => (
+								<FaqQuestionBox key={i} question={question['answer-en']} answer={question['answer-en']} />
+						  ))}
 				</FaqContenSection>
 			</FaqMainWrapper>
 		</>
@@ -139,7 +147,8 @@ const FaqPage: NextPage<InitialFaqProps> = ({ questions, videos }: InitialFaqPro
 export const getStaticProps: GetStaticProps<InitialFaqProps> = async () => {
 	return {
 		props: {
-			questions: cmsContent.faq.questions,
+			questionsDe: cmsContent.faq['questions-de'],
+			questionsEn: cmsContent.faq['questions-en'],
 			videos: cmsContent.faq.videos,
 			featuredStream: cmsContent.featuredStream,
 			featuredDonationLink: cmsContent.customDonationLink || cmsContent.featuredStream,
