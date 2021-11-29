@@ -36,7 +36,9 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 			const makeAWishProject: MakeAWishWishDTO | undefined = makeAWish.data.wishes[stream.wishes[0]]
 			if (makeAWishProject) {
 				donationGoal = makeAWish.data.wishes[stream.wishes[0]].donation_goal
-				donationProgess = makeAWish.data.streamers[stream.streamerChannel].wishes[stream.wishes[0]].current_donation_sum
+				donationProgess = makeAWish.data.streamers[stream.streamerChannel].wishes[stream.wishes[0]]
+					? makeAWish.data.streamers[stream.streamerChannel].wishes[stream.wishes[0]].current_donation_sum
+					: '0'
 			}
 		}
 		return (
