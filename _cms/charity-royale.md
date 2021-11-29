@@ -28,7 +28,7 @@ upcoming:
     wishes:
       - pascal-griechenland
     imgUrl: /uploads/charity_royale_rgb.png
-  - date: 2021-12-04T18:00:14.531Z
+  - date: 2021-12-04T09:00:14.531Z
     streamerName: CastCrafter
     streamLink: https://www.twitch.tv/CastCrafter
     streamerChannel: castcrafter
