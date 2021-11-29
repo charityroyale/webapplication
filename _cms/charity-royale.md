@@ -1,5 +1,6 @@
 ---
-title: Charity Royale 👑 Der Charity-Stream Adventkalender für Make-A-Wish
+title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
+  willhaben für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: herrhaderer
 makeAWishProjects: []
