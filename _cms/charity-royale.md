@@ -113,7 +113,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - emelia-iphone
-  - date: 2021-12-16T18:00:06.155Z
+  - date: 2021-12-16T15:00:06.155Z
     streamerName: Vlesk
     streamerChannel: vlesk
     streamLink: https://www.twitch.tv/Vlesk
@@ -156,7 +156,7 @@ upcoming:
     streamLink: https://www.twitch.tv/Veni
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
-      - arina-macbook
+      - larissa-disneyland
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
