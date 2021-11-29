@@ -61,10 +61,17 @@ collections:
             fields:
               - label: Questions
                 name: questions
-                widget: list
                 fields:
-                  - { label: 'Question', name: 'question', widget: 'string' }
-                  - { label: 'Answer', name: 'answer', widget: 'markdown' }
+                  - label: Englisch
+                    name: questions-en
+                    fields:
+                      - { label: 'Question', name: 'question-en', widget: 'string' }
+                      - { label: 'Answer', name: 'answer-en', widget: 'markdown' }
+                  - label: German
+                    name: questions-de
+                    fields:
+                      - { label: 'Question', name: 'question-de', widget: 'string' }
+                      - { label: 'Answer', name: 'answer-de', widget: 'markdown' }
               - label: Videos
                 name: videos
                 widget: list
