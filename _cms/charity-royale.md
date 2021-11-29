@@ -84,7 +84,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - isaac-iphone
-  - date: 2021-12-11T23:00:15.196Z
+  - date: 2021-12-12T11:00:15.196Z
     streamerName: Veylaney
     streamerChannel: veylaney
     streamLink: https://www.twitch.tv/Veylaney
@@ -475,17 +475,16 @@ wishes:
     slug: pascal-washingtoncapitals
     donationGoal: "2500"
   - childname: Hanna
-    tagline: Fashionshow in London oder Paris sehen
-    descripion: "Hanna lebt mit einer Stoffwechselerkrankung, die sie dazu zwingt,
-      alle 4 Stunden Nahrung zu sich zu nehmen. In der Nacht ist die 18-jährige
-      an einer Ernährungspumpe angeschlossen. Ihre Erkrankung hat den
-      modebegeisterten Teenager bislang davon abgehalten zu reisen. Seit Hanna 5
-      Jahre alt ist, steht ihr beruflicher Werdegang für sie fest: Sie möchte
-      Modedesignerin werden. Mit ihrem Herzenswunsch will sie gleichzeitig ihre
-      Reiselust stillen und ihrem Faible für Mode nachkommen: Sie wünscht sich
-      gemeinsam mit ihrer Schwester eine Reise in eine der Modehauptstädte
-      Europas - London oder Paris und dort eine  Fashionshow besuchen zu
-      dürfen."
+    tagline: Experience a fashion show in London or Paris
+    descripion: "Hanna lives with a metabolic disease that forces her to consume
+      food every 4 hours. During the night, the 18-year-old is connected to a
+      feeding pump. Her illness has so far prevented the fashion-loving teenager
+      from traveling. Since Hanna was 5 years old, she always knew what her
+      dream job would be: becoming a fashion designer. With her heart's wish,
+      she wants to satisfy her love of travel and, at the same time, fulfill her
+      passion for fashion: She and her sister would like to travel to one of the
+      fashion capitals of Europe - London or Paris - and experience a fashion
+      show there."
     donationGoal: "2500"
     slug: hanna-fashionshow
     streamers:
