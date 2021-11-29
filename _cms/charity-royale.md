@@ -98,6 +98,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - nina-elefantenwaisenhaus
+      - julian-malta
   - date: 2021-12-14T09:00:05.567Z
     streamLink: https://www.twitch.tv/Henke
     streamerName: Henke
