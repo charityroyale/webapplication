@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState, useContext } from 'react'
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import DonationHeader from '../../../app/components/DonationHeader'
@@ -26,6 +26,7 @@ import cmsContent, { paths, streamerWishes, DonationPageProps } from '../../../a
 import DonationWidgetCount from '../../../app/components/DonationWidget/DonationWidgetCount'
 import DonationWidgetList, { List } from '../../../app/components/DonationWidget/DonatorsWidgetList'
 import { Text } from '../../../app/components/Text'
+import { LanguageContext } from '../../../app/provider/LanguageProvider'
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
@@ -134,6 +135,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 	const [iFrameLoading, setIFrameLoaded] = useState(true)
 	const [iFrameError, setIFrameError] = useState(false)
 	const isSSR = useIsSSR()
+	const languageContext = useContext(LanguageContext)
 
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 
@@ -337,7 +339,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 				{iFrameLoading && <Skeleton height={'843px'} />}
 				{iFrameError && (
 					<IFrameLoadErrorMessage>
-						<Text content="donatioNFormLoadErrorText" />
+						<Text content="donationFormLoadErrorText" />
 					</IFrameLoadErrorMessage>
 				)}
 				{!isSSR && (
@@ -346,7 +348,9 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 						onLoad={iFrameLoaded}
 						onError={iFrameLoadedError}
 						id="iframe"
-						src={`${makeAWishAPI.donationFormURL}${project.streamer.streamerChannel}/${project.wish.slug}`}
+						src={`${languageContext.language === 'de' ? makeAWishAPI.donationFormURL : makeAWishAPI.donationFormEnURL}${
+							project.streamer.streamerChannel
+						}/${project.wish.slug}`}
 						title="Spendenformular"
 					/>
 				)}

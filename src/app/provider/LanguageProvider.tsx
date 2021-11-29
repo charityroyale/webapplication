@@ -41,7 +41,7 @@ export type DictionairyEntryType =
 	| 'donationGoal'
 	| 'donatorNameText'
 	| 'donationformTitle'
-	| 'donatioNFormLoadErrorText'
+	| 'donationFormLoadErrorText'
 	| 'latestDonatorsTitle'
 	| 'faqPageTitle'
 	| 'donationProjectTitle'
