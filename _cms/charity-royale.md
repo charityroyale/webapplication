@@ -42,13 +42,6 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - karolina-gamingset
-  - date: 2021-12-07T19:00:00.000Z
-    streamerChannel: nihachu
-    streamLink: https://www.twitch.tv/Nihachu
-    streamerName: Nihachu
-    imgUrl: /uploads/charity_royale_rgb.png
-    wishes:
-      - hanna-fashionshow
   - date: 2021-12-06T18:00:57.149Z
     streamLink: https://www.twitch.tv/TimJacken
     streamerName: TimJacken
@@ -56,6 +49,13 @@ upcoming:
     wishes:
       - marvellous-hubschrauber
     imgUrl: /uploads/charity_royale_rgb.png
+  - date: 2021-12-07T19:00:00.000Z
+    streamerChannel: nihachu
+    streamLink: https://www.twitch.tv/Nihachu
+    streamerName: Nihachu
+    imgUrl: /uploads/charity_royale_rgb.png
+    wishes:
+      - hanna-fashionshow
   - date: 2021-12-08T14:30:00.000Z
     streamLink: https://www.twitch.tv/niekbeats
     streamerChannel: niekbeats
@@ -70,6 +70,27 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - edanur-macbookair
+  - date: 2021-12-10T18:00:28.480Z
+    streamerName: Sintica
+    streamerChannel: sintica
+    streamLink: https://www.twitch.tv/Sintica
+    imgUrl: /uploads/charity_royale_rgb.png
+    wishes:
+      - moritz-tomorrowland
+  - date: 2021-11-29T11:45:28.526Z
+    streamerName: Stegi
+    streamerChannel: stegi
+    streamLink: https://www.twitch.tv/Stegi
+    imgUrl: /uploads/charity_royale_rgb.png
+    wishes:
+      - isaac-iphone
+  - date: 2021-12-11T23:00:15.196Z
+    streamerName: Veylaney
+    streamerChannel: veylaney
+    streamLink: https://www.twitch.tv/Veylaney
+    imgUrl: /uploads/charity_royale_rgb.png
+    wishes:
+      - julian-comedian
   - date: 2021-12-14T09:00:05.567Z
     streamLink: https://www.twitch.tv/Henke
     streamerName: Henke
