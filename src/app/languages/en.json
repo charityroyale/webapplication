@@ -17,10 +17,10 @@
 	"donateForStreamerNowText": "Donate for project",
 	"wishTitle": "Wish",
 	"wishByHeartTitle": "Heartfelt wish",
-	"donationWidgetGoalReachedTitle": "Winner Winner Chicken Dinner, Donationgoal reached!",
+	"donationWidgetGoalReachedTitle": "Winner Winner Chicken Dinner, goal reached!",
 	"donationWidgetGoalReachedTextPart1": "The donation difference of",
 	"donationWidgetGoalReachedTextPart2": "will be donated to unfulfilled",
-	"donationWidgetGoalReachedTextPart3": "projects donated.",
+	"donationWidgetGoalReachedTextPart3": "projects.",
 	"scheduledStreamsTitle": "Schedule",
 	"downloadScheduleTitle": "Current schedule as Calendar file",
 	"downloadCTA": "download",
@@ -35,5 +35,6 @@
 	"donationformTitle": "Donation-Form",
 	"donatioNFormLoadErrorText": "There was an issue loading donation form.",
 	"latestDonatorsTitle": "Latest donators",
-	"faqPageTitle": "Answers and questions about the project and donation process (german-only)"
+	"faqPageTitle": "Answers and questions about the project and donation process (german-only)",
+	"donationProjectTitle": "project"
 }

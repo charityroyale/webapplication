@@ -44,6 +44,7 @@ export type DictionairyEntryType =
 	| 'donatioNFormLoadErrorText'
 	| 'latestDonatorsTitle'
 	| 'faqPageTitle'
+	| 'donationProjectTitle'
 
 type LanguageTypes = 'en' | 'de'
 type LanguageDictionairyType = { [key in LanguageTypes]: DictionairyEntry }

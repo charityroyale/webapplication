@@ -8,15 +8,14 @@ import ClientLink from '../ClientLink'
 import { formatDate, formatMoneyWithSign } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
 import { UpcomingStreamFooter } from './UpcomingStreamFooter'
-import { Upcoming } from '../../cms/cms'
+import { CmsUpcomingStreamer } from '../../cms/cms'
 import { useInView } from 'react-intersection-observer'
-import { Text } from '../Text'
 
 const StreamerImageWrapper = styled.div<{ text: string }>`
 	position: relative;
 
 	&:before {
-		content: ${(p) => p.text};
+		content: '${(p) => p.text}';
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -91,7 +90,7 @@ export const DoneStreamDonation = styled.div<{ projectDone: boolean }>`
 	display: ${(p) => (p.projectDone ? 'block' : 'none')};
 `
 
-export interface UpcomingStreamProps extends Upcoming {
+export interface UpcomingStreamProps extends CmsUpcomingStreamer {
 	donationGoal: string
 	donationProgress: string
 	projectDone: boolean
@@ -107,7 +106,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 		setIsImagedLoaded(true)
 	}, [])
 
-	const donateLinkHref = `/donate/${customLink || streamerChannel}`
+	const donateLinkHref = `/donate/${customLink || streamerChannel}/${props.wishes[0]}`
 
 	return (
 		<StyledUpcomingStream ref={ref}>
@@ -116,7 +115,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 				<span>{formatDate(new Date(date))}</span>
 			</UpcomingStreamDate>
 			<ClientLink href={donateLinkHref} ariaLabel={`Streamer ${streamerName} Logo`}>
-				<StreamerImageWrapper text={(<Text content="donateForStreamerNowText" />).toString()}>
+				<StreamerImageWrapper text={streamerName}>
 					{!imageLoaded && <Skeleton height={300} />}
 					{!isSSR && (
 						<StyledUpcomingStreamPlaceholderImage
