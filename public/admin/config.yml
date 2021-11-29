@@ -59,23 +59,18 @@ collections:
             name: faq
             widget: object
             fields:
-              - label: Questions
-                name: questions
-                widget: object
-                summary: '{{fields.name}}'
+              - label: Q&A German
+                name: questions-de
+                widget: list
                 fields:
-                  - label: Englisch
-                    name: questions-en
-                    widget: list
-                    fields:
-                      - { label: 'Question', name: 'question-en', widget: 'string' }
-                      - { label: 'Answer', name: 'answer-en', widget: 'markdown' }
-                  - label: German
-                    name: questions-de
-                    widget: list
-                    fields:
-                      - { label: 'Question', name: 'question-de', widget: 'string' }
-                      - { label: 'Answer', name: 'answer-de', widget: 'markdown' }
+                  - { label: 'Question', name: 'question-de', widget: 'string' }
+                  - { label: 'Answer', name: 'answer-de', widget: 'markdown' }
+              - label: Q&A English
+                name: questions-en
+                widget: list
+                fields:
+                  - { label: 'Question', name: 'question-en', widget: 'string' }
+                  - { label: 'Answer', name: 'answer-en', widget: 'markdown' }
               - label: Videos
                 name: videos
                 widget: list
