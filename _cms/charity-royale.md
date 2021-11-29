@@ -2,10 +2,10 @@
 title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
   willhaben für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: herrhaderer
+featuredStream: nqrmvn
 makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/yYomNE5TDvU
-customDonationLink: https://www.make-a-wish.at
+customDonationLink: ""
 upcoming:
   - date: 2021-12-01T12:00:26.099Z
     streamerName: NQRMVN
@@ -21,6 +21,20 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - ramazan-macbook
+  - date: 2021-12-03T19:00:28.887Z
+    streamerName: RvNxMango
+    streamerChannel: rvnxmango
+    streamLink: https://www.twitch.tv/rvnxmango
+    wishes:
+      - pascal-griechenland
+    imgUrl: /uploads/charity_royale_rgb.png
+  - date: 2021-12-04T18:00:14.531Z
+    streamerName: CastCrafter
+    streamLink: https://www.twitch.tv/CastCrafter
+    streamerChannel: castcrafter
+    wishes:
+      - tom-gardaland
+    imgUrl: /uploads/charity_royale_rgb.png
   - date: 2021-12-05T09:00:53.381Z
     streamerChannel: gtimetv
     streamLink: https://www.twitch.tv/GTimeTV
@@ -35,6 +49,13 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - hanna-fashionshow
+  - date: 2021-12-06T18:00:57.149Z
+    streamLink: https://www.twitch.tv/TimJacken
+    streamerName: TimJacken
+    streamerChannel: timjacken
+    wishes:
+      - marvellous-hubschrauber
+    imgUrl: /uploads/charity_royale_rgb.png
   - date: 2021-12-08T14:30:00.000Z
     streamLink: https://www.twitch.tv/niekbeats
     streamerChannel: niekbeats
