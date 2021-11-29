@@ -148,6 +148,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - sara-zimmereinrichtung
+      - leonora-prinzessinnenzimmer
   - date: 2021-12-19T23:00:38.969Z
     streamerName: Veni
     streamerChannel: veni
