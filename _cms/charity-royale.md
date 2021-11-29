@@ -157,13 +157,6 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - arina-macbook
-  - date: 2021-08-17T13:29:59.694Z
-    streamerName: TESTEINTRAG
-    streamerChannel: heideltrauteuw
-    streamLink: https://twitch.tv/heideltrauteuw
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
-    wishes:
-      - patrick-heidelbeeren
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
