@@ -61,6 +61,8 @@ collections:
             fields:
               - label: Questions
                 name: questions
+                widget: object
+                summary: '{{fields.name}}'
                 fields:
                   - label: Englisch
                     name: questions-en
