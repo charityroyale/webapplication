@@ -91,6 +91,13 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - julian-comedian
+  - date: 2021-12-13T18:00:57.815Z
+    streamerName: BastiGHG
+    streamerChannel: bastighg
+    streamLink: https://www.twitch.tv/BastiGHG
+    imgUrl: /uploads/charity_royale_rgb.png
+    wishes:
+      - nina-elefantenwaisenhaus
   - date: 2021-12-14T09:00:05.567Z
     streamLink: https://www.twitch.tv/Henke
     streamerName: Henke
@@ -98,6 +105,20 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - dmytro-kamera
+  - date: 2021-12-15T18:00:15.973Z
+    streamerName: Clym
+    streamerChannel: clym
+    streamLink: https://www.twitch.tv/Clym
+    imgUrl: /uploads/charity_royale_rgb.png
+    wishes:
+      - emelia-iphone
+  - date: 2021-12-16T18:00:06.155Z
+    streamerName: Vlesk
+    streamerChannel: vlesk
+    streamLink: https://www.twitch.tv/Vlesk
+    imgUrl: /uploads/charity_royale_rgb.png
+    wishes:
+      - pascal-washingtoncapitals
   - date: 2021-12-17T11:00:00.000Z
     streamLink: https://www.twitch.tv/Zayuri
     streamerName: Zayuri
@@ -127,6 +148,11 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - sara-zimmereinrichtung
+  - date: 2021-12-19T23:00:38.969Z
+    streamerName: Veni
+    streamerChannel: veni
+    streamLink: https://www.twitch.tv/Veni
+    imgUrl: /uploads/charity_royale_rgb.png
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
