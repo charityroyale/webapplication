@@ -135,7 +135,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 					</DonationLinkIndicator>
 				</StreamerImageWrapper>
 			</ClientLink>
-			<UpcomingStreamFooter {...props} />
+			<UpcomingStreamFooter donateLinkHref={donateLinkHref} {...props} />
 		</StyledUpcomingStream>
 	)
 }

@@ -103,18 +103,20 @@ export const UpcomingStreamerDonationLink = styled.a`
 	}
 `
 
-export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamProps> = ({
+interface UpcomingStreamFooterProps extends UpcomingStreamProps {
+	donateLinkHref: string
+}
+export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamFooterProps> = ({
 	streamerName,
 	streamLink,
 	streamerChannel,
 	imgUrl,
-	customLink,
+	donateLinkHref,
 	date,
-}: UpcomingStreamProps) => {
+}: UpcomingStreamFooterProps) => {
 	const [iconLoaded, setIconLoaded] = useState(false)
 	const isSSR = useIsSSR()
 	const { ref, inView } = useInView({ triggerOnce: true })
-	const donateLinkHref = `/donate/${customLink || streamerChannel}`
 
 	const onIconImageLoad = useCallback(() => {
 		setIconLoaded(true)
