@@ -33,7 +33,7 @@
 	"donationGoal": "Ziel",
 	"donatorNameText": "Spender",
 	"donationformTitle": "Spenden-Formular",
-	"donatioNFormLoadErrorText": "Leider ist ein Fehler beim laden des Formular aufgetreten.",
+	"donationFormLoadErrorText": "Leider ist ein Fehler beim laden des Formular aufgetreten.",
 	"latestDonatorsTitle": "Letzte Spender",
 	"faqPageTitle": "Antworten und Fragen zum Projekt und spenden",
 	"donationProjectTitle": "Spendenprojekt"

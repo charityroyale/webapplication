@@ -11,7 +11,7 @@ import useMakeAWish from '../hooks/useMakeAWish'
 import { CmsUpcomingStreamer } from '../cms/cms'
 import UpcomingStream from './UpcomingStream/UpcomingStream'
 import { Text } from './Text'
-import { MakeAWishWishDTO } from '../dto/MakeAWishDonationsDTO'
+import { MakeAWishWishDTO, MakeAWishStreamerJSONDTO } from '../dto/MakeAWishDonationsDTO'
 
 interface UpcomingStreams {
 	schedule: CmsUpcomingStreamer[]
@@ -33,12 +33,18 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 		let donationGoal = '0'
 		let donationProgess = '0'
 		if (!makeAWish.isError && !makeAWish.isLoading) {
-			const makeAWishProject: MakeAWishWishDTO | undefined = makeAWish.data.wishes[stream.wishes[0]]
-			if (makeAWishProject) {
-				donationGoal = makeAWish.data.wishes[stream.wishes[0]].donation_goal
-				donationProgess = makeAWish.data.streamers[stream.streamerChannel].wishes[stream.wishes[0]]
-					? makeAWish.data.streamers[stream.streamerChannel].wishes[stream.wishes[0]].current_donation_sum
-					: '0'
+			const rootLevelWish: MakeAWishWishDTO | undefined = makeAWish.data.wishes[stream.wishes[0]]
+			const streamer: MakeAWishStreamerJSONDTO = makeAWish.data.streamers[stream.streamerChannel]
+
+			if (rootLevelWish) {
+				donationGoal = rootLevelWish.donation_goal
+			}
+
+			if (streamer && streamer.wishes.length > 0) {
+				donationProgess =
+					streamer.type === 'main'
+						? rootLevelWish.current_donation_sum
+						: streamer.wishes[stream.wishes[0]].current_donation_sum
 			}
 		}
 		return (
