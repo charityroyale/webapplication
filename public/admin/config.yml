@@ -64,11 +64,13 @@ collections:
                 fields:
                   - label: Englisch
                     name: questions-en
+                    widget: list
                     fields:
                       - { label: 'Question', name: 'question-en', widget: 'string' }
                       - { label: 'Answer', name: 'answer-en', widget: 'markdown' }
                   - label: German
                     name: questions-de
+                    widget: list
                     fields:
                       - { label: 'Question', name: 'question-de', widget: 'string' }
                       - { label: 'Answer', name: 'answer-de', widget: 'markdown' }
