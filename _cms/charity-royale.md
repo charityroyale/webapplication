@@ -153,6 +153,8 @@ upcoming:
     streamerChannel: veni
     streamLink: https://www.twitch.tv/Veni
     imgUrl: /uploads/charity_royale_rgb.png
+    wishes:
+      - arina-macbook
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
