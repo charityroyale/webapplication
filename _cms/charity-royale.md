@@ -77,7 +77,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - moritz-tomorrowland
-  - date: 2021-11-29T11:45:28.526Z
+  - date: 2021-12-11T13:00:00.000Z
     streamerName: Stegi
     streamerChannel: stegi
     streamLink: https://www.twitch.tv/Stegi
