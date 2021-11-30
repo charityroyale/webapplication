@@ -383,8 +383,7 @@ wishes:
     streamers:
       - mrsxeniatv
   - childname: Ramazan
-    tagline: Ramazon wünschte sich ein MacBook, um es ins Krankenhaus mitnehmen zu
-      können
+    tagline: Ramazan wünscht sich ein MacBook, um es ins Krankenhaus mitnehmen zu können
     descripion: Wie rasch Ramazan wusste, was sein Herzenswunsch ist, überraschte
       sogar seine Eltern. Denn für den 11-jährigen war es absolut klar – ein
       MacBook wünscht er sich, das er auch ins Krankenhaus mitnehmen kann, wenn
@@ -392,8 +391,7 @@ wishes:
       aplastischer Anämie (Blutarmut). Was man auch wissen muss, der Bub ist der
       vermutlich weltgrößte Fan des Fenerbahçe Istanbul. Um seinem
       Lieblingsfußball-Club virtuell folgen zu können, möchte er auch sein
-      MacBook verwenden. Wir haben den Wunsch von Ramazan vorfinanziert und
-      bereits erfüllt.
+      MacBook verwenden.
     slug: ramazan-macbook
     donationGoal: "2500"
     streamers:
