@@ -77,7 +77,7 @@ for (const streamer of streamers) {
 			streamerWishes[streamer.streamerChannel + wish.slug] = {
 				streamer: {
 					...streamer,
-					streamLink: streamer.customLink || streamer.streamerChannel,
+					streamLink: streamer.customLink || streamer.streamLink,
 				},
 				wish: wish,
 			}
