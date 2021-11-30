@@ -255,7 +255,7 @@ const DonatePage: NextPage<InitialDonationProps> = ({ project }: InitialDonation
 				<link
 					rel="preload"
 					as="script"
-					href="https://www.paypal.com/sdk/js?client-id=ATL90eAe-2zLX8e1YYlyI_O6-gd_6qs9gBTimJ7hNiOa1ZUKNNs0XBy1MuF2vb_tY709L13K9akFjhWs&currency=EUR"
+					href="https://www.paypal.com/sdk/js?client-id=ARva2JSJxkYe3aON0p68XxuHWEw-HaEqajH0a990PelhZZGnFh04CUOQpOgWURnRZqVdcQAo9tfFLUl_&currency=EUR"
 				></link>
 
 				<meta name="twitter:card" content="summary" key="twcard" />
