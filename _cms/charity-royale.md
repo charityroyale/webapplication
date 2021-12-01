@@ -393,7 +393,7 @@ wishes:
       Lieblingsfußball-Club virtuell folgen zu können, möchte er auch sein
       MacBook verwenden.
     slug: ramazan-macbook
-    donationGoal: "2500"
+    donationGoal: "2400"
     streamers:
       - revedtv
   - childname: Dmytro
