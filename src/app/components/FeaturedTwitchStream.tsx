@@ -22,7 +22,7 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 			width: width,
 			height: height,
 			layout: 'video',
-			channel,
+			channel: channel.includes('/') ? channel.split('/')[0] : channel,
 		})
 
 		const ref = featuredStreamRef.current
