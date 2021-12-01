@@ -506,7 +506,7 @@ wishes:
       anderen Spieler plaudern zu können. „Ich freue mich auf alles, was möglich
       ist in Bayern“, so der kleine Kämpfer."
     slug: philipp-fcbayern
-    donationGoal: "2500"
+    donationGoal: "1200"
     streamers:
       - nqrmvn
   - childname: Elias
