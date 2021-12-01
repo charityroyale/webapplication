@@ -150,7 +150,7 @@ upcoming:
     wishes:
       - sara-zimmereinrichtung
       - leonora-prinzessinnenzimmer
-  - date: 2021-12-19T23:00:38.969Z
+  - date: 2021-12-20T11:00:00.000Z
     streamerName: Veni
     streamerChannel: veni
     streamLink: https://www.twitch.tv/Veni
