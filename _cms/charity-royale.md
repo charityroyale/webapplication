@@ -4,7 +4,7 @@ title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: nqrmvn/philipp-fcbayern
 makeAWishProjects: []
-featuredYoutubeStream: https://www.youtube.com/embed/ze9H7MFm13Y
+featuredYoutubeStream: ""
 customDonationLink: ""
 upcoming:
   - date: 2021-12-01T12:00:26.099Z
