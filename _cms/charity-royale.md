@@ -209,7 +209,7 @@ wishes:
       gerne einen bekannten Youtuber/Modedesigner treffen und sehen, wie seine
       Videos entstehen. Auch der Ablauf, wie eine seiner Kollektionen entsteht
       und was da alles dahinter steckt, würde ihn interessieren.
-    donationGoal: "2500"
+    donationGoal: "1300"
   - childname: Moritz
     tagline: Endlich beim Tomorrow-Land Festival dabei sein
     descripion: "Moritz ist schon 20, eigentlich ein Alter, in dem wir keine Wünsche
@@ -232,7 +232,7 @@ wishes:
       aus und dann könnte der Umbau losgehen und Leonora bekommt ihr eigenes
       kleines Prinzessinnenreich."
     slug: leonora-prinzessinnenzimmer
-    donationGoal: "2500"
+    donationGoal: "3000"
   - childname: Larissa
     tagline: Larissa möchte all ihre Lieblinge auf der Disney Parade treffen
     descripion: Larissas Herzenswunsch ist ein Besuch im Disneyland Paris mit ihrer
@@ -248,7 +248,7 @@ wishes:
       „Zum Glück gibt’s Disney“, meint Larissa und wir hoffen, dass wir mit
       eurer Hilfe ihren Wunsch so rasch wie möglich erfüllen können!
     slug: larissa-disneyland
-    donationGoal: "2500"
+    donationGoal: "3000"
   - childname: Arina
     tagline: Arina möchte ihr eigenes Business aufbauen
     descripion: Arina ist erst 13 Jahre alt, aber sie denkt jetzt schon darüber
@@ -259,7 +259,7 @@ wishes:
       ist es einfach zu nutzen und man kann tolle Präsentationen damit machen.
       Tja, da haben wir nichts mehr hinzuzufügen. ☺
     slug: arina-macbook
-    donationGoal: "2500"
+    donationGoal: "14000"
     streamers:
       - zayuri
   - childname: Karolina
@@ -274,7 +274,7 @@ wishes:
       zu tun hat, es liebt online zu sein, ist nach eigenen Angaben
       Non-Alkohol-Trinkerin, kann super zeichnen und mag Ausgefallenes.
     slug: karolina-gamingset
-    donationGoal: "2500"
+    donationGoal: "3000"
     streamers:
       - gtimetv
   - childname: Asma
@@ -292,7 +292,7 @@ wishes:
       Asmas Herzenswunsch ein neuer Fernseher, damit Sonic wieder für sie über
       den Bildschirm flitzen kann."
     slug: asma-fernseher
-    donationGoal: "2500"
+    donationGoal: "600"
   - childname: Lukas
     tagline: Ein Meet & Greet mit Promi-Fußballer
     descripion: "„Er schießt so viele Tore und ist so nett“, begründet Lukas seinen
@@ -304,7 +304,7 @@ wishes:
       einiges anfangen. Denn er geht in eine Musikschule und spielt dort
       Trommel. Seine Lieblingssänger sind Mark Forster und Andreas Gabalier."
     slug: lukas-fussballer
-    donationGoal: "2500"
+    donationGoal: "1300"
     streamers:
       - shredmir
       - krokoboss
@@ -317,7 +317,7 @@ wishes:
       den Zehen zu spüren, jede Menge Sandburgen bauen mit Papa und natürlich
       auf jede Menge Rutschen-Spaß!
     slug: daria-zypern
-    donationGoal: "2500"
+    donationGoal: "3600"
     streamers:
       - niekbeats
   - slug: marvellous-hubschrauber
@@ -331,7 +331,7 @@ wishes:
       oder Lotti Karotti. Und auch seine Lieblingsspeise hat uns der kleine
       Gourmet verraten: Nudeln mit Sauce."
     childname: Marvellous
-    donationGoal: "2500"
+    donationGoal: "700"
   - childname: Pascal
     tagline: Strandurlaub mit Mama und den 3 Geschwistern
     descripion: Urlaub machen und alle sollen sich’s gut gehen lassen. Das ist es,
@@ -342,7 +342,7 @@ wishes:
       Lieblingsbeschäftigungen zählt Enduro fahren. Vielleicht kann er sich in
       seinem Urlaub ja eine ausborgen?
     slug: pascal-griechenland
-    donationGoal: "2500"
+    donationGoal: "3600"
   - childname: Julian
     tagline: Julian möchte deutschen Comedian treffen (keine Freigaben vom Comedian)
     descripion: "Der Comedian hat Julian während seiner Therapien (Julian ist an
@@ -354,7 +354,7 @@ wishes:
       liebsten Fischstäbchen mit Erbsen. Und wenn ihn seine Mama fragt, was sie
       ihm mitbringen soll, dann kommt wie aus der Pistole geschossen ganz
       klassisch: ein Überraschungsei. "
-    donationGoal: "2500"
+    donationGoal: "1300"
     slug: julian-comedian
   - childname: Nina
     tagline: Nina im Elefantenwaisenhaus
@@ -368,7 +368,7 @@ wishes:
       Passend dazu auch ihr Lieblingsfilm: „Dumbo“. Da dreht sich ja auch alles
       um die Dickhäuter. "
     slug: nina-elefantenwaisenhaus
-    donationGoal: "2500"
+    donationGoal: "4200"
   - childname: Edanur
     tagline: Ein MacBook Air für die Schulaufgaben … ok – und zum Netflix schauen ;-)
     descripion: "Edanur, die an einem Gehirntumor leidet, ist oft mit ihrer kleinen
@@ -379,7 +379,7 @@ wishes:
       Ihre Lieblings-Netflix-Serie ist Haus des Geldes, musikalisch liebt sie es
       eher ruhig – Ariane Grande hört sie sehr gerne. "
     slug: edanur-macbookair
-    donationGoal: "2500"
+    donationGoal: "1200"
     streamers:
       - mrsxeniatv
   - childname: Ramazan
@@ -407,7 +407,7 @@ wishes:
       und alles festhalten. Aber auch in Wien möchte er gemeinsam mit seinen
       Eltern auf Fotosafari gehen und ganz besondere Motive jagen."
     slug: dmytro-kamera
-    donationGoal: "2500"
+    donationGoal: "900"
     streamers:
       - henke
   - childname: Andrea
@@ -419,7 +419,7 @@ wishes:
       vielleicht das letzte Mal ist, dass ich was sehe“. Andrea schwimmt gerne,
       geht gerne spazieren und liebt Spaghetti. "
     slug: andrea-ramsau
-    donationGoal: "2500"
+    donationGoal: "3100"
   - childname: Sara
     tagline: Zimmereinrichtung und bunte LED-Streifen
     descripion: "Saras Familie zieht in ein neues Zuhause, in dem die 10-jährige ein
@@ -432,7 +432,7 @@ wishes:
       alles so wird, wie es sich das fröhliche Kind vorstellt, bekamen wir Fotos
       von Möbeln und Deko zugeschickt. "
     slug: sara-zimmereinrichtung
-    donationGoal: "2500"
+    donationGoal: "2900"
     streamers:
       - dhalucard
   - childname: Isaac
@@ -450,7 +450,7 @@ wishes:
     tagline: Der angehende IT-Techniker wünschte sich den Ferrari untern den
       Mobil-Telefonen
     slug: isaac-iphone
-    donationGoal: "2500"
+    donationGoal: "900"
   - childname: Julian
     descripion: Julian wünscht sich einen Urlaub auf Malta, gemeinsam mit seinem
       Vater und seinem besten Freund. Der 17-jährige, der an Krebs erkrankt ist,
@@ -459,7 +459,7 @@ wishes:
       niederließen. Aber auch auf das Essen dort freut er sich sehr.
     tagline: Urlaub auf Malta
     slug: julian-malta
-    donationGoal: "2500"
+    donationGoal: "3600"
   - childname: Pascal
     tagline: NHL Spiel sehen und M&G mit der Nummer 8
     descripion: "Der Herzenswunsch des 12-jährigen Pascal, der an Leukämie erkrankt
@@ -471,7 +471,7 @@ wishes:
       aber eher in der italienischen Küche daheim – Pizza ist sein absolutes
       Lieblingsgericht. "
     slug: pascal-washingtoncapitals
-    donationGoal: "2500"
+    donationGoal: "4200"
   - childname: Hanna
     tagline: Experience a fashion show in London or Paris
     descripion: "Hanna lives with a metabolic disease that forces her to consume
@@ -483,7 +483,7 @@ wishes:
       passion for fashion: She and her sister would like to travel to one of the
       fashion capitals of Europe - London or Paris - and experience a fashion
       show there."
-    donationGoal: "2500"
+    donationGoal: "3000"
     slug: hanna-fashionshow
     streamers:
       - nihachu
@@ -491,7 +491,7 @@ wishes:
     descripion: Valentin möchte ins Disneyland
     tagline: Valentin möchte ins Disneyland
     slug: valentin-disneyland
-    donationGoal: "2500"
+    donationGoal: "3000"
   - childname: Philipp
     tagline: „FC Bayern lässt mein Herz höher schlagen“
     descripion: "Philipp ist vor 1 ½ Jahren an Leukämie erkrankt. Diese letzten 18
@@ -518,7 +518,7 @@ wishes:
       Herzenswunsch Pluto und die Fahrzeuge aus „Cars“ im Disneyland Paris zu
       besuchen.
     slug: elias-disneyland
-    donationGoal: "2500"
+    donationGoal: "3000"
   - childname: Lean
     tagline: Ben Zucker – und sonst nichts
     descripion: "Bens Wunsch ist klipp und klar! Es soll etwas mit Ben Zucker zu tun
@@ -528,7 +528,7 @@ wishes:
       allem: zu lachen. Und das geht am besten, wenn ein Mr. Bean im Fernsehen
       läuft. "
     slug: lean-benzucker
-    donationGoal: "2500"
+    donationGoal: "400"
   - slug: patrick-heidelbeeren
     tagline: TEST - Patrick's Heidelbeern
     childname: TESTER
