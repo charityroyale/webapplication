@@ -14,7 +14,7 @@ upcoming:
     wishes:
       - philipp-fcbayern
     imgUrl: /uploads/charity_royale_rgb.png
-  - date: 2021-12-02T15:00:00.000Z
+  - date: 2021-12-02T15:30:00.000Z
     streamLink: https://www.twitch.tv/RevedTV
     streamerChannel: revedtv
     streamerName: RevedTV
