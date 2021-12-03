@@ -39,6 +39,7 @@ collections:
               - { label: 'Custom donation link', name: 'customLink', required: false, widget: 'string' }
               - { label: 'Streamer Image', name: 'imgUrl', widget: 'image' }
               - { label: 'Stream Date', name: 'date', widget: 'datetime' }
+              - { label: 'Type ("main" or "community")', name: 'type', widget: 'string', required: true }
               - label: Make-a-Wish Wunsch
                 name: wishes
                 widget: 'list'
