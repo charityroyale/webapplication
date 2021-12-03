@@ -12,12 +12,55 @@ import { CmsUpcomingStreamer } from '../cms/cms'
 import UpcomingStream from './UpcomingStream/UpcomingStream'
 import { Text } from './Text'
 import { MakeAWishWishDTO, MakeAWishStreamerJSONDTO } from '../dto/MakeAWishDonationsDTO'
+import { styled } from '../../styles/Theme'
+
+const ScheduleTypeButton = styled.button`
+	margin: ${(p) => p.theme.space.s}px auto;
+	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
+	border: 2px solid ${(p) => p.theme.color.charityTeal};
+	background-color: ${(p) => p.theme.color.veniPurple};
+	color: ${(p) => p.theme.color.white};
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: ${(p) => p.theme.fontSize.l}px;
+	font-weight: 600;
+	transition: background-color 0.17s;
+
+	border: 10px solid;
+	border-width: 3px;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(
+		to right,
+		${(p) => p.theme.color.charityTeal},
+		${(p) => p.theme.color.charityPink}
+	);
+	box-shadow: 4px 4px 3px 1px #000000;
+
+	&:hover,
+	&:focus {
+		color: ${(p) => p.theme.color.veniPurple};
+		border-image-source: linear-gradient(
+			to right,
+			${(p) => p.theme.color.charityTeal},
+			${(p) => p.theme.color.charityTeal}
+		);
+		background-color: ${(p) => p.theme.color.charityTeal};
+		cursor: pointer;
+	}
+`
 
 interface UpcomingStreams {
 	schedule: CmsUpcomingStreamer[]
+	scheduleType: 'main' | 'community'
+	changeScheduleType: React.Dispatch<React.SetStateAction<'main' | 'community'>>
 }
 
-const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }: UpcomingStreams) => {
+const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
+	schedule,
+	scheduleType,
+	changeScheduleType,
+}: UpcomingStreams) => {
 	const makeAWish = useMakeAWish()
 
 	const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
@@ -58,6 +101,8 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 		)
 	}
 
+	const swapScheduleTypeButtonText = scheduleType === 'main' ? 'Main schedule' : 'Community schedule'
+
 	return (
 		<React.Fragment>
 			{schedule.filter(isInTheFuture).length > 0 && (
@@ -65,6 +110,13 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 					<StyleUpcomingStreamsHeader>
 						<StyleUpcomingStreamsTitle>
 							<Text content="scheduledStreamsTitle" />
+							<ScheduleTypeButton
+								onClick={(e) =>
+									scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main')
+								}
+							>
+								{swapScheduleTypeButtonText}
+							</ScheduleTypeButton>
 						</StyleUpcomingStreamsTitle>
 						<p>
 							<Text content="downloadScheduleTitle" />{' '}
@@ -83,13 +135,24 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({ schedule }
 						<StyleUpcomingStreamsTitle>
 							<Text content="pastStreamsTitle" />
 						</StyleUpcomingStreamsTitle>
+						<ScheduleTypeButton
+							onClick={(e) => (scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main'))}
+						>
+							{swapScheduleTypeButtonText}
+						</ScheduleTypeButton>
 					</StylePastStreamsHeader>
+
 					<StyledPast>{schedule.filter(isInThePast).map(createUpcomingStream)}</StyledPast>
 				</>
 			)}
 			{schedule.length === 0 && (
 				<StylePastStreamsHeader>
 					<StyleUpcomingStreamsTitle>Streams TBA</StyleUpcomingStreamsTitle>
+					<ScheduleTypeButton
+						onClick={(e) => (scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main'))}
+					>
+						{swapScheduleTypeButtonText}
+					</ScheduleTypeButton>
 				</StylePastStreamsHeader>
 			)}
 		</React.Fragment>

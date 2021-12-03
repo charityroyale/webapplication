@@ -7,6 +7,7 @@ export interface CmsUpcomingStreamer {
 	customLink?: string
 	imgUrl: string
 	date: string
+	type: 'main' | 'community' | ''
 	wishes: string[]
 }
 

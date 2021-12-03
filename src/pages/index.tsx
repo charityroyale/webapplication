@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import MainLayout from '../app/layouts/MainLayout'
@@ -18,6 +18,9 @@ export interface InitialAppProps {
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 	const { schedule, featuredStream, featuredYoutubeStream } = props
+	const [scheduleType, setScheduleType] = useState<'main' | 'community'>('main')
+	const filteredSchedule = schedule.filter((scheduledStream) => scheduledStream.type === scheduleType)
+
 	return (
 		<>
 			<Head>
@@ -48,7 +51,11 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 			<>
 				<ButtonsBox />
 				<FeaturedStream twitchChannelName={featuredStream} youtubeUrl={featuredYoutubeStream} />
-				<UpcomingFeatures schedule={schedule} />
+				<UpcomingFeatures
+					schedule={filteredSchedule}
+					changeScheduleType={setScheduleType}
+					scheduleType={scheduleType}
+				/>
 			</>
 		</>
 	)
