@@ -178,6 +178,14 @@ upcoming:
     type: main
     wishes:
       - larissa-disneyland
+  - date: 2021-12-17T11:00:51.604Z
+    streamerName: keineahnungwaslos
+    streamerChannel: keineahnungwaslos
+    streamLink: https://www.twitch.tv/keineahnungwaslos
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
