@@ -83,11 +83,13 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 				donationGoal = rootLevelWish.donation_goal
 			}
 
-			if (rootLevelWish && streamer.wishes.length > 0 && stream.wishes[0]) {
+			if (rootLevelWish && streamer.wishes && stream.wishes[0]) {
 				donationProgess =
 					streamer.type === 'main'
 						? rootLevelWish.current_donation_sum
-						: streamer.wishes[stream.wishes[0]].current_donation_sum
+						: streamer.wishes.length > 0
+						? streamer.wishes[stream.wishes[0]].current_donation_sum
+						: 0
 			}
 		}
 		return (
