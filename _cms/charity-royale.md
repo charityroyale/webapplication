@@ -555,6 +555,66 @@ wishes:
     childname: TESTER
     descripion: TEST
     donationGoal: "5"
+  - slug: disneyland
+    childname: Wunschkind
+    tagline: Disneyland Reise
+    donationGoal: "1500"
+    descripion: Disneyland Reise
+  - tagline: 1 Tag Prinzessin
+    childname: Wunschkind
+    slug: prinzessin
+    donationGoal: "500"
+    descripion: 1 Tag Prinzessin
+  - tagline: Legoland Reise
+    descripion: Legoland Reise
+    childname: Wunschkind
+    slug: legoland
+    donationGoal: "500"
+  - donationGoal: "500"
+    tagline: M&G mit Youtuber
+    descripion: M&G mit Youtuber
+    childname: Wunschkind
+    slug: youtuber
+  - slug: harrypotter
+    tagline: Harry Potter Studios
+    descripion: Harry Potter Studios
+    childname: Wunschkind
+    donationGoal: "1000"
+  - tagline: Gaming PC
+    descripion: Gaming PC
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: gamingpc
+  - descripion: Zimmereinrichtung
+    tagline: Zimmereinrichtung
+    slug: zimmereinrichtung
+    donationGoal: "1000"
+    childname: Wunschkind
+  - tagline: "Stelzenhaus mit Extras\t"
+    descripion: "Stelzenhaus mit Extras\t"
+    childname: Wunschkind
+    slug: stelzenhaus
+    donationGoal: "1500"
+  - tagline: Gaming Ecke
+    descripion: Gaming Ecke
+    childname: Wunschkind
+    donationGoal: "1500"
+    slug: gamingecke
+  - tagline: Flugreise
+    descripion: Flugreise
+    childname: Wunschkind
+    slug: flugreise
+    donationGoal: "2000"
+  - tagline: Familienhotel
+    descripion: Familienhotel
+    childname: Wunschkind
+    slug: familienhotel
+    donationGoal: "2000"
+  - tagline: Treffen mit Disneyfigur
+    descripion: Treffen mit Disneyfigur
+    childname: Wunschkind
+    slug: disneyfigur
+    donationGoal: "2000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
