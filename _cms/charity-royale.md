@@ -186,6 +186,14 @@ upcoming:
     type: community
     wishes:
       - legoland
+  - date: 2021-12-18T12:00:09.813Z
+    streamerName: frixum1337
+    streamerChannel: frixum1337
+    streamLink: https://www.twitch.tv/frixum1337
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
