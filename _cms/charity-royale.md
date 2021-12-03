@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
   willhaben für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: revedtv/ramazan-macbook
+featuredStream: rvnxmango/pascal-griechenland
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
