@@ -11,11 +11,11 @@ import { UpcomingStreamFooter } from './UpcomingStreamFooter'
 import { CmsUpcomingStreamer } from '../../cms/cms'
 import { useInView } from 'react-intersection-observer'
 
-const StreamerImageWrapper = styled.div<{ text: string }>`
+const StreamerImageWrapper = styled.div`
 	position: relative;
 
 	&:before {
-		content: '${(p) => p.text}';
+		content: ' ';
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -115,7 +115,7 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 				<span>{formatDate(new Date(date))}</span>
 			</UpcomingStreamDate>
 			<ClientLink href={donateLinkHref} ariaLabel={`Streamer ${streamerName} Logo`}>
-				<StreamerImageWrapper text={streamerName}>
+				<StreamerImageWrapper>
 					{!imageLoaded && <Skeleton height={300} />}
 					{!isSSR && (
 						<StyledUpcomingStreamPlaceholderImage
