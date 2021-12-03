@@ -14,11 +14,13 @@ upcoming:
     wishes:
       - philipp-fcbayern
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
   - date: 2021-12-02T15:30:00.000Z
     streamLink: https://www.twitch.tv/RevedTV
     streamerChannel: revedtv
     streamerName: RevedTV
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - ramazan-macbook
   - date: 2021-12-03T19:00:28.887Z
@@ -28,6 +30,7 @@ upcoming:
     wishes:
       - pascal-griechenland
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
   - date: 2021-12-04T09:00:14.531Z
     streamerName: CastCrafter
     streamLink: https://www.twitch.tv/CastCrafter
@@ -35,11 +38,13 @@ upcoming:
     wishes:
       - tom-gardaland
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
   - date: 2021-12-05T09:00:53.381Z
     streamerChannel: gtimetv
     streamLink: https://www.twitch.tv/GTimeTV
     streamerName: GTimeTV
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - karolina-gamingset
   - date: 2021-12-06T18:00:57.149Z
@@ -49,11 +54,13 @@ upcoming:
     wishes:
       - marvellous-hubschrauber
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
   - date: 2021-12-07T19:00:00.000Z
     streamerChannel: nihachu
     streamLink: https://www.twitch.tv/Nihachu
     streamerName: Nihachu
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - hanna-fashionshow
   - date: 2021-12-08T14:30:00.000Z
@@ -61,6 +68,7 @@ upcoming:
     streamerChannel: niekbeats
     streamerName: niekbeats
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - daria-zypern
   - date: 2021-12-09T15:00:00.000Z
@@ -68,6 +76,7 @@ upcoming:
     streamerName: MrsXeniaTV
     streamerChannel: mrsxeniatv
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - edanur-macbookair
   - date: 2021-12-09T23:00:28.480Z
@@ -75,6 +84,7 @@ upcoming:
     streamerChannel: sintica
     streamLink: https://www.twitch.tv/Sintica
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - moritz-tomorrowland
   - date: 2021-12-11T13:00:00.000Z
@@ -82,6 +92,7 @@ upcoming:
     streamerChannel: stegi
     streamLink: https://www.twitch.tv/Stegi
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - isaac-iphone
   - date: 2021-12-12T11:00:15.196Z
@@ -89,6 +100,7 @@ upcoming:
     streamerChannel: veylaney
     streamLink: https://www.twitch.tv/Veylaney
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - julian-comedian
   - date: 2021-12-13T18:00:57.815Z
@@ -96,6 +108,7 @@ upcoming:
     streamerChannel: bastighg
     streamLink: https://www.twitch.tv/BastiGHG
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - nina-elefantenwaisenhaus
       - julian-malta
@@ -104,6 +117,7 @@ upcoming:
     streamerName: Henke
     streamerChannel: henke
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - dmytro-kamera
   - date: 2021-12-15T18:00:15.973Z
@@ -111,6 +125,7 @@ upcoming:
     streamerChannel: clym
     streamLink: https://www.twitch.tv/Clym
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - emelia-iphone
   - date: 2021-12-16T15:00:06.155Z
@@ -118,6 +133,7 @@ upcoming:
     streamerChannel: vlesk
     streamLink: https://www.twitch.tv/Vlesk
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - pascal-washingtoncapitals
   - date: 2021-12-17T11:00:00.000Z
@@ -125,6 +141,7 @@ upcoming:
     streamerName: Zayuri
     streamerChannel: zayuri
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - arina-macbook
   - date: 2021-12-18T12:00:00.000Z
@@ -132,6 +149,7 @@ upcoming:
     streamLink: https://www.twitch.tv/shredmir
     streamerName: Shredmir
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - lukas-fussballer
   - date: 2021-12-18T12:00:00.000Z
@@ -139,6 +157,7 @@ upcoming:
     streamerChannel: krokoboss
     streamerName: Krokoboss
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - lukas-fussballer
   - date: 2021-12-19T13:00:00.000Z
@@ -147,6 +166,7 @@ upcoming:
     streamerName: Dhalucard
     streamerChannel: dhalucard
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - sara-zimmereinrichtung
       - leonora-prinzessinnenzimmer
@@ -155,6 +175,7 @@ upcoming:
     streamerChannel: veni
     streamLink: https://www.twitch.tv/Veni
     imgUrl: /uploads/charity_royale_rgb.png
+    type: main
     wishes:
       - larissa-disneyland
 wishes:
