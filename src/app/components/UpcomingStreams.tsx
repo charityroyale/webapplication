@@ -107,7 +107,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 	const swapScheduleTypeButtonText = scheduleType === 'main' ? 'Main schedule' : 'Community schedule'
 
 	const futureStreamsSorted = schedule.filter(isInTheFuture).sort(sortByDateString)
-	const pastStreamsSorted = schedule.filter(isInTheFuture).sort(sortByDateString)
+	const pastStreamsSorted = schedule.filter(isInThePast).sort(sortByDateString)
 
 	return (
 		<React.Fragment>
