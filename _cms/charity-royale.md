@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
   willhaben für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: castcrafter/tom-gardaland
+featuredStream: gtimetv/karolina-gamingset
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
