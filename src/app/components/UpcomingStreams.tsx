@@ -13,6 +13,7 @@ import UpcomingStream from './UpcomingStream/UpcomingStream'
 import { Text } from './Text'
 import { MakeAWishWishDTO, MakeAWishStreamerJSONDTO } from '../dto/MakeAWishDonationsDTO'
 import { styled } from '../../styles/Theme'
+import { sortByDateString } from '../utils/commonUtils'
 
 const ScheduleTypeButton = styled.button`
 	margin: ${(p) => p.theme.space.s}px auto;
@@ -105,9 +106,12 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 
 	const swapScheduleTypeButtonText = scheduleType === 'main' ? 'Main schedule' : 'Community schedule'
 
+	const futureStreamsSorted = schedule.filter(isInTheFuture).sort(sortByDateString)
+	const pastStreamsSorted = schedule.filter(isInTheFuture).sort(sortByDateString)
+
 	return (
 		<React.Fragment>
-			{schedule.filter(isInTheFuture).length > 0 && (
+			{futureStreamsSorted.length > 0 && (
 				<>
 					<StyleUpcomingStreamsHeader>
 						<StyleUpcomingStreamsTitle>
@@ -128,10 +132,10 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 							.
 						</p>
 					</StyleUpcomingStreamsHeader>
-					<StyledUpcoming>{schedule.filter(isInTheFuture).map(createUpcomingStream)}</StyledUpcoming>
+					<StyledUpcoming>{futureStreamsSorted.map(createUpcomingStream)}</StyledUpcoming>
 				</>
 			)}
-			{schedule.filter(isInThePast).length > 0 && (
+			{pastStreamsSorted.length > 0 && (
 				<>
 					<StylePastStreamsHeader>
 						<StyleUpcomingStreamsTitle>
@@ -144,7 +148,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 						</ScheduleTypeButton>
 					</StylePastStreamsHeader>
 
-					<StyledPast>{schedule.filter(isInThePast).map(createUpcomingStream)}</StyledPast>
+					<StyledPast>{pastStreamsSorted.map(createUpcomingStream)}</StyledPast>
 				</>
 			)}
 			{schedule.length === 0 && (

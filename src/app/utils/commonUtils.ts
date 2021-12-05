@@ -41,6 +41,10 @@ export function getLoginDisplayNameFromTwitchURI(twitchURI: string): string {
 	return splitURI[splitURI.length - 1]
 }
 
+export function sortByDateString(first: CmsUpcomingStreamer, second: CmsUpcomingStreamer): number {
+	return new Date(first.date).getTime() - new Date(second.date).getTime()
+}
+
 export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]): Promise<TwitchUsersDTO> {
 	try {
 		const loginIds = []
