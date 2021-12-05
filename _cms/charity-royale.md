@@ -55,7 +55,7 @@ upcoming:
       - marvellous-hubschrauber
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
-  - date: 2021-12-07T19:00:00.000Z
+  - date: 2021-12-21T19:00:00.000Z
     streamerChannel: nihachu
     streamLink: https://www.twitch.tv/Nihachu
     streamerName: Nihachu
@@ -194,6 +194,14 @@ upcoming:
     type: community
     wishes:
       - legoland
+  - date: 2021-12-07T19:00:00.000Z
+    streamerName: LetsHugoTV
+    streamLink: https://www.twitch.tv/letshugotv
+    streamerChannel: letshugotv
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    wishes:
+      - lucas-youtuber
+    type: main
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
