@@ -103,7 +103,7 @@ upcoming:
     type: main
     wishes:
       - julian-comedian
-  - date: 2021-12-13T18:00:57.815Z
+  - date: 2021-12-13T14:00:00.000Z
     streamerName: BastiGHG
     streamerChannel: bastighg
     streamLink: https://www.twitch.tv/BastiGHG
