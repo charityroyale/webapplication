@@ -194,7 +194,7 @@ upcoming:
     type: community
     wishes:
       - legoland
-  - date: 2021-12-07T19:00:00.000Z
+  - date: 2021-12-07T13:00:00.000Z
     streamerName: LetsHugoTV
     streamLink: https://www.twitch.tv/letshugotv
     streamerChannel: letshugotv
