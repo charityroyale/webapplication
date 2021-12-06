@@ -79,7 +79,7 @@ upcoming:
     type: main
     wishes:
       - edanur-macbookair
-  - date: 2021-12-09T23:00:28.480Z
+  - date: 2021-12-10T11:00:28.480Z
     streamerName: Sintica
     streamerChannel: sintica
     streamLink: https://www.twitch.tv/Sintica
