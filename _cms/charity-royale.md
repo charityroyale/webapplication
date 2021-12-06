@@ -481,19 +481,15 @@ wishes:
     streamers:
       - dhalucard
   - childname: Isaac
-    descripion: "Der angehende IT-Techniker wünschte sich den Ferrari untern den
-      Mobil-Telefonen  Der Herzenswunsch von Isaac ist ein schwarzes iPhone12
-      mit 128 GB Speicherplatz, da sein altes Handy den Geist aufgegeben
-      hat.  Der schüchterne 17-jährige möchte damit einerseits mit seinen
-      Freunden mithalten und andererseits Fotos von seiner Leidenschaft, dem
-      Basketball spielen machen. Und da er gerade in der IT-Branche startet – er
-      macht eine Lehre zum IT-Techniker - möchte er auch dafür ein adäquates
-      Handy ☺. Wir haben den Wunsch des an Sichelzellenanämie (erbliche
-      Bluterkrankung) erkrankten Jungen bereits erfüllt. Bei der Wunscherfüllung
-      wollte Isaac sein Baseball-Outfit getragen, um seine beiden Leidenschaften
-      zu vereinen. "
-    tagline: Der angehende IT-Techniker wünschte sich den Ferrari untern den
-      Mobil-Telefonen
+    descripion: Der an Sichelzellenanämie (erbliche Bluterkrankung) erkrankte Junge
+      wünscht sich den Ferrari untern den Mobil-Telefonen. Der Herzenswunsch von
+      Isaac ist ein schwarzes iPhone12 mit 128 GB Speicherplatz, da sein altes
+      Handy den Geist aufgegeben hat. Der schüchterne 17-jährige möchte damit
+      einerseits mit seinen Freunden mithalten und andererseits Fotos von seiner
+      Leidenschaft, dem Basketball spielen machen. Und da er gerade in der
+      IT-Branche startet – er macht eine Lehre zum IT-Techniker - möchte er auch
+      dafür ein adäquates Handy ☺.
+    tagline: Ein iPhone für den angehenden IT-Techniker
     slug: isaac-iphone
     donationGoal: "900"
   - childname: Julian
