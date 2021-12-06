@@ -389,7 +389,7 @@ wishes:
     slug: pascal-griechenland
     donationGoal: "3600"
   - childname: Julian
-    tagline: Julian möchte deutschen Comedian treffen (keine Freigaben vom Comedian)
+    tagline: Julian möchte seinen Lieblings-Comedian treffen
     descripion: "Der Comedian hat Julian während seiner Therapien (Julian ist an
       Leukämie erkrankt) immer zum Lachen gebracht und ihn abgelenkt. Da
       entstand der Wunsch, eine Vorstellung des Kabarettisten gemeinsam mit Mama
