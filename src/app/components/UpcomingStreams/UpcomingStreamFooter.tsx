@@ -26,6 +26,16 @@ const UpcomingStreamTwitchLink = styled.div`
 	${(p) => p.theme.media.phone} {
 		margin-bottom: 6px;
 	}
+
+	// special treatment for very long
+	// twitch channels on small devices
+	@media (max-width: 400px) {
+		a {
+			max-width: 115px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
 `
 
 const UpcomingStreamDateMobile = styled.div`
