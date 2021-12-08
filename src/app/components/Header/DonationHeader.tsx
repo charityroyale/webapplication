@@ -1,11 +1,10 @@
 import React, { ReactElement } from 'react'
-import { styled } from '../../styles/Theme'
+import { styled } from '../../../styles/Theme'
 import { RiTwitchFill } from 'react-icons/ri'
-import { formatDate } from '../utils/formatUtils'
+import { formatDate } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
-import { Text } from './Text'
+import { Text } from '../Text'
 import { BiDonateHeart } from 'react-icons/bi'
-import ClientLink from './ClientLink'
 
 const StyledDonationHeaderTitle = styled.h2`
 	font-size: ${(p) => p.theme.fontSize.l} px;

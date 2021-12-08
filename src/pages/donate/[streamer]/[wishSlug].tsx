@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState, useContext } from 'react'
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
-import DonationHeader from '../../../app/components/DonationHeader'
+import DonationHeader from '../../../app/components/Header/DonationHeader'
 import DonationWidget from '../../../app/components/DonationWidget/DonationWidget'
 import {
 	StyledDonationSumWidget,

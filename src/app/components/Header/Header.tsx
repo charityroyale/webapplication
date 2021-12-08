@@ -1,20 +1,20 @@
+import Link from 'next/link'
 import React, { useCallback, useState } from 'react'
+import Skeleton from 'react-loading-skeleton'
 import {
 	StyledHeader,
-	StyledHeaderCenterItem,
 	StyledHeaderLeftItem,
+	StyledHeaderCenterItem,
 	StyledHeaderRightItem,
-} from '../../styles/common.styles'
+} from '../../../styles/common.styles'
+import { styled } from '../../../styles/Theme'
+import { cmsFeaturedStreamLink } from '../../cms/cms'
+import { useIsSSR } from '../../hooks/useIsSSR'
+import { useMakeAWish } from '../../hooks/useMakeAWish'
+import ClientLink from '../ClientLink'
+import { LanguageSelector } from '../LanguageSelector'
 import DonationHeaderCount from './DonationHeaderCount'
-import { useIsSSR } from '../hooks/useIsSSR'
-import Skeleton from 'react-loading-skeleton'
-import { useMakeAWish } from '../hooks/useMakeAWish'
-import ClientLink from './ClientLink'
-import { styled } from '../../styles/Theme'
-import Link from 'next/link'
-import { LanguageSelector } from './LanguageSelector'
-import { Text } from './Text'
-import { cmsFeaturedStreamLink } from '../cms/cms'
+import { Text } from '../Text'
 
 const StyledHeaderContent = styled.div`
 	grid-area: header-row;

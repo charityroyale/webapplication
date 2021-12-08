@@ -2,8 +2,8 @@ import React from 'react'
 import { StyledLayout } from '../../styles/common.styles'
 import { styled } from '../../styles/Theme'
 import CookieBanner from '../components/CookieBanner'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
 
 const MainGrid = styled.main`
 	grid-area: main;
