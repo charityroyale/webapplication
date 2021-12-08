@@ -60,7 +60,7 @@ export const StyledHeader = styled.header`
 	justify-content: center;
 	display: grid;
 	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
-	padding: 36px 24px;
+	padding: 36px 24px 46px 24px;
 	grid-template-areas: 'header-row header-row header-row';
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 `
