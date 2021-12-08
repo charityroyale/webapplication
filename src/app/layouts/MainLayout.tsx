@@ -2,8 +2,8 @@ import React from 'react'
 import { StyledLayout } from '../../styles/common.styles'
 import { styled } from '../../styles/Theme'
 import CookieBanner from '../components/CookieBanner'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
 
 const MainGrid = styled.main`
 	grid-area: main;
@@ -18,18 +18,13 @@ const MainGrid = styled.main`
 	}
 `
 
-interface MainLayoutProps {
-	children: React.ReactNode
-	featuredDonationLink: string
-}
-
-const MainLayout: React.FunctionComponent<MainLayoutProps> = ({ children, featuredDonationLink }: MainLayoutProps) => {
+const MainLayout: React.FunctionComponent = (props) => {
 	return (
 		<StyledLayout>
 			<CookieBanner />
-			<Header featuredStream={featuredDonationLink} />
-			<MainGrid>{children}</MainGrid>
-			<Footer featuredStream={featuredDonationLink} />
+			<Header />
+			<MainGrid>{props.children}</MainGrid>
+			<Footer />
 		</StyledLayout>
 	)
 }

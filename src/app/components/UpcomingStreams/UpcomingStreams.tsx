@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import {
 	StyledKalenderDownloadLink,
 	StyledPast,
@@ -6,14 +6,14 @@ import {
 	StylePastStreamsHeader,
 	StyleUpcomingStreamsHeader,
 	StyleUpcomingStreamsTitle,
-} from '../../styles/common.styles'
-import useMakeAWish from '../hooks/useMakeAWish'
-import { CmsUpcomingStreamer } from '../cms/cms'
-import UpcomingStream from './UpcomingStream/UpcomingStream'
-import { Text } from './Text'
-import { MakeAWishWishDTO, MakeAWishStreamerJSONDTO } from '../dto/MakeAWishDonationsDTO'
-import { styled } from '../../styles/Theme'
-import { sortByDateString } from '../utils/commonUtils'
+} from '../../../styles/common.styles'
+import { useMakeAWish } from '../../hooks/useMakeAWish'
+import { CmsUpcomingStreamer, StreamerType } from '../../cms/cms'
+import UpcomingStream from './UpcomingStream'
+import { Text } from '../Text'
+import { styled } from '../../../styles/Theme'
+import { sortByDateString } from '../../utils/commonUtils'
+import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../dto/MakeAWishDTOs'
 
 const ScheduleTypeButton = styled.button`
 	margin: ${(p) => p.theme.space.s}px auto;
@@ -53,8 +53,8 @@ const ScheduleTypeButton = styled.button`
 
 interface UpcomingStreams {
 	schedule: CmsUpcomingStreamer[]
-	scheduleType: 'main' | 'community'
-	changeScheduleType: React.Dispatch<React.SetStateAction<'main' | 'community'>>
+	scheduleType: StreamerType
+	changeScheduleType: React.Dispatch<React.SetStateAction<StreamerType>>
 }
 
 const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
@@ -62,7 +62,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 	scheduleType,
 	changeScheduleType,
 }: UpcomingStreams) => {
-	const makeAWish = useMakeAWish()
+	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
 
 	const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
 		const startDate = new Date(stream.date)
@@ -74,33 +74,25 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 	const isInTheFuture = (stream: CmsUpcomingStreamer) => now <= getStreamEndDate(stream)
 
 	const createUpcomingStream = (stream: CmsUpcomingStreamer, index: number) => {
-		let donationGoal = '0'
 		let donationProgess = '0'
-		if (!makeAWish.isError && !makeAWish.isLoading) {
-			const rootLevelWish: MakeAWishWishDTO | undefined = makeAWish.data.wishes[stream.wishes[0]]
-			const streamer: MakeAWishStreamerJSONDTO = makeAWish.data.streamers[stream.streamerChannel]
+		if (!makeAWishDataIsError && !makeAWishDataIsLoading) {
+			const rootLevelWishesForStreamer = stream.wishes.map((wishSlug) => makeAWishData.wishes[wishSlug])
+			const mawStreamerData = makeAWishData.streamers[stream.streamerChannel]
 
-			if (rootLevelWish) {
-				donationGoal = rootLevelWish.donation_goal
-			}
-
-			if (rootLevelWish && streamer.wishes && stream.wishes[0]) {
-				donationProgess =
-					streamer.type === 'main'
-						? rootLevelWish.current_donation_sum
-						: streamer.wishes.length > 0
-						? streamer.wishes[stream.wishes[0]].current_donation_sum
-						: 0
+			// calc donation progress
+			if (rootLevelWishesForStreamer[0] && mawStreamerData.wishes && stream.wishes[0]) {
+				if (mawStreamerData.type === 'main') {
+					donationProgess = calcDonationProgressOfWishArray(rootLevelWishesForStreamer).toString()
+				} else if (!Array.isArray(mawStreamerData.wishes)) {
+					console.log(mawStreamerData.wishes)
+					donationProgess = calcDonationProgressOfAllWishEntries(mawStreamerData.wishes).toString()
+				} else {
+					donationProgess = '0'
+				}
 			}
 		}
 		return (
-			<UpcomingStream
-				projectDone={isInThePast(stream)}
-				key={index}
-				{...stream}
-				donationProgress={donationProgess}
-				donationGoal={donationGoal}
-			/>
+			<UpcomingStream projectDone={isInThePast(stream)} key={index} {...stream} donationProgress={donationProgess} />
 		)
 	}
 
@@ -109,6 +101,10 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 	const futureStreamsSorted = schedule.filter(isInTheFuture).sort(sortByDateString)
 	const pastStreamsSorted = schedule.filter(isInThePast).sort(sortByDateString)
 
+	const changeScheduleTypeOnClick = useCallback(() => {
+		scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main')
+	}, [scheduleType, changeScheduleType])
+
 	return (
 		<React.Fragment>
 			{futureStreamsSorted.length > 0 && (
@@ -116,13 +112,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 					<StyleUpcomingStreamsHeader>
 						<StyleUpcomingStreamsTitle>
 							<Text content="scheduledStreamsTitle" />
-							<ScheduleTypeButton
-								onClick={(e) =>
-									scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main')
-								}
-							>
-								{swapScheduleTypeButtonText}
-							</ScheduleTypeButton>
+							<ScheduleTypeButton onClick={changeScheduleTypeOnClick}>{swapScheduleTypeButtonText}</ScheduleTypeButton>
 						</StyleUpcomingStreamsTitle>
 						<p>
 							<Text content="downloadScheduleTitle" />{' '}
@@ -141,11 +131,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 						<StyleUpcomingStreamsTitle>
 							<Text content="pastStreamsTitle" />
 						</StyleUpcomingStreamsTitle>
-						<ScheduleTypeButton
-							onClick={(e) => (scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main'))}
-						>
-							{swapScheduleTypeButtonText}
-						</ScheduleTypeButton>
+						<ScheduleTypeButton onClick={changeScheduleTypeOnClick}>{swapScheduleTypeButtonText}</ScheduleTypeButton>
 					</StylePastStreamsHeader>
 
 					<StyledPast>{pastStreamsSorted.map(createUpcomingStream)}</StyledPast>
@@ -154,15 +140,25 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 			{schedule.length === 0 && (
 				<StylePastStreamsHeader>
 					<StyleUpcomingStreamsTitle>Streams TBA</StyleUpcomingStreamsTitle>
-					<ScheduleTypeButton
-						onClick={(e) => (scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main'))}
-					>
-						{swapScheduleTypeButtonText}
-					</ScheduleTypeButton>
+					<ScheduleTypeButton onClick={changeScheduleTypeOnClick}>{swapScheduleTypeButtonText}</ScheduleTypeButton>
 				</StylePastStreamsHeader>
 			)}
 		</React.Fragment>
 	)
+}
+
+const calcDonationProgressOfWishArray = (wishes: MakeAWishRootLevelWishDTO[]) => {
+	let sum = 0
+	wishes.map((wish) => (sum += Number(wish.current_donation_sum)))
+	return sum
+}
+
+const calcDonationProgressOfAllWishEntries = (wishes: { [wishSlug: string]: MakeAWishStreamerWishDTO }) => {
+	let sum = 0
+	for (const [key] of Object.entries(wishes)) {
+		sum += Number(wishes[key].current_donation_sum)
+	}
+	return sum
 }
 
 export default UpcomingFeatures

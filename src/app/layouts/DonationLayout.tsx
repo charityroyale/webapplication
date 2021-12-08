@@ -2,8 +2,8 @@ import React from 'react'
 import { styled } from '../../styles/Theme'
 import { StyledLayout } from '../../styles/common.styles'
 import CookieBanner from '../components/CookieBanner'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
 
 export const MainGrid = styled.div`
 	display: grid;
@@ -42,21 +42,13 @@ export const MainGrid = styled.div`
 	}
 `
 
-interface DonationLayoutProps {
-	children: React.ReactNode
-	featuredDonationLink: string
-}
-
-const DonationLayout: React.FunctionComponent<DonationLayoutProps> = ({
-	children,
-	featuredDonationLink,
-}: DonationLayoutProps) => {
+const DonationLayout: React.FunctionComponent = (props) => {
 	return (
 		<StyledLayout>
 			<CookieBanner />
-			<Header featuredStream={featuredDonationLink} showDonationButton={true} />
-			<MainGrid>{children}</MainGrid>
-			<Footer featuredStream={featuredDonationLink} />
+			<Header />
+			<MainGrid>{props.children}</MainGrid>
+			<Footer />
 		</StyledLayout>
 	)
 }

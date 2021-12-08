@@ -1,8 +1,9 @@
 import React from 'react'
-import { styled } from '../../styles/Theme'
-import ClientLink from './ClientLink'
-import { Text } from './Text'
+import { styled } from '../../../styles/Theme'
+import ClientLink from '../ClientLink'
+import { Text } from '../Text'
 import { AiFillHeart } from 'react-icons/ai'
+import { cmsFeaturedStreamLink } from '../../cms/cms'
 
 const FooterListTitle = styled.p`
 	margin-bottom: ${(p) => p.theme.fontSize.m}px;
@@ -64,11 +65,7 @@ const StyledFooter = styled.footer`
 	}
 `
 
-const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
-	featuredStream,
-}: {
-	featuredStream: string
-}) => {
+const Footer: React.FunctionComponent = () => {
 	return (
 		<StyledFooter>
 			<FooterLeftGridItem>
@@ -77,13 +74,7 @@ const Footer: React.FunctionComponent<{ featuredStream: string }> = ({
 				</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
-						<ClientLink
-							href={
-								featuredStream === 'https://www.make-a-wish.at'
-									? 'https://www.make-a-wish.at'
-									: `/donate/${featuredStream}`
-							}
-						>
+						<ClientLink href={cmsFeaturedStreamLink}>
 							<Text content="donateText" />
 						</ClientLink>
 					</FooterListItem>

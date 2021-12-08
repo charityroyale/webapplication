@@ -3,22 +3,22 @@ import { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import MainLayout from '../app/layouts/MainLayout'
 import PageWithLayoutType from '../app/types/PageWithLayout'
-import FeaturedStream from '../app/components/FeaturedStream'
-import UpcomingFeatures from '../app/components/UpcomingStreams'
+import FeaturedStream from '../app/components/FeatureStream/FeaturedStream'
+import UpcomingFeatures from '../app/components/UpcomingStreams/UpcomingStreams'
 import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
 import ButtonsBox from '../app/components/FaqBox'
-import cmsContent, { CmsUpcomingStreamer } from '../app/cms/cms'
+import cmsContent, { CmsUpcomingStreamer, StreamerType } from '../app/cms/cms'
 import { TwitchUserDTO } from '../app/dto/TwitchUserDTO'
 
 export interface InitialAppProps {
-	featuredStream?: string
+	featuredStream: string
 	featuredYoutubeStream?: string
-	schedule?: CmsUpcomingStreamer[]
+	schedule: CmsUpcomingStreamer[]
 }
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 	const { schedule, featuredStream, featuredYoutubeStream } = props
-	const [scheduleType, setScheduleType] = useState<'main' | 'community'>('main')
+	const [scheduleType, setScheduleType] = useState<StreamerType>('main')
 	const filteredSchedule = schedule.filter((scheduledStream) => scheduledStream.type === scheduleType)
 
 	return (
@@ -63,7 +63,7 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 
 export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 	const schedule = cmsContent.upcoming
-	const twitchUsers: TwitchUserDTO[] | undefined = (await fetchTwitchUsersBySchedule(schedule)).data
+	const twitchUsers: TwitchUserDTO[] | undefined = (await fetchTwitchUsersBySchedule(schedule))?.data ?? undefined
 
 	const twitchUsersDict: { [userid: string]: TwitchUserDTO } = {}
 	if (twitchUsers) {
@@ -86,7 +86,6 @@ export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 			schedule,
 			featuredStream: cmsContent.featuredStream,
 			featuredYoutubeStream: cmsContent.featuredYoutubeStream,
-			featuredDonationLink: cmsContent.customDonationLink || cmsContent.featuredStream,
 		},
 	}
 }

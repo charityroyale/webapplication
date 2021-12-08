@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
-import { StyledFeatured } from '../../styles/common.styles'
-import useIsomorphicLayoutEffect from '../hooks/useIsophormicLayoutEffect'
-import { getFeaturedStreamSize } from '../utils/commonUtils'
-import { useIsSSR } from '../hooks/useIsSSR'
+import { StyledFeatured } from '../../../styles/common.styles'
+import useIsomorphicLayoutEffect from '../../hooks/useIsophormicLayoutEffect'
+import { useIsSSR } from '../../hooks/useIsSSR'
+import { getFeaturedStreamSize } from '../../utils/commonUtils'
 
 interface FeaturedTwitchStreamProps {
 	channel: string
@@ -13,7 +13,7 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 	channel,
 }: FeaturedTwitchStreamProps) => {
 	const isSSR = useIsSSR()
-	const featuredStreamRef = useRef(null)
+	const featuredStreamRef = useRef<null | HTMLIFrameElement>(null)
 	const [featuredStreamLoaded, setFeaturedStreamLoaded] = useState(false)
 
 	useEffect(() => {
@@ -27,6 +27,10 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 
 		const ref = featuredStreamRef.current
 		if (ref) {
+			// TODO: Investgation has to be done here.
+			//
+			// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+			// @ts-ignore
 			ref.onload = setFeaturedStreamLoaded(true)
 		}
 	}, [])

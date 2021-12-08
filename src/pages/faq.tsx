@@ -88,7 +88,6 @@ interface InitialFaqProps {
 	questionsDe: FAQEntryDe[]
 	questionsEn: FAQEntryEn[]
 	videos: FAQVideoEntry[]
-	featuredStream?: string
 }
 
 const FaqPage: NextPage<InitialFaqProps> = ({ questionsDe, questionsEn, videos }: InitialFaqProps) => {
@@ -151,7 +150,6 @@ export const getStaticProps: GetStaticProps<InitialFaqProps> = async () => {
 			questionsEn: cmsContent.faq['questions-en'],
 			videos: cmsContent.faq.videos,
 			featuredStream: cmsContent.featuredStream,
-			featuredDonationLink: cmsContent.customDonationLink || cmsContent.featuredStream,
 		},
 	}
 }
