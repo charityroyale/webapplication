@@ -1,5 +1,7 @@
 import rawCmsContent from '../../../_cms/charity-royale.md'
 
+export type StreamerType = 'main' | 'community' | ''
+
 export interface CmsUpcomingStreamer {
 	streamerName: string
 	streamerChannel: string
@@ -7,7 +9,7 @@ export interface CmsUpcomingStreamer {
 	customLink?: string
 	imgUrl: string
 	date: string
-	type: 'main' | 'community' | ''
+	type: StreamerType
 	wishes: string[]
 }
 
@@ -92,7 +94,7 @@ for (const streamer of streamers) {
 	}
 }
 
-export const paths = wishKeys.map((key) => {
+export const cmsDonationPagePaths = wishKeys.map((key) => {
 	return {
 		params: { streamer: cmsStreamerWishes[key].streamer.streamerChannel, wishSlug: cmsStreamerWishes[key].wish.slug },
 	}

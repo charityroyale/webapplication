@@ -12,7 +12,6 @@ import DonationLayout from '../../../app/layouts/DonationLayout'
 import PageWithLayoutType from '../../../app/types/PageWithLayout'
 import { makeAWishAPI } from '../../../config'
 import { useMakeAWish } from '../../../app/hooks/useMakeAWish'
-import { MakeAWishStreamerDTO } from '../../../app/dto/MakeAWishDonationsDTO'
 import { formatDateDefault, formatMoneyWithSign } from '../../../app/utils/formatUtils'
 import { styled } from '../../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
@@ -22,11 +21,12 @@ import { BsFillPeopleFill } from 'react-icons/bs'
 import { FaDove } from 'react-icons/fa'
 import { Line } from 'rc-progress'
 import { getPercentage } from '../../../app/utils/commonUtils'
-import { paths, cmsStreamerWishes, CmsUpcomingStreamer, MakeAWishWish } from '../../../app/cms/cms'
+import { cmsDonationPagePaths, cmsStreamerWishes, CmsUpcomingStreamer, MakeAWishWish } from '../../../app/cms/cms'
 import DonationWidgetCount from '../../../app/components/DonationWidget/DonationWidgetCount'
 import DonationWidgetList, { DonationListItem } from '../../../app/components/DonationWidget/DonatorsWidgetList'
 import { Text } from '../../../app/components/Text'
 import { LanguageContext } from '../../../app/provider/LanguageProvider'
+import { MakeAWishInfoJsonTopDonationDTO, MakeWishInfoJsonRecentDonationDTO } from '../../../app/dto/MakeAWishDTOs'
 
 export interface DonationPageProps {
 	cms: {
@@ -46,7 +46,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
 	const isMakeAWishDataAvailable = !makeAWishDataIsError && !makeAWishDataIsLoading
 
-	let mawWStreamerWishData: MakeAWishStreamerDTO | undefined
+	let mawWStreamerWishData
 	let latestDonatorsList = new Array<DonationListItem>()
 	let highestDonatorsList = new Array<DonationListItem>()
 
@@ -60,38 +60,46 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 		const cmsStreamerSlug = cms.streamer.streamerName.toLocaleLowerCase()
 		const cmsWishSlug = cms.wish.slug
 
-		const mawStreamerData = makeAWishData.streamers[cmsStreamerSlug]
+		// Check if streamer exists in MAW info json
+		if (makeAWishData.streamers.hasOwnProperty(cmsStreamerSlug)) {
+			const mawStreamerData = makeAWishData.streamers[cmsStreamerSlug]
 
-		if (mawStreamerData) {
-			const mawWishData = makeAWishData.wishes[cmsWishSlug]
-			mawWStreamerWishData = mawStreamerData.wishes[cmsWishSlug]
+			// Check if if wish has donations
+			if (makeAWishData.wishes.hasOwnProperty(cmsWishSlug)) {
+				const mawWishData = makeAWishData.wishes[cmsWishSlug]
 
-			// Object vailable if wish has donations
-			if (mawWStreamerWishData) {
-				donationSum =
-					mawStreamerData.type === 'main' ? mawWishData.current_donation_sum : mawWStreamerWishData.current_donation_sum
-				donatorsCount = mawWStreamerWishData.current_donation_count.toLocaleString('de-DE')
-				progressPercentage = getPercentage(
-					parseFloat(mawWStreamerWishData.current_donation_sum),
-					parseFloat(cms.wish.donationGoal)
-				)
+				//
+				if (!Array.isArray(mawStreamerData.wishes) && mawStreamerData.wishes.hasOwnProperty(cmsWishSlug)) {
+					mawWStreamerWishData = mawStreamerData.wishes[cmsWishSlug]
+
+					donationSum =
+						mawStreamerData.type === 'main'
+							? mawWishData.current_donation_sum
+							: mawWStreamerWishData.current_donation_sum
+					donatorsCount = mawWStreamerWishData.current_donation_count.toLocaleString('de-DE')
+					progressPercentage = getPercentage(
+						parseFloat(mawWStreamerWishData.current_donation_sum),
+						parseFloat(cms.wish.donationGoal)
+					)
+				}
 			}
 
-			latestDonatorsList = getLatestDonators(mawWStreamerWishData)
-			highestDonatorsList = getHighestDonatorsList(mawWStreamerWishData)
+			latestDonatorsList = getLatestDonators(mawWStreamerWishData?.recent_donations ?? [])
+			highestDonatorsList = getHighestDonatorsList(mawWStreamerWishData?.top_donors ?? [])
 		}
 	}
 
 	useEffect(() => {
-		const handler = (event) => {
+		const handler = (event: MessageEvent<{ command: string; frameHeight: number }>) => {
 			const data = event.data
 			if (data.hasOwnProperty('frameHeight')) {
 				setIframeHeight(`${data.frameHeight}px`)
 			}
 			if (data.hasOwnProperty('command')) {
+				// Scroll to center of iframe
 				if (data.command == 'scrollIFrameCenter') {
-					// Scroll to center of iframe
-					const iframe = document.getElementById('iframe')
+					// It can be sure that the iframe is loaded after the rendering on the clientSide
+					const iframe = document.getElementById('iframe') as HTMLIFrameElement
 					const centerY = iframe.offsetTop + iframe.offsetHeight / 2
 					const centerX = iframe.offsetLeft + iframe.offsetWidth / 2
 					window.scrollTo(centerX - window.innerWidth / 2, centerY - window.innerHeight / 2)
@@ -252,10 +260,15 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 }
 
 export const getStaticProps: GetStaticProps<DonationPageProps> = async ({ params }) => {
-	const streamer = params.streamer as string
-	const wishSlug = params.wishSlug as string
+	// This function is not called on the client and would fail at build-time
+	// params are passed by `cmsDonationPagePaths` in `cms.ts`.
 
-	const donationPageKey = streamer + wishSlug
+	// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+	const streamerSlug = params!.streamer as string
+	// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+	const wishSlug = params!.wishSlug as string
+
+	const donationPageKey = streamerSlug + wishSlug
 
 	return {
 		props: {
@@ -268,7 +281,7 @@ export const getStaticProps: GetStaticProps<DonationPageProps> = async ({ params
 
 export const getStaticPaths: GetStaticPaths = async () => {
 	return {
-		paths,
+		paths: cmsDonationPagePaths,
 		fallback: false,
 	}
 }
@@ -308,33 +321,33 @@ const TopPlaceMentItem = styled.div`
 	}
 `
 
-const getTopDonatorFirstColum = (index) => {
-	switch (index) {
+const getTopDonatorFirstColum = (placement: number) => {
+	switch (placement) {
 		case 0: {
 			return (
 				<TopPlaceMentItem>
-					<ImTrophy color={'gold'} /> {index + 1}. <Text content="topDonatorText" />
+					<ImTrophy color={'gold'} /> {placement + 1}. <Text content="topDonatorText" />
 				</TopPlaceMentItem>
 			)
 		}
 		case 1: {
 			return (
 				<TopPlaceMentItem>
-					<ImTrophy color={'silver'} /> {index + 1}. <Text content="topDonatorText" />
+					<ImTrophy color={'silver'} /> {placement + 1}. <Text content="topDonatorText" />
 				</TopPlaceMentItem>
 			)
 		}
 		case 2: {
 			return (
 				<TopPlaceMentItem>
-					<ImTrophy color={'sandybrown'} /> {index + 1}. <Text content="topDonatorText" />
+					<ImTrophy color={'sandybrown'} /> {placement + 1}. <Text content="topDonatorText" />
 				</TopPlaceMentItem>
 			)
 		}
 		default: {
 			return (
 				<>
-					{index + 1}.
+					{placement + 1}.
 					<Text content="topDonatorText" />
 				</>
 			)
@@ -342,16 +355,14 @@ const getTopDonatorFirstColum = (index) => {
 	}
 }
 
-const getLatestDonators = (mawWStreamerWishData: MakeAWishStreamerDTO) => {
+const getLatestDonators = (recentDonations: MakeWishInfoJsonRecentDonationDTO[]) => {
 	let latestDonatorsList: DonationListItem[] = []
 
-	if (mawWStreamerWishData) {
-		latestDonatorsList = mawWStreamerWishData.recent_donations.map((latestDonatorsDonation) => ({
-			col_1: formatDateDefault(new Date(latestDonatorsDonation.unix_timestamp * 1000)),
-			col_2: latestDonatorsDonation.username,
-			col_3: latestDonatorsDonation.amount,
-		}))
-	}
+	latestDonatorsList = recentDonations.map((latestDonatorsDonation) => ({
+		col_1: formatDateDefault(new Date(latestDonatorsDonation.unix_timestamp * 1000)),
+		col_2: latestDonatorsDonation.username,
+		col_3: latestDonatorsDonation.amount,
+	}))
 
 	// Fill remaing slots
 	while (latestDonatorsList.length < 10) {
@@ -364,16 +375,15 @@ const getLatestDonators = (mawWStreamerWishData: MakeAWishStreamerDTO) => {
 	return latestDonatorsList
 }
 
-const getHighestDonatorsList = (mawWStreamerWishData: MakeAWishStreamerDTO | undefined) => {
+const getHighestDonatorsList = (topDonations: MakeAWishInfoJsonTopDonationDTO[]) => {
 	let highestDonatorsList: DonationListItem[] = []
-	if (mawWStreamerWishData) {
-		highestDonatorsList = mawWStreamerWishData.top_donors.map((highestDonatorsDonation, i) => ({
-			col_1: getTopDonatorFirstColum(i),
-			col_2: highestDonatorsDonation.username,
-			col_3: highestDonatorsDonation.amount,
-		}))
-	}
+	highestDonatorsList = topDonations.map((highestDonatorsDonation, i) => ({
+		col_1: getTopDonatorFirstColum(i),
+		col_2: highestDonatorsDonation.username,
+		col_3: highestDonatorsDonation.amount,
+	}))
 
+	// Fill remaing slots
 	while (highestDonatorsList.length < 10) {
 		highestDonatorsList.push({
 			col_1: <Text content="hereCouldYourNameTextPart1" />,
