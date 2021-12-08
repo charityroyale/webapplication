@@ -14,7 +14,7 @@ import { Text } from '../Text'
 const StyledUpcomingStreamFooter = styled.div`
 	display: flex;
 	justify-content: space-between;
-	padding: ${(p) => p.theme.space.s}px ${(p) => p.theme.space.s}px;
+	padding: ${(p) => p.theme.space.s}px ${(p) => p.theme.space.s}px ${(p) => p.theme.space.s}px 0;
 	position: relative;
 `
 
@@ -51,10 +51,13 @@ const StreamerIconWrapper = styled.div`
 	background-color: ${(p) => p.theme.color.decentBeton};
 	height: 50px;
 	width: 50px;
-	display: flex;
+	display: none;
 	justify-content: center;
 	align-items: center;
 	margin-right: ${(p) => p.theme.space.s}px;
+	${(p) => p.theme.media.phone} {
+		display: flex;
+	}
 `
 
 const UpcomingStreamIcon = styled.img`
