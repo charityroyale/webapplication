@@ -70,6 +70,12 @@ const ButtonItemWrapper = styled.div`
 
 	a {
 		text-decoration: none;
+
+		span {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 	}
 `
 
