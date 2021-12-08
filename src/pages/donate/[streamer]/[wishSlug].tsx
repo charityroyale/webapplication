@@ -183,7 +183,6 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 				/>
 			</Head>
 
-			{console.log(cms)}
 			<DonationHeader
 				streamLink={cms.streamer.streamLink}
 				streamerName={cms.streamer.streamerName}
