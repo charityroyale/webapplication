@@ -47,7 +47,7 @@ const DonationProjectContent = styled.div`
 	}
 `
 
-const DonationHeaderProject = styled.div<{ noMargin: boolean }>`
+const DonationHeaderProject = styled.div<{ noMargin: boolean | undefined }>`
 	display: flex;
 	justify-content: space-between;
 	margin-top: ${(p) => (p.noMargin ? '0' : p.theme.space.l)}px;
@@ -127,7 +127,7 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 					<DonationHeaderStreamLink>
 						<RiTwitchFill size={24} style={{ marginRight: '8px' }} />{' '}
 						<a href={streamLink} rel="noreferrer" target="_blank">
-							{/[^/]*$/.exec(streamLink)[0]}
+							{/[^/]*$/.exec(streamLink)?.[0]}
 						</a>
 					</DonationHeaderStreamLink>
 				)}

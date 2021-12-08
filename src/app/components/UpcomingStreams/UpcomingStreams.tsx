@@ -8,12 +8,12 @@ import {
 	StyleUpcomingStreamsTitle,
 } from '../../../styles/common.styles'
 import { useMakeAWish } from '../../hooks/useMakeAWish'
-import { CmsUpcomingStreamer } from '../../cms/cms'
+import { CmsUpcomingStreamer, StreamerType } from '../../cms/cms'
 import UpcomingStream from './UpcomingStream'
 import { Text } from '../Text'
-import { MakeAWishWishDTO, MakeAWishStreamerJSONDTO, MakeAwishInfoJsonWishDTO } from '../../dto/MakeAWishDonationsDTO'
 import { styled } from '../../../styles/Theme'
 import { sortByDateString } from '../../utils/commonUtils'
+import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../dto/MakeAWishDTOs'
 
 const ScheduleTypeButton = styled.button`
 	margin: ${(p) => p.theme.space.s}px auto;
@@ -53,8 +53,8 @@ const ScheduleTypeButton = styled.button`
 
 interface UpcomingStreams {
 	schedule: CmsUpcomingStreamer[]
-	scheduleType: 'main' | 'community'
-	changeScheduleType: React.Dispatch<React.SetStateAction<'main' | 'community'>>
+	scheduleType: StreamerType
+	changeScheduleType: React.Dispatch<React.SetStateAction<StreamerType>>
 }
 
 const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
@@ -77,13 +77,14 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 		let donationProgess = '0'
 		if (!makeAWishDataIsError && !makeAWishDataIsLoading) {
 			const rootLevelWishesForStreamer = stream.wishes.map((wishSlug) => makeAWishData.wishes[wishSlug])
-			const mawStreamerData: MakeAWishStreamerJSONDTO = makeAWishData.streamers[stream.streamerChannel]
+			const mawStreamerData = makeAWishData.streamers[stream.streamerChannel]
 
 			// calc donation progress
 			if (rootLevelWishesForStreamer[0] && mawStreamerData.wishes && stream.wishes[0]) {
 				if (mawStreamerData.type === 'main') {
 					donationProgess = calcDonationProgressOfWishArray(rootLevelWishesForStreamer).toString()
-				} else if (mawStreamerData.wishes) {
+				} else if (!Array.isArray(mawStreamerData.wishes)) {
+					console.log(mawStreamerData.wishes)
 					donationProgess = calcDonationProgressOfAllWishEntries(mawStreamerData.wishes).toString()
 				} else {
 					donationProgess = '0'
@@ -146,13 +147,13 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 	)
 }
 
-const calcDonationProgressOfWishArray = (wishes: MakeAWishWishDTO[] | MakeAwishInfoJsonWishDTO[]) => {
+const calcDonationProgressOfWishArray = (wishes: MakeAWishRootLevelWishDTO[]) => {
 	let sum = 0
 	wishes.map((wish) => (sum += Number(wish.current_donation_sum)))
 	return sum
 }
 
-const calcDonationProgressOfAllWishEntries = (wishes: { [wishSlug: string]: MakeAWishWishDTO }) => {
+const calcDonationProgressOfAllWishEntries = (wishes: { [wishSlug: string]: MakeAWishStreamerWishDTO }) => {
 	let sum = 0
 	for (const [key] of Object.entries(wishes)) {
 		sum += Number(wishes[key].current_donation_sum)

@@ -16,7 +16,7 @@ export class MakeAWishInfoJsonDTO {
 }
 
 // Streamer DTOs
-class MakeAWishWishStreamerDTO {
+export class MakeAWishWishStreamerDTO {
 	public id = -1 // some MAW internal ID
 	public current_donation_sum = ''
 	public slug = '' // identifier, streamchannel twitch in lower case
@@ -25,7 +25,7 @@ class MakeAWishWishStreamerDTO {
 	public recent_donations: MakeWishInfoJsonRecentDonationDTO[] = []
 }
 
-class MakeAWishStreamerDTO {
+export class MakeAWishStreamerDTO {
 	public id = -1 // some MAW internal ID
 	public color = '' // some MAW internal color code
 	public slug = '' // identifier, streamchannel twitch in lower case
@@ -39,7 +39,7 @@ class MakeAWishStreamerDTO {
 }
 
 // Wish DTOs
-class MakeAWishRootLevelWishDTO {
+export class MakeAWishRootLevelWishDTO {
 	public id = -1 // some MAW internal ID
 	public color = '' // some MAW internal color code
 	public slug = '' // identifier
@@ -53,7 +53,7 @@ class MakeAWishRootLevelWishDTO {
 	public streamers: [] | { [streamerSlug: string]: MakeAWishWishStreamerDTO } = [] // streamers who are fullfilling this wish
 }
 
-class MakeAWishStreamerWishDTO {
+export class MakeAWishStreamerWishDTO {
 	public id = -1 // some MAW internal ID
 	public slug = '' // identifier
 	public current_donation_sum = '0'

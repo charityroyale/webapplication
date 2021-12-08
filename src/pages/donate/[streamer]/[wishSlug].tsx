@@ -90,7 +90,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	}
 
 	useEffect(() => {
-		const handler = (event: MessageEvent<{ command: string; frameHeight: number }>) => {
+		const handler = (event: MessageEvent) => {
 			const data = event.data
 			if (data.hasOwnProperty('frameHeight')) {
 				setIframeHeight(`${data.frameHeight}px`)

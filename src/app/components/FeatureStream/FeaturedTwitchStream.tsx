@@ -13,7 +13,7 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 	channel,
 }: FeaturedTwitchStreamProps) => {
 	const isSSR = useIsSSR()
-	const featuredStreamRef = useRef(null)
+	const featuredStreamRef = useRef<null | HTMLIFrameElement>(null)
 	const [featuredStreamLoaded, setFeaturedStreamLoaded] = useState(false)
 
 	useEffect(() => {
@@ -27,6 +27,10 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 
 		const ref = featuredStreamRef.current
 		if (ref) {
+			// TODO: Investgation has to be done here.
+			//
+			// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+			// @ts-ignore
 			ref.onload = setFeaturedStreamLoaded(true)
 		}
 	}, [])
