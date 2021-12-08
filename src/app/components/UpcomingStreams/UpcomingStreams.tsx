@@ -122,7 +122,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 		(e: React.MouseEvent<HTMLButtonElement>) => {
 			changeScheduleType(e.currentTarget.value as StreamerType)
 		},
-		[scheduleType, changeScheduleType]
+		[changeScheduleType]
 	)
 
 	return (
