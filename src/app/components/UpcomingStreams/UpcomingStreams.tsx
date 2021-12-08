@@ -84,7 +84,6 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 				if (mawStreamerData.type === 'main') {
 					donationProgess = calcDonationProgressOfWishArray(rootLevelWishesForStreamer).toString()
 				} else if (!Array.isArray(mawStreamerData.wishes)) {
-					console.log(mawStreamerData.wishes)
 					donationProgess = calcDonationProgressOfAllWishEntries(mawStreamerData.wishes).toString()
 				} else {
 					donationProgess = '0'
