@@ -52,12 +52,10 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	const isMakeAWishDataAvailable = !makeAWish.isError && !makeAWish.isLoading
 
 	// donation widget
+	const donationGoal = cms.wish.donationGoal
 	let donationSum = '0'
-	let donationGoal = '0'
 	let percentage = 0
 	let donatorsCount = '0'
-
-	donationGoal = cms.wish.donationGoal
 
 	if (isMakeAWishDataAvailable) {
 		wishFileJsonData = makeAWish.data.streamers[cms.streamer.streamerName.toLocaleLowerCase()]
