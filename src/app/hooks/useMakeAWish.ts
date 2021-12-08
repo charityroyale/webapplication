@@ -1,6 +1,6 @@
 import useSWR from 'swr'
 import { makeAWishAPI } from '../../config'
-import { MakeAWishInfoJsonDTO } from '../dto/MakeAWishDonationsDTO'
+import { MakeAWishInfoJsonDTO } from '../dto/MakeAWishDTOs'
 
 const fetcher = (url: string) =>
 	fetch(url, {
@@ -11,7 +11,7 @@ const fetcher = (url: string) =>
 	}).then((res) => res.json())
 
 export const useMakeAWish = () => {
-	const { data, error } = useSWR(makeAWishAPI.donationsURL, fetcher, {
+	const { data, error } = useSWR<MakeAWishInfoJsonDTO>(makeAWishAPI.donationsURL, fetcher, {
 		refreshInterval: makeAWishAPI.refreshInterval,
 	})
 
