@@ -24,6 +24,7 @@ collections:
           - {
               label: 'Featured TwitchStream ("nqrmvn/philipp-fcbayern" format only)',
               name: 'featuredStream',
+              required: true,
               widget: 'string',
             }
           - { label: 'Custom Donation Link', name: 'customDonationLink', required: false, widget: 'string' }

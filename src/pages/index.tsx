@@ -7,18 +7,18 @@ import FeaturedStream from '../app/components/FeatureStream/FeaturedStream'
 import UpcomingFeatures from '../app/components/UpcomingStreams/UpcomingStreams'
 import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
 import ButtonsBox from '../app/components/FaqBox'
-import cmsContent, { CmsUpcomingStreamer } from '../app/cms/cms'
+import cmsContent, { CmsUpcomingStreamer, StreamerType } from '../app/cms/cms'
 import { TwitchUserDTO } from '../app/dto/TwitchUserDTO'
 
 export interface InitialAppProps {
-	featuredStream?: string
+	featuredStream: string
 	featuredYoutubeStream?: string
-	schedule?: CmsUpcomingStreamer[]
+	schedule: CmsUpcomingStreamer[]
 }
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 	const { schedule, featuredStream, featuredYoutubeStream } = props
-	const [scheduleType, setScheduleType] = useState<'main' | 'community'>('main')
+	const [scheduleType, setScheduleType] = useState<StreamerType>('main')
 	const filteredSchedule = schedule.filter((scheduledStream) => scheduledStream.type === scheduleType)
 
 	return (
