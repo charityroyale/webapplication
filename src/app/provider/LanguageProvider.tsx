@@ -46,8 +46,8 @@ export type DictionairyEntryType =
 	| 'faqPageTitle'
 	| 'donationProjectTitle'
 
-type LanguageTypes = 'en' | 'de'
-type LanguageDictionairyType = { [key in LanguageTypes]: DictionairyEntry }
+type LanguageType = 'en' | 'de'
+type LanguageDictionairyType = { [key in LanguageType]: DictionairyEntry }
 
 export const dictionaryList: LanguageDictionairyType = { en, de }
 export const languageOptions = {
@@ -58,7 +58,7 @@ export const languageOptions = {
 export interface LanguageContextProps {
 	language: string
 	dictionary: DictionairyEntry
-	updateLanguage: React.Dispatch<React.SetStateAction<string>> | null
+	updateLanguage: React.Dispatch<React.SetStateAction<LanguageType>> | null
 }
 
 const detaultLanguage: LanguageContextProps = {
@@ -70,14 +70,12 @@ const detaultLanguage: LanguageContextProps = {
 
 export const LanguageContext = createContext<LanguageContextProps>(detaultLanguage)
 export const LanguageProvider: FunctionComponent = ({ children }) => {
-	const [language, setLanguage] = useState('de')
+	const [language, setLanguage] = useState<LanguageType>('de')
 
 	const provider = {
 		language,
 		dictionary: dictionaryList[language],
-		updateLanguage: (selected: 'en' | 'de') => {
-			setLanguage(languageOptions[selected] ? selected : 'en')
-		},
+		updateLanguage: setLanguage,
 	}
 
 	return <LanguageContext.Provider value={provider}>{children}</LanguageContext.Provider>
