@@ -15,8 +15,7 @@ import { styled } from '../../../styles/Theme'
 import { sortByDateString } from '../../utils/commonUtils'
 import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../dto/MakeAWishDTOs'
 
-const ScheduleTypeButton = styled.button`
-	margin: ${(p) => p.theme.space.s}px auto;
+const ScheduleTypeButton = styled.button<{ isActive: boolean }>`
 	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
 	border: 2px solid ${(p) => p.theme.color.charityTeal};
 	background-color: ${(p) => p.theme.color.veniPurple};
@@ -49,6 +48,27 @@ const ScheduleTypeButton = styled.button`
 		background-color: ${(p) => p.theme.color.charityTeal};
 		cursor: pointer;
 	}
+
+	${(p) =>
+		p.isActive
+			? `color: ${p.theme.color.veniPurple};
+		border-image-source: linear-gradient(
+			to right,
+			${p.theme.color.charityTeal},
+			${p.theme.color.charityTeal}
+		);
+		background-color: ${p.theme.color.charityTeal};
+		cursor: pointer;`
+			: ''}
+`
+
+const ScheduleTypeGrid = styled.div`
+	grid-area: header;
+	justify-content: center;
+	display: grid;
+	grid-gap: 28px;
+	padding: 36px 24px 0 24px;
+	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 `
 
 interface UpcomingStreams {
@@ -95,14 +115,15 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 		)
 	}
 
-	const swapScheduleTypeButtonText = scheduleType === 'main' ? 'Main schedule' : 'Community schedule'
-
 	const futureStreamsSorted = schedule.filter(isInTheFuture).sort(sortByDateString)
 	const pastStreamsSorted = schedule.filter(isInThePast).sort(sortByDateString)
 
-	const changeScheduleTypeOnClick = useCallback(() => {
-		scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main')
-	}, [scheduleType, changeScheduleType])
+	const changeScheduleTypeOnClick = useCallback(
+		(e: React.MouseEvent<HTMLButtonElement>) => {
+			changeScheduleType(e.currentTarget.value as StreamerType)
+		},
+		[scheduleType, changeScheduleType]
+	)
 
 	return (
 		<React.Fragment>
@@ -111,7 +132,6 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 					<StyleUpcomingStreamsHeader>
 						<StyleUpcomingStreamsTitle>
 							<Text content="scheduledStreamsTitle" />
-							<ScheduleTypeButton onClick={changeScheduleTypeOnClick}>{swapScheduleTypeButtonText}</ScheduleTypeButton>
 						</StyleUpcomingStreamsTitle>
 						<p>
 							<Text content="downloadScheduleTitle" />{' '}
@@ -120,6 +140,19 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 							</StyledKalenderDownloadLink>
 							.
 						</p>
+						<ScheduleTypeGrid>
+							<ScheduleTypeButton value="main" onClick={changeScheduleTypeOnClick} isActive={scheduleType === 'main'}>
+								Main
+							</ScheduleTypeButton>
+							<div></div>
+							<ScheduleTypeButton
+								value="community"
+								onClick={changeScheduleTypeOnClick}
+								isActive={scheduleType === 'community'}
+							>
+								Community
+							</ScheduleTypeButton>
+						</ScheduleTypeGrid>
 					</StyleUpcomingStreamsHeader>
 					<StyledUpcoming>{futureStreamsSorted.map(createUpcomingStream)}</StyledUpcoming>
 				</>
@@ -130,16 +163,13 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 						<StyleUpcomingStreamsTitle>
 							<Text content="pastStreamsTitle" />
 						</StyleUpcomingStreamsTitle>
-						<ScheduleTypeButton onClick={changeScheduleTypeOnClick}>{swapScheduleTypeButtonText}</ScheduleTypeButton>
 					</StylePastStreamsHeader>
-
 					<StyledPast>{pastStreamsSorted.map(createUpcomingStream)}</StyledPast>
 				</>
 			)}
 			{schedule.length === 0 && (
 				<StylePastStreamsHeader>
 					<StyleUpcomingStreamsTitle>Streams TBA</StyleUpcomingStreamsTitle>
-					<ScheduleTypeButton onClick={changeScheduleTypeOnClick}>{swapScheduleTypeButtonText}</ScheduleTypeButton>
 				</StylePastStreamsHeader>
 			)}
 		</React.Fragment>
