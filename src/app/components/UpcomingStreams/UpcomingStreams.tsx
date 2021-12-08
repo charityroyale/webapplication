@@ -11,7 +11,7 @@ import { useMakeAWish } from '../../hooks/useMakeAWish'
 import { CmsUpcomingStreamer } from '../../cms/cms'
 import UpcomingStream from './UpcomingStream'
 import { Text } from '../Text'
-import { MakeAWishWishDTO, MakeAWishStreamerJSONDTO } from '../../dto/MakeAWishDonationsDTO'
+import { MakeAWishWishDTO, MakeAWishStreamerJSONDTO, MakeAwishInfoJsonWishDTO } from '../../dto/MakeAWishDonationsDTO'
 import { styled } from '../../../styles/Theme'
 import { sortByDateString } from '../../utils/commonUtils'
 
@@ -74,33 +74,24 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 	const isInTheFuture = (stream: CmsUpcomingStreamer) => now <= getStreamEndDate(stream)
 
 	const createUpcomingStream = (stream: CmsUpcomingStreamer, index: number) => {
-		let donationGoal = '0'
 		let donationProgess = '0'
 		if (!makeAWishDataIsError && !makeAWishDataIsLoading) {
-			const rootLevelWish: MakeAWishWishDTO | undefined = makeAWishData.wishes[stream.wishes[0]]
-			const streamer: MakeAWishStreamerJSONDTO = makeAWishData.streamers[stream.streamerChannel]
+			const rootLevelWishesForStreamer = stream.wishes.map((wishSlug) => makeAWishData.wishes[wishSlug])
+			const mawStreamerData: MakeAWishStreamerJSONDTO = makeAWishData.streamers[stream.streamerChannel]
 
-			if (rootLevelWish) {
-				donationGoal = rootLevelWish.donation_goal
-			}
-
-			if (rootLevelWish && streamer.wishes && stream.wishes[0]) {
-				donationProgess =
-					streamer.type === 'main'
-						? rootLevelWish.current_donation_sum
-						: streamer.wishes.length > 0
-						? streamer.wishes[stream.wishes[0]].current_donation_sum
-						: 0
+			// calc donation progress
+			if (rootLevelWishesForStreamer[0] && mawStreamerData.wishes && stream.wishes[0]) {
+				if (mawStreamerData.type === 'main') {
+					donationProgess = calcDonationProgressOfWishArray(rootLevelWishesForStreamer).toString()
+				} else if (mawStreamerData.wishes) {
+					donationProgess = calcDonationProgressOfAllWishEntries(mawStreamerData.wishes).toString()
+				} else {
+					donationProgess = '0'
+				}
 			}
 		}
 		return (
-			<UpcomingStream
-				projectDone={isInThePast(stream)}
-				key={index}
-				{...stream}
-				donationProgress={donationProgess}
-				donationGoal={donationGoal}
-			/>
+			<UpcomingStream projectDone={isInThePast(stream)} key={index} {...stream} donationProgress={donationProgess} />
 		)
 	}
 
@@ -153,6 +144,20 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 			)}
 		</React.Fragment>
 	)
+}
+
+const calcDonationProgressOfWishArray = (wishes: MakeAWishWishDTO[] | MakeAwishInfoJsonWishDTO[]) => {
+	let sum = 0
+	wishes.map((wish) => (sum += Number(wish.current_donation_sum)))
+	return sum
+}
+
+const calcDonationProgressOfAllWishEntries = (wishes: { [wishSlug: string]: MakeAWishWishDTO }) => {
+	let sum = 0
+	for (const [key] of Object.entries(wishes)) {
+		sum += Number(wishes[key].current_donation_sum)
+	}
+	return sum
 }
 
 export default UpcomingFeatures

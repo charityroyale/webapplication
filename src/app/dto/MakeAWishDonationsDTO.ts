@@ -29,7 +29,7 @@ export class MakeAWishWishDTO {
 	public wish = ''
 	public donation_goal = '' // number without postfix
 	public current_donation_sum = ''
-	public urrent_donation_count = ''
+	public current_donation_count = ''
 }
 
 export class MakeAwishInfoJsonWishDTO {
@@ -62,5 +62,5 @@ export class MakeAWishStreamerJSONDTO {
 	public current_donation_count: -1
 	public top_donors: MakeAWishTopDonatorDTO[]
 	public recent_donations: MakeAWishRecentDonationDTO[]
-	public wishes: MakeAwishInfoJsonWishDTO[]
+	public wishes = {} as { [wishSlug: string]: MakeAWishWishDTO | undefined }
 }
