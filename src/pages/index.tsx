@@ -86,7 +86,6 @@ export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 			schedule,
 			featuredStream: cmsContent.featuredStream,
 			featuredYoutubeStream: cmsContent.featuredYoutubeStream,
-			featuredDonationLink: cmsContent.customDonationLink || cmsContent.featuredStream,
 		},
 	}
 }
