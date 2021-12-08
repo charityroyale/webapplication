@@ -1,5 +1,7 @@
 import rawCmsContent from '../../../_cms/charity-royale.md'
 
+export type StreamerType = 'main' | 'community' | ''
+
 export interface CmsUpcomingStreamer {
 	streamerName: string
 	streamerChannel: string
@@ -7,7 +9,7 @@ export interface CmsUpcomingStreamer {
 	customLink?: string
 	imgUrl: string
 	date: string
-	type: 'main' | 'community' | ''
+	type: StreamerType
 	wishes: string[]
 }
 
@@ -60,22 +62,27 @@ export interface CmsContent {
 	}
 }
 
-export interface DonationPageProps {
-	streamer: CmsUpcomingStreamer
-	wish: MakeAWishWish
-}
-
 const cmsContent = rawCmsContent.attributes as CmsContent
+const featuredDonationLink = cmsContent.customDonationLink || cmsContent.featuredStream
+export const cmsFeaturedStreamLink =
+	featuredDonationLink === 'https://www.make-a-wish.at'
+		? 'https://www.make-a-wish.at'
+		: `/donate/${featuredDonationLink}`
 
 const streamers = cmsContent.upcoming
 const wishes = cmsContent.wishes
 
-export const streamerWishes = {} as { [key: string]: DonationPageProps }
+interface CmsStreamWish {
+	streamer: CmsUpcomingStreamer
+	wish: MakeAWishWish
+}
+
+export const cmsStreamerWishes = {} as { [key: string]: CmsStreamWish }
 const wishKeys: string[] = []
 for (const streamer of streamers) {
 	for (const wish of wishes) {
 		if (streamer.wishes.includes(wish.slug)) {
-			streamerWishes[streamer.streamerChannel + wish.slug] = {
+			cmsStreamerWishes[streamer.streamerChannel + wish.slug] = {
 				streamer: {
 					...streamer,
 					streamLink: streamer.customLink || streamer.streamLink,
@@ -87,8 +94,10 @@ for (const streamer of streamers) {
 	}
 }
 
-export const paths = wishKeys.map((key) => {
-	return { params: { streamer: streamerWishes[key].streamer.streamerChannel, wishSlug: streamerWishes[key].wish.slug } }
+export const cmsDonationPagePaths = wishKeys.map((key) => {
+	return {
+		params: { streamer: cmsStreamerWishes[key].streamer.streamerChannel, wishSlug: cmsStreamerWishes[key].wish.slug },
+	}
 })
 
 export default cmsContent

@@ -84,7 +84,8 @@ const CookieBanner: React.FunctionComponent = () => {
 	}, [])
 
 	useEffect(() => {
-		window[gaDisableCookieName] = gaDisabled
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
+		;(window as any)[gaDisableCookieName] = gaDisabled
 	}, [gaDisabled])
 
 	useEffect(() => {

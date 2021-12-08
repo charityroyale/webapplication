@@ -29,20 +29,22 @@ const DonationDonatorPlaceAndName = styled.div`
 	text-overflow: ellipsis;
 `
 
-export interface List {
+export interface DonationListItem {
 	col_1: string | ReactElement
 	col_2: string | ReactElement
 	col_3: string
 }
 
 interface DonationWidgetListProps {
-	list: List[]
+	donationsList: DonationListItem[]
 }
 
-const DonationWidgetList: React.FunctionComponent<DonationWidgetListProps> = ({ list }: DonationWidgetListProps) => {
+const DonationWidgetList: React.FunctionComponent<DonationWidgetListProps> = ({
+	donationsList,
+}: DonationWidgetListProps) => {
 	return (
 		<DonationList>
-			{list.map((item, index) => {
+			{donationsList.map((item, index) => {
 				return (
 					<DonationListRow key={index}>
 						<div style={{ display: 'flex', justifyContent: 'space-between' }}>

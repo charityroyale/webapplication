@@ -3,9 +3,6 @@ import { createContext, FunctionComponent, useState } from 'react'
 import en from '../languages/en.json'
 import de from '../languages/de.json'
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-export interface DictionairyEntry {}
-
 export type DictionairyEntryType =
 	| 'donateText'
 	| 'totalDonationsProgress'
@@ -46,8 +43,8 @@ export type DictionairyEntryType =
 	| 'faqPageTitle'
 	| 'donationProjectTitle'
 
-type LanguageTypes = 'en' | 'de'
-type LanguageDictionairyType = { [key in LanguageTypes]: DictionairyEntry }
+export type LanguageType = 'en' | 'de'
+type LanguageDictionairyType = { [key in LanguageType]: { [key in DictionairyEntryType]: string } }
 
 export const dictionaryList: LanguageDictionairyType = { en, de }
 export const languageOptions = {
@@ -57,8 +54,8 @@ export const languageOptions = {
 
 export interface LanguageContextProps {
 	language: string
-	dictionary: DictionairyEntry
-	updateLanguage: React.Dispatch<React.SetStateAction<string>> | null
+	dictionary: { [key in DictionairyEntryType]: string }
+	updateLanguage: React.Dispatch<React.SetStateAction<LanguageType>>
 }
 
 const detaultLanguage: LanguageContextProps = {
@@ -70,14 +67,12 @@ const detaultLanguage: LanguageContextProps = {
 
 export const LanguageContext = createContext<LanguageContextProps>(detaultLanguage)
 export const LanguageProvider: FunctionComponent = ({ children }) => {
-	const [language, setLanguage] = useState('de')
+	const [language, setLanguage] = useState<LanguageType>('de')
 
 	const provider = {
 		language,
 		dictionary: dictionaryList[language],
-		updateLanguage: (selected: 'en' | 'de') => {
-			setLanguage(languageOptions[selected] ? selected : 'en')
-		},
+		updateLanguage: setLanguage,
 	}
 
 	return <LanguageContext.Provider value={provider}>{children}</LanguageContext.Provider>

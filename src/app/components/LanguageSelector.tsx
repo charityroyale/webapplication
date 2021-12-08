@@ -1,13 +1,14 @@
 import React, { useContext } from 'react'
-import { LanguageContext, languageOptions } from '../provider/LanguageProvider'
+import { LanguageContext, languageOptions, LanguageType } from '../provider/LanguageProvider'
 
 export const LanguageSelector = () => {
 	const { language, updateLanguage } = useContext(LanguageContext)
 
-	const handleLanguageChange = (e: React.FocusEvent<HTMLSelectElement>) => updateLanguage(e.target.value)
+	const onBlur = (e: React.FocusEvent<HTMLSelectElement>) => updateLanguage(e.target.value as LanguageType)
+	const onChange = (e: React.ChangeEvent<HTMLSelectElement>) => updateLanguage(e.target.value as LanguageType)
 
 	return (
-		<select onBlur={handleLanguageChange} onChange={handleLanguageChange} value={language}>
+		<select onBlur={onBlur} onChange={onChange} value={language}>
 			{Object.entries(languageOptions).map(([id, name]) => (
 				<option key={id} value={id}>
 					{name}

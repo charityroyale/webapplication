@@ -1,19 +1,20 @@
+import Link from 'next/link'
 import React, { useCallback, useState } from 'react'
+import Skeleton from 'react-loading-skeleton'
 import {
 	StyledHeader,
-	StyledHeaderCenterItem,
 	StyledHeaderLeftItem,
+	StyledHeaderCenterItem,
 	StyledHeaderRightItem,
-} from '../../styles/common.styles'
+} from '../../../styles/common.styles'
+import { styled } from '../../../styles/Theme'
+import { cmsFeaturedStreamLink } from '../../cms/cms'
+import { useIsSSR } from '../../hooks/useIsSSR'
+import { useMakeAWish } from '../../hooks/useMakeAWish'
+import ClientLink from '../ClientLink'
+import { LanguageSelector } from '../LanguageSelector'
 import DonationHeaderCount from './DonationHeaderCount'
-import { useIsSSR } from '../hooks/useIsSSR'
-import Skeleton from 'react-loading-skeleton'
-import useMakeAWish from '../hooks/useMakeAWish'
-import ClientLink from './ClientLink'
-import { styled } from '../../styles/Theme'
-import Link from 'next/link'
-import { LanguageSelector } from './LanguageSelector'
-import { Text } from './Text'
+import { Text } from '../Text'
 
 const StyledHeaderContent = styled.div`
 	grid-area: header-row;
@@ -95,7 +96,6 @@ const DonateButton = styled.a`
 `
 
 interface DonationButtonProps {
-	featuredStream: string
 	target?: string
 }
 
@@ -133,24 +133,11 @@ const LanguageSelectWrapper = styled.div`
 	}
 `
 
-const DonationButton: React.FunctionComponent<DonationButtonProps> = ({
-	target,
-	featuredStream,
-}: DonationButtonProps) => {
+const DonationButton: React.FunctionComponent<DonationButtonProps> = ({ target }: DonationButtonProps) => {
 	return (
 		<DonationButtonWrapper>
-			<Link
-				href={
-					featuredStream === 'https://www.make-a-wish.at' ? 'https://www.make-a-wish.at' : `/donate/${featuredStream}`
-				}
-			>
-				<DonateButton
-					href={
-						featuredStream === 'https://www.make-a-wish.at' ? 'https://www.make-a-wish.at' : `/donate/${featuredStream}`
-					}
-					target={target}
-					rel={target === '_blank' ? 'noreferrer' : ''}
-				>
+			<Link href={cmsFeaturedStreamLink}>
+				<DonateButton href={cmsFeaturedStreamLink} target={target} rel={target === '_blank' ? 'noreferrer' : ''}>
 					<span>{<Text content="donateText" />}</span>
 				</DonateButton>
 			</Link>
@@ -162,14 +149,13 @@ const DonationButton: React.FunctionComponent<DonationButtonProps> = ({
 }
 
 interface HeaderProps {
-	featuredStream: string
 	showDonationButton?: boolean
 }
 
-const Header: React.FunctionComponent<HeaderProps> = ({ featuredStream, showDonationButton = true }: HeaderProps) => {
+const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = true }: HeaderProps) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
-	const makeAWish = useMakeAWish()
+	const { makeAWishData, makeAWishDataIsError, makeAWishDataIsLoading } = useMakeAWish()
 
 	const onImageLoad = useCallback(() => {
 		setIsImagedLoaded(true)
@@ -213,11 +199,13 @@ const Header: React.FunctionComponent<HeaderProps> = ({ featuredStream, showDona
 							<DonationHeaderCount
 								donation_goal={50000}
 								current_donation_count={
-									makeAWish.isLoading || makeAWish.isError ? 0 : parseFloat(makeAWish.data.total_donation_sum)
+									makeAWishDataIsLoading || makeAWishDataIsError ? 0 : parseFloat(makeAWishData.total_donation_sum)
 								}
-								donations_count={makeAWish.isLoading || makeAWish.isError ? 0 : makeAWish.data.total_donation_count}
+								donations_count={
+									makeAWishDataIsLoading || makeAWishDataIsError ? 0 : makeAWishData.total_donation_count
+								}
 							></DonationHeaderCount>
-							<DonationButton featuredStream={featuredStream}></DonationButton>
+							<DonationButton />
 						</DonationHeaderCounterAndButtonWrapper>
 					</StyledHeaderRightItem>
 				)}

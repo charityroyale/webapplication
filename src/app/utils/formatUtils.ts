@@ -1,14 +1,14 @@
 import dateFormat from 'dateformat'
 
-export function formatDate(date: Date): string {
+export function formatDate(date: Date) {
 	return dateFormat(date, "d'. 'mmm 'um' HH:MM")
 }
 
-export function formatDateDefault(date: Date): string {
+export function formatDateDefault(date: Date) {
 	return dateFormat(date, "d'.'mmm HH:MM")
 }
 
-export function formatMoney(amount: string | number): string {
+export function formatMoney(amount: string | number) {
 	const parsed = parseFloat(`${amount}`)
 	if (parsed === NaN) {
 		return '0,00'
@@ -16,6 +16,6 @@ export function formatMoney(amount: string | number): string {
 	return parsed.toLocaleString('de-DE', { minimumFractionDigits: 2 })
 }
 
-export function formatMoneyWithSign(amount: string | number): string {
+export function formatMoneyWithSign(amount: string | number) {
 	return `${formatMoney(amount)}€`
 }

@@ -24,6 +24,7 @@ collections:
           - {
               label: 'Featured TwitchStream ("nqrmvn/philipp-fcbayern" format only)',
               name: 'featuredStream',
+              required: true,
               widget: 'string',
             }
           - { label: 'Custom Donation Link', name: 'customDonationLink', required: false, widget: 'string' }
@@ -50,15 +51,11 @@ collections:
             widget: list
             summary: '{{fields.slug}} - {{fields.childname}}'
             fields:
-              - { label: 'Slug', name: 'slug', widget: 'string' }
-              - { label: 'Tagline', name: 'tagline', widget: 'string' }
+              - { label: 'Slug', name: 'slug', widget: 'string', required: true }
+              - { label: 'Tagline', name: 'tagline', widget: 'string', required: true }
               - { label: 'Child Name', name: 'childname', widget: 'string' }
               - { label: 'Description', name: 'descripion', widget: 'string' }
-              - { label: 'Donation Goal', name: 'donationGoal', widget: 'string' }
-              - label: Streamers
-                name: streamers
-                widget: 'list'
-                allow_add: true
+              - { label: 'Donation Goal', name: 'donationGoal', widget: 'string', required: true }
 
           - label: FAQ
             name: faq

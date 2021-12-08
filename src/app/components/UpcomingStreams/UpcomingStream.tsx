@@ -91,7 +91,6 @@ export const DoneStreamDonation = styled.div<{ projectDone: boolean }>`
 `
 
 export interface UpcomingStreamProps extends CmsUpcomingStreamer {
-	donationGoal: string
 	donationProgress: string
 	projectDone: boolean
 }

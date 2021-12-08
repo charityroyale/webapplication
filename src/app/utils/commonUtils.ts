@@ -1,6 +1,6 @@
 import { makeAWishAPI } from '../../config'
 import { CmsUpcomingStreamer } from '../cms/cms'
-import { MakeAWishInfoJsonDTO } from '../dto/MakeAWishDonationsDTO'
+import { MakeAWishInfoJsonDTO } from '../dto/MakeAWishDTOs'
 import { TwitchStreamsDTO } from '../dto/TwitchStreamsDTO'
 import { TwitchUsersDTO } from '../dto/TwitchUsersDTO'
 
@@ -32,20 +32,20 @@ export function getFeaturedStreamSize(): StreamSize {
 	return { width, height: width * (9 / 16) }
 }
 
-export function getPercentage(current: number, goal: number): number {
+export function getPercentage(current: number, goal: number) {
 	return (100 * current) / goal
 }
 
-export function getLoginDisplayNameFromTwitchURI(twitchURI: string): string {
+export function getLoginDisplayNameFromTwitchURI(twitchURI: string) {
 	const splitURI = twitchURI.split('/')
 	return splitURI[splitURI.length - 1]
 }
 
-export function sortByDateString(first: CmsUpcomingStreamer, second: CmsUpcomingStreamer): number {
+export function sortByDateString(first: CmsUpcomingStreamer, second: CmsUpcomingStreamer) {
 	return new Date(first.date).getTime() - new Date(second.date).getTime()
 }
 
-export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]): Promise<TwitchUsersDTO> {
+export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]) {
 	try {
 		const loginIds = []
 		for (const el of schedule) {
@@ -65,7 +65,7 @@ export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]
 	}
 }
 
-export async function fetchTwitchStreamBySchedule(schedule: CmsUpcomingStreamer[]): Promise<TwitchStreamsDTO> {
+export async function fetchTwitchStreamBySchedule(schedule: CmsUpcomingStreamer[]) {
 	try {
 		const loginIds = []
 		for (const el of schedule) {
@@ -85,7 +85,7 @@ export async function fetchTwitchStreamBySchedule(schedule: CmsUpcomingStreamer[
 	}
 }
 
-export async function fetchMakeAWishData(): Promise<MakeAWishInfoJsonDTO> {
+export async function fetchMakeAWishData() {
 	try {
 		const res = await fetch(`${makeAWishAPI.donationsURL}`, {})
 		return (await res.json()) as MakeAWishInfoJsonDTO
@@ -94,7 +94,7 @@ export async function fetchMakeAWishData(): Promise<MakeAWishInfoJsonDTO> {
 	}
 }
 
-export function isClientSideIE(): boolean {
+export function isClientSideIE() {
 	const ua = window.navigator.userAgent
 	const msie = ua.indexOf('MSIE ')
 
@@ -106,5 +106,5 @@ export function isClientSideIE(): boolean {
 }
 
 // References to https://blog.agney.dev/styled-components-&-typescript/
-export const customMediaQuery = (minWidth: number, maxWidth: number): string =>
+export const customMediaQuery = (minWidth: number, maxWidth: number) =>
 	`@media (min-width: ${minWidth}px) and (max-width: ${maxWidth}px)`
