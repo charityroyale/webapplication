@@ -6,14 +6,14 @@ import {
 	StylePastStreamsHeader,
 	StyleUpcomingStreamsHeader,
 	StyleUpcomingStreamsTitle,
-} from '../../styles/common.styles'
-import { useMakeAWish } from '../hooks/useMakeAWish'
-import { CmsUpcomingStreamer } from '../cms/cms'
-import UpcomingStream from './UpcomingStream/UpcomingStream'
-import { Text } from './Text'
-import { MakeAWishWishDTO, MakeAWishStreamerJSONDTO } from '../dto/MakeAWishDonationsDTO'
-import { styled } from '../../styles/Theme'
-import { sortByDateString } from '../utils/commonUtils'
+} from '../../../styles/common.styles'
+import { useMakeAWish } from '../../hooks/useMakeAWish'
+import { CmsUpcomingStreamer } from '../../cms/cms'
+import UpcomingStream from './UpcomingStream'
+import { Text } from '../Text'
+import { MakeAWishWishDTO, MakeAWishStreamerJSONDTO } from '../../dto/MakeAWishDonationsDTO'
+import { styled } from '../../../styles/Theme'
+import { sortByDateString } from '../../utils/commonUtils'
 
 const ScheduleTypeButton = styled.button`
 	margin: ${(p) => p.theme.space.s}px auto;
