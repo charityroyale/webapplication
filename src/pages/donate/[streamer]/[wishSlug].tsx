@@ -12,7 +12,7 @@ import DonationLayout from '../../../app/layouts/DonationLayout'
 import PageWithLayoutType from '../../../app/types/PageWithLayout'
 import { makeAWishAPI } from '../../../config'
 import { useMakeAWish } from '../../../app/hooks/useMakeAWish'
-import { MakeAWishStreamerDTO, MakeAWishStreamerJSONDTO } from '../../../app/dto/MakeAWishDonationsDTO'
+import { MakeAWishStreamerDTO } from '../../../app/dto/MakeAWishDonationsDTO'
 import { formatDateDefault, formatMoneyWithSign } from '../../../app/utils/formatUtils'
 import { styled } from '../../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
@@ -24,7 +24,7 @@ import { Line } from 'rc-progress'
 import { getPercentage } from '../../../app/utils/commonUtils'
 import { paths, cmsStreamerWishes, CmsUpcomingStreamer, MakeAWishWish } from '../../../app/cms/cms'
 import DonationWidgetCount from '../../../app/components/DonationWidget/DonationWidgetCount'
-import DonationWidgetList, { List } from '../../../app/components/DonationWidget/DonatorsWidgetList'
+import DonationWidgetList, { DonationListItem } from '../../../app/components/DonationWidget/DonatorsWidgetList'
 import { Text } from '../../../app/components/Text'
 import { LanguageContext } from '../../../app/provider/LanguageProvider'
 
@@ -46,64 +46,39 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
 	const isMakeAWishDataAvailable = !makeAWishDataIsError && !makeAWishDataIsLoading
 
-	let apiWishUpdated: MakeAWishStreamerDTO | undefined
-	let wishFileJsonData: MakeAWishStreamerJSONDTO | undefined
-	let latestDonatorsList = new Array<List>()
-	let highestDonatorsList = new Array<List>()
+	let mawWStreamerWishData: MakeAWishStreamerDTO | undefined
+	let latestDonatorsList = new Array<DonationListItem>()
+	let highestDonatorsList = new Array<DonationListItem>()
 
 	// donation widget
 	const donationGoal = cms.wish.donationGoal
 	let donationSum = '0'
-	let percentage = 0
+	let progressPercentage = 0
 	let donatorsCount = '0'
 
 	if (isMakeAWishDataAvailable) {
-		wishFileJsonData = makeAWishData.streamers[cms.streamer.streamerName.toLocaleLowerCase()]
+		const cmsStreamerSlug = cms.streamer.streamerName.toLocaleLowerCase()
+		const cmsWishSlug = cms.wish.slug
 
-		if (wishFileJsonData) {
-			const streamerFileJsonData = makeAWishData.streamers[cms.streamer.streamerName.toLocaleLowerCase()]
-			const rootLevelWishData = makeAWishData.wishes[cms.wish.slug]
-			apiWishUpdated = makeAWishData.streamers[cms.streamer.streamerName.toLocaleLowerCase()].wishes[cms.wish.slug]
-			if (apiWishUpdated) {
+		const mawStreamerData = makeAWishData.streamers[cmsStreamerSlug]
+
+		if (mawStreamerData) {
+			const mawWishData = makeAWishData.wishes[cmsWishSlug]
+			mawWStreamerWishData = mawStreamerData.wishes[cmsWishSlug]
+
+			// Object vailable if wish has donations
+			if (mawWStreamerWishData) {
 				donationSum =
-					streamerFileJsonData.type === 'main'
-						? rootLevelWishData.current_donation_sum
-						: apiWishUpdated.current_donation_sum
-				donatorsCount = apiWishUpdated.current_donation_count.toLocaleString('de-DE')
-				percentage = getPercentage(parseFloat(apiWishUpdated.current_donation_sum), parseFloat(cms.wish.donationGoal))
+					mawStreamerData.type === 'main' ? mawWishData.current_donation_sum : mawWStreamerWishData.current_donation_sum
+				donatorsCount = mawWStreamerWishData.current_donation_count.toLocaleString('de-DE')
+				progressPercentage = getPercentage(
+					parseFloat(mawWStreamerWishData.current_donation_sum),
+					parseFloat(cms.wish.donationGoal)
+				)
 			}
-		}
 
-		if (wishFileJsonData && apiWishUpdated) {
-			latestDonatorsList = apiWishUpdated.recent_donations.map((r) => ({
-				col_1: formatDateDefault(new Date(r.unix_timestamp * 1000)),
-				col_2: r.username,
-				col_3: r.amount,
-			}))
-		}
-
-		while (latestDonatorsList.length < 10) {
-			latestDonatorsList.push({
-				col_1: <Text content="hereCouldYourNameTextPart1" />,
-				col_2: <Text content="hereCouldYourNameTextPart2" />,
-				col_3: '0,00',
-			})
-		}
-
-		if (wishFileJsonData && apiWishUpdated) {
-			highestDonatorsList = apiWishUpdated.top_donors.map((r, i) => ({
-				col_1: getTopDonatorFirstColum(i),
-				col_2: r.username,
-				col_3: r.amount,
-			}))
-		}
-
-		while (highestDonatorsList.length < 10) {
-			highestDonatorsList.push({
-				col_1: <Text content="hereCouldYourNameTextPart1" />,
-				col_2: <Text content="hereCouldYourNameTextPart2" />,
-				col_3: '0,00',
-			})
+			latestDonatorsList = getLatestDonators(mawWStreamerWishData)
+			highestDonatorsList = getHighestDonatorsList(mawWStreamerWishData)
 		}
 	}
 
@@ -136,12 +111,12 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	}, [])
 
 	useEffect(() => {
-		if (percentage >= 100) {
+		if (progressPercentage >= 100) {
 			setHasReachGoal(true)
 		} else {
 			setHasReachGoal(false)
 		}
-	}, [percentage])
+	}, [progressPercentage])
 
 	return (
 		<React.Fragment>
@@ -207,7 +182,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 							</p>
 							<Line
 								style={{ padding: '4px 0' }}
-								percent={percentage}
+								percent={progressPercentage}
 								strokeWidth={4}
 								trailWidth={4}
 								trailColor="white"
@@ -258,18 +233,18 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 
 			<StyledDonationSumWidget>
 				<DonationWidgetCount
-					current_amount={apiWishUpdated ? apiWishUpdated.current_donation_sum : '0'}
-					donation_goal_amount={apiWishUpdated ? cms.wish.donationGoal : '0'}
+					current_amount={mawWStreamerWishData ? mawWStreamerWishData.current_donation_sum : '0'}
+					donation_goal_amount={mawWStreamerWishData ? cms.wish.donationGoal : '0'}
 				/>
 			</StyledDonationSumWidget>
 			<StyledDonatorsWidget>
 				<DonationWidget title={<Text content="topDonatorText" />}>
-					<DonationWidgetList list={highestDonatorsList} />
+					<DonationWidgetList donationsList={highestDonatorsList} />
 				</DonationWidget>
 			</StyledDonatorsWidget>
 			<StyledLatestDonatorssWidget>
 				<DonationWidget title={<Text content="latestDonatorsTitle" />}>
-					<DonationWidgetList list={latestDonatorsList} />
+					<DonationWidgetList donationsList={latestDonatorsList} />
 				</DonationWidget>
 			</StyledLatestDonatorssWidget>
 		</React.Fragment>
@@ -365,6 +340,48 @@ const getTopDonatorFirstColum = (index) => {
 			)
 		}
 	}
+}
+
+const getLatestDonators = (mawWStreamerWishData: MakeAWishStreamerDTO) => {
+	let latestDonatorsList: DonationListItem[] = []
+
+	if (mawWStreamerWishData) {
+		latestDonatorsList = mawWStreamerWishData.recent_donations.map((latestDonatorsDonation) => ({
+			col_1: formatDateDefault(new Date(latestDonatorsDonation.unix_timestamp * 1000)),
+			col_2: latestDonatorsDonation.username,
+			col_3: latestDonatorsDonation.amount,
+		}))
+	}
+
+	// Fill remaing slots
+	while (latestDonatorsList.length < 10) {
+		latestDonatorsList.push({
+			col_1: <Text content="hereCouldYourNameTextPart1" />,
+			col_2: <Text content="hereCouldYourNameTextPart2" />,
+			col_3: '0,00',
+		})
+	}
+	return latestDonatorsList
+}
+
+const getHighestDonatorsList = (mawWStreamerWishData: MakeAWishStreamerDTO | undefined) => {
+	let highestDonatorsList: DonationListItem[] = []
+	if (mawWStreamerWishData) {
+		highestDonatorsList = mawWStreamerWishData.top_donors.map((highestDonatorsDonation, i) => ({
+			col_1: getTopDonatorFirstColum(i),
+			col_2: highestDonatorsDonation.username,
+			col_3: highestDonatorsDonation.amount,
+		}))
+	}
+
+	while (highestDonatorsList.length < 10) {
+		highestDonatorsList.push({
+			col_1: <Text content="hereCouldYourNameTextPart1" />,
+			col_2: <Text content="hereCouldYourNameTextPart2" />,
+			col_3: '0,00',
+		})
+	}
+	return highestDonatorsList
 }
 
 const DonationSubPageStats = styled.div`

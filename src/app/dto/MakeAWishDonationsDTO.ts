@@ -6,7 +6,7 @@ export class MakeAWishInfoJsonDTO {
 	public total_donation_sum = ''
 	public total_donation_count = -1
 	public streamers = {} as { [streamerSlug: string]: MakeAWishStreamerJSONDTO | undefined }
-	public wishes = {} as { [wishSlug: string]: MakeAWishWishDTO }
+	public wishes = {} as { [wishSlug: string]: MakeAWishWishDTO | undefined }
 	public recent_donations: MakeAWishRecentDonationDTO[]
 	public top_donors: MakeAWishRecentDonationDTO[]
 }
