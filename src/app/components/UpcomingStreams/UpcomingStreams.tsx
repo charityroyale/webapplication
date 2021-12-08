@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import {
 	StyledKalenderDownloadLink,
 	StyledPast,
@@ -109,6 +109,10 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 	const futureStreamsSorted = schedule.filter(isInTheFuture).sort(sortByDateString)
 	const pastStreamsSorted = schedule.filter(isInThePast).sort(sortByDateString)
 
+	const changeScheduleTypeOnClick = useCallback(() => {
+		scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main')
+	}, [scheduleType, changeScheduleType])
+
 	return (
 		<React.Fragment>
 			{futureStreamsSorted.length > 0 && (
@@ -116,13 +120,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 					<StyleUpcomingStreamsHeader>
 						<StyleUpcomingStreamsTitle>
 							<Text content="scheduledStreamsTitle" />
-							<ScheduleTypeButton
-								onClick={(e) =>
-									scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main')
-								}
-							>
-								{swapScheduleTypeButtonText}
-							</ScheduleTypeButton>
+							<ScheduleTypeButton onClick={changeScheduleTypeOnClick}>{swapScheduleTypeButtonText}</ScheduleTypeButton>
 						</StyleUpcomingStreamsTitle>
 						<p>
 							<Text content="downloadScheduleTitle" />{' '}
@@ -141,11 +139,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 						<StyleUpcomingStreamsTitle>
 							<Text content="pastStreamsTitle" />
 						</StyleUpcomingStreamsTitle>
-						<ScheduleTypeButton
-							onClick={(e) => (scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main'))}
-						>
-							{swapScheduleTypeButtonText}
-						</ScheduleTypeButton>
+						<ScheduleTypeButton onClick={changeScheduleTypeOnClick}>{swapScheduleTypeButtonText}</ScheduleTypeButton>
 					</StylePastStreamsHeader>
 
 					<StyledPast>{pastStreamsSorted.map(createUpcomingStream)}</StyledPast>
@@ -154,11 +148,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 			{schedule.length === 0 && (
 				<StylePastStreamsHeader>
 					<StyleUpcomingStreamsTitle>Streams TBA</StyleUpcomingStreamsTitle>
-					<ScheduleTypeButton
-						onClick={(e) => (scheduleType === 'main' ? changeScheduleType('community') : changeScheduleType('main'))}
-					>
-						{swapScheduleTypeButtonText}
-					</ScheduleTypeButton>
+					<ScheduleTypeButton onClick={changeScheduleTypeOnClick}>{swapScheduleTypeButtonText}</ScheduleTypeButton>
 				</StylePastStreamsHeader>
 			)}
 		</React.Fragment>
