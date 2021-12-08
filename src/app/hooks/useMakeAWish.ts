@@ -10,14 +10,14 @@ const fetcher = (url: string) =>
 		cache: 'no-cache',
 	}).then((res) => res.json())
 
-export default function useMakeAWish() {
+export const useMakeAWish = () => {
 	const { data, error } = useSWR(makeAWishAPI.donationsURL, fetcher, {
 		refreshInterval: makeAWishAPI.refreshInterval,
 	})
 
 	return {
-		data: data as MakeAWishInfoJsonDTO,
-		isLoading: !error && !data,
-		isError: !!error,
+		makeAWishData: data as MakeAWishInfoJsonDTO,
+		makeAWishDataIsLoading: !error && !data,
+		makeAWishDataIsError: !!error,
 	}
 }

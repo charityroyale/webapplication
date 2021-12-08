@@ -11,7 +11,7 @@ import {
 import DonationLayout from '../../../app/layouts/DonationLayout'
 import PageWithLayoutType from '../../../app/types/PageWithLayout'
 import { makeAWishAPI } from '../../../config'
-import useMakeAWish from '../../../app/hooks/useMakeAWish'
+import { useMakeAWish } from '../../../app/hooks/useMakeAWish'
 import { MakeAWishStreamerDTO, MakeAWishStreamerJSONDTO } from '../../../app/dto/MakeAWishDonationsDTO'
 import { formatDateDefault, formatMoneyWithSign } from '../../../app/utils/formatUtils'
 import { styled } from '../../../styles/Theme'
@@ -41,15 +41,15 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	const [iFrameError, setIFrameError] = useState(false)
 	const isSSR = useIsSSR()
 	const languageContext = useContext(LanguageContext)
-
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 
-	const makeAWish = useMakeAWish()
+	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
+	const isMakeAWishDataAvailable = !makeAWishDataIsError && !makeAWishDataIsLoading
+
 	let apiWishUpdated: MakeAWishStreamerDTO | undefined
 	let wishFileJsonData: MakeAWishStreamerJSONDTO | undefined
 	let latestDonatorsList = new Array<List>()
 	let highestDonatorsList = new Array<List>()
-	const isMakeAWishDataAvailable = !makeAWish.isError && !makeAWish.isLoading
 
 	// donation widget
 	const donationGoal = cms.wish.donationGoal
@@ -58,11 +58,12 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	let donatorsCount = '0'
 
 	if (isMakeAWishDataAvailable) {
-		wishFileJsonData = makeAWish.data.streamers[cms.streamer.streamerName.toLocaleLowerCase()]
+		wishFileJsonData = makeAWishData.streamers[cms.streamer.streamerName.toLocaleLowerCase()]
+
 		if (wishFileJsonData) {
-			const streamerFileJsonData = makeAWish.data.streamers[cms.streamer.streamerName.toLocaleLowerCase()]
-			const rootLevelWishData = makeAWish.data.wishes[cms.wish.slug]
-			apiWishUpdated = makeAWish.data.streamers[cms.streamer.streamerName.toLocaleLowerCase()].wishes[cms.wish.slug]
+			const streamerFileJsonData = makeAWishData.streamers[cms.streamer.streamerName.toLocaleLowerCase()]
+			const rootLevelWishData = makeAWishData.wishes[cms.wish.slug]
+			apiWishUpdated = makeAWishData.streamers[cms.streamer.streamerName.toLocaleLowerCase()].wishes[cms.wish.slug]
 			if (apiWishUpdated) {
 				donationSum =
 					streamerFileJsonData.type === 'main'
@@ -210,7 +211,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 								strokeWidth={4}
 								trailWidth={4}
 								trailColor="white"
-								strokeColor={hasReachedGoal && !makeAWish.isLoading ? 'green' : 'gold'}
+								strokeColor={hasReachedGoal && !makeAWishDataIsLoading ? 'green' : 'gold'}
 							/>
 							<DonationStatsWidgetGoal>
 								<Text content="donationGoal" />{' '}

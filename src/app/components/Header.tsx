@@ -8,7 +8,7 @@ import {
 import DonationHeaderCount from './DonationHeaderCount'
 import { useIsSSR } from '../hooks/useIsSSR'
 import Skeleton from 'react-loading-skeleton'
-import useMakeAWish from '../hooks/useMakeAWish'
+import { useMakeAWish } from '../hooks/useMakeAWish'
 import ClientLink from './ClientLink'
 import { styled } from '../../styles/Theme'
 import Link from 'next/link'
@@ -155,7 +155,7 @@ interface HeaderProps {
 const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = true }: HeaderProps) => {
 	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
-	const makeAWish = useMakeAWish()
+	const { makeAWishData, makeAWishDataIsError, makeAWishDataIsLoading } = useMakeAWish()
 
 	const onImageLoad = useCallback(() => {
 		setIsImagedLoaded(true)
@@ -199,9 +199,11 @@ const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = tru
 							<DonationHeaderCount
 								donation_goal={50000}
 								current_donation_count={
-									makeAWish.isLoading || makeAWish.isError ? 0 : parseFloat(makeAWish.data.total_donation_sum)
+									makeAWishDataIsLoading || makeAWishDataIsError ? 0 : parseFloat(makeAWishData.total_donation_sum)
 								}
-								donations_count={makeAWish.isLoading || makeAWish.isError ? 0 : makeAWish.data.total_donation_count}
+								donations_count={
+									makeAWishDataIsLoading || makeAWishDataIsError ? 0 : makeAWishData.total_donation_count
+								}
 							></DonationHeaderCount>
 							<DonationButton />
 						</DonationHeaderCounterAndButtonWrapper>
