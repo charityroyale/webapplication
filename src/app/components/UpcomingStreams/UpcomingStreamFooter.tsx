@@ -38,15 +38,12 @@ const UpcomingStreamTwitchLink = styled.div`
 	}
 `
 
-const UpcomingStreamDateMobile = styled.div`
+const UpcomingStreamDate = styled.div`
 	color: ${(p) => p.theme.color.white};
-	display: none;
-
-	${(p) => p.theme.media.phone} {
-		margin-top: '4px';
-		display: flex;
-	}
+	display: flex;
+	margin-top: 6px;
 `
+
 const StreamerIconWrapper = styled.div`
 	padding: ${(p) => p.theme.space.s}px;
 	position: relative;
@@ -156,10 +153,10 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamFooterProps> 
 						</a>
 					</UpcomingStreamTwitchLink>
 
-					<UpcomingStreamDateMobile>
+					<UpcomingStreamDate>
 						<BsCalendar style={{ marginLeft: '1px', marginRight: '8px' }} />
 						<span>{formatDate(new Date(date))}</span>
-					</UpcomingStreamDateMobile>
+					</UpcomingStreamDate>
 				</UpcomingStreamDescription>
 			</UpcomingStreamerFooterLeft>
 			<UpcomingStreamerFooterRight>
