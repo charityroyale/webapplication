@@ -18,16 +18,12 @@ const MainGrid = styled.main`
 	}
 `
 
-interface MainLayoutProps {
-	children: React.ReactNode
-}
-
-const MainLayout: React.FunctionComponent<MainLayoutProps> = ({ children }: MainLayoutProps) => {
+const MainLayout: React.FunctionComponent = (props) => {
 	return (
 		<StyledLayout>
 			<CookieBanner />
 			<Header />
-			<MainGrid>{children}</MainGrid>
+			<MainGrid>{props.children}</MainGrid>
 			<Footer />
 		</StyledLayout>
 	)

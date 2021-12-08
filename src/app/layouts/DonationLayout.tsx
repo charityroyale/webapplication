@@ -42,16 +42,12 @@ export const MainGrid = styled.div`
 	}
 `
 
-interface DonationLayoutProps {
-	children: React.ReactNode
-}
-
-const DonationLayout: React.FunctionComponent<DonationLayoutProps> = ({ children }: DonationLayoutProps) => {
+const DonationLayout: React.FunctionComponent = (props) => {
 	return (
 		<StyledLayout>
 			<CookieBanner />
 			<Header />
-			<MainGrid>{children}</MainGrid>
+			<MainGrid>{props.children}</MainGrid>
 			<Footer />
 		</StyledLayout>
 	)
