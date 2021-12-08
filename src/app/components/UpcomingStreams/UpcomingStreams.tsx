@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react'
+import React from 'react'
 import {
 	StyledKalenderDownloadLink,
 	StyledPast,
@@ -118,12 +118,9 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 	const futureStreamsSorted = schedule.filter(isInTheFuture).sort(sortByDateString)
 	const pastStreamsSorted = schedule.filter(isInThePast).sort(sortByDateString)
 
-	const changeScheduleTypeOnClick = useCallback(
-		(e: React.MouseEvent<HTMLButtonElement>) => {
-			changeScheduleType(e.currentTarget.value as StreamerType)
-		},
-		[changeScheduleType]
-	)
+	const changeScheduleTypeOnClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+		changeScheduleType(e.currentTarget.value as StreamerType)
+	}
 
 	return (
 		<React.Fragment>
