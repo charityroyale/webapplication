@@ -33,7 +33,7 @@
 		"eslint-plugin-jsx-a11y": "^6.4.1",
 		"eslint-plugin-prettier": "^3.1.4",
 		"eslint-plugin-react": "^7.20.3",
-		"eslint-plugin-react-hooks": "^4.0.8",
+		"eslint-plugin-react-hooks": "^4.3.0",
 		"front-matter": "^4.0.2",
 		"frontmatter-markdown-loader": "^3.6.2",
 		"husky": "^4.2.5",
@@ -46,8 +46,8 @@
 	"scripts": {
 		"dev": "next",
 		"build-ics": "node ./scripts/generateICSfiles.js",
-		"build": "npm run build-ics && next build",
-		"build-netlify": "npm run build && next export",
+		"build": "npm run lint && npm run build-ics && next build",
+		"build-netlify": "npm run lint && npm run build && next export",
 		"start": "next start",
 		"lint": "eslint src --ext .ts,.tsx",
 		"lint:fix": "npm run lint -- --fix"

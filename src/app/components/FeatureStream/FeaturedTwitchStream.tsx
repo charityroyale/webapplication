@@ -33,7 +33,7 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 			// @ts-ignore
 			ref.onload = setFeaturedStreamLoaded(true)
 		}
-	}, [])
+	}, [channel])
 
 	useIsomorphicLayoutEffect(() => {
 		function updateSize() {
