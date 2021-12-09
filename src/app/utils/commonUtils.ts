@@ -108,3 +108,7 @@ export function isClientSideIE() {
 // References to https://blog.agney.dev/styled-components-&-typescript/
 export const customMediaQuery = (minWidth: number, maxWidth: number) =>
 	`@media (min-width: ${minWidth}px) and (max-width: ${maxWidth}px)`
+
+export const hasProperty = (obj: Record<string, unknown>, key: string) => {
+	return Object.prototype.hasOwnProperty.call(obj, key)
+}

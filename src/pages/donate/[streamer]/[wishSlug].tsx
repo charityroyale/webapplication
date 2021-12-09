@@ -20,7 +20,7 @@ import { ImTrophy } from 'react-icons/im'
 import { BsFillPeopleFill } from 'react-icons/bs'
 import { FaDove } from 'react-icons/fa'
 import { Line } from 'rc-progress'
-import { getPercentage } from '../../../app/utils/commonUtils'
+import { getPercentage, hasProperty } from '../../../app/utils/commonUtils'
 import { cmsDonationPagePaths, cmsStreamerWishes, CmsUpcomingStreamer, MakeAWishWish } from '../../../app/cms/cms'
 import DonationWidgetCount from '../../../app/components/DonationWidget/DonationWidgetCount'
 import DonationWidgetList, { DonationListItem } from '../../../app/components/DonationWidget/DonatorsWidgetList'
@@ -61,15 +61,15 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 		const cmsWishSlug = cms.wish.slug
 
 		// Check if streamer exists in MAW info json
-		if (makeAWishData.streamers.hasOwnProperty(cmsStreamerSlug)) {
+		if (hasProperty(makeAWishData.streamers, cmsStreamerSlug)) {
 			const mawStreamerData = makeAWishData.streamers[cmsStreamerSlug]
 
 			// Check if if wish has donations
-			if (makeAWishData.wishes.hasOwnProperty(cmsWishSlug)) {
+			if (hasProperty(makeAWishData.wishes, cmsWishSlug)) {
 				const mawWishData = makeAWishData.wishes[cmsWishSlug]
 
 				//
-				if (!Array.isArray(mawStreamerData.wishes) && mawStreamerData.wishes.hasOwnProperty(cmsWishSlug)) {
+				if (!Array.isArray(mawStreamerData.wishes) && hasProperty(mawStreamerData.wishes, cmsWishSlug)) {
 					mawWStreamerWishData = mawStreamerData.wishes[cmsWishSlug]
 
 					donationSum =
@@ -92,10 +92,10 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	useEffect(() => {
 		const handler = (event: MessageEvent) => {
 			const data = event.data
-			if (data.hasOwnProperty('frameHeight')) {
+			if (hasProperty(data.hasOwnProperty, 'frameHeight')) {
 				setIframeHeight(`${data.frameHeight}px`)
 			}
-			if (data.hasOwnProperty('command')) {
+			if (hasProperty(data.hasOwnProperty, 'command')) {
 				// Scroll to center of iframe
 				if (data.command == 'scrollIFrameCenter') {
 					// It can be sure that the iframe is loaded after the rendering on the clientSide

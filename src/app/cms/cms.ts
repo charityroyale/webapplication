@@ -1,6 +1,6 @@
 import rawCmsContent from '../../../_cms/charity-royale.md'
 
-export type StreamerType = 'main' | 'community' | ''
+export type StreamerType = 'main' | 'community'
 
 export interface CmsUpcomingStreamer {
 	streamerName: string

@@ -10,7 +10,7 @@ export function formatDateDefault(date: Date) {
 
 export function formatMoney(amount: string | number) {
 	const parsed = parseFloat(`${amount}`)
-	if (parsed === NaN) {
+	if (isNaN(parsed)) {
 		return '0,00'
 	}
 	return parsed.toLocaleString('de-DE', { minimumFractionDigits: 2 })

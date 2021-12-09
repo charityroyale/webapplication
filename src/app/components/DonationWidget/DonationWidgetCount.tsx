@@ -40,7 +40,7 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 		} else {
 			setHasReachGoal(false)
 		}
-	}, [current_amount])
+	}, [percentage])
 
 	return (
 		<React.Fragment>

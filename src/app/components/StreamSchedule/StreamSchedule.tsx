@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {
 	StyledKalenderDownloadLink,
 	StyledPast,
@@ -14,6 +14,7 @@ import { Text } from '../Text'
 import { styled } from '../../../styles/Theme'
 import { sortByDateString } from '../../utils/commonUtils'
 import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../dto/MakeAWishDTOs'
+import { CmsSchedulesType } from '../../../pages'
 
 const ScheduleTypeButton = styled.button<{ isActive: boolean }>`
 	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
@@ -71,18 +72,14 @@ const ScheduleTypeGrid = styled.div`
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
 `
 
-interface UpcomingStreams {
-	schedule: CmsUpcomingStreamer[]
-	scheduleType: StreamerType
-	changeScheduleType: React.Dispatch<React.SetStateAction<StreamerType>>
+interface StreamScheduleProps {
+	schedules: CmsSchedulesType
 }
 
-const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
-	schedule,
-	scheduleType,
-	changeScheduleType,
-}: UpcomingStreams) => {
+const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedules }: StreamScheduleProps) => {
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
+	const [scheduleType, setScheduleType] = useState<StreamerType>('main')
+	const [schedule, setSchedule] = useState(schedules[scheduleType])
 
 	const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
 		const startDate = new Date(stream.date)
@@ -119,13 +116,17 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 	const pastStreamsSorted = schedule.filter(isInThePast).sort(sortByDateString)
 
 	const changeScheduleTypeOnClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-		changeScheduleType(e.currentTarget.value as StreamerType)
+		setScheduleType(e.currentTarget.value as StreamerType)
 	}
+
+	useEffect(() => {
+		setSchedule(schedules[scheduleType])
+	}, [scheduleType, schedules])
 
 	return (
 		<React.Fragment>
 			{futureStreamsSorted.length > 0 && (
-				<>
+				<React.Fragment>
 					<StyleUpcomingStreamsHeader>
 						<StyleUpcomingStreamsTitle>
 							<Text content="scheduledStreamsTitle" />
@@ -152,7 +153,7 @@ const UpcomingFeatures: React.FunctionComponent<UpcomingStreams> = ({
 						</ScheduleTypeGrid>
 					</StyleUpcomingStreamsHeader>
 					<StyledUpcoming>{futureStreamsSorted.map(createUpcomingStream)}</StyledUpcoming>
-				</>
+				</React.Fragment>
 			)}
 			{pastStreamsSorted.length > 0 && (
 				<>
@@ -187,4 +188,4 @@ const calcDonationProgressOfAllWishEntries = (wishes: { [wishSlug: string]: Make
 	return sum
 }
 
-export default UpcomingFeatures
+export default StreamSchedule
