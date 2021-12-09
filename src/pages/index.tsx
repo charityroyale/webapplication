@@ -1,25 +1,25 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import MainLayout from '../app/layouts/MainLayout'
 import PageWithLayoutType from '../app/types/PageWithLayout'
 import FeaturedStream from '../app/components/FeatureStream/FeaturedStream'
-import UpcomingFeatures from '../app/components/UpcomingStreams/UpcomingStreams'
+import StreamSchedule from '../app/components/StreamSchedule/StreamSchedule'
 import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
 import ButtonsBox from '../app/components/FaqBox'
 import cmsContent, { CmsUpcomingStreamer, StreamerType } from '../app/cms/cms'
 import { TwitchUserDTO } from '../app/dto/TwitchUserDTO'
 
+export type CmsSchedulesType = { [key in StreamerType]: CmsUpcomingStreamer[] }
+
 export interface InitialAppProps {
 	featuredStream: string
 	featuredYoutubeStream?: string
-	schedule: CmsUpcomingStreamer[]
+	schedules: CmsSchedulesType
 }
 
 const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
-	const { schedule, featuredStream, featuredYoutubeStream } = props
-	const [scheduleType, setScheduleType] = useState<StreamerType>('main')
-	const filteredSchedule = schedule.filter((scheduledStream) => scheduledStream.type === scheduleType)
+	const { schedules, featuredStream, featuredYoutubeStream } = props
 
 	return (
 		<>
@@ -51,11 +51,7 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 			<>
 				<ButtonsBox />
 				<FeaturedStream twitchChannelName={featuredStream} youtubeUrl={featuredYoutubeStream} />
-				<UpcomingFeatures
-					schedule={filteredSchedule}
-					changeScheduleType={setScheduleType}
-					scheduleType={scheduleType}
-				/>
+				<StreamSchedule schedules={schedules} />
 			</>
 		</>
 	)
@@ -81,9 +77,14 @@ export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
 			: ''
 	}
 
+	const schedules: CmsSchedulesType = {
+		main: schedule.filter((scheduledStream) => scheduledStream.type === 'main'),
+		community: schedule.filter((scheduledStream) => scheduledStream.type === 'community'),
+	}
+
 	return {
 		props: {
-			schedule,
+			schedules,
 			featuredStream: cmsContent.featuredStream,
 			featuredYoutubeStream: cmsContent.featuredYoutubeStream,
 		},
