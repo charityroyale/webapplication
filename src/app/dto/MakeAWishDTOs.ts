@@ -30,7 +30,7 @@ export class MakeAWishStreamerDTO {
 	public color = '' // some MAW internal color code
 	public slug = '' // identifier, streamchannel twitch in lower case
 	public name = '' // streamer name
-	public type: StreamerType = '' // 'main' or 'community'
+	public type: StreamerType = 'main' // 'main' or 'community'
 	public current_donation_sum = ''
 	public current_donation_count = -1
 	public top_donors: MakeAWishInfoJsonTopDonationDTO[] = []
