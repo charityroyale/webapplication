@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useState } from 'react'
 import {
 	StyledKalenderDownloadLink,
 	StyledPast,
@@ -79,7 +79,6 @@ interface StreamScheduleProps {
 const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedules }: StreamScheduleProps) => {
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
 	const [scheduleType, setScheduleType] = useState<StreamerType>('main')
-	const [schedule, setSchedule] = useState(schedules[scheduleType])
 
 	const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
 		const startDate = new Date(stream.date)
@@ -112,16 +111,12 @@ const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedule
 		)
 	}
 
-	const futureStreamsSorted = schedule.filter(isInTheFuture).sort(sortByDateString)
-	const pastStreamsSorted = schedule.filter(isInThePast).sort(sortByDateString)
+	const futureStreamsSorted = schedules[scheduleType].filter(isInTheFuture).sort(sortByDateString)
+	const pastStreamsSorted = schedules[scheduleType].filter(isInThePast).sort(sortByDateString)
 
-	const changeScheduleTypeOnClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+	const changeScheduleTypeOnClick = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
 		setScheduleType(e.currentTarget.value as StreamerType)
-	}
-
-	useEffect(() => {
-		setSchedule(schedules[scheduleType])
-	}, [scheduleType, schedules])
+	}, [])
 
 	return (
 		<React.Fragment>
@@ -165,7 +160,7 @@ const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedule
 					<StyledPast>{pastStreamsSorted.map(createUpcomingStream)}</StyledPast>
 				</>
 			)}
-			{schedule.length === 0 && (
+			{schedules[scheduleType].length === 0 && (
 				<StylePastStreamsHeader>
 					<StyleUpcomingStreamsTitle>Streams TBA</StyleUpcomingStreamsTitle>
 				</StylePastStreamsHeader>
