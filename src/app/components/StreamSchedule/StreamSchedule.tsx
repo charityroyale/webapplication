@@ -107,7 +107,12 @@ const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedule
 			}
 		}
 		return (
-			<UpcomingStream projectDone={isInThePast(stream)} key={index} {...stream} donationProgress={donationProgess} />
+			<UpcomingStream
+				projectDone={isInThePast(stream)}
+				key={`${stream.streamerChannel}-${index}-stream`}
+				{...stream}
+				donationProgress={donationProgess}
+			/>
 		)
 	}
 
