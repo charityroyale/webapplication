@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
   willhaben für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: mrsxeniatv/edanur-macbookair
+featuredStream: sintica/moritz-tomorrowland
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -304,7 +304,7 @@ wishes:
       ist es einfach zu nutzen und man kann tolle Präsentationen damit machen.
       Tja, da haben wir nichts mehr hinzuzufügen. ☺
     slug: arina-macbook
-    donationGoal: "14000"
+    donationGoal: "1400"
     streamers:
       - zayuri
   - childname: Karolina
