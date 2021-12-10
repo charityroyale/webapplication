@@ -304,7 +304,7 @@ wishes:
       ist es einfach zu nutzen und man kann tolle Präsentationen damit machen.
       Tja, da haben wir nichts mehr hinzuzufügen. ☺
     slug: arina-macbook
-    donationGoal: "14000"
+    donationGoal: "1400"
     streamers:
       - zayuri
   - childname: Karolina
