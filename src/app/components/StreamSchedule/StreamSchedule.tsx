@@ -80,15 +80,6 @@ const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedule
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
 	const [scheduleType, setScheduleType] = useState<StreamerType>('main')
 
-	const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
-		const startDate = new Date(stream.date)
-		const hoursToAdd = 12
-		return new Date(startDate.getTime() + hoursToAdd * 3600000)
-	}
-	const now = new Date()
-	const isInThePast = (stream: CmsUpcomingStreamer) => now > getStreamEndDate(stream)
-	const isInTheFuture = (stream: CmsUpcomingStreamer) => now <= getStreamEndDate(stream)
-
 	const createUpcomingStream = (stream: CmsUpcomingStreamer, index: number) => {
 		let donationProgess = '0'
 		if (!makeAWishDataIsError && !makeAWishDataIsLoading) {
@@ -187,5 +178,13 @@ const calcDonationProgressOfAllWishEntries = (wishes: { [wishSlug: string]: Make
 	}
 	return sum
 }
+
+const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
+	const startDate = new Date(stream.date).getTime()
+	const hoursToAdd = 12
+	return startDate + hoursToAdd * 3600000
+}
+const isInThePast = (stream: CmsUpcomingStreamer) => Date.now() > getStreamEndDate(stream)
+const isInTheFuture = (stream: CmsUpcomingStreamer) => Date.now() <= getStreamEndDate(stream)
 
 export default StreamSchedule
