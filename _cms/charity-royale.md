@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
   willhaben für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: sintica/moritz-tomorrowland
+featuredStream: henke/dmytro-kamera
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -110,8 +110,8 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - nina-elefantenwaisenhaus
       - julian-malta
+      - nina-elefantenwaisenhaus
   - date: 2021-12-14T09:00:05.567Z
     streamLink: https://www.twitch.tv/Henke
     streamerName: Henke
@@ -202,6 +202,14 @@ upcoming:
     wishes:
       - lucas-youtuber
     type: main
+  - date: 2021-12-16T15:00:13.021Z
+    streamerName: StrizziTv
+    streamerChannel: strizzitv
+    streamLink: https://www.twitch.tv/StrizziTv
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - gamingpc
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
@@ -577,61 +585,143 @@ wishes:
     donationGoal: "5"
   - slug: disneyland
     childname: Wunschkind
-    tagline: Disneyland Reise
+    tagline: Eine Reise ins Disneyland
     donationGoal: "1500"
-    descripion: Disneyland Reise
-  - tagline: 1 Tag Prinzessin
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: eine Reise ins Disneyland nach Paris, gemeinsam mit ihrer ganzen
+      Familie! Einige Kinder möchten aber nicht namentlich und mit Angabe der
+      Krankheit genannte werden. Das respektieren wir selbstverständlich,
+      möchten diesen Kindern aber trotzdem ihren Herzenswunsch erfüllen. Spende
+      jetzt und hilf mit, einem schwerkranken Kind den Wunsch einer Reise ins
+      Disneyland zu erfüllen."
+  - tagline: Einen Tag Prinzessin sein
     childname: Wunschkind
     slug: prinzessin
     donationGoal: "500"
-    descripion: 1 Tag Prinzessin
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Einen Tag lang Prinzessin sein! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
+      Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
   - tagline: Legoland Reise
-    descripion: Legoland Reise
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
     childname: Wunschkind
     slug: legoland
     donationGoal: "500"
   - donationGoal: "500"
-    tagline: M&G mit Youtuber
-    descripion: M&G mit Youtuber
+    tagline: Meet & Greet mit YouTuber
+    descripion: "Ein echter Herzenswunsch für viele Kinder & Jugendliche, die sich
+      an Make-A-Wish wenden: Einen bekannten Youtuber zu treffen! Einige Kinder
+      möchten aber nicht namentlich und mit Angabe der Krankheit genannte
+      werden. Das respektieren wir selbstverständlich, möchten diesen Kindern
+      aber trotzdem ihren Herzenswunsch erfüllen. Spende jetzt und hilf mit,
+      einem schwerkranken Kind den Wunsch, einen bekannten Youtuber zu treffen
+      und sein Idol kennenzulernen."
     childname: Wunschkind
     slug: youtuber
   - slug: harrypotter
-    tagline: Harry Potter Studios
-    descripion: Harry Potter Studios
+    tagline: Reise zu den Harry Potter Studios
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise in die Harry Potter Studios in London! Einige Kinder
+      möchten aber nicht namentlich und mit Angabe der Krankheit genannte
+      werden. Das respektieren wir selbstverständlich, möchten diesen Kindern
+      aber trotzdem ihren Herzenswunsch erfüllen. Spende jetzt und hilf mit,
+      einem schwerkranken Kind den Wunsch zu erfüllen, ins Harry Potter Studio
+      nach London zu reisen, dort alle Charaktere näher kennenzulernen und
+      vielleicht selbst einen Zauberstab zu schwingen. "
     childname: Wunschkind
     donationGoal: "1000"
-  - tagline: Gaming PC
-    descripion: Gaming PC
+  - tagline: Ein guter Gaming PC
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Ein eigener, manchmal auch professioneller Gaming PC. Die Gründe
+      dafür sind unterschiedlich: manche möchten damit in Kontakt mit ihren
+      Freunden sein, die sie aufgrund ihrer Krankheit nicht treffen können.
+      Andere wollen Profi Gamer werden, um Geld für ihre teuren Therapien zu
+      verdienen. Einige Kinder möchten aber nicht namentlich und mit Angabe der
+      Krankheit genannte werden. Das respektieren wir selbstverständlich,
+      möchten diesen Kindern aber trotzdem ihren Herzenswunsch erfüllen. Spende
+      jetzt und hilf mit, einem schwerkranken Kind den Wunsch eines eigenen
+      Gaming PCs zu erfüllen."
     childname: Wunschkind
     donationGoal: "1000"
     slug: gamingpc
-  - descripion: Zimmereinrichtung
-    tagline: Zimmereinrichtung
+  - descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine besondere Einrichtung für das eigene Kinder- oder
+      Jugendzimmer. Manche wünschen sich ein Prinzessinnenzimmer, andere
+      wiederum ein Starwars Zimmer.  Einige Kinder möchten aber nicht namentlich
+      und mit Angabe der Krankheit genannte werden. Das respektieren wir
+      selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer neuen Zimmereinrichtung, individuell auf das
+      Wunschkind abgestimmt, zu erfüllen."
+    tagline: Kinderzimmer-Einrichtung
     slug: zimmereinrichtung
     donationGoal: "1000"
     childname: Wunschkind
-  - tagline: "Stelzenhaus mit Extras\t"
-    descripion: "Stelzenhaus mit Extras\t"
+  - tagline: "Ein Stelzenhaus mit Extras\t"
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Ein Stelzenhaus für den Garten. Die Vorstellungen dieser
+      Stelzenhäuser sind sehr vielfältig. Für manche Kinder ist die Farbe sehr
+      wichtig (z. B. rosa oder regenbogenfarben), andere wünschen sich eine
+      Matschküche, eine Rutsche oder einen lila Briefkasten dazu, wo sie auf
+      Post ihrer Schulfreunde warten. Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch eines eigenen Stelzenhauses zu erfüllen."
     childname: Wunschkind
     slug: stelzenhaus
     donationGoal: "1500"
-  - tagline: Gaming Ecke
-    descripion: Gaming Ecke
+  - tagline: Eine volle Gaming Ecke
+    descripion: "Ein echter Herzenswunsch für viele Kinder und Jugendliche, die sich
+      an Make-A-Wish wenden: Eine eigene Gaming Ecke mit Gaming PC, Monitor,
+      Gaming Sessel, Leuchttastatur und alles was dazu gehört, um ein Gamer zu
+      sein. Einige Kinder möchten aber nicht namentlich und mit Angabe der
+      Krankheit genannte werden. Das respektieren wir selbstverständlich,
+      möchten diesen Kindern aber trotzdem ihren Herzenswunsch erfüllen. Spende
+      jetzt und hilf mit, einem schwerkranken Kind den Wunsch einer eigenen
+      Gaming Ecke zu erfüllen."
     childname: Wunschkind
     donationGoal: "1500"
     slug: gamingecke
-  - tagline: Flugreise
-    descripion: Flugreise
+  - tagline: Eine Flugreise
+    descripion: "Ein echter Herzenswunsch für viele Kinder und Jugendliche, die sich
+      an Make-A-Wish wenden: einmal mit einem Flugzeug in den Urlaub zu
+      fliegen.  Einige Kinder möchten aber nicht namentlich und mit Angabe der
+      Krankheit genannte werden. Das respektieren wir selbstverständlich,
+      möchten diesen Kindern aber trotzdem ihren Herzenswunsch erfüllen. Spende
+      jetzt und hilf mit, einem schwerkranken Kind den Wunsch einer Flugreise zu
+      erfüllen."
     childname: Wunschkind
     slug: flugreise
     donationGoal: "2000"
-  - tagline: Familienhotel
-    descripion: Familienhotel
+  - tagline: Urlaub im Familienhotel
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: ein Urlaub mit der ganzen Familie im Familien oder Thermenhotel,
+      mit vielen Rutschen. Einige Kinder möchten aber nicht namentlich und mit
+      Angabe der Krankheit genannte werden. Das respektieren wir
+      selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch eines Urlaubes mit seiner Familie zu erfüllen."
     childname: Wunschkind
     slug: familienhotel
     donationGoal: "2000"
-  - tagline: Treffen mit Disneyfigur
-    descripion: Treffen mit Disneyfigur
+  - tagline: Meet and Greet mit Disneyfigur
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: ein Treffen mit Micky Mouse oder einer Frozen Prinzessin! Einige
+      Kinder möchten aber nicht namentlich und mit Angabe der Krankheit genannte
+      werden. Das respektieren wir selbstverständlich, möchten diesen Kindern
+      aber trotzdem ihren Herzenswunsch erfüllen. Spende jetzt und hilf mit,
+      einem schwerkranken Kind den Wunsch eines Treffens mit einer Disneyfigur
+      zu erfüllen."
     childname: Wunschkind
     slug: disneyfigur
     donationGoal: "2000"
