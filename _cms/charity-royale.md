@@ -605,7 +605,7 @@ wishes:
       Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
       Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
       Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
-  - tagline: Legoland Reise
+  - tagline: Eine Reise ins Legoland
     descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
       namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
