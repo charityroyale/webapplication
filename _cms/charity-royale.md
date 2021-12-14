@@ -614,7 +614,7 @@ wishes:
       Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
       unbeschwerte Zeit mit seiner Familie zu ermöglichen."
     childname: Wunschkind
-    slug: Eine Reise ins Legoland
+    slug: legoland
     donationGoal: "500"
   - donationGoal: "500"
     tagline: Meet & Greet mit YouTuber
