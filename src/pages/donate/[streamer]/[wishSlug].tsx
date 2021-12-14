@@ -92,10 +92,10 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	useEffect(() => {
 		const handler = (event: MessageEvent) => {
 			const data = event.data
-			if (hasProperty(data.hasOwnProperty, 'frameHeight')) {
+			if (hasProperty(data, 'frameHeight')) {
 				setIframeHeight(`${data.frameHeight}px`)
 			}
-			if (hasProperty(data.hasOwnProperty, 'command')) {
+			if (hasProperty(data, 'command')) {
 				// Scroll to center of iframe
 				if (data.command == 'scrollIFrameCenter') {
 					// It can be sure that the iframe is loaded after the rendering on the clientSide
