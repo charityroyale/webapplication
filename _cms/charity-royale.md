@@ -202,6 +202,14 @@ upcoming:
     wishes:
       - lucas-youtuber
     type: main
+  - date: 2021-12-16T15:00:13.021Z
+    streamerName: StrizziTv
+    streamerChannel: strizzitv
+    streamLink: https://www.twitch.tv/StrizziTv
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - gamingpc
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
