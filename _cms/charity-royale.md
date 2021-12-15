@@ -210,6 +210,14 @@ upcoming:
     type: community
     wishes:
       - gamingpc
+  - date: 2021-12-19T12:00:36.939Z
+    streamerName: FaeLaBlanche
+    streamerChannel: faelablanche
+    streamLink: https://www.twitch.tv/faelablanche
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
