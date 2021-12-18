@@ -55,11 +55,13 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	let donationSum = '0'
 	let progressPercentage = 0
 	let donatorsCount = '0'
+	const cmsStreamerSlug =
+		cms.streamer.streamerChannel.toLocaleLowerCase() === 'krokoboss'
+			? 'shredmir'
+			: cms.streamer.streamerChannel.toLocaleLowerCase()
+	const cmsWishSlug = cms.wish.slug
 
 	if (isMakeAWishDataAvailable) {
-		const cmsStreamerSlug = cms.streamer.streamerChannel.toLocaleLowerCase()
-		const cmsWishSlug = cms.wish.slug
-
 		// Check if streamer exists in MAW info json
 		if (hasProperty(makeAWishData.streamers, cmsStreamerSlug)) {
 			const mawStreamerData = makeAWishData.streamers[cmsStreamerSlug]
@@ -68,7 +70,6 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 			if (hasProperty(makeAWishData.wishes, cmsWishSlug)) {
 				const mawWishData = makeAWishData.wishes[cmsWishSlug]
 
-				//
 				if (!Array.isArray(mawStreamerData.wishes) && hasProperty(mawStreamerData.wishes, cmsWishSlug)) {
 					mawWStreamerWishData = mawStreamerData.wishes[cmsWishSlug]
 
@@ -133,7 +134,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 				<link
 					rel="preload"
 					as="document"
-					href={`${makeAWishAPI.donationFormURL}${cms.streamer.streamerName}/${cms.wish.slug}`}
+					href={`${makeAWishAPI.donationFormURL}${cmsStreamerSlug}/${cms.wish.slug}`}
 				></link>
 				<link
 					rel="preload"
@@ -231,9 +232,9 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 						onLoad={iFrameLoaded}
 						onError={iFrameLoadedError}
 						id="iframe"
-						src={`${languageContext.language === 'de' ? makeAWishAPI.donationFormURL : makeAWishAPI.donationFormEnURL}${
-							cms.streamer.streamerChannel
-						}/${cms.wish.slug}`}
+						src={`${
+							languageContext.language === 'de' ? makeAWishAPI.donationFormURL : makeAWishAPI.donationFormEnURL
+						}${cmsStreamerSlug}/${cms.wish.slug}`}
 						title="Spendenformular"
 					/>
 				)}
