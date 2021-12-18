@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
   willhaben für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: shredmir/lukas-fussballer
+featuredStream: krokoboss/lukas-fussballer
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -145,9 +145,9 @@ upcoming:
     wishes:
       - arina-macbook
   - date: 2021-12-18T12:00:00.000Z
-    streamerChannel: shredmir
-    streamLink: https://www.twitch.tv/shredmir
-    streamerName: Shredmir
+    streamerChannel: krokoboss
+    streamLink: https://www.twitch.tv/krokoboss
+    streamerName: Krokoboss & Shredmir
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
