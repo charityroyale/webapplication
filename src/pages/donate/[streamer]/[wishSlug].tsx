@@ -57,7 +57,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	let donatorsCount = '0'
 
 	if (isMakeAWishDataAvailable) {
-		const cmsStreamerSlug = cms.streamer.streamerName.toLocaleLowerCase()
+		const cmsStreamerSlug = cms.streamer.streamerChannel.toLocaleLowerCase()
 		const cmsWishSlug = cms.wish.slug
 
 		// Check if streamer exists in MAW info json
