@@ -152,14 +152,6 @@ upcoming:
     type: main
     wishes:
       - lukas-fussballer
-  - date: 2021-12-18T12:00:00.000Z
-    streamLink: https://www.twitch.tv/krokoboss
-    streamerChannel: krokoboss
-    streamerName: Krokoboss
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - lukas-fussballer
   - date: 2021-12-19T13:00:00.000Z
     customLink: ""
     streamLink: https://www.twitch.tv/Dhalucard
