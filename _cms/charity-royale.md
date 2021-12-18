@@ -145,7 +145,7 @@ upcoming:
     wishes:
       - arina-macbook
   - date: 2021-12-18T12:00:00.000Z
-    streamerChannel: krokoboss
+    streamerChannel: shredmir
     streamLink: https://www.twitch.tv/krokoboss
     streamerName: Krokoboss & Shredmir
     imgUrl: /uploads/charity_royale_rgb.png
