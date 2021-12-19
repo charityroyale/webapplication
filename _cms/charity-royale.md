@@ -168,6 +168,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
+      - valentin-disneyland
       - sara-zimmereinrichtung
       - leonora-prinzessinnenzimmer
   - date: 2021-12-20T11:00:00.000Z
