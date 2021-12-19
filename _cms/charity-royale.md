@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
   willhaben für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: dhalucard/valentin-disneyland
+featuredStream: dhalucard/elias-disneyland
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -168,6 +168,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
+      - elias-disneyland
       - valentin-disneyland
       - sara-zimmereinrichtung
       - leonora-prinzessinnenzimmer
