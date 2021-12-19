@@ -589,8 +589,8 @@ wishes:
     donationGoal: "3000"
   - childname: Lean
     tagline: Ben Zucker – und sonst nichts
-    descripion: "Bens Wunsch ist klipp und klar! Es soll etwas mit Ben Zucker zu tun
-      haben – ein Meet & Greet wäre einfach toll und Fan Artikel auch.
+    descripion: "Lean's Wunsch ist klipp und klar! Es soll etwas mit Ben Zucker zu
+      tun haben – ein Meet & Greet wäre einfach toll und Fan Artikel auch.
       Hauptsache: Ben! ☺ Der 8-jährige, der an Gehirnwassersucht leidet, ist
       eine absolute Kämpfernatur leidet und liebt es zu tanzen, singen aber vor
       allem: zu lachen. Und das geht am besten, wenn ein Mr. Bean im Fernsehen
