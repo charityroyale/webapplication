@@ -545,8 +545,15 @@ wishes:
     streamers:
       - nihachu
   - childname: Valentin
-    descripion: Valentin möchte ins Disneyland
-    tagline: Valentin möchte ins Disneyland
+    descripion: "Valentin leidet an einem Gehirntumor. Der 12-jährige hat einen
+      Herzenswunsch: Er möchte dorthin, wo er Spaß haben und zugleich „das große
+      Ding aus Eisen“ sehen kann. Richtig! Er möchte nach Paris ins Disneyland
+      und den Eifelturm erleben.  Valentin hat uns richtig viel verraten, was er
+      gerne hat! Beim Essen ist Lasagne sein Favorit, bei den Farben ist es
+      Schwarz, er hat ein Faible fürs Handwerken und möchte später mal
+      Mechaniker werden.  Und wenn er an seinen Herzenswunsch denkt, sieht er
+      einen Vanillepudding in Form eines Disney Schlosses! 😂"
+    tagline: Vive la France!
     slug: valentin-disneyland
     donationGoal: "3000"
   - childname: Philipp
