@@ -147,14 +147,30 @@ const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedule
 				</React.Fragment>
 			)}
 			{pastStreamsSorted.length > 0 && (
-				<>
+				<React.Fragment>
 					<StylePastStreamsHeader>
 						<StyleUpcomingStreamsTitle>
 							<Text content="pastStreamsTitle" />
 						</StyleUpcomingStreamsTitle>
+						{!(futureStreamsSorted.length > 0) && (
+							<ScheduleTypeGrid>
+								<ScheduleTypeButton value="main" onClick={changeScheduleTypeOnClick} isActive={scheduleType === 'main'}>
+									Main
+								</ScheduleTypeButton>
+								<div></div>
+								<ScheduleTypeButton
+									value="community"
+									onClick={changeScheduleTypeOnClick}
+									isActive={scheduleType === 'community'}
+								>
+									Community
+								</ScheduleTypeButton>
+							</ScheduleTypeGrid>
+						)}
 					</StylePastStreamsHeader>
+
 					<StyledPast>{pastStreamsSorted.map(createUpcomingStream)}</StyledPast>
-				</>
+				</React.Fragment>
 			)}
 			{schedules[scheduleType].length === 0 && (
 				<StylePastStreamsHeader>
