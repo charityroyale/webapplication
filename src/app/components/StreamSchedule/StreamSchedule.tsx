@@ -197,7 +197,7 @@ const calcDonationProgressOfAllWishEntries = (wishes: { [wishSlug: string]: Make
 
 const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
 	const startDate = new Date(stream.date).getTime()
-	const hoursToAdd = 12
+	const hoursToAdd = 24
 	return startDate + hoursToAdd * 3600000
 }
 const isInThePast = (stream: CmsUpcomingStreamer) => Date.now() > getStreamEndDate(stream)
