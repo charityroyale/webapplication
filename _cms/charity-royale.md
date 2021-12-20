@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
   willhaben für Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: veni/arthur-raumkapsel
+featuredStream: veni/andrea-ramsau
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -181,9 +181,9 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - arthur-raumkapsel
       - andrea-ramsau
       - larissa-disneyland
+      - arthur-raumkapsel
   - date: 2021-12-17T11:00:51.604Z
     streamerName: keineahnungwaslos
     streamerChannel: keineahnungwaslos
