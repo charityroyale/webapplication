@@ -4,3 +4,4 @@ node_modules/
 /out/
 *.ics
 .env.local
+*local
