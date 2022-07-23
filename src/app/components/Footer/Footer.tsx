@@ -88,7 +88,7 @@ const Footer: React.FunctionComponent = () => {
 				</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
-						<ClientLink href={'https://github.com/p4dd9/charityroyale-donationpage'}>Code</ClientLink>
+						<ClientLink href={'https://github.com/charityroyale'}>Code</ClientLink>
 					</FooterListItem>
 				</FooterList>
 			</FooterLeftGridItem>
