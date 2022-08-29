@@ -6,7 +6,224 @@ featuredStream: nihachu/hanna-fashionshow
 makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/s3eABap__xc
 customDonationLink: ""
-upcoming: []
+upcoming:
+  - date: 2021-12-01T12:00:26.099Z
+    streamerName: NQRMVN
+    streamerChannel: nqrmvn
+    streamLink: https://www.twitch.tv/NQRMVN
+    wishes:
+      - philipp-fcbayern
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+  - date: 2021-12-02T15:30:00.000Z
+    streamLink: https://www.twitch.tv/RevedTV
+    streamerChannel: revedtv
+    streamerName: RevedTV
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - ramazan-macbook
+  - date: 2021-12-03T17:30:28.887Z
+    streamerName: RvNxMango
+    streamerChannel: rvnxmango
+    streamLink: https://www.twitch.tv/rvnxmango
+    wishes:
+      - pascal-griechenland
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+  - date: 2021-12-04T09:00:14.531Z
+    streamerName: CastCrafter
+    streamLink: https://www.twitch.tv/CastCrafter
+    streamerChannel: castcrafter
+    wishes:
+      - tom-gardaland
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+  - date: 2021-12-05T09:00:53.381Z
+    streamerChannel: gtimetv
+    streamLink: https://www.twitch.tv/GTimeTV
+    streamerName: GTimeTV
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - karolina-gamingset
+  - date: 2021-12-06T16:00:57.149Z
+    streamLink: https://www.twitch.tv/TimJacken
+    streamerName: TimJacken
+    streamerChannel: timjacken
+    wishes:
+      - marvellous-hubschrauber
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+  - date: 2021-12-21T19:00:00.000Z
+    streamerChannel: nihachu
+    streamLink: https://www.twitch.tv/Nihachu
+    streamerName: Nihachu
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - hanna-fashionshow
+  - date: 2021-12-08T14:30:00.000Z
+    streamLink: https://www.twitch.tv/niekbeats
+    streamerChannel: niekbeats
+    streamerName: niekbeats
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - daria-zypern
+  - date: 2021-12-09T15:00:00.000Z
+    streamLink: https://www.twitch.tv/MrsXeniaTV
+    streamerName: MrsXeniaTV
+    streamerChannel: mrsxeniatv
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - edanur-macbookair
+  - date: 2021-12-10T11:00:28.480Z
+    streamerName: Sintica
+    streamerChannel: sintica
+    streamLink: https://www.twitch.tv/Sintica
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - moritz-tomorrowland
+  - date: 2021-12-11T13:00:00.000Z
+    streamerName: Stegi
+    streamerChannel: stegi
+    streamLink: https://www.twitch.tv/Stegi
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - isaac-iphone
+  - date: 2021-12-12T11:00:15.196Z
+    streamerName: Veylaney
+    streamerChannel: veylaney
+    streamLink: https://www.twitch.tv/Veylaney
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - julian-comedian
+  - date: 2021-12-13T14:00:00.000Z
+    streamerName: BastiGHG
+    streamerChannel: bastighg
+    streamLink: https://www.twitch.tv/BastiGHG
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - julian-malta
+      - nina-elefantenwaisenhaus
+  - date: 2021-12-14T09:00:05.567Z
+    streamLink: https://www.twitch.tv/Henke
+    streamerName: Henke
+    streamerChannel: henke
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - dmytro-kamera
+  - date: 2021-12-15T18:00:15.973Z
+    streamerName: Clym
+    streamerChannel: clym
+    streamLink: https://www.twitch.tv/Clym
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - emelia-iphone
+  - date: 2021-12-16T15:00:06.155Z
+    streamerName: Vlesk
+    streamerChannel: vlesk
+    streamLink: https://www.twitch.tv/Vlesk
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - pascal-washingtoncapitals
+  - date: 2021-12-17T11:00:00.000Z
+    streamLink: https://www.twitch.tv/Zayuri
+    streamerName: Zayuri
+    streamerChannel: zayuri
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - arina-macbook
+  - date: 2021-12-18T12:00:00.000Z
+    streamerChannel: shredmir
+    streamLink: https://www.twitch.tv/shredmir
+    streamerName: Krokoboss & Shredmir
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - lukas-fussballer
+  - date: 2021-12-18T12:00:00.000Z
+    streamerChannel: krokoboss
+    streamLink: https://www.twitch.tv/krokoboss
+    streamerName: Krokoboss & Shredmir
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - lukas-fussballer
+  - date: 2021-12-19T13:00:00.000Z
+    customLink: ""
+    streamLink: https://www.twitch.tv/Dhalucard
+    streamerName: Dhalucard
+    streamerChannel: dhalucard
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - asma-fernseher
+      - lean-benzucker
+      - elias-disneyland
+      - valentin-disneyland
+      - sara-zimmereinrichtung
+      - leonora-prinzessinnenzimmer
+  - date: 2021-12-20T11:00:00.000Z
+    streamerName: Veni
+    streamerChannel: veni
+    streamLink: https://www.twitch.tv/Veni
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - andrea-ramsau
+      - larissa-disneyland
+      - arthur-raumkapsel
+  - date: 2021-12-17T11:00:51.604Z
+    streamerName: keineahnungwaslos
+    streamerChannel: keineahnungwaslos
+    streamLink: https://www.twitch.tv/keineahnungwaslos
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland
+  - date: 2021-12-18T12:00:09.813Z
+    streamerName: frixum1337
+    streamerChannel: frixum1337
+    streamLink: https://www.twitch.tv/frixum1337
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland
+  - date: 2021-12-07T13:00:00.000Z
+    streamerName: LetsHugoTV
+    streamLink: https://www.twitch.tv/letshugotv
+    streamerChannel: letshugotv
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    wishes:
+      - lucas-youtuber
+    type: main
+  - date: 2021-12-16T15:00:13.021Z
+    streamerName: StrizziTv
+    streamerChannel: strizzitv
+    streamLink: https://www.twitch.tv/StrizziTv
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - gamingpc
+  - date: 2021-12-19T12:00:36.939Z
+    streamerName: FaeLaBlanche
+    streamerChannel: faelablanche
+    streamLink: https://www.twitch.tv/faelablanche
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
@@ -557,7 +774,7 @@ faq:
         * 2021 konnten wir erstmalig eine sechsstellige Summe für die [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at) sammeln, und durften uns über ein gelungenes 24h-Stream-Finale freuen. Mehr als 155.000€ wurden dabei für Herzenswünsche schwerkranker Kinder gespendet.
 
         * 2022 wurde das Projekt Charity Royale zweifach ausgezeichnet: mit dem österreichischen Fundraising Award und mit dem "Goldenen Hashtag" als bestes Influencer Projekt des Landes. Dieses Jahr wird es erneut einen Monat voller Charity-Streams inkl. Final-Event by Veni geben, nur haben wir uns diesmal für den Oktober entschieden.
-    - question-de: Was ist die Make-A-Wish Foundation?
+    - question-de: Wer ist die Make-A-Wish Foundation?
       answer-de: "Vor 40 Jahren führte der Wunsch eines siebenjährigen krebskranken
         Jungen, der unbedingt Polizist werden wollte, zur Gründung einer
         Foundation, die seitdem unzähligen schwerkranken Kindern weltweit das
@@ -567,25 +784,29 @@ faq:
         Zeiten."
     - question-de: Wie kann ich spenden?
       answer-de: >-
-        Jeder Programmpunkt bzw. Streamer hat sich für Charity Royale 2021 einen
-        Herzenswunsch eines schwerkranken Kindes ausgesucht. Während des
+        Jeder Programmpunkt bzw. Streamer:in hat sich für Charity Royale 2022
+        einen Herzenswunsch eines schwerkranken Kindes ausgesucht. Während des
         jeweiligen Live-Streams ist der aktuelle Spendenlink auf der Startseite
         von charityroyale.at ausschließlich für diesen Wunsch freigeschaltet.
-        Zusätzlich hat jeder Streamer einen einzigartigen Spendenlink, um
+        Zusätzlich hat jede:r Streamer:in einen einzigartigen Spendenlink, um
         mögliche Überschneidungen zu verhindern. Es gehen also alle Spenden
-        direkt an den ausgewählten Herzenswunsch des Streamers.
+        direkt an den ausgewählten Herzenswunsch.
 
 
         Sollten die Spenden das Spendenziel des Herzenswunsches übertreffen, werden die Beträge für weitere anonyme Wünsche schwerkranker Kinder bei Make-A-Wish genutzt.
 
 
-        Gespendet werden kann per PayPal, eps-Überweisung, Sofort oder Kreditkarte.
+        Gespendet werden kann per PayPal, eps-Überweisung, Sofort oder Kreditkarte.\
+
+        \
+
+        Alle Spenden werden über das Spendenformular DIREKT an Make-A-Wish überwiesen - ganz ohne Umwege.
     - question-de: Ist meine Spende von der Steuer absetzbar?
       answer-de: >-
         Ja, in Österreich und Deutschland geht das auf jeden Fall.
 
 
-        Spender bekommen in der Dankes-Email von Make-A-Wish genaue Informationen zur Absetzbarkeit und derer Abwicklung zugeschickt. Folgt diesen Informationen, um eure Spende von der Steuer absetzen zu können.
+        Spender:innen bekommen in der Dankes-Email von Make-A-Wish genaue Informationen zur Absetzbarkeit und derer Abwicklung zugeschickt. Folgt diesen Informationen, um eure Spende von der Steuer absetzen zu können.
     - question-de: Kann ich sicher sein, dass meine Spenden auch wirklich ankommen?
       answer-de: >-
         Ja, die Make-A-Wish Foundation Österreich ist mit dem [Österreichischen
@@ -603,12 +824,13 @@ faq:
         Die Spenden-Formulare auf charityroyale.at sind direkte Einbindungen der Spendenformulare von Make-A-Wish und werden nicht über Drittanbieter gesammelt.
     - question-de: Wo wird meine Spendennachricht angezeigt?
       answer-de: Deine Spendennachricht wird als Alert im jeweiligen Live-Stream
-        automatisch angezeigt.
-    - question-de: Kann ich auch für Charity Royale 2021 Spenden sammeln?
-      answer-de: Nach vielfachen Anfragen im Jahr 2020 haben wir für dieses Jahr die
-        Möglichkeit geschaffen, auch weiteren Streamern zu ermöglichen bei
-        Charity Royale dabei zu sein. Füll dafür einfach [dieses
-        Bewerbungsformular](https://forms.gle/tjqtduMpVhRpPDXx5) aus.
+        automatisch angezeigt. Vorbehaltlich technischer Probleme wird deine
+        Nachricht auch als Text-to-Speech im Stream live vorgelesen.
+    - question-de: Kann ich auch für Charity Royale 2022 Spenden sammeln?
+      answer-de: Wir wollen auch dieses Jahr die Möglichkeit schaffen, dass weitere
+        Streamer:innen und deren Communities bei Charity Royale dabei sein
+        können. Füll dafür einfach [dieses
+        Bewerbungsformular](https://forms.gle/CaD92CTY4vKc9qtN9) aus.
   questions-en:
     - question-en: TBA
       answer-en: TBA
