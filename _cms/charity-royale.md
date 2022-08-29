@@ -1,8 +1,8 @@
 ---
-title: Charity Royale 👑 Der Charity-Stream Adventkalender von Veni und
-  willhaben für Make-A-Wish
+title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
+  Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: https://www.make-a-wish.at
+featuredStream: nihachu/hanna-fashionshow
 makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/s3eABap__xc
 customDonationLink: ""
@@ -758,11 +758,11 @@ faq:
         Charity Royale entstand 2018, als sich [Veni
         ](https://www.twitch.tv/veni)und der größte digitale Marktplatz
         Österreichs [willhaben ](https://www.willhaben.at)für einen einmaligen
-        24h-Charity-Stream (damals noch unter dem Namen "Gaming Against Cancer")
-        zusammengetan hatten. Wegen des großen Erfolgs und der unfassbar hohen
-        Spendenbereitschaft der Zuseher gehen wir 2021 bereits in die vierte
-        Runde des Spenden-Events für den guten Zweck und sammeln 2021 erneut für
-        die Erfüllung von Herzenswünschen schwerkranker Kinder.
+        24h-Charity-Stream zusammengetan hatten. Wegen des großen Erfolgs und
+        der unfassbar hohen Spendenbereitschaft der Zuseher:innen gehen wir 2022
+        bereits in die fünfte Runde des Spenden-Events für den guten Zweck und
+        sammeln dieses Jahr erneut für die Erfüllung von Herzenswünschen
+        schwerkranker Kinder.
 
 
         * 2018 erreichten wir 10.450€ für die [Kinderkrebsforschung des St. Anna Kinderspitals](https://kinderkrebsforschung.at/).
@@ -771,7 +771,9 @@ faq:
 
         * 2020 haben wir erstmals mit der [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at) Herzenswünsche schwerkranker Kinder erfüllt und dafür rund 83.500€ während 23 Tagen täglicher Livestreams sammeln können.
 
-        * 2021 wollen wir wieder 24+ Kinderwünsche erfüllen und gehen mit Make-A-Wish Österreich in die zweite Runde. Erneut mit einem Adventkalender voller hochkarätiger Charity-Livestreams und hoffentlich auch dem legendären 24h-Streamfinale von Veni & Friends aus dem A1esports Pop Up Hub - insofern es die Corona-Situation zulässt.
+        * 2021 konnten wir erstmalig eine sechsstellige Summe für die [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at) sammeln, und durften uns über ein gelungenes 24h-Stream-Finale freuen. Mehr als 155.000€ wurden dabei für Herzenswünsche schwerkranker Kinder gespendet.
+
+        * 2022 wurde das Projekt Charity Royale zweifach ausgezeichnet: mit dem österreichischen Fundraising Award und mit dem "Goldenen Hashtag" als bestes Influencer Projekt des Landes. Dieses Jahr wird es erneut einen Monat voller Charity-Streams inkl. Final-Event by Veni geben, nur haben wir uns diesmal für den Oktober entschieden.
     - question-de: Was ist die Make-A-Wish Foundation?
       answer-de: "Vor 40 Jahren führte der Wunsch eines siebenjährigen krebskranken
         Jungen, der unbedingt Polizist werden wollte, zur Gründung einer
