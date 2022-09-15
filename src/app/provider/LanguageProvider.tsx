@@ -31,6 +31,7 @@ export type DictionairyEntryType =
 	| 'downloadCTA'
 	| 'pastStreamsTitle'
 	| 'topDonatorText'
+	| 'topDonatorItemText'
 	| 'hereCouldYourNameTextPart1'
 	| 'hereCouldYourNameTextPart2'
 	| 'donationOverViewText'

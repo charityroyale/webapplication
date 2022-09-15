@@ -327,21 +327,21 @@ const getTopDonatorFirstColum = (placement: number) => {
 		case 0: {
 			return (
 				<TopPlaceMentItem>
-					<ImTrophy color={'gold'} /> {placement + 1}. <Text content="topDonatorText" />
+					<ImTrophy color={'gold'} /> {placement + 1}. <Text content="topDonatorItemText" />
 				</TopPlaceMentItem>
 			)
 		}
 		case 1: {
 			return (
 				<TopPlaceMentItem>
-					<ImTrophy color={'silver'} /> {placement + 1}. <Text content="topDonatorText" />
+					<ImTrophy color={'silver'} /> {placement + 1}. <Text content="topDonatorItemText" />
 				</TopPlaceMentItem>
 			)
 		}
 		case 2: {
 			return (
 				<TopPlaceMentItem>
-					<ImTrophy color={'sandybrown'} /> {placement + 1}. <Text content="topDonatorText" />
+					<ImTrophy color={'sandybrown'} /> {placement + 1}. <Text content="topDonatorItemText" />
 				</TopPlaceMentItem>
 			)
 		}
@@ -349,7 +349,7 @@ const getTopDonatorFirstColum = (placement: number) => {
 			return (
 				<>
 					{placement + 1}.
-					<Text content="topDonatorText" />
+					<Text content="topDonatorItemText" />
 				</>
 			)
 		}
