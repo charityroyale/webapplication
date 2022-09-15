@@ -15,6 +15,7 @@ import ClientLink from '../ClientLink'
 import { LanguageSelector } from '../LanguageSelector'
 import DonationHeaderCount from './DonationHeaderCount'
 import { Text } from '../Text'
+import { HeaderSocials } from './HeaderSocials'
 
 const StyledHeaderContent = styled.div`
 	grid-area: header-row;
@@ -92,6 +93,8 @@ const DonateButton = styled.a`
 
 	${(p) => p.theme.media.phone} {
 		margin: 0;
+		margin-top: ${(p) => p.theme.space.l}px;
+		font-size: ${(p) => p.theme.fontSize.xl}px;
 	}
 `
 
@@ -116,23 +119,6 @@ const DonationButtonWrapper = styled.div`
 	position: relative;
 `
 
-const LanguageSelectWrapper = styled.div`
-	& > select {
-		background-color: ${(p) => p.theme.color.veniPurple};
-		color: ${(p) => p.theme.color.white};
-		padding: 5px;
-		position: absolute;
-		border: 1px solid transparent;
-		bottom: -26px;
-
-		${(p) => p.theme.media.phone} {
-			bottom: -36px;
-		}
-		right: 0;
-		letter-spacing: 0.75px;
-	}
-`
-
 const DonationButton: React.FunctionComponent<DonationButtonProps> = ({ target }: DonationButtonProps) => {
 	return (
 		<DonationButtonWrapper>
@@ -141,9 +127,8 @@ const DonationButton: React.FunctionComponent<DonationButtonProps> = ({ target }
 					<span>{<Text content="donateText" />}</span>
 				</DonateButton>
 			</Link>
-			<LanguageSelectWrapper>
-				<LanguageSelector />
-			</LanguageSelectWrapper>
+			<HeaderSocials />
+			<LanguageSelector />
 		</DonationButtonWrapper>
 	)
 }

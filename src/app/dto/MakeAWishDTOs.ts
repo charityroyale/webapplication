@@ -1,5 +1,4 @@
-import { StreamerType } from '../cms/cms'
-
+export type StreamerType = 'main' | 'community'
 /**
  * Clientside DTO
  * Latest changes and updates
