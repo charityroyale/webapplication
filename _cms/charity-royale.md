@@ -1026,6 +1026,90 @@ wishes:
       ist, prüfen wir außerdem die Option, zusätzlich auch ein winziges Spezial
       Go-Kart für ihn selbst anfertigen zu lassen, dies ist aber noch nicht
       sicher / bestätigt!"
+  - slug: jan-tropicalisland
+    childname: Jan
+    donationGoal: "2800"
+    tagline: 'Jan: "Ich wünsche mir einen Familienausflug ins Tropical Islands"'
+    descripion: Wasserratte Jan (7) liebt es, zu Rutschen, im warmen Wasser zu
+      plantschen und unter Palmen Urlaubsfeeling zu genießen – Und wo könnte man
+      das besser als im Tropical Islands bei Berlin? Der an Leukämie erkrankte
+      Vincent wünscht sich einen Wochenend-Ausflug mit der gesamten Familie ins
+      Wasserparadies!
+  - slug: kiara-lastenrad
+    childname: Kiara
+    donationGoal: "6500"
+    tagline: Kiara will ein Lastenrad für Ausflüge mit Mama und Papa
+    descripion: "Die mit dem Rett-Syndrom geborene Kiara ist ein nonverbales
+      Mädchen, die gerne in der Natur unterwegs ist und mit ihrer Familie
+      Ausflüge unternimmt. Kiara wird ganz ruhig und entspannt, sobald sie im
+      Wald unterwegs sein kann, weshalb sich ihre Familie ein Lastenrad
+      gewünscht hat. Kiara hat eine besonders enge Beziehung zu ihrem Opa, der
+      auch gern bei der Gestaltung des Lastenrades mitwirken möchte. Die
+      9-jährige liebt Pinguine, so dass wir ihr das Lastenrad mit
+      Elektro-Antrieb und klappbarem Holz-Sitz gerne gemeinsam mit ihrem Opa im
+      Pinguin-Design gestalten wollen. "
+  - slug: hannah-tiere
+    childname: Hannah
+    donationGoal: "2500"
+    tagline: Hannah wünscht sich einen Bauernhofurlaub mit Pferden
+    descripion: Die 6-jährige Hannah ist gerade in die Schule gekommen und ist ein
+      sehr ausdrucksstarkes, nonverbales Mädchen, das mit dem Rett-Syndrom zur
+      Welt kam. Sie kann gut selbst laufen und sich mit Gesten verständigen. Sie
+      liebt Tiere – ganz besonders Pferde und Reiten haben es ihr angetan. Die
+      Familie hatte eine sehr harte Zeit und wünscht sich ein sorgloses,
+      gemeinsames Wochenende, wo auch die Erwachsenen mal durchatmen können.
+      Gemeinsam mit Hannahs Schwester soll es auf einen Familien-Bauernhof
+      gehen, wo Hannah eine therapeutische Reitstunde erleben und mit ganz
+      vielen Tieren kuscheln kann. Auch Mama ist ein Pferdefan, so dass wir als
+      Überraschung auch eine Reitstunde für sie eingeplant haben – aber
+      Pssst....nichts verraten bitte!
+  - slug: pepe-bollerwagen
+    childname: Pepe
+    donationGoal: "900"
+    tagline: Ein Strand-Bollerwagen für Pepe
+    descripion: "Sonnenschein Pepe (6) hat ein wundervolles Lächeln und kam mit
+      einem sehr schweren Herzfehler zur Welt. Er kann sich nicht selbstständig
+      bewegen oder sprechen, reagiert aber auf harmonische Klänge, Farben und
+      kuschelt gerne. Er mag es, in der Natur unterwegs zu sein, was aber
+      aufgrund seiner Einschränkungen gar nicht so einfach machbar ist. Seine
+      Familie möchte nach 2 Jahren zu Hause sooo gern einmal wieder ans Meer
+      fahren – und Pepe soll auch mitkommen. Der Wunsch: Ein robuster,
+      geländetauglicher Bollerwagen, der groß genug für Pepe und für
+      Strandausflüge geeignet ist, am besten mit Regenverdeck."
+  - slug: l-haengematte
+    childname: L.
+    donationGoal: "1500"
+    tagline: Eine Traumschwinger Hängematte für L.
+    descripion: Die 4-jährige L. kam mit sehr starken körperlichen Einschränkungen
+      als eines von insgesamt 5 Geschwistern zur Welt. Sie kann sich nicht aus
+      eigener Kraft bewegen und ist ein nonverbales Kind. Am liebsten hat sie
+      es, gekuschelt und geschaukelt zu werden – deshalb wünscht sich ihre
+      Familie einen großen, gemütlichen Traumschwinger, wo L. im gemeinsamen
+      Wohnzimmer dabei sein kann, wenn die Familie dort zusammensitzt. L.
+      beruhigt sich schnell, sobald sie geschaukelt wird, so dass wir ihr diesen
+      Wunsch von Herzen gerne erfüllen wollen.
+  - slug: m-strassenhunde
+    childname: M.
+    donationGoal: "5000"
+    tagline: M. will den Straßenhunden auf Kreta helfen
+    descripion: M‘s Herz schlägt für alle Tiere, aber ganz besonders für Hunde.  Die
+      12-jährige hat selbst einen süßen Vierbeiner, den sie sehr liebt. Dass die
+      Pelznasen leiden, kann das an einer Autoimmunerkrankung leidende Mädchen
+      gar nicht ertragen. Deshalb wünscht sie sich, im kommenden Sommer mit
+      ihrer Mama und ihrer besten Freundin nach Kreta zu reisen, um dort für
+      eine Woche beim gemeinnützigen Verein PAWS mitzuarbeiten. Der Verein
+      betreut Straßenhunde und –welpen, die auch in alle Welt mittels Flugpaten
+      vermittelt werden. Da M. bereits davor auf Kreta auf Urlaub war, durfte
+      sie schon einmal Welpen streicheln und ein wenig mithelfen. Die soziale
+      Arbeit mit den Hunden macht ihr so viel Freude, dass sie uns ihren
+      Herzenswunsch voll Freude und Überzeugung präsentierte. Das tierliebe
+      Mädchen weiß auch schon, in welcher Pension sie wohnen möchte, da die
+      Familie bereits einmal dort gewohnt hat und diese Unterkunft alle
+      medizinischen Voraussetzungen für Maya erfüllt. M hat auch noch jede Menge
+      anderer Hobbies. So bastelt sie gerne, ist kreativ und sehr sportlich –
+      soweit es ihre Krankheit erlaubt. Sie ist Mitglied einer Cheerdance-Gruppe
+      und durfte mit dieser heuer auch das erste Mal auch im Ausland auftreten,
+      worauf sie besonders stolz ist.
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
