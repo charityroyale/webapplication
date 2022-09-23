@@ -959,6 +959,39 @@ wishes:
       und dort unbedingt auch ins Harry Potter Museum zu gehen, denn Harry
       Potter hat ihm in den letzten Jahren viel Kraft gegeben und ihn motiviert
       durchzuhalten.
+  - slug: skadi-lastenrad
+    childname: Skadi
+    donationGoal: "6500"
+    tagline: Skadi wünscht sich ein Lastenrad für Ausflüge mit der Familie
+    descripion: "Die 8-jährige Skadi ist vom Rett-Syndrom betroffen, einer seltenen,
+      angeborenen genetischen Entwicklungsstörung, bei der die Kinder sich
+      zunächst scheinbar normal entwickeln, dann aber alle Fähigkeiten (wie
+      Laufen, Sprechen, Bewegungsabläufe) wieder „verlernen“.  Skadi sitzt im
+      Rollstuhl und ist ein non-verbales Mädchen. Sie reagiert sehr positiv auf
+      auffällige Farben und Musik. Skadi ist auch gerne im Freien, die Natur
+      wirkt beruhigend auf ihren Gesamtzustand. Da es für die Familie schwierig
+      ist, immer mit Rollstuhl unterwegs zu sein, wünschen sie sich ein
+      elekrobetriebenes Lastenfahrrad, damit Skadi überall dabei sein kann und
+      endlich ein Ausflug zum nahegelegenen Meer unkompliziert möglich ist. "
+  - slug: luca-bauernhof
+    childname: Luca
+    donationGoal: "2000"
+    tagline: Luca will am Bauernhof Tiere streicheln
+    descripion: Der 5-jährige Luca liebt Tiere! Da es für ihn aus gesundheitlichen
+      Gründen (infantile Zerebralparese) lange nicht möglich war, echten Tiere
+      zu begegnen und mit der Familie unbeschwerte Zeit zu verbringen, wünscht
+      er sich einen Ausflug auf einen richtig tollen Bauernhof, wo er Ziegen,
+      Pferde, Kühe und Schafe streicheln und füttern kann. Dabei soll es
+      unbedingt auch eine abenteuerliche Übernachtung geben!
+  - slug: paul-schalke
+    childname: Paul
+    donationGoal: "1500"
+    tagline: 'Paul: "Ich wünsche mir ein Schalke-Spiel zu besuchen"'
+    descripion: "Der 9-jährige Paul ist ein riesiger Fußball Fan und es gibt nur
+      einen Verein für ihn: Schalke 04! Sein absoluter Star ist Torhüter Ralf
+      Fährmann, den er gerne einmal persönlich kennenlernen möchte. Der an
+      metastasierendem Krebs erkrankte Paul will gemeinsam mit seiner Mama ins
+      Schalke-Stadion, um dort auch ein Spiel live mitzuerleben."
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
