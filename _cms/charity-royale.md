@@ -852,6 +852,47 @@ wishes:
       Bastian, der mit Leukämie und Down Syndrom leben muss, wünscht sich mit
       seiner Familie ins Disneyland Paris zu fahren. Weil er dort die
       Marvel-Figuren, allen voran den grünen Hulk, besuchen möchte."
+  - slug: fabian-switch
+    donationGoal: "600"
+    childname: Fabian
+    descripion: Fabian ist 8 Jahre alt und ein sehr fröhlicher, lebenslustiger
+      Junge. Leider hat er mit einer sehr speziellen Herzkrankheit zu kämpfen,
+      welche immer wieder längere Aufenthalte im Allgemeinen Krankenhaus in Wien
+      notwendig macht. Da sich Fabian liebend gerne die Zeit mit Computerspielen
+      vertreibt, war sein größter Herzenswunsch eine Nintendo Switch Konsole,
+      welche es ihm möglich macht, flexibel zu sein und entweder im Krankenhaus
+      oder zu Hause zu spielen. Besonders liebt Fabian die Spiele der Super
+      Mario Serie, weil es der Superheld es immer wieder schafft, die Welt zu
+      retten und so viele tolle Freunde hat. Zusätzlich zur Nintendo Switch
+      Konsole hat Fabian daher auch drei bestimmte Spiele aus der Super
+      Mario-Serie auf seine Wunschliste gesetzt.
+    tagline: Let's-a-go! Fabian will wie Super Mario die Welt retten
+  - slug: jonas-heeresmuseum
+    donationGoal: "150"
+    childname: Jonas
+    tagline: Ein privater Museumsbesuch für Jonas
+    descripion: "Jonas hat ein Thema, das ihn ungemein interessiert: der
+      2.Weltkrieg. Der 19-jährige (bei der Wunschholung war er 18 Jahre alt) ist
+      in dieser Hinsicht enorm belesen. Da Jonas, der an einem Gehirntumor
+      leidet, Menschenansammlungen nur ganz schwer ertragen kann, wünscht er
+      sich eine private Führung durch das Heeres-geschichtliche Museum in Wien."
+  - slug: f-ipad
+    childname: F.
+    donationGoal: "1100"
+    tagline: Ein I-Pad für die leidenschaftliche Malerin
+    descripion: F., die anonym bleiben möchte, ist ein tapferes junges Mädchen, das
+      an Leukämie erkrankt ist.  Seit sie denken kann, liebt es die 13-jährige
+      zu malen und sich kreativ auszuleben. Da es mit ihrer Leukämie-Erkrankung
+      kaum mehr möglich ist, sich viel zu bewegen hat sie sich ein I-Pad 11 Pro
+      der 3. Generation gewünscht. Zusätzlich dazu wollte F.  den I-Pad Stift
+      damit sie ihrer größten Leidenschaft dem Malen weiterhin nachgehen
+      kann.  Mit dem Stift und ihrem neuen I-Pad kann sie gemütlich im Bett
+      malen und kreative Bilder kreieren, ohne ständig Stifte spitzen gehen oder
+      Pinsel auswaschen zu müssen. Mit nur einem Klick sind ihre Kunstwerke
+      gespeichert und können alle jederzeit mit ihr mitgetragen werden, um ihren
+      Bewunderern gezeigt werden zu können. F.´s Bilder finden bei Freunden und
+      Bekannten viel Aufmerksamkeit, was ihre Augen natürlich umso mehr zum
+      Strahlen bringt.
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
