@@ -821,6 +821,37 @@ wishes:
       virtueller Ebene nachgehen. Auf die Frage, was er denn sonst noch gerne
       tut, bekamen wir zur Antwort: Hunde mag ich sehr und Lego spiele ich auch
       gerne."
+  - slug: ismael-meer
+    donationGoal: "4500"
+    childname: Ismael
+    tagline: Ismael will "endlich wieder das Meer sehen"
+    descripion: "Ismael hat uns eine tolle Zeichnung gemalt – seine Familie am
+      Palmenstrand, Meer - und ein Hummer sind darauf zu sehen. Womit sein
+      Wunsch auch schon bestens zusammengefasst ist: Der 9-jährige wünscht sich
+      mit seinen Eltern ans Meer zu fahren, wo er wegen seiner Erkrankung
+      (Gehirntumor) und Corona schon so lange nicht mehr war. Außerdem möchte er
+      endlich wissen, ob da wirklich was dran ist, dass Hummer so toll schmecken
+      soll. Deshalb wünscht er sich in diesen Urlaubstagen mit Mama und Papa
+      Hummer essen gehen zu können."
+  - slug: celina-harrypotter
+    donationGoal: "4500"
+    childname: Celina
+    tagline: Celina auf den Spuren Harry Potters
+    descripion: Celina ist, was man einen echten Harry Potter Fan nennen kann. Sie
+      kennt alle Potter-Filme und hat auch alle Bücher gelesen. Nun, was ist der
+      Herzenswunsch eines 13-jährigen Mädchens mit diesen Vorlieben? Genau! Die
+      an Leukämie erkrankte Celina wünscht sich eine Reise nach London ins Harry
+      Potter Museum und an die Film-Drehorte.
+  - slug: bastian-disneyland
+    donationGoal: "3500"
+    childname: Bastian
+    tagline: Bastian will Hulk in Disneyland besuchen
+    descripion: "Auf die Frage, was Bastian liebt, hat er rasch eine Antwort parat:
+      Er lieb seine Familie, Pumpkin – seine Katze, die Farbe Grün und Marvel.
+      Und wie passt das nun alles in einen Herzenswunsch? Nun, der 11-jährige
+      Bastian, der mit Leukämie und Down Syndrom leben muss, wünscht sich mit
+      seiner Familie ins Disneyland Paris zu fahren. Weil er dort die
+      Marvel-Figuren, allen voran den grünen Hulk, besuchen möchte."
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
