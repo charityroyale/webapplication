@@ -992,6 +992,40 @@ wishes:
       Fährmann, den er gerne einmal persönlich kennenlernen möchte. Der an
       metastasierendem Krebs erkrankte Paul will gemeinsam mit seiner Mama ins
       Schalke-Stadion, um dort auch ein Spiel live mitzuerleben."
+  - slug: paraskevi-zimmer
+    childname: Paraskevi
+    donationGoal: "4500"
+    tagline: Paraskevi wünscht sich ein "Natur-Zimmer"
+    descripion: "Die 10-jährige, an schwerer Mukoviszidose erkrankte, Paraskevi
+      wünscht sich ein ganz besonderes Room-Makeover für das Kinderzimmer, das
+      sie sich mit ihrer Schwester teilt: Sie liebt Bäume, Pferde, Natur und die
+      Farbe Rosa. Ihr neues Traum-Zimmer soll eine Hochebene und einen eigenen
+      Bereich für Paraskevi haben, wo sie sich wie in einem Elfenwald fühlen
+      kann. Auch eine Hängematte, Schaukel oder ein Hängesessel mit Natur-Look
+      und kuschelige Kissen dürfen nicht fehlen!"
+  - slug: chloe-peppawutz
+    childname: Chloe
+    donationGoal: "2500"
+    tagline: Chloe will zu Peppa Wutz im Heidepark
+    descripion: "Für die 7-jährige Chloe gibt es nur eine Heldin: Peppa Wutz! Sie
+      hat Peppa einfach überall: Chloes gesamtes Kinderzimmer, ihr Bett und die
+      Toniebox sind alle im Peppa Wutz-Design geschmückt. Der allergrößte Traum
+      des an einem seltenen Gendefekt und Epilepsie erkrankten Mädchens, ist es,
+      einmal mit der ganzen Familie ins Peppa Wutz-Hotel im Heidepark zu
+      übernachten und das Peppa Wutzz-Land zu entdecken. Chloe ist ein
+      nonverbales Mädchen, die jeden mit ihrer Fröhlichkeit ansteckt!"
+  - slug: vincent-gokart
+    childname: Vincent
+    donationGoal: "2100"
+    tagline: Vincent will mit dem GoKart durch die Gegend flitzen
+    descripion: "Richtig schnell darf es für den nur 3 Jahre jungen Vincent voran
+      gehen: Bei seinen Nachbarn durfte er mit einem speziellen GoKart mit
+      Beifahrersitz mitfahren, was ihn derart begeistert hat, dass er sich nun
+      ein eigenes GoKart wünscht, mit dem er gemeinsam mit seinem Papa durch die
+      Gegend flitzen kann. Weil der an Leukämie erkrankte Vincent noch so klein
+      ist, prüfen wir außerdem die Option, zusätzlich auch ein winziges Spezial
+      Go-Kart für ihn selbst anfertigen zu lassen, dies ist aber noch nicht
+      sicher / bestätigt!"
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
