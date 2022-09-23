@@ -10,6 +10,7 @@ import { theme } from '../styles/Theme'
 import { useIsSSR } from '../app/hooks/useIsSSR'
 import { isClientSideIE } from '../app/utils/commonUtils'
 import { LanguageProvider } from '../app/provider/LanguageProvider'
+import { IpInfoProvider } from '../app/provider/IpInfoProvider'
 import InternetExplorerNotSupported from '../app/components/InternetExplorerNotSupported'
 
 Router.events.on('routeChangeStart', () => NProgress.start())
@@ -23,15 +24,17 @@ function MyApp({ Component, pageProps }) {
 		<React.Fragment>
 			<GlobalStyle />
 			<LanguageProvider>
-				<ThemeProvider theme={theme}>
-					{!isSSR && isClientSideIE() ? (
-						<InternetExplorerNotSupported />
-					) : (
-						<Layout {...pageProps}>
-							<Component {...pageProps} />
-						</Layout>
-					)}
-				</ThemeProvider>
+				<IpInfoProvider>
+					<ThemeProvider theme={theme}>
+						{!isSSR && isClientSideIE() ? (
+							<InternetExplorerNotSupported />
+						) : (
+							<Layout {...pageProps}>
+								<Component {...pageProps} />
+							</Layout>
+						)}
+					</ThemeProvider>
+				</IpInfoProvider>
 			</LanguageProvider>
 		</React.Fragment>
 	)
