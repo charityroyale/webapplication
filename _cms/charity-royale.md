@@ -893,6 +893,39 @@ wishes:
       Bewunderern gezeigt werden zu können. F.´s Bilder finden bei Freunden und
       Bekannten viel Aufmerksamkeit, was ihre Augen natürlich umso mehr zum
       Strahlen bringt.
+  - slug: amber-tablet
+    childname: Amber
+    donationGoal: "800"
+    tagline: Amber will mit der Familie am Tablet skypen
+    descripion: "Amber liebt, was viele Mädchen in ihrem Alter lieben: Fahrrad
+      fahren, Miraculous Ladybug, Harry Potter, die Farbe Lila, Spaghetti,
+      Frozen 2… Was die 9-jährige von anderen unterscheidet ist, dass sie an
+      einer Erkrankung des Knochenmarks (MDS) leidet, die immer wieder
+      Spitalsaufenthalte erforderlich macht. Der Herzenswunsch der tapferen
+      Kleinen war ein Tablet, damit sie, wenn sie wieder ins Krankenhaus muss,
+      mit ihrer Familie daheim skypen kann."
+  - slug: dana-jugendzimmer
+    childname: Dana
+    donationGoal: "3500"
+    tagline: Ein Jugendzimmer mit TV für Dana
+    descripion: "Dana hat ganz exakte Vorstellungen von ihrem Herzenswunsch. Die
+      14-jährige junge Dame, die an Leukämie erkrankt ist, wünscht sich ein
+      Jugendzimmer, damit sie ihre Freundinnen zu sich einladen und gemeinsam
+      mit ihnen „Frozen“ schauen kann.  Ihr neues Zimmer soll weiß sein, das ist
+      klar, aber ein bisschen Glitter darf natürlich schon auch sein! Das neue
+      Boxspring-Bett – natürlich auch in weiß – soll eine Stauraum-Lade haben
+      und am weißen Kasten ein Spiegel nicht fehlen. Den Fernseher wünscht sich
+      das an Leukämie erkrankte Mädchen an der Wand und der Schreibtisch mit
+      schwarzem (!) Stuhl darunter. "
+  - slug: thomas-eiffelturm
+    childname: Thomas
+    donationGoal: "3500"
+    tagline: Thomas will den Eiffelturm sehen
+    descripion: "Le grand truc de fer (das große Eisen-Ding) – so nennen die
+      Franzosen ihren Eiffelturm liebevoll. Und so sehr, wie sie, liebt wohl
+      auch unser Wunschkind Thomas das Wahrzeichen der Hauptstadt Frankreichs.
+      Denn der Herzenswunsch des an Leukämie erkrankten 10-jährigen ist einfach,
+      klipp und klar: Ich möchte nach Paris und den Eiffelturm sehen."
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
