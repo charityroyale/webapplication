@@ -780,6 +780,47 @@ wishes:
       an Knochenkrebs erkrankte auch eine Stadtbesichtigung mit den Hop-On
       Bussen nicht fehlen.  Wenn sie nicht gerade von L.A. träumt, spielt die
       17-jährige in ihrer Freizeit gerne Volleyball.
+  - slug: tobias-strand
+    childname: Tobias
+    donationGoal: "4900"
+    tagline: Tobias will einen Strandurlaub mit der gaaaanzen Familie
+    descripion: Der 7-jährige Tobias hat 3 Geschwister, die er aufgrund seiner
+      Krankheit – einer Krebserkrankung des Nervensystems, und den damit
+      einhergehenden Krankenhaus-Aufenthalten, oft nicht sieht. Da Tobias alles
+      liebt, was mit Meer zu tun hat, wünscht er sich einen Urlaub mit seiner
+      ganzen Familie am Meer. Worauf er sich am meisten freut? Mit seinen
+      Brüdern und seiner Schwester im Wasser planschen, Sandburgen bauen und, da
+      er Muscheln wahnsinnig gerne isst, Muscheln essen gehen.
+  - slug: niklas-london
+    childname: Niklas
+    donationGoal: "4000"
+    tagline: '"God save the King" - Niklas will nach London'
+    descripion: "Niklas Lieblingsbeschäftigungen stehen bei anderen Wunschkindern
+      nicht unbedingt an oberster Stelle: Der 18-jährige liebt Mathematik,
+      Physik und Geschichte und – Regen. Letzteres passt gut, denn sein
+      Herzenswunsch war es, London zu besuchen, um die Stadt zu besichtigen und
+      mit der U-Bahn zu fahren.  Der tapfere Teenager hat sehr geduldig seine
+      beinahe 2-jährige Intensiv-Therapie, die ihn von einer Krebserkrankung des
+      Nervensystems heilen soll, ertragen und möchte nun seinen Blick wieder
+      nach vorne und auf schönere Dinge lenken."
+  - slug: c-jugendzimmer
+    donationGoal: "2800"
+    childname: C.
+    tagline: Die 18-jährige C. wünscht sich ein Jugendzimmer
+    descripion: Die 18-jährige C., die anonym bleiben möchte, leidet an Morbus
+      Hodgkin - einem bösartigen Tumor des Lymph-Systems. Ihr Herzenswunsch ist
+      ein neues Jugendzimmer zum Wohlfühlen.
+  - slug: saniel-computer
+    donationGoal: "1500"
+    childname: Saniel
+    tagline: '"Ich möchte Computer-Spezialist werden" - Saniel'
+    descripion: "Und was braucht man für diesen Berufswunsch unbedingt? Richtig:
+      einen tollen PC mit Monitor. Das ist auch der Wunsch des 11-jährigen
+      Saniels. Da er aufgrund seiner Erkrankung – er leidet an Knochenkrebs –
+      nicht Fußball mit seinen Freunden spielen darf, möchte er seinem Hobby auf
+      virtueller Ebene nachgehen. Auf die Frage, was er denn sonst noch gerne
+      tut, bekamen wir zur Antwort: Hunde mag ich sehr und Lego spiele ich auch
+      gerne."
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
