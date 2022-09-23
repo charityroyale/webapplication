@@ -746,6 +746,40 @@ wishes:
     childname: Wunschkind
     slug: disneyfigur
     donationGoal: "2000"
+  - slug: tobias-huehnerstall
+    tagline: Tobias will, dass seine Hühner glücklich sind - im neuen mobilen
+      Hühnerstall
+    childname: Tobias
+    descripion: Tobias Wunsch ist auch für uns außergewöhnlich! Der 18-jährige
+      wünscht sich einen mobilen Hühnerstall. „Einen mobilen WAS?“ – haben wir
+      uns gefragt. Ein mobiler Hühnerstall, erklärte uns Tobias, ist ein Stall
+      für Hühner der von Weide zu Weide bewegt werden kann und so den Hühnern
+      ein Maximum an feiner Nahrung ermöglicht. Denn er möchte, dass seine
+      Hühner, die er selbst züchtet, glücklich sind und gesunde Bio-Kost
+      erhalten. Verständlich, wenn man seine Krankheitsgeschichte kennt – Tobias
+      leidet an Leukämie und so ist ihm selbst auch gesunde Ernährung ein großes
+      Anliegen.
+    donationGoal: "6000"
+  - slug: alexander-zoo
+    tagline: Alexander will Raubkatzen aus der Nähe sehen
+    childname: Alexander
+    donationGoal: "800"
+    descripion: "Katzen liebt Alexander über alles! Noch mehr als Pizza ;-). Deshalb
+      liest er auch alles über diese tollen Wesen, was er zwischen die Finger
+      bekommen kann. Der 13-jährige, der mit einem Tumor leben muss, hat deshalb
+      einen großen Wunsch: Er möchte im Zoo, Tiere füttern, sie streicheln und
+      so viel wie nur möglich über sie erfahren. Ganz besonders hofft er, seine
+      Lieblings-Raubkatzen ganz aus der Nähe sehen zu können."
+  - slug: hanna-la
+    childname: Hanna
+    donationGoal: "7600"
+    tagline: Hanna will in die Stadt der Engel - nach L.A.
+    descripion: Was sich Hanna schon immer gewünscht hat? Nach L.A. zu fliegen und
+      dort am Walk of Fame zu schlendern, die Universal Studios zu besichtigen
+      und am Venice Beach das bunte Treiben zu genießen. Natürlich darf für die
+      an Knochenkrebs erkrankte auch eine Stadtbesichtigung mit den Hop-On
+      Bussen nicht fehlen.  Wenn sie nicht gerade von L.A. träumt, spielt die
+      17-jährige in ihrer Freizeit gerne Volleyball.
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
