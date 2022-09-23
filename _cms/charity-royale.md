@@ -926,6 +926,39 @@ wishes:
       auch unser Wunschkind Thomas das Wahrzeichen der Hauptstadt Frankreichs.
       Denn der Herzenswunsch des an Leukämie erkrankten 10-jährigen ist einfach,
       klipp und klar: Ich möchte nach Paris und den Eiffelturm sehen."
+  - slug: michael-disneyland
+    childname: Michael
+    donationGoal: "3500"
+    tagline: Michael will Achterbahn fahren und Mickey Mouse sehen
+    descripion: Michael scheint trotz seiner Erkrankung – er leidet am Shwachman
+      Diamond Syndrom, das zu Knochenmarkversagen und zu einer verminderten
+      Anzahl an weißen Blutkörperchen führt – ein sehr lebenslustiger Junge zu
+      sein. Der 12-jährige, der sich hellauf für Feuerwehr und Justizwache
+      begeistert, möchte mit seiner Mama, Tante und seinen Schwestern ins
+      Disneyland Paris zu fahren. Klar möchte er dort Mickey treffen, aber
+      mindestens genauso sehr freut er sich auf die vielen Achterbahnen, bei
+      denen er bestimmt keine auslassen wird!
+  - slug: diana-maskedsinger
+    childname: Diana
+    donationGoal: "1800"
+    tagline: Diana will zum Masked Singer Finale
+    descripion: Seit Anfang 2018 ist Diana immer wieder aufgrund ihrer
+      Leukämie-Erkrankung im Krankenhaus. Die 7-jährige liebt alles, was mit
+      Märchen und Verkleidung – vor allem Prinzessinnenkleider und Kronen haben
+      es ihr angetan – zu tun hat.  Da passt der Wunsch des fröhlichen Mädchens
+      – zum Masked Singer Finale nach Deutschland zu fahren und sowohl die
+      Moderatoren, wie auch das Rate-Team zu begrüßen - eigentlich gut ins Bild.
+  - slug: thomas-harrypotter
+    childname: Thomas
+    donationGoal: "4000"
+    tagline: Thomas will ins Harry Potter Museum nach London
+    descripion: Thomas ist ein aufgeweckter, offener Junge, der uns sehr beeindruckt
+      hat, wie er mit seiner Krankheit (Lymphdrüsenkrebs) umgeht und wie er mit
+      seinen 9 Jahren darüber und über die Dinge, die ihn gestärkt haben,
+      spricht.   Thomas wünscht sich mit seiner Familie nach London zu fliegen
+      und dort unbedingt auch ins Harry Potter Museum zu gehen, denn Harry
+      Potter hat ihm in den letzten Jahren viel Kraft gegeben und ihn motiviert
+      durchzuhalten.
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
