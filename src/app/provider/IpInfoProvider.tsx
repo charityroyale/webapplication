@@ -2,11 +2,11 @@ import React, { useEffect } from 'react'
 import { createContext, FunctionComponent, useState } from 'react'
 
 export interface IpInfoProviderContextProps {
-	country: string | 'unknown'
+	country: string
 }
 
 const defaultIpInfo: IpInfoProviderContextProps = {
-	country: 'asdasd',
+	country: 'unknown',
 }
 
 interface IpInfoResponse {
@@ -26,16 +26,11 @@ export const IpInfoProvider: FunctionComponent = ({ children }) => {
 	const [ipInfo, setIpInfo] = useState<IpInfoProviderContextProps>(defaultIpInfo)
 
 	useEffect(() => {
-		setIpInfo({
-			country: 'idkman',
-		})
-
 		const fetchIpInfo = async () => {
 			try {
 				const res = await fetch('https://ipinfo.io/json?token=d5295843873bf7')
 				if (res.ok) {
 					const jsonResponse = (await res.json()) as IpInfoResponse
-					console.log(jsonResponse)
 					setIpInfo({
 						country: jsonResponse.country,
 					})

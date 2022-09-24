@@ -26,6 +26,7 @@ export type DictionairyEntryType =
 	| 'donationWidgetGoalReachedTextPart1'
 	| 'donationWidgetGoalReachedTextPart2'
 	| 'donationWidgetGoalReachedTextPart3'
+	| 'taxDeductionHint'
 	| 'scheduledStreamsTitle'
 	| 'downloadScheduleTitle'
 	| 'downloadCTA'

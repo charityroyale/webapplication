@@ -43,6 +43,7 @@ export class MakeAWishRootLevelWishDTO {
 	public color = '' // some MAW internal color code
 	public slug = '' // identifier
 	public kid_name = ''
+	public country = '' // AT | DE
 	public wish = '' // MAW internal title of wish
 	public donation_goal = ''
 	public current_donation_sum = '0'

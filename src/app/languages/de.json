@@ -34,6 +34,7 @@
 	"donationGoal": "Ziel",
 	"donatorNameText": "Spender:innen",
 	"donationformTitle": "Spenden-Formular",
+	"taxDeductionHint": "Für Spender aus Österreich sind Spenden an diesen Wunsch (aus Deutschland) leider nicht absetzbar von der Steuer. Du kannst trotzdem spenden oder dir einen anderen Wunsch aussuchen.",
 	"donationFormLoadErrorText": "Leider ist ein Fehler beim laden des Formular aufgetreten.",
 	"latestDonatorsTitle": "Letzte Spender:innen",
 	"faqPageTitle": "Antworten und Fragen zum Projekt und spenden",

@@ -27,7 +27,7 @@ import DonationWidgetList, { DonationListItem } from '../../../app/components/Do
 import { Text } from '../../../app/components/Text'
 import { LanguageContext } from '../../../app/provider/LanguageProvider'
 import { MakeAWishInfoJsonTopDonationDTO, MakeWishInfoJsonRecentDonationDTO } from '../../../app/dto/MakeAWishDTOs'
-
+import { IpInfoProviderContext } from '../../../app/provider/IpInfoProvider'
 export interface DonationPageProps {
 	cms: {
 		streamer: CmsUpcomingStreamer
@@ -42,6 +42,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	const isSSR = useIsSSR()
 	const languageContext = useContext(LanguageContext)
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
+	const ipInfoContext = useContext(IpInfoProviderContext)
 
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
 	const isMakeAWishDataAvailable = !makeAWishDataIsError && !makeAWishDataIsLoading
@@ -55,11 +56,13 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	let donationSum = '0'
 	let progressPercentage = 0
 	let donatorsCount = '0'
+	let wishCountry = ''
 	const cmsStreamerSlug =
 		cms.streamer.streamerChannel.toLocaleLowerCase() === 'krokoboss'
 			? 'shredmir'
 			: cms.streamer.streamerChannel.toLocaleLowerCase()
 	const cmsWishSlug = cms.wish.slug
+	const shouldDisplayTaxDeductionHint = wishCountry === 'DE' && ipInfoContext.country === 'AT'
 
 	if (isMakeAWishDataAvailable) {
 		// Check if streamer exists in MAW info json
@@ -73,6 +76,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 				if (!Array.isArray(mawStreamerData.wishes) && hasProperty(mawStreamerData.wishes, cmsWishSlug)) {
 					mawWStreamerWishData = mawStreamerData.wishes[cmsWishSlug]
 
+					wishCountry = mawWishData.country
 					donationSum =
 						mawStreamerData.type === 'main'
 							? mawWishData.current_donation_sum
@@ -220,6 +224,8 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 					<Text content="donationformTitle" />
 				</DonationFormHeader>
 
+				<TaxDeductionHint>{shouldDisplayTaxDeductionHint && <Text content="taxDeductionHint"></Text>}</TaxDeductionHint>
+
 				{iFrameLoading && <Skeleton height={'843px'} />}
 				{iFrameError && (
 					<IFrameLoadErrorMessage>
@@ -290,6 +296,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
+	color: ${(p) => p.theme.color.white};
 `
 
 const DonationFormHeader = styled.h2`
@@ -394,6 +401,10 @@ const getHighestDonatorsList = (topDonations: MakeAWishInfoJsonTopDonationDTO[])
 	}
 	return highestDonatorsList
 }
+
+const TaxDeductionHint = styled.p`
+	margin-bottom: ${(p) => p.theme.space.m}px;
+`
 
 const DonationSubPageStats = styled.div`
 	display: flex;
