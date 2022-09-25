@@ -57,10 +57,15 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	let progressPercentage = 0
 	let donatorsCount = '0'
 	let wishCountry = ''
-	const cmsStreamerSlug =
+	let cmsStreamerSlug =
 		cms.streamer.streamerChannel.toLocaleLowerCase() === 'krokoboss'
 			? 'shredmir'
 			: cms.streamer.streamerChannel.toLocaleLowerCase()
+	cmsStreamerSlug =
+		cms.streamer.streamerChannel.toLocaleLowerCase() === 'ichbinzarbex'
+			? 'filow'
+			: cms.streamer.streamerChannel.toLocaleLowerCase()
+
 	const cmsWishSlug = cms.wish.slug
 	const shouldDisplayTaxDeductionHint = wishCountry === 'DE' && ipInfoContext.country === 'AT'
 
