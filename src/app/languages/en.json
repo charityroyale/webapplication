@@ -34,7 +34,7 @@
 	"donationGoal": "Goal",
 	"donatorNameText": "Donator",
 	"donationformTitle": "Donation-Form",
-	"taxDeductionHint": "Tax deduction for Austrian residences are not able to deduct taxes for this wish (residence in Germany). You can still donate for this wish or donate for another one.",
+	"taxDeductionHint": "Please note: Donations for this wish are not tax deductible in Austria because the wish kid lives in Germany.",
 	"donationFormLoadErrorText": "There was an issue loading donation form.",
 	"latestDonatorsTitle": "Latest donators",
 	"faqPageTitle": "Answers and questions about the project and donation process",
