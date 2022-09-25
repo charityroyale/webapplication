@@ -5,7 +5,7 @@ thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: https://www.make-a-wish.at
 makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/s3eABap__xc
-customDonationLink: ''
+customDonationLink: ""
 upcoming:
   - date: 2022-10-02T07:00:00.000Z
     streamerName: stev0rr
@@ -41,7 +41,7 @@ upcoming:
       - paul-schalke
     imgUrl: /uploads/charity_royale_rgb_300x300.png
   - date: 2022-10-07T10:00:35.191Z
-    streamerName: ' Krokoboss & Shredmir'
+    streamerName: " Krokoboss & Shredmir"
     streamerChannel: krokoboss
     streamLink: http://twitch.tv/Krokoboss
     imgUrl: /uploads/charity_royale_rgb_300x300.png
@@ -57,7 +57,7 @@ upcoming:
     wishes:
       - luca-bauernhof
   - date: 2022-10-25T10:00:40.010Z
-    streamerName: veni
+    streamerName: Veni
     streamLink: http://twitch.tv/Veni
     streamerChannel: veni
     imgUrl: /uploads/charity_royale_rgb_300x300.png
@@ -69,21 +69,21 @@ wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
     childname: Emelia
-    descripion: 'Ein weißes iPhone 12 mit 128 GB und Panzerglas war der absolute
+    descripion: "Ein weißes iPhone 12 mit 128 GB und Panzerglas war der absolute
       Herzenswunsch der 14-jährigen Emelia. Das Mädchen, das an einer erblichen
       Bluterkrankung leidet und im letzten Jahr auch immer wieder unter
       Depressionen, hat sich bislang immer das iPhone ihrer besten Freundin
       ausgeborgt, um Fotos machen zu können. Denn Emelia liebt es zu
       fotografieren! Dieses Hobby passt auch sehr gut zu ihren sonstigen
-      Lieblingsbeschäftigungen: Reisen, Freunde treffen, Sport und Tanzen.'
-    donationGoal: '900'
+      Lieblingsbeschäftigungen: Reisen, Freunde treffen, Sport und Tanzen."
+    donationGoal: "900"
     streamers: []
   - slug: arthur-raumkapsel
     childname: Arthur
     tagline: Eine echte Rakete sehen
-    donationGoal: '2000'
+    donationGoal: "2000"
     streamers: []
-    descripion: 'Der 9-jährige Arthur leidet an einem Weichteiltumor. Der für sein
+    descripion: "Der 9-jährige Arthur leidet an einem Weichteiltumor. Der für sein
       Alter sehr reife Bub hat einen ganz besonderen Wunsch: Er möchte einen
       echten Astronauten kennenlernen und eine Rakete ganz aus der Nähe sehen
       können. Arthur interessiert sich für alles, was irgendwie in Richtung
@@ -91,7 +91,7 @@ wishes:
       uns seine Wunschbox überreichte (eine Box, die alle Kinder bekommen um
       Dinge, die sie mit ihrem Wunsch in Verbindung bringen, reinzulegen) war er
       sehr aufgeregt und voller Freude, dass sein lang gehegter Herzenswunsch
-      nun Wirklichkeit werden könnte.'
+      nun Wirklichkeit werden könnte."
   - childname: Tom
     tagline: Ins Gardaland fahren - mit Mama, Papa und seinem Bruder
     descripion: Tom hat Krebs. Der 6 Jahre alte Bub liebt Wasser. Und was gehört für
@@ -101,7 +101,7 @@ wishes:
       Wasser unbeschwert zu plantschen – darauf freut er sich so richtig.  Tom
       hüpft auch gerne am Trampolin und liebt Superhelden, vielleicht, weil er
       selbst auch einer ist?
-    donationGoal: '2500'
+    donationGoal: "2500"
     slug: tom-gardaland
   - slug: lucas-youtuber
     childname: Lucas
@@ -117,30 +117,30 @@ wishes:
       gerne einen bekannten Youtuber/Modedesigner treffen und sehen, wie seine
       Videos entstehen. Auch der Ablauf, wie eine seiner Kollektionen entsteht
       und was da alles dahinter steckt, würde ihn interessieren.
-    donationGoal: '1300'
+    donationGoal: "1300"
   - childname: Moritz
     tagline: Endlich beim Tomorrow-Land Festival dabei sein
-    descripion: 'Moritz ist schon 20, eigentlich ein Alter, in dem wir keine Wünsche
+    descripion: "Moritz ist schon 20, eigentlich ein Alter, in dem wir keine Wünsche
       mehr erfüllen. Der junge Mann hat uns seinen Herzenswunsch aber schon vor
       2 Jahren mitgeteilt und nur die Pandemie ist daran schuld, dass wir seinen
       Wunsch noch nicht erfüllen konnten. Der Herzenswunsch des an Leukämie
       erkrankten Moritz ist es, gemeinsam mit seinen Freunden beim Tomorrowland
       Festival live dabei zu sein und vielleicht sogar seinen Lieblings DJ Timmi
-      Trumpet dort live zu erleben. '
+      Trumpet dort live zu erleben. "
     slug: moritz-tomorrowland
-    donationGoal: '2500'
+    donationGoal: "2500"
   - childname: Leonora
     tagline: Prinzessin Leonora wünscht sich ein Prinzessinnenzimmer
-    descripion: 'Leonoras Herzenswunsch ist märchenhaft schön! Sie wünscht sich ein
+    descripion: "Leonoras Herzenswunsch ist märchenhaft schön! Sie wünscht sich ein
       Prinzessinnenzimmer mit himmelblauen Wänden mit Wolken und Regenbogen und
       sonst allem in Pink. Das Mädchen hat sehr genaue Vorstellungen: das Bett
       zum Beispiel soll ein „Prinzessinnenbett“ sein – ihr wisst schon! ☺ Die
       8-jährige, die an Knochenkrebs leidet, teilt sich das Zimmer derzeit noch
       mit ihren Eltern und ihrem Bruder. Aber die Großeltern ziehen demnächst
       aus und dann könnte der Umbau losgehen und Leonora bekommt ihr eigenes
-      kleines Prinzessinnenreich.'
+      kleines Prinzessinnenreich."
     slug: leonora-prinzessinnenzimmer
-    donationGoal: '3000'
+    donationGoal: "3000"
   - childname: Larissa
     tagline: Larissa möchte all ihre Lieblinge auf der Disney Parade treffen
     descripion: Larissas Herzenswunsch ist ein Besuch im Disneyland Paris mit ihrer
@@ -156,7 +156,7 @@ wishes:
       „Zum Glück gibt’s Disney“, meint Larissa und wir hoffen, dass wir mit
       eurer Hilfe ihren Wunsch so rasch wie möglich erfüllen können!
     slug: larissa-disneyland
-    donationGoal: '3000'
+    donationGoal: "3000"
   - childname: Arina
     tagline: Arina möchte ihr eigenes Business aufbauen
     descripion: Arina ist erst 13 Jahre alt, aber sie denkt jetzt schon darüber
@@ -167,7 +167,7 @@ wishes:
       ist es einfach zu nutzen und man kann tolle Präsentationen damit machen.
       Tja, da haben wir nichts mehr hinzuzufügen. ☺
     slug: arina-macbook
-    donationGoal: '1400'
+    donationGoal: "1400"
     streamers:
       - zayuri
   - childname: Karolina
@@ -182,12 +182,12 @@ wishes:
       zu tun hat, es liebt online zu sein, ist nach eigenen Angaben
       Non-Alkohol-Trinkerin, kann super zeichnen und mag Ausgefallenes.
     slug: karolina-gamingset
-    donationGoal: '3000'
+    donationGoal: "3000"
     streamers:
       - gtimetv
   - childname: Asma
     tagline: Was tun mit dem Lieblings-Playstation Spiel ohne Fernseher?
-    descripion: 'Genau dieses Problem hat Asma: Die 5-jährige, die an einem Tumor
+    descripion: "Genau dieses Problem hat Asma: Die 5-jährige, die an einem Tumor
       aus Nervenzellen leidet, steht genau vor diesem Problem. Bei dem kleinen
       Mädchen dreht sich derzeit alles um Sonic, den blauen Igel, der die
       Fähigkeit besitzt, mit Überschallgeschwindigkeit zu laufen.  Da sie
@@ -198,21 +198,21 @@ wishes:
       noch eine gebrauchte Playstation gekauft und schon legte sie voller Freude
       los! Bis dann Asmas Bruder den Fernseher geschrottet hat. Deshalb ist
       Asmas Herzenswunsch ein neuer Fernseher, damit Sonic wieder für sie über
-      den Bildschirm flitzen kann.'
+      den Bildschirm flitzen kann."
     slug: asma-fernseher
-    donationGoal: '600'
+    donationGoal: "600"
   - childname: Lukas
     tagline: Ein Meet & Greet mit Promi-Fußballer
-    descripion: '„Er schießt so viele Tore und ist so nett“, begründet Lukas seinen
+    descripion: "„Er schießt so viele Tore und ist so nett“, begründet Lukas seinen
       Herzenswunsch einen bekannten FC Bayern Spieler bei einem Training zusehen
       zu wollen oder noch besser: mit ihm zu spielen. Fragen hat er jedenfalls
       genug an sein Idol! Der 10-jährige ist an Leukämie erkrankt, spielt
       begeistert Fußball, seit kurzem wieder im Verein und sein Herz schlägt für
       den FC Bayern. Er ist generell sportbegeistert. Auch mit Musik kann er so
       einiges anfangen. Denn er geht in eine Musikschule und spielt dort
-      Trommel. Seine Lieblingssänger sind Mark Forster und Andreas Gabalier.'
+      Trommel. Seine Lieblingssänger sind Mark Forster und Andreas Gabalier."
     slug: lukas-fussballer
-    donationGoal: '1300'
+    donationGoal: "1300"
     streamers:
       - shredmir
       - krokoboss
@@ -225,21 +225,21 @@ wishes:
       den Zehen zu spüren, jede Menge Sandburgen bauen mit Papa und natürlich
       auf jede Menge Rutschen-Spaß!
     slug: daria-zypern
-    donationGoal: '3600'
+    donationGoal: "3600"
     streamers:
       - niekbeats
   - slug: marvellous-hubschrauber
     tagline: Aus dem Helikopter nach unten schauen
-    descripion: 'Marvellous ist 9 Jahre alt und wünscht sich schon lange in einem
+    descripion: "Marvellous ist 9 Jahre alt und wünscht sich schon lange in einem
       Hubschrauber mitfliegen zu dürfen, und alles unter ihm klein werden zu
       sehen. Er möchte seine ganze Familie mit dabeihaben. Er hat auch einen
       Hund, der wird aber wahrscheinlich nicht mit dabei sein können (oder
       wollen ;-)) Das Lieblingfach von Marvellous, der an einer erbliche
       Bluterkrankung leidet, ist Lesen, in seiner Freizeit spielt er gerne URO
       oder Lotti Karotti. Und auch seine Lieblingsspeise hat uns der kleine
-      Gourmet verraten: Nudeln mit Sauce.'
+      Gourmet verraten: Nudeln mit Sauce."
     childname: Marvellous
-    donationGoal: '700'
+    donationGoal: "700"
   - childname: Pascal
     tagline: Strandurlaub mit Mama und den 3 Geschwistern
     descripion: Urlaub machen und alle sollen sich’s gut gehen lassen. Das ist es,
@@ -250,10 +250,10 @@ wishes:
       Lieblingsbeschäftigungen zählt Enduro fahren. Vielleicht kann er sich in
       seinem Urlaub ja eine ausborgen?
     slug: pascal-griechenland
-    donationGoal: '3600'
+    donationGoal: "3600"
   - childname: Julian
     tagline: Julian möchte seinen Lieblings-Comedian treffen
-    descripion: 'Der Comedian hat Julian während seiner Therapien (Julian ist an
+    descripion: "Der Comedian hat Julian während seiner Therapien (Julian ist an
       Leukämie erkrankt) immer zum Lachen gebracht und ihn abgelenkt. Da
       entstand der Wunsch, eine Vorstellung des Kabarettisten gemeinsam mit Mama
       und Papa zu besuchen und ihn im Anschluss persönlich zu treffen.  Am
@@ -261,12 +261,12 @@ wishes:
       alles Mögliche. Sein Lieblingstier ist der Tiger und am Teller hat er am
       liebsten Fischstäbchen mit Erbsen. Und wenn ihn seine Mama fragt, was sie
       ihm mitbringen soll, dann kommt wie aus der Pistole geschossen ganz
-      klassisch: ein Überraschungsei. '
-    donationGoal: '1300'
+      klassisch: ein Überraschungsei. "
+    donationGoal: "1300"
     slug: julian-comedian
   - childname: Nina
     tagline: Nina im Elefantenwaisenhaus
-    descripion: 'Einen ganz besonderen Herzenswunsch hat uns Nina genannt: Sie
+    descripion: "Einen ganz besonderen Herzenswunsch hat uns Nina genannt: Sie
       möchte unbedingt Elefanten in ihrer natürlichen Umgebung treffen. Dieses
       besondere Meet & Greet soll in einem Elefantenwaisenhaus in Afrika oder
       Asien stattfinden, wo die Elefanten gut behandelt und gepflegt und nicht
@@ -274,20 +274,20 @@ wishes:
       18-jährige, die an einem bösartigen Tumor des Lymphsystems erkrankt ist,
       liebt Tiere ganz allgemein, aber Elefanten sind ihre absoluten Lieblinge.
       Passend dazu auch ihr Lieblingsfilm: „Dumbo“. Da dreht sich ja auch alles
-      um die Dickhäuter. '
+      um die Dickhäuter. "
     slug: nina-elefantenwaisenhaus
-    donationGoal: '4200'
+    donationGoal: "4200"
   - childname: Edanur
     tagline: Ein MacBook Air für die Schulaufgaben … ok – und zum Netflix schauen ;-)
-    descripion: 'Edanur, die an einem Gehirntumor leidet, ist oft mit ihrer kleinen
+    descripion: "Edanur, die an einem Gehirntumor leidet, ist oft mit ihrer kleinen
       Schwester gemeinsam unterwegs. Die beiden lieben lange Spaziergänge.
       Daheim findet man die 16-jährige meistens lesend oder vor dem alten PC.
       Den würde sie liebend gerne eintauschen gegen ein MacBook Air (500 GB).
       Dieses würde sie für ihre Hausaufgaben nutzen und um Netflix zu schauen.
       Ihre Lieblings-Netflix-Serie ist Haus des Geldes, musikalisch liebt sie es
-      eher ruhig – Ariane Grande hört sie sehr gerne. '
+      eher ruhig – Ariane Grande hört sie sehr gerne. "
     slug: edanur-macbookair
-    donationGoal: '1200'
+    donationGoal: "1200"
     streamers:
       - mrsxeniatv
   - childname: Ramazan
@@ -301,36 +301,36 @@ wishes:
       Lieblingsfußball-Club virtuell folgen zu können, möchte er auch sein
       MacBook verwenden.
     slug: ramazan-macbook
-    donationGoal: '2400'
+    donationGoal: "2400"
     streamers:
       - revedtv
   - childname: Dmytro
     tagline: Ich sehe Blumen und Tiere, wenn ich an meinen Herzenswunsch denke
-    descripion: 'Dmytro hat ein großes Hobby: Er fotografiert für sein Leben gerne.
+    descripion: "Dmytro hat ein großes Hobby: Er fotografiert für sein Leben gerne.
       Vor allem Blumen und Tiere. Er ist auch ein wirklich gutes Auge dafür.
       Aber was ihm fehlt, ist das richtige Werkzeug, um noch besser zu werden.
       Dmytro hat deshalb einen Herzenswunsch. Der 12-jährige, der an einem
       Gehirntumor leidet, wünscht sich eine Kamera. Aber nicht irgendeine,
       sondern eine Canon EOS M50 EF 18-150. Damit möchte er in die Natur gehen
       und alles festhalten. Aber auch in Wien möchte er gemeinsam mit seinen
-      Eltern auf Fotosafari gehen und ganz besondere Motive jagen.'
+      Eltern auf Fotosafari gehen und ganz besondere Motive jagen."
     slug: dmytro-kamera
-    donationGoal: '900'
+    donationGoal: "900"
     streamers:
       - henke
   - childname: Andrea
     tagline: Ein Sommerurlaub in Ramsau
-    descripion: 'Andrea leidet an einem Gehirntumor, der sie möglicherweise blind
+    descripion: "Andrea leidet an einem Gehirntumor, der sie möglicherweise blind
       machen wird. Deshalb wünschte sich die 10-jährige einen Sommerurlaub in
       Ramsau, wo sie schon mehrmals mit ihrer Familie in den Ferien war. Auf die
       Frage, weshalb sie unbedingt dorthin möchte, war ihre Antwort „Weil es
       vielleicht das letzte Mal ist, dass ich was sehe“. Andrea schwimmt gerne,
-      geht gerne spazieren und liebt Spaghetti. '
+      geht gerne spazieren und liebt Spaghetti. "
     slug: andrea-ramsau
-    donationGoal: '3100'
+    donationGoal: "3100"
   - childname: Sara
     tagline: Zimmereinrichtung und bunte LED-Streifen
-    descripion: 'Saras Familie zieht in ein neues Zuhause, in dem die 10-jährige ein
+    descripion: "Saras Familie zieht in ein neues Zuhause, in dem die 10-jährige ein
       eigenes großes Zimmer mit direktem Zugang zum Garten bekommen wird. Der
       Herzenswunsch des an aplastischer Anämie (Blutarmut) erkrankten Mädchens
       ist eine neue Zimmereinrichtung. Sara hat ganz genaue Vorstellungen von
@@ -338,9 +338,9 @@ wishes:
       Tanzen (weil das tut sie nämlich wahnsinnig gerne) und bunte
       LED-Lichtstreifen rund um das Zimmer, die auf Musik reagieren ☺. Damit
       alles so wird, wie es sich das fröhliche Kind vorstellt, bekamen wir Fotos
-      von Möbeln und Deko zugeschickt. '
+      von Möbeln und Deko zugeschickt. "
     slug: sara-zimmereinrichtung
-    donationGoal: '2900'
+    donationGoal: "2900"
     streamers:
       - dhalucard
   - childname: Isaac
@@ -354,7 +354,7 @@ wishes:
       dafür ein adäquates Handy ☺.
     tagline: Ein iPhone für den angehenden IT-Techniker
     slug: isaac-iphone
-    donationGoal: '900'
+    donationGoal: "900"
   - childname: Julian
     descripion: Julian wünscht sich einen Urlaub auf Malta, gemeinsam mit seinem
       Vater und seinem besten Freund. Der 17-jährige, der an Krebs erkrankt ist,
@@ -363,19 +363,19 @@ wishes:
       niederließen. Aber auch auf das Essen dort freut er sich sehr.
     tagline: Urlaub auf Malta
     slug: julian-malta
-    donationGoal: '3600'
+    donationGoal: "3600"
   - childname: Pascal
     tagline: NHL Spiel sehen und M&G mit der Nummer 8
-    descripion: 'Der Herzenswunsch des 12-jährigen Pascal, der an Leukämie erkrankt
+    descripion: "Der Herzenswunsch des 12-jährigen Pascal, der an Leukämie erkrankt
       ist, ist es, in den USA live ein NHL Spiel der Washington Capitals zu
       sehen. Er ist ein Riesenfan von Alexander Ovechkin, der Nr. 8 des Clubs.
       Deshalb wäre es sein absoluter Traum mit ihm ein Meet & Greet erleben zu
       dürfen. Der offene, immer aktive Bub spielt selbst Eishockey beim KAC und
       Fußball mit seinen vielen Freunden. Wenn es ums Essen geht, ist Pascal
       aber eher in der italienischen Küche daheim – Pizza ist sein absolutes
-      Lieblingsgericht. '
+      Lieblingsgericht. "
     slug: pascal-washingtoncapitals
-    donationGoal: '4200'
+    donationGoal: "4200"
   - childname: Hanna
     tagline: Experience a fashion show in London or Paris
     descripion: "Hanna lives with a metabolic disease that forces her to consume
@@ -387,25 +387,25 @@ wishes:
       passion for fashion: She and her sister would like to travel to one of the
       fashion capitals of Europe - London or Paris - and experience a fashion
       show there."
-    donationGoal: '3000'
+    donationGoal: "3000"
     slug: hanna-fashionshow
     streamers:
       - nihachu
   - childname: Valentin
-    descripion: 'Valentin leidet an einem Gehirntumor. Der 12-jährige hat einen
+    descripion: "Valentin leidet an einem Gehirntumor. Der 12-jährige hat einen
       Herzenswunsch: Er möchte dorthin, wo er Spaß haben und zugleich „das große
       Ding aus Eisen“ sehen kann. Richtig! Er möchte nach Paris ins Disneyland
       und den Eifelturm erleben.  Valentin hat uns richtig viel verraten, was er
       gerne hat! Beim Essen ist Lasagne sein Favorit, bei den Farben ist es
       Schwarz, er hat ein Faible fürs Handwerken und möchte später mal
       Mechaniker werden.  Und wenn er an seinen Herzenswunsch denkt, sieht er
-      einen Vanillepudding in Form eines Disney Schlosses! 😂'
+      einen Vanillepudding in Form eines Disney Schlosses! 😂"
     tagline: Vive la France!
     slug: valentin-disneyland
-    donationGoal: '3000'
+    donationGoal: "3000"
   - childname: Philipp
     tagline: „FC Bayern lässt mein Herz höher schlagen“
-    descripion: 'Philipp ist vor 1 ½ Jahren an Leukämie erkrankt. Diese letzten 18
+    descripion: "Philipp ist vor 1 ½ Jahren an Leukämie erkrankt. Diese letzten 18
       Monate waren für ihn und seine Familie eine schwere Zeit mit vielen
       Operationen. Eines hielt den 13-jährigen aber während der ganzen Zeit
       aufrecht: Seine Familie und Freunde brachten ihm immer wieder Nachrichten
@@ -415,9 +415,9 @@ wishes:
       wünscht sich gemeinsam mit seiner Familie ein Wochenende bei seinem
       Lieblingsclub verbringen zu dürfen und vielleicht sogar mit dem einen oder
       anderen Spieler plaudern zu können. „Ich freue mich auf alles, was möglich
-      ist in Bayern“, so der kleine Kämpfer.'
+      ist in Bayern“, so der kleine Kämpfer."
     slug: philipp-fcbayern
-    donationGoal: '1200'
+    donationGoal: "1200"
     streamers:
       - nqrmvn
   - childname: Elias
@@ -429,7 +429,7 @@ wishes:
       Herzenswunsch Pluto und die Fahrzeuge aus „Cars“ im Disneyland Paris zu
       besuchen.
     slug: elias-disneyland
-    donationGoal: '3000'
+    donationGoal: "3000"
   - childname: Lean
     tagline: Ben Zucker – und sonst nichts
     descripion: "Lean's Wunsch ist klipp und klar! Es soll etwas mit Ben Zucker zu
@@ -439,70 +439,70 @@ wishes:
       allem: zu lachen. Und das geht am besten, wenn ein Mr. Bean im Fernsehen
       läuft. "
     slug: lean-benzucker
-    donationGoal: '400'
+    donationGoal: "400"
   - slug: patrick-heidelbeeren
     tagline: TEST - Patrick's Heidelbeern
     childname: TESTER
     descripion: TEST
-    donationGoal: '5'
+    donationGoal: "5"
   - slug: disneyland
     childname: Wunschkind
     tagline: Eine Reise ins Disneyland
-    donationGoal: '1500'
-    descripion: 'Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+    donationGoal: "1500"
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: eine Reise ins Disneyland nach Paris, gemeinsam mit ihrer ganzen
       Familie! Einige Kinder möchten aber nicht namentlich und mit Angabe der
       Krankheit genannte werden. Das respektieren wir selbstverständlich,
       möchten diesen Kindern aber trotzdem ihren Herzenswunsch erfüllen. Spende
       jetzt und hilf mit, einem schwerkranken Kind den Wunsch einer Reise ins
-      Disneyland zu erfüllen.'
+      Disneyland zu erfüllen."
   - tagline: Einen Tag Prinzessin sein
     childname: Wunschkind
     slug: prinzessin
-    donationGoal: '500'
-    descripion: 'Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+    donationGoal: "500"
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Einen Tag lang Prinzessin sein! Einige Kinder möchten aber nicht
       namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
       wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
       Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
       Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
-      Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen.'
+      Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
   - tagline: Eine Reise ins Legoland
-    descripion: 'Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
       namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
       wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
       Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
       Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
-      unbeschwerte Zeit mit seiner Familie zu ermöglichen.'
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
     childname: Wunschkind
     slug: legoland
-    donationGoal: '500'
-  - donationGoal: '500'
+    donationGoal: "500"
+  - donationGoal: "500"
     tagline: Meet & Greet mit YouTuber
-    descripion: 'Ein echter Herzenswunsch für viele Kinder & Jugendliche, die sich
+    descripion: "Ein echter Herzenswunsch für viele Kinder & Jugendliche, die sich
       an Make-A-Wish wenden: Einen bekannten Youtuber zu treffen! Einige Kinder
       möchten aber nicht namentlich und mit Angabe der Krankheit genannte
       werden. Das respektieren wir selbstverständlich, möchten diesen Kindern
       aber trotzdem ihren Herzenswunsch erfüllen. Spende jetzt und hilf mit,
       einem schwerkranken Kind den Wunsch, einen bekannten Youtuber zu treffen
-      und sein Idol kennenzulernen.'
+      und sein Idol kennenzulernen."
     childname: Wunschkind
     slug: youtuber
   - slug: harrypotter
     tagline: Reise zu den Harry Potter Studios
-    descripion: 'Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Eine Reise in die Harry Potter Studios in London! Einige Kinder
       möchten aber nicht namentlich und mit Angabe der Krankheit genannte
       werden. Das respektieren wir selbstverständlich, möchten diesen Kindern
       aber trotzdem ihren Herzenswunsch erfüllen. Spende jetzt und hilf mit,
       einem schwerkranken Kind den Wunsch zu erfüllen, ins Harry Potter Studio
       nach London zu reisen, dort alle Charaktere näher kennenzulernen und
-      vielleicht selbst einen Zauberstab zu schwingen. '
+      vielleicht selbst einen Zauberstab zu schwingen. "
     childname: Wunschkind
-    donationGoal: '1000'
+    donationGoal: "1000"
   - tagline: Ein guter Gaming PC
-    descripion: 'Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Ein eigener, manchmal auch professioneller Gaming PC. Die Gründe
       dafür sind unterschiedlich: manche möchten damit in Kontakt mit ihren
       Freunden sein, die sie aufgrund ihrer Krankheit nicht treffen können.
@@ -511,11 +511,11 @@ wishes:
       Krankheit genannte werden. Das respektieren wir selbstverständlich,
       möchten diesen Kindern aber trotzdem ihren Herzenswunsch erfüllen. Spende
       jetzt und hilf mit, einem schwerkranken Kind den Wunsch eines eigenen
-      Gaming PCs zu erfüllen.'
+      Gaming PCs zu erfüllen."
     childname: Wunschkind
-    donationGoal: '1000'
+    donationGoal: "1000"
     slug: gamingpc
-  - descripion: 'Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+  - descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Eine besondere Einrichtung für das eigene Kinder- oder
       Jugendzimmer. Manche wünschen sich ein Prinzessinnenzimmer, andere
       wiederum ein Starwars Zimmer.  Einige Kinder möchten aber nicht namentlich
@@ -523,13 +523,13 @@ wishes:
       selbstverständlich, möchten diesen Kindern aber trotzdem ihren
       Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
       Kind den Wunsch einer neuen Zimmereinrichtung, individuell auf das
-      Wunschkind abgestimmt, zu erfüllen.'
+      Wunschkind abgestimmt, zu erfüllen."
     tagline: Kinderzimmer-Einrichtung
     slug: zimmereinrichtung
-    donationGoal: '1000'
+    donationGoal: "1000"
     childname: Wunschkind
   - tagline: "Ein Stelzenhaus mit Extras\t"
-    descripion: 'Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Ein Stelzenhaus für den Garten. Die Vorstellungen dieser
       Stelzenhäuser sind sehr vielfältig. Für manche Kinder ist die Farbe sehr
       wichtig (z. B. rosa oder regenbogenfarben), andere wünschen sich eine
@@ -538,55 +538,55 @@ wishes:
       namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
       wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
       Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
-      Kind den Wunsch eines eigenen Stelzenhauses zu erfüllen.'
+      Kind den Wunsch eines eigenen Stelzenhauses zu erfüllen."
     childname: Wunschkind
     slug: stelzenhaus
-    donationGoal: '1500'
+    donationGoal: "1500"
   - tagline: Eine volle Gaming Ecke
-    descripion: 'Ein echter Herzenswunsch für viele Kinder und Jugendliche, die sich
+    descripion: "Ein echter Herzenswunsch für viele Kinder und Jugendliche, die sich
       an Make-A-Wish wenden: Eine eigene Gaming Ecke mit Gaming PC, Monitor,
       Gaming Sessel, Leuchttastatur und alles was dazu gehört, um ein Gamer zu
       sein. Einige Kinder möchten aber nicht namentlich und mit Angabe der
       Krankheit genannte werden. Das respektieren wir selbstverständlich,
       möchten diesen Kindern aber trotzdem ihren Herzenswunsch erfüllen. Spende
       jetzt und hilf mit, einem schwerkranken Kind den Wunsch einer eigenen
-      Gaming Ecke zu erfüllen.'
+      Gaming Ecke zu erfüllen."
     childname: Wunschkind
-    donationGoal: '1500'
+    donationGoal: "1500"
     slug: gamingecke
   - tagline: Eine Flugreise
-    descripion: 'Ein echter Herzenswunsch für viele Kinder und Jugendliche, die sich
+    descripion: "Ein echter Herzenswunsch für viele Kinder und Jugendliche, die sich
       an Make-A-Wish wenden: einmal mit einem Flugzeug in den Urlaub zu
       fliegen.  Einige Kinder möchten aber nicht namentlich und mit Angabe der
       Krankheit genannte werden. Das respektieren wir selbstverständlich,
       möchten diesen Kindern aber trotzdem ihren Herzenswunsch erfüllen. Spende
       jetzt und hilf mit, einem schwerkranken Kind den Wunsch einer Flugreise zu
-      erfüllen.'
+      erfüllen."
     childname: Wunschkind
     slug: flugreise
-    donationGoal: '2000'
+    donationGoal: "2000"
   - tagline: Urlaub im Familienhotel
-    descripion: 'Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: ein Urlaub mit der ganzen Familie im Familien oder Thermenhotel,
       mit vielen Rutschen. Einige Kinder möchten aber nicht namentlich und mit
       Angabe der Krankheit genannte werden. Das respektieren wir
       selbstverständlich, möchten diesen Kindern aber trotzdem ihren
       Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
-      Kind den Wunsch eines Urlaubes mit seiner Familie zu erfüllen.'
+      Kind den Wunsch eines Urlaubes mit seiner Familie zu erfüllen."
     childname: Wunschkind
     slug: familienhotel
-    donationGoal: '2000'
+    donationGoal: "2000"
   - tagline: Meet and Greet mit Disneyfigur
-    descripion: 'Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: ein Treffen mit Micky Mouse oder einer Frozen Prinzessin! Einige
       Kinder möchten aber nicht namentlich und mit Angabe der Krankheit genannte
       werden. Das respektieren wir selbstverständlich, möchten diesen Kindern
       aber trotzdem ihren Herzenswunsch erfüllen. Spende jetzt und hilf mit,
       einem schwerkranken Kind den Wunsch eines Treffens mit einer Disneyfigur
-      zu erfüllen.'
+      zu erfüllen."
     childname: Wunschkind
     slug: disneyfigur
-    donationGoal: '2000'
+    donationGoal: "2000"
   - slug: tobias-huehnerstall
     tagline: Tobias will, dass seine Hühner glücklich sind - im neuen mobilen
       Hühnerstall
@@ -600,20 +600,20 @@ wishes:
       erhalten. Verständlich, wenn man seine Krankheitsgeschichte kennt – Tobias
       leidet an Leukämie und so ist ihm selbst auch gesunde Ernährung ein großes
       Anliegen.
-    donationGoal: '6000'
+    donationGoal: "6000"
   - slug: alexander-zoo
     tagline: Alexander will Raubkatzen aus der Nähe sehen
     childname: Alexander
-    donationGoal: '800'
-    descripion: 'Katzen liebt Alexander über alles! Noch mehr als Pizza ;-). Deshalb
+    donationGoal: "800"
+    descripion: "Katzen liebt Alexander über alles! Noch mehr als Pizza ;-). Deshalb
       liest er auch alles über diese tollen Wesen, was er zwischen die Finger
       bekommen kann. Der 13-jährige, der mit einem Tumor leben muss, hat deshalb
       einen großen Wunsch: Er möchte im Zoo, Tiere füttern, sie streicheln und
       so viel wie nur möglich über sie erfahren. Ganz besonders hofft er, seine
-      Lieblings-Raubkatzen ganz aus der Nähe sehen zu können.'
+      Lieblings-Raubkatzen ganz aus der Nähe sehen zu können."
   - slug: hanna-la
     childname: Hanna
-    donationGoal: '7600'
+    donationGoal: "7600"
     tagline: Hanna will in die Stadt der Engel - nach L.A.
     descripion: Was sich Hanna schon immer gewünscht hat? Nach L.A. zu fliegen und
       dort am Walk of Fame zu schlendern, die Universal Studios zu besichtigen
@@ -623,7 +623,7 @@ wishes:
       17-jährige in ihrer Freizeit gerne Volleyball.
   - slug: tobias-strand
     childname: Tobias
-    donationGoal: '4900'
+    donationGoal: "4900"
     tagline: Tobias will einen Strandurlaub mit der gaaaanzen Familie
     descripion: Der 7-jährige Tobias hat 3 Geschwister, die er aufgrund seiner
       Krankheit – einer Krebserkrankung des Nervensystems, und den damit
@@ -634,48 +634,48 @@ wishes:
       er Muscheln wahnsinnig gerne isst, Muscheln essen gehen.
   - slug: niklas-london
     childname: Niklas
-    donationGoal: '4000'
+    donationGoal: "4000"
     tagline: '"God save the King" - Niklas will nach London'
-    descripion: 'Niklas Lieblingsbeschäftigungen stehen bei anderen Wunschkindern
+    descripion: "Niklas Lieblingsbeschäftigungen stehen bei anderen Wunschkindern
       nicht unbedingt an oberster Stelle: Der 18-jährige liebt Mathematik,
       Physik und Geschichte und – Regen. Letzteres passt gut, denn sein
       Herzenswunsch war es, London zu besuchen, um die Stadt zu besichtigen und
       mit der U-Bahn zu fahren.  Der tapfere Teenager hat sehr geduldig seine
       beinahe 2-jährige Intensiv-Therapie, die ihn von einer Krebserkrankung des
       Nervensystems heilen soll, ertragen und möchte nun seinen Blick wieder
-      nach vorne und auf schönere Dinge lenken.'
+      nach vorne und auf schönere Dinge lenken."
   - slug: c-jugendzimmer
-    donationGoal: '2800'
+    donationGoal: "2800"
     childname: C.
     tagline: Die 18-jährige C. wünscht sich ein Jugendzimmer
     descripion: Die 18-jährige C., die anonym bleiben möchte, leidet an Morbus
       Hodgkin - einem bösartigen Tumor des Lymph-Systems. Ihr Herzenswunsch ist
       ein neues Jugendzimmer zum Wohlfühlen.
   - slug: saniel-computer
-    donationGoal: '1500'
+    donationGoal: "1500"
     childname: Saniel
     tagline: '"Ich möchte Computer-Spezialist werden" - Saniel'
-    descripion: 'Und was braucht man für diesen Berufswunsch unbedingt? Richtig:
+    descripion: "Und was braucht man für diesen Berufswunsch unbedingt? Richtig:
       einen tollen PC mit Monitor. Das ist auch der Wunsch des 11-jährigen
       Saniels. Da er aufgrund seiner Erkrankung – er leidet an Knochenkrebs –
       nicht Fußball mit seinen Freunden spielen darf, möchte er seinem Hobby auf
       virtueller Ebene nachgehen. Auf die Frage, was er denn sonst noch gerne
       tut, bekamen wir zur Antwort: Hunde mag ich sehr und Lego spiele ich auch
-      gerne.'
+      gerne."
   - slug: ismael-meer
-    donationGoal: '4500'
+    donationGoal: "4500"
     childname: Ismael
     tagline: Ismael will "endlich wieder das Meer sehen"
-    descripion: 'Ismael hat uns eine tolle Zeichnung gemalt – seine Familie am
+    descripion: "Ismael hat uns eine tolle Zeichnung gemalt – seine Familie am
       Palmenstrand, Meer - und ein Hummer sind darauf zu sehen. Womit sein
       Wunsch auch schon bestens zusammengefasst ist: Der 9-jährige wünscht sich
       mit seinen Eltern ans Meer zu fahren, wo er wegen seiner Erkrankung
       (Gehirntumor) und Corona schon so lange nicht mehr war. Außerdem möchte er
       endlich wissen, ob da wirklich was dran ist, dass Hummer so toll schmecken
       soll. Deshalb wünscht er sich in diesen Urlaubstagen mit Mama und Papa
-      Hummer essen gehen zu können.'
+      Hummer essen gehen zu können."
   - slug: celina-harrypotter
-    donationGoal: '4500'
+    donationGoal: "4500"
     childname: Celina
     tagline: Celina auf den Spuren Harry Potters
     descripion: Celina ist, was man einen echten Harry Potter Fan nennen kann. Sie
@@ -684,17 +684,17 @@ wishes:
       an Leukämie erkrankte Celina wünscht sich eine Reise nach London ins Harry
       Potter Museum und an die Film-Drehorte.
   - slug: bastian-disneyland
-    donationGoal: '3500'
+    donationGoal: "3500"
     childname: Bastian
     tagline: Bastian will Hulk in Disneyland besuchen
-    descripion: 'Auf die Frage, was Bastian liebt, hat er rasch eine Antwort parat:
+    descripion: "Auf die Frage, was Bastian liebt, hat er rasch eine Antwort parat:
       Er lieb seine Familie, Pumpkin – seine Katze, die Farbe Grün und Marvel.
       Und wie passt das nun alles in einen Herzenswunsch? Nun, der 11-jährige
       Bastian, der mit Leukämie und Down Syndrom leben muss, wünscht sich mit
       seiner Familie ins Disneyland Paris zu fahren. Weil er dort die
-      Marvel-Figuren, allen voran den grünen Hulk, besuchen möchte.'
+      Marvel-Figuren, allen voran den grünen Hulk, besuchen möchte."
   - slug: fabian-switch
-    donationGoal: '600'
+    donationGoal: "600"
     childname: Fabian
     descripion: Fabian ist 8 Jahre alt und ein sehr fröhlicher, lebenslustiger
       Junge. Leider hat er mit einer sehr speziellen Herzkrankheit zu kämpfen,
@@ -709,17 +709,17 @@ wishes:
       Mario-Serie auf seine Wunschliste gesetzt.
     tagline: Let's-a-go! Fabian will wie Super Mario die Welt retten
   - slug: jonas-heeresmuseum
-    donationGoal: '150'
+    donationGoal: "150"
     childname: Jonas
     tagline: Ein privater Museumsbesuch für Jonas
-    descripion: 'Jonas hat ein Thema, das ihn ungemein interessiert: der
+    descripion: "Jonas hat ein Thema, das ihn ungemein interessiert: der
       2.Weltkrieg. Der 19-jährige (bei der Wunschholung war er 18 Jahre alt) ist
       in dieser Hinsicht enorm belesen. Da Jonas, der an einem Gehirntumor
       leidet, Menschenansammlungen nur ganz schwer ertragen kann, wünscht er
-      sich eine private Führung durch das Heeres-geschichtliche Museum in Wien.'
+      sich eine private Führung durch das Heeres-geschichtliche Museum in Wien."
   - slug: f-ipad
     childname: F.
-    donationGoal: '1100'
+    donationGoal: "1100"
     tagline: Ein I-Pad für die leidenschaftliche Malerin
     descripion: F., die anonym bleiben möchte, ist ein tapferes junges Mädchen, das
       an Leukämie erkrankt ist.  Seit sie denken kann, liebt es die 13-jährige
@@ -736,20 +736,20 @@ wishes:
       Strahlen bringt.
   - slug: amber-tablet
     childname: Amber
-    donationGoal: '800'
+    donationGoal: "800"
     tagline: Amber will mit der Familie am Tablet skypen
-    descripion: 'Amber liebt, was viele Mädchen in ihrem Alter lieben: Fahrrad
+    descripion: "Amber liebt, was viele Mädchen in ihrem Alter lieben: Fahrrad
       fahren, Miraculous Ladybug, Harry Potter, die Farbe Lila, Spaghetti,
       Frozen 2… Was die 9-jährige von anderen unterscheidet ist, dass sie an
       einer Erkrankung des Knochenmarks (MDS) leidet, die immer wieder
       Spitalsaufenthalte erforderlich macht. Der Herzenswunsch der tapferen
       Kleinen war ein Tablet, damit sie, wenn sie wieder ins Krankenhaus muss,
-      mit ihrer Familie daheim skypen kann.'
+      mit ihrer Familie daheim skypen kann."
   - slug: dana-jugendzimmer
     childname: Dana
-    donationGoal: '3500'
+    donationGoal: "3500"
     tagline: Ein Jugendzimmer mit TV für Dana
-    descripion: 'Dana hat ganz exakte Vorstellungen von ihrem Herzenswunsch. Die
+    descripion: "Dana hat ganz exakte Vorstellungen von ihrem Herzenswunsch. Die
       14-jährige junge Dame, die an Leukämie erkrankt ist, wünscht sich ein
       Jugendzimmer, damit sie ihre Freundinnen zu sich einladen und gemeinsam
       mit ihnen „Frozen“ schauen kann.  Ihr neues Zimmer soll weiß sein, das ist
@@ -757,19 +757,19 @@ wishes:
       Boxspring-Bett – natürlich auch in weiß – soll eine Stauraum-Lade haben
       und am weißen Kasten ein Spiegel nicht fehlen. Den Fernseher wünscht sich
       das an Leukämie erkrankte Mädchen an der Wand und der Schreibtisch mit
-      schwarzem (!) Stuhl darunter. '
+      schwarzem (!) Stuhl darunter. "
   - slug: thomas-eiffelturm
     childname: Thomas
-    donationGoal: '3500'
+    donationGoal: "3500"
     tagline: Thomas will den Eiffelturm sehen
-    descripion: 'Le grand truc de fer (das große Eisen-Ding) – so nennen die
+    descripion: "Le grand truc de fer (das große Eisen-Ding) – so nennen die
       Franzosen ihren Eiffelturm liebevoll. Und so sehr, wie sie, liebt wohl
       auch unser Wunschkind Thomas das Wahrzeichen der Hauptstadt Frankreichs.
       Denn der Herzenswunsch des an Leukämie erkrankten 10-jährigen ist einfach,
-      klipp und klar: Ich möchte nach Paris und den Eiffelturm sehen.'
+      klipp und klar: Ich möchte nach Paris und den Eiffelturm sehen."
   - slug: michael-disneyland
     childname: Michael
-    donationGoal: '3500'
+    donationGoal: "3500"
     tagline: Michael will Achterbahn fahren und Mickey Mouse sehen
     descripion: Michael scheint trotz seiner Erkrankung – er leidet am Shwachman
       Diamond Syndrom, das zu Knochenmarkversagen und zu einer verminderten
@@ -781,7 +781,7 @@ wishes:
       denen er bestimmt keine auslassen wird!
   - slug: diana-maskedsinger
     childname: Diana
-    donationGoal: '1800'
+    donationGoal: "1800"
     tagline: Diana will zum Masked Singer Finale
     descripion: Seit Anfang 2018 ist Diana immer wieder aufgrund ihrer
       Leukämie-Erkrankung im Krankenhaus. Die 7-jährige liebt alles, was mit
@@ -791,7 +791,7 @@ wishes:
       Moderatoren, wie auch das Rate-Team zu begrüßen - eigentlich gut ins Bild.
   - slug: thomas-harrypotter
     childname: Thomas
-    donationGoal: '4000'
+    donationGoal: "4000"
     tagline: Thomas will ins Harry Potter Museum nach London
     descripion: Thomas ist ein aufgeweckter, offener Junge, der uns sehr beeindruckt
       hat, wie er mit seiner Krankheit (Lymphdrüsenkrebs) umgeht und wie er mit
@@ -802,9 +802,9 @@ wishes:
       durchzuhalten.
   - slug: skadi-lastenrad
     childname: Skadi
-    donationGoal: '6500'
+    donationGoal: "6500"
     tagline: Skadi wünscht sich ein Lastenrad für Ausflüge mit der Familie
-    descripion: 'Die 8-jährige Skadi ist vom Rett-Syndrom betroffen, einer seltenen,
+    descripion: "Die 8-jährige Skadi ist vom Rett-Syndrom betroffen, einer seltenen,
       angeborenen genetischen Entwicklungsstörung, bei der die Kinder sich
       zunächst scheinbar normal entwickeln, dann aber alle Fähigkeiten (wie
       Laufen, Sprechen, Bewegungsabläufe) wieder „verlernen“.  Skadi sitzt im
@@ -813,10 +813,10 @@ wishes:
       wirkt beruhigend auf ihren Gesamtzustand. Da es für die Familie schwierig
       ist, immer mit Rollstuhl unterwegs zu sein, wünschen sie sich ein
       elekrobetriebenes Lastenfahrrad, damit Skadi überall dabei sein kann und
-      endlich ein Ausflug zum nahegelegenen Meer unkompliziert möglich ist. '
+      endlich ein Ausflug zum nahegelegenen Meer unkompliziert möglich ist. "
   - slug: luca-bauernhof
     childname: Luca
-    donationGoal: '2000'
+    donationGoal: "2000"
     tagline: Luca will am Bauernhof Tiere streicheln
     descripion: Der 5-jährige Luca liebt Tiere! Da es für ihn aus gesundheitlichen
       Gründen (infantile Zerebralparese) lange nicht möglich war, echten Tiere
@@ -826,50 +826,50 @@ wishes:
       unbedingt auch eine abenteuerliche Übernachtung geben!
   - slug: paul-schalke
     childname: Paul
-    donationGoal: '1500'
+    donationGoal: "1500"
     tagline: 'Paul: "Ich wünsche mir ein Schalke-Spiel zu besuchen"'
-    descripion: 'Der 9-jährige Paul ist ein riesiger Fußball Fan und es gibt nur
+    descripion: "Der 9-jährige Paul ist ein riesiger Fußball Fan und es gibt nur
       einen Verein für ihn: Schalke 04! Sein absoluter Star ist Torhüter Ralf
       Fährmann, den er gerne einmal persönlich kennenlernen möchte. Der an
       metastasierendem Krebs erkrankte Paul will gemeinsam mit seiner Mama ins
-      Schalke-Stadion, um dort auch ein Spiel live mitzuerleben.'
+      Schalke-Stadion, um dort auch ein Spiel live mitzuerleben."
   - slug: paraskevi-zimmer
     childname: Paraskevi
-    donationGoal: '4500'
+    donationGoal: "4500"
     tagline: Paraskevi wünscht sich ein "Natur-Zimmer"
-    descripion: 'Die 10-jährige, an schwerer Mukoviszidose erkrankte, Paraskevi
+    descripion: "Die 10-jährige, an schwerer Mukoviszidose erkrankte, Paraskevi
       wünscht sich ein ganz besonderes Room-Makeover für das Kinderzimmer, das
       sie sich mit ihrer Schwester teilt: Sie liebt Bäume, Pferde, Natur und die
       Farbe Rosa. Ihr neues Traum-Zimmer soll eine Hochebene und einen eigenen
       Bereich für Paraskevi haben, wo sie sich wie in einem Elfenwald fühlen
       kann. Auch eine Hängematte, Schaukel oder ein Hängesessel mit Natur-Look
-      und kuschelige Kissen dürfen nicht fehlen!'
+      und kuschelige Kissen dürfen nicht fehlen!"
   - slug: chloe-peppawutz
     childname: Chloe
-    donationGoal: '2500'
+    donationGoal: "2500"
     tagline: Chloe will zu Peppa Wutz im Heidepark
-    descripion: 'Für die 7-jährige Chloe gibt es nur eine Heldin: Peppa Wutz! Sie
+    descripion: "Für die 7-jährige Chloe gibt es nur eine Heldin: Peppa Wutz! Sie
       hat Peppa einfach überall: Chloes gesamtes Kinderzimmer, ihr Bett und die
       Toniebox sind alle im Peppa Wutz-Design geschmückt. Der allergrößte Traum
       des an einem seltenen Gendefekt und Epilepsie erkrankten Mädchens, ist es,
       einmal mit der ganzen Familie ins Peppa Wutz-Hotel im Heidepark zu
       übernachten und das Peppa Wutzz-Land zu entdecken. Chloe ist ein
-      nonverbales Mädchen, die jeden mit ihrer Fröhlichkeit ansteckt!'
+      nonverbales Mädchen, die jeden mit ihrer Fröhlichkeit ansteckt!"
   - slug: vincent-gokart
     childname: Vincent
-    donationGoal: '2100'
+    donationGoal: "2100"
     tagline: Vincent will mit dem GoKart durch die Gegend flitzen
-    descripion: 'Richtig schnell darf es für den nur 3 Jahre jungen Vincent voran
+    descripion: "Richtig schnell darf es für den nur 3 Jahre jungen Vincent voran
       gehen: Bei seinen Nachbarn durfte er mit einem speziellen GoKart mit
       Beifahrersitz mitfahren, was ihn derart begeistert hat, dass er sich nun
       ein eigenes GoKart wünscht, mit dem er gemeinsam mit seinem Papa durch die
       Gegend flitzen kann. Weil der an Leukämie erkrankte Vincent noch so klein
       ist, prüfen wir außerdem die Option, zusätzlich auch ein winziges Spezial
       Go-Kart für ihn selbst anfertigen zu lassen, dies ist aber noch nicht
-      sicher / bestätigt!'
+      sicher / bestätigt!"
   - slug: jan-tropicalisland
     childname: Jan
-    donationGoal: '2800'
+    donationGoal: "2800"
     tagline: 'Jan: "Ich wünsche mir einen Familienausflug ins Tropical Islands"'
     descripion: Wasserratte Jan (7) liebt es, zu Rutschen, im warmen Wasser zu
       plantschen und unter Palmen Urlaubsfeeling zu genießen – Und wo könnte man
@@ -878,9 +878,9 @@ wishes:
       Wasserparadies!
   - slug: kiara-lastenrad
     childname: Kiara
-    donationGoal: '6500'
+    donationGoal: "6500"
     tagline: Kiara will ein Lastenrad für Ausflüge mit Mama und Papa
-    descripion: 'Die mit dem Rett-Syndrom geborene Kiara ist ein nonverbales
+    descripion: "Die mit dem Rett-Syndrom geborene Kiara ist ein nonverbales
       Mädchen, die gerne in der Natur unterwegs ist und mit ihrer Familie
       Ausflüge unternimmt. Kiara wird ganz ruhig und entspannt, sobald sie im
       Wald unterwegs sein kann, weshalb sich ihre Familie ein Lastenrad
@@ -888,10 +888,10 @@ wishes:
       auch gern bei der Gestaltung des Lastenrades mitwirken möchte. Die
       9-jährige liebt Pinguine, so dass wir ihr das Lastenrad mit
       Elektro-Antrieb und klappbarem Holz-Sitz gerne gemeinsam mit ihrem Opa im
-      Pinguin-Design gestalten wollen. '
+      Pinguin-Design gestalten wollen. "
   - slug: hannah-tiere
     childname: Hannah
-    donationGoal: '2500'
+    donationGoal: "2500"
     tagline: Hannah wünscht sich einen Bauernhofurlaub mit Pferden
     descripion: Die 6-jährige Hannah ist gerade in die Schule gekommen und ist ein
       sehr ausdrucksstarkes, nonverbales Mädchen, das mit dem Rett-Syndrom zur
@@ -906,9 +906,9 @@ wishes:
       Pssst....nichts verraten bitte!
   - slug: pepe-bollerwagen
     childname: Pepe
-    donationGoal: '900'
+    donationGoal: "900"
     tagline: Ein Strand-Bollerwagen für Pepe
-    descripion: 'Sonnenschein Pepe (6) hat ein wundervolles Lächeln und kam mit
+    descripion: "Sonnenschein Pepe (6) hat ein wundervolles Lächeln und kam mit
       einem sehr schweren Herzfehler zur Welt. Er kann sich nicht selbstständig
       bewegen oder sprechen, reagiert aber auf harmonische Klänge, Farben und
       kuschelt gerne. Er mag es, in der Natur unterwegs zu sein, was aber
@@ -916,10 +916,10 @@ wishes:
       Familie möchte nach 2 Jahren zu Hause sooo gern einmal wieder ans Meer
       fahren – und Pepe soll auch mitkommen. Der Wunsch: Ein robuster,
       geländetauglicher Bollerwagen, der groß genug für Pepe und für
-      Strandausflüge geeignet ist, am besten mit Regenverdeck.'
+      Strandausflüge geeignet ist, am besten mit Regenverdeck."
   - slug: l-haengematte
     childname: L.
-    donationGoal: '1500'
+    donationGoal: "1500"
     tagline: Eine Traumschwinger Hängematte für L.
     descripion: Die 4-jährige L. kam mit sehr starken körperlichen Einschränkungen
       als eines von insgesamt 5 Geschwistern zur Welt. Sie kann sich nicht aus
@@ -931,7 +931,7 @@ wishes:
       Wunsch von Herzen gerne erfüllen wollen.
   - slug: m-strassenhunde
     childname: M.
-    donationGoal: '5000'
+    donationGoal: "5000"
     tagline: M. will den Straßenhunden auf Kreta helfen
     descripion: M‘s Herz schlägt für alle Tiere, aber ganz besonders für Hunde.  Die
       12-jährige hat selbst einen süßen Vierbeiner, den sie sehr liebt. Dass die
@@ -954,7 +954,7 @@ wishes:
 faq:
   videos:
     - url: https://www.youtube.com/embed/yYomNE5TDvU
-      name: 'Charity Royale Best of 2021 '
+      name: "Charity Royale Best of 2021 "
     - url: https://www.youtube.com/embed/6n2pAeFuhsc
       name: Charity Royale 2020 FAQs mit Veni
   questions-de:
@@ -980,13 +980,13 @@ faq:
 
         * 2022 wurde das Projekt Charity Royale zweifach ausgezeichnet: mit dem österreichischen Fundraising Award und mit dem "Goldenen Hashtag" als bestes Influencer Projekt des Landes. Dieses Jahr wird es erneut einen Monat voller Charity-Streams inkl. Final-Event by Veni geben, nur haben wir uns diesmal für den Oktober entschieden.
     - question-de: Was ist die Make-A-Wish Foundation?
-      answer-de: 'Vor 40 Jahren führte der Wunsch eines siebenjährigen krebskranken
+      answer-de: "Vor 40 Jahren führte der Wunsch eines siebenjährigen krebskranken
         Jungen, der unbedingt Polizist werden wollte, zur Gründung einer
         Foundation, die seitdem unzähligen schwerkranken Kindern weltweit das
         Leben verschönert hat: die Make-A-Wish Foundation®. Seit diesem Tag an
         schenkt die Organisation Kindern zwischen 3 und 18 Jahren und deren
         Familien Mut, Kraft und unvergessliche Momente in ihren schwersten
-        Zeiten.'
+        Zeiten."
     - question-de: Wie kann ich spenden?
       answer-de: >-
         Jeder Programmpunkt bzw. Streamer hat sich für Charity Royale 2021 einen
@@ -1034,3 +1034,4 @@ faq:
   questions-en:
     - question-en: TBA
       answer-en: TBA
+---
