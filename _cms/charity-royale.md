@@ -6,7 +6,16 @@ featuredStream: https://www.make-a-wish.at
 makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/s3eABap__xc
 customDonationLink: ""
-upcoming: []
+upcoming:
+  - date: 2022-09-25T11:08:42.771Z
+    streamerName: stev0rr
+    streamerChannel: stev0rr
+    streamLink: https://www.twitch.tv/stev0rr
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    type: MAIN
+    wishes:
+      - jonas-heeresmuseum
+      - amber-tablet
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
