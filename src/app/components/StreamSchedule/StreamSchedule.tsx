@@ -183,14 +183,14 @@ const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedule
 
 const calcDonationProgressOfWishArray = (wishes: MakeAWishRootLevelWishDTO[]) => {
 	let sum = 0
-	wishes.map((wish) => (sum += Number(wish.current_donation_sum)))
+	wishes.map((wish) => (sum += Number(wish.current_donation_sum_net)))
 	return sum
 }
 
 const calcDonationProgressOfAllWishEntries = (wishes: { [wishSlug: string]: MakeAWishStreamerWishDTO }) => {
 	let sum = 0
 	for (const [key] of Object.entries(wishes)) {
-		sum += Number(wishes[key].current_donation_sum)
+		sum += Number(wishes[key].current_donation_sum_net)
 	}
 	return sum
 }

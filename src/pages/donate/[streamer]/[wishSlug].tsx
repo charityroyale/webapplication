@@ -79,11 +79,11 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 					wishCountry = mawWishData.country
 					donationSum =
 						mawStreamerData.type === 'main'
-							? mawWishData.current_donation_sum
-							: mawWStreamerWishData.current_donation_sum
+							? mawWishData.current_donation_sum_net
+							: mawWStreamerWishData.current_donation_sum_net
 					donatorsCount = mawWStreamerWishData.current_donation_count.toLocaleString('de-DE')
 					progressPercentage = getPercentage(
-						parseFloat(mawWStreamerWishData.current_donation_sum),
+						parseFloat(mawWStreamerWishData.current_donation_sum_net),
 						parseFloat(cms.wish.donationGoal)
 					)
 				}
@@ -248,7 +248,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 
 			<StyledDonationSumWidget>
 				<DonationWidgetCount
-					current_amount={mawWStreamerWishData ? mawWStreamerWishData.current_donation_sum : '0'}
+					current_amount={mawWStreamerWishData ? mawWStreamerWishData.current_donation_sum_net : '0'}
 					donation_goal_amount={mawWStreamerWishData ? cms.wish.donationGoal : '0'}
 				/>
 			</StyledDonationSumWidget>
@@ -369,7 +369,7 @@ const getLatestDonators = (recentDonations: MakeWishInfoJsonRecentDonationDTO[])
 	latestDonatorsList = recentDonations.map((latestDonatorsDonation) => ({
 		col_1: formatDateDefault(new Date(latestDonatorsDonation.unix_timestamp * 1000)),
 		col_2: latestDonatorsDonation.username,
-		col_3: latestDonatorsDonation.amount,
+		col_3: latestDonatorsDonation.amount_net,
 	}))
 
 	// Fill remaing slots
@@ -388,7 +388,7 @@ const getHighestDonatorsList = (topDonations: MakeAWishInfoJsonTopDonationDTO[])
 	highestDonatorsList = topDonations.map((highestDonatorsDonation, i) => ({
 		col_1: getTopDonatorFirstColum(i),
 		col_2: highestDonatorsDonation.username,
-		col_3: highestDonatorsDonation.amount,
+		col_3: highestDonatorsDonation.amount_net,
 	}))
 
 	// Fill remaing slots
