@@ -43,6 +43,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	const languageContext = useContext(LanguageContext)
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 	const ipInfoContext = useContext(IpInfoProviderContext)
+	const [shouldDisplayTaxHint, setShouldDisplayTaxHint] = useState(false)
 
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
 	const isMakeAWishDataAvailable = !makeAWishDataIsError && !makeAWishDataIsLoading
@@ -63,10 +64,10 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 			: cms.streamer.streamerChannel.toLocaleLowerCase()
 	cmsStreamerSlug = cmsStreamerSlug === 'ichbinzarbex' ? 'filow' : cmsStreamerSlug
 	const cmsWishSlug = cms.wish.slug
-	const shouldDisplayTaxDeductionHint = wishCountry === 'DE' && ipInfoContext.country === 'AT'
 
 	if (isMakeAWishDataAvailable) {
 		// Check if streamer exists in MAW info json
+		wishCountry = makeAWishData.wishes[cmsWishSlug].country
 		if (hasProperty(makeAWishData.streamers, cmsStreamerSlug)) {
 			const mawStreamerData = makeAWishData.streamers[cmsStreamerSlug]
 
@@ -76,8 +77,6 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 
 				if (!Array.isArray(mawStreamerData.wishes) && hasProperty(mawStreamerData.wishes, cmsWishSlug)) {
 					mawWStreamerWishData = mawStreamerData.wishes[cmsWishSlug]
-
-					wishCountry = mawWishData.country
 					donationSum =
 						mawStreamerData.type === 'main'
 							? mawWishData.current_donation_sum_net
@@ -132,6 +131,11 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 		}
 	}, [progressPercentage])
 
+	useEffect(() => {
+		if (wishCountry === 'DE' && ipInfoContext.country === 'AT') {
+			setShouldDisplayTaxHint(true)
+		}
+	}, [wishCountry, ipInfoContext.country])
 	return (
 		<React.Fragment>
 			<Head>
@@ -225,7 +229,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 					<Text content="donationformTitle" />
 				</DonationFormHeader>
 
-				<TaxDeductionHint>{shouldDisplayTaxDeductionHint && <Text content="taxDeductionHint"></Text>}</TaxDeductionHint>
+				<TaxDeductionHint>{shouldDisplayTaxHint && <Text content="taxDeductionHint"></Text>}</TaxDeductionHint>
 
 				{iFrameLoading && <Skeleton height={'843px'} />}
 				{iFrameError && (
