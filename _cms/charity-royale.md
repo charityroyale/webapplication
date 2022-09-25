@@ -48,6 +48,14 @@ upcoming:
     type: main
     wishes:
       - luca-bauernhof
+  - date: 2022-10-07T10:00:00.000Z
+    streamerName: Krokoboss & Shredmir
+    streamLink: http://twitch.tv/shredmir
+    streamerChannel: shredmir
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    type: main
+    wishes:
+      - luca-bauernhof
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
