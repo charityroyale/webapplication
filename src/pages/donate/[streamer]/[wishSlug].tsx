@@ -61,11 +61,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 		cms.streamer.streamerChannel.toLocaleLowerCase() === 'krokoboss'
 			? 'shredmir'
 			: cms.streamer.streamerChannel.toLocaleLowerCase()
-	cmsStreamerSlug =
-		cms.streamer.streamerChannel.toLocaleLowerCase() === 'ichbinzarbex'
-			? 'filow'
-			: cms.streamer.streamerChannel.toLocaleLowerCase()
-
+	cmsStreamerSlug = cmsStreamerSlug === 'ichbinzarbex' ? 'filow' : cmsStreamerSlug
 	const cmsWishSlug = cms.wish.slug
 	const shouldDisplayTaxDeductionHint = wishCountry === 'DE' && ipInfoContext.country === 'AT'
 
