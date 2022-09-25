@@ -59,7 +59,7 @@ upcoming:
   - date: 2022-10-24T22:00:35.280Z
     streamerName: veni
     streamLink: http://twitch.tv/Veni
-    streamerChannel: Veni
+    streamerChannel: veni
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     type: main
     wishes:
