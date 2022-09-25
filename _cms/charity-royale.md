@@ -40,6 +40,14 @@ upcoming:
     wishes:
       - paul-schalke
     imgUrl: /uploads/charity_royale_rgb_300x300.png
+  - date: 2022-10-07T10:00:35.191Z
+    streamerName: " Krokoboss & Shredmir"
+    streamerChannel: krokoboss
+    streamLink: http://twitch.tv/Krokoboss
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    type: main
+    wishes:
+      - luca-bauernhof
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
