@@ -24,6 +24,14 @@ upcoming:
     type: main
     wishes:
       - pepe-bollerwagen
+  - date: 2022-10-05T18:00:37.363Z
+    streamerName: RvNxMango
+    streamLink: http://twitch.tv/RvNxMango
+    streamerChannel: rvnxmango
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    wishes:
+      - hannah-tiere
+    type: main
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
