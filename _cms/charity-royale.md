@@ -16,6 +16,14 @@ upcoming:
     wishes:
       - jonas-heeresmuseum
       - amber-tablet
+  - date: 2022-10-03T13:00:03.469Z
+    streamerName: LetsHugo
+    streamLink: https://www.twitch.tv/LetsHugoTV
+    streamerChannel: letshugotv
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    type: main
+    wishes:
+      - pepe-bollerwagen
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
