@@ -7,7 +7,7 @@ makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/s3eABap__xc
 customDonationLink: ""
 upcoming:
-  - date: 2022-09-25T11:08:42.771Z
+  - date: 2022-10-02T07:00:00.000Z
     streamerName: stev0rr
     streamerChannel: stev0rr
     streamLink: https://www.twitch.tv/stev0rr
