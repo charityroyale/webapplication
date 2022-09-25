@@ -32,6 +32,14 @@ upcoming:
     wishes:
       - hannah-tiere
     type: main
+  - date: 2022-10-06T14:00:47.334Z
+    streamLink: http://twitch.tv/christensenlol
+    streamerChannel: christensenlol
+    streamerName: Christensen
+    type: main
+    wishes:
+      - paul-schalke
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
