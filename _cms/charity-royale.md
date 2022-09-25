@@ -56,7 +56,7 @@ upcoming:
     type: main
     wishes:
       - luca-bauernhof
-  - date: 2022-09-25T11:56:35.388Z
+  - date: 2022-09-18T11:58:35.636Z
     streamerName: veni
     streamLink: http://twitch.tv/Veni
     streamerChannel: veni
