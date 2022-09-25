@@ -65,6 +65,7 @@ upcoming:
     wishes:
       - m-strassenhunde
       - tobias-huehnerstall
+      - luca-bauernhof
 wishes:
   - slug: emelia-iphone
     tagline: Ein weißes iPhone 12 – weil es die schönsten Bilder macht
