@@ -12,7 +12,7 @@ upcoming:
     streamerChannel: stev0rr
     streamLink: https://www.twitch.tv/stev0rr
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-    type: MAIN
+    type: main
     wishes:
       - jonas-heeresmuseum
       - amber-tablet
