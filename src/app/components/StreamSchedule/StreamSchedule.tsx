@@ -87,7 +87,7 @@ const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedule
 			const mawStreamerData = makeAWishData.streamers[stream.streamerChannel]
 
 			// calc donation progress
-			if (rootLevelWishesForStreamer[0] && mawStreamerData.wishes && stream.wishes[0]) {
+			if (mawStreamerData && rootLevelWishesForStreamer[0] && mawStreamerData.wishes && stream.wishes[0]) {
 				if (mawStreamerData.type === 'main') {
 					donationProgess = calcDonationProgressOfWishArray(rootLevelWishesForStreamer).toString()
 				} else if (!Array.isArray(mawStreamerData.wishes)) {
