@@ -167,6 +167,25 @@ upcoming:
     type: main
     wishes:
       - michael-disneyland
+  - date: 2022-10-20T15:00:12.307Z
+    streamerName: FeelFifa
+    streamerChannel: feelfifaandgamingtv
+    streamLink: https://twitch.tv/feelfifaandgamingtv
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - dana-jugendzimmer
+  - date: 2022-10-21T10:00:22.120Z
+    streamerName: Dhalucard
+    streamerChannel: dhalucard
+    streamLink: https://twitch.tv/Dhalucard
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - bastian-disneyland
+      - kiara-lastenrad
+      - c-jugendzimmer
+      - paraskevi-zimmer
   - date: 2022-10-25T10:00:40.010Z
     streamerName: Veni
     streamLink: http://twitch.tv/Veni
