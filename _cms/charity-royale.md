@@ -229,6 +229,14 @@ upcoming:
     wishes:
       - m-strassenhunde
       - tobias-huehnerstall
+  - date: 2022-10-08T07:00:39.820Z
+    streamerName: SebiSgo
+    streamerChannel: sebisgo
+    streamLink: https://twitch.tv/sebisgo
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland
 wishes:
   - slug: patrick-heidelbeeren
     tagline: TEST - Patrick's Heidelbeern
