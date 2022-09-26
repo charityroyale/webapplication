@@ -26,4 +26,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: SYNC CMS CONTENT
         run: |
-          curl -X POST https://charityroyale.backend.redcouch.at/sync/cms -H "Authorization: Bearer ${{ API_ACCESS_TOKEN }}" -d @_cms/charity-royale.md
+          curl -X POST https://charityroyale.backend.redcouch.at/sync/cms -H "Authorization: Bearer ${{ secrets.API_ACCESS_TOKEN }}" -d @_cms/charity-royale.md
