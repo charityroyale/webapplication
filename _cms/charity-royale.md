@@ -127,6 +127,46 @@ upcoming:
     type: main
     wishes:
       - alexander-zoo
+  - date: 2022-10-15T13:00:52.217Z
+    streamerName: MrsXeniaTV
+    streamerChannel: mrsxeniatv
+    streamLink: https://twitch.tv/MrsXeniaTV
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - vincent-gokart
+  - date: 2022-10-16T12:00:06.970Z
+    streamerName: CastCrafter
+    streamerChannel: castcrafter
+    streamLink: https://twitch.tv/CastCrafter
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - thomas-harrypotter
+  - date: 2022-10-17T07:00:08.380Z
+    streamerName: xHankyy
+    streamerChannel: xhankyy
+    streamLink: https://twitch.tv/xhankyy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - chloe-peppawutz
+  - date: 2022-10-18T16:00:10.615Z
+    streamerName: StarletNova
+    streamerChannel: starletnova
+    streamLink: https://twitch.tv/StarletNova
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - skadi-lastenrad
+  - date: 2022-10-19T10:00:17.715Z
+    streamerName: Rumathra
+    streamerChannel: rumathra
+    streamLink: https://twitch.tv/Rumathra
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - michael-disneyland
   - date: 2022-10-25T10:00:40.010Z
     streamerName: Veni
     streamLink: http://twitch.tv/Veni
