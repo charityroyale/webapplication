@@ -103,6 +103,30 @@ upcoming:
     type: main
     wishes:
       - diana-maskedsinger
+  - date: 2022-10-12T15:00:29.980Z
+    streamerName: thiseguy
+    streamerChannel: thiseguy
+    streamLink: http://twitch.tv/thiseguy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - niklas-london
+  - date: 2022-10-13T17:00:23.954Z
+    streamerName: Mahluna
+    streamerChannel: mahluna
+    streamLink: https://twitch.tv/Mahluna
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - ismael-meer
+  - date: 2022-10-14T17:00:08.305Z
+    streamerName: Clym
+    streamerChannel: clym
+    streamLink: https://twitch.tv/Clym
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - alexander-zoo
   - date: 2022-10-25T10:00:40.010Z
     streamerName: Veni
     streamLink: http://twitch.tv/Veni
