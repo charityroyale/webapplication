@@ -518,7 +518,7 @@ wishes:
   - slug: f-ipad
     childname: F.
     donationGoal: "1100"
-    tagline: Ein I-Pad für die leidenschaftliche Malerin
+    tagline: Ein iPad für die leidenschaftliche Malerin
     descripion: F., die anonym bleiben möchte, ist ein tapferes junges Mädchen, das
       an Leukämie erkrankt ist.  Seit sie denken kann, liebt es die 13-jährige
       zu malen und sich kreativ auszuleben. Da es mit ihrer Leukämie-Erkrankung
