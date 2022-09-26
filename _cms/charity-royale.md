@@ -186,6 +186,40 @@ upcoming:
       - kiara-lastenrad
       - c-jugendzimmer
       - paraskevi-zimmer
+  - date: 2022-10-22T08:00:19.592Z
+    streamerName: Rax
+    streamerChannel: rax1337
+    streamLink: http://twitch.tv/rax1337
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - f-ipad
+  - date: 2022-10-23T10:00:12.808Z
+    streamerName: NQRMVN
+    streamerChannel: nqrmvn
+    streamLink: https://twitch.tv/NQRMVN
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - thomas-eiffelturm
+  - date: 2022-10-24T10:00:07.148Z
+    streamerName: Filow & Zarbex
+    streamerChannel: filow
+    streamLink: http://twitch.tv/filow
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - jonas-heeresmuseum
+      - amber-tablet
+  - date: 2022-10-24T10:00:00.000Z
+    streamerName: Filow & Zarbex
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - jonas-heeresmuseum
+      - amber-tablet
+    streamLink: https://twitch.tv/ichbinzarbex
+    streamerChannel: ichbinzarbex
   - date: 2022-10-25T10:00:40.010Z
     streamerName: Veni
     streamLink: http://twitch.tv/Veni
