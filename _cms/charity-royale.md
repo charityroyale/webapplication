@@ -71,6 +71,38 @@ upcoming:
     type: main
     wishes:
       - luca-bauernhof
+  - date: 2022-10-08T10:00:16.616Z
+    streamerName: BastiGHG
+    streamerChannel: bastighg
+    streamLink: https://twitch.tv/BastiGHG
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - hanna-la
+  - date: 2022-10-09T10:00:41.350Z
+    streamerName: Veyla
+    streamerChannel: veyla
+    streamLink: https://twitch.tv/Veyla
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - celina-harrypotter
+  - date: 2022-10-10T15:00:09.498Z
+    streamerName: Sintica
+    streamerChannel: sintica
+    streamLink: https://twitch.tv/Sintica
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - tobias-strand
+  - date: 2022-10-11T12:00:23.507Z
+    streamerName: Stegi
+    streamerChannel: stegi
+    streamLink: http://twitch.tv/Stegi
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - diana-maskedsinger
   - date: 2022-10-25T10:00:40.010Z
     streamerName: Veni
     streamLink: http://twitch.tv/Veni
