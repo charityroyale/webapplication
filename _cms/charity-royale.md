@@ -228,7 +228,6 @@ upcoming:
     type: main
     wishes:
       - m-strassenhunde
-      - tobias-huehnerstall
   - date: 2022-10-08T07:00:39.820Z
     streamerName: SebiSgo
     streamerChannel: sebisgo
