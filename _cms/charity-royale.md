@@ -751,10 +751,10 @@ wishes:
       worauf sie besonders stolz ist.
 faq:
   videos:
-    - url: https://www.youtube.com/embed/yYomNE5TDvU
-      name: "Charity Royale Best of 2021 "
-    - url: https://www.youtube.com/embed/6n2pAeFuhsc
-      name: Charity Royale 2020 FAQs mit Veni
+    - url: https://www.youtube.com/embed/s3eABap__xc
+      name: Best of Charity Royale 2021
+    - url: https://www.youtube.com/embed/vU2ptSb66FE
+      name: FAQs by Veni - Charity Royale 2022
   questions-de:
     - question-de: Was ist Charity Royale?
       answer-de: >-
@@ -824,11 +824,12 @@ faq:
     - question-de: Wo wird meine Spendennachricht angezeigt?
       answer-de: Deine Spendennachricht wird als Alert im jeweiligen Live-Stream
         automatisch angezeigt.
-    - question-de: Kann ich auch für Charity Royale 2021 Spenden sammeln?
-      answer-de: Nach vielfachen Anfragen im Jahr 2020 haben wir für dieses Jahr die
-        Möglichkeit geschaffen, auch weiteren Streamern zu ermöglichen bei
-        Charity Royale dabei zu sein. Füll dafür einfach [dieses
-        Bewerbungsformular](https://forms.gle/tjqtduMpVhRpPDXx5) aus.
+    - question-de: Kann ich auch für Charity Royale 2022 Spenden sammeln?
+      answer-de: N﻿ach vielfachen Anfragen haben wir auch dieses Jahr die Möglichkeite
+        geschaffen, dass auch Community-Streamer:innen bei Charity Royale für
+        den guten Zweck sammeln. Füll dafür einfach [dieses
+        Bewerbungsformular](https://docs.google.com/forms/d/e/1FAIpQLScyZ6rlSOPhhOhjZrHD6VKtInWC53n4e1MphP_Eu7BPhBv_uw/viewform?pli=1)
+        aus.
   questions-en:
     - question-en: TBA
       answer-en: TBA
