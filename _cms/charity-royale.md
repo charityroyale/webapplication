@@ -87,7 +87,7 @@ upcoming:
     type: main
     wishes:
       - celina-harrypotter
-  - date: 2022-10-10T15:00:09.498Z
+  - date: 2022-10-10T16:00:09.498Z
     streamerName: Sintica
     streamerChannel: sintica
     streamLink: https://twitch.tv/Sintica
@@ -103,7 +103,7 @@ upcoming:
     type: main
     wishes:
       - diana-maskedsinger
-  - date: 2022-10-12T15:00:29.980Z
+  - date: 2022-10-12T16:00:29.980Z
     streamerName: thiseguy
     streamerChannel: thiseguy
     streamLink: http://twitch.tv/thiseguy
