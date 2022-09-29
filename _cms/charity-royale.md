@@ -22,7 +22,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     type: main
     wishes:
-      - fabian-switch
+      - l-haengematte
   - date: 2022-10-03T13:00:03.469Z
     streamerName: LetsHugo
     streamLink: https://www.twitch.tv/LetsHugoTV
@@ -54,7 +54,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - l-haengematte
+      - fabian-switch
   - date: 2022-10-07T10:00:35.191Z
     streamerName: " Krokoboss & Shredmir"
     streamerChannel: krokoboss
