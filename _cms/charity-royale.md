@@ -245,6 +245,14 @@ upcoming:
     type: community
     wishes:
       - legoland-1
+  - date: 2022-10-15T09:00:08.350Z
+    streamerName: s0ulrider
+    streamerChannel: s0ulrider
+    streamLink: https://www.twitch.tv/s0ulrider
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin
 wishes:
   - slug: patrick-heidelbeeren
     tagline: TEST - Patrick's Heidelbeern
