@@ -237,6 +237,14 @@ upcoming:
     type: community
     wishes:
       - legoland
+  - date: 2022-10-21T10:00:03.714Z
+    streamerName: Faister
+    streamerChannel: faisterino
+    streamLink: https://www.twitch.tv/faisterino
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-1
 wishes:
   - slug: patrick-heidelbeeren
     tagline: TEST - Patrick's Heidelbeern
@@ -275,6 +283,17 @@ wishes:
       unbeschwerte Zeit mit seiner Familie zu ermöglichen."
     childname: Wunschkind
     slug: legoland
+    donationGoal: "500"
+  - slug: legoland-1
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
     donationGoal: "500"
   - donationGoal: "500"
     tagline: Meet & Greet mit YouTuber
