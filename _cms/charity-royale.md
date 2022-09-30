@@ -4,7 +4,7 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: vlesk/saniel-computer
 makeAWishProjects: []
-featuredYoutubeStream: https://www.youtube.com/embed/s3eABap__xc
+featuredYoutubeStream: https://www.youtube.com/embed/KlZPf_FEL_Y
 customDonationLink: ""
 upcoming:
   - date: 2022-10-01T13:00:00.000Z
@@ -253,6 +253,14 @@ upcoming:
     type: community
     wishes:
       - prinzessin
+  - date: 2022-10-22T10:00:44.318Z
+    streamerName: BinAngi
+    streamerChannel: binangi
+    streamLink: https://www.twitch.tv/BinAngi
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin-1
 wishes:
   - slug: patrick-heidelbeeren
     tagline: TEST - Patrick's Heidelbeern
@@ -281,6 +289,17 @@ wishes:
       Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
       Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
       Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
+  - slug: prinzessin-1
+    tagline: Einen Tag Prinzessin sein
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Einen Tag lang Prinzessin sein! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
+      Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
+    donationGoal: "500"
   - tagline: Eine Reise ins Legoland
     descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
