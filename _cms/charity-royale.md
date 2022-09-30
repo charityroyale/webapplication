@@ -39,7 +39,7 @@ upcoming:
     wishes:
       - paul-schalke
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-  - date: 2022-10-05T15:00:00.000Z
+  - date: 2022-10-05T13:00:00.000Z
     streamerName: RvNxMango
     streamLink: http://twitch.tv/RvNxMango
     streamerChannel: rvnxmango
