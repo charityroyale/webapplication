@@ -15,6 +15,7 @@ upcoming:
     type: main
     wishes:
       - saniel-computer
+      - jan-tropicalisland
   - date: 2022-10-02T07:00:00.000Z
     streamerName: stev0rr
     streamerChannel: stev0rr
