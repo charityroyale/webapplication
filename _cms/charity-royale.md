@@ -719,7 +719,7 @@ wishes:
     descripion: Wasserratte Jan (7) liebt es, zu Rutschen, im warmen Wasser zu
       plantschen und unter Palmen Urlaubsfeeling zu genießen – Und wo könnte man
       das besser als im Tropical Islands bei Berlin? Der an Leukämie erkrankte
-      Vincent wünscht sich einen Wochenend-Ausflug mit der gesamten Familie ins
+      Jan wünscht sich einen Wochenend-Ausflug mit der gesamten Familie ins
       Wasserparadies!
   - slug: kiara-lastenrad
     childname: Kiara
