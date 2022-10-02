@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: stev0rr/l-haengematte
+featuredStream: henke/fabian-switch
 makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/KlZPf_FEL_Y
 customDonationLink: ""
@@ -24,14 +24,14 @@ upcoming:
     type: main
     wishes:
       - l-haengematte
-  - date: 2022-10-03T13:00:03.469Z
-    streamerName: LetsHugo
-    streamLink: https://www.twitch.tv/LetsHugoTV
-    streamerChannel: letshugotv
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
+  - date: 2022-10-03T15:00:32.086Z
+    streamerName: Henke
+    streamerChannel: henke
+    streamLink: https://twitch.tv/Henke
+    imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - pepe-bollerwagen
+      - fabian-switch
   - date: 2022-10-04T14:00:47.334Z
     streamLink: http://twitch.tv/christensenlol
     streamerChannel: christensenlol
@@ -48,14 +48,14 @@ upcoming:
     wishes:
       - hannah-tiere
     type: main
-  - date: 2022-10-06T15:00:32.086Z
-    streamerName: Henke
-    streamerChannel: henke
-    streamLink: https://twitch.tv/Henke
-    imgUrl: /uploads/charity_royale_rgb.png
+  - date: 2022-10-06T13:00:03.469Z
+    streamerName: LetsHugo
+    streamLink: https://www.twitch.tv/LetsHugoTV
+    streamerChannel: letshugotv
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
     type: main
     wishes:
-      - fabian-switch
+      - pepe-bollerwagen
   - date: 2022-10-07T10:00:35.191Z
     streamerName: " Krokoboss & Shredmir"
     streamerChannel: krokoboss
