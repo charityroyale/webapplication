@@ -24,7 +24,7 @@ upcoming:
     type: main
     wishes:
       - l-haengematte
-  - date: 2022-10-03T15:00:32.086Z
+  - date: 2022-10-03T11:30:32.086Z
     streamerName: Henke
     streamerChannel: henke
     streamLink: https://twitch.tv/Henke
