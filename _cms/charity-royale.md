@@ -791,7 +791,7 @@ wishes:
       Herzenswunsch voll Freude und Überzeugung präsentierte. Das tierliebe
       Mädchen weiß auch schon, in welcher Pension sie wohnen möchte, da die
       Familie bereits einmal dort gewohnt hat und diese Unterkunft alle
-      medizinischen Voraussetzungen für Maya erfüllt. M hat auch noch jede Menge
+      medizinischen Voraussetzungen für sie erfüllt. M hat auch noch jede Menge
       anderer Hobbies. So bastelt sie gerne, ist kreativ und sehr sportlich –
       soweit es ihre Krankheit erlaubt. Sie ist Mitglied einer Cheerdance-Gruppe
       und durfte mit dieser heuer auch das erste Mal auch im Ausland auftreten,
