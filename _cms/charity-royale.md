@@ -4,7 +4,7 @@ title: Charity Royale ðŸ‘‘ Der Charity-Stream Marathon von Veni und willhaben fÃ
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: henke/fabian-switch
 makeAWishProjects: []
-featuredYoutubeStream: https://www.youtube.com/embed/KlZPf_FEL_Y
+featuredYoutubeStream: ""
 customDonationLink: ""
 upcoming:
   - date: 2022-10-01T13:00:00.000Z
