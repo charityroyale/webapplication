@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish!
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: christensen/paul-schalke
+featuredStream: christensenlol/paul-schalke
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -39,6 +39,7 @@ upcoming:
     type: main
     wishes:
       - paul-schalke
+      - fabian-switch
     imgUrl: /uploads/charity_royale_rgb_300x300.png
   - date: 2022-10-05T13:00:00.000Z
     streamerName: RvNxMango
