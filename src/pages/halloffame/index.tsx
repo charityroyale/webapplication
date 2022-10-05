@@ -50,6 +50,9 @@ const HallOfFamePage: NextPage<InitialHallOfFameProps> = ({ donors }: InitialHal
 			</Head>
 			<DonorsWrapper>
 				{currentDonors.map((donor, i) => {
+					if (donor.username === 'Anonym') {
+						donor.username = donor.username + i
+					}
 					return <span key={donor.username + i}>{donor.username}, </span>
 				})}
 			</DonorsWrapper>
