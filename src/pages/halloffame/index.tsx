@@ -1,21 +1,26 @@
 import { NextPage, GetStaticProps } from 'next'
 import Head from 'next/head'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { Donor, DonorsResponse, useDonors } from '../../app/hooks/useDonors'
 import MainLayout from '../../app/layouts/MainLayout'
 import PageWithLayoutType from '../../app/types/PageWithLayout'
 import { makeAWishAPI } from '../../config'
 import { styled } from '../../styles/Theme'
-
-interface Donor {
-	username: string
-	amount_net: string
-}
 
 interface InitialHallOfFameProps {
 	donors: Donor[]
 }
 
 const HallOfFamePage: NextPage<InitialHallOfFameProps> = ({ donors }: InitialHallOfFameProps) => {
+	const { donors: fromUseDonors, isLoadingDonors, isLoadingError } = useDonors()
+	const [currentDonors, setCurrentDonors] = useState(donors)
+
+	useEffect(() => {
+		if (!isLoadingError && !isLoadingDonors && fromUseDonors.donors) {
+			setCurrentDonors(fromUseDonors.donors)
+		}
+	}, [fromUseDonors, isLoadingDonors, isLoadingError])
+
 	return (
 		<>
 			<Head>
@@ -44,7 +49,7 @@ const HallOfFamePage: NextPage<InitialHallOfFameProps> = ({ donors }: InitialHal
 				/>
 			</Head>
 			<DonorsWrapper>
-				{donors.map((donor, i) => {
+				{currentDonors.map((donor, i) => {
 					return <span key={donor.username + i}>{donor.username}, </span>
 				})}
 			</DonorsWrapper>
@@ -59,12 +64,6 @@ const DonorsWrapper = styled.div`
 	margin: auto;
 	line-height: 1.5;
 `
-
-interface DonorsResponse {
-	id: string
-	lade_update: number
-	donors: Donor[]
-}
 
 export const getStaticProps: GetStaticProps<InitialHallOfFameProps> = async () => {
 	try {
