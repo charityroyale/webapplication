@@ -139,7 +139,7 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	return (
 		<React.Fragment>
 			<Head>
-				<title>Charity Royale - {cms.streamer.streamerName}</title>
+				<title>Charity Royale | {cms.streamer.streamerName}</title>
 				<link
 					rel="preload"
 					as="document"
