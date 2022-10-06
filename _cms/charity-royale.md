@@ -242,7 +242,7 @@ upcoming:
   - date: 2022-10-10T10:00:08.008Z
     streamerName: xMrCr4zy
     streamerChannel: xmrcr4zy
-    streamLink: www.twitch.tv/xmrcr4zy
+    streamLink: https://www.twitch.tv/xmrcr4zy
     imgUrl: /uploads/charity_royale_rgb.png
     type: community
     wishes:
