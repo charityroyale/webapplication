@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish!
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: rvnxmango/hannah-tiere
+featuredStream: letshugotv/pepe-bollerwagen
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -239,14 +239,14 @@ upcoming:
     type: community
     wishes:
       - legoland
-  - date: 2022-10-21T10:00:03.714Z
-    streamerName: Faister
-    streamerChannel: faisterino
-    streamLink: https://www.twitch.tv/faisterino
+  - date: 2022-10-11T13:00:21.383Z
+    streamerName: Wertuzio
+    streamerChannel: wertuzio_
+    streamLink: https://www.twitch.tv/wertuzio_
     imgUrl: /uploads/charity_royale_rgb.png
     type: community
     wishes:
-      - legoland-1
+      - prinzessin-3
   - date: 2022-10-15T09:00:08.350Z
     streamerName: s0ulrider
     streamerChannel: s0ulrider
@@ -255,6 +255,22 @@ upcoming:
     type: community
     wishes:
       - prinzessin
+  - date: 2022-10-17T15:30:34.277Z
+    streamerName: Hinotori
+    streamerChannel: hinotori_tv
+    streamLink: https://www.twitch.tv/hinotori_tv
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-2
+  - date: 2022-10-21T10:00:03.714Z
+    streamerName: Faister
+    streamerChannel: faisterino
+    streamLink: https://www.twitch.tv/faisterino
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-1
   - date: 2022-10-22T10:00:44.318Z
     streamerName: BinAngi
     streamerChannel: binangi
@@ -302,6 +318,17 @@ wishes:
       Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
       Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
     donationGoal: "500"
+  - slug: prinzessin-2
+    tagline: Einen Tag Prinzessin sein
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Einen Tag lang Prinzessin sein! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
+      Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
+    donationGoal: "500"
   - tagline: Eine Reise ins Legoland
     descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
@@ -314,6 +341,17 @@ wishes:
     slug: legoland
     donationGoal: "500"
   - slug: legoland-1
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-2
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
