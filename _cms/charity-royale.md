@@ -82,6 +82,8 @@ upcoming:
     wishes:
       - hanna-la
       - hannah-tiere
+      - fabian-switch
+      - l-haengematte
   - date: 2022-10-09T10:00:41.350Z
     streamerName: Veyla
     streamerChannel: veyla
