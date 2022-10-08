@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish!
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: bastighg/hanna-la
+featuredStream: bastighg/hannah-tiere
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -81,6 +81,7 @@ upcoming:
     type: main
     wishes:
       - hanna-la
+      - hannah-tiere
   - date: 2022-10-09T10:00:41.350Z
     streamerName: Veyla
     streamerChannel: veyla
