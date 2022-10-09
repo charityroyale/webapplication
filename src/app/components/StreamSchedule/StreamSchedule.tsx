@@ -12,7 +12,7 @@ import { CmsUpcomingStreamer, StreamerType } from '../../cms/cms'
 import UpcomingStream from './UpcomingStream'
 import { Text } from '../Text'
 import { styled } from '../../../styles/Theme'
-import { sortByDateString } from '../../utils/commonUtils'
+import { isDuoStreamer, sortByDateString } from '../../utils/commonUtils'
 import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../dto/MakeAWishDTOs'
 import { CmsSchedulesType } from '../../../pages'
 
@@ -88,11 +88,15 @@ const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedule
 
 			// calc donation progress
 			if (mawStreamerData && rootLevelWishesForStreamer[0] && mawStreamerData.wishes && stream.wishes[0]) {
-				if (mawStreamerData.type === 'main') {
+				// whitelist of accumulated total donations per project
+				if (isDuoStreamer(stream.streamerChannel)) {
+					// total sum of donations for a wish
 					donationProgess = calcDonationProgressOfWishArray(rootLevelWishesForStreamer).toString()
+					// streamer specific accumulated donations
 				} else if (!Array.isArray(mawStreamerData.wishes)) {
 					donationProgess = calcDonationProgressOfAllWishEntries(mawStreamerData.wishes).toString()
 				} else {
+					// fallback
 					donationProgess = '0'
 				}
 			}

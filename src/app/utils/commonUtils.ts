@@ -112,3 +112,8 @@ export const customMediaQuery = (minWidth: number, maxWidth: number) =>
 export const hasProperty = (obj: Record<string, unknown>, key: string) => {
 	return Object.prototype.hasOwnProperty.call(obj, key)
 }
+
+const duoStreamers = ['krokoboss', 'shredmir', 'ichbinzarbex', '']
+export const isDuoStreamer = (streamer: string) => {
+	return duoStreamers.includes(streamer.toLowerCase())
+}
