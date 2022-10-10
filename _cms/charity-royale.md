@@ -340,6 +340,17 @@ wishes:
       Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
       Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
     donationGoal: "500"
+  - descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Einen Tag lang Prinzessin sein! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
+      Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
+    slug: prinzessin-3
+    donationGoal: "500"
+    tagline: Einen Tag Prinzessin sein
+    childname: Wunschkind
   - tagline: Eine Reise ins Legoland
     descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
@@ -857,17 +868,6 @@ wishes:
       soweit es ihre Krankheit erlaubt. Sie ist Mitglied einer Cheerdance-Gruppe
       und durfte mit dieser heuer auch das erste Mal auch im Ausland auftreten,
       worauf sie besonders stolz ist.
-  - descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
-      wenden: Einen Tag lang Prinzessin sein! Einige Kinder möchten aber nicht
-      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
-      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
-      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
-      Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
-      Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
-    slug: prinzessin-3
-    donationGoal: "500"
-    tagline: Einen Tag Prinzessin sein
-    childname: Wunschkind
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
