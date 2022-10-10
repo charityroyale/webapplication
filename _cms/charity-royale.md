@@ -257,7 +257,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: community
     wishes:
-      - prinzessin-3
+      - prinzessin-2
   - date: 2022-10-15T09:00:08.350Z
     streamerName: s0ulrider
     streamerChannel: s0ulrider
