@@ -250,7 +250,7 @@ upcoming:
     type: community
     wishes:
       - legoland-3
-  - date: 2022-10-11T13:00:21.383Z
+  - date: 2022-10-11T14:30:48.429Z
     streamerName: Wertuzio
     streamerChannel: wertuzio_
     streamLink: https://www.twitch.tv/wertuzio_
