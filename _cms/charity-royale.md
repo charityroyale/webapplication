@@ -173,9 +173,9 @@ upcoming:
     wishes:
       - michael-disneyland
   - date: 2022-10-20T15:00:12.307Z
-    streamerName: FeelFifa
-    streamerChannel: feelfifaandgamingtv
-    streamLink: https://twitch.tv/feelfifaandgamingtv
+    streamerName: Ernesto
+    streamerChannel: ernesto
+    streamLink: https://twitch.tv/ernesto
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
