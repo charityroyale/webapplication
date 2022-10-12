@@ -266,6 +266,14 @@ upcoming:
     type: community
     wishes:
       - prinzessin
+  - date: 2022-10-16T09:00:34.452Z
+    streamerName: JessydeLua
+    streamerChannel: jessydelua
+    streamLink: https://www.twitch.tv/jessydelua
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-4
   - date: 2022-10-17T15:30:34.277Z
     streamerName: Hinotori
     streamerChannel: hinotori_tv
