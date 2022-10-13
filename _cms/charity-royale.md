@@ -214,15 +214,15 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - jonas-heeresmuseum
       - amber-tablet
+      - jonas-heeresmuseum
   - date: 2022-10-24T10:00:00.000Z
     streamerName: Filow & Zarbex
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - jonas-heeresmuseum
       - amber-tablet
+      - jonas-heeresmuseum
     streamLink: https://twitch.tv/ichbinzarbex
     streamerChannel: ichbinzarbex
   - date: 2022-10-25T10:00:40.010Z
@@ -887,6 +887,24 @@ wishes:
       soweit es ihre Krankheit erlaubt. Sie ist Mitglied einer Cheerdance-Gruppe
       und durfte mit dieser heuer auch das erste Mal auch im Ausland auftreten,
       worauf sie besonders stolz ist.
+  - slug: barbara-tierquartier
+    tagline: Ein Praktikum im Tierquartier für Barbara
+    childname: Barbara
+    descripion: "Barbara ist 18 Jahre alt und eine große Tierliebhaberin. Ihr
+      größter Wunsch war es, einmal für eine ganze Woche in Wien im
+      TierQuartier  arbeiten zu können. Anfang September konnte sie dort eine
+      wundervolle Zeit verbringen und die Erfüllung ihres Herzenswunsches so
+      richtig genießen. Da zu diesem Zeitpunkt ein Konzert von Ed Sheeran in
+      Wien stattfand, wurde die Praktikumswoche von Barbara auch entsprechend
+      geplant. Auch die Unterbringung wird Barbara wahrscheinlich ewig in
+      Erinnerung bleiben, denn sie durfte im Hotel Ritz wohnen, das selbst keine
+      Mühen scheute, um der am Ewing Sarkom-Erkrankten (Knochen-Tumor) ihren
+      Aufenthalt in Wien so schön und unvergesslich wie möglich zu gestalten:
+      Neben einem Welcome-Package durfte Barbara mit dem Hotelhund spazieren
+      gehen – eine ganz besondere Zeit für die Tierliebhaberin, für die es
+      nichts Schöneres gibt, als mit Hunden, Katzen und allen möglichen anderen
+      Tieren Zeit zu verbringen."
+    donationGoal: "600"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
