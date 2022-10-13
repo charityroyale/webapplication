@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: thiseguy/niklas-london
+featuredStream: mahluna/ismael-meer
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -298,6 +298,14 @@ upcoming:
     type: community
     wishes:
       - prinzessin-1
+  - date: 2022-10-13T08:26:23.019Z
+    streamerName: Fr0zenNoah
+    streamerChannel: Fr0zenNoahAT
+    streamLink: https://www.twitch.tv/fr0zennoahat
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-5
 wishes:
   - slug: patrick-heidelbeeren
     tagline: TEST - Patrick's Heidelbeern
@@ -404,6 +412,17 @@ wishes:
       unbeschwerte Zeit mit seiner Familie zu ermöglichen."
     donationGoal: "500"
   - slug: legoland-4
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-5
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
