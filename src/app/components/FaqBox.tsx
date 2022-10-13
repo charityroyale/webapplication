@@ -83,7 +83,7 @@ const ButtonsBox: React.FunctionComponent = () => {
 	return (
 		<ButtonsGrid>
 			<ButtonItemWrapper>
-				<Button href="https://forms.gle/CaD92CTY4vKc9qtN9" target="_blank">
+				<Button href="https://dermerchshop.com/collections/charity-royale" target="_blank">
 					<Text content="applyAsStreamerCTA" />
 				</Button>
 			</ButtonItemWrapper>
