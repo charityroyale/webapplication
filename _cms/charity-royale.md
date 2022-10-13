@@ -298,9 +298,9 @@ upcoming:
     type: community
     wishes:
       - prinzessin-1
-  - date: 2022-10-13T08:26:23.019Z
-    streamerName: Fr0zenNoah
-    streamerChannel: Fr0zenNoahAT
+  - date: 2022-10-23T10:00:23.019Z
+    streamerName: Fr0zenNoahAT
+    streamerChannel: fr0zennoahat
     streamLink: https://www.twitch.tv/fr0zennoahat
     imgUrl: /uploads/charity_royale_rgb.png
     type: community
