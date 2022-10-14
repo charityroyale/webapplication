@@ -2,9 +2,9 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: mahluna/ismael-meer
+featuredStream: clym/alexander-zoo
 makeAWishProjects: []
-featuredYoutubeStream: https://www.youtube.com/embed/KlZPf_FEL_Y
+featuredYoutubeStream: ""
 customDonationLink: ""
 upcoming:
   - date: 2022-10-01T13:00:00.000Z
