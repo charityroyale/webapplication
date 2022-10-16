@@ -150,7 +150,7 @@ upcoming:
     type: main
     wishes:
       - thomas-harrypotter
-  - date: 2022-10-17T07:00:08.380Z
+  - date: 2022-10-17T08:30:08.380Z
     streamerName: xHankyy
     streamerChannel: xhankyy
     streamLink: https://twitch.tv/xhankyy
