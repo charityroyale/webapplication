@@ -57,6 +57,7 @@ upcoming:
     type: main
     wishes:
       - pepe-bollerwagen
+      - jonas-heeresmuseum
   - date: 2022-10-07T10:00:35.191Z
     streamerName: " Krokoboss & Shredmir"
     streamerChannel: krokoboss
@@ -217,14 +218,12 @@ upcoming:
     type: main
     wishes:
       - amber-tablet
-      - jonas-heeresmuseum
   - date: 2022-10-24T10:00:00.000Z
     streamerName: Filow & Zarbex
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
       - amber-tablet
-      - jonas-heeresmuseum
     streamLink: https://twitch.tv/ichbinzarbex
     streamerChannel: ichbinzarbex
   - date: 2022-10-25T10:00:40.010Z
