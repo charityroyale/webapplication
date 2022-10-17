@@ -190,10 +190,10 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - bastian-disneyland
       - kiara-lastenrad
-      - c-jugendzimmer
       - paraskevi-zimmer
+      - bastian-disneyland
+      - c-jugendzimmer
   - date: 2022-10-22T08:00:19.592Z
     streamerName: Rax
     streamerChannel: rax1337
