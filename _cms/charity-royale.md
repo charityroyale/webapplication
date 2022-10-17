@@ -1021,7 +1021,8 @@ faq:
     - question-de: Kann ich auch für Charity Royale 2022 Spenden sammeln?
       answer-de: N﻿ach vielfachen Anfragen haben wir auch dieses Jahr die Möglichkeite
         geschaffen, dass auch Community-Streamer:innen bei Charity Royale für
-        den guten Zweck sammeln. Füll dafür einfach [dieses
+        den guten Zweck sammeln. Die Anmeldefrist dafür ist für 2022 leider
+        bereits abgelaufen. [dieses
         Bewerbungsformular](https://docs.google.com/forms/d/e/1FAIpQLScyZ6rlSOPhhOhjZrHD6VKtInWC53n4e1MphP_Eu7BPhBv_uw/viewform?pli=1)
         aus.
   questions-en:
