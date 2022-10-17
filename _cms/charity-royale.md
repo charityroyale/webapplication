@@ -315,6 +315,14 @@ upcoming:
     type: community
     wishes:
       - legoland-6
+  - date: 2022-10-24T16:00:12.319Z
+    streamerName: StrizziTV
+    streamerChannel: strizzitv
+    streamLink: https://www.twitch.tv/strizzitv
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-7
 wishes:
   - slug: patrick-heidelbeeren
     tagline: TEST - Patrick's Heidelbeern
@@ -443,6 +451,17 @@ wishes:
       unbeschwerte Zeit mit seiner Familie zu ermöglichen."
     donationGoal: "500"
   - slug: legoland-6
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-7
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
