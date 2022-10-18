@@ -299,6 +299,14 @@ upcoming:
     type: community
     wishes:
       - prinzessin-1
+  - date: 2022-10-22T18:10:14.199Z
+    streamerName: HerrHaderer
+    streamerChannel: herrhaderer
+    streamLink: https://www.twitch.tv/herrhaderer
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-8
   - date: 2022-10-23T10:00:23.019Z
     streamerName: Fr0zenNoahAT
     streamerChannel: fr0zennoahat
@@ -462,6 +470,17 @@ wishes:
       unbeschwerte Zeit mit seiner Familie zu ermöglichen."
     donationGoal: "500"
   - slug: legoland-7
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-8
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
