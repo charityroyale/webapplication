@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: rumathra/michael-disneyland
+featuredStream: ernesto/dana-jugendzimmer
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
