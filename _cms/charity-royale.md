@@ -981,6 +981,36 @@ wishes:
       Zeit für die Tierliebhaberin, für die es nichts Schöneres gibt, als mit
       Hunden, Katzen und allen möglichen anderen Tieren Zeit zu verbringen."
     donationGoal: "600"
+  - slug: kermo-ps5
+    tagline: Eine PS5 gegen die Langeweile im Spital
+    childname: Kermo
+    descripion: Kermo ist jetzt bald 4 Jahre alt. Seit einiger Zeit leidet er an
+      einer Krebserkrankung des Nervensystems (Neuroblastom) und verbringt
+      deshalb viel Zeit im Krankenhaus. Auch jetzt steht wieder ein
+      Spitalsaufenthalt mit einer Intensivtherapie an, auf die er sich gar nicht
+      freut. Um die bevorstehenden Tage für ihn ein bisschen schöner zu machen,
+      wünscht sich der kleine, tapfere Mann eine PS5. Kermos Superheld ist ganz
+      klar Spiderman und auch Polizisten findet er voll cool. Vielleicht gibt’s
+      da ja als Draufgabe noch das eine oder andere Spiel, das zu seinen
+      Vorlieben passt?
+    donationGoal: "600"
+  - slug: e-bollerwagen
+    tagline: Ein Bollerwagen für Familienausflüge
+    childname: E.
+    descripion: "E. kam mit einer sehr seltenen, angeborenen Stoffwechselerkrankung
+      zur Welt: Stoffwechselprodukte, die eigentlich im Körper abgebaut werden
+      müssten, werden stattdessen in Organen, den Knochen oder dem Gehirn
+      eingelagert. Dies verursacht im Lauf der Zeit schwerste körperliche und
+      intellektuelle Beeinträchtigungen. Was es bedeutet, ein Kind mit einer
+      Mukopolysaccharidose zu haben, ist unvorstellbar. Für die Familie beginnt
+      mit der Diagnose ein Abschied in kleinen Schritten. E. wird nicht normal
+      wachsen, sie wird anders aussehen, vielleicht nie richtig sprechen können,
+      das Gehen verlernen. Schmerzen und Operationen werden ihre ständigen
+      Begleiter. Zahlreiche Besuche bei Ärzten und Therapeuten sowie die
+      intensive Pflege von E. dominieren den Alltag ihrer Familie, die sich von
+      uns einen Bollerwagen mit Dachplane und Polstern gewünscht hat, damit sie
+      gemeinsam unterwegs sein können. "
+    donationGoal: "1200"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
