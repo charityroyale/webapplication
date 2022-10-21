@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: dhalucard/ismael-meer
+featuredStream: dhalucard/tobias-huehnerstall
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -238,6 +238,7 @@ upcoming:
     type: main
     wishes:
       - m-strassenhunde
+      - e-bollerwagen
   - date: 2022-10-08T07:00:39.820Z
     streamerName: SebiSgo
     streamerChannel: sebisgo
