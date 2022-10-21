@@ -197,7 +197,7 @@ upcoming:
       - dana-jugendzimmer
       - michael-disneyland
       - ismael-meer
-      - ""
+      - tobias-huehnerstall
   - date: 2022-10-22T08:00:19.592Z
     streamerName: Rax
     streamerChannel: rax1337
@@ -238,7 +238,6 @@ upcoming:
     type: main
     wishes:
       - m-strassenhunde
-      - tobias-huehnerstall
   - date: 2022-10-08T07:00:39.820Z
     streamerName: SebiSgo
     streamerChannel: sebisgo
