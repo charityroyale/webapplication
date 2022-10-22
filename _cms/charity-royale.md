@@ -117,14 +117,6 @@ upcoming:
     type: main
     wishes:
       - niklas-london
-  - date: 2022-10-13T17:00:23.954Z
-    streamerName: Mahluna
-    streamerChannel: mahluna
-    streamLink: https://twitch.tv/Mahluna
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - ismael-meer
   - date: 2022-10-14T17:00:08.305Z
     streamerName: Clym
     streamerChannel: clym
