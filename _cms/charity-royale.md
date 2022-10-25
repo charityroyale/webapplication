@@ -229,6 +229,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     type: main
     wishes:
+      - kermo-ps5
       - e-bollerwagen
       - m-strassenhunde
   - date: 2022-10-08T07:00:39.820Z
