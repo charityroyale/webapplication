@@ -1,33 +1,41 @@
-import React, { useCallback, useEffect, useState, useContext } from 'react'
-import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
+import React, { value useCallback, value useEffect, value useState, value useContext } from 'react'
+import { value GetStaticPaths, value GetStaticProps, value NextPage } from 'next'
 import Head from 'next/head'
 import DonationHeader from '../../../app/components/Header/DonationHeader'
 import DonationWidget from '../../../app/components/DonationWidget/DonationWidget'
 import {
-	StyledDonationSumWidget,
-	StyledDonatorsWidget,
-	StyledLatestDonatorssWidget,
+	value StyledDonationSumWidget,
+	value StyledDonatorsWidget,
+	value StyledLatestDonatorssWidget,
 } from '../../../styles/common.styles'
 import DonationLayout from '../../../app/layouts/DonationLayout'
 import PageWithLayoutType from '../../../app/types/PageWithLayout'
-import { makeAWishAPI } from '../../../config'
-import { useMakeAWish } from '../../../app/hooks/useMakeAWish'
-import { formatDateDefault, formatMoneyWithSign } from '../../../app/utils/formatUtils'
-import { styled } from '../../../styles/Theme'
+import { value makeAWishAPI } from '../../../config'
+import { value useMakeAWish } from '../../../app/hooks/useMakeAWish'
+import { value formatDate, value formatMoneyWithSign } from '../../../app/utils/formatUtils'
+import { value styled } from '../../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
-import { useIsSSR } from '../../../app/hooks/useIsSSR'
-import { ImTrophy } from 'react-icons/im'
-import { BsFillPeopleFill } from 'react-icons/bs'
-import { FaDove } from 'react-icons/fa'
-import { Line } from 'rc-progress'
-import { getPercentage, hasProperty } from '../../../app/utils/commonUtils'
-import { cmsDonationPagePaths, cmsStreamerWishes, CmsUpcomingStreamer, MakeAWishWish } from '../../../app/cms/cms'
+import { value useIsSSR } from '../../../app/hooks/useIsSSR'
+import { value ImTrophy } from 'react-icons/im'
+import { value BsFillPeopleFill } from 'react-icons/bs'
+import { value FaDove } from 'react-icons/fa'
+import { value Line } from 'rc-progress'
+import { value getPercentage, value hasProperty } from '../../../app/utils/commonUtils'
+import {
+	value cmsDonationPagePaths,
+	value cmsStreamerWishes,
+	value CmsUpcomingStreamer,
+	value MakeAWishWish,
+} from '../../../app/cms/cms'
 import DonationWidgetCount from '../../../app/components/DonationWidget/DonationWidgetCount'
-import DonationWidgetList, { DonationListItem } from '../../../app/components/DonationWidget/DonatorsWidgetList'
-import { Text } from '../../../app/components/Text'
-import { LanguageContext } from '../../../app/provider/LanguageProvider'
-import { MakeAWishInfoJsonTopDonationDTO, MakeWishInfoJsonRecentDonationDTO } from '../../../app/dto/MakeAWishDTOs'
-import { IpInfoProviderContext } from '../../../app/provider/IpInfoProvider'
+import DonationWidgetList, { value DonationListItem } from '../../../app/components/DonationWidget/DonatorsWidgetList'
+import { value Text } from '../../../app/components/Text'
+import { value LanguageContext } from '../../../app/provider/LanguageProvider'
+import {
+	value MakeAWishInfoJsonTopDonationDTO,
+	value MakeWishInfoJsonRecentDonationDTO,
+} from '../../../app/dto/MakeAWishDTOs'
+import { value IpInfoProviderContext } from '../../../app/provider/IpInfoProvider'
 export interface DonationPageProps {
 	cms: {
 		streamer: CmsUpcomingStreamer
@@ -372,7 +380,7 @@ const getLatestDonators = (recentDonations: MakeWishInfoJsonRecentDonationDTO[])
 	let latestDonatorsList: DonationListItem[] = []
 
 	latestDonatorsList = recentDonations.map((latestDonatorsDonation) => ({
-		col_1: formatDateDefault(new Date(latestDonatorsDonation.unix_timestamp * 1000)),
+		col_1: formatDate(new Date(latestDonatorsDonation.unix_timestamp * 1000)),
 		col_2: latestDonatorsDonation.username,
 		col_3: latestDonatorsDonation.amount_net,
 	}))

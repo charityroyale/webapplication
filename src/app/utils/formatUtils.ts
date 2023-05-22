@@ -1,11 +1,6 @@
-import dateFormat from 'dateformat'
-
+const dateFormatter = Intl.DateTimeFormat('de-AT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
 export function formatDate(date: Date) {
-	return dateFormat(date, "d'. 'mmm 'um' HH:MM")
-}
-
-export function formatDateDefault(date: Date) {
-	return dateFormat(date, "d'.'mmm HH:MM")
+	return dateFormatter.format(date)
 }
 
 export function formatMoney(amount: string | number) {
