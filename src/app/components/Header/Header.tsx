@@ -122,7 +122,7 @@ const DonationButtonWrapper = styled.div`
 const DonationButton: React.FunctionComponent<DonationButtonProps> = ({ target }: DonationButtonProps) => {
 	return (
 		<DonationButtonWrapper>
-			<Link href={cmsFeaturedStreamLink}>
+			<Link href={cmsFeaturedStreamLink} legacyBehavior={true}>
 				<DonateButton
 					href={cmsFeaturedStreamLink}
 					target={target}

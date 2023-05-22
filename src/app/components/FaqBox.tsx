@@ -89,7 +89,7 @@ const ButtonsBox: React.FunctionComponent = () => {
 			</ButtonItemWrapper>
 
 			<ButtonItemWrapper>
-				<Link href="/faq">
+				<Link href="/faq" legacyBehavior={true}>
 					<Button href="/faq">
 						<Text content="questionsAndAnswersCTA" />
 					</Button>

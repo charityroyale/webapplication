@@ -15,7 +15,7 @@ const ClientLink: React.FunctionComponent<ClientLinkProps> = ({
 	ariaLabel,
 }: ClientLinkProps) => {
 	return (
-		<Link href={href}>
+		<Link href={href} legacyBehavior={true}>
 			<a href={href} aria-label={ariaLabel} target={target} rel={target === '_blank' ? 'noreferrer' : ''}>
 				{children}
 			</a>

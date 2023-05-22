@@ -163,7 +163,7 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamFooterProps> 
 				</UpcomingStreamDescription>
 			</UpcomingStreamerFooterLeft>
 			<UpcomingStreamerFooterRight>
-				<Link href={donateLinkHref}>
+				<Link href={donateLinkHref} legacyBehavior={true}>
 					<UpcomingStreamerDonationLink href={donateLinkHref}>
 						<Text content="donateText" />
 					</UpcomingStreamerDonationLink>
