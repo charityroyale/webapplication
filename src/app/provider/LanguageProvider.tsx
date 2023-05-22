@@ -68,7 +68,7 @@ const detaultLanguage: LanguageContextProps = {
 }
 
 export const LanguageContext = createContext<LanguageContextProps>(detaultLanguage)
-export const LanguageProvider: FunctionComponent = ({ children }) => {
+export const LanguageProvider: FunctionComponent<React.PropsWithChildren> = ({ children }) => {
 	const [language, setLanguage] = useState<LanguageType>('de')
 
 	const provider = {

@@ -22,7 +22,7 @@ interface IpInfoResponse {
 }
 
 export const IpInfoProviderContext = createContext<IpInfoProviderContextProps>(defaultIpInfo)
-export const IpInfoProvider: FunctionComponent = ({ children }) => {
+export const IpInfoProvider: FunctionComponent<React.PropsWithChildren> = ({ children }) => {
 	const [ipInfo, setIpInfo] = useState<IpInfoProviderContextProps>(defaultIpInfo)
 
 	useEffect(() => {
