@@ -5,3 +5,13 @@
 https://charityroyale.at/
 
 ![Logo of CharityRoyale](public/cr_logo_small.png)
+
+# Setup
+
+See [.nvmrc](/.nvmrc)  
+Run `npm install`  
+See [package.json](/package.json)
+
+# Secrets
+
+See [.env.local.example](/.env.local.example)
