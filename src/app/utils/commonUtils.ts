@@ -59,6 +59,9 @@ export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]
 				'Client-Id': `${process.env.TWITCH_CLIENT_ID}`,
 			},
 		})
+		if (!res.ok) {
+			throw new Error(`HTTP Error ${res.status}: fetching twitch users was not successfull`)
+		}
 		return (await res.json()) as TwitchUsersDTO
 	} catch (e) {
 		console.log(e)
