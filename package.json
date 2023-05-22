@@ -37,7 +37,7 @@
 		"front-matter": "^4.0.2",
 		"frontmatter-markdown-loader": "^3.6.2",
 		"husky": "^4.2.5",
-		"ics": "^2.26.1",
+		"ics": "^3.1.0",
 		"lint-staged": "^10.5.2",
 		"nprogress": "^0.2.0",
 		"prettier": "^2.2.0",
