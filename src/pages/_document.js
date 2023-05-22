@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+/* eslint-disable @next/next/next-script-for-ga */
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
@@ -70,8 +70,8 @@ export default class MyDocument extends Document {
 						name="description"
 						content="Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben."
 					></meta>
-					<script src="https://embed.twitch.tv/embed/v1.js"></script>
-					<script async src="https://www.googletagmanager.com/gtag/js?id=G-2LB5JE6MLN"></script>
+					<script defer src="https://embed.twitch.tv/embed/v1.js"></script>
+					<script defer src="https://www.googletagmanager.com/gtag/js?id=G-2LB5JE6MLN"></script>
 					<script
 						dangerouslySetInnerHTML={{
 							__html: `window.dataLayer = window.dataLayer || [];

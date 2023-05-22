@@ -76,7 +76,10 @@ const DonationHeaderCount: React.FunctionComponent<DonationHeaderCountProps> = (
 					title={<Text content="totalDonationsSum" />}
 					text={formatMoneyWithSign(current_donation_count)}
 				/>
-				<DonationCountBox title={<Text content="totalDonationGoal" />} text={formatMoneyWithSign(donation_goal)} />
+				<DonationCountBox
+					title={<Text content="totalDonationGoal" />}
+					text={formatMoneyWithSign(donation_goal)}
+				/>
 			</DonationCountCol>
 
 			<DonationCountCol>

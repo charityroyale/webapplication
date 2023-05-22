@@ -130,8 +130,8 @@ const Footer: React.FunctionComponent = () => {
 						</a>
 					</FooterListItem>
 					<FooterListItem>
-						willhaben internet service GmbH & Co KG <br /> Landstraßer Hauptstraße 97-101 <br /> Bürozentrum 1 1030{' '}
-						<Text content="viennaText" />
+						willhaben internet service GmbH & Co KG <br /> Landstraßer Hauptstraße 97-101 <br /> Bürozentrum
+						1 1030 <Text content="viennaText" />
 					</FooterListItem>
 				</FooterList>
 			</FooterRightGridItem>

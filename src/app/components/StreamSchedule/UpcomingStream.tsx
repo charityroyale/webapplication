@@ -111,7 +111,9 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 							alt={`Streamer ${streamerName} Logo`}
 						/>
 					)}
-					<DoneStreamDonation projectDone={projectDone}>{formatMoneyWithSign(donationProgress)}</DoneStreamDonation>
+					<DoneStreamDonation projectDone={projectDone}>
+						{formatMoneyWithSign(donationProgress)}
+					</DoneStreamDonation>
 					<StreamProjectDateWrapper>
 						<p>{streamerName}</p>
 					</StreamProjectDateWrapper>

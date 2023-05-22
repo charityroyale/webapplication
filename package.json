@@ -4,6 +4,15 @@
 	"version": "1.0.0",
 	"description": "charityroyale-donationpage",
 	"main": "src/index.js",
+	"scripts": {
+		"dev": "next",
+		"build-ics": "node ./scripts/generateICSfiles.js",
+		"build": "npm run lint && npm run build-ics && next build",
+		"build-netlify": "npm run lint && npm run build && next export",
+		"start": "next start",
+		"lint": "next lint",
+		"lint:fix": "npm run lint -- --fix"
+	},
 	"dependencies": {
 		"next": "^13.4.3",
 		"rc-progress": "^3.1.1",
@@ -20,6 +29,7 @@
 	"devDependencies": {
 		"@babel/core": "^7.12.9",
 		"@babel/preset-react": "^7.12.7",
+		"@next/eslint-plugin-next": "^13.4.3",
 		"@types/node": "^20.2.3",
 		"@types/react": "^18.2.6",
 		"@types/styled-components": "^5.1.4",
@@ -37,15 +47,6 @@
 		"nprogress": "^0.2.0",
 		"prettier": "^2.2.0",
 		"typescript": "^5.0.4"
-	},
-	"scripts": {
-		"dev": "next",
-		"build-ics": "node ./scripts/generateICSfiles.js",
-		"build": "npm run lint && npm run build-ics && next build",
-		"build-netlify": "npm run lint && npm run build && next export",
-		"start": "next start",
-		"lint": "eslint src --ext .ts,.tsx",
-		"lint:fix": "npm run lint -- --fix"
 	},
 	"license": "MIT"
 }

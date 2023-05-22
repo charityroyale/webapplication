@@ -1,41 +1,33 @@
-import React, { value useCallback, value useEffect, value useState, value useContext } from 'react'
-import { value GetStaticPaths, value GetStaticProps, value NextPage } from 'next'
+import React, { useCallback, useEffect, useState, useContext } from 'react'
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import DonationHeader from '../../../app/components/Header/DonationHeader'
 import DonationWidget from '../../../app/components/DonationWidget/DonationWidget'
 import {
-	value StyledDonationSumWidget,
-	value StyledDonatorsWidget,
-	value StyledLatestDonatorssWidget,
+	StyledDonationSumWidget,
+	StyledDonatorsWidget,
+	StyledLatestDonatorssWidget,
 } from '../../../styles/common.styles'
 import DonationLayout from '../../../app/layouts/DonationLayout'
 import PageWithLayoutType from '../../../app/types/PageWithLayout'
-import { value makeAWishAPI } from '../../../config'
-import { value useMakeAWish } from '../../../app/hooks/useMakeAWish'
-import { value formatDate, value formatMoneyWithSign } from '../../../app/utils/formatUtils'
-import { value styled } from '../../../styles/Theme'
+import { makeAWishAPI } from '../../../config'
+import { useMakeAWish } from '../../../app/hooks/useMakeAWish'
+import { formatDate, formatMoneyWithSign } from '../../../app/utils/formatUtils'
+import { styled } from '../../../styles/Theme'
 import Skeleton from 'react-loading-skeleton'
-import { value useIsSSR } from '../../../app/hooks/useIsSSR'
-import { value ImTrophy } from 'react-icons/im'
-import { value BsFillPeopleFill } from 'react-icons/bs'
-import { value FaDove } from 'react-icons/fa'
-import { value Line } from 'rc-progress'
-import { value getPercentage, value hasProperty } from '../../../app/utils/commonUtils'
-import {
-	value cmsDonationPagePaths,
-	value cmsStreamerWishes,
-	value CmsUpcomingStreamer,
-	value MakeAWishWish,
-} from '../../../app/cms/cms'
+import { useIsSSR } from '../../../app/hooks/useIsSSR'
+import { ImTrophy } from 'react-icons/im'
+import { BsFillPeopleFill } from 'react-icons/bs'
+import { FaDove } from 'react-icons/fa'
+import { Line } from 'rc-progress'
+import { getPercentage, hasProperty } from '../../../app/utils/commonUtils'
+import { cmsDonationPagePaths, cmsStreamerWishes, CmsUpcomingStreamer, MakeAWishWish } from '../../../app/cms/cms'
 import DonationWidgetCount from '../../../app/components/DonationWidget/DonationWidgetCount'
-import DonationWidgetList, { value DonationListItem } from '../../../app/components/DonationWidget/DonatorsWidgetList'
-import { value Text } from '../../../app/components/Text'
-import { value LanguageContext } from '../../../app/provider/LanguageProvider'
-import {
-	value MakeAWishInfoJsonTopDonationDTO,
-	value MakeWishInfoJsonRecentDonationDTO,
-} from '../../../app/dto/MakeAWishDTOs'
-import { value IpInfoProviderContext } from '../../../app/provider/IpInfoProvider'
+import DonationWidgetList, { DonationListItem } from '../../../app/components/DonationWidget/DonatorsWidgetList'
+import { Text } from '../../../app/components/Text'
+import { LanguageContext } from '../../../app/provider/LanguageProvider'
+import { MakeAWishInfoJsonTopDonationDTO, MakeWishInfoJsonRecentDonationDTO } from '../../../app/dto/MakeAWishDTOs'
+import { IpInfoProviderContext } from '../../../app/provider/IpInfoProvider'
 export interface DonationPageProps {
 	cms: {
 		streamer: CmsUpcomingStreamer
@@ -172,7 +164,11 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 				<meta property="og:image:width" content={'300'} key="ogimagewidth" />
 				<meta property="og:image:height" content={'300'} key="ogimageheight" />
 				<meta property="og:site_name" content={'Charity Royale'} key="ogsitename" />
-				<meta property="og:title" content={`${cms.streamer.streamerName}'s Spendenseite`} key="ogtitlestreamer" />
+				<meta
+					property="og:title"
+					content={`${cms.streamer.streamerName}'s Spendenseite`}
+					key="ogtitlestreamer"
+				/>
 				<meta property="og:type" content={'website'} key="ogtype" />
 				<meta property="og:locale" content={'de_AT'} key="oglocale" />
 				<meta property="fb:app_id" content={process.env.FB_ID} key="fbappid" />
@@ -226,7 +222,8 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 						</div>
 
 						<DonationStatsWidget>
-							<Text content="donatorNameText" /> <DonationStatNumbers>{donatorsCount}</DonationStatNumbers>
+							<Text content="donatorNameText" />{' '}
+							<DonationStatNumbers>{donatorsCount}</DonationStatNumbers>
 						</DonationStatsWidget>
 					</DonationSubPageStats>
 				</React.Fragment>
@@ -252,7 +249,9 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 						onError={iFrameLoadedError}
 						id="iframe"
 						src={`${
-							languageContext.language === 'de' ? makeAWishAPI.donationFormURL : makeAWishAPI.donationFormEnURL
+							languageContext.language === 'de'
+								? makeAWishAPI.donationFormURL
+								: makeAWishAPI.donationFormEnURL
 						}${cmsStreamerSlug}/${cms.wish.slug}`}
 						title="Spendenformular"
 					/>
@@ -305,7 +304,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 		fallback: false,
 	}
 }
-;((DonatePage as unknown) as PageWithLayoutType).layout = DonationLayout
+;(DonatePage as unknown as PageWithLayoutType).layout = DonationLayout
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;

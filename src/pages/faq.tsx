@@ -132,10 +132,18 @@ const FaqPage: NextPage<InitialFaqProps> = ({ questionsDe, questionsEn, videos }
 				<FaqContenSection>
 					{languageContext.language === 'de'
 						? questionsDe.map((question, i) => (
-								<FaqQuestionBox key={i} question={question['question-de']} answer={question['answer-de']} />
+								<FaqQuestionBox
+									key={i}
+									question={question['question-de']}
+									answer={question['answer-de']}
+								/>
 						  ))
 						: questionsEn.map((question, i) => (
-								<FaqQuestionBox key={i} question={question['answer-en']} answer={question['answer-en']} />
+								<FaqQuestionBox
+									key={i}
+									question={question['answer-en']}
+									answer={question['answer-en']}
+								/>
 						  ))}
 				</FaqContenSection>
 			</FaqMainWrapper>
@@ -153,6 +161,6 @@ export const getStaticProps: GetStaticProps<InitialFaqProps> = async () => {
 		},
 	}
 }
-;((FaqPage as unknown) as PageWithLayoutType).layout = MainLayout
+;(FaqPage as unknown as PageWithLayoutType).layout = MainLayout
 
 export default FaqPage

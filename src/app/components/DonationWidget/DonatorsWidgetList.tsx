@@ -49,7 +49,9 @@ const DonationWidgetList: React.FunctionComponent<DonationWidgetListProps> = ({
 					<DonationListRow key={index}>
 						<div style={{ display: 'flex', justifyContent: 'space-between' }}>
 							<span>{item.col_1}</span>{' '}
-							<DonationAmount isZero={parseFloat(item.col_3) <= 0}>{formatMoneyWithSign(item.col_3)}</DonationAmount>
+							<DonationAmount isZero={parseFloat(item.col_3) <= 0}>
+								{formatMoneyWithSign(item.col_3)}
+							</DonationAmount>
 						</div>
 						<DonationDonatorPlaceAndName>
 							<span>

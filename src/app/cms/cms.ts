@@ -96,7 +96,10 @@ for (const streamer of streamers) {
 
 export const cmsDonationPagePaths = wishKeys.map((key) => {
 	return {
-		params: { streamer: cmsStreamerWishes[key].streamer.streamerChannel, wishSlug: cmsStreamerWishes[key].wish.slug },
+		params: {
+			streamer: cmsStreamerWishes[key].streamer.streamerChannel,
+			wishSlug: cmsStreamerWishes[key].wish.slug,
+		},
 	}
 })
 

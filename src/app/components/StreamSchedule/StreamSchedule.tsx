@@ -124,13 +124,20 @@ const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedule
 						</StyleUpcomingStreamsTitle>
 						<p>
 							<Text content="downloadScheduleTitle" />{' '}
-							<StyledKalenderDownloadLink aria-describedby="Programm als Kalender" href={`/calendar/all.ics`}>
+							<StyledKalenderDownloadLink
+								aria-describedby="Programm als Kalender"
+								href={`/calendar/all.ics`}
+							>
 								<Text content="downloadCTA" />
 							</StyledKalenderDownloadLink>
 							.
 						</p>
 						<ScheduleTypeGrid>
-							<ScheduleTypeButton value="main" onClick={changeScheduleTypeOnClick} isActive={scheduleType === 'main'}>
+							<ScheduleTypeButton
+								value="main"
+								onClick={changeScheduleTypeOnClick}
+								isActive={scheduleType === 'main'}
+							>
 								Main
 							</ScheduleTypeButton>
 							<div></div>
@@ -154,7 +161,11 @@ const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedule
 						</StyleUpcomingStreamsTitle>
 						{!(futureStreamsSorted.length > 0) && (
 							<ScheduleTypeGrid>
-								<ScheduleTypeButton value="main" onClick={changeScheduleTypeOnClick} isActive={scheduleType === 'main'}>
+								<ScheduleTypeButton
+									value="main"
+									onClick={changeScheduleTypeOnClick}
+									isActive={scheduleType === 'main'}
+								>
 									Main
 								</ScheduleTypeButton>
 								<div></div>

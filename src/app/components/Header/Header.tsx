@@ -123,7 +123,11 @@ const DonationButton: React.FunctionComponent<DonationButtonProps> = ({ target }
 	return (
 		<DonationButtonWrapper>
 			<Link href={cmsFeaturedStreamLink}>
-				<DonateButton href={cmsFeaturedStreamLink} target={target} rel={target === '_blank' ? 'noreferrer' : ''}>
+				<DonateButton
+					href={cmsFeaturedStreamLink}
+					target={target}
+					rel={target === '_blank' ? 'noreferrer' : ''}
+				>
 					<span>{<Text content="donateText" />}</span>
 				</DonateButton>
 			</Link>
@@ -184,10 +188,14 @@ const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = tru
 							<DonationHeaderCount
 								donation_goal={100000}
 								current_donation_count={
-									makeAWishDataIsLoading || makeAWishDataIsError ? 0 : parseFloat(makeAWishData.total_donation_sum_net)
+									makeAWishDataIsLoading || makeAWishDataIsError
+										? 0
+										: parseFloat(makeAWishData.total_donation_sum_net)
 								}
 								donations_count={
-									makeAWishDataIsLoading || makeAWishDataIsError ? 0 : makeAWishData.total_donation_count
+									makeAWishDataIsLoading || makeAWishDataIsError
+										? 0
+										: makeAWishData.total_donation_count
 								}
 							></DonationHeaderCount>
 							<DonationButton />
