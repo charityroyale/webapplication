@@ -5,10 +5,10 @@
 	"description": "charityroyale-donationpage",
 	"main": "src/index.js",
 	"scripts": {
-		"dev": "next",
+		"dev": "next -p 4040",
 		"build-ics": "node ./scripts/generateICSfiles.js",
 		"build": "npm run lint && npm run build-ics && next build",
-		"build-netlify": "npm run lint && npm run build && next export",
+		"build-netlify": "npm run lint && npm run build",
 		"start": "next start",
 		"lint": "next lint",
 		"lint:fix": "npm run lint -- --fix"
