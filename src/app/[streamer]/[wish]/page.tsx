@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { Metadata } from 'next'
-import { cmsDonationPagePaths, cmsStreamerWishes } from '../../(site)/cms/cms'
+import { cmsDonationPagePaths, cmsStreamerWishesFilled } from '../../(site)/cms/cms'
 import { makeAWishAPI } from '../../../config'
 import { DonatePageContent } from './components/content'
 import { styled } from '../../../styles/Theme'
@@ -12,7 +12,7 @@ import { StyledLayout } from '../../../styles/common.styles'
 
 type Props = {
 	params: { streamer: string; wish: string }
-	searchParams: { [key: string]: string | string[] | undefined }
+	searchParams?: { [key: string]: string | string[] | undefined }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -20,8 +20,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const wishSlug = params.wish
 	const donationPageSlug = streamerSlug + wishSlug
 	const cms = {
-		...cmsStreamerWishes[donationPageSlug],
+		...cmsStreamerWishesFilled[donationPageSlug],
 	}
+
 	return {
 		title: `Charity Royale - ${cms.streamer.streamerName}`,
 		openGraph: {
@@ -29,7 +30,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			description: 'Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.',
 			url: 'https://charityroyale.at',
 			siteName: `${cms.streamer.streamerName}'s Spendenseite`,
-
 			images: [
 				{
 					url: 'https://charityroyale.at/uploads/charity_royale_rgb_300x300.png',
@@ -43,9 +43,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 		twitter: {
 			title: `${cms.streamer.streamerName}'s Spendenseite`,
 			description: `${cms.streamer.streamerName}'s Spendenseite`,
-			siteId: '', // id of @CharityRoyale
+			// siteId: '', // id of @CharityRoyale
 			creator: '@CharityRoyale',
-			creatorId: '', // id of @CharityRoyale
+			// creatorId: '', // id of @CharityRoyale
 			images: ['https://charityroyale.at/uploads/charity_royale_rgb_300x300.png'],
 		},
 	}
@@ -61,8 +61,9 @@ export default function Page({ params }: Props) {
 	const wishSlug = params.wish
 	const donationPageSlug = streamerSlug + wishSlug
 	const cms = {
-		...cmsStreamerWishes[donationPageSlug],
+		...cmsStreamerWishesFilled[donationPageSlug],
 	}
+
 	return (
 		<div>
 			{/** START
@@ -93,7 +94,7 @@ export default function Page({ params }: Props) {
 	)
 }
 
-export const MainGrid = styled.div`
+const MainGrid = styled.div`
 	display: grid;
 	grid-area: main;
 	margin: auto;

@@ -77,7 +77,7 @@ export interface CmsStreamWish {
 	wish: MakeAWishWish
 }
 
-export const cmsStreamerWishes = {} as { [key: string]: CmsStreamWish }
+const cmsStreamerWishes = {} as { [key: string]: CmsStreamWish }
 const wishKeys: string[] = []
 for (const streamer of streamers) {
 	for (const wish of wishes) {
@@ -93,6 +93,7 @@ for (const streamer of streamers) {
 		}
 	}
 }
+export const cmsStreamerWishesFilled = cmsStreamerWishes
 
 export const cmsDonationPagePaths = wishKeys.map((key) => {
 	return {
