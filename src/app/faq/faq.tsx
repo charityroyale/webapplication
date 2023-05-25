@@ -2,11 +2,11 @@ import { NextPage, GetStaticProps } from 'next'
 import React, { FunctionComponent, useContext } from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'styled-components'
-import cmsContent, { FAQEntryDe, FAQEntryEn, FAQVideoEntry } from './(site)/cms/cms'
-import { ResponsiveVideo } from './(site)/cms/components/ResponsiveVideo'
-import MainLayout from './(site)/layouts/MainLayout'
-import { LanguageContext } from './(site)/provider/LanguageProvider'
-import { Text } from './(site)/cms/components/Text'
+import cmsContent, { FAQEntryDe, FAQEntryEn, FAQVideoEntry } from '../(site)/cms/cms'
+import { ResponsiveVideo } from '../(site)/cms/components/ResponsiveVideo'
+import MainLayout from '../(site)/layouts/MainLayout'
+import { LanguageContext } from '../(site)/provider/LanguageProvider'
+import { Text } from '../(site)/cms/components/Text'
 
 const FaqMainWrapper = styled.div`
 	margin: auto;

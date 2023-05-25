@@ -1,13 +1,13 @@
 import React from 'react'
 import { NextPage, GetStaticProps } from 'next'
-import cmsContent, { StreamerType, CmsUpcomingStreamer } from './(site)/cms/cms'
-import ButtonsBox from './(site)/cms/components/FaqBox'
-import FeaturedStream from './(site)/cms/components/FeatureStream/FeaturedStream'
-import StreamSchedule from './(site)/cms/components/StreamSchedule/StreamSchedule'
-import { TwitchUserDTO } from './(site)/dto/TwitchUserDTO'
-import MainLayout from './(site)/layouts/MainLayout'
+import cmsContent, { StreamerType, CmsUpcomingStreamer } from './cms/cms'
+import ButtonsBox from './cms/components/FaqBox'
+import FeaturedStream from './cms/components/FeatureStream/FeaturedStream'
+import StreamSchedule from './cms/components/StreamSchedule/StreamSchedule'
+import { TwitchUserDTO } from './dto/TwitchUserDTO'
+import MainLayout from './layouts/MainLayout'
 import PageWithLayoutType from './(site)/types/PageWithLayout'
-import { fetchTwitchUsersBySchedule } from './(site)/utils/commonUtils'
+import { fetchTwitchUsersBySchedule } from './utils/commonUtils'
 
 export type CmsSchedulesType = { [key in StreamerType]: CmsUpcomingStreamer[] }
 

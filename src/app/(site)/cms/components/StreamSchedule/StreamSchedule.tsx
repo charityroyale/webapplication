@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import { CmsSchedulesType } from '../../../..'
+import { CmsSchedulesType } from '../../..'
 import {
 	StyleUpcomingStreamsHeader,
 	StyleUpcomingStreamsTitle,
