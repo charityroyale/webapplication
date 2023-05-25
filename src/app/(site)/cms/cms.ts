@@ -1,4 +1,4 @@
-import rawCmsContent from '../../../_cms/charity-royale.md'
+import rawCmsContent from '../../../../_cms/charity-royale.md'
 
 export type StreamerType = 'main' | 'community'
 
@@ -96,10 +96,8 @@ for (const streamer of streamers) {
 
 export const cmsDonationPagePaths = wishKeys.map((key) => {
 	return {
-		params: {
-			streamer: cmsStreamerWishes[key].streamer.streamerChannel,
-			wishSlug: cmsStreamerWishes[key].wish.slug,
-		},
+		streamer: cmsStreamerWishes[key].streamer.streamerChannel,
+		wishSlug: cmsStreamerWishes[key].wish.slug,
 	}
 })
 
