@@ -1,3 +1,4 @@
+'use client'
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import { styled } from '../../../../styles/Theme'

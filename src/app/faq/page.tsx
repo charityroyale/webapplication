@@ -1,9 +1,8 @@
-import { NextPage, GetStaticProps } from 'next'
+'use client'
 import React, { FunctionComponent, useContext } from 'react'
 import ReactMarkdown from 'react-markdown'
-import cmsContent, { FAQEntryDe, FAQEntryEn, FAQVideoEntry } from '../(site)/cms/cms'
+import cmsContent from '../(site)/cms/cms'
 import { ResponsiveVideo } from '../(site)/cms/components/ResponsiveVideo'
-import MainLayout from '../(site)/layouts/MainLayout'
 import { LanguageContext } from '../(site)/provider/LanguageProvider'
 import { Text } from '../(site)/cms/components/Text'
 import { styled } from '../../styles/Theme'
@@ -82,14 +81,14 @@ const FaqQuestionBox: FunctionComponent<FaqQuestionBoxProps> = ({ question, answ
 	)
 }
 
-interface InitialFaqProps {
-	questionsDe: FAQEntryDe[]
-	questionsEn: FAQEntryEn[]
-	videos: FAQVideoEntry[]
-}
-
-const FaqPage: NextPage<InitialFaqProps> = ({ questionsDe, questionsEn, videos }: InitialFaqProps) => {
+const FaqPage = () => {
 	const languageContext = useContext(LanguageContext)
+	const { questionsDe, questionsEn, videos, featuredStream } = {
+		questionsDe: cmsContent.faq['questions-de'],
+		questionsEn: cmsContent.faq['questions-en'],
+		videos: cmsContent.faq.videos,
+		featuredStream: cmsContent.featuredStream,
+	}
 
 	return (
 		<>
@@ -148,17 +147,4 @@ const FaqPage: NextPage<InitialFaqProps> = ({ questionsDe, questionsEn, videos }
 		</>
 	)
 }
-
-export const getStaticProps: GetStaticProps<InitialFaqProps> = async () => {
-	return {
-		props: {
-			questionsDe: cmsContent.faq['questions-de'],
-			questionsEn: cmsContent.faq['questions-en'],
-			videos: cmsContent.faq.videos,
-			featuredStream: cmsContent.featuredStream,
-		},
-	}
-}
-;(FaqPage as unknown as PageWithLayoutType).layout = MainLayout
-
 export default FaqPage
