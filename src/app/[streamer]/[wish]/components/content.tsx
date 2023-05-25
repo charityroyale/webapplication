@@ -1,5 +1,6 @@
 'use client'
 import { NextPage } from 'next'
+//** TODO: deprecate rc-progress and implement a custom component */
 import { Line } from 'rc-progress'
 import React, { useState, useContext, useEffect, useCallback } from 'react'
 import { BsFillPeopleFill } from 'react-icons/bs'
@@ -160,6 +161,9 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 								<Text content="donationPrependText" />{' '}
 								<DonationStatNumbers>{formatMoneyWithSign(donationSum)}</DonationStatNumbers>
 							</p>
+							{
+								//** TODO: deprecate rc-progress and implement a custom component */
+							}
 							<Line
 								style={{ padding: '4px 0' }}
 								percent={progressPercentage}
