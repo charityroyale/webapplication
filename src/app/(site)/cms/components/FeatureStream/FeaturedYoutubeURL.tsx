@@ -1,6 +1,6 @@
 import React from 'react'
 import { ResponsiveVideo } from '../ResponsiveVideo'
-import styled from 'styled-components'
+import { styled } from '../../../../../styles/Theme'
 
 interface FeaturedYoutubeVideoProps {
 	youtubeURL: string

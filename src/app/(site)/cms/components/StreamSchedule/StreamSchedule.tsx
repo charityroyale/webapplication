@@ -1,6 +1,6 @@
+'use client'
 import React, { useState, useCallback } from 'react'
-import styled from 'styled-components'
-import { CmsSchedulesType } from '../../..'
+import { CmsSchedulesType } from '../../../page'
 import {
 	StyleUpcomingStreamsHeader,
 	StyleUpcomingStreamsTitle,
@@ -15,6 +15,7 @@ import { sortByDateString } from '../../../utils/commonUtils'
 import { StreamerType, CmsUpcomingStreamer } from '../../cms'
 import UpcomingStream from './UpcomingStream'
 import { Text } from '../../components/Text'
+import { styled } from '../../../../../styles/Theme'
 
 const ScheduleTypeButton = styled.button<{ isActive: boolean }>`
 	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
@@ -76,7 +77,7 @@ interface StreamScheduleProps {
 	schedules: CmsSchedulesType
 }
 
-const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedules }: StreamScheduleProps) => {
+export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedules }: StreamScheduleProps) => {
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
 	const [scheduleType, setScheduleType] = useState<StreamerType>('main')
 
@@ -213,5 +214,3 @@ const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
 }
 const isInThePast = (stream: CmsUpcomingStreamer) => Date.now() > getStreamEndDate(stream)
 const isInTheFuture = (stream: CmsUpcomingStreamer) => Date.now() <= getStreamEndDate(stream)
-
-export default StreamSchedule

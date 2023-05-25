@@ -2,7 +2,7 @@ import React from 'react'
 import { FaTwitter } from 'react-icons/fa'
 import { FaTiktok } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
-import styled from 'styled-components'
+import { styled } from '../../../../../styles/Theme'
 
 export const HeaderSocials = () => {
 	return (

@@ -1,24 +1,46 @@
+'use client'
 import React from 'react'
-import { NextPage, GetStaticProps } from 'next'
 import cmsContent, { StreamerType, CmsUpcomingStreamer } from './cms/cms'
 import ButtonsBox from './cms/components/FaqBox'
 import FeaturedStream from './cms/components/FeatureStream/FeaturedStream'
-import StreamSchedule from './cms/components/StreamSchedule/StreamSchedule'
+import { StreamSchedule } from './cms/components/StreamSchedule/StreamSchedule'
 import { TwitchUserDTO } from './dto/TwitchUserDTO'
-import MainLayout from './layouts/MainLayout'
-import PageWithLayoutType from './(site)/types/PageWithLayout'
 import { fetchTwitchUsersBySchedule } from './utils/commonUtils'
 
 export type CmsSchedulesType = { [key in StreamerType]: CmsUpcomingStreamer[] }
 
-export interface InitialAppProps {
+export interface IndexPageProps {
 	featuredStream: string
 	featuredYoutubeStream?: string
 	schedules: CmsSchedulesType
 }
 
-const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
-	const { schedules, featuredStream, featuredYoutubeStream } = props
+const getTwitchUsers = async (schedule: CmsUpcomingStreamer[]) => {
+	if (typeof window !== undefined) return null
+	return (await fetchTwitchUsersBySchedule(schedule))?.data ?? null
+}
+
+export default async function Page() {
+	const schedule = cmsContent.upcoming ?? []
+	const twitchUsers: TwitchUserDTO[] | null = await getTwitchUsers(schedule)
+
+	const twitchUsersDict: { [userid: string]: TwitchUserDTO } = {}
+	if (twitchUsers) {
+		for (const twitchUser of twitchUsers) {
+			twitchUsersDict[twitchUser.login] = twitchUser
+		}
+	}
+
+	for (const stream of schedule) {
+		stream.imgUrl = twitchUsersDict[stream.streamerChannel]
+			? twitchUsersDict[stream.streamerChannel].profile_image_url
+			: ''
+	}
+
+	const schedules: CmsSchedulesType = {
+		main: schedule.filter((scheduledStream) => scheduledStream.type === 'main'),
+		community: schedule.filter((scheduledStream) => scheduledStream.type === 'community'),
+	}
 
 	return (
 		<React.Fragment>
@@ -49,43 +71,12 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 			</head>
 			<React.Fragment>
 				<ButtonsBox />
-				<FeaturedStream twitchChannelName={featuredStream} youtubeUrl={featuredYoutubeStream} />
+				<FeaturedStream
+					twitchChannelName={cmsContent.featuredStream}
+					youtubeUrl={cmsContent.featuredYoutubeStream}
+				/>
 				<StreamSchedule schedules={schedules} />
 			</React.Fragment>
 		</React.Fragment>
 	)
 }
-
-export const getStaticProps: GetStaticProps<InitialAppProps> = async () => {
-	const schedule = cmsContent.upcoming
-	const twitchUsers: TwitchUserDTO[] | undefined = (await fetchTwitchUsersBySchedule(schedule))?.data ?? undefined
-
-	const twitchUsersDict: { [userid: string]: TwitchUserDTO } = {}
-	if (twitchUsers) {
-		for (const twitchUser of twitchUsers) {
-			twitchUsersDict[twitchUser.login] = twitchUser
-		}
-	}
-
-	for (const stream of schedule) {
-		stream.imgUrl = twitchUsersDict[stream.streamerChannel]
-			? twitchUsersDict[stream.streamerChannel].profile_image_url
-			: ''
-	}
-
-	const schedules: CmsSchedulesType = {
-		main: schedule.filter((scheduledStream) => scheduledStream.type === 'main'),
-		community: schedule.filter((scheduledStream) => scheduledStream.type === 'community'),
-	}
-
-	return {
-		props: {
-			schedules,
-			featuredStream: cmsContent.featuredStream,
-			featuredYoutubeStream: cmsContent.featuredYoutubeStream,
-		},
-	}
-}
-;(IndexPage as PageWithLayoutType).layout = MainLayout
-
-export default IndexPage

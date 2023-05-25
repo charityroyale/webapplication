@@ -62,7 +62,7 @@ export interface CmsContent {
 	}
 }
 
-const cmsContent = rawCmsContent.attributes as CmsContent
+export const cmsContent = rawCmsContent.attributes as CmsContent
 const featuredDonationLink = cmsContent.customDonationLink || cmsContent.featuredStream
 export const cmsFeaturedStreamLink =
 	featuredDonationLink === 'https://www.make-a-wish.at'

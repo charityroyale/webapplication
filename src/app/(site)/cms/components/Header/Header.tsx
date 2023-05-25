@@ -1,7 +1,7 @@
+'use client'
 import Link from 'next/link'
 import React, { useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
-import styled from 'styled-components'
 import {
 	StyledHeader,
 	StyledHeaderLeftItem,
@@ -16,6 +16,7 @@ import { LanguageSelector } from '../LanguageSelector'
 import DonationHeaderCount from './DonationHeaderCount'
 import { Text } from '../Text'
 import { HeaderSocials } from './HeaderSocials'
+import { styled } from '../../../../../styles/Theme'
 
 const StyledHeaderContent = styled.div`
 	grid-area: header-row;

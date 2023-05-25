@@ -58,13 +58,14 @@ export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]
 				Authorization: `Bearer ${process.env.TWITCH_ACCESS_TOKEN}`,
 				'Client-Id': `${process.env.TWITCH_CLIENT_ID}`,
 			},
+			cache: 'force-cache',
 		})
 		if (!res.ok) {
 			throw new Error(`HTTP Error ${res.status}: fetching twitch users was not successfull`)
 		}
 		return (await res.json()) as TwitchUsersDTO
 	} catch (e) {
-		console.log(e)
+		console.log(`Couldn't fetchTwitchUsersBySchedule: ${e}`)
 	}
 }
 
@@ -84,7 +85,7 @@ export async function fetchTwitchStreamBySchedule(schedule: CmsUpcomingStreamer[
 		})
 		return (await res.json()) as TwitchStreamsDTO
 	} catch (e) {
-		console.log(e)
+		console.log(`Couldn't fetchTwitchStreamBySchedule: ${e}`)
 	}
 }
 
@@ -93,18 +94,7 @@ export async function fetchMakeAWishData() {
 		const res = await fetch(`${makeAWishAPI.donationsURL}`, {})
 		return (await res.json()) as MakeAWishInfoJsonDTO
 	} catch (e) {
-		console.log(e)
-	}
-}
-
-export function isClientSideIE() {
-	const ua = window.navigator.userAgent
-	const msie = ua.indexOf('MSIE ')
-
-	if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv:11\./)) {
-		return true
-	} else {
-		return false
+		console.log(`Couldn't fetchMakeAWishData: ${e}`)
 	}
 }
 

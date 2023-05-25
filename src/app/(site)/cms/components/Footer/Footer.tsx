@@ -1,9 +1,10 @@
+'use client'
 import React from 'react'
 import ClientLink from '../ClientLink'
 import { Text } from '../Text'
 import { AiFillHeart } from 'react-icons/ai'
-import styled from 'styled-components'
 import { cmsFeaturedStreamLink } from '../../cms'
+import { styled } from '../../../../../styles/Theme'
 
 const FooterListTitle = styled.p`
 	margin-bottom: ${(p) => p.theme.fontSize.m}px;

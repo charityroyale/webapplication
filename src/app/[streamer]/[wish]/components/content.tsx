@@ -6,7 +6,6 @@ import React, { useState, useContext, useEffect, useCallback } from 'react'
 import { BsFillPeopleFill } from 'react-icons/bs'
 import { FaDove } from 'react-icons/fa'
 import Skeleton from 'react-loading-skeleton'
-import styled from 'styled-components'
 import { Text } from '../../../(site)/cms/components/Text'
 import { CmsUpcomingStreamer, MakeAWishWish } from '../../../(site)/cms/cms'
 import DonationWidget from '../../../(site)/cms/components/DonationWidget/DonationWidget'
@@ -27,6 +26,7 @@ import {
 	StyledDonatorsWidget,
 	StyledLatestDonatorssWidget,
 } from '../../../../styles/common.styles'
+import { styled } from '../../../../styles/Theme'
 
 export interface DonationPageProps {
 	cms: {

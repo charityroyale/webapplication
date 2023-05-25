@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import styled from 'styled-components'
 import { LanguageContext, LanguageType, languageOptions } from '../../provider/LanguageProvider'
+import { styled } from '../../../../styles/Theme'
 
 export const LanguageSelector = () => {
 	const { language, updateLanguage } = useContext(LanguageContext)

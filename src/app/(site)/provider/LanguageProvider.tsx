@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { createContext, FunctionComponent, useState } from 'react'
 import en from '../languages/en.json'
