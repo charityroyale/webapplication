@@ -1,15 +1,15 @@
 import Link from 'next/link'
 import React, { FunctionComponent, useCallback, useState } from 'react'
-import Skeleton from 'react-loading-skeleton'
-import { styled } from '../../../styles/Theme'
-import ClientLink from '../ClientLink'
-import { useIsSSR } from '../../hooks/useIsSSR'
-import { UpcomingStreamProps } from './UpcomingStream'
-import { RiTwitchFill } from 'react-icons/ri'
-import { formatDate } from '../../utils/formatUtils'
 import { BsCalendar } from 'react-icons/bs'
+import { RiTwitchFill } from 'react-icons/ri'
 import { useInView } from 'react-intersection-observer'
-import { Text } from '../Text'
+import Skeleton from 'react-loading-skeleton'
+import styled from 'styled-components'
+import { useIsSSR } from '../../../hooks/useIsSSR'
+import { formatDate } from '../../../utils/formatUtils'
+import ClientLink from '../ClientLink'
+import { UpcomingStreamProps } from './UpcomingStream'
+import { Text } from '../../components/Text'
 
 const StyledUpcomingStreamFooter = styled.div`
 	display: flex;

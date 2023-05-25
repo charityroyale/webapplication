@@ -1,5 +1,5 @@
 import baseStyled, { ThemedStyledInterface } from 'styled-components'
-import { customMediaQuery, responsiveMaxSizeThreshold } from '../app/utils/commonUtils'
+import { customMediaQuery, responsiveMaxSizeThreshold } from '../app/(site)/utils/commonUtils'
 
 export const theme = {
 	color: {

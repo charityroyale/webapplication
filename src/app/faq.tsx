@@ -1,14 +1,13 @@
+import { NextPage, GetStaticProps } from 'next'
 import React, { FunctionComponent, useContext } from 'react'
-import { GetStaticProps, NextPage } from 'next'
-import Head from 'next/head'
-import PageWithLayoutType from '../app/types/PageWithLayout'
-import MainLayout from '../app/layouts/MainLayout'
-import { styled } from '../styles/Theme'
-import { ResponsiveVideo } from '../app/components/ResponsiveVideo'
-import cmsContent, { FAQVideoEntry, FAQEntryEn, FAQEntryDe } from '../app/cms/cms'
 import ReactMarkdown from 'react-markdown'
-import { Text } from '../app/components/Text'
-import { LanguageContext } from '../app/provider/LanguageProvider'
+import styled from 'styled-components'
+import cmsContent, { FAQEntryDe, FAQEntryEn, FAQVideoEntry } from './(site)/cms/cms'
+import { ResponsiveVideo } from './(site)/cms/components/ResponsiveVideo'
+import MainLayout from './(site)/layouts/MainLayout'
+import { LanguageContext } from './(site)/provider/LanguageProvider'
+import PageWithLayoutType from './(site)/types/PageWithLayout'
+import { Text } from './(site)/cms/components/Text'
 
 const FaqMainWrapper = styled.div`
 	margin: auto;
@@ -95,7 +94,7 @@ const FaqPage: NextPage<InitialFaqProps> = ({ questionsDe, questionsEn, videos }
 
 	return (
 		<>
-			<Head>
+			<head>
 				<title>Charity Royale - FAQ</title>
 				<meta name="twitter:card" content="summary" key="twcard" />
 				<meta name="twitter:site" content={'@CharityRoyale'} key="twsite" />
@@ -119,7 +118,7 @@ const FaqPage: NextPage<InitialFaqProps> = ({ questionsDe, questionsEn, videos }
 					content={'Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.'}
 					key="ogdesc"
 				/>
-			</Head>
+			</head>
 			<FaqMainWrapper>
 				<FaqVideoSection>
 					{videos.map((video, i) => (

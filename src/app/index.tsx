@@ -1,14 +1,13 @@
 import React from 'react'
-import { GetStaticProps, NextPage } from 'next'
-import Head from 'next/head'
-import MainLayout from '../app/layouts/MainLayout'
-import PageWithLayoutType from '../app/types/PageWithLayout'
-import FeaturedStream from '../app/components/FeatureStream/FeaturedStream'
-import StreamSchedule from '../app/components/StreamSchedule/StreamSchedule'
-import { fetchTwitchUsersBySchedule } from '../app/utils/commonUtils'
-import ButtonsBox from '../app/components/FaqBox'
-import cmsContent, { CmsUpcomingStreamer, StreamerType } from '../app/cms/cms'
-import { TwitchUserDTO } from '../app/dto/TwitchUserDTO'
+import { NextPage, GetStaticProps } from 'next'
+import cmsContent, { StreamerType, CmsUpcomingStreamer } from './(site)/cms/cms'
+import ButtonsBox from './(site)/cms/components/FaqBox'
+import FeaturedStream from './(site)/cms/components/FeatureStream/FeaturedStream'
+import StreamSchedule from './(site)/cms/components/StreamSchedule/StreamSchedule'
+import { TwitchUserDTO } from './(site)/dto/TwitchUserDTO'
+import MainLayout from './(site)/layouts/MainLayout'
+import PageWithLayoutType from './(site)/types/PageWithLayout'
+import { fetchTwitchUsersBySchedule } from './(site)/utils/commonUtils'
 
 export type CmsSchedulesType = { [key in StreamerType]: CmsUpcomingStreamer[] }
 
@@ -22,8 +21,8 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 	const { schedules, featuredStream, featuredYoutubeStream } = props
 
 	return (
-		<>
-			<Head>
+		<React.Fragment>
+			<head>
 				<title>Charity Royale</title>
 				<meta name="twitter:card" content="summary" key="twcard" />
 				<meta name="twitter:site" content={'@CharityRoyale'} key="twsite" />
@@ -47,13 +46,13 @@ const IndexPage: NextPage<InitialAppProps> = (props: InitialAppProps) => {
 					content={'Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.'}
 					key="ogdesc"
 				/>
-			</Head>
-			<>
+			</head>
+			<React.Fragment>
 				<ButtonsBox />
 				<FeaturedStream twitchChannelName={featuredStream} youtubeUrl={featuredYoutubeStream} />
 				<StreamSchedule schedules={schedules} />
-			</>
-		</>
+			</React.Fragment>
+		</React.Fragment>
 	)
 }
 

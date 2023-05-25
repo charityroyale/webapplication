@@ -1,6 +1,6 @@
 import React from 'react'
 import { FunctionComponent, useContext } from 'react'
-import { DictionairyEntryType, LanguageContext } from '../provider/LanguageProvider'
+import { DictionairyEntryType, LanguageContext } from '../../provider/LanguageProvider'
 
 // eslint-disable-next-line react/prop-types
 export const Text: FunctionComponent<{ content: DictionairyEntryType }> = ({ content }) => {

@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect } from 'react'
 import { useState } from 'react'
 import Cookies from 'universal-cookie'
-import { styled } from '../../styles/Theme'
 import { Text } from './Text'
+import styled from 'styled-components'
 const cookies = new Cookies()
 const gaDisableCookieName = `ga-disable-G-2LB5JE6MLN`
 

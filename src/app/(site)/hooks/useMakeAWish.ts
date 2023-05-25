@@ -1,6 +1,6 @@
 import useSWR from 'swr'
-import { makeAWishAPI } from '../../config'
 import { MakeAWishInfoJsonDTO } from '../dto/MakeAWishDTOs'
+import { makeAWishAPI } from '../../../config'
 
 const fetcher = (url: string) =>
 	fetch(url, {

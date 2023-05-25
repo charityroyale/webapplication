@@ -1,20 +1,20 @@
-import React, { useCallback, useState } from 'react'
+import React, { useState, useCallback } from 'react'
+import styled from 'styled-components'
+import { CmsSchedulesType } from '../../../..'
 import {
-	StyledKalenderDownloadLink,
-	StyledPast,
-	StyledUpcoming,
-	StylePastStreamsHeader,
 	StyleUpcomingStreamsHeader,
 	StyleUpcomingStreamsTitle,
-} from '../../../styles/common.styles'
-import { useMakeAWish } from '../../hooks/useMakeAWish'
-import { CmsUpcomingStreamer, StreamerType } from '../../cms/cms'
+	StyledKalenderDownloadLink,
+	StyledUpcoming,
+	StylePastStreamsHeader,
+	StyledPast,
+} from '../../../../../styles/common.styles'
+import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../../dto/MakeAWishDTOs'
+import { useMakeAWish } from '../../../hooks/useMakeAWish'
+import { sortByDateString } from '../../../utils/commonUtils'
+import { StreamerType, CmsUpcomingStreamer } from '../../cms'
 import UpcomingStream from './UpcomingStream'
-import { Text } from '../Text'
-import { styled } from '../../../styles/Theme'
-import { sortByDateString } from '../../utils/commonUtils'
-import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../dto/MakeAWishDTOs'
-import { CmsSchedulesType } from '../../../pages'
+import { Text } from '../../components/Text'
 
 const ScheduleTypeButton = styled.button<{ isActive: boolean }>`
 	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;

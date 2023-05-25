@@ -1,9 +1,9 @@
-import React from 'react'
-import { StyledLayout } from '../../styles/common.styles'
-import { styled } from '../../styles/Theme'
-import CookieBanner from '../components/CookieBanner'
-import Footer from '../components/Footer/Footer'
-import Header from '../components/Header/Header'
+import React, { PropsWithChildren } from 'react'
+import styled from 'styled-components'
+import { StyledLayout } from '../../../styles/common.styles'
+import CookieBanner from '../cms/components/CookieBanner'
+import Footer from '../cms/components/Footer/Footer'
+import Header from '../cms/components/Header/Header'
 
 const MainGrid = styled.main`
 	grid-area: main;
@@ -18,7 +18,7 @@ const MainGrid = styled.main`
 	}
 `
 
-const MainLayout: React.FunctionComponent = (props) => {
+const MainLayout: React.FunctionComponent<PropsWithChildren> = (props) => {
 	return (
 		<StyledLayout>
 			<CookieBanner />

@@ -1,1 +1,1 @@
-declare const Twitch: unknown
+declare const Twitch: any

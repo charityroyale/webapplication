@@ -1,4 +1,4 @@
-import { makeAWishAPI } from '../../config'
+import { makeAWishAPI } from '../../../config'
 import { CmsUpcomingStreamer } from '../cms/cms'
 import { MakeAWishInfoJsonDTO } from '../dto/MakeAWishDTOs'
 import { TwitchStreamsDTO } from '../dto/TwitchStreamsDTO'

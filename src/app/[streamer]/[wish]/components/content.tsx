@@ -1,27 +1,30 @@
-import { NextPage, GetStaticProps, GetStaticPaths } from 'next'
-import { Head } from 'next/document'
+import { NextPage } from 'next'
 import { Line } from 'rc-progress'
-import React, { useCallback, useEffect, useState, useContext } from 'react'
+import React, { useState, useContext, useEffect, useCallback } from 'react'
 import { BsFillPeopleFill } from 'react-icons/bs'
 import { FaDove } from 'react-icons/fa'
 import Skeleton from 'react-loading-skeleton'
 import styled from 'styled-components'
-import { CmsUpcomingStreamer, MakeAWishWish, cmsStreamerWishes, cmsDonationPagePaths } from '../(site)/cms/cms'
-import DonationWidget from '../(site)/cms/components/DonationWidget/DonationWidget'
-import DonationWidgetCount from '../(site)/cms/components/DonationWidget/DonationWidgetCount'
-import DonationWidgetList, { DonationListItem } from '../(site)/cms/components/DonationWidget/DonatorsWidgetList'
-import DonationHeader from '../(site)/cms/components/Header/DonationHeader'
-import { MakeWishInfoJsonRecentDonationDTO, MakeAWishInfoJsonTopDonationDTO } from '../(site)/dto/MakeAWishDTOs'
-import { useIsSSR } from '../(site)/hooks/useIsSSR'
-import { useMakeAWish } from '../(site)/hooks/useMakeAWish'
-import DonationLayout from '../(site)/layouts/DonationLayout'
-import { IpInfoProviderContext } from '../(site)/provider/IpInfoProvider'
-import { LanguageContext } from '../(site)/provider/LanguageProvider'
-import PageWithLayoutType from '../(site)/types/PageWithLayout'
-import { hasProperty, getPercentage } from '../(site)/utils/commonUtils'
-import { formatMoneyWithSign, formatDate } from '../(site)/utils/formatUtils'
-import { makeAWishAPI } from '../../config'
-import { StyledDonationSumWidget, StyledDonatorsWidget, StyledLatestDonatorssWidget } from '../../styles/common.styles'
+import { Text } from '../../../(site)/cms/components/Text'
+import { CmsUpcomingStreamer, MakeAWishWish } from '../../../(site)/cms/cms'
+import DonationWidget from '../../../(site)/cms/components/DonationWidget/DonationWidget'
+import DonationWidgetCount from '../../../(site)/cms/components/DonationWidget/DonationWidgetCount'
+import DonationWidgetList, { DonationListItem } from '../../../(site)/cms/components/DonationWidget/DonatorsWidgetList'
+import DonationHeader from '../../../(site)/cms/components/Header/DonationHeader'
+import { MakeWishInfoJsonRecentDonationDTO, MakeAWishInfoJsonTopDonationDTO } from '../../../(site)/dto/MakeAWishDTOs'
+import { useIsSSR } from '../../../(site)/hooks/useIsSSR'
+import { useMakeAWish } from '../../../(site)/hooks/useMakeAWish'
+import { IpInfoProviderContext } from '../../../(site)/provider/IpInfoProvider'
+import { LanguageContext } from '../../../(site)/provider/LanguageProvider'
+import { hasProperty, getPercentage } from '../../../(site)/utils/commonUtils'
+import { ImTrophy } from 'react-icons/im'
+import { formatMoneyWithSign, formatDate } from '../../../(site)/utils/formatUtils'
+import { makeAWishAPI } from '../../../../config'
+import {
+	StyledDonationSumWidget,
+	StyledDonatorsWidget,
+	StyledLatestDonatorssWidget,
+} from '../../../../styles/common.styles'
 
 export interface DonationPageProps {
 	cms: {
@@ -30,7 +33,7 @@ export interface DonationPageProps {
 	}
 }
 
-const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => {
+export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => {
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by MAW form
 	const [iFrameLoading, setIFrameLoaded] = useState(true)
 	const [iFrameError, setIFrameError] = useState(false)
@@ -133,47 +136,6 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 	}, [wishCountry, ipInfoContext.country])
 	return (
 		<React.Fragment>
-			<Head>
-				<title>Charity Royale - {cms.streamer.streamerName}</title>
-				<link
-					rel="preload"
-					as="document"
-					href={`${makeAWishAPI.donationFormURL}${cmsStreamerSlug}/${cms.wish.slug}`}
-				></link>
-				<link
-					rel="preload"
-					as="script"
-					href="https://www.paypal.com/sdk/js?client-id=ARva2JSJxkYe3aON0p68XxuHWEw-HaEqajH0a990PelhZZGnFh04CUOQpOgWURnRZqVdcQAo9tfFLUl_&currency=EUR"
-				></link>
-
-				<meta name="twitter:card" content="summary" key="twcard" />
-				<meta name="twitter:site" content={'@CharityRoyale'} key="twsite" />
-				<meta name="twitter:creator" content={'@CharityRoyale'} key="twcreator" />
-
-				<meta property="og:url" content={'https://charityroyale.at/'} key="ogurl" />
-				<meta
-					property="og:image"
-					content={'https://charityroyale.at/uploads/charity_royale_rgb_300x300.png'}
-					key="ogimage"
-				/>
-				<meta property="og:image:width" content={'300'} key="ogimagewidth" />
-				<meta property="og:image:height" content={'300'} key="ogimageheight" />
-				<meta property="og:site_name" content={'Charity Royale'} key="ogsitename" />
-				<meta
-					property="og:title"
-					content={`${cms.streamer.streamerName}'s Spendenseite`}
-					key="ogtitlestreamer"
-				/>
-				<meta property="og:type" content={'website'} key="ogtype" />
-				<meta property="og:locale" content={'de_AT'} key="oglocale" />
-				<meta property="fb:app_id" content={process.env.FB_ID} key="fbappid" />
-				<meta
-					property="og:description"
-					content={'Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.'}
-					key="ogdesc"
-				/>
-			</Head>
-
 			<DonationHeader
 				streamLink={cms.streamer.streamLink}
 				streamerName={cms.streamer.streamerName}
@@ -272,34 +234,6 @@ const DonatePage: NextPage<DonationPageProps> = ({ cms }: DonationPageProps) => 
 		</React.Fragment>
 	)
 }
-
-export const getStaticProps: GetStaticProps<DonationPageProps> = async ({ params }) => {
-	// This function is not called on the client and would fail at build-time
-	// params are passed by `cmsDonationPagePaths` in `cms.ts`.
-
-	// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-	const streamerSlug = params!.streamer as string
-	// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-	const wishSlug = params!.wishSlug as string
-
-	const donationPageKey = streamerSlug + wishSlug
-
-	return {
-		props: {
-			cms: {
-				...cmsStreamerWishes[donationPageKey],
-			},
-		},
-	}
-}
-
-export const getStaticPaths: GetStaticPaths = async () => {
-	return {
-		paths: cmsDonationPagePaths,
-		fallback: false,
-	}
-}
-;(DonatePage as unknown as PageWithLayoutType).layout = DonationLayout
 
 const DonationIFrameWrapper = styled.div`
 	grid-area: donation-form;
@@ -442,5 +376,3 @@ const DonationStatNumbers = styled.span`
 	color: ${(p) => p.theme.color.charityTeal};
 	font-weight: bold;
 `
-
-export default DonatePage

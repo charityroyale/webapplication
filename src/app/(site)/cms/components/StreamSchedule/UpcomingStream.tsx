@@ -1,13 +1,13 @@
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
-import { StreamProjectDateWrapper } from '../../../styles/common.styles'
-import { styled } from '../../../styles/Theme'
-import { useIsSSR } from '../../hooks/useIsSSR'
-import ClientLink from '../ClientLink'
-import { formatMoneyWithSign } from '../../utils/formatUtils'
-import { UpcomingStreamFooter } from './UpcomingStreamFooter'
-import { CmsUpcomingStreamer } from '../../cms/cms'
 import { useInView } from 'react-intersection-observer'
+import styled from 'styled-components'
+import { StreamProjectDateWrapper } from '../../../../../styles/common.styles'
+import { useIsSSR } from '../../../hooks/useIsSSR'
+import { formatMoneyWithSign } from '../../../utils/formatUtils'
+import { CmsUpcomingStreamer } from '../../cms'
+import ClientLink from '../ClientLink'
+import { UpcomingStreamFooter } from './UpcomingStreamFooter'
 
 const StreamerImageWrapper = styled.div`
 	position: relative;

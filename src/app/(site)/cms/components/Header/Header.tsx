@@ -1,16 +1,16 @@
 import Link from 'next/link'
 import React, { useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
+import styled from 'styled-components'
 import {
 	StyledHeader,
 	StyledHeaderLeftItem,
 	StyledHeaderCenterItem,
 	StyledHeaderRightItem,
-} from '../../../styles/common.styles'
-import { styled } from '../../../styles/Theme'
-import { cmsFeaturedStreamLink } from '../../cms/cms'
-import { useIsSSR } from '../../hooks/useIsSSR'
-import { useMakeAWish } from '../../hooks/useMakeAWish'
+} from '../../../../../styles/common.styles'
+import { useIsSSR } from '../../../hooks/useIsSSR'
+import { useMakeAWish } from '../../../hooks/useMakeAWish'
+import { cmsFeaturedStreamLink } from '../../cms'
 import ClientLink from '../ClientLink'
 import { LanguageSelector } from '../LanguageSelector'
 import DonationHeaderCount from './DonationHeaderCount'

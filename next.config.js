@@ -19,6 +19,9 @@ const nextConfig = {
 		})
 		return cfg
 	},
+	experimental: {
+		externalDir: true,
+	},
 }
 
 module.exports = nextConfig

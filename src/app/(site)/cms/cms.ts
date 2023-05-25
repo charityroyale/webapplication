@@ -72,7 +72,7 @@ export const cmsFeaturedStreamLink =
 const streamers = cmsContent.upcoming
 const wishes = cmsContent.wishes
 
-interface CmsStreamWish {
+export interface CmsStreamWish {
 	streamer: CmsUpcomingStreamer
 	wish: MakeAWishWish
 }

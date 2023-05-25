@@ -1,9 +1,9 @@
 import React, { ReactNode } from 'react'
-import { styled } from '../../../styles/Theme'
-import { getPercentage } from '../../utils/commonUtils'
-import { formatMoneyWithSign } from '../../utils/formatUtils'
-
 import { Text } from '../Text'
+import styled from 'styled-components'
+import { getPercentage } from '../../../utils/commonUtils'
+import { formatMoneyWithSign } from '../../../utils/formatUtils'
+
 const DonationCountWrapper = styled.div`
 	display: flex;
 	justify-content: center;
