@@ -1,3 +1,4 @@
+'use client'
 import { NextPage } from 'next'
 import { Line } from 'rc-progress'
 import React, { useState, useContext, useEffect, useCallback } from 'react'

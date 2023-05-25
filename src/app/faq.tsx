@@ -6,7 +6,6 @@ import cmsContent, { FAQEntryDe, FAQEntryEn, FAQVideoEntry } from './(site)/cms/
 import { ResponsiveVideo } from './(site)/cms/components/ResponsiveVideo'
 import MainLayout from './(site)/layouts/MainLayout'
 import { LanguageContext } from './(site)/provider/LanguageProvider'
-import PageWithLayoutType from './(site)/types/PageWithLayout'
 import { Text } from './(site)/cms/components/Text'
 
 const FaqMainWrapper = styled.div`

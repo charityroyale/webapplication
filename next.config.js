@@ -19,9 +19,9 @@ const nextConfig = {
 		})
 		return cfg
 	},
-	experimental: {
-		externalDir: true,
-	},
+	// see https://styled-components.com/docs/tooling#babel-plugin for more info on the options.
+	// https://github.com/vercel/next.js/issues/30802
+	compiler: { styledComponents: { ssr: true } },
 }
 
 module.exports = nextConfig

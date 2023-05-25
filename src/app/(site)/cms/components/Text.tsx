@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { FunctionComponent, useContext } from 'react'
 import { DictionairyEntryType, LanguageContext } from '../../provider/LanguageProvider'
