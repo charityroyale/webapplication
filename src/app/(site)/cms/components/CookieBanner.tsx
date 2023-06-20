@@ -1,5 +1,4 @@
-'use-client'
-
+'use client'
 import React, { useCallback, useEffect } from 'react'
 import { useState } from 'react'
 import Cookies from 'universal-cookie'

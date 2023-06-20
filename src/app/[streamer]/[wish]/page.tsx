@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import { Metadata } from 'next'
 import { cmsDonationPagePaths, cmsStreamerWishesFilled } from '../../(site)/cms/cms'
