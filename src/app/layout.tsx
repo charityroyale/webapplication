@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import StyledComponentsRegistry from './lib/registry'
 import { GlobalStyle } from '../styles/global.styles'
