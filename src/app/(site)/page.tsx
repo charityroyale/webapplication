@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import cmsContent, { StreamerType, CmsUpcomingStreamer } from './cms/cms'
 import ButtonsBox from './cms/components/FaqBox'
@@ -16,9 +15,6 @@ export interface IndexPageProps {
 }
 
 const getTwitchUsers = async (schedule: CmsUpcomingStreamer[]) => {
-	// TODO: really? looks fishy
-	// do not refetch und clientside (e.g. dev mode)
-	if (typeof window !== undefined) return null
 	return (await fetchTwitchUsersBySchedule(schedule))?.data ?? null
 }
 
