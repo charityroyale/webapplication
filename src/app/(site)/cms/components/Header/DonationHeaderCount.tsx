@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 import { Text } from '../Text'
 import { getPercentage } from '../../../utils/commonUtils'
 import { formatMoneyWithSign } from '../../../utils/formatUtils'
-import { styled } from '../../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 const DonationCountWrapper = styled.div`
 	display: flex;

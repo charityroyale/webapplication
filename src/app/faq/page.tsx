@@ -5,7 +5,7 @@ import cmsContent from '../(site)/cms/cms'
 import { ResponsiveVideo } from '../(site)/cms/components/ResponsiveVideo'
 import { LanguageContext } from '../(site)/provider/LanguageProvider'
 import { Text } from '../(site)/cms/components/Text'
-import { styled } from '../../styles/Theme'
+import { styled } from 'styled-components'
 
 const FaqMainWrapper = styled.div`
 	margin: auto;

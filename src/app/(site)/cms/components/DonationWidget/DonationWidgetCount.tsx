@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { GiChickenOven } from 'react-icons/gi'
 import { Text } from '../Text'
-import { styled } from '../../../../../styles/Theme'
+import { styled } from 'styled-components'
 import { getPercentage } from '../../../utils/commonUtils'
 import { formatMoneyWithSign } from '../../../utils/formatUtils'
 

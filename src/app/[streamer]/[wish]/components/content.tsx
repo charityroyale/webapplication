@@ -26,7 +26,7 @@ import {
 	StyledDonatorsWidget,
 	StyledLatestDonatorssWidget,
 } from '../../../../styles/common.styles'
-import { styled } from '../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 export interface DonationPageProps {
 	cms: {

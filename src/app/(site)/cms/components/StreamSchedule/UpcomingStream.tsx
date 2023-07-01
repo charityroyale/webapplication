@@ -7,7 +7,7 @@ import { formatMoneyWithSign } from '../../../utils/formatUtils'
 import { CmsUpcomingStreamer } from '../../cms'
 import ClientLink from '../ClientLink'
 import { UpcomingStreamFooter } from './UpcomingStreamFooter'
-import { styled } from '../../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 const StreamerImageWrapper = styled.div`
 	position: relative;

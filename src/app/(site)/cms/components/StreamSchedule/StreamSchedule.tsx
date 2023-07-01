@@ -15,7 +15,7 @@ import { sortByDateString } from '../../../utils/commonUtils'
 import { StreamerType, CmsUpcomingStreamer } from '../../cms'
 import UpcomingStream from './UpcomingStream'
 import { Text } from '../../components/Text'
-import { styled } from '../../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 const ScheduleTypeButton = styled.button<{ isActive: boolean }>`
 	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;

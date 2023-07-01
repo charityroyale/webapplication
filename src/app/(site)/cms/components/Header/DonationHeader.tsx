@@ -5,7 +5,7 @@ import { BsCalendar } from 'react-icons/bs'
 import { Text } from '../Text'
 import { BiDonateHeart } from 'react-icons/bi'
 import { formatDate } from '../../../utils/formatUtils'
-import { styled } from '../../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 const StyledDonationHeaderTitle = styled.h2`
 	font-size: ${(p) => p.theme.fontSize.l} px;

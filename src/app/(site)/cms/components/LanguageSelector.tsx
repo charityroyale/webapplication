@@ -1,6 +1,7 @@
+'use client'
 import React, { useContext } from 'react'
 import { LanguageContext, LanguageType, languageOptions } from '../../provider/LanguageProvider'
-import { styled } from '../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 export const LanguageSelector = () => {
 	const { language, updateLanguage } = useContext(LanguageContext)

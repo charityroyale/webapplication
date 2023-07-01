@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-import { styled } from '../../../../../styles/Theme'
+import { styled } from 'styled-components'
 import { formatMoneyWithSign } from '../../../utils/formatUtils'
 
 const DonationListRow = styled.div`

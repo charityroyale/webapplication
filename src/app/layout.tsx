@@ -1,8 +1,5 @@
 import React from 'react'
-import StyledComponentsRegistry from './lib/registry'
-import { GlobalStyle } from '../styles/global.styles'
-import { ThemeProvider } from 'styled-components'
-import { theme } from '../styles/Theme'
+import { CrThemeProvider } from './(site)/provider/CrThemeProvider'
 
 export const metadata = {
 	title: 'Charity Royale',
@@ -13,12 +10,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="de-AT">
 			<body>
-				<StyledComponentsRegistry>
-					<React.Fragment>
-						<GlobalStyle />
-						<ThemeProvider theme={theme}>{children}</ThemeProvider>
-					</React.Fragment>
-				</StyledComponentsRegistry>
+				<CrThemeProvider>{children}</CrThemeProvider>
 			</body>
 		</html>
 	)

@@ -1,7 +1,6 @@
-import baseStyled, { ThemedStyledInterface } from 'styled-components'
 import { customMediaQuery, responsiveMaxSizeThreshold } from '../app/(site)/utils/commonUtils'
 
-export const theme = {
+export const crTheme = {
 	color: {
 		white: 'white',
 		black: 'black',
@@ -43,6 +42,4 @@ export const theme = {
 	},
 }
 
-// Stronlgy typed theme https://github.com/styled-components/styled-components/issues/1589
-export type Theme = typeof theme
-export const styled = baseStyled as ThemedStyledInterface<Theme>
+export type CrThemeInterface = typeof crTheme

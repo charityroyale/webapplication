@@ -9,7 +9,7 @@ import { formatDate } from '../../../utils/formatUtils'
 import ClientLink from '../ClientLink'
 import { UpcomingStreamProps } from './UpcomingStream'
 import { Text } from '../../components/Text'
-import { styled } from '../../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 const StyledUpcomingStreamFooter = styled.div`
 	display: flex;

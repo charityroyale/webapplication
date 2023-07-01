@@ -1,7 +1,7 @@
 'use client'
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
-import { styled } from '../../../../styles/Theme'
+import { styled } from 'styled-components'
 import { useIsSSR } from '../../hooks/useIsSSR'
 
 const VideoContainerWrapper = styled.div`

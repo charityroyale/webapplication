@@ -1,7 +1,7 @@
 'use client'
 import React, { PropsWithChildren } from 'react'
 import { StyledLayout } from '../../styles/common.styles'
-import { styled } from '../../styles/Theme'
+import { styled } from 'styled-components'
 import CookieBanner from '../(site)/cms/components/CookieBanner'
 import Footer from '../(site)/cms/components/Footer/Footer'
 import Header from '../(site)/cms/components/Header/Header'

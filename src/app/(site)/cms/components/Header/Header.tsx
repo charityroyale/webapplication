@@ -16,7 +16,7 @@ import { LanguageSelector } from '../LanguageSelector'
 import DonationHeaderCount from './DonationHeaderCount'
 import { Text } from '../Text'
 import { HeaderSocials } from './HeaderSocials'
-import { styled } from '../../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 const StyledHeaderContent = styled.div`
 	grid-area: header-row;

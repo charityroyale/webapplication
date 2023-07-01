@@ -4,7 +4,7 @@ import { StyledLayout } from '../../styles/common.styles'
 import CookieBanner from './cms/components/CookieBanner'
 import Footer from './cms/components/Footer/Footer'
 import Header from './cms/components/Header/Header'
-import { styled } from '../../styles/Theme'
+import { styled } from 'styled-components'
 
 const MainGrid = styled.main`
 	grid-area: main;

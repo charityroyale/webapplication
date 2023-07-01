@@ -1,4 +1,4 @@
-import { styled } from './Theme'
+import { styled } from 'styled-components'
 
 export const Heading = styled.h1`
 	color: ${(p) => p.theme.color.secondary};
