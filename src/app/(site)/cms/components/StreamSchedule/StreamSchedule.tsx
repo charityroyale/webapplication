@@ -17,7 +17,7 @@ import UpcomingStream from './UpcomingStream'
 import { Text } from '../../components/Text'
 import { styled } from 'styled-components'
 
-const ScheduleTypeButton = styled.button<{ isActive: boolean }>`
+const ScheduleTypeButton = styled.button<{ $isActive: boolean }>`
 	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
 	border: 2px solid ${(p) => p.theme.color.charityTeal};
 	background-color: ${(p) => p.theme.color.veniPurple};
@@ -52,7 +52,7 @@ const ScheduleTypeButton = styled.button<{ isActive: boolean }>`
 	}
 
 	${(p) =>
-		p.isActive
+		p.$isActive
 			? `color: ${p.theme.color.veniPurple};
 		border-image-source: linear-gradient(
 			to right,
@@ -100,7 +100,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 		}
 		return (
 			<UpcomingStream
-				projectDone={isInThePast(stream)}
+				$projectdone={isInThePast(stream)}
 				key={`${stream.streamerChannel}-${index}-stream`}
 				{...stream}
 				donationProgress={donationProgess}
@@ -137,7 +137,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 							<ScheduleTypeButton
 								value="main"
 								onClick={changeScheduleTypeOnClick}
-								isActive={scheduleType === 'main'}
+								$isActive={scheduleType === 'main'}
 							>
 								Main
 							</ScheduleTypeButton>
@@ -145,7 +145,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 							<ScheduleTypeButton
 								value="community"
 								onClick={changeScheduleTypeOnClick}
-								isActive={scheduleType === 'community'}
+								$isActive={scheduleType === 'community'}
 							>
 								Community
 							</ScheduleTypeButton>
@@ -165,7 +165,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 								<ScheduleTypeButton
 									value="main"
 									onClick={changeScheduleTypeOnClick}
-									isActive={scheduleType === 'main'}
+									$isActive={scheduleType === 'main'}
 								>
 									Main
 								</ScheduleTypeButton>
@@ -173,7 +173,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 								<ScheduleTypeButton
 									value="community"
 									onClick={changeScheduleTypeOnClick}
-									isActive={scheduleType === 'community'}
+									$isActive={scheduleType === 'community'}
 								>
 									Community
 								</ScheduleTypeButton>

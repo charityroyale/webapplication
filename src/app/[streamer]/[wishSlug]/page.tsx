@@ -5,13 +5,13 @@ import { makeAWishAPI } from '../../../config'
 import { DonatePageContent } from './components/content'
 
 type Props = {
-	params: { streamer: string; wish: string }
+	params: { streamer: string; wishSlug: string }
 	searchParams?: { [key: string]: string | string[] | undefined }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const streamerSlug = params.streamer
-	const wishSlug = params.wish
+	const wishSlug = params.wishSlug
 	const donationPageSlug = streamerSlug + wishSlug
 	const cms = {
 		...cmsStreamerWishesFilled[donationPageSlug],
@@ -50,13 +50,14 @@ export async function generateStaticParams() {
 	return cmsDonationPagePaths
 }
 
-export default function Page({ params }: Props) {
+export default async function Page({ params }: Props) {
 	const streamerSlug = params.streamer
-	const wishSlug = params.wish
+	const wishSlug = params.wishSlug
 	const donationPageSlug = streamerSlug + wishSlug
 	const cms = {
 		...cmsStreamerWishesFilled[donationPageSlug],
 	}
+	console.log(params)
 
 	return (
 		<div>

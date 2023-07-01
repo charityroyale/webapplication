@@ -70,6 +70,7 @@ export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]
 }
 
 export async function fetchTwitchStreamBySchedule(schedule: CmsUpcomingStreamer[]) {
+	if (typeof window !== 'undefined') return null
 	try {
 		const loginIds = []
 		for (const el of schedule) {
