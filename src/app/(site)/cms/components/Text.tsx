@@ -1,10 +1,9 @@
 'use client'
 import React from 'react'
-import { FunctionComponent, useContext } from 'react'
-import { DictionairyEntryType, LanguageContext } from '../../provider/LanguageProvider'
+import { FunctionComponent } from 'react'
+import { DictionairyEntryType, useLanguageContext } from '../../provider/LanguageProvider'
 
-// eslint-disable-next-line react/prop-types
 export const Text: FunctionComponent<{ content: DictionairyEntryType }> = ({ content }) => {
-	const languageContext = useContext(LanguageContext)
+	const languageContext = useLanguageContext()
 	return <span>{languageContext.dictionary[content]}</span>
 }

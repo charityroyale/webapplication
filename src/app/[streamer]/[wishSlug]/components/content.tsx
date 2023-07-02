@@ -15,7 +15,7 @@ import DonationHeader from '../../../(site)/cms/components/Header/DonationHeader
 import { MakeWishInfoJsonRecentDonationDTO, MakeAWishInfoJsonTopDonationDTO } from '../../../(site)/dto/MakeAWishDTOs'
 import { useMakeAWish } from '../../../(site)/hooks/useMakeAWish'
 import { IpInfoProviderContext } from '../../../(site)/provider/IpInfoProvider'
-import { LanguageContext } from '../../../(site)/provider/LanguageProvider'
+import { useLanguageContext } from '../../../(site)/provider/LanguageProvider'
 import { hasProperty, getPercentage } from '../../../(site)/utils/commonUtils'
 import { ImTrophy } from 'react-icons/im'
 import { formatMoneyWithSign, formatDate } from '../../../(site)/utils/formatUtils'
@@ -42,7 +42,7 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by MAW form
 	const [iFrameLoading, setIFrameLoaded] = useState(true)
 	const [iFrameError, setIFrameError] = useState(false)
-	const languageContext = useContext(LanguageContext)
+	const languageContext = useLanguageContext()
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 	const ipInfoContext = useContext(IpInfoProviderContext)
 	const [shouldDisplayTaxHint, setShouldDisplayTaxHint] = useState(false)
