@@ -76,6 +76,7 @@ export const DoneStreamDonation = styled.div<{ $projectdone: boolean }>`
 	color: white;
 	font-weight: bold;
 	font-size: 28px;
+	z-index: 999;
 	display: ${(p) => (p.$projectdone ? 'block' : 'none')};
 `
 
@@ -86,11 +87,16 @@ export interface UpcomingStreamProps extends CmsUpcomingStreamer {
 
 const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingStreamProps) => {
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
+	const [isImageErrorLoad, setIsImageErrorLoad] = useState(false)
 	const { streamerChannel, imgUrl, streamerName, $projectdone, donationProgress, customLink } = props
 	const { ref, inView } = useInView({ triggerOnce: true })
 
 	const onImageLoad = useCallback(() => {
 		setIsImagedLoaded(true)
+	}, [])
+
+	const onImageErrorLoad = useCallback(() => {
+		setIsImageErrorLoad(true)
 	}, [])
 
 	const donateLinkHref = `/donate/${customLink || streamerChannel}/${props.wishes[0]}`
@@ -99,14 +105,17 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 		<StyledUpcomingStream ref={ref}>
 			<ClientLink href={donateLinkHref} ariaLabel={`Streamer ${streamerName} Logo`}>
 				<StreamerImageWrapper>
-					{!imageLoaded && <Skeleton height={300} />}
-					<StyledUpcomingStreamPlaceholderImage
-						$projectdone={$projectdone}
-						style={{ display: imageLoaded ? 'flex' : 'none' }}
-						onLoad={onImageLoad}
-						src={inView ? imgUrl : ''}
-						alt={`Streamer ${streamerName} Logo`}
-					/>
+					{(!imageLoaded || isImageErrorLoad) && <Skeleton height={300} />}
+					{inView && (
+						<StyledUpcomingStreamPlaceholderImage
+							$projectdone={$projectdone}
+							style={{ display: imageLoaded ? '' : 'none' }}
+							onLoad={onImageLoad}
+							onError={onImageErrorLoad}
+							src={inView ? imgUrl : ''}
+							alt={`Streamer ${streamerName} Logo`}
+						/>
+					)}
 					<DoneStreamDonation $projectdone={$projectdone}>
 						{formatMoneyWithSign(donationProgress)}
 					</DoneStreamDonation>

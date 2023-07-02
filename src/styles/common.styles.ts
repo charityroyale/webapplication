@@ -104,6 +104,7 @@ export const StreamProjectDateWrapper = styled.div`
 	font-weight: bold;
 	font-size: ${(p) => p.theme.fontSize.xl}px;
 	padding: 0px 8px;
+	z-index: 999;
 `
 
 export const StyledUpcoming = styled.div`
