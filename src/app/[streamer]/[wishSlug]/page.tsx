@@ -57,7 +57,6 @@ export default async function Page({ params }: Props) {
 	const cms = {
 		...cmsStreamerWishesFilled[donationPageSlug],
 	}
-	console.log(params)
 
 	return (
 		<div>

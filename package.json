@@ -14,7 +14,6 @@
 		"lint:fix": "npm run lint -- --fix"
 	},
 	"dependencies": {
-		"http-server": "^14.1.1",
 		"next": "^13.4.3",
 		"rc-progress": "^3.4.2",
 		"react": "^18.2.0",
