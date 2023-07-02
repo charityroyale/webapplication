@@ -75,7 +75,7 @@ const DonationWidgetGridArea = styled.div`
 	}
 `
 
-const DonationHeaderStreamLink = styled.p`
+const DonationHeaderStreamLink = styled.div`
 	display: flex;
 	align-items: center;
 	margin: 8px 0;
