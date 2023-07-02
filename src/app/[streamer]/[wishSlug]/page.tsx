@@ -3,20 +3,15 @@ import { Metadata } from 'next'
 import { cmsDonationPagePaths, cmsStreamerWishesFilled } from '../../(site)/cms/cms'
 import { makeAWishAPI } from '../../../config'
 import { DonatePageContent } from './components/content'
-import { styled } from '../../../styles/Theme'
-import CookieBanner from '../../(site)/cms/components/CookieBanner'
-import Footer from '../../(site)/cms/components/Footer/Footer'
-import Header from '../../(site)/cms/components/Header/Header'
-import { StyledLayout } from '../../../styles/common.styles'
 
 type Props = {
-	params: { streamer: string; wish: string }
+	params: { streamer: string; wishSlug: string }
 	searchParams?: { [key: string]: string | string[] | undefined }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const streamerSlug = params.streamer
-	const wishSlug = params.wish
+	const wishSlug = params.wishSlug
 	const donationPageSlug = streamerSlug + wishSlug
 	const cms = {
 		...cmsStreamerWishesFilled[donationPageSlug],
@@ -55,9 +50,9 @@ export async function generateStaticParams() {
 	return cmsDonationPagePaths
 }
 
-export default function Page({ params }: Props) {
+export default async function Page({ params }: Props) {
 	const streamerSlug = params.streamer
-	const wishSlug = params.wish
+	const wishSlug = params.wishSlug
 	const donationPageSlug = streamerSlug + wishSlug
 	const cms = {
 		...cmsStreamerWishesFilled[donationPageSlug],
@@ -70,7 +65,8 @@ export default function Page({ params }: Props) {
 			 **/}
 			<link
 				rel="preload"
-				as="document"
+				// <link rel=preload> uses an unsupported `as` value
+				// as="document"
 				href={`${makeAWishAPI.donationFormURL}${cms.streamer.streamerChannel}/${cms.wish.slug}`}
 			></link>
 			<link
@@ -80,52 +76,7 @@ export default function Page({ params }: Props) {
 			></link>
 			<meta property="fb:app_id" content={process.env.FB_ID} key="fbappid" />
 			{/** END */}
-
-			<StyledLayout>
-				<CookieBanner />
-				<Header />
-				<MainGrid>
-					<DonatePageContent cms={cms} />
-				</MainGrid>
-				<Footer />
-			</StyledLayout>
+			<DonatePageContent cms={cms} />
 		</div>
 	)
 }
-
-const MainGrid = styled.div`
-	display: grid;
-	grid-area: main;
-	margin: auto;
-	padding: 0 ${(p) => p.theme.space.xl}px;
-	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
-	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
-	grid-template-areas:
-		'donation-header donation-header donation-header'
-		'donation-form donation-form donation-widget-top-donation-sum'
-		'donation-form donation-form donation-widget-top-donators'
-		'donation-form donation-form donation-widget-top-latest-donators';
-
-	${(p) => p.theme.media.tablet} {
-		width: 100%;
-		grid-template-columns: 1fr 1fr;
-		padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
-		grid-template-areas:
-			'donation-header donation-header'
-			'donation-form donation-form'
-			'donation-widget-top-donation-sum donation-widget-top-donators'
-			'donation-widget-top-latest-donators donation-widget-top-latest-donators';
-	}
-
-	${(p) => p.theme.media.phone} {
-		width: 100%;
-		grid-template-columns: 1fr;
-		padding: 0 ${(p) => p.theme.space.xl}px;
-		grid-template-areas:
-			'donation-header'
-			'donation-form'
-			'donation-widget-top-donation-sum'
-			'donation-widget-top-donators'
-			'donation-widget-top-latest-donators';
-	}
-`

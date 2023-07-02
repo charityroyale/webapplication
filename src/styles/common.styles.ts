@@ -1,4 +1,4 @@
-import { styled } from './Theme'
+import { styled } from 'styled-components'
 
 export const Heading = styled.h1`
 	color: ${(p) => p.theme.color.secondary};
@@ -104,6 +104,7 @@ export const StreamProjectDateWrapper = styled.div`
 	font-weight: bold;
 	font-size: ${(p) => p.theme.fontSize.xl}px;
 	padding: 0px 8px;
+	z-index: 999;
 `
 
 export const StyledUpcoming = styled.div`

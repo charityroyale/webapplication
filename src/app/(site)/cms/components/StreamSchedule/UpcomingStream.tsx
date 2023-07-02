@@ -2,15 +2,17 @@ import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import { useInView } from 'react-intersection-observer'
 import { StreamProjectDateWrapper } from '../../../../../styles/common.styles'
-import { useIsSSR } from '../../../hooks/useIsSSR'
 import { formatMoneyWithSign } from '../../../utils/formatUtils'
 import { CmsUpcomingStreamer } from '../../cms'
 import ClientLink from '../ClientLink'
 import { UpcomingStreamFooter } from './UpcomingStreamFooter'
-import { styled } from '../../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 const StreamerImageWrapper = styled.div`
 	position: relative;
+	width: 100%;
+	height: calc(100% - 60px);
+	min-height: 250px;
 
 	&:before {
 		content: ' ';
@@ -39,7 +41,7 @@ const StreamerImageWrapper = styled.div`
 	}
 `
 
-export const UpcomingStreamDate = styled.p<{ projectDone: boolean }>`
+export const UpcomingStreamDate = styled.p<{ $projectdone: boolean }>`
 	background-color: ${(p) => p.theme.color.charityTeal};
 	color: ${(p) => p.theme.color.veniPurple};
 	border-top-right-radius: 2px;
@@ -49,7 +51,7 @@ export const UpcomingStreamDate = styled.p<{ projectDone: boolean }>`
 	display: flex;
 	align-items: center;
 	padding: 4px 8px;
-	display: ${(p) => (p.projectDone ? 'none' : 'block')};
+	display: ${(p) => (p.$projectdone ? 'none' : 'block')};
 
 	${(p) => p.theme.media.phone} {
 		display: none;
@@ -62,14 +64,15 @@ export const StyledUpcomingStream = styled.div`
 	}
 `
 
-export const StyledUpcomingStreamPlaceholderImage = styled.img<{ projectDone: boolean }>`
+export const UpcomingStreamImage = styled.img<{ $projectdone: boolean }>`
 	background-color: ${(p) => p.theme.color.willhaben};
 	border: 1px solid ${(p) => p.theme.color.charityTeal};
 	width: 100%;
-	filter: ${(p) => (p.projectDone ? 'grayscale(1)' : '')};
+	height: 100%;
+	filter: ${(p) => (p.$projectdone ? 'grayscale(1)' : '')};
 `
 
-export const DoneStreamDonation = styled.div<{ projectDone: boolean }>`
+export const DoneStreamDonation = styled.div<{ $projectdone: boolean }>`
 	position: absolute;
 	bottom: 29px;
 	padding: 4px 8px;
@@ -77,41 +80,50 @@ export const DoneStreamDonation = styled.div<{ projectDone: boolean }>`
 	color: white;
 	font-weight: bold;
 	font-size: 28px;
-	display: ${(p) => (p.projectDone ? 'block' : 'none')};
+	z-index: 999;
+	display: ${(p) => (p.$projectdone ? 'block' : 'none')};
 `
 
 export interface UpcomingStreamProps extends CmsUpcomingStreamer {
 	donationProgress: string
-	projectDone: boolean
+	$projectdone: boolean
 }
 
 const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingStreamProps) => {
-	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
-	const { streamerChannel, imgUrl, streamerName, projectDone, donationProgress, customLink } = props
+	const [isImageErrorLoad, setIsImageErrorLoad] = useState(false)
+	const { streamerChannel, imgUrl, streamerName, $projectdone, donationProgress, customLink } = props
 	const { ref, inView } = useInView({ triggerOnce: true })
 
 	const onImageLoad = useCallback(() => {
 		setIsImagedLoaded(true)
 	}, [])
 
-	const donateLinkHref = `/donate/${customLink || streamerChannel}/${props.wishes[0]}`
+	const onImageErrorLoad = useCallback(() => {
+		setIsImageErrorLoad(true)
+	}, [])
+
+	const donateLinkHref = `/${customLink || streamerChannel}/${props.wishes[0]}`
 
 	return (
 		<StyledUpcomingStream ref={ref}>
 			<ClientLink href={donateLinkHref} ariaLabel={`Streamer ${streamerName} Logo`}>
 				<StreamerImageWrapper>
-					{!imageLoaded && <Skeleton height={300} />}
-					{!isSSR && (
-						<StyledUpcomingStreamPlaceholderImage
-							projectDone={projectDone}
-							style={{ display: imageLoaded ? 'flex' : 'none' }}
+					{!imageLoaded && <Skeleton width="100%" height="100%" />}
+					{inView && (
+						<UpcomingStreamImage
+							$projectdone={$projectdone}
+							style={{
+								display: imageLoaded ? '' : 'none',
+								objectFit: isImageErrorLoad ? 'scale-down' : 'cover',
+							}}
 							onLoad={onImageLoad}
-							src={inView ? imgUrl : ''}
-							alt={`Streamer ${streamerName} Logo`}
+							onError={onImageErrorLoad}
+							src={inView && !isImageErrorLoad ? imgUrl : '/cr_logo_small.png'}
+							alt={`Streamer ${streamerName} Avatar`}
 						/>
 					)}
-					<DoneStreamDonation projectDone={projectDone}>
+					<DoneStreamDonation $projectdone={$projectdone}>
 						{formatMoneyWithSign(donationProgress)}
 					</DoneStreamDonation>
 					<StreamProjectDateWrapper>

@@ -1,11 +1,11 @@
 'use client'
-import React, { FunctionComponent, useContext } from 'react'
+import React, { FunctionComponent } from 'react'
 import ReactMarkdown from 'react-markdown'
 import cmsContent from '../(site)/cms/cms'
 import { ResponsiveVideo } from '../(site)/cms/components/ResponsiveVideo'
-import { LanguageContext } from '../(site)/provider/LanguageProvider'
+import { useLanguageContext } from '../(site)/provider/LanguageProvider'
 import { Text } from '../(site)/cms/components/Text'
-import { styled } from '../../styles/Theme'
+import { styled } from 'styled-components'
 
 const FaqMainWrapper = styled.div`
 	margin: auto;
@@ -82,7 +82,7 @@ const FaqQuestionBox: FunctionComponent<FaqQuestionBoxProps> = ({ question, answ
 }
 
 const FaqPage = () => {
-	const languageContext = useContext(LanguageContext)
+	const languageContext = useLanguageContext()
 	const { questionsDe, questionsEn, videos, featuredStream } = {
 		questionsDe: cmsContent.faq['questions-de'],
 		questionsEn: cmsContent.faq['questions-en'],

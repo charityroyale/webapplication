@@ -5,7 +5,7 @@ import { BsCalendar } from 'react-icons/bs'
 import { Text } from '../Text'
 import { BiDonateHeart } from 'react-icons/bi'
 import { formatDate } from '../../../utils/formatUtils'
-import { styled } from '../../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 const StyledDonationHeaderTitle = styled.h2`
 	font-size: ${(p) => p.theme.fontSize.l} px;
@@ -75,7 +75,7 @@ const DonationWidgetGridArea = styled.div`
 	}
 `
 
-const DonationHeaderStreamLink = styled.p`
+const DonationHeaderStreamLink = styled.div`
 	display: flex;
 	align-items: center;
 	margin: 8px 0;
@@ -147,7 +147,7 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 							{wishes.map((slug, i) => {
 								return (
 									<a
-										href={`/donate/${streamerChannel}/${slug}`}
+										href={`/${streamerChannel}/${slug}`}
 										key={`${slug}-${i}-link`}
 										target="_blank"
 										rel="noreferrer"

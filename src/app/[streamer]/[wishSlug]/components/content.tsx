@@ -13,10 +13,9 @@ import DonationWidgetCount from '../../../(site)/cms/components/DonationWidget/D
 import DonationWidgetList, { DonationListItem } from '../../../(site)/cms/components/DonationWidget/DonatorsWidgetList'
 import DonationHeader from '../../../(site)/cms/components/Header/DonationHeader'
 import { MakeWishInfoJsonRecentDonationDTO, MakeAWishInfoJsonTopDonationDTO } from '../../../(site)/dto/MakeAWishDTOs'
-import { useIsSSR } from '../../../(site)/hooks/useIsSSR'
 import { useMakeAWish } from '../../../(site)/hooks/useMakeAWish'
 import { IpInfoProviderContext } from '../../../(site)/provider/IpInfoProvider'
-import { LanguageContext } from '../../../(site)/provider/LanguageProvider'
+import { useLanguageContext } from '../../../(site)/provider/LanguageProvider'
 import { hasProperty, getPercentage } from '../../../(site)/utils/commonUtils'
 import { ImTrophy } from 'react-icons/im'
 import { formatMoneyWithSign, formatDate } from '../../../(site)/utils/formatUtils'
@@ -25,8 +24,12 @@ import {
 	StyledDonationSumWidget,
 	StyledDonatorsWidget,
 	StyledLatestDonatorssWidget,
+	StyledLayout,
 } from '../../../../styles/common.styles'
-import { styled } from '../../../../styles/Theme'
+import { styled } from 'styled-components'
+import Footer from '../../../(site)/cms/components/Footer/Footer'
+import Header from '../../../(site)/cms/components/Header/Header'
+import CookieBanner from '../../../(site)/cms/components/CookieBanner'
 
 export interface DonationPageProps {
 	cms: {
@@ -39,8 +42,7 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by MAW form
 	const [iFrameLoading, setIFrameLoaded] = useState(true)
 	const [iFrameError, setIFrameError] = useState(false)
-	const isSSR = useIsSSR()
-	const languageContext = useContext(LanguageContext)
+	const languageContext = useLanguageContext()
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 	const ipInfoContext = useContext(IpInfoProviderContext)
 	const [shouldDisplayTaxHint, setShouldDisplayTaxHint] = useState(false)
@@ -137,74 +139,78 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 		}
 	}, [wishCountry, ipInfoContext.country])
 	return (
-		<React.Fragment>
-			<DonationHeader
-				streamLink={cms.streamer.streamLink}
-				streamerName={cms.streamer.streamerName}
-				title={cms.wish.tagline}
-				description={cms.wish.descripion}
-				date={cms.streamer.date}
-				streamerChannel={cms.streamer.streamerChannel}
-				wishes={cms.streamer.wishes}
-			>
-				<React.Fragment>
-					<DonationStatsTitle>
-						<Text content="donationOverViewText" />
-					</DonationStatsTitle>
-					<DonationSubPageStats>
-						<div style={{ marginRight: '20px' }}>
-							<FaDove color="white" size="40" />
-						</div>
+		<StyledLayout>
+			<CookieBanner />
+			<Header />
+			<MainGrid>
+				<DonationHeader
+					streamLink={cms.streamer.streamLink}
+					streamerName={cms.streamer.streamerName}
+					title={cms.wish.tagline}
+					description={cms.wish.descripion}
+					date={cms.streamer.date}
+					streamerChannel={cms.streamer.streamerChannel}
+					wishes={cms.streamer.wishes}
+				>
+					<React.Fragment>
+						<DonationStatsTitle>
+							<Text content="donationOverViewText" />
+						</DonationStatsTitle>
+						<DonationSubPageStats>
+							<div style={{ marginRight: '20px' }}>
+								<FaDove color="white" size="40" />
+							</div>
 
-						<DonationStatsWidget>
-							<p>
-								<Text content="donationPrependText" />{' '}
-								<DonationStatNumbers>{formatMoneyWithSign(donationSum)}</DonationStatNumbers>
-							</p>
-							{
-								//** TODO: deprecate rc-progress and implement a custom component */
-							}
-							<Line
-								style={{ padding: '4px 0' }}
-								percent={progressPercentage}
-								strokeWidth={4}
-								trailWidth={4}
-								trailColor="white"
-								strokeColor={hasReachedGoal && !makeAWishDataIsLoading ? 'green' : 'gold'}
-							/>
-							<DonationStatsWidgetGoal>
-								<Text content="donationGoal" />{' '}
-								<DonationStatNumbers>{formatMoneyWithSign(donationGoal)}</DonationStatNumbers>
-							</DonationStatsWidgetGoal>
-						</DonationStatsWidget>
-					</DonationSubPageStats>
-					<DonationSubPageStats>
-						<div style={{ marginRight: '20px' }}>
-							<BsFillPeopleFill color="white" size="40" />
-						</div>
+							<DonationStatsWidget>
+								<p>
+									<Text content="donationPrependText" />{' '}
+									<DonationStatNumbers>{formatMoneyWithSign(donationSum)}</DonationStatNumbers>
+								</p>
+								{
+									//** TODO: deprecate rc-progress and implement a custom component */
+								}
+								<Line
+									style={{ padding: '4px 0' }}
+									percent={progressPercentage}
+									strokeWidth={4}
+									trailWidth={4}
+									trailColor="white"
+									strokeColor={hasReachedGoal && !makeAWishDataIsLoading ? 'green' : 'gold'}
+								/>
+								<DonationStatsWidgetGoal>
+									<Text content="donationGoal" />{' '}
+									<DonationStatNumbers>{formatMoneyWithSign(donationGoal)}</DonationStatNumbers>
+								</DonationStatsWidgetGoal>
+							</DonationStatsWidget>
+						</DonationSubPageStats>
+						<DonationSubPageStats>
+							<div style={{ marginRight: '20px' }}>
+								<BsFillPeopleFill color="white" size="40" />
+							</div>
 
-						<DonationStatsWidget>
-							<Text content="donatorNameText" />{' '}
-							<DonationStatNumbers>{donatorsCount}</DonationStatNumbers>
-						</DonationStatsWidget>
-					</DonationSubPageStats>
-				</React.Fragment>
-			</DonationHeader>
+							<DonationStatsWidget>
+								<Text content="donatorNameText" />{' '}
+								<DonationStatNumbers>{donatorsCount}</DonationStatNumbers>
+							</DonationStatsWidget>
+						</DonationSubPageStats>
+					</React.Fragment>
+				</DonationHeader>
 
-			<DonationIFrameWrapper>
-				<DonationFormHeader>
-					<Text content="donationformTitle" />
-				</DonationFormHeader>
+				<DonationIFrameWrapper>
+					<DonationFormHeader>
+						<Text content="donationformTitle" />
+					</DonationFormHeader>
 
-				<TaxDeductionHint>{shouldDisplayTaxHint && <Text content="taxDeductionHint"></Text>}</TaxDeductionHint>
+					<TaxDeductionHint>
+						{shouldDisplayTaxHint && <Text content="taxDeductionHint"></Text>}
+					</TaxDeductionHint>
 
-				{iFrameLoading && <Skeleton height={'843px'} />}
-				{iFrameError && (
-					<IFrameLoadErrorMessage>
-						<Text content="donationFormLoadErrorText" />
-					</IFrameLoadErrorMessage>
-				)}
-				{!isSSR && (
+					{iFrameLoading && <Skeleton height={'843px'} />}
+					{iFrameError && (
+						<IFrameLoadErrorMessage>
+							<Text content="donationFormLoadErrorText" />
+						</IFrameLoadErrorMessage>
+					)}
 					<StyledDonationFormIframe
 						height={iFrameLoading ? 0 : iFrameHeight}
 						onLoad={iFrameLoaded}
@@ -217,26 +223,27 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 						}${cmsStreamerSlug}/${cms.wish.slug}`}
 						title="Spendenformular"
 					/>
-				)}
-			</DonationIFrameWrapper>
+				</DonationIFrameWrapper>
 
-			<StyledDonationSumWidget>
-				<DonationWidgetCount
-					current_amount={mawWStreamerWishData ? mawWStreamerWishData.current_donation_sum_net : '0'}
-					donation_goal_amount={mawWStreamerWishData ? cms.wish.donationGoal : '0'}
-				/>
-			</StyledDonationSumWidget>
-			<StyledDonatorsWidget>
-				<DonationWidget title={<Text content="topDonatorText" />}>
-					<DonationWidgetList donationsList={highestDonatorsList} />
-				</DonationWidget>
-			</StyledDonatorsWidget>
-			<StyledLatestDonatorssWidget>
-				<DonationWidget title={<Text content="latestDonatorsTitle" />}>
-					<DonationWidgetList donationsList={latestDonatorsList} />
-				</DonationWidget>
-			</StyledLatestDonatorssWidget>
-		</React.Fragment>
+				<StyledDonationSumWidget>
+					<DonationWidgetCount
+						current_amount={mawWStreamerWishData ? mawWStreamerWishData.current_donation_sum_net : '0'}
+						donation_goal_amount={mawWStreamerWishData ? cms.wish.donationGoal : '0'}
+					/>
+				</StyledDonationSumWidget>
+				<StyledDonatorsWidget>
+					<DonationWidget title={<Text content="topDonatorText" />}>
+						<DonationWidgetList donationsList={highestDonatorsList} />
+					</DonationWidget>
+				</StyledDonatorsWidget>
+				<StyledLatestDonatorssWidget>
+					<DonationWidget title={<Text content="latestDonatorsTitle" />}>
+						<DonationWidgetList donationsList={latestDonatorsList} />
+					</DonationWidget>
+				</StyledLatestDonatorssWidget>
+			</MainGrid>
+			<Footer />
+		</StyledLayout>
 	)
 }
 
@@ -380,4 +387,41 @@ const DonationStatsTitle = styled.p`
 const DonationStatNumbers = styled.span`
 	color: ${(p) => p.theme.color.charityTeal};
 	font-weight: bold;
+`
+
+const MainGrid = styled.div`
+	display: grid;
+	grid-area: main;
+	margin: auto;
+	padding: 0 ${(p) => p.theme.space.xl}px;
+	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
+	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
+	grid-template-areas:
+		'donation-header donation-header donation-header'
+		'donation-form donation-form donation-widget-top-donation-sum'
+		'donation-form donation-form donation-widget-top-donators'
+		'donation-form donation-form donation-widget-top-latest-donators';
+
+	${(p) => p.theme.media.tablet} {
+		width: 100%;
+		grid-template-columns: 1fr 1fr;
+		padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
+		grid-template-areas:
+			'donation-header donation-header'
+			'donation-form donation-form'
+			'donation-widget-top-donation-sum donation-widget-top-donators'
+			'donation-widget-top-latest-donators donation-widget-top-latest-donators';
+	}
+
+	${(p) => p.theme.media.phone} {
+		width: 100%;
+		grid-template-columns: 1fr;
+		padding: 0 ${(p) => p.theme.space.xl}px;
+		grid-template-areas:
+			'donation-header'
+			'donation-form'
+			'donation-widget-top-donation-sum'
+			'donation-widget-top-donators'
+			'donation-widget-top-latest-donators';
+	}
 `

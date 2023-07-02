@@ -1,9 +1,10 @@
-import React, { useContext } from 'react'
-import { LanguageContext, LanguageType, languageOptions } from '../../provider/LanguageProvider'
-import { styled } from '../../../../styles/Theme'
+'use client'
+import React from 'react'
+import { useLanguageContext, LanguageType, languageOptions } from '../../provider/LanguageProvider'
+import { styled } from 'styled-components'
 
 export const LanguageSelector = () => {
-	const { language, updateLanguage } = useContext(LanguageContext)
+	const { language, updateLanguage } = useLanguageContext()
 
 	const onBlur = (e: React.FocusEvent<HTMLSelectElement>) => updateLanguage(e.target.value as LanguageType)
 	const onChange = (e: React.ChangeEvent<HTMLSelectElement>) => updateLanguage(e.target.value as LanguageType)

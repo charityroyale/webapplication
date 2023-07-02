@@ -1,7 +1,8 @@
+'use client'
 import Link from 'next/link'
 import React from 'react'
 import { Text } from './Text'
-import { styled } from '../../../../styles/Theme'
+import { styled } from 'styled-components'
 
 const ButtonsGrid = styled.div`
 	grid-area: faq-box;

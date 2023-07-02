@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useContext } from 'react'
 import { createContext, FunctionComponent, useState } from 'react'
 import en from '../languages/en.json'
 import de from '../languages/de.json'
@@ -63,12 +63,13 @@ export interface LanguageContextProps {
 
 const detaultLanguage: LanguageContextProps = {
 	language: 'de',
-	dictionary: dictionaryList.en,
+	dictionary: dictionaryList.de,
 	// eslint-disable-next-line @typescript-eslint/no-empty-function
 	updateLanguage: () => {},
 }
 
-export const LanguageContext = createContext<LanguageContextProps>(detaultLanguage)
+const LanguageContext = createContext<LanguageContextProps>(detaultLanguage)
+export const useLanguageContext = () => useContext(LanguageContext)
 export const LanguageProvider: FunctionComponent<React.PropsWithChildren> = ({ children }) => {
 	const [language, setLanguage] = useState<LanguageType>('de')
 

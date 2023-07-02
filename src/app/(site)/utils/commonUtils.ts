@@ -58,6 +58,7 @@ export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]
 				Authorization: `Bearer ${process.env.TWITCH_ACCESS_TOKEN}`,
 				'Client-Id': `${process.env.TWITCH_CLIENT_ID}`,
 			},
+			// https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#static-data-fetching
 			cache: 'force-cache',
 		})
 		if (!res.ok) {
@@ -70,6 +71,7 @@ export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]
 }
 
 export async function fetchTwitchStreamBySchedule(schedule: CmsUpcomingStreamer[]) {
+	if (typeof window !== 'undefined') return null
 	try {
 		const loginIds = []
 		for (const el of schedule) {
@@ -83,6 +85,10 @@ export async function fetchTwitchStreamBySchedule(schedule: CmsUpcomingStreamer[
 				'Client-Id': `${process.env.TWITCH_CLIENT_ID}`,
 			},
 		})
+		console.log('hi!')
+		if (!res.ok) {
+			throw new Error(`HTTP Error ${res.status}: fetchTwitchStreamBySchedule was not successfull`)
+		}
 		return (await res.json()) as TwitchStreamsDTO
 	} catch (e) {
 		console.log(`Couldn't fetchTwitchStreamBySchedule: ${e}`)
