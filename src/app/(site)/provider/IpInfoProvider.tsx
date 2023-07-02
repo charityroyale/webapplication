@@ -41,7 +41,7 @@ export const IpInfoProvider: FunctionComponent<React.PropsWithChildren> = ({ chi
 			}
 		}
 
-		// fetchIpInfo()
+		fetchIpInfo()
 	}, [])
 
 	const provider = {

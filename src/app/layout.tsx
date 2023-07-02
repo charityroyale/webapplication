@@ -1,5 +1,5 @@
 import React from 'react'
-import { CrThemeProvider } from './(site)/provider/CrThemeProvider'
+import { AllProviders } from './(site)/provider/AllProviders'
 import 'react-loading-skeleton/dist/skeleton.css'
 
 export const metadata = {
@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="de-AT">
 			<body>
-				<CrThemeProvider>{children}</CrThemeProvider>
+				<AllProviders>{children}</AllProviders>
 			</body>
 		</html>
 	)
