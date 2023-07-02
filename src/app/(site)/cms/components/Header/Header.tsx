@@ -142,22 +142,15 @@ interface HeaderProps {
 }
 
 const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = true }: HeaderProps) => {
-	const [imageLoaded, setIsImagedLoaded] = useState(false)
 	const { makeAWishData, makeAWishDataIsError, makeAWishDataIsLoading } = useMakeAWish()
-
-	const onImageLoad = useCallback(() => {
-		setIsImagedLoaded(true)
-	}, [])
 
 	return (
 		<StyledHeader>
 			<StyledHeaderContent>
 				<StyledHeaderLeftItem>
 					<ClientLink href="/">
-						{!imageLoaded && <Skeleton circle={true} height={150} width={150} />}
 						<img
-							onLoad={onImageLoad}
-							style={{ display: !imageLoaded ? 'none' : 'flex', margin: 'auto' }}
+							style={{ display: 'flex' }}
 							width="150px"
 							src="/cr_logo_small.png"
 							alt="Charity Royale Logo"
@@ -168,8 +161,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = tru
 				<StyledHeaderCenterItem>
 					<MakeAWishLogoLink target="_bank" rel="noreferrer" href="https://www.make-a-wish.at/">
 						<img
-							onLoad={onImageLoad}
-							style={{ display: !imageLoaded ? 'none' : 'flex' }}
+							style={{ display: 'flex' }}
 							width="250px"
 							src="/make_a_wish_international_logo.png"
 							alt="Make a wish Logo"
