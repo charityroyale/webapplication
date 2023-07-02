@@ -4,7 +4,6 @@ import { BsCalendar } from 'react-icons/bs'
 import { RiTwitchFill } from 'react-icons/ri'
 import { useInView } from 'react-intersection-observer'
 import Skeleton from 'react-loading-skeleton'
-import { useIsSSR } from '../../../hooks/useIsSSR'
 import { formatDate } from '../../../utils/formatUtils'
 import ClientLink from '../ClientLink'
 import { UpcomingStreamProps } from './UpcomingStream'
@@ -125,7 +124,6 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamFooterProps> 
 	date,
 }: UpcomingStreamFooterProps) => {
 	const [iconLoaded, setIconLoaded] = useState(false)
-	const isSSR = useIsSSR()
 	const { ref, inView } = useInView({ triggerOnce: true })
 
 	const onIconImageLoad = useCallback(() => {
@@ -138,14 +136,12 @@ export const UpcomingStreamFooter: FunctionComponent<UpcomingStreamFooterProps> 
 				<StreamerIconWrapper>
 					<ClientLink href={streamLink} target="_blank">
 						{!iconLoaded && <Skeleton circle={true} height={50} width={50} />}
-						{!isSSR && (
-							<UpcomingStreamIcon
-								onLoad={onIconImageLoad}
-								style={{ display: !iconLoaded ? 'none' : 'flex' }}
-								src={inView ? imgUrl : ''}
-								alt={`Streamer ${streamerName} Logo`}
-							/>
-						)}
+						<UpcomingStreamIcon
+							onLoad={onIconImageLoad}
+							style={{ display: !iconLoaded ? 'none' : 'flex' }}
+							src={inView ? imgUrl : ''}
+							alt={`Streamer ${streamerName} Logo`}
+						/>
 					</ClientLink>
 				</StreamerIconWrapper>
 				<UpcomingStreamDescription>

@@ -13,7 +13,6 @@ import DonationWidgetCount from '../../../(site)/cms/components/DonationWidget/D
 import DonationWidgetList, { DonationListItem } from '../../../(site)/cms/components/DonationWidget/DonatorsWidgetList'
 import DonationHeader from '../../../(site)/cms/components/Header/DonationHeader'
 import { MakeWishInfoJsonRecentDonationDTO, MakeAWishInfoJsonTopDonationDTO } from '../../../(site)/dto/MakeAWishDTOs'
-import { useIsSSR } from '../../../(site)/hooks/useIsSSR'
 import { useMakeAWish } from '../../../(site)/hooks/useMakeAWish'
 import { IpInfoProviderContext } from '../../../(site)/provider/IpInfoProvider'
 import { LanguageContext } from '../../../(site)/provider/LanguageProvider'
@@ -43,7 +42,6 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	const [iFrameHeight, setIframeHeight] = useState('843px') // initial height by MAW form
 	const [iFrameLoading, setIFrameLoaded] = useState(true)
 	const [iFrameError, setIFrameError] = useState(false)
-	const isSSR = useIsSSR()
 	const languageContext = useContext(LanguageContext)
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
 	const ipInfoContext = useContext(IpInfoProviderContext)
@@ -213,20 +211,18 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 							<Text content="donationFormLoadErrorText" />
 						</IFrameLoadErrorMessage>
 					)}
-					{!isSSR && (
-						<StyledDonationFormIframe
-							height={iFrameLoading ? 0 : iFrameHeight}
-							onLoad={iFrameLoaded}
-							onError={iFrameLoadedError}
-							id="iframe"
-							src={`${
-								languageContext.language === 'de'
-									? makeAWishAPI.donationFormURL
-									: makeAWishAPI.donationFormEnURL
-							}${cmsStreamerSlug}/${cms.wish.slug}`}
-							title="Spendenformular"
-						/>
-					)}
+					<StyledDonationFormIframe
+						height={iFrameLoading ? 0 : iFrameHeight}
+						onLoad={iFrameLoaded}
+						onError={iFrameLoadedError}
+						id="iframe"
+						src={`${
+							languageContext.language === 'de'
+								? makeAWishAPI.donationFormURL
+								: makeAWishAPI.donationFormEnURL
+						}${cmsStreamerSlug}/${cms.wish.slug}`}
+						title="Spendenformular"
+					/>
 				</DonationIFrameWrapper>
 
 				<StyledDonationSumWidget>

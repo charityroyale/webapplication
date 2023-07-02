@@ -8,7 +8,6 @@ import {
 	StyledHeaderCenterItem,
 	StyledHeaderRightItem,
 } from '../../../../../styles/common.styles'
-import { useIsSSR } from '../../../hooks/useIsSSR'
 import { useMakeAWish } from '../../../hooks/useMakeAWish'
 import { cmsFeaturedStreamLink } from '../../cms'
 import ClientLink from '../ClientLink'
@@ -143,7 +142,6 @@ interface HeaderProps {
 }
 
 const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = true }: HeaderProps) => {
-	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
 	const { makeAWishData, makeAWishDataIsError, makeAWishDataIsLoading } = useMakeAWish()
 
@@ -157,29 +155,25 @@ const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = tru
 				<StyledHeaderLeftItem>
 					<ClientLink href="/">
 						{!imageLoaded && <Skeleton circle={true} height={150} width={150} />}
-						{!isSSR && (
-							<img
-								onLoad={onImageLoad}
-								style={{ display: !imageLoaded ? 'none' : 'flex', margin: 'auto' }}
-								width="150px"
-								src="/cr_logo_small.png"
-								alt="Charity Royale Logo"
-							/>
-						)}
+						<img
+							onLoad={onImageLoad}
+							style={{ display: !imageLoaded ? 'none' : 'flex', margin: 'auto' }}
+							width="150px"
+							src="/cr_logo_small.png"
+							alt="Charity Royale Logo"
+						/>
 					</ClientLink>
 					<h1 style={{ textIndent: '-10000px', position: 'absolute' }}>Charity Royale</h1>
 				</StyledHeaderLeftItem>
 				<StyledHeaderCenterItem>
 					<MakeAWishLogoLink target="_bank" rel="noreferrer" href="https://www.make-a-wish.at/">
-						{!isSSR && (
-							<img
-								onLoad={onImageLoad}
-								style={{ display: !imageLoaded ? 'none' : 'flex' }}
-								width="250px"
-								src="/make-a-wish-oesterreich-logo-white.svg"
-								alt="Make a wish Logo"
-							/>
-						)}
+						<img
+							onLoad={onImageLoad}
+							style={{ display: !imageLoaded ? 'none' : 'flex' }}
+							width="250px"
+							src="/make-a-wish-oesterreich-logo-white.svg"
+							alt="Make a wish Logo"
+						/>
 					</MakeAWishLogoLink>
 				</StyledHeaderCenterItem>
 

@@ -2,7 +2,6 @@ import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import { useInView } from 'react-intersection-observer'
 import { StreamProjectDateWrapper } from '../../../../../styles/common.styles'
-import { useIsSSR } from '../../../hooks/useIsSSR'
 import { formatMoneyWithSign } from '../../../utils/formatUtils'
 import { CmsUpcomingStreamer } from '../../cms'
 import ClientLink from '../ClientLink'
@@ -86,7 +85,6 @@ export interface UpcomingStreamProps extends CmsUpcomingStreamer {
 }
 
 const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingStreamProps) => {
-	const isSSR = useIsSSR()
 	const [imageLoaded, setIsImagedLoaded] = useState(false)
 	const { streamerChannel, imgUrl, streamerName, $projectdone, donationProgress, customLink } = props
 	const { ref, inView } = useInView({ triggerOnce: true })
@@ -102,15 +100,13 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 			<ClientLink href={donateLinkHref} ariaLabel={`Streamer ${streamerName} Logo`}>
 				<StreamerImageWrapper>
 					{!imageLoaded && <Skeleton height={300} />}
-					{!isSSR && (
-						<StyledUpcomingStreamPlaceholderImage
-							$projectdone={$projectdone}
-							style={{ display: imageLoaded ? 'flex' : 'none' }}
-							onLoad={onImageLoad}
-							src={inView ? imgUrl : ''}
-							alt={`Streamer ${streamerName} Logo`}
-						/>
-					)}
+					<StyledUpcomingStreamPlaceholderImage
+						$projectdone={$projectdone}
+						style={{ display: imageLoaded ? 'flex' : 'none' }}
+						onLoad={onImageLoad}
+						src={inView ? imgUrl : ''}
+						alt={`Streamer ${streamerName} Logo`}
+					/>
 					<DoneStreamDonation $projectdone={$projectdone}>
 						{formatMoneyWithSign(donationProgress)}
 					</DoneStreamDonation>

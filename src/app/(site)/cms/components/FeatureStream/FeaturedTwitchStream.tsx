@@ -3,7 +3,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import { useIsomorphicLayoutEffect } from 'swr/_internal'
 import { StyledFeatured } from '../../../../../styles/common.styles'
-import { useIsSSR } from '../../../hooks/useIsSSR'
 import { getFeaturedStreamSize } from '../../../utils/commonUtils'
 
 interface FeaturedTwitchStreamProps {
@@ -13,7 +12,6 @@ interface FeaturedTwitchStreamProps {
 const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> = ({
 	channel,
 }: FeaturedTwitchStreamProps) => {
-	const isSSR = useIsSSR()
 	const featuredStreamRef = useRef<null | HTMLIFrameElement>(null)
 	const [featuredStreamLoaded, setFeaturedStreamLoaded] = useState(false)
 
@@ -51,7 +49,7 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 
 	return (
 		<>
-			{isSSR || !featuredStreamLoaded ? (
+			{!featuredStreamLoaded ? (
 				<StyledFeatured>
 					<Skeleton height={600} />
 				</StyledFeatured>
