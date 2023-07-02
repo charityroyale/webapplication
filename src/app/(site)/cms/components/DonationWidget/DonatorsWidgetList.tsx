@@ -19,8 +19,8 @@ const DonationList = styled.div`
 	}
 `
 
-const DonationAmount = styled.div<{ isZero: boolean }>`
-	color: ${(p) => (p.isZero ? p.theme.color.white : p.theme.color.charityTeal)};
+const DonationAmount = styled.div<{ $isZero: boolean }>`
+	color: ${(p) => (p.$isZero ? p.theme.color.white : p.theme.color.charityTeal)};
 	font-weight: 800;
 `
 
@@ -49,7 +49,7 @@ const DonationWidgetList: React.FunctionComponent<DonationWidgetListProps> = ({
 					<DonationListRow key={index}>
 						<div style={{ display: 'flex', justifyContent: 'space-between' }}>
 							<span>{item.col_1}</span>{' '}
-							<DonationAmount isZero={parseFloat(item.col_3) <= 0}>
+							<DonationAmount $isZero={parseFloat(item.col_3) <= 0}>
 								{formatMoneyWithSign(item.col_3)}
 							</DonationAmount>
 						</div>
