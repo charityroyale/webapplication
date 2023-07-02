@@ -61,7 +61,7 @@ export const StyledUpcomingStream = styled.div`
 	}
 `
 
-export const StyledUpcomingStreamPlaceholderImage = styled.img<{ $projectdone: boolean }>`
+export const UpcomingStreamImage = styled.img<{ $projectdone: boolean }>`
 	background-color: ${(p) => p.theme.color.willhaben};
 	border: 1px solid ${(p) => p.theme.color.charityTeal};
 	width: 100%;
@@ -107,13 +107,13 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 				<StreamerImageWrapper>
 					{(!imageLoaded || isImageErrorLoad) && <Skeleton height={300} />}
 					{inView && (
-						<StyledUpcomingStreamPlaceholderImage
+						<UpcomingStreamImage
 							$projectdone={$projectdone}
 							style={{ display: imageLoaded ? '' : 'none' }}
 							onLoad={onImageLoad}
 							onError={onImageErrorLoad}
 							src={inView ? imgUrl : ''}
-							alt={`Streamer ${streamerName} Logo`}
+							alt={`Streamer ${streamerName} Avatar`}
 						/>
 					)}
 					<DoneStreamDonation $projectdone={$projectdone}>
