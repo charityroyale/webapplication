@@ -66,7 +66,8 @@ export default async function Page({ params }: Props) {
 			 **/}
 			<link
 				rel="preload"
-				as="document"
+				// <link rel=preload> uses an unsupported `as` value
+				// as="document"
 				href={`${makeAWishAPI.donationFormURL}${cms.streamer.streamerChannel}/${cms.wish.slug}`}
 			></link>
 			<link
