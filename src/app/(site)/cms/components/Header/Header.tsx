@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next/link'
-import React, { useCallback, useState } from 'react'
-import Skeleton from 'react-loading-skeleton'
+import React from 'react'
 import {
 	StyledHeader,
 	StyledHeaderLeftItem,
