@@ -10,6 +10,9 @@ import { styled } from 'styled-components'
 
 const StreamerImageWrapper = styled.div`
 	position: relative;
+	width: 100%;
+	height: calc(100% - 60px);
+	min-height: 250px;
 
 	&:before {
 		content: ' ';
@@ -65,6 +68,7 @@ export const UpcomingStreamImage = styled.img<{ $projectdone: boolean }>`
 	background-color: ${(p) => p.theme.color.willhaben};
 	border: 1px solid ${(p) => p.theme.color.charityTeal};
 	width: 100%;
+	height: 100%;
 	filter: ${(p) => (p.$projectdone ? 'grayscale(1)' : '')};
 `
 
@@ -105,14 +109,17 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 		<StyledUpcomingStream ref={ref}>
 			<ClientLink href={donateLinkHref} ariaLabel={`Streamer ${streamerName} Logo`}>
 				<StreamerImageWrapper>
-					{(!imageLoaded || isImageErrorLoad) && <Skeleton height={300} />}
+					{!imageLoaded && <Skeleton width="100%" height="100%" />}
 					{inView && (
 						<UpcomingStreamImage
 							$projectdone={$projectdone}
-							style={{ display: imageLoaded ? '' : 'none' }}
+							style={{
+								display: imageLoaded ? '' : 'none',
+								objectFit: isImageErrorLoad ? 'scale-down' : 'cover',
+							}}
 							onLoad={onImageLoad}
 							onError={onImageErrorLoad}
-							src={inView ? imgUrl : ''}
+							src={inView && !isImageErrorLoad ? imgUrl : '/cr_logo_small.png'}
 							alt={`Streamer ${streamerName} Avatar`}
 						/>
 					)}
