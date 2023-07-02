@@ -11,6 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="de-AT">
 			<body>
+				<script src="https://embed.twitch.tv/embed/v1.js" />
 				<AllProviders>{children}</AllProviders>
 			</body>
 		</html>

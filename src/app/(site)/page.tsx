@@ -20,15 +20,16 @@ const getTwitchUsers = async (schedule: CmsUpcomingStreamer[]) => {
 }
 
 export const metadata: Metadata = {
+	metadataBase: new URL('https://charityroyale.at'),
 	title: `Charity Royale`,
 	openGraph: {
 		title: `Charity Royale`,
 		description: 'Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.',
-		url: 'https://charityroyale.at',
+		url: '/',
 		siteName: `Charity Royale`,
 		images: [
 			{
-				url: 'https://charityroyale.at/uploads/charity_royale_rgb_300x300.png',
+				url: '/uploads/charity_royale_rgb_300x300.png',
 				width: 300,
 				height: 300,
 			},
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
 		title: `Charity Royale`,
 		creator: '@CharityRoyale',
 		description: `Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.`,
-		images: ['https://charityroyale.at/uploads/charity_royale_rgb_300x300.png'],
+		images: ['/uploads/charity_royale_rgb_300x300.png'],
 	},
 }
 

@@ -18,7 +18,7 @@ import { IpInfoProviderContext } from '../../../(site)/provider/IpInfoProvider'
 import { useLanguageContext } from '../../../(site)/provider/LanguageProvider'
 import { hasProperty, getPercentage } from '../../../(site)/utils/commonUtils'
 import { ImTrophy } from 'react-icons/im'
-import { formatMoneyWithSign, formatDate } from '../../../(site)/utils/formatUtils'
+import { formatDate, formatMoneyWithSign } from '../../../(site)/utils/formatUtils'
 import { makeAWishAPI } from '../../../../config'
 import {
 	StyledDonationSumWidget,
@@ -26,10 +26,10 @@ import {
 	StyledLatestDonatorssWidget,
 	StyledLayout,
 } from '../../../../styles/common.styles'
-import { styled } from 'styled-components'
 import Footer from '../../../(site)/cms/components/Footer/Footer'
 import Header from '../../../(site)/cms/components/Header/Header'
 import CookieBanner from '../../../(site)/cms/components/CookieBanner'
+import styled from 'styled-components'
 
 export interface DonationPageProps {
 	cms: {
@@ -84,10 +84,7 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 							? mawWishData.current_donation_sum_net
 							: mawWStreamerWishData.current_donation_sum_net
 					donatorsCount = mawWStreamerWishData.current_donation_count.toLocaleString('de-DE')
-					progressPercentage = getPercentage(
-						parseFloat(mawWStreamerWishData.current_donation_sum_net),
-						parseFloat(cms.wish.donationGoal)
-					)
+					progressPercentage = getPercentage(parseFloat(donationSum), parseFloat(cms.wish.donationGoal))
 				}
 			}
 

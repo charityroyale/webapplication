@@ -1,6 +1,5 @@
 'use client'
 import React, { useState, useCallback } from 'react'
-import { CmsSchedulesType } from '../../../page'
 import {
 	StyleUpcomingStreamsHeader,
 	StyleUpcomingStreamsTitle,
@@ -9,13 +8,14 @@ import {
 	StylePastStreamsHeader,
 	StyledPast,
 } from '../../../../../styles/common.styles'
-import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../../dto/MakeAWishDTOs'
 import { useMakeAWish } from '../../../hooks/useMakeAWish'
-import { sortByDateString } from '../../../utils/commonUtils'
 import { StreamerType, CmsUpcomingStreamer } from '../../cms'
 import UpcomingStream from './UpcomingStream'
 import { Text } from '../../components/Text'
 import { styled } from 'styled-components'
+import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../../dto/MakeAWishDTOs'
+import { CmsSchedulesType } from '../../../page'
+import { isDuoStreamer, sortByDateString } from '../../../utils/commonUtils'
 
 const ScheduleTypeButton = styled.button<{ $isActive: boolean }>`
 	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
@@ -89,11 +89,15 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 
 			// calc donation progress
 			if (mawStreamerData && rootLevelWishesForStreamer[0] && mawStreamerData.wishes && stream.wishes[0]) {
-				if (mawStreamerData.type === 'main') {
+				// whitelist of accumulated total donations per project
+				if (isDuoStreamer(stream.streamerChannel)) {
+					// total sum of donations for a wish
 					donationProgess = calcDonationProgressOfWishArray(rootLevelWishesForStreamer).toString()
+					// streamer specific accumulated donations
 				} else if (!Array.isArray(mawStreamerData.wishes)) {
 					donationProgess = calcDonationProgressOfAllWishEntries(mawStreamerData.wishes).toString()
 				} else {
+					// fallback
 					donationProgess = '0'
 				}
 			}
@@ -209,7 +213,7 @@ const calcDonationProgressOfAllWishEntries = (wishes: { [wishSlug: string]: Make
 
 const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
 	const startDate = new Date(stream.date).getTime()
-	const hoursToAdd = 12
+	const hoursToAdd = 13
 	return startDate + hoursToAdd * 3600000
 }
 const isInThePast = (stream: CmsUpcomingStreamer) => Date.now() > getStreamEndDate(stream)

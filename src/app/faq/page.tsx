@@ -107,7 +107,7 @@ const FaqPage = () => {
 				<meta property="og:image:width" content={'300'} key="ogimagewidth" />
 				<meta property="og:image:height" content={'300'} key="ogimageheight" />
 				<meta property="og:site_name" content={'Charity Royale'} key="ogsitename" />
-				<meta property="og:title" content={'Charity Royale - FAQ'} key="ogtitle" />
+				<meta property="og:title" content={'Charity Royale | FAQ'} key="ogtitle" />
 				<meta property="og:type" content={'website'} key="ogtype" />
 				<meta property="og:locale" content={'de_AT'} key="oglocale" />
 				<meta property="fb:app_id" content={process.env.FB_ID} key="fbappid" />

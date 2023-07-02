@@ -82,6 +82,9 @@ const Footer: React.FunctionComponent = () => {
 					<FooterListItem>
 						<ClientLink href={'/faq'}>FAQ</ClientLink>
 					</FooterListItem>
+					<FooterListItem>
+						<ClientLink href={'/halloffame'}>Hall of Fame</ClientLink>
+					</FooterListItem>
 				</FooterList>
 				<FooterListTitle style={{ display: 'flex' }}>
 					WE <AiFillHeart aria-label="heart" size={20} color={'red'} style={{ margin: '0 1px 0 2px' }} />

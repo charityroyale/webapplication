@@ -171,7 +171,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = tru
 							onLoad={onImageLoad}
 							style={{ display: !imageLoaded ? 'none' : 'flex' }}
 							width="250px"
-							src="/make-a-wish-oesterreich-logo-white.svg"
+							src="/make_a_wish_international_logo.png"
 							alt="Make a wish Logo"
 						/>
 					</MakeAWishLogoLink>

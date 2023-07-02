@@ -2,9 +2,9 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: https://www.make-a-wish.at
+featuredStream: veni/kermo-ps5
 makeAWishProjects: []
-featuredYoutubeStream: https://www.youtube.com/embed/s3eABap__xc
+featuredYoutubeStream: ""
 customDonationLink: ""
 upcoming:
   - date: 2022-10-01T13:00:00.000Z
@@ -15,6 +15,7 @@ upcoming:
     type: main
     wishes:
       - saniel-computer
+      - jan-tropicalisland
   - date: 2022-10-02T07:00:00.000Z
     streamerName: stev0rr
     streamerChannel: stev0rr
@@ -22,15 +23,15 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     type: main
     wishes:
-      - fabian-switch
-  - date: 2022-10-03T13:00:03.469Z
-    streamerName: LetsHugo
-    streamLink: https://www.twitch.tv/LetsHugoTV
-    streamerChannel: letshugotv
-    imgUrl: /uploads/charity_royale_rgb_300x300.png
+      - l-haengematte
+  - date: 2022-10-03T11:30:32.086Z
+    streamerName: Henke
+    streamerChannel: henke
+    streamLink: https://twitch.tv/Henke
+    imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - pepe-bollerwagen
+      - fabian-switch
   - date: 2022-10-04T14:00:47.334Z
     streamLink: http://twitch.tv/christensenlol
     streamerChannel: christensenlol
@@ -38,8 +39,9 @@ upcoming:
     type: main
     wishes:
       - paul-schalke
+      - fabian-switch
     imgUrl: /uploads/charity_royale_rgb_300x300.png
-  - date: 2022-10-05T18:00:37.363Z
+  - date: 2022-10-05T13:00:00.000Z
     streamerName: RvNxMango
     streamLink: http://twitch.tv/RvNxMango
     streamerChannel: rvnxmango
@@ -47,14 +49,15 @@ upcoming:
     wishes:
       - hannah-tiere
     type: main
-  - date: 2022-10-06T15:00:32.086Z
-    streamerName: Henke
-    streamerChannel: henke
-    streamLink: https://twitch.tv/Henke
-    imgUrl: /uploads/charity_royale_rgb.png
+  - date: 2022-10-06T13:00:03.469Z
+    streamerName: LetsHugo
+    streamLink: https://www.twitch.tv/LetsHugoTV
+    streamerChannel: letshugotv
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
     type: main
     wishes:
-      - l-haengematte
+      - pepe-bollerwagen
+      - jonas-heeresmuseum
   - date: 2022-10-07T10:00:35.191Z
     streamerName: " Krokoboss & Shredmir"
     streamerChannel: krokoboss
@@ -79,6 +82,9 @@ upcoming:
     type: main
     wishes:
       - hanna-la
+      - hannah-tiere
+      - fabian-switch
+      - l-haengematte
   - date: 2022-10-09T10:00:41.350Z
     streamerName: Veyla
     streamerChannel: veyla
@@ -87,7 +93,7 @@ upcoming:
     type: main
     wishes:
       - celina-harrypotter
-  - date: 2022-10-10T15:00:09.498Z
+  - date: 2022-10-10T16:00:09.498Z
     streamerName: Sintica
     streamerChannel: sintica
     streamLink: https://twitch.tv/Sintica
@@ -103,7 +109,7 @@ upcoming:
     type: main
     wishes:
       - diana-maskedsinger
-  - date: 2022-10-12T15:00:29.980Z
+  - date: 2022-10-12T16:00:29.980Z
     streamerName: thiseguy
     streamerChannel: thiseguy
     streamLink: http://twitch.tv/thiseguy
@@ -111,14 +117,6 @@ upcoming:
     type: main
     wishes:
       - niklas-london
-  - date: 2022-10-13T17:00:23.954Z
-    streamerName: Mahluna
-    streamerChannel: mahluna
-    streamLink: https://twitch.tv/Mahluna
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - ismael-meer
   - date: 2022-10-14T17:00:08.305Z
     streamerName: Clym
     streamerChannel: clym
@@ -134,6 +132,8 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
+      - disneyfigur
+      - barbara-tierquartier
       - vincent-gokart
   - date: 2022-10-16T12:00:06.970Z
     streamerName: CastCrafter
@@ -143,7 +143,7 @@ upcoming:
     type: main
     wishes:
       - thomas-harrypotter
-  - date: 2022-10-17T07:00:08.380Z
+  - date: 2022-10-17T08:30:08.380Z
     streamerName: xHankyy
     streamerChannel: xhankyy
     streamLink: https://twitch.tv/xhankyy
@@ -168,9 +168,9 @@ upcoming:
     wishes:
       - michael-disneyland
   - date: 2022-10-20T15:00:12.307Z
-    streamerName: FeelFifa
-    streamerChannel: feelfifaandgamingtv
-    streamLink: https://twitch.tv/feelfifaandgamingtv
+    streamerName: Ernesto
+    streamerChannel: ernesto
+    streamLink: https://twitch.tv/ernesto
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
@@ -182,10 +182,14 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - bastian-disneyland
       - kiara-lastenrad
-      - c-jugendzimmer
       - paraskevi-zimmer
+      - bastian-disneyland
+      - c-jugendzimmer
+      - dana-jugendzimmer
+      - michael-disneyland
+      - ismael-meer
+      - tobias-huehnerstall
   - date: 2022-10-22T08:00:19.592Z
     streamerName: Rax
     streamerChannel: rax1337
@@ -209,14 +213,12 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - jonas-heeresmuseum
       - amber-tablet
   - date: 2022-10-24T10:00:00.000Z
     streamerName: Filow & Zarbex
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - jonas-heeresmuseum
       - amber-tablet
     streamLink: https://twitch.tv/ichbinzarbex
     streamerChannel: ichbinzarbex
@@ -227,8 +229,9 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb_300x300.png
     type: main
     wishes:
+      - kermo-ps5
+      - e-bollerwagen
       - m-strassenhunde
-      - tobias-huehnerstall
   - date: 2022-10-08T07:00:39.820Z
     streamerName: SebiSgo
     streamerChannel: sebisgo
@@ -237,6 +240,94 @@ upcoming:
     type: community
     wishes:
       - legoland
+  - date: 2022-10-10T10:00:08.008Z
+    streamerName: xMrCr4zy
+    streamerChannel: xmrcr4zy
+    streamLink: https://www.twitch.tv/xmrcr4zy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-3
+  - date: 2022-10-11T14:30:48.429Z
+    streamerName: Wertuzio
+    streamerChannel: wertuzio_
+    streamLink: https://www.twitch.tv/wertuzio_
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin-2
+  - date: 2022-10-15T09:00:08.350Z
+    streamerName: s0ulrider
+    streamerChannel: s0ulrider
+    streamLink: https://www.twitch.tv/s0ulrider
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin
+  - date: 2022-10-16T09:00:34.452Z
+    streamerName: JessydeLua
+    streamerChannel: jessydelua
+    streamLink: https://www.twitch.tv/jessydelua
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-4
+  - date: 2022-10-17T15:30:34.277Z
+    streamerName: Hinotori
+    streamerChannel: hinotori_tv
+    streamLink: https://www.twitch.tv/hinotori_tv
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-2
+  - date: 2022-10-21T10:00:03.714Z
+    streamerName: Faister
+    streamerChannel: faisterino
+    streamLink: https://www.twitch.tv/faisterino
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-1
+  - date: 2022-10-22T10:00:44.318Z
+    streamerName: BinAngi
+    streamerChannel: binangi
+    streamLink: https://www.twitch.tv/BinAngi
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin-1
+  - date: 2022-10-22T18:10:14.199Z
+    streamerName: HerrHaderer
+    streamerChannel: herrhaderer
+    streamLink: https://www.twitch.tv/herrhaderer
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-8
+  - date: 2022-10-23T10:00:23.019Z
+    streamerName: Fr0zenNoahAT
+    streamerChannel: fr0zennoahat
+    streamLink: https://www.twitch.tv/fr0zennoahat
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-5
+  - date: 2022-10-24T11:00:04.011Z
+    streamerName: ChrislsCross
+    streamerChannel: chrislscross
+    streamLink: https://www.twitch.tv/chrislscross
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-6
+  - date: 2022-10-24T16:00:12.319Z
+    streamerName: StrizziTV
+    streamerChannel: strizzitv
+    streamLink: https://www.twitch.tv/strizzitv
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland-7
 wishes:
   - slug: patrick-heidelbeeren
     tagline: TEST - Patrick's Heidelbeern
@@ -265,6 +356,39 @@ wishes:
       Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
       Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
       Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
+  - slug: prinzessin-1
+    tagline: Einen Tag Prinzessin sein
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Einen Tag lang Prinzessin sein! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
+      Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
+    donationGoal: "500"
+  - slug: prinzessin-2
+    tagline: Einen Tag Prinzessin sein
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Einen Tag lang Prinzessin sein! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
+      Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
+    donationGoal: "500"
+  - descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Einen Tag lang Prinzessin sein! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch zu erfüllen, einen Tag lang Prinzessin zu sein, es in eine
+      Fantasiewelt zu bringen und unbeschwerte Zeit zu genießen."
+    slug: prinzessin-3
+    donationGoal: "500"
+    tagline: Einen Tag Prinzessin sein
+    childname: Wunschkind
   - tagline: Eine Reise ins Legoland
     descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
       wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
@@ -275,6 +399,94 @@ wishes:
       unbeschwerte Zeit mit seiner Familie zu ermöglichen."
     childname: Wunschkind
     slug: legoland
+    donationGoal: "500"
+  - slug: legoland-1
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-2
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-3
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-4
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-5
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-6
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-7
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
+    donationGoal: "500"
+  - slug: legoland-8
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: "Ein echter Herzenswunsch für viele Kinder, die sich an Make-A-Wish
+      wenden: Eine Reise ins Legoland! Einige Kinder möchten aber nicht
+      namentlich und mit Angabe der Krankheit genannte werden. Das respektieren
+      wir selbstverständlich, möchten diesen Kindern aber trotzdem ihren
+      Herzenswunsch erfüllen. Spende jetzt und hilf mit, einem schwerkranken
+      Kind den Wunsch einer Reise ins Legoland zu erfüllen und ihm damit
+      unbeschwerte Zeit mit seiner Familie zu ermöglichen."
     donationGoal: "500"
   - donationGoal: "500"
     tagline: Meet & Greet mit YouTuber
@@ -672,7 +884,7 @@ wishes:
     descripion: Wasserratte Jan (7) liebt es, zu Rutschen, im warmen Wasser zu
       plantschen und unter Palmen Urlaubsfeeling zu genießen – Und wo könnte man
       das besser als im Tropical Islands bei Berlin? Der an Leukämie erkrankte
-      Vincent wünscht sich einen Wochenend-Ausflug mit der gesamten Familie ins
+      Jan wünscht sich einen Wochenend-Ausflug mit der gesamten Familie ins
       Wasserparadies!
   - slug: kiara-lastenrad
     childname: Kiara
@@ -744,17 +956,64 @@ wishes:
       Herzenswunsch voll Freude und Überzeugung präsentierte. Das tierliebe
       Mädchen weiß auch schon, in welcher Pension sie wohnen möchte, da die
       Familie bereits einmal dort gewohnt hat und diese Unterkunft alle
-      medizinischen Voraussetzungen für Maya erfüllt. M hat auch noch jede Menge
+      medizinischen Voraussetzungen für sie erfüllt. M hat auch noch jede Menge
       anderer Hobbies. So bastelt sie gerne, ist kreativ und sehr sportlich –
       soweit es ihre Krankheit erlaubt. Sie ist Mitglied einer Cheerdance-Gruppe
       und durfte mit dieser heuer auch das erste Mal auch im Ausland auftreten,
       worauf sie besonders stolz ist.
+  - slug: barbara-tierquartier
+    tagline: Ein Praktikum im Tierquartier für Barbara
+    childname: Barbara
+    descripion: "Barbara ist 18 Jahre alt und eine große Tierliebhaberin. Ihr
+      größter Wunsch war es, einmal für eine ganze Woche in Wien im TierQuartier
+      arbeiten zu können. Anfang September konnte sie dort eine wundervolle Zeit
+      verbringen und die Erfüllung ihres Herzenswunsches so richtig genießen. Da
+      zu diesem Zeitpunkt ein Konzert von Ed Sheeran in Wien stattfand, wurde
+      die Praktikumswoche von Barbara auch entsprechend geplant. Auch die
+      Unterbringung wird Barbara wahrscheinlich ewig in Erinnerung bleiben, denn
+      sie durfte im Hotel Ritz wohnen, das selbst keine Mühen scheute, um der am
+      Ewing Sarkom-Erkrankten (Knochen-Tumor) ihren Aufenthalt in Wien so schön
+      und unvergesslich wie möglich zu gestalten: Neben einem Welcome-Package
+      durfte Barbara mit dem Hotelhund spazieren gehen – eine ganz besondere
+      Zeit für die Tierliebhaberin, für die es nichts Schöneres gibt, als mit
+      Hunden, Katzen und allen möglichen anderen Tieren Zeit zu verbringen."
+    donationGoal: "600"
+  - slug: kermo-ps5
+    tagline: Eine PS5 gegen die Langeweile im Spital
+    childname: Kermo
+    descripion: Kermo ist jetzt bald 4 Jahre alt. Seit einiger Zeit leidet er an
+      einer Krebserkrankung des Nervensystems (Neuroblastom) und verbringt
+      deshalb viel Zeit im Krankenhaus. Auch jetzt steht wieder ein
+      Spitalsaufenthalt mit einer Intensivtherapie an, auf die er sich gar nicht
+      freut. Um die bevorstehenden Tage für ihn ein bisschen schöner zu machen,
+      wünscht sich der kleine, tapfere Mann eine PS5. Kermos Superheld ist ganz
+      klar Spiderman und auch Polizisten findet er voll cool. Vielleicht gibt’s
+      da ja als Draufgabe noch das eine oder andere Spiel, das zu seinen
+      Vorlieben passt?
+    donationGoal: "600"
+  - slug: e-bollerwagen
+    tagline: Ein Bollerwagen für Familienausflüge
+    childname: E.
+    descripion: "E. kam mit einer sehr seltenen, angeborenen Stoffwechselerkrankung
+      zur Welt: Stoffwechselprodukte, die eigentlich im Körper abgebaut werden
+      müssten, werden stattdessen in Organen, den Knochen oder dem Gehirn
+      eingelagert. Dies verursacht im Lauf der Zeit schwerste körperliche und
+      intellektuelle Beeinträchtigungen. Was es bedeutet, ein Kind mit einer
+      Mukopolysaccharidose zu haben, ist unvorstellbar. Für die Familie beginnt
+      mit der Diagnose ein Abschied in kleinen Schritten. E. wird nicht normal
+      wachsen, sie wird anders aussehen, vielleicht nie richtig sprechen können,
+      das Gehen verlernen. Schmerzen und Operationen werden ihre ständigen
+      Begleiter. Zahlreiche Besuche bei Ärzten und Therapeuten sowie die
+      intensive Pflege von E. dominieren den Alltag ihrer Familie, die sich von
+      uns einen Bollerwagen mit Dachplane und Polstern gewünscht hat, damit sie
+      gemeinsam unterwegs sein können. "
+    donationGoal: "1200"
 faq:
   videos:
-    - url: https://www.youtube.com/embed/yYomNE5TDvU
-      name: "Charity Royale Best of 2021 "
-    - url: https://www.youtube.com/embed/6n2pAeFuhsc
-      name: Charity Royale 2020 FAQs mit Veni
+    - url: https://www.youtube.com/embed/s3eABap__xc
+      name: Best of Charity Royale 2021
+    - url: https://www.youtube.com/embed/vU2ptSb66FE
+      name: FAQs by Veni - Charity Royale 2022
   questions-de:
     - question-de: Was ist Charity Royale?
       answer-de: >-
@@ -824,11 +1083,13 @@ faq:
     - question-de: Wo wird meine Spendennachricht angezeigt?
       answer-de: Deine Spendennachricht wird als Alert im jeweiligen Live-Stream
         automatisch angezeigt.
-    - question-de: Kann ich auch für Charity Royale 2021 Spenden sammeln?
-      answer-de: Nach vielfachen Anfragen im Jahr 2020 haben wir für dieses Jahr die
-        Möglichkeit geschaffen, auch weiteren Streamern zu ermöglichen bei
-        Charity Royale dabei zu sein. Füll dafür einfach [dieses
-        Bewerbungsformular](https://forms.gle/tjqtduMpVhRpPDXx5) aus.
+    - question-de: Kann ich auch für Charity Royale 2022 Spenden sammeln?
+      answer-de: N﻿ach vielfachen Anfragen haben wir auch dieses Jahr die Möglichkeite
+        geschaffen, dass auch Community-Streamer:innen bei Charity Royale für
+        den guten Zweck sammeln. Die Anmeldefrist dafür ist für 2022 leider
+        bereits abgelaufen. [dieses
+        Bewerbungsformular](https://docs.google.com/forms/d/e/1FAIpQLScyZ6rlSOPhhOhjZrHD6VKtInWC53n4e1MphP_Eu7BPhBv_uw/viewform?pli=1)
+        aus.
   questions-en:
     - question-en: TBA
       answer-en: TBA
