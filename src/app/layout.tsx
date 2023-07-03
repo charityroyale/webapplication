@@ -1,7 +1,7 @@
 import React from 'react'
-import { AllProviders } from './(site)/provider/AllProviders'
 import 'react-loading-skeleton/dist/skeleton.css'
 import { Metadata } from 'next'
+import { AllProviders } from './provider/AllProviders'
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://charityroyale.at'),

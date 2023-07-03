@@ -2,10 +2,10 @@
 import React, { FunctionComponent } from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'styled-components'
-import cmsContent from '../../(site)/cms/cms'
-import { ResponsiveVideo } from '../../(site)/cms/components/ResponsiveVideo'
-import { useLanguageContext } from '../../(site)/provider/LanguageProvider'
-import { Text } from '../../(site)/cms/components/Text'
+import { useLanguageContext } from '../../../provider/LanguageProvider'
+import cmsContent from '../../../cms/cms'
+import { ResponsiveVideo } from '../../../cms/components/ResponsiveVideo'
+import { Text } from '../../../cms/components/Text'
 
 const FaqMainWrapper = styled.div`
 	margin: auto;

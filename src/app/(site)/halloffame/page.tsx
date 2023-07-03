@@ -1,8 +1,8 @@
 import React from 'react'
-import { DonorsResponse } from '../hooks/useDonors'
-import { makeAWishAPI } from '../../config'
 import { HallOfFameContent } from './components/content'
 import { Metadata } from 'next'
+import { makeAWishAPI } from '../../../config'
+import { DonorsResponse } from '../../hooks/useDonors'
 
 export const metadata: Metadata = {
 	title: `Charity Royale | Hall Of Fame`,

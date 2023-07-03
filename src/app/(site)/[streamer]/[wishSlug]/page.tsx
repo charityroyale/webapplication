@@ -1,8 +1,8 @@
 import React from 'react'
 import { Metadata } from 'next'
-import { cmsDonationPagePaths, cmsStreamerWishesFilled } from '../../(site)/cms/cms'
-import { makeAWishAPI } from '../../../config'
 import { DonatePageContent } from './components/content'
+import { makeAWishAPI } from '../../../../config'
+import { cmsStreamerWishesFilled, cmsDonationPagePaths } from '../../../cms/cms'
 
 type Props = {
 	params: { streamer: string; wishSlug: string }

@@ -1,4 +1,4 @@
-import rawCmsContent from '../../../../_cms/charity-royale.md'
+import rawCmsContent from '../../../_cms/charity-royale.md'
 
 export type StreamerType = 'main' | 'community'
 

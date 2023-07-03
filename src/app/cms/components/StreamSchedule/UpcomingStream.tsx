@@ -1,12 +1,12 @@
 import React, { FunctionComponent, useCallback, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import { useInView } from 'react-intersection-observer'
-import { StreamProjectDateWrapper } from '../../../../../styles/common.styles'
 import { formatMoneyWithSign } from '../../../utils/formatUtils'
 import { CmsUpcomingStreamer } from '../../cms'
 import ClientLink from '../ClientLink'
 import { UpcomingStreamFooter } from './UpcomingStreamFooter'
 import { styled } from 'styled-components'
+import { StreamProjectDateWrapper } from '../../../../styles/common.styles'
 
 const StreamerImageWrapper = styled.div`
 	position: relative;

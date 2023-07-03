@@ -1,10 +1,10 @@
 'use client'
 import React, { PropsWithChildren } from 'react'
-import { StyledLayout } from '../../styles/common.styles'
 import { styled } from 'styled-components'
-import CookieBanner from '../(site)/cms/components/CookieBanner'
-import Footer from '../(site)/cms/components/Footer/Footer'
-import Header from '../(site)/cms/components/Header/Header'
+import Header from '../../cms/components/Header/Header'
+import { StyledLayout } from '../../../styles/common.styles'
+import CookieBanner from '../../cms/components/CookieBanner'
+import Footer from '../../cms/components/Footer/Footer'
 
 const MainGrid = styled.main`
 	grid-area: main;

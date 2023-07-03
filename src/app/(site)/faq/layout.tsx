@@ -1,10 +1,10 @@
 'use client'
 import React, { PropsWithChildren } from 'react'
-import styled from 'styled-components'
-import CookieBanner from './CookieBanner'
-import Footer from './Footer/Footer'
-import Header from './Header/Header'
-import { StyledLayout } from '../../../../styles/common.styles'
+import { styled } from 'styled-components'
+import { StyledLayout } from '../../../styles/common.styles'
+import CookieBanner from '../../cms/components/CookieBanner'
+import Footer from '../../cms/components/Footer/Footer'
+import Header from '../../cms/components/Header/Header'
 
 const MainGrid = styled.main`
 	grid-area: main;
@@ -19,7 +19,7 @@ const MainGrid = styled.main`
 	}
 `
 
-export const MainPageContent: React.FunctionComponent<PropsWithChildren> = ({ children }) => {
+const MainLayout: React.FunctionComponent<PropsWithChildren> = ({ children }) => {
 	return (
 		<StyledLayout>
 			<CookieBanner />
@@ -29,3 +29,4 @@ export const MainPageContent: React.FunctionComponent<PropsWithChildren> = ({ ch
 		</StyledLayout>
 	)
 }
+export default MainLayout
