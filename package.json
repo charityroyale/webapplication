@@ -4,10 +4,11 @@
 	"version": "1.0.0",
 	"description": "charityroyale-donationpage",
 	"main": "src/index.js",
+	"type": "module",
 	"scripts": {
 		"dev": "next -p 4040",
-		"build-ics": "node ./scripts/generateICSfiles.js",
-		"build": "npm run lint && npm run build-ics && next build",
+		"build-ics": "node ./scripts/createCalendarFile.js",
+		"build": "npm run build-ics && next build",
 		"build-netlify": "npm run build",
 		"start": "next start",
 		"lint": "next lint",
