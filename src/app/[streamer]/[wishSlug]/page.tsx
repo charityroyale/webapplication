@@ -18,29 +18,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	}
 
 	return {
-		title: `Charity Royale - ${cms.streamer.streamerName}`,
+		title: `Charity Royale | ${cms.streamer.streamerName}'s Spendenseite`,
 		openGraph: {
-			title: `${cms.streamer.streamerName}'s Spendenseite`,
-			description: 'Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.',
-			url: 'https://charityroyale.at',
-			siteName: `${cms.streamer.streamerName}'s Spendenseite`,
-			images: [
-				{
-					url: 'https://charityroyale.at/uploads/charity_royale_rgb_300x300.png',
-					width: 300,
-					height: 300,
-				},
-			],
-			locale: 'de_AT',
-			type: 'website',
+			title: `Charity Royale | ${cms.streamer.streamerName}'s Spendenseite`,
+			siteName: `Charity Royale | ${cms.streamer.streamerName}'s Spendenseite`,
 		},
 		twitter: {
-			title: `${cms.streamer.streamerName}'s Spendenseite`,
-			description: `${cms.streamer.streamerName}'s Spendenseite`,
-			// siteId: '', // id of @CharityRoyale
-			creator: '@CharityRoyale',
-			// creatorId: '', // id of @CharityRoyale
-			images: ['https://charityroyale.at/uploads/charity_royale_rgb_300x300.png'],
+			title: `Charity Royale | ${cms.streamer.streamerName}'s Spendenseite`,
 		},
 	}
 }

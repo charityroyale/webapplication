@@ -5,7 +5,6 @@ import FeaturedStream from './cms/components/FeatureStream/FeaturedStream'
 import { StreamSchedule } from './cms/components/StreamSchedule/StreamSchedule'
 import { TwitchUserDTO } from './dto/TwitchUserDTO'
 import { fetchTwitchUsersBySchedule } from './utils/commonUtils'
-import { Metadata } from 'next'
 
 export type CmsSchedulesType = { [key in StreamerType]: CmsUpcomingStreamer[] }
 
@@ -17,32 +16,6 @@ export interface IndexPageProps {
 
 const getTwitchUsers = async (schedule: CmsUpcomingStreamer[]) => {
 	return (await fetchTwitchUsersBySchedule(schedule))?.data ?? null
-}
-
-export const metadata: Metadata = {
-	metadataBase: new URL('https://charityroyale.at'),
-	title: `Charity Royale`,
-	openGraph: {
-		title: `Charity Royale`,
-		description: 'Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.',
-		url: '/',
-		siteName: `Charity Royale`,
-		images: [
-			{
-				url: '/uploads/charity_royale_rgb_300x300.png',
-				width: 300,
-				height: 300,
-			},
-		],
-		locale: 'de_AT',
-		type: 'website',
-	},
-	twitter: {
-		title: `Charity Royale`,
-		creator: '@CharityRoyale',
-		description: `Größtes Stream,- und Gaming Charity Projekt Österreichs von Veni und willhaben.`,
-		images: ['/uploads/charity_royale_rgb_300x300.png'],
-	},
 }
 
 export default async function Page() {
