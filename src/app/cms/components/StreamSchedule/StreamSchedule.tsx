@@ -1,5 +1,14 @@
 'use client'
 import React, { useState, useCallback } from 'react'
+
+import { useMakeAWish } from '../../../hooks/useMakeAWish'
+import { StreamerType, CmsUpcomingStreamer } from '../../cms'
+import UpcomingStream from './UpcomingStream'
+import { Text } from '../../components/Text'
+import { styled } from 'styled-components'
+import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../../dto/MakeAWishDTOs'
+import { isDuoStreamer, sortByDateString } from '../../../utils/commonUtils'
+import { CmsSchedulesType } from '../../../(site)/page'
 import {
 	StyleUpcomingStreamsHeader,
 	StyleUpcomingStreamsTitle,
@@ -7,15 +16,7 @@ import {
 	StyledUpcoming,
 	StylePastStreamsHeader,
 	StyledPast,
-} from '../../../../../styles/common.styles'
-import { useMakeAWish } from '../../../hooks/useMakeAWish'
-import { StreamerType, CmsUpcomingStreamer } from '../../cms'
-import UpcomingStream from './UpcomingStream'
-import { Text } from '../../components/Text'
-import { styled } from 'styled-components'
-import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../../dto/MakeAWishDTOs'
-import { CmsSchedulesType } from '../../../page'
-import { isDuoStreamer, sortByDateString } from '../../../utils/commonUtils'
+} from '../../../../styles/common.styles'
 
 const ScheduleTypeButton = styled.button<{ $isActive: boolean }>`
 	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;

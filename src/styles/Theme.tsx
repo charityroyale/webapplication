@@ -1,4 +1,4 @@
-import { customMediaQuery, responsiveMaxSizeThreshold } from '../app/(site)/utils/commonUtils'
+import { customMediaQuery, responsiveMaxSizeThreshold } from '../app/utils/commonUtils'
 
 export const crTheme = {
 	color: {

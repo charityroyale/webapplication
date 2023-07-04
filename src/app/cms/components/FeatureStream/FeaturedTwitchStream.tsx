@@ -2,8 +2,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
 import { useIsomorphicLayoutEffect } from 'swr/_internal'
-import { StyledFeatured } from '../../../../../styles/common.styles'
 import { getFeaturedStreamSize } from '../../../utils/commonUtils'
+import { StyledFeatured } from '../../../../styles/common.styles'
 
 interface FeaturedTwitchStreamProps {
 	channel: string

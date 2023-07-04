@@ -1,7 +1,7 @@
 'use client'
 import React, { FunctionComponent, useEffect, useState } from 'react'
-import { Donor, useDonors } from '../../hooks/useDonors'
 import styled from 'styled-components'
+import { Donor, useDonors } from '../../../hooks/useDonors'
 
 interface HallOfFameContentProps {
 	donors: Donor[]

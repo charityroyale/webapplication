@@ -1,10 +1,11 @@
 import React from 'react'
-import cmsContent, { StreamerType, CmsUpcomingStreamer } from './cms/cms'
-import ButtonsBox from './cms/components/FaqBox'
-import FeaturedStream from './cms/components/FeatureStream/FeaturedStream'
-import { StreamSchedule } from './cms/components/StreamSchedule/StreamSchedule'
-import { TwitchUserDTO } from './dto/TwitchUserDTO'
-import { fetchTwitchUsersBySchedule } from './utils/commonUtils'
+import cmsContent, { StreamerType, CmsUpcomingStreamer } from '../cms/cms'
+import ButtonsBox from '../cms/components/FaqBox'
+import FeaturedStream from '../cms/components/FeatureStream/FeaturedStream'
+import { StreamSchedule } from '../cms/components/StreamSchedule/StreamSchedule'
+import { TwitchUserDTO } from '../dto/TwitchUserDTO'
+import { fetchTwitchUsersBySchedule } from '../utils/commonUtils'
+import { MainPageContent } from '../cms/components/MainPageContent'
 
 export type CmsSchedulesType = { [key in StreamerType]: CmsUpcomingStreamer[] }
 
@@ -41,13 +42,15 @@ export default async function Page() {
 	}
 
 	return (
-		<React.Fragment>
+		<MainPageContent>
+			{/* // eslint-disable-next-line @next/next/no-sync-scripts */}
+			<script src="https://embed.twitch.tv/embed/v1.js"></script>
 			<ButtonsBox />
 			<FeaturedStream
 				twitchChannelName={cmsContent.featuredStream}
 				youtubeUrl={cmsContent.featuredYoutubeStream}
 			/>
 			<StreamSchedule schedules={schedules} />
-		</React.Fragment>
+		</MainPageContent>
 	)
 }

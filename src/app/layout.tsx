@@ -1,7 +1,7 @@
 import React from 'react'
-import { AllProviders } from './(site)/provider/AllProviders'
 import 'react-loading-skeleton/dist/skeleton.css'
 import { Metadata } from 'next'
+import { AllProviders } from './provider/AllProviders'
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://charityroyale.at'),
@@ -32,8 +32,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="de-AT">
 			<body>
-				{/* // eslint-disable-next-line @next/next/no-sync-scripts */}
-				<script src="https://embed.twitch.tv/embed/v1.js"></script>
 				<AllProviders>{children}</AllProviders>
 			</body>
 		</html>

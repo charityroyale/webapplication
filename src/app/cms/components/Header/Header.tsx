@@ -1,12 +1,7 @@
 'use client'
 import Link from 'next/link'
 import React from 'react'
-import {
-	StyledHeader,
-	StyledHeaderLeftItem,
-	StyledHeaderCenterItem,
-	StyledHeaderRightItem,
-} from '../../../../../styles/common.styles'
+
 import { useMakeAWish } from '../../../hooks/useMakeAWish'
 import { cmsFeaturedStreamLink } from '../../cms'
 import ClientLink from '../ClientLink'
@@ -15,6 +10,12 @@ import DonationHeaderCount from './DonationHeaderCount'
 import { Text } from '../Text'
 import { HeaderSocials } from './HeaderSocials'
 import { styled } from 'styled-components'
+import {
+	StyledHeader,
+	StyledHeaderLeftItem,
+	StyledHeaderCenterItem,
+	StyledHeaderRightItem,
+} from '../../../../styles/common.styles'
 
 const StyledHeaderContent = styled.div`
 	grid-area: header-row;

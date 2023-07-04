@@ -1,4 +1,4 @@
-import { makeAWishAPI } from '../../../config'
+import { makeAWishAPI } from '../../config'
 import { CmsUpcomingStreamer } from '../cms/cms'
 import { MakeAWishInfoJsonDTO } from '../dto/MakeAWishDTOs'
 import { TwitchStreamsDTO } from '../dto/TwitchStreamsDTO'
@@ -85,7 +85,6 @@ export async function fetchTwitchStreamBySchedule(schedule: CmsUpcomingStreamer[
 				'Client-Id': `${process.env.TWITCH_CLIENT_ID}`,
 			},
 		})
-		console.log('hi!')
 		if (!res.ok) {
 			throw new Error(`HTTP Error ${res.status}: fetchTwitchStreamBySchedule was not successfull`)
 		}
