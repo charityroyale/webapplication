@@ -83,11 +83,10 @@ const FaqQuestionBox: FunctionComponent<FaqQuestionBoxProps> = ({ question, answ
 }
 export const FaqContent: FunctionComponent = () => {
 	const languageContext = useLanguageContext()
-	const { questionsDe, questionsEn, videos, featuredStream } = {
+	const { questionsDe, questionsEn, videos } = {
 		questionsDe: cmsContent.faq['questions-de'],
 		questionsEn: cmsContent.faq['questions-en'],
 		videos: cmsContent.faq.videos,
-		featuredStream: cmsContent.featuredStream,
 	}
 
 	return (

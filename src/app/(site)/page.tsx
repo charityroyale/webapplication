@@ -43,7 +43,6 @@ export default async function Page() {
 
 	return (
 		<MainPageContent>
-			{/* // eslint-disable-next-line @next/next/no-sync-scripts */}
 			<script src="https://embed.twitch.tv/embed/v1.js"></script>
 			<ButtonsBox />
 			<FeaturedStream

@@ -9,20 +9,16 @@ import Skeleton from 'react-loading-skeleton'
 import styled from 'styled-components'
 import { makeAWishAPI } from '../../../../../config'
 import {
-	StyledLayout,
 	StyledDonationSumWidget,
 	StyledDonatorsWidget,
 	StyledLatestDonatorssWidget,
 } from '../../../../../styles/common.styles'
 import { CmsUpcomingStreamer, MakeAWishWish } from '../../../../cms/cms'
-import CookieBanner from '../../../../cms/components/CookieBanner'
 import { Text } from '../../../../cms/components/Text'
 import DonationWidget from '../../../../cms/components/DonationWidget/DonationWidget'
 import DonationWidgetCount from '../../../../cms/components/DonationWidget/DonationWidgetCount'
 import DonationWidgetList, { DonationListItem } from '../../../../cms/components/DonationWidget/DonatorsWidgetList'
-import Footer from '../../../../cms/components/Footer/Footer'
 import DonationHeader from '../../../../cms/components/Header/DonationHeader'
-import Header from '../../../../cms/components/Header/Header'
 import { MakeWishInfoJsonRecentDonationDTO, MakeAWishInfoJsonTopDonationDTO } from '../../../../dto/MakeAWishDTOs'
 import { useMakeAWish } from '../../../../hooks/useMakeAWish'
 import { IpInfoProviderContext } from '../../../../provider/IpInfoProvider'

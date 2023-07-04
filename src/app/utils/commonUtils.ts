@@ -58,7 +58,6 @@ export async function fetchTwitchUsersBySchedule(schedule: CmsUpcomingStreamer[]
 				Authorization: `Bearer ${process.env.TWITCH_ACCESS_TOKEN}`,
 				'Client-Id': `${process.env.TWITCH_CLIENT_ID}`,
 			},
-			// https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#static-data-fetching
 			cache: 'force-cache',
 		})
 		if (!res.ok) {
