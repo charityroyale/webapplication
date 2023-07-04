@@ -7,7 +7,7 @@ import cmsContent from '../../../cms/cms'
 import { ResponsiveVideo } from '../../../cms/components/ResponsiveVideo'
 import { Text } from '../../../cms/components/Text'
 
-const FaqMainWrapper = styled.div`
+const FaqMainWrapper = styled.main`
 	margin: auto;
 	display: grid;
 	color: ${(p) => p.theme.color.white};
@@ -31,6 +31,7 @@ const FaqMainWrapper = styled.div`
 		grid-gap: ${(p) => p.theme.gridGrap.phone}px;
 	}
 `
+
 const FaqContenSection = styled.div`
 	grid-area: faq-content;
 `

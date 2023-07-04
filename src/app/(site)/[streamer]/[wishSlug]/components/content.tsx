@@ -135,112 +135,106 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 			setShouldDisplayTaxHint(true)
 		}
 	}, [wishCountry, ipInfoContext.country])
+
 	return (
-		<StyledLayout>
-			<CookieBanner />
-			<Header />
-			<MainGrid>
-				<DonationHeader
-					streamLink={cms.streamer.streamLink}
-					streamerName={cms.streamer.streamerName}
-					title={cms.wish.tagline}
-					description={cms.wish.descripion}
-					date={cms.streamer.date}
-					streamerChannel={cms.streamer.streamerChannel}
-					wishes={cms.streamer.wishes}
-				>
-					<React.Fragment>
-						<DonationStatsTitle>
-							<Text content="donationOverViewText" />
-						</DonationStatsTitle>
-						<DonationSubPageStats>
-							<div style={{ marginRight: '20px' }}>
-								<FaDove color="white" size="40" />
-							</div>
+		<MainGrid>
+			<DonationHeader
+				streamLink={cms.streamer.streamLink}
+				streamerName={cms.streamer.streamerName}
+				title={cms.wish.tagline}
+				description={cms.wish.descripion}
+				date={cms.streamer.date}
+				streamerChannel={cms.streamer.streamerChannel}
+				wishes={cms.streamer.wishes}
+			>
+				<React.Fragment>
+					<DonationStatsTitle>
+						<Text content="donationOverViewText" />
+					</DonationStatsTitle>
+					<DonationSubPageStats>
+						<div style={{ marginRight: '20px' }}>
+							<FaDove color="white" size="40" />
+						</div>
 
-							<DonationStatsWidget>
-								<p>
-									<Text content="donationPrependText" />{' '}
-									<DonationStatNumbers>{formatMoneyWithSign(donationSum)}</DonationStatNumbers>
-								</p>
-								{
-									//** TODO: deprecate rc-progress and implement a custom component */
-								}
-								<Line
-									style={{ padding: '4px 0' }}
-									percent={progressPercentage}
-									strokeWidth={4}
-									trailWidth={4}
-									trailColor="white"
-									strokeColor={hasReachedGoal && !makeAWishDataIsLoading ? 'green' : 'gold'}
-								/>
-								<DonationStatsWidgetGoal>
-									<Text content="donationGoal" />{' '}
-									<DonationStatNumbers>{formatMoneyWithSign(donationGoal)}</DonationStatNumbers>
-								</DonationStatsWidgetGoal>
-							</DonationStatsWidget>
-						</DonationSubPageStats>
-						<DonationSubPageStats>
-							<div style={{ marginRight: '20px' }}>
-								<BsFillPeopleFill color="white" size="40" />
-							</div>
+						<DonationStatsWidget>
+							<p>
+								<Text content="donationPrependText" />{' '}
+								<DonationStatNumbers>{formatMoneyWithSign(donationSum)}</DonationStatNumbers>
+							</p>
+							{
+								//** TODO: deprecate rc-progress and implement a custom component */
+							}
+							<Line
+								style={{ padding: '4px 0' }}
+								percent={progressPercentage}
+								strokeWidth={4}
+								trailWidth={4}
+								trailColor="white"
+								strokeColor={hasReachedGoal && !makeAWishDataIsLoading ? 'green' : 'gold'}
+							/>
+							<DonationStatsWidgetGoal>
+								<Text content="donationGoal" />{' '}
+								<DonationStatNumbers>{formatMoneyWithSign(donationGoal)}</DonationStatNumbers>
+							</DonationStatsWidgetGoal>
+						</DonationStatsWidget>
+					</DonationSubPageStats>
+					<DonationSubPageStats>
+						<div style={{ marginRight: '20px' }}>
+							<BsFillPeopleFill color="white" size="40" />
+						</div>
 
-							<DonationStatsWidget>
-								<Text content="donatorNameText" />{' '}
-								<DonationStatNumbers>{donatorsCount}</DonationStatNumbers>
-							</DonationStatsWidget>
-						</DonationSubPageStats>
-					</React.Fragment>
-				</DonationHeader>
+						<DonationStatsWidget>
+							<Text content="donatorNameText" />{' '}
+							<DonationStatNumbers>{donatorsCount}</DonationStatNumbers>
+						</DonationStatsWidget>
+					</DonationSubPageStats>
+				</React.Fragment>
+			</DonationHeader>
 
-				<DonationIFrameWrapper>
-					<DonationFormHeader>
-						<Text content="donationformTitle" />
-					</DonationFormHeader>
+			<DonationIFrameWrapper>
+				<DonationFormHeader>
+					<Text content="donationformTitle" />
+				</DonationFormHeader>
 
-					<TaxDeductionHint>
-						{shouldDisplayTaxHint && <Text content="taxDeductionHint"></Text>}
-					</TaxDeductionHint>
+				<TaxDeductionHint>{shouldDisplayTaxHint && <Text content="taxDeductionHint"></Text>}</TaxDeductionHint>
 
-					{iFrameLoading && <Skeleton height={'843px'} />}
-					{iFrameError && (
-						<IFrameLoadErrorMessage>
-							<Text content="donationFormLoadErrorText" />
-						</IFrameLoadErrorMessage>
-					)}
-					<StyledDonationFormIframe
-						height={iFrameLoading ? 0 : iFrameHeight}
-						onLoad={iFrameLoaded}
-						onError={iFrameLoadedError}
-						id="iframe"
-						src={`${
-							languageContext.language === 'de'
-								? makeAWishAPI.donationFormURL
-								: makeAWishAPI.donationFormEnURL
-						}${cmsStreamerSlug}/${cms.wish.slug}`}
-						title="Spendenformular"
-					/>
-				</DonationIFrameWrapper>
+				{iFrameLoading && <Skeleton height={'843px'} />}
+				{iFrameError && (
+					<IFrameLoadErrorMessage>
+						<Text content="donationFormLoadErrorText" />
+					</IFrameLoadErrorMessage>
+				)}
+				<StyledDonationFormIframe
+					height={iFrameLoading ? 0 : iFrameHeight}
+					onLoad={iFrameLoaded}
+					onError={iFrameLoadedError}
+					id="iframe"
+					src={`${
+						languageContext.language === 'de'
+							? makeAWishAPI.donationFormURL
+							: makeAWishAPI.donationFormEnURL
+					}${cmsStreamerSlug}/${cms.wish.slug}`}
+					title="Spendenformular"
+				/>
+			</DonationIFrameWrapper>
 
-				<StyledDonationSumWidget>
-					<DonationWidgetCount
-						current_amount={mawWStreamerWishData ? mawWStreamerWishData.current_donation_sum_net : '0'}
-						donation_goal_amount={mawWStreamerWishData ? cms.wish.donationGoal : '0'}
-					/>
-				</StyledDonationSumWidget>
-				<StyledDonatorsWidget>
-					<DonationWidget title={<Text content="topDonatorText" />}>
-						<DonationWidgetList donationsList={highestDonatorsList} />
-					</DonationWidget>
-				</StyledDonatorsWidget>
-				<StyledLatestDonatorssWidget>
-					<DonationWidget title={<Text content="latestDonatorsTitle" />}>
-						<DonationWidgetList donationsList={latestDonatorsList} />
-					</DonationWidget>
-				</StyledLatestDonatorssWidget>
-			</MainGrid>
-			<Footer />
-		</StyledLayout>
+			<StyledDonationSumWidget>
+				<DonationWidgetCount
+					current_amount={mawWStreamerWishData ? mawWStreamerWishData.current_donation_sum_net : '0'}
+					donation_goal_amount={mawWStreamerWishData ? cms.wish.donationGoal : '0'}
+				/>
+			</StyledDonationSumWidget>
+			<StyledDonatorsWidget>
+				<DonationWidget title={<Text content="topDonatorText" />}>
+					<DonationWidgetList donationsList={highestDonatorsList} />
+				</DonationWidget>
+			</StyledDonatorsWidget>
+			<StyledLatestDonatorssWidget>
+				<DonationWidget title={<Text content="latestDonatorsTitle" />}>
+					<DonationWidgetList donationsList={latestDonatorsList} />
+				</DonationWidget>
+			</StyledLatestDonatorssWidget>
+		</MainGrid>
 	)
 }
 

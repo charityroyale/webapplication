@@ -43,7 +43,7 @@ export default async function Page({ params }: Props) {
 	}
 
 	return (
-		<div>
+		<React.Fragment>
 			{/** START
 			 * https://nextjs.org/docs/app/api-reference/functions/generate-metadata#unsupported-metadata
 			 **/}
@@ -61,6 +61,6 @@ export default async function Page({ params }: Props) {
 			<meta property="fb:app_id" content={process.env.FB_ID} key="fbappid" />
 			{/** END */}
 			<DonatePageContent cms={cms} />
-		</div>
+		</React.Fragment>
 	)
 }
