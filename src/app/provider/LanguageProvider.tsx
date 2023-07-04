@@ -64,7 +64,6 @@ export interface LanguageContextProps {
 const detaultLanguage: LanguageContextProps = {
 	language: 'de',
 	dictionary: dictionaryList.de,
-	// eslint-disable-next-line @typescript-eslint/no-empty-function
 	updateLanguage: () => {},
 }
 

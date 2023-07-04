@@ -17,7 +17,7 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 
 	useEffect(() => {
 		const { width, height } = { ...getFeaturedStreamSize() }
-		new Twitch.Embed('twitch-embed', {
+		new window.Twitch.Embed('twitch-embed', {
 			width: width,
 			height: height,
 			layout: 'video',
@@ -26,11 +26,7 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 
 		const ref = featuredStreamRef.current
 		if (ref) {
-			// TODO: Investgation has to be done here.
-			//
-			// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-			// @ts-ignore
-			ref.onload = setFeaturedStreamLoaded(true)
+			ref.onload = (_e) => setFeaturedStreamLoaded(true)
 		}
 	}, [channel])
 

@@ -29,7 +29,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	}
 }
 
-// generate alls streamers with wish pages statically
 export async function generateStaticParams() {
 	return cmsDonationPagePaths
 }
