@@ -43,7 +43,6 @@ export default async function Page() {
 
 	return (
 		<MainPageContent>
-			<script src="https://embed.twitch.tv/embed/v1.js"></script>
 			<ButtonsBox />
 			<FeaturedStream
 				twitchChannelName={cmsContent.featuredStream}

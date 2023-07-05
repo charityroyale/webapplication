@@ -16,18 +16,24 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 	const [featuredStreamLoaded, setFeaturedStreamLoaded] = useState(false)
 
 	useEffect(() => {
-		const { width, height } = { ...getFeaturedStreamSize() }
-		new window.Twitch.Embed('twitch-embed', {
-			width: width,
-			height: height,
-			layout: 'video',
-			channel: channel.includes('/') ? channel.split('/')[0] : channel,
-		})
+		const twitchEmbdedScriptTag = document.createElement('script')
+		twitchEmbdedScriptTag.src = 'https://embed.twitch.tv/embed/v1.js'
+		twitchEmbdedScriptTag.async = true
+		twitchEmbdedScriptTag.addEventListener('load', () => {
+			const { width, height } = { ...getFeaturedStreamSize() }
+			new window.Twitch.Embed('twitch-embed', {
+				width: width,
+				height: height,
+				layout: 'video',
+				channel: channel.includes('/') ? channel.split('/')[0] : channel,
+			})
 
-		const ref = featuredStreamRef.current
-		if (ref) {
-			ref.onload = (_e) => setFeaturedStreamLoaded(true)
-		}
+			const ref = featuredStreamRef.current
+			if (ref) {
+				ref.onload = (_e) => setFeaturedStreamLoaded(true)
+			}
+		})
+		document.body.appendChild(twitchEmbdedScriptTag)
 	}, [channel])
 
 	useIsomorphicLayoutEffect(() => {
@@ -49,8 +55,9 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 				<StyledFeatured>
 					<Skeleton height={600} />
 				</StyledFeatured>
-			) : null}
-			<StyledFeatured ref={featuredStreamRef} id="twitch-embed" />
+			) : (
+				<StyledFeatured ref={featuredStreamRef} id="twitch-embed" />
+			)}
 		</>
 	)
 }
