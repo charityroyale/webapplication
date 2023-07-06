@@ -38,7 +38,6 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	const [iFrameLoading, setIFrameLoaded] = useState(true)
 	const [iFrameError, setIFrameError] = useState(false)
 	const languageContext = useLanguageContext()
-	const [hasReachedGoal, setHasReachGoal] = useState(false)
 	const ipInfoContext = useContext(IpInfoProviderContext)
 	const [shouldDisplayTaxHint, setShouldDisplayTaxHint] = useState(false)
 
@@ -116,14 +115,6 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	const iFrameLoadedError = useCallback(() => {
 		setIFrameError(true)
 	}, [])
-
-	useEffect(() => {
-		if (progressPercentage >= 100) {
-			setHasReachGoal(true)
-		} else {
-			setHasReachGoal(false)
-		}
-	}, [progressPercentage])
 
 	useEffect(() => {
 		if (wishCountry === 'DE' && ipInfoContext.country === 'AT') {
