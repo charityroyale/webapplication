@@ -1,7 +1,5 @@
 'use client'
 import { NextPage } from 'next'
-//** TODO: deprecate rc-progress and implement a custom component */
-import { Line } from 'rc-progress'
 import React, { useState, useContext, useEffect, useCallback } from 'react'
 import { BsFillPeopleFill } from 'react-icons/bs'
 import { FaDove } from 'react-icons/fa'
@@ -26,6 +24,7 @@ import { useLanguageContext } from '../../../../provider/LanguageProvider'
 import { hasProperty, getPercentage } from '../../../../utils/commonUtils'
 import { formatMoneyWithSign, formatDate } from '../../../../utils/formatUtils'
 import { ImTrophy } from 'react-icons/im'
+import ProgressBar from './progress-bar'
 
 export interface DonationPageProps {
 	cms: {
@@ -39,7 +38,6 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	const [iFrameLoading, setIFrameLoaded] = useState(true)
 	const [iFrameError, setIFrameError] = useState(false)
 	const languageContext = useLanguageContext()
-	const [hasReachedGoal, setHasReachGoal] = useState(false)
 	const ipInfoContext = useContext(IpInfoProviderContext)
 	const [shouldDisplayTaxHint, setShouldDisplayTaxHint] = useState(false)
 
@@ -119,14 +117,6 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	}, [])
 
 	useEffect(() => {
-		if (progressPercentage >= 100) {
-			setHasReachGoal(true)
-		} else {
-			setHasReachGoal(false)
-		}
-	}, [progressPercentage])
-
-	useEffect(() => {
 		if (wishCountry === 'DE' && ipInfoContext.country === 'AT') {
 			setShouldDisplayTaxHint(true)
 		}
@@ -157,17 +147,7 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 								<Text content="donationPrependText" />{' '}
 								<DonationStatNumbers>{formatMoneyWithSign(donationSum)}</DonationStatNumbers>
 							</p>
-							{
-								//** TODO: deprecate rc-progress and implement a custom component */
-							}
-							<Line
-								style={{ padding: '4px 0' }}
-								percent={progressPercentage}
-								strokeWidth={4}
-								trailWidth={4}
-								trailColor="white"
-								strokeColor={hasReachedGoal && !makeAWishDataIsLoading ? 'green' : 'gold'}
-							/>
+							<ProgressBar percent={progressPercentage} style={{ margin: '4px 0px' }} />
 							<DonationStatsWidgetGoal>
 								<Text content="donationGoal" />{' '}
 								<DonationStatNumbers>{formatMoneyWithSign(donationGoal)}</DonationStatNumbers>
@@ -362,7 +342,6 @@ const DonationStatsWidget = styled.div`
 `
 
 const DonationStatsWidgetGoal = styled.p`
-	margin-top: -5px;
 	text-align: right;
 `
 
