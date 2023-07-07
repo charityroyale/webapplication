@@ -1,25 +1,10 @@
 import React from 'react'
-import { styled } from 'styled-components'
+import { keyframes, styled } from 'styled-components'
 
 interface ProgressBarProps {
 	style: React.CSSProperties
 	percent: number
 }
-
-const ProgressBarContainer = styled.div`
-	background-color: white;
-	width: 100%;
-	height: 12px;
-	border-radius: 6px;
-`
-const Bar = styled.div<{ progress: number }>`
-	background-color: ${(props) => (props.progress < 100 ? 'gold' : 'green')};
-	width: ${(props) => props.progress}%;
-	min-width: 12px;
-	height: 12px;
-	border-radius: 6px;
-	transition: width 400ms ease-in-out;
-`
 
 /**
  * Normalizes a given percentage value to be between 0 and 100.
@@ -41,5 +26,33 @@ const ProgressBar: React.FunctionComponent<ProgressBarProps> = ({ style, percent
 		</ProgressBarContainer>
 	)
 }
+
+const progressAnimation = (progress: number) => keyframes`
+	0% {
+		width: 12px;
+		background-color: gold;
+	}
+	90% {
+		width: ${progress}%;
+		background-color: gold;
+	}
+	100% {
+		width: ${progress}%;
+		background-color: ${progress >= 100 ? 'green' : 'gold'};
+	}
+`
+
+const ProgressBarContainer = styled.div`
+	background-color: white;
+	width: 100%;
+	height: 12px;
+	border-radius: 6px;
+`
+const Bar = styled.div<{ progress: number }>`
+	min-width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	animation: ${(props) => progressAnimation(props.progress)} 400ms forwards ease-in-out;
+`
 
 export default ProgressBar
