@@ -51,13 +51,12 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 
 	return (
 		<>
-			{!featuredStreamLoaded ? (
+			{!featuredStreamLoaded && (
 				<StyledFeatured>
 					<Skeleton height={600} />
 				</StyledFeatured>
-			) : (
-				<StyledFeatured ref={featuredStreamRef} id="twitch-embed" />
 			)}
+			<StyledFeatured ref={featuredStreamRef} id="twitch-embed" />
 		</>
 	)
 }
