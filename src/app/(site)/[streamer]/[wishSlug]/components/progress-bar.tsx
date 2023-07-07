@@ -14,6 +14,7 @@ const ProgressBarContainer = styled.div`
 const Bar = styled.div<{ progress: number }>`
 	background-color: ${(props) => (props.progress < 100 ? 'gold' : 'green')};
 	width: ${(props) => props.progress}%;
+	min-width: 12px;
 	height: 12px;
 	border-radius: 6px;
 `
