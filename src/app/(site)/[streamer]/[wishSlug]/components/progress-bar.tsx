@@ -18,6 +18,7 @@ const Bar = styled.div<{ progress: number }>`
 	min-width: 12px;
 	height: 12px;
 	border-radius: 6px;
+	transition: width 400ms ease-in-out;
 `
 
 /**
