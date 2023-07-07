@@ -147,7 +147,7 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 								<Text content="donationPrependText" />{' '}
 								<DonationStatNumbers>{formatMoneyWithSign(donationSum)}</DonationStatNumbers>
 							</p>
-							<ProgressBar percent={progressPercentage}></ProgressBar>
+							<ProgressBar percent={progressPercentage} style={{ margin: '4px 0px' }}></ProgressBar>
 							<DonationStatsWidgetGoal>
 								<Text content="donationGoal" />{' '}
 								<DonationStatNumbers>{formatMoneyWithSign(donationGoal)}</DonationStatNumbers>
@@ -342,7 +342,6 @@ const DonationStatsWidget = styled.div`
 `
 
 const DonationStatsWidgetGoal = styled.p`
-	margin-top: -5px;
 	text-align: right;
 `
 

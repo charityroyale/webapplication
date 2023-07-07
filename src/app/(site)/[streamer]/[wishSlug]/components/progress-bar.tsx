@@ -2,6 +2,7 @@ import React from 'react'
 import { styled } from 'styled-components'
 
 interface ProgressBarProps {
+	style: React.CSSProperties
 	percent: number
 }
 
@@ -30,11 +31,11 @@ function normalizePercentage(percentage: number): number {
 	return Math.max(0, Math.min(percentage, 100))
 }
 
-const ProgressBar: React.FunctionComponent<ProgressBarProps> = ({ percent }: ProgressBarProps) => {
+const ProgressBar: React.FunctionComponent<ProgressBarProps> = ({ style, percent }: ProgressBarProps) => {
 	const normalizedPercentage = normalizePercentage(percent)
 
 	return (
-		<ProgressBarContainer>
+		<ProgressBarContainer style={style}>
 			<Bar progress={normalizedPercentage}></Bar>
 		</ProgressBarContainer>
 	)
