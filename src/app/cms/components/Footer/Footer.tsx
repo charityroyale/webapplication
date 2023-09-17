@@ -116,6 +116,13 @@ const Footer: React.FunctionComponent = () => {
 							Veni
 						</a>
 					</FooterListItem>
+
+					<FooterListTitle style={{ display: 'flex', marginTop: '14px' }}>Development</FooterListTitle>
+					<FooterListItem>
+						<a target="_bank" rel="noreferrer" href="https://hammertime.studio/">
+							Hammertime
+						</a>
+					</FooterListItem>
 				</FooterList>
 			</FooterCenterGridItem>
 			<FooterRightGridItem>
