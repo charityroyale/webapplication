@@ -67,7 +67,7 @@ const featuredDonationLink = cmsContent.customDonationLink || cmsContent.feature
 export const cmsFeaturedStreamLink =
 	featuredDonationLink === 'https://www.make-a-wish.at' ? 'https://www.make-a-wish.at' : `/${featuredDonationLink}`
 
-const streamers = cmsContent.upcoming
+export const upcomingStreamers = cmsContent.upcoming
 const wishes = cmsContent.wishes
 
 export interface CmsStreamWish {
@@ -77,7 +77,7 @@ export interface CmsStreamWish {
 
 const cmsStreamerWishes = {} as { [key: string]: CmsStreamWish }
 const wishKeys: string[] = []
-for (const streamer of streamers) {
+for (const streamer of upcomingStreamers) {
 	for (const wish of wishes) {
 		if (streamer.wishes.includes(wish.slug)) {
 			cmsStreamerWishes[streamer.streamerChannel + wish.slug] = {

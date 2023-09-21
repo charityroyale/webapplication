@@ -17,6 +17,7 @@ import {
 	StylePastStreamsHeader,
 	StyledPast,
 } from '../../../../styles/common.styles'
+import { useLiveChannels } from '../../../hooks/useLiveChannels'
 
 const ScheduleTypeButton = styled.button<{ $isActive: boolean }>`
 	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
@@ -80,7 +81,9 @@ interface StreamScheduleProps {
 
 export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedules }: StreamScheduleProps) => {
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
+	const { liveChannelsData } = useLiveChannels()
 	const [scheduleType, setScheduleType] = useState<StreamerType>('main')
+	console.log(liveChannelsData)
 
 	const createUpcomingStream = (stream: CmsUpcomingStreamer, index: number) => {
 		let donationProgess = '0'
