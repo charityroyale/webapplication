@@ -1021,8 +1021,8 @@ faq:
         ](https://www.twitch.tv/veni)und der größte digitale Marktplatz
         Österreichs [willhaben ](https://www.willhaben.at)für einen einmaligen
         24h-Charity-Stream zusammengetan hatten. Wegen des großen Erfolgs und
-        der unfassbar hohen Spendenbereitschaft der Zuseher:innen gehen wir 2022
-        bereits in die fünfte Runde des Spenden-Events für den guten Zweck und
+        der unfassbar hohen Spendenbereitschaft der Zuseher:innen gehen wir 2023
+        bereits in die sechste Runde des Spenden-Events für den guten Zweck und
         sammeln dieses Jahr erneut für die Erfüllung von Herzenswünschen
         schwerkranker Kinder.
 
@@ -1035,7 +1035,7 @@ faq:
 
         * 2021 konnten wir erstmalig eine sechsstellige Summe für die [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at) sammeln, und durften uns über ein gelungenes 24h-Stream-Finale freuen. Mehr als 155.000€ wurden dabei für Herzenswünsche schwerkranker Kinder gespendet.
 
-        * 2022 wurde das Projekt Charity Royale zweifach ausgezeichnet: mit dem österreichischen Fundraising Award und mit dem "Goldenen Hashtag" als bestes Influencer Projekt des Landes. Dieses Jahr wird es erneut einen Monat voller Charity-Streams inkl. Final-Event by Veni geben, nur haben wir uns diesmal für den Oktober entschieden.
+        * 2022 wurde das Projekt Charity Royale zweifach ausgezeichnet: mit dem österreichischen Fundraising Award und mit dem "Goldenen Hashtag" als bestes Influencer Projekt des Landes. Dieses Jahr wird es erneut einen Monat voller Charity-Streams inkl. Final-Event by Veni geben, nur haben wir uns diesmal für den Oktober entschieden. Bei den mehr als 30 gemeinnützigen Streams haben wir in diesem Jahr 131.261,59€ für Make-A-Wish sammeln können.
     - question-de: Was ist die Make-A-Wish Foundation?
       answer-de: "Vor 40 Jahren führte der Wunsch eines siebenjährigen krebskranken
         Jungen, der unbedingt Polizist werden wollte, zur Gründung einer
@@ -1046,7 +1046,7 @@ faq:
         Zeiten."
     - question-de: Wie kann ich spenden?
       answer-de: >-
-        Jeder Programmpunkt bzw. Streamer hat sich für Charity Royale 2021 einen
+        Jeder Programmpunkt bzw. Streamer hat sich für Charity Royale 2023 einen
         Herzenswunsch eines schwerkranken Kindes ausgesucht. Während des
         jeweiligen Live-Streams ist der aktuelle Spendenlink auf der Startseite
         von charityroyale.at ausschließlich für diesen Wunsch freigeschaltet.
@@ -1083,13 +1083,11 @@ faq:
     - question-de: Wo wird meine Spendennachricht angezeigt?
       answer-de: Deine Spendennachricht wird als Alert im jeweiligen Live-Stream
         automatisch angezeigt.
-    - question-de: Kann ich auch für Charity Royale 2022 Spenden sammeln?
-      answer-de: N﻿ach vielfachen Anfragen haben wir auch dieses Jahr die Möglichkeite
+    - question-de: Kann ich auch für Charity Royale 2023 Spenden sammeln?
+      answer-de: N﻿ach vielfachen Anfragen haben wir auch dieses Jahr die Möglichkeit
         geschaffen, dass auch Community-Streamer:innen bei Charity Royale für
-        den guten Zweck sammeln. Die Anmeldefrist dafür ist für 2022 leider
-        bereits abgelaufen. [dieses
-        Bewerbungsformular](https://docs.google.com/forms/d/e/1FAIpQLScyZ6rlSOPhhOhjZrHD6VKtInWC53n4e1MphP_Eu7BPhBv_uw/viewform?pli=1)
-        aus.
+        den guten Zweck sammeln. Fülle bitte [dieses
+        Bewerbungsformular](https://forms.gle/D3ec5z7rMxPssjJx8) aus.
   questions-en:
     - question-en: TBA
       answer-en: TBA
