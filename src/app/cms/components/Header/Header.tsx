@@ -53,6 +53,7 @@ const MakeAWishLogoLink = styled.a`
 `
 
 const DonateButton = styled.a`
+	min-width: 194px;
 	padding: 24px 48px;
 	text-decoration: none;
 	background-color: ${(p) => p.theme.color.veniPurple};
