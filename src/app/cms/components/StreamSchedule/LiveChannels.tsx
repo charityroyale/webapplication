@@ -26,7 +26,11 @@ export const LiveChannels = () => {
 									<BsFillPersonFill /> {liveChannelData.viewer_count}
 								</LiveChannelViewCount>
 								<LiveBadge>LIVE</LiveBadge>
-								<img width="100%" src={`${previewImageUrl}`} />
+								<img
+									alt={`${liveChannelData.user_login} streamed gerade ${liveChannelData.game_name}`}
+									width="100%"
+									src={`${previewImageUrl}`}
+								/>
 							</LiveChannelPreviewImageWrapper>
 
 							<LiveDescription>
