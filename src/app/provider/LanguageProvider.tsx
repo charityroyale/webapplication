@@ -32,6 +32,7 @@ export type DictionairyEntryType =
 	| 'downloadScheduleTitle'
 	| 'downloadCTA'
 	| 'pastStreamsTitle'
+	| 'liveChannelsTitle'
 	| 'topDonatorText'
 	| 'topDonatorItemText'
 	| 'hereCouldYourNameTextPart1'
