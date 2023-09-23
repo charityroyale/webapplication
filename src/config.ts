@@ -9,5 +9,5 @@ export const makeAWishAPI = {
 
 export const statsApi = {
 	liveStreamsUrl: 'http://localhost:6200/streams',
-	refreshInterval: 360 * 1000,
+	refreshInterval: 180 * 10000, // refresh each 30 mins
 }

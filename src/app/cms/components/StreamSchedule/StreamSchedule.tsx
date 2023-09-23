@@ -17,63 +17,7 @@ import {
 	StylePastStreamsHeader,
 	StyledPast,
 } from '../../../../styles/common.styles'
-import { useLiveChannels } from '../../../hooks/useLiveChannels'
-
-const ScheduleTypeButton = styled.button<{ $isActive: boolean }>`
-	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
-	border: 2px solid ${(p) => p.theme.color.charityTeal};
-	background-color: ${(p) => p.theme.color.veniPurple};
-	color: ${(p) => p.theme.color.white};
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: ${(p) => p.theme.fontSize.l}px;
-	font-weight: 600;
-	transition: background-color 0.17s;
-
-	border: 10px solid;
-	border-width: 3px;
-	border-image-slice: 1;
-	border-image-source: linear-gradient(
-		to right,
-		${(p) => p.theme.color.charityTeal},
-		${(p) => p.theme.color.charityPink}
-	);
-	box-shadow: 4px 4px 3px 1px #000000;
-
-	&:hover,
-	&:focus {
-		color: ${(p) => p.theme.color.veniPurple};
-		border-image-source: linear-gradient(
-			to right,
-			${(p) => p.theme.color.charityTeal},
-			${(p) => p.theme.color.charityTeal}
-		);
-		background-color: ${(p) => p.theme.color.charityTeal};
-		cursor: pointer;
-	}
-
-	${(p) =>
-		p.$isActive
-			? `color: ${p.theme.color.veniPurple};
-		border-image-source: linear-gradient(
-			to right,
-			${p.theme.color.charityTeal},
-			${p.theme.color.charityTeal}
-		);
-		background-color: ${p.theme.color.charityTeal};
-		cursor: pointer;`
-			: ''}
-`
-
-const ScheduleTypeGrid = styled.div`
-	grid-area: header;
-	justify-content: center;
-	display: grid;
-	grid-gap: 28px;
-	padding: 36px 24px 0 24px;
-	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
-`
+import { LiveChannels } from './LiveChannels'
 
 interface StreamScheduleProps {
 	schedules: CmsSchedulesType
@@ -81,9 +25,7 @@ interface StreamScheduleProps {
 
 export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ schedules }: StreamScheduleProps) => {
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
-	const { liveChannelsData } = useLiveChannels()
 	const [scheduleType, setScheduleType] = useState<StreamerType>('main')
-	console.log(liveChannelsData)
 
 	const createUpcomingStream = (stream: CmsUpcomingStreamer, index: number) => {
 		let donationProgess = '0'
@@ -125,6 +67,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 
 	return (
 		<React.Fragment>
+			<LiveChannels />
 			{futureStreamsSorted.length > 0 && (
 				<React.Fragment>
 					<StyleUpcomingStreamsHeader>
@@ -222,3 +165,59 @@ const getStreamEndDate = (stream: CmsUpcomingStreamer) => {
 }
 const isInThePast = (stream: CmsUpcomingStreamer) => Date.now() > getStreamEndDate(stream)
 const isInTheFuture = (stream: CmsUpcomingStreamer) => Date.now() <= getStreamEndDate(stream)
+
+const ScheduleTypeButton = styled.button<{ $isActive: boolean }>`
+	padding: ${(p) => p.theme.space.l}px ${(p) => p.theme.space.m}px;
+	border: 2px solid ${(p) => p.theme.color.charityTeal};
+	background-color: ${(p) => p.theme.color.veniPurple};
+	color: ${(p) => p.theme.color.white};
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: ${(p) => p.theme.fontSize.l}px;
+	font-weight: 600;
+	transition: background-color 0.17s;
+
+	border: 10px solid;
+	border-width: 3px;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(
+		to right,
+		${(p) => p.theme.color.charityTeal},
+		${(p) => p.theme.color.charityPink}
+	);
+	box-shadow: 4px 4px 3px 1px #000000;
+
+	&:hover,
+	&:focus {
+		color: ${(p) => p.theme.color.veniPurple};
+		border-image-source: linear-gradient(
+			to right,
+			${(p) => p.theme.color.charityTeal},
+			${(p) => p.theme.color.charityTeal}
+		);
+		background-color: ${(p) => p.theme.color.charityTeal};
+		cursor: pointer;
+	}
+
+	${(p) =>
+		p.$isActive
+			? `color: ${p.theme.color.veniPurple};
+		border-image-source: linear-gradient(
+			to right,
+			${p.theme.color.charityTeal},
+			${p.theme.color.charityTeal}
+		);
+		background-color: ${p.theme.color.charityTeal};
+		cursor: pointer;`
+			: ''}
+`
+
+const ScheduleTypeGrid = styled.div`
+	grid-area: header;
+	justify-content: center;
+	display: grid;
+	grid-gap: 28px;
+	padding: 36px 24px 0 24px;
+	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px) minmax(auto, 300px);
+`

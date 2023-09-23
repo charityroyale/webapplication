@@ -16,14 +16,40 @@ const channelsParam = () => {
 }
 
 export const useLiveChannels = () => {
-	console.log(channelsParam())
-	const { data, error } = useSWR<any>(`${statsApi.liveStreamsUrl}?channels=${channelsParam()}`, fetcher, {
-		refreshInterval: statsApi.refreshInterval,
-	})
+	const { data, error } = useSWR<LiveChannelsResponse>(
+		`${statsApi.liveStreamsUrl}?channels=${channelsParam()}`,
+		fetcher,
+		{
+			refreshInterval: statsApi.refreshInterval,
+		}
+	)
 
 	return {
-		liveChannelsData: data as any,
+		liveChannelsData: data?.data ?? [],
 		liveChannelsDataIsLoading: !error && !data,
 		liveChannelsDataIsError: !!error,
 	}
+}
+
+interface LiveChannelsResponse {
+	data: LiveChannels[]
+	pagination: unknown // YAGNI, max 100 channels per page
+}
+
+interface LiveChannels {
+	id: string
+	user_id: string
+	user_login: string
+	user_name: string
+	game_id: string
+	game_name: string
+	type: string
+	title: string
+	viewer_count: number
+	started_at: string // date, '2023-09-22T10:05:20Z'
+	language: string
+	thumbnail_url: string
+	tag_ids: unknown // YAGNI
+	tags: string[]
+	is_mature: boolean
 }
