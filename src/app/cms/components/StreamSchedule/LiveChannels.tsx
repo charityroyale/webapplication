@@ -17,20 +17,29 @@ export const LiveChannels = () => {
 			<LiveChannelsGrid>
 				{liveChannelsData.map((liveChannelData) => {
 					const previewImageUrl = liveChannelData.thumbnail_url
-						.replace('{width}', '200')
-						.replace('{height}', '113')
+						.replace('{width}', '400')
+						.replace('{height}', '226')
 					return (
 						<LiveChannel key={liveChannelData.id}>
-							<img src={`${previewImageUrl}`} />
-							{liveChannelData.user_name}{' '}
-							<div>
-								<BsFillPersonFill /> {liveChannelData.viewer_count}
-							</div>
-							<div>
-								<a
-									href={`twitch.tv/${liveChannelData.user_login}`}
-								>{`twitch.tv/${liveChannelData.user_login}`}</a>
-							</div>
+							<LiveChannelPreviewImageWrapper>
+								<LiveChannelViewCount>
+									<BsFillPersonFill /> {liveChannelData.viewer_count}
+								</LiveChannelViewCount>
+								<LiveBadge>LIVE</LiveBadge>
+								<img width="100%" src={`${previewImageUrl}`} />
+							</LiveChannelPreviewImageWrapper>
+
+							<LiveDescription>
+								<LiveDescriptionTitle>{liveChannelData.title}</LiveDescriptionTitle>
+								<LiveDescriptionTitle>{liveChannelData.game_name}</LiveDescriptionTitle>
+								<LiveTwitchLink
+									target="_blank"
+									rel="noreferrer"
+									href={`https://twitch.tv/${liveChannelData.user_login}`}
+								>
+									{liveChannelData.user_name}{' '}
+								</LiveTwitchLink>
+							</LiveDescription>
 						</LiveChannel>
 					)
 				})}
@@ -39,11 +48,57 @@ export const LiveChannels = () => {
 	)
 }
 
+const LiveTwitchLink = styled.a`
+	margin-top: 4px;
+`
+
+const LiveDescriptionTitle = styled.div`
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+`
+
+const LiveDescription = styled.div`
+	padding: 0 8px 4px 6px;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	a {
+		text-decoration: none;
+	}
+`
+
+const LiveBadge = styled.div`
+	position: absolute;
+	top: 4px;
+	right: 8px;
+	background-color: red;
+	padding: 0 4px;
+	font-size: 14px;
+`
+
+const LiveChannelPreviewImageWrapper = styled.div`
+	position: relative;
+`
+
+const LiveChannelViewCount = styled.div`
+	display: flex;
+	align-items: center;
+	gap: 2px;
+	position: absolute;
+	background-color: #23156578;
+	left: 8px;
+	top: 4px;
+	padding: 0 4px;
+`
+
 const LiveChannel = styled.div`
+	background-color: #00000036;
 	display: flex;
 	flex-direction: column;
 	max-width: 400px;
-	gap: 8px;
+	gap: 2px;
 `
 
 const LiveChannelsWrapper = styled.div`
