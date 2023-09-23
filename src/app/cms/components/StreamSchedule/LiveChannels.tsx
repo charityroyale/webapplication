@@ -7,7 +7,6 @@ import { BsFillPersonFill } from 'react-icons/bs'
 
 export const LiveChannels = () => {
 	const { liveChannelsData } = useLiveChannels()
-	console.log(liveChannelsData)
 
 	return (
 		<LiveChannelsWrapper>
@@ -26,11 +25,17 @@ export const LiveChannels = () => {
 									<BsFillPersonFill /> {liveChannelData.viewer_count}
 								</LiveChannelViewCount>
 								<LiveBadge>LIVE</LiveBadge>
-								<img
-									alt={`${liveChannelData.user_login} streamed gerade ${liveChannelData.game_name}`}
-									width="100%"
-									src={`${previewImageUrl}`}
-								/>
+								<a
+									target="_blank"
+									rel="noreferrer"
+									href={`https://twitch.tv/${liveChannelData.user_login}`}
+								>
+									<img
+										alt={`${liveChannelData.user_login} streamed gerade ${liveChannelData.game_name}`}
+										width="100%"
+										src={`${previewImageUrl}`}
+									/>
+								</a>
 							</LiveChannelPreviewImageWrapper>
 
 							<LiveDescription>
