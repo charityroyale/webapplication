@@ -8,6 +8,6 @@ export const makeAWishAPI = {
 }
 
 export const statsApi = {
-	liveStreamsUrl: 'https://hammertime.studio/streams',
+	liveStreamsUrl: 'https://stats.hammertime.studio/streams',
 	refreshInterval: 180 * 10000, // refresh each 30 mins
 }
