@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTwitter } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 import { FaTiktok } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { styled } from 'styled-components'
@@ -8,7 +8,7 @@ export const HeaderSocials = () => {
 	return (
 		<HeaderSocialsWrapper>
 			<SocialIconLink href="https://twitter.com/CharityRoyale" target="_blank">
-				<FaTwitter />
+				<FaXTwitter />
 			</SocialIconLink>
 			<SocialIconLink href="https://www.tiktok.com/@charityroyale" target="_blank">
 				<FaTiktok />
