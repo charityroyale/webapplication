@@ -4,26 +4,26 @@ name: CMS_SYNC
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "release" ]
+    # Triggers the workflow on push or pull request events but only for the "main" branch
+    push:
+        branches: ['release']
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+    # Allows you to run this workflow manually from the Actions tab
+    workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    # This workflow contains a single job called "build"
+    build:
+        # The type of runner that the job will run on
+        runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+        # Steps represent a sequence of tasks that will be executed as part of the job
+        steps:
+            # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+            - uses: actions/checkout@v3
 
-      # Runs a set of commands using the runners shell
-      - name: SYNC CMS CONTENT
-        run: |
-          curl -X POST https://charityroyale.backend.redcouch.at/sync/cms -H "Content-Type: application/octet-stream" -H "Authorization: Bearer ${{ secrets.API_ACCESS_TOKEN }}" --data-binary @_cms/charity-royale.md
+            # Runs a set of commands using the runners shell
+            - name: SYNC CMS CONTENT
+              run: |
+                  curl -X POST https://charityroyale.backend.hammertime.studio/sync/cms -H "Content-Type: application/octet-stream" -H "Authorization: Bearer ${{ secrets.API_ACCESS_TOKEN }}" --data-binary @_cms/charity-royale.md
