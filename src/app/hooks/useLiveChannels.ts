@@ -16,17 +16,17 @@ const channelsParam = (streamers: CmsUpcomingStreamer[]) => {
 }
 
 const getUpcomingStreamers = (allStreamers: CmsUpcomingStreamer[]) => {
-	const now = new Date();
-	const twentyFourHoursFromNow = new Date(now.getTime() + (24 * 60 * 60 * 1000));
+	const now = new Date()
+	const twentyFourHoursFromNow = new Date(now.getTime() + 24 * 60 * 60 * 1000)
 
-	return allStreamers.filter(item => {
-		const itemDate = new Date(item.date);
-		return itemDate >= now && itemDate <= twentyFourHoursFromNow;
-	});
+	return allStreamers.filter((item) => {
+		const itemDate = new Date(item.date)
+		return itemDate >= now && itemDate <= twentyFourHoursFromNow
+	})
 }
 
 export const useLiveChannels = () => {
-	const liveNow = getUpcomingStreamers(upcomingStreamers ?? []);
+	const liveNow = getUpcomingStreamers(upcomingStreamers ?? [])
 
 	const { data, error } = useSWR<LiveChannelsResponse>(
 		`${statsApi.liveStreamsUrl}?channels=${channelsParam(liveNow)}`,

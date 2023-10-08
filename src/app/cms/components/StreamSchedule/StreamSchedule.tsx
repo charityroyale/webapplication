@@ -66,7 +66,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 		setScheduleType(e.currentTarget.value as StreamerType)
 	}, [])
 
-	const { liveChannelsData } = useLiveChannels();
+	const { liveChannelsData } = useLiveChannels()
 
 	return (
 		<React.Fragment>
