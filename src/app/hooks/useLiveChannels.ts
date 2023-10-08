@@ -1,6 +1,6 @@
 import useSWR from 'swr'
 import { statsApi } from '../../config'
-import { upcomingStreamers } from '../cms/cms'
+import { CmsUpcomingStreamer, upcomingStreamers } from '../cms/cms'
 
 const fetcher = (url: string) =>
 	fetch(url, {
@@ -10,14 +10,26 @@ const fetcher = (url: string) =>
 		cache: 'no-cache',
 	}).then((res) => res.json())
 
-const channelsParam = () => {
-	const channels = upcomingStreamers.map((streamer) => streamer.streamerChannel)
+const channelsParam = (streamers: CmsUpcomingStreamer[]) => {
+	const channels = streamers.map((streamer) => streamer.streamerChannel)
 	return channels.join(',')
 }
 
+const getUpcomingStreamers = (allStreamers: CmsUpcomingStreamer[]) => {
+	const now = new Date();
+	const twentyFourHoursFromNow = new Date(now.getTime() + (24 * 60 * 60 * 1000));
+
+	return allStreamers.filter(item => {
+		const itemDate = new Date(item.date);
+		return itemDate >= now && itemDate <= twentyFourHoursFromNow;
+	});
+}
+
 export const useLiveChannels = () => {
+	const liveNow = getUpcomingStreamers(upcomingStreamers ?? []);
+
 	const { data, error } = useSWR<LiveChannelsResponse>(
-		`${statsApi.liveStreamsUrl}?channels=${channelsParam()}`,
+		`${statsApi.liveStreamsUrl}?channels=${channelsParam(liveNow)}`,
 		fetcher,
 		{
 			refreshInterval: statsApi.refreshInterval,

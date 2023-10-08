@@ -18,6 +18,7 @@ import {
 	StyledPast,
 } from '../../../../styles/common.styles'
 import { LiveChannels } from './LiveChannels'
+import { useLiveChannels } from '../../../hooks/useLiveChannels'
 
 interface StreamScheduleProps {
 	schedules: CmsSchedulesType
@@ -65,9 +66,11 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 		setScheduleType(e.currentTarget.value as StreamerType)
 	}, [])
 
+	const { liveChannelsData } = useLiveChannels();
+
 	return (
 		<React.Fragment>
-			<LiveChannels />
+			{liveChannelsData.length > 0 && <LiveChannels />}
 			{futureStreamsSorted.length > 0 && (
 				<React.Fragment>
 					<StyleUpcomingStreamsHeader>
