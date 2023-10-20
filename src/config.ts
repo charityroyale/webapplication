@@ -1,8 +1,10 @@
+const year = 2023
+
 export const makeAWishAPI = {
-	donationsURL: 'https://streamer.make-a-wish.at/charityroyale2022/info.json',
-	donorsURL: 'https://streamer.make-a-wish.at/charityroyale2022/donors.json',
-	donationFormURL: 'https://streamer.make-a-wish.at/charityroyale2022/donate/',
-	donationFormEnURL: 'https://streamer.make-a-wish.at/charityroyale2022/donate-en/',
+	donationsURL: `https://streamer.make-a-wish.at/charityroyale${year}/info.json`,
+	donorsURL: `https://streamer.make-a-wish.at/charityroyale${year}/donors.json`,
+	donationFormURL: `https://streamer.make-a-wish.at/charityroyale${year}/donate/`,
+	donationFormEnURL: `https://streamer.make-a-wish.at/charityroyale${year}/donate-en/`,
 
 	refreshInterval: 30000,
 }
