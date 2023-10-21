@@ -121,6 +121,12 @@ const LiveChannelsGrid = styled.div`
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	row-gap: 28px;
 	column-gap: 28px;
+	margin: auto;
+	max-width: 700px;
+
+	${(p) => p.theme.media.phone} {
+		max-width: none;
+	}
 `
 
 const LiveChannelsTitle = styled.h2`
