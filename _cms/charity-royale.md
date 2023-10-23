@@ -209,7 +209,7 @@ upcoming:
     wishes:
       - gamingpc1
   - date: 2023-11-04T16:00:07.022Z
-    streamerName: xmrcr4zy
+    streamerName: s0ulrider & xmrcr4zy
     streamerChannel: xmrcr4zy
     streamLink: https://www.twitch.tv/xmrcr4zy
     imgUrl: /uploads/charity_royale_rgb.png
