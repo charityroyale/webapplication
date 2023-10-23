@@ -160,6 +160,38 @@ upcoming:
     type: community
     wishes:
       - prinzessin4
+  - date: 2023-11-11T16:00:14.266Z
+    streamerName: geckarbre
+    streamerChannel: geckarbre
+    streamLink: http://twitch.tv/geckarbre
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin1
+  - date: 2023-11-18T16:00:17.277Z
+    streamerName: jatti4win
+    streamerChannel: jatti4win
+    streamLink: https://twitch.tv/jatti4win
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin2
+  - date: 2023-11-04T16:00:18.146Z
+    streamerName: LeonplayerMC
+    streamerChannel: leonplayermc
+    streamLink: https://twitch.tv/LeonplayerMC
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin3
+  - date: 2023-11-05T16:00:18.804Z
+    streamerName: TVInvincible
+    streamerChannel: tvinvincible
+    streamLink: https://twitch.tv/tvinvincible
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin4
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -482,6 +514,46 @@ wishes:
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: youtuberin1
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "500"
+  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    slug: youtuberin2
+    childname: Wunschkind
+    donationGoal: "500"
+  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    slug: youtuberin3
+    childname: Wunschkind
+    donationGoal: "500"
+  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    slug: youtuberin4
+    childname: Wunschkind
+    donationGoal: "500"
+  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    slug: youtuberin5
+    childname: Wunschkind
     donationGoal: "500"
 faq:
   videos:
