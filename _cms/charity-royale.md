@@ -97,7 +97,7 @@ upcoming:
       - legoland4
   - date: 2023-11-07T16:00:39.005Z
     streamerName: LetsHugo
-    streamerChannel: letshugo
+    streamerChannel: letshugotv
     streamLink: http://twitch.tv/LetsHugoTV
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
