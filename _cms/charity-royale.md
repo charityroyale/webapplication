@@ -63,6 +63,38 @@ upcoming:
     type: main
     wishes:
       - damian-pawpatrol
+  - date: 2023-11-19T16:00:13.194Z
+    streamerName: fr0zennoah
+    streamerChannel: fr0zennoah
+    streamLink: https://www.twitch.tv/fr0zennoah
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland1
+  - date: 2023-11-10T10:00:42.960Z
+    streamerName: Elibold
+    streamerChannel: elibold
+    streamLink: https://www.twitch.tv/elibold
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland2
+  - date: 2023-11-12T09:00:59.452Z
+    streamerName: SuchASebi
+    streamerChannel: suchasebi
+    streamLink: http://twitch.tv/suchasebi
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland3
+  - date: 2023-11-18T16:00:10.513Z
+    streamerName: kleenejud
+    streamerChannel: kleenejud
+    streamLink: http://www.twitch.tv/kleenejud
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland4
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -115,7 +147,7 @@ wishes:
       von Kerems Gesundheitszustand kurz war, war es für alle Beteiligten ein
       sehr emotionaler Moment.
     donationGoal: "800"
-  - slug: theresa-fische
+  - slug: "theresa-fische\t"
     tagline: "Unterwasser-Wunderwelt für Theresa "
     childname: Theresa
     descripion: "Theresa liebt das Wasser. Sie wünscht sich nichts sehnlicher, als
@@ -215,6 +247,38 @@ wishes:
       Helden auf vier Pfoten zu treffen und mit den Paw Patrol Karussell zu
       fahren.
     donationGoal: "1400"
+  - slug: legoland1
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland2
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland3
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland4
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
