@@ -137,8 +137,8 @@ upcoming:
     wishes:
       - prinzessin1
   - date: 2023-11-10T16:00:57.229Z
-    streamerName: corenxtc
-    streamerChannel: corenxtc
+    streamerName: coreonxtc
+    streamerChannel: coreonxtc
     streamLink: https://www.twitch.tv/coreonxtc
     imgUrl: /uploads/charity_royale_rgb.png
     type: community
@@ -154,7 +154,7 @@ upcoming:
       - prinzessin3
   - date: 2023-11-17T16:00:13.819Z
     streamerName: guppathehut
-    streamerChannel: guppathehut
+    streamerChannel: guppathehutt
     streamLink: http://twitch.tv/guppathehutt
     imgUrl: /uploads/charity_royale_rgb.png
     type: community
@@ -192,6 +192,30 @@ upcoming:
     type: community
     wishes:
       - youtuberin4
+  - date: 2023-11-11T10:00:02.496Z
+    streamerName: JessydeLua
+    streamerChannel: jessydelua
+    streamLink: https://www.twitch.tv/jessydelua
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - harrypotter1
+  - date: 2023-11-04T16:00:03.010Z
+    streamerName: s0ulrider & xmrcr4zy
+    streamerChannel: s0ulrider
+    streamLink: http://twitch.tv/s0ulrider
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - gamingpc1
+  - date: 2023-11-04T16:00:07.022Z
+    streamerName: xmrcr4zy
+    streamerChannel: xmrcr4zy
+    streamLink: https://www.twitch.tv/xmrcr4zy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - gamingpc1
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -555,6 +579,21 @@ wishes:
     slug: youtuberin5
     childname: Wunschkind
     donationGoal: "500"
+  - slug: harrypotter1
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    childname: Wunschkind
+    tagline: Eine Reise zu den Harry Potter Studios
+    donationGoal: "1000"
+  - slug: gamingpc1
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
