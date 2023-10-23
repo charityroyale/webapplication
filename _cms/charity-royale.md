@@ -128,6 +128,38 @@ upcoming:
     type: main
     imgUrl: /uploads/charity_royale_rgb.png
     streamLink: http://twitch.tv/stegi
+  - date: 2023-11-11T16:00:02.292Z
+    streamerName: binangi
+    streamerChannel: binangi
+    streamLink: http://twitch.tv/binangi
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin1
+  - date: 2023-11-10T16:00:57.229Z
+    streamerName: corenxtc
+    streamerChannel: corenxtc
+    streamLink: https://www.twitch.tv/coreonxtc
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin2
+  - date: 2023-11-12T16:00:36.210Z
+    streamerName: Ryole
+    streamerChannel: ryole
+    streamLink: https://www.twitch.tv/ryole
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin3
+  - date: 2023-11-17T16:00:13.819Z
+    streamerName: guppathehut
+    streamerChannel: guppathehut
+    streamLink: http://twitch.tv/guppathehutt
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin4
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -411,6 +443,46 @@ wishes:
       wünscht er sich nur eines – einmal ins Legoland zu fahren und im Lego
       Hotel zu übernachten.
     donationGoal: "1900"
+  - slug: prinzessin1
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin2
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin3
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin4
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin5
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
