@@ -7,38 +7,6 @@ makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/l4wnbzIcerE?si=4u9DxAYGW7bdxfnO
 customDonationLink: ""
 upcoming:
-  - date: 2023-11-13T16:00:22.982Z
-    streamerName: xHankyy
-    streamerChannel: xhankyy
-    streamLink: http://twitch.tv/xHankyy
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - i-ps5
-  - date: 2023-11-10T16:00:55.285Z
-    streamerName: Clym
-    streamerChannel: clym
-    streamLink: http://twitch.tv/Clym
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - kerem-ps5
-  - date: 2023-11-09T16:00:52.360Z
-    streamerName: MrsXeniaTV
-    streamerChannel: mrsxeniatv
-    streamLink: http://twitch.tv/MrsXeniaTV
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - theresa-fische
-  - date: 2023-11-04T16:00:05.521Z
-    streamerName: CastCrafter
-    streamerChannel: castcrafter
-    streamLink: http://twitch.tv/CastCrafter
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - bernhard-teneriffa
   - date: 2023-11-02T16:00:15.725Z
     streamerName: Sintica
     streamerChannel: sintica
@@ -47,14 +15,6 @@ upcoming:
     type: main
     wishes:
       - a-gamingecke
-  - date: 2023-11-17T16:00:19.324Z
-    streamerName: Veyla
-    streamerChannel: veyla
-    streamLink: http://twitch.tv/Veyla
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - lauren-europapark
   - date: 2023-11-03T16:00:14.139Z
     streamerName: filow
     streamerChannel: filow
@@ -63,6 +23,46 @@ upcoming:
     type: main
     wishes:
       - damian-pawpatrol
+  - date: 2023-11-04T16:00:05.521Z
+    streamerName: CastCrafter
+    streamerChannel: castcrafter
+    streamLink: http://twitch.tv/CastCrafter
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - bernhard-teneriffa
+  - date: 2023-11-09T16:00:52.360Z
+    streamerName: MrsXeniaTV
+    streamerChannel: mrsxeniatv
+    streamLink: http://twitch.tv/MrsXeniaTV
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - theresa-fische
+  - date: 2023-11-10T16:00:55.285Z
+    streamerName: Clym
+    streamerChannel: clym
+    streamLink: http://twitch.tv/Clym
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - kerem-ps5
+  - date: 2023-11-13T16:00:22.982Z
+    streamerName: xHankyy
+    streamerChannel: xhankyy
+    streamLink: http://twitch.tv/xHankyy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - i-ps5
+  - date: 2023-11-17T16:00:19.324Z
+    streamerName: Veyla
+    streamerChannel: veyla
+    streamLink: http://twitch.tv/Veyla
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - lauren-europapark
   - date: 2023-11-19T16:00:13.194Z
     streamerName: fr0zennoah
     streamerChannel: fr0zennoah
@@ -95,6 +95,39 @@ upcoming:
     type: community
     wishes:
       - legoland4
+  - date: 2023-11-07T16:00:39.005Z
+    streamerName: LetsHugo
+    streamerChannel: letshugo
+    streamLink: http://twitch.tv/LetsHugoTV
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - p-fahrrad
+  - date: 2023-11-06T16:00:47.952Z
+    streamerName: stev0rr
+    streamerChannel: stev0rr
+    streamLink: http://twitch.tv/stev0rr
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - y-ps5
+  - date: 2023-11-19T16:00:50.526Z
+    streamerName: Dhalucard
+    streamerChannel: dhalucard
+    streamLink: http://twitch.tv/Dhalucard
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - j-tokyo
+      - maximilian-spielturm
+  - date: 2023-11-01T16:00:01.887Z
+    streamerName: stegi
+    streamerChannel: stegi
+    wishes:
+      - e-legoland
+    type: main
+    imgUrl: /uploads/charity_royale_rgb.png
+    streamLink: http://twitch.tv/stegi
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -279,6 +312,105 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "500"
+  - slug: p-fahrrad
+    tagline: Ein Traum-Fahrrad für P.
+    childname: P.
+    descripion: P., ein 6-jähriger Junge, leidet an einem Gehirntumor. Sein
+      Herzenswunsch ist ein Fahrrad, mit dem er in den Kindergarten fahren kann,
+      da sein derzeitiges zu klein geworden ist. Am liebsten hätte er ein grünes
+      Fahrrad mit Stützrädern, da er noch nicht so sicher auf 2 Rädern unterwegs
+      ist. Zusätzlich wünscht er sich eine Trinkflaschehalterung mit einer
+      Flasche und einen neuen Fahrradhelm für seine Sicherheit.  ‌  Seine
+      Familie plante die Erfüllung seines Wunsches als Überraschung im
+      nahegelegenen Park oder Spielplatz. Als P. das Fahrrad und die geschmückte
+      Umgebung entdeckte, war er überglücklich und strahlte vor Freude. Er
+      packte die Geschenke vorsichtig aus und bedankte sich mehrmals bei allen.
+      Seine Mutter berichtete später, wie begeistert er von seinem neuen Rad ist
+      und ständig davon spricht.  (Der Wunsch wurde von Make-A-Wish bereits
+      erfüllt, aber noch nicht finanziert.)  Es war nicht einfach, einen Termin
+      für die Wunscherfüllung zu finden, der tapfere Kleine lange Zeit im
+      Krankenhaus verbringen musste und die Pandemie die Pläne immer weiter
+      verschob. Doch nach seiner Reha konnten wir endlich seinen Herzenswunsch
+      erfüllen.  ‌  P. ist ein liebevoller und ruhiger Junge, dessen Freude über
+      sein Fahrrad nicht zu übersehen war. Trotz aller Schwierigkeiten war es
+      ein besonderer Tag für ihn und seine Familie, der nicht nur der Familie
+      unvergessliche Momente bescherte.
+    donationGoal: "600"
+  - slug: y-ps5
+    tagline: Eine Playstation 5 inkl. Spiel für Y.
+    childname: Y.
+    descripion: Y. ein unglaublich tapferer 14-jähriger, junger Mann, der an
+      Leukämie erkrankt ist und dadurch viel Zeit im St. Anna Kinderspitalsbett
+      verbringen muss. Er hat sich nichts sehnlicher gewünscht als eine
+      Playstation 5.  ‌  Diese einfache Spielkonsole bedeutet für Y. so viel
+      mehr als nur ein technisches Gerät. Es ist ein Tor zu einer Welt voller
+      Freude und Abenteuer, denn mit seiner VR-Brille kann er in fantastische
+      Welten eintauchen und den Alltag für einen Moment vergessen. In dieser
+      virtuellen Realität findet er Zuflucht, Trost und vor allem
+      Hoffnung.  ‌  Y. sowie seine herzliche Familie stammen aus der Ukraine.
+      Trotz der schweren Zeiten, die sie durchmachen, strahlen sie eine starke
+      Verbundenheit aus.  (Der Wunsch wurde von Make-A-Wish bereits erfüllt,
+      aber noch nicht finanziert.)  Als die lang ersehnte Wunschübergabe
+      stattfand, war Y. körperlich geschwächt, doch sein Blick verriet eine
+      riesengroße Freude, die alle Anwesenden berührte.  Ein strahlendes Lächeln
+      zeigte sich auf seinem Gesicht und ließ uns alle erahnen, wie wichtig und
+      bedeutsam dieser Moment für ihn war.  ‌  Die Playstation 5 wird nicht nur
+      Stunden des Spielens und Entertainments bringen, sondern vor allem Momente
+      des Glücks und der Unbeschwertheit inmitten einer herausfordernden Zeit.
+    donationGoal: "700"
+  - slug: j-tokyo
+    tagline: J. will Tokyo & Japan erkunden
+    childname: J.
+    descripion: "Der 15-jährige J. leidet an einem Nasopharynx-Karzinom
+      (Nasen-Rachen-Krebs) und hatte einen riesen Herzenswunsch: Japan zu
+      erkunden. Im St. Anna Kinderspital übergab ihm ein junger Arzt vor seiner
+      Reise eine Daruma-Puppe - ein Symbol der Hoffnung und des Wünschens in der
+      japanischen Kultur. Darumas haben Augen ohne Pupillen und J. sollte eines
+      davon malen und sich von Herzen etwas wünschen. Wenn der Wunsch in
+      Erfüllung geht, wird das zweite Auge bemalt.  (Der Wunsch wurde von
+      Make-A-Wish bereits erfüllt, aber noch nicht finanziert.)  Als die Reise
+      in das Land der aufgehenden Sonne begann, tauchte J. und seine Familie in
+      eine Welt voller Wunder ein. In Tokyo angekommen, wurden sie nicht nur
+      herzlich empfangen, sondern auch direkt in eine Running-Sushi-Bar in
+      Shinjuku geführt - das erste von vielen aufregenden Erlebnissen.  ‌  Die
+      Tage vor Weihnachten brachten sie in den quirligen Stadtvierteln von Tokyo
+      wie Shinjuku, Shibuya und Harajuku. Vom majestätischen Tokyo Skytree, der
+      stolze 600 Meter in den Himmel ragt, konnten sie sogar den majestätischen
+      Mount Fuji in der Ferne erspähen.  ‌  Dann, kurz vor Weihnachten,
+      erreichten sie Nikko, eine alte Tempelstadt, in einem Shinkansen, dem
+      berühmten japanischen Hochgeschwindigkeitszug. Dieser Zug war ein stiller
+      Herzenswunsch von J., und als er glaubte, dass sie einen gewöhnlichen
+      Regionalzug nehmen würden, wurde er mit diesem tollen Erlebnis überrascht.
+      In Nikko residierten sie in einem traditionellen japanischen Hot Spring
+      Hotel und verbrachten einen verträumten Weihnachtstag inmitten einer
+      Schneelandschaft, während sie die uralten Tempel Nikkos
+      erkundeten.  ‌  Japan bot J. und seiner Familie nicht nur ein neues
+      Weihnachtsfest, sondern auch ein außergewöhnliches Neujahrsfest. Tausende
+      Menschen versammelten sich in den Tempeln von Asakusa in Tokyo und
+      Kamakura, und die Familie konnte den Jahreswechsel mit neuen, positiven
+      Erinnerungen und einem Gefühl der Erneuerung feiern. Diese Reise half der
+      Familie, schmerzhafte Erinnerungen durch eine Fülle neuer Erfahrungen,
+      Emotionen und Pläne zu ersetzen."
+    donationGoal: "6500"
+  - slug: maximilian-spielturm
+    tagline: '"Ich wünsche mir einen Spielturm im Garten"'
+    childname: Maximilian
+    descripion: Maximilian ist 5 Jahre alt und lebt mit einem Neuroblastom. Wie
+      viele 5-jährige in seinem Alter liebt er toben und spielen, was aufgrund
+      seiner Krankheit häufig nicht möglich war. Maximilian ist nach vielen
+      Chemo-Therapien gerade auf dem Weg der Besserung und daher wünscht er sich
+      für seinen Garten einen großen Spielturm mit Rutsche, wo er nach
+      Herzenslust spielen und toben kann.
+    donationGoal: "4500"
+  - slug: e-legoland
+    tagline: E. möchte ins Legoland und im LEGO-Hotel übernachten
+    childname: E.
+    descripion: E. liebt LEGO! Sein ganzes Zimmer ist voller kreativer
+      Lego-Kunstwerke, denn während vieler Behandlungen hat ihn das LEGO bauen
+      von den Strapazen abgelenkt und aufgeheitert. Jetzt wo es ihm besser geht,
+      wünscht er sich nur eines – einmal ins Legoland zu fahren und im Lego
+      Hotel zu übernachten.
+    donationGoal: "1900"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
