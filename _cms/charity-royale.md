@@ -7,6 +7,14 @@ makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/l4wnbzIcerE?si=4u9DxAYGW7bdxfnO
 customDonationLink: ""
 upcoming:
+  - date: 2023-11-01T16:00:01.887Z
+    streamerName: stegi
+    streamerChannel: stegi
+    wishes:
+      - e-legoland
+    type: main
+    imgUrl: /uploads/charity_royale_rgb.png
+    streamLink: http://twitch.tv/stegi
   - date: 2023-11-02T16:00:15.725Z
     streamerName: Sintica
     streamerChannel: sintica
@@ -31,6 +39,22 @@ upcoming:
     type: main
     wishes:
       - bernhard-teneriffa
+  - date: 2023-11-06T16:00:47.952Z
+    streamerName: stev0rr
+    streamerChannel: stev0rr
+    streamLink: http://twitch.tv/stev0rr
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - y-ps5
+  - date: 2023-11-07T16:00:39.005Z
+    streamerName: LetsHugo
+    streamerChannel: letshugotv
+    streamLink: http://twitch.tv/LetsHugoTV
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - p-fahrrad
   - date: 2023-11-09T16:00:52.360Z
     streamerName: MrsXeniaTV
     streamerChannel: mrsxeniatv
@@ -63,6 +87,15 @@ upcoming:
     type: main
     wishes:
       - lauren-europapark
+  - date: 2023-11-19T16:00:50.526Z
+    streamerName: Dhalucard
+    streamerChannel: dhalucard
+    streamLink: http://twitch.tv/Dhalucard
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - j-tokyo
+      - maximilian-spielturm
   - date: 2023-11-19T16:00:13.194Z
     streamerName: fr0zennoah
     streamerChannel: fr0zennoah
@@ -95,39 +128,6 @@ upcoming:
     type: community
     wishes:
       - legoland4
-  - date: 2023-11-07T16:00:39.005Z
-    streamerName: LetsHugo
-    streamerChannel: letshugotv
-    streamLink: http://twitch.tv/LetsHugoTV
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - p-fahrrad
-  - date: 2023-11-06T16:00:47.952Z
-    streamerName: stev0rr
-    streamerChannel: stev0rr
-    streamLink: http://twitch.tv/stev0rr
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - y-ps5
-  - date: 2023-11-19T16:00:50.526Z
-    streamerName: Dhalucard
-    streamerChannel: dhalucard
-    streamLink: http://twitch.tv/Dhalucard
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - j-tokyo
-      - maximilian-spielturm
-  - date: 2023-11-01T16:00:01.887Z
-    streamerName: stegi
-    streamerChannel: stegi
-    wishes:
-      - e-legoland
-    type: main
-    imgUrl: /uploads/charity_royale_rgb.png
-    streamLink: http://twitch.tv/stegi
   - date: 2023-11-11T16:00:02.292Z
     streamerName: binangi
     streamerChannel: binangi
@@ -216,6 +216,23 @@ upcoming:
     type: community
     wishes:
       - gamingpc1
+  - date: 2023-11-21T16:00:03.973Z
+    streamerName: BastiGHG
+    streamerChannel: bastighg
+    streamLink: http://twitch.tv/BastiGHG
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - lena-meer
+      - lucas-cl
+  - date: 2023-11-15T16:00:06.220Z
+    streamerName: RvNxMango
+    streamerChannel: rvnxmango
+    streamLink: http://twitch.tv/RvNxMango
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - jayden-ps5
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -594,6 +611,70 @@ wishes:
       der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
       einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - slug: lucas-cl
+    tagline: Lucas will Real Madrid in der Champions League sehen
+    childname: Lucas
+    descripion: "Lucas ist 19 Jahre alt und hat einen Gehirntumor. Sein großer
+      Herzenswunsch war es, ein Fußballspiel seines Lieblingsclubs Real Madrid
+      live bei einem Achtelfinalspiel in der Königsklasse der europäischen
+      Vereinsmannschaften, der Champions League, miterleben zu können.   Lucas
+      bezeichnet sich selbst als absolut fußballverrückt, spielte 10 Jahre lang
+      in seinem örtlichen Verein, bis er leider aufgrund seiner Erkrankung,
+      einem Gehirntumor, das Training beenden musste. Spieler wie Ronaldo,
+      Benzema, Vinicius Junior und Alaba imponieren ihm ganz besonders. (Der
+      Wunsch wurde von Make-A-Wish bereits erfüllt, aber noch nicht
+      finanziert.)  Am 15.3.2023 fand das Spiel Real Madrid gegen Liverpool im
+      berühmten Estadio Santiago Bernabèu in Madrid statt – ein Garant für
+      unglaubliche Fanstimmung im Heimatland.   Gerne wollte er dieses besondere
+      Erlebnis mit seiner Familie teilen. Da das elektronische Champions League
+      Ticket nicht ganz so imposant wirkte, gestalteten wir ihm noch einen
+      Champions League VIP Batch, den wir ihm gemeinsam mit ein paar Make-A-Wish
+      Goodies, einem Real Madrid Fan Package und einem Reiseführer für Madrid,
+      überreichten.  Nach einem ausgiebigen Bummel durch Madrid und die Parks
+      und Tapasbars, wartete am zweiten Tag seiner Reise das Highlight auf ihn:
+      Schon Stunden vor dem Anpfiff wurde Lucas und seine Familie von Alvarò,
+      unserem Make-A-Wish Host in Madrid, ins Stadion begleitet. Dort wartete
+      noch eine große Überraschung auf ihn: er bekam Zutritt zum Champions Club,
+      dem VIP Bereich im Stadion.  Bei Livemusik und Gourmetcatering konnten sie
+      sich auf das Spiel im neu eröffneten Stadion einstimmen. Nicht nur die
+      Begrüßung war VIP, auch die Sitzplätze waren genial. Denn von der achten
+      Reihe am Spielfeldrand konnte Lucas seine Mannschaft schon beim Aufwärmen
+      hautnah miterleben und die Anweisungen des Trainers belauschen. Aus dieser
+      einzigartigen Perspektive fieberten Lucas und seine Familie mit ihrem
+      Verein mit - und die Real Fans sorgten mit ihren Fangesängen für brodelnde
+      Stimmung. Unvergessliche Momente - Mit einem Sieg für Real! "
+    donationGoal: "3600"
+  - slug: lena-meer
+    tagline: "Mein Traum soll in Erfüllung gehen: Urlaub am Meer"
+    childname: Lena
+    descripion: "Lena hatte bei ihrem letzten Krankenhausaufenthalt immer wieder
+      diesen wunderschönen Traum: Sie war mit ihrer Familie am Meer und alles
+      war gut.   Im wahren Leben ist das leider nicht so. Denn das kleine
+      Mädchen ist an Leukämie erkrankt und muss immer wieder Zeit im Spital
+      verbringen.  Trotz ihrer Erkrankung macht Lena gerne das, was auch andere
+      6-jährige lieben: Zum Beispiel zu rutschen – am besten ins Wasser! Ihr
+      ganzer Stolz ist eine besondere Barbie, die im Wasser ihre Farbe ändert.
+      Die muss natürlich mit, wenn ihr Herzenswunsch erfüllt wird!  Denn Lena
+      wünscht sich Urlaub mit Mama, Papa und ihrer Schwester irgendwo am Meer,
+      „wo es Palmen gibt, eine kuschelige Decke zum Schlafen und eine Rutsche“!
+      Lena und ihre Familie werden alle zum ersten Mal fliegen und unser
+      Wunschkind freut sich schon sehr darauf, im Flugzeug zu sitzen."
+    donationGoal: "6900"
+  - slug: jayden-ps5
+    tagline: Ich wünsche mir eine Gaming-Ecke mit PS5
+    childname: Jayden
+    descripion: Unser neues Wunschkind ist ein wahrer Kämpfer! Nach der Diagnose
+      eines unglaublich aggressiven Tumors musste er sehr starke Chemo über sich
+      ergehen lassen, die einen Herzstillstand verursachte, sodass Jayden
+      zweimal reanimiert werden musste und 5 Tage lang im Koma lag. Es folgten
+      18 kräftezehrende Monate in der Klinik mit weiteren Chemoblöcken und
+      Bestrahlungen. Aber Jayden hat es geschafft und ist wieder gesund. Heute
+      muss er zwar noch zur regelmäßigen Kontrolle, ist aber in der
+      Erhaltungstherapie. Während der unzähligen Therapien war Jayden häufig
+      alleine im Krankenhaus, umso größer ist sein Wunsch jetzt, wieder mit
+      seinen Freunden und Cousins spielen zu können und daher wünscht er sich
+      eine PS5 inkl. toller Gaming-Ecke zum Zocken.
+    donationGoal: "1600"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
