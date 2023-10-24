@@ -277,7 +277,7 @@ wishes:
       von Kerems Gesundheitszustand kurz war, war es für alle Beteiligten ein
       sehr emotionaler Moment.
     donationGoal: "800"
-  - slug: "theresa-fische\t"
+  - slug: theresa-fische
     tagline: "Unterwasser-Wunderwelt für Theresa "
     childname: Theresa
     descripion: "Theresa liebt das Wasser. Sie wünscht sich nichts sehnlicher, als
