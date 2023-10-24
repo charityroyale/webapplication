@@ -176,14 +176,6 @@ upcoming:
     type: community
     wishes:
       - youtuberin2
-  - date: 2023-11-04T16:00:18.146Z
-    streamerName: LeonplayerMC
-    streamerChannel: leonplayermc
-    streamLink: https://twitch.tv/LeonplayerMC
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: community
-    wishes:
-      - youtuberin3
   - date: 2023-11-05T16:00:18.804Z
     streamerName: TVInvincible
     streamerChannel: tvinvincible
