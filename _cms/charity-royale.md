@@ -225,6 +225,22 @@ upcoming:
     type: main
     wishes:
       - jayden-ps5
+  - date: 2023-11-23T16:00:26.361Z
+    streamerName: Vlesk
+    streamerChannel: vlesk
+    streamLink: http://twitch.tv/Vlesk
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - a-tropicalisland
+  - date: 2023-11-22T16:00:26.614Z
+    streamerName: thisEguy
+    streamerChannel: thiseguy
+    streamLink: http://twitch.tv/thiseguy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - salar-ipad
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -667,6 +683,26 @@ wishes:
       seinen Freunden und Cousins spielen zu können und daher wünscht er sich
       eine PS5 inkl. toller Gaming-Ecke zum Zocken.
     donationGoal: "1600"
+  - slug: salar-ipad
+    childname: Salar
+    tagline: Ein iPad Pro für Salar
+    descripion: Salar ist 11 Jahre alt und lebt mit chronische GvHD. Er hat schon
+      einiges durchmachen müssen und ist gerade auf dem Weg der Erholung. Durch
+      lange Krankenhausaufenthalte, bedingt durch die
+      Stammzellentransplantation, hatte Salar wenig Kontakt zu seinen Freunden
+      aus der Schule. Sein größter Wunsch ist daher ein IPad Pro 11, damit er
+      mit seinen Freunden Facetimen, texten und spielen kann.
+    donationGoal: "1800"
+  - slug: a-tropicalisland
+    tagline: Ich wünsche mir einen Ausflug ins Tropical Island
+    childname: A.
+    descripion: Unser Wunschkind A. ist so stolz darauf, dass er die Leukämie
+      besiegt hat! A liebt schwimmen, tauchen und vor allem rutschen, deswegen
+      stand sein Wunsch auch schnell fest - Ein Ausflug ins Tropical Island!
+      Natürlich soll auch seine Familie dabei sein und A. freut sich schon
+      darauf, alle Rutschen zu testen und mit seinem Bruder um die Wette zu
+      rutschen.
+    donationGoal: "1900"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
