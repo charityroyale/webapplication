@@ -79,6 +79,14 @@ upcoming:
     type: main
     wishes:
       - i-ps5
+  - date: 2023-11-15T16:00:06.220Z
+    streamerName: RvNxMango
+    streamerChannel: rvnxmango
+    streamLink: http://twitch.tv/RvNxMango
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - jayden-ps5
   - date: 2023-11-17T16:00:19.324Z
     streamerName: Veyla
     streamerChannel: veyla
@@ -96,6 +104,31 @@ upcoming:
     wishes:
       - j-tokyo
       - maximilian-spielturm
+  - date: 2023-11-21T16:00:03.973Z
+    streamerName: BastiGHG
+    streamerChannel: bastighg
+    streamLink: http://twitch.tv/BastiGHG
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - lena-meer
+      - lucas-cl
+  - date: 2023-11-22T16:00:26.614Z
+    streamerName: thisEguy
+    streamerChannel: thiseguy
+    streamLink: http://twitch.tv/thiseguy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - salar-ipad
+  - date: 2023-11-23T16:00:26.361Z
+    streamerName: Vlesk
+    streamerChannel: vlesk
+    streamLink: http://twitch.tv/Vlesk
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - a-tropicalisland
   - date: 2023-11-19T16:00:13.194Z
     streamerName: fr0zennoah
     streamerChannel: fr0zennoah
@@ -208,39 +241,54 @@ upcoming:
     type: community
     wishes:
       - gamingpc1
-  - date: 2023-11-21T16:00:03.973Z
-    streamerName: BastiGHG
-    streamerChannel: bastighg
-    streamLink: http://twitch.tv/BastiGHG
+  - date: 2023-11-17T16:00:22.006Z
+    streamerName: Decoded2002
+    streamerChannel: decoded2002
+    streamLink: https://www.twitch.tv/decoded2002
     imgUrl: /uploads/charity_royale_rgb.png
-    type: main
+    type: community
     wishes:
-      - lena-meer
-      - lucas-cl
-  - date: 2023-11-15T16:00:06.220Z
-    streamerName: RvNxMango
-    streamerChannel: rvnxmango
-    streamLink: http://twitch.tv/RvNxMango
+      - legoland5
+  - date: 2023-11-19T16:00:22.488Z
+    streamerName: Urutox
+    streamerChannel: urutox
+    streamLink: https://www.twitch.tv/urutox
     imgUrl: /uploads/charity_royale_rgb.png
-    type: main
+    type: community
     wishes:
-      - jayden-ps5
-  - date: 2023-11-23T16:00:26.361Z
-    streamerName: Vlesk
-    streamerChannel: vlesk
-    streamLink: http://twitch.tv/Vlesk
+      - legoland6
+  - date: 2023-11-12T16:00:23.043Z
+    streamerName: mgvpri
+    streamerChannel: mgvpri
+    streamLink: http://twitch.tv/mgvpri
     imgUrl: /uploads/charity_royale_rgb.png
-    type: main
+    type: community
     wishes:
-      - a-tropicalisland
-  - date: 2023-11-22T16:00:26.614Z
-    streamerName: thisEguy
-    streamerChannel: thiseguy
-    streamLink: http://twitch.tv/thiseguy
+      - legoland7
+  - date: 2023-11-13T16:00:23.611Z
+    streamerName: nooreax
+    streamerChannel: nooreax
+    streamLink: http://twitch.tv/nooreax
     imgUrl: /uploads/charity_royale_rgb.png
-    type: main
+    type: community
     wishes:
-      - salar-ipad
+      - gamingpc2
+  - date: 2023-11-08T16:00:24.231Z
+    streamerName: Tjan & Fuxelbau
+    streamerChannel: tjan
+    streamLink: https://www.twitch.tv/tjan
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - harrypotter2
+  - date: 2023-11-08T16:00:24.694Z
+    streamerName: Tjan & Fuxelbau
+    streamerChannel: fuxelbau
+    streamLink: https://www.twitch.tv/fuxelbau
+    type: community
+    wishes:
+      - harrypotter2
+    imgUrl: /uploads/charity_royale_rgb.png
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -703,6 +751,45 @@ wishes:
       darauf, alle Rutschen zu testen und mit seinem Bruder um die Wette zu
       rutschen.
     donationGoal: "1900"
+  - slug: legoland5
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland6
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland7
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: harrypotter2
+    tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: gamingpc2
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
