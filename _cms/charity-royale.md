@@ -266,7 +266,7 @@ upcoming:
     wishes:
       - legoland7
   - date: 2023-11-13T16:00:23.611Z
-    streamerName: nooreax
+    streamerName: nooreax & Faister
     streamerChannel: nooreax
     streamLink: http://twitch.tv/nooreax
     imgUrl: /uploads/charity_royale_rgb.png
@@ -289,6 +289,46 @@ upcoming:
     wishes:
       - harrypotter2
     imgUrl: /uploads/charity_royale_rgb.png
+  - date: 2023-11-13T16:00:00.000Z
+    streamerName: nooreax & Faister
+    streamerChannel: faister
+    streamLink: https://www.twitch.tv/faister
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - gamingpc2
+  - date: 2023-11-17T16:00:47.875Z
+    streamerName: Crowie
+    streamerChannel: crowie
+    streamLink: https://www.twitch.tv/crowie
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland8
+  - date: 2023-11-17T16:00:48.338Z
+    streamerName: itsGleisi
+    streamerChannel: itsgleisi
+    streamLink: https://www.twitch.tv/itsgleisi
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin5
+  - date: 2023-11-09T16:00:48.691Z
+    streamerName: huytastic
+    streamerChannel: huytastic
+    streamLink: https://www.twitch.tv/huytastic
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - zimmereinrichtung1
+  - date: 2023-11-07T16:00:48.994Z
+    streamerName: Acee47
+    streamerChannel: acee47
+    streamLink: https://www.twitch.tv/acee47
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin6
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -604,14 +644,6 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
-  - slug: prinzessin5
-    tagline: Einen Tag lang Prinzessin sein
-    childname: Wunschkind
-    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
-    donationGoal: "500"
   - slug: youtuberin1
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
     childname: Wunschkind
@@ -789,6 +821,38 @@ wishes:
     descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
       der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
       einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: legoland8
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin5
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin6
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: zimmereinrichtung1
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
     donationGoal: "1000"
 faq:
   videos:
