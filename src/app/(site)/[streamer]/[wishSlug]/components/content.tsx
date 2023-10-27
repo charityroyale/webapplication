@@ -25,6 +25,7 @@ import { hasProperty, getPercentage } from '../../../../utils/commonUtils'
 import { formatMoneyWithSign, formatDate } from '../../../../utils/formatUtils'
 import { ImTrophy } from 'react-icons/im'
 import ProgressBar from './progress-bar'
+import { mapStreamerSlugIncludingMultiStreams } from '../../../../utils/streamerUtils'
 
 export interface DonationPageProps {
 	cms: {
@@ -54,11 +55,8 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	let progressPercentage = 0
 	let donatorsCount = '0'
 	let wishCountry = ''
-	let cmsStreamerSlug =
-		cms.streamer.streamerChannel.toLocaleLowerCase() === 'krokoboss'
-			? 'shredmir'
-			: cms.streamer.streamerChannel.toLocaleLowerCase()
-	cmsStreamerSlug = cmsStreamerSlug === 'ichbinzarbex' ? 'filow' : cmsStreamerSlug
+
+	const cmsStreamerSlug = mapStreamerSlugIncludingMultiStreams(cms.streamer.streamerChannel.toLocaleLowerCase())
 	const cmsWishSlug = cms.wish.slug
 
 	if (isMakeAWishDataAvailable) {
