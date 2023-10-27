@@ -2,43 +2,19 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: veni/kermo-ps5
+featuredStream: stegi/e-legoland
 makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/l4wnbzIcerE?si=4u9DxAYGW7bdxfnO
 customDonationLink: ""
 upcoming:
-  - date: 2023-11-13T16:00:22.982Z
-    streamerName: xHankyy
-    streamerChannel: xhankyy
-    streamLink: http://twitch.tv/xHankyy
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
+  - date: 2023-11-01T16:00:01.887Z
+    streamerName: stegi
+    streamerChannel: stegi
     wishes:
-      - i-ps5
-  - date: 2023-11-10T16:00:55.285Z
-    streamerName: Clym
-    streamerChannel: clym
-    streamLink: http://twitch.tv/Clym
-    imgUrl: /uploads/charity_royale_rgb.png
+      - e-legoland
     type: main
-    wishes:
-      - kerem-ps5
-  - date: 2023-11-09T16:00:52.360Z
-    streamerName: MrsXeniaTV
-    streamerChannel: mrsxeniatv
-    streamLink: http://twitch.tv/MrsXeniaTV
     imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - theresa-fische
-  - date: 2023-11-04T16:00:05.521Z
-    streamerName: CastCrafter
-    streamerChannel: castcrafter
-    streamLink: http://twitch.tv/CastCrafter
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - bernhard-teneriffa
+    streamLink: http://twitch.tv/stegi
   - date: 2023-11-02T16:00:15.725Z
     streamerName: Sintica
     streamerChannel: sintica
@@ -47,14 +23,6 @@ upcoming:
     type: main
     wishes:
       - a-gamingecke
-  - date: 2023-11-17T16:00:19.324Z
-    streamerName: Veyla
-    streamerChannel: veyla
-    streamLink: http://twitch.tv/Veyla
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - lauren-europapark
   - date: 2023-11-03T16:00:14.139Z
     streamerName: filow
     streamerChannel: filow
@@ -63,6 +31,304 @@ upcoming:
     type: main
     wishes:
       - damian-pawpatrol
+  - date: 2023-11-04T16:00:05.521Z
+    streamerName: CastCrafter
+    streamerChannel: castcrafter
+    streamLink: http://twitch.tv/CastCrafter
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - bernhard-teneriffa
+  - date: 2023-11-06T16:00:47.952Z
+    streamerName: stev0rr
+    streamerChannel: stev0rr
+    streamLink: http://twitch.tv/stev0rr
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - y-ps5
+  - date: 2023-11-07T16:00:39.005Z
+    streamerName: LetsHugo
+    streamerChannel: letshugotv
+    streamLink: http://twitch.tv/LetsHugoTV
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - p-fahrrad
+  - date: 2023-11-09T16:00:52.360Z
+    streamerName: MrsXeniaTV
+    streamerChannel: mrsxeniatv
+    streamLink: http://twitch.tv/MrsXeniaTV
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - theresa-fische
+  - date: 2023-11-10T16:00:55.285Z
+    streamerName: Clym
+    streamerChannel: clym
+    streamLink: http://twitch.tv/Clym
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - kerem-ps5
+  - date: 2023-11-13T16:00:22.982Z
+    streamerName: xHankyy
+    streamerChannel: xhankyy
+    streamLink: http://twitch.tv/xHankyy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - i-ps5
+  - date: 2023-11-15T16:00:06.220Z
+    streamerName: RvNxMango
+    streamerChannel: rvnxmango
+    streamLink: http://twitch.tv/RvNxMango
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - jayden-ps5
+  - date: 2023-11-17T16:00:19.324Z
+    streamerName: Veyla
+    streamerChannel: veyla
+    streamLink: http://twitch.tv/Veyla
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - lauren-europapark
+  - date: 2023-11-19T16:00:50.526Z
+    streamerName: Dhalucard
+    streamerChannel: dhalucard
+    streamLink: http://twitch.tv/Dhalucard
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - j-tokyo
+      - maximilian-spielturm
+  - date: 2023-11-21T16:00:03.973Z
+    streamerName: BastiGHG
+    streamerChannel: bastighg
+    streamLink: http://twitch.tv/BastiGHG
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - lena-meer
+      - lucas-cl
+  - date: 2023-11-22T16:00:26.614Z
+    streamerName: thisEguy
+    streamerChannel: thiseguy
+    streamLink: http://twitch.tv/thiseguy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - salar-ipad
+  - date: 2023-11-23T16:00:26.361Z
+    streamerName: Vlesk
+    streamerChannel: vlesk
+    streamLink: http://twitch.tv/Vlesk
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - a-tropicalisland
+  - date: 2023-11-19T16:00:13.194Z
+    streamerName: fr0zennoah
+    streamerChannel: fr0zennoah
+    streamLink: https://www.twitch.tv/fr0zennoah
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland1
+  - date: 2023-11-10T10:00:42.960Z
+    streamerName: Elibold
+    streamerChannel: elibold
+    streamLink: https://www.twitch.tv/elibold
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland2
+  - date: 2023-11-12T09:00:59.452Z
+    streamerName: SuchASebi
+    streamerChannel: suchasebi
+    streamLink: http://twitch.tv/suchasebi
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland3
+  - date: 2023-11-18T16:00:10.513Z
+    streamerName: kleenejud
+    streamerChannel: kleenejud
+    streamLink: http://www.twitch.tv/kleenejud
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland4
+  - date: 2023-11-11T16:00:02.292Z
+    streamerName: binangi
+    streamerChannel: binangi
+    streamLink: http://twitch.tv/binangi
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin1
+  - date: 2023-11-10T16:00:57.229Z
+    streamerName: coreonxtc
+    streamerChannel: coreonxtc
+    streamLink: https://www.twitch.tv/coreonxtc
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin2
+  - date: 2023-11-12T16:00:36.210Z
+    streamerName: Ryole
+    streamerChannel: ryole
+    streamLink: https://www.twitch.tv/ryole
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin3
+  - date: 2023-11-17T16:00:13.819Z
+    streamerName: guppathehut
+    streamerChannel: guppathehutt
+    streamLink: http://twitch.tv/guppathehutt
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin4
+  - date: 2023-11-11T16:00:14.266Z
+    streamerName: geckarbre
+    streamerChannel: geckarbre
+    streamLink: http://twitch.tv/geckarbre
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin1
+  - date: 2023-11-18T16:00:17.277Z
+    streamerName: jatti4win
+    streamerChannel: jatti4win
+    streamLink: https://twitch.tv/jatti4win
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin2
+  - date: 2023-11-05T16:00:18.804Z
+    streamerName: TVInvincible
+    streamerChannel: tvinvincible
+    streamLink: https://twitch.tv/tvinvincible
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin4
+  - date: 2023-11-11T10:00:02.496Z
+    streamerName: JessydeLua
+    streamerChannel: jessydelua
+    streamLink: https://www.twitch.tv/jessydelua
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - harrypotter1
+  - date: 2023-11-04T16:00:03.010Z
+    streamerName: s0ulrider & xmrcr4zy
+    streamerChannel: s0ulrider
+    streamLink: http://twitch.tv/s0ulrider
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - gamingpc1
+  - date: 2023-11-04T16:00:07.022Z
+    streamerName: s0ulrider & xmrcr4zy
+    streamerChannel: xmrcr4zy
+    streamLink: https://www.twitch.tv/xmrcr4zy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - gamingpc1
+  - date: 2023-11-17T16:00:22.006Z
+    streamerName: Decoded2002
+    streamerChannel: decoded2002
+    streamLink: https://www.twitch.tv/decoded2002
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland5
+  - date: 2023-11-19T16:00:22.488Z
+    streamerName: Urutox
+    streamerChannel: urutox
+    streamLink: https://www.twitch.tv/urutox
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland6
+  - date: 2023-11-12T16:00:23.043Z
+    streamerName: mgvpri
+    streamerChannel: mgvpri
+    streamLink: http://twitch.tv/mgvpri
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland7
+  - date: 2023-11-13T16:00:23.611Z
+    streamerName: nooreax & Faister
+    streamerChannel: nooreax
+    streamLink: http://twitch.tv/nooreax
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - gamingpc2
+  - date: 2023-11-08T16:00:24.231Z
+    streamerName: Tjan & Fuxelbau
+    streamerChannel: tjan
+    streamLink: https://www.twitch.tv/tjan
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - harrypotter2
+  - date: 2023-11-08T16:00:24.694Z
+    streamerName: Tjan & Fuxelbau
+    streamerChannel: fuxelbau
+    streamLink: https://www.twitch.tv/fuxelbau
+    type: community
+    wishes:
+      - harrypotter2
+    imgUrl: /uploads/charity_royale_rgb.png
+  - date: 2023-11-13T16:00:00.000Z
+    streamerName: nooreax & Faister
+    streamerChannel: faister
+    streamLink: https://www.twitch.tv/faister
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - gamingpc2
+  - date: 2023-11-17T16:00:47.875Z
+    streamerName: Crowie
+    streamerChannel: crowie
+    streamLink: https://www.twitch.tv/crowie
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland8
+  - date: 2023-11-17T16:00:48.338Z
+    streamerName: itsGleisi
+    streamerChannel: itsgleisi
+    streamLink: https://www.twitch.tv/itsgleisi
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin5
+  - date: 2023-11-09T16:00:48.691Z
+    streamerName: huytastic
+    streamerChannel: huytastic
+    streamLink: https://www.twitch.tv/huytastic
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - zimmereinrichtung1
+  - date: 2023-11-07T16:00:48.994Z
+    streamerName: Acee47
+    streamerChannel: acee47
+    streamLink: https://www.twitch.tv/acee47
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin6
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -115,7 +381,7 @@ wishes:
       von Kerems Gesundheitszustand kurz war, war es für alle Beteiligten ein
       sehr emotionaler Moment.
     donationGoal: "800"
-  - slug: "theresa-fische\t"
+  - slug: theresa-fische
     tagline: "Unterwasser-Wunderwelt für Theresa "
     childname: Theresa
     descripion: "Theresa liebt das Wasser. Sie wünscht sich nichts sehnlicher, als
@@ -215,6 +481,379 @@ wishes:
       Helden auf vier Pfoten zu treffen und mit den Paw Patrol Karussell zu
       fahren.
     donationGoal: "1400"
+  - slug: legoland1
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland2
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland3
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland4
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: p-fahrrad
+    tagline: Ein Traum-Fahrrad für P.
+    childname: P.
+    descripion: P., ein 6-jähriger Junge, leidet an einem Gehirntumor. Sein
+      Herzenswunsch ist ein Fahrrad, mit dem er in den Kindergarten fahren kann,
+      da sein derzeitiges zu klein geworden ist. Am liebsten hätte er ein grünes
+      Fahrrad mit Stützrädern, da er noch nicht so sicher auf 2 Rädern unterwegs
+      ist. Zusätzlich wünscht er sich eine Trinkflaschehalterung mit einer
+      Flasche und einen neuen Fahrradhelm für seine Sicherheit.  ‌  Seine
+      Familie plante die Erfüllung seines Wunsches als Überraschung im
+      nahegelegenen Park oder Spielplatz. Als P. das Fahrrad und die geschmückte
+      Umgebung entdeckte, war er überglücklich und strahlte vor Freude. Er
+      packte die Geschenke vorsichtig aus und bedankte sich mehrmals bei allen.
+      Seine Mutter berichtete später, wie begeistert er von seinem neuen Rad ist
+      und ständig davon spricht.  (Der Wunsch wurde von Make-A-Wish bereits
+      erfüllt, aber noch nicht finanziert.)  Es war nicht einfach, einen Termin
+      für die Wunscherfüllung zu finden, der tapfere Kleine lange Zeit im
+      Krankenhaus verbringen musste und die Pandemie die Pläne immer weiter
+      verschob. Doch nach seiner Reha konnten wir endlich seinen Herzenswunsch
+      erfüllen.  ‌  P. ist ein liebevoller und ruhiger Junge, dessen Freude über
+      sein Fahrrad nicht zu übersehen war. Trotz aller Schwierigkeiten war es
+      ein besonderer Tag für ihn und seine Familie, der nicht nur der Familie
+      unvergessliche Momente bescherte.
+    donationGoal: "600"
+  - slug: y-ps5
+    tagline: Eine Playstation 5 inkl. Spiel für Y.
+    childname: Y.
+    descripion: Y. ein unglaublich tapferer 14-jähriger, junger Mann, der an
+      Leukämie erkrankt ist und dadurch viel Zeit im St. Anna Kinderspitalsbett
+      verbringen muss. Er hat sich nichts sehnlicher gewünscht als eine
+      Playstation 5.  ‌  Diese einfache Spielkonsole bedeutet für Y. so viel
+      mehr als nur ein technisches Gerät. Es ist ein Tor zu einer Welt voller
+      Freude und Abenteuer, denn mit seiner VR-Brille kann er in fantastische
+      Welten eintauchen und den Alltag für einen Moment vergessen. In dieser
+      virtuellen Realität findet er Zuflucht, Trost und vor allem
+      Hoffnung.  ‌  Y. sowie seine herzliche Familie stammen aus der Ukraine.
+      Trotz der schweren Zeiten, die sie durchmachen, strahlen sie eine starke
+      Verbundenheit aus.  (Der Wunsch wurde von Make-A-Wish bereits erfüllt,
+      aber noch nicht finanziert.)  Als die lang ersehnte Wunschübergabe
+      stattfand, war Y. körperlich geschwächt, doch sein Blick verriet eine
+      riesengroße Freude, die alle Anwesenden berührte.  Ein strahlendes Lächeln
+      zeigte sich auf seinem Gesicht und ließ uns alle erahnen, wie wichtig und
+      bedeutsam dieser Moment für ihn war.  ‌  Die Playstation 5 wird nicht nur
+      Stunden des Spielens und Entertainments bringen, sondern vor allem Momente
+      des Glücks und der Unbeschwertheit inmitten einer herausfordernden Zeit.
+    donationGoal: "700"
+  - slug: j-tokyo
+    tagline: J. will Tokyo & Japan erkunden
+    childname: J.
+    descripion: "Der 15-jährige J. leidet an einem Nasopharynx-Karzinom
+      (Nasen-Rachen-Krebs) und hatte einen riesen Herzenswunsch: Japan zu
+      erkunden. Im St. Anna Kinderspital übergab ihm ein junger Arzt vor seiner
+      Reise eine Daruma-Puppe - ein Symbol der Hoffnung und des Wünschens in der
+      japanischen Kultur. Darumas haben Augen ohne Pupillen und J. sollte eines
+      davon malen und sich von Herzen etwas wünschen. Wenn der Wunsch in
+      Erfüllung geht, wird das zweite Auge bemalt.  (Der Wunsch wurde von
+      Make-A-Wish bereits erfüllt, aber noch nicht finanziert.)  Als die Reise
+      in das Land der aufgehenden Sonne begann, tauchte J. und seine Familie in
+      eine Welt voller Wunder ein. In Tokyo angekommen, wurden sie nicht nur
+      herzlich empfangen, sondern auch direkt in eine Running-Sushi-Bar in
+      Shinjuku geführt - das erste von vielen aufregenden Erlebnissen.  ‌  Die
+      Tage vor Weihnachten brachten sie in den quirligen Stadtvierteln von Tokyo
+      wie Shinjuku, Shibuya und Harajuku. Vom majestätischen Tokyo Skytree, der
+      stolze 600 Meter in den Himmel ragt, konnten sie sogar den majestätischen
+      Mount Fuji in der Ferne erspähen.  ‌  Dann, kurz vor Weihnachten,
+      erreichten sie Nikko, eine alte Tempelstadt, in einem Shinkansen, dem
+      berühmten japanischen Hochgeschwindigkeitszug. Dieser Zug war ein stiller
+      Herzenswunsch von J., und als er glaubte, dass sie einen gewöhnlichen
+      Regionalzug nehmen würden, wurde er mit diesem tollen Erlebnis überrascht.
+      In Nikko residierten sie in einem traditionellen japanischen Hot Spring
+      Hotel und verbrachten einen verträumten Weihnachtstag inmitten einer
+      Schneelandschaft, während sie die uralten Tempel Nikkos
+      erkundeten.  ‌  Japan bot J. und seiner Familie nicht nur ein neues
+      Weihnachtsfest, sondern auch ein außergewöhnliches Neujahrsfest. Tausende
+      Menschen versammelten sich in den Tempeln von Asakusa in Tokyo und
+      Kamakura, und die Familie konnte den Jahreswechsel mit neuen, positiven
+      Erinnerungen und einem Gefühl der Erneuerung feiern. Diese Reise half der
+      Familie, schmerzhafte Erinnerungen durch eine Fülle neuer Erfahrungen,
+      Emotionen und Pläne zu ersetzen."
+    donationGoal: "6500"
+  - slug: maximilian-spielturm
+    tagline: '"Ich wünsche mir einen Spielturm im Garten"'
+    childname: Maximilian
+    descripion: Maximilian ist 5 Jahre alt und lebt mit einem Neuroblastom. Wie
+      viele 5-jährige in seinem Alter liebt er toben und spielen, was aufgrund
+      seiner Krankheit häufig nicht möglich war. Maximilian ist nach vielen
+      Chemo-Therapien gerade auf dem Weg der Besserung und daher wünscht er sich
+      für seinen Garten einen großen Spielturm mit Rutsche, wo er nach
+      Herzenslust spielen und toben kann.
+    donationGoal: "4500"
+  - slug: e-legoland
+    tagline: E. möchte ins Legoland und im LEGO-Hotel übernachten
+    childname: E.
+    descripion: E. liebt LEGO! Sein ganzes Zimmer ist voller kreativer
+      Lego-Kunstwerke, denn während vieler Behandlungen hat ihn das LEGO bauen
+      von den Strapazen abgelenkt und aufgeheitert. Jetzt wo es ihm besser geht,
+      wünscht er sich nur eines – einmal ins Legoland zu fahren und im Lego
+      Hotel zu übernachten.
+    donationGoal: "1900"
+  - slug: prinzessin1
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin2
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin3
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin4
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: youtuberin1
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "500"
+  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    slug: youtuberin2
+    childname: Wunschkind
+    donationGoal: "500"
+  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    slug: youtuberin3
+    childname: Wunschkind
+    donationGoal: "500"
+  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    slug: youtuberin4
+    childname: Wunschkind
+    donationGoal: "500"
+  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    slug: youtuberin5
+    childname: Wunschkind
+    donationGoal: "500"
+  - slug: harrypotter1
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    childname: Wunschkind
+    tagline: Eine Reise zu den Harry Potter Studios
+    donationGoal: "1000"
+  - slug: gamingpc1
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: lucas-cl
+    tagline: Lucas will Real Madrid in der Champions League sehen
+    childname: Lucas
+    descripion: "Lucas ist 19 Jahre alt und hat einen Gehirntumor. Sein großer
+      Herzenswunsch war es, ein Fußballspiel seines Lieblingsclubs Real Madrid
+      live bei einem Achtelfinalspiel in der Königsklasse der europäischen
+      Vereinsmannschaften, der Champions League, miterleben zu können.   Lucas
+      bezeichnet sich selbst als absolut fußballverrückt, spielte 10 Jahre lang
+      in seinem örtlichen Verein, bis er leider aufgrund seiner Erkrankung,
+      einem Gehirntumor, das Training beenden musste. Spieler wie Ronaldo,
+      Benzema, Vinicius Junior und Alaba imponieren ihm ganz besonders. (Der
+      Wunsch wurde von Make-A-Wish bereits erfüllt, aber noch nicht
+      finanziert.)  Am 15.3.2023 fand das Spiel Real Madrid gegen Liverpool im
+      berühmten Estadio Santiago Bernabèu in Madrid statt – ein Garant für
+      unglaubliche Fanstimmung im Heimatland.   Gerne wollte er dieses besondere
+      Erlebnis mit seiner Familie teilen. Da das elektronische Champions League
+      Ticket nicht ganz so imposant wirkte, gestalteten wir ihm noch einen
+      Champions League VIP Batch, den wir ihm gemeinsam mit ein paar Make-A-Wish
+      Goodies, einem Real Madrid Fan Package und einem Reiseführer für Madrid,
+      überreichten.  Nach einem ausgiebigen Bummel durch Madrid und die Parks
+      und Tapasbars, wartete am zweiten Tag seiner Reise das Highlight auf ihn:
+      Schon Stunden vor dem Anpfiff wurde Lucas und seine Familie von Alvarò,
+      unserem Make-A-Wish Host in Madrid, ins Stadion begleitet. Dort wartete
+      noch eine große Überraschung auf ihn: er bekam Zutritt zum Champions Club,
+      dem VIP Bereich im Stadion.  Bei Livemusik und Gourmetcatering konnten sie
+      sich auf das Spiel im neu eröffneten Stadion einstimmen. Nicht nur die
+      Begrüßung war VIP, auch die Sitzplätze waren genial. Denn von der achten
+      Reihe am Spielfeldrand konnte Lucas seine Mannschaft schon beim Aufwärmen
+      hautnah miterleben und die Anweisungen des Trainers belauschen. Aus dieser
+      einzigartigen Perspektive fieberten Lucas und seine Familie mit ihrem
+      Verein mit - und die Real Fans sorgten mit ihren Fangesängen für brodelnde
+      Stimmung. Unvergessliche Momente - Mit einem Sieg für Real! "
+    donationGoal: "3600"
+  - slug: lena-meer
+    tagline: "Mein Traum soll in Erfüllung gehen: Urlaub am Meer"
+    childname: Lena
+    descripion: "Lena hatte bei ihrem letzten Krankenhausaufenthalt immer wieder
+      diesen wunderschönen Traum: Sie war mit ihrer Familie am Meer und alles
+      war gut.   Im wahren Leben ist das leider nicht so. Denn das kleine
+      Mädchen ist an Leukämie erkrankt und muss immer wieder Zeit im Spital
+      verbringen.  Trotz ihrer Erkrankung macht Lena gerne das, was auch andere
+      6-jährige lieben: Zum Beispiel zu rutschen – am besten ins Wasser! Ihr
+      ganzer Stolz ist eine besondere Barbie, die im Wasser ihre Farbe ändert.
+      Die muss natürlich mit, wenn ihr Herzenswunsch erfüllt wird!  Denn Lena
+      wünscht sich Urlaub mit Mama, Papa und ihrer Schwester irgendwo am Meer,
+      „wo es Palmen gibt, eine kuschelige Decke zum Schlafen und eine Rutsche“!
+      Lena und ihre Familie werden alle zum ersten Mal fliegen und unser
+      Wunschkind freut sich schon sehr darauf, im Flugzeug zu sitzen."
+    donationGoal: "6900"
+  - slug: jayden-ps5
+    tagline: Ich wünsche mir eine Gaming-Ecke mit PS5
+    childname: Jayden
+    descripion: Unser neues Wunschkind ist ein wahrer Kämpfer! Nach der Diagnose
+      eines unglaublich aggressiven Tumors musste er sehr starke Chemo über sich
+      ergehen lassen, die einen Herzstillstand verursachte, sodass Jayden
+      zweimal reanimiert werden musste und 5 Tage lang im Koma lag. Es folgten
+      18 kräftezehrende Monate in der Klinik mit weiteren Chemoblöcken und
+      Bestrahlungen. Aber Jayden hat es geschafft und ist wieder gesund. Heute
+      muss er zwar noch zur regelmäßigen Kontrolle, ist aber in der
+      Erhaltungstherapie. Während der unzähligen Therapien war Jayden häufig
+      alleine im Krankenhaus, umso größer ist sein Wunsch jetzt, wieder mit
+      seinen Freunden und Cousins spielen zu können und daher wünscht er sich
+      eine PS5 inkl. toller Gaming-Ecke zum Zocken.
+    donationGoal: "1600"
+  - slug: salar-ipad
+    childname: Salar
+    tagline: Ein iPad Pro für Salar
+    descripion: Salar ist 11 Jahre alt und lebt mit chronische GvHD. Er hat schon
+      einiges durchmachen müssen und ist gerade auf dem Weg der Erholung. Durch
+      lange Krankenhausaufenthalte, bedingt durch die
+      Stammzellentransplantation, hatte Salar wenig Kontakt zu seinen Freunden
+      aus der Schule. Sein größter Wunsch ist daher ein IPad Pro 11, damit er
+      mit seinen Freunden Facetimen, texten und spielen kann.
+    donationGoal: "1800"
+  - slug: a-tropicalisland
+    tagline: Ich wünsche mir einen Ausflug ins Tropical Island
+    childname: A.
+    descripion: Unser Wunschkind A. ist so stolz darauf, dass er die Leukämie
+      besiegt hat! A liebt schwimmen, tauchen und vor allem rutschen, deswegen
+      stand sein Wunsch auch schnell fest - Ein Ausflug ins Tropical Island!
+      Natürlich soll auch seine Familie dabei sein und A. freut sich schon
+      darauf, alle Rutschen zu testen und mit seinem Bruder um die Wette zu
+      rutschen.
+    donationGoal: "1900"
+  - slug: legoland5
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland6
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland7
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: harrypotter2
+    tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: gamingpc2
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: legoland8
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin5
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin6
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: zimmereinrichtung1
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc

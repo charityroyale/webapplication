@@ -7,7 +7,7 @@ import UpcomingStream from './UpcomingStream'
 import { Text } from '../../components/Text'
 import { styled } from 'styled-components'
 import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../../dto/MakeAWishDTOs'
-import { isDuoStreamer, sortByDateString } from '../../../utils/commonUtils'
+import { sortByDateString } from '../../../utils/commonUtils'
 import { CmsSchedulesType } from '../../../(site)/page'
 import {
 	StyleUpcomingStreamsHeader,
@@ -19,6 +19,7 @@ import {
 } from '../../../../styles/common.styles'
 import { LiveChannels } from './LiveChannels'
 import { useLiveChannels } from '../../../hooks/useLiveChannels'
+import { isMultiStream } from '../../../utils/streamerUtils'
 
 interface StreamScheduleProps {
 	schedules: CmsSchedulesType
@@ -37,7 +38,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 			// calc donation progress
 			if (mawStreamerData && rootLevelWishesForStreamer[0] && mawStreamerData.wishes && stream.wishes[0]) {
 				// whitelist of accumulated total donations per project
-				if (isDuoStreamer(stream.streamerChannel)) {
+				if (isMultiStream(stream.streamerChannel)) {
 					// total sum of donations for a wish
 					donationProgess = calcDonationProgressOfWishArray(rootLevelWishesForStreamer).toString()
 					// streamer specific accumulated donations
