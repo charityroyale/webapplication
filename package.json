@@ -23,13 +23,13 @@
 		"react-loading-skeleton": "^3.3.1",
 		"react-markdown": "^8.0.7",
 		"styled-components": "^6.0.1",
-		"swr": "^2.1.5",
-		"universal-cookie": "^4.0.4"
+		"swr": "^2.1.5"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.12.9",
 		"@babel/preset-react": "^7.12.7",
 		"@next/eslint-plugin-next": "^13.4.3",
+		"@types/gtag.js": "^0.0.17",
 		"@types/node": "^20.2.3",
 		"@types/react": "^18.2.8",
 		"@typescript-eslint/eslint-plugin": "^5.60.1",

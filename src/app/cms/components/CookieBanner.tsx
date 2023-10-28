@@ -1,12 +1,9 @@
 'use client'
-import React, { useCallback, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
-import Cookies from 'universal-cookie'
 import { Text } from './Text'
 import { styled } from 'styled-components'
-
-const cookies = new Cookies()
-const gaDisableCookieName = `ga-disable-G-2LB5JE6MLN`
+import { getLocalStorage, setLocalStorage } from '../../lib/storageHelper'
 
 const CookieWrapper = styled.div`
 	color: white;
@@ -73,36 +70,36 @@ const CookieButtonWrapper = styled.div`
 `
 
 const CookieBanner: React.FunctionComponent = () => {
-	const [gaDisabled, setGaDisabled] = useState(cookies.get(gaDisableCookieName))
-	const [isMounted, setIsMounted] = useState(false)
-	const disable = useCallback(() => {
-		setGaDisabled(true)
-		cookies.set(gaDisableCookieName, true, { path: '/', maxAge: 2147483647 })
-	}, [])
-
-	const enable = useCallback(() => {
-		setGaDisabled(false)
-		cookies.set(gaDisableCookieName, false, { path: '/', maxAge: 2147483647 })
-	}, [])
+	const [cookieConsent, setCookieConsent] = useState<null | boolean>(false)
 
 	useEffect(() => {
-		;(window as unknown as { [key: string]: boolean })[gaDisableCookieName] = gaDisabled
-	}, [gaDisabled])
+		const storedCookieConsent = getLocalStorage('cookie_consent', null)
+
+		setCookieConsent(storedCookieConsent)
+	}, [setCookieConsent])
 
 	useEffect(() => {
-		setIsMounted(true)
-	}, [])
+		const newValue = cookieConsent ? 'granted' : 'denied'
+		window.gtag('consent', 'update', {
+			ad_storage: newValue,
+			analytics_storage: newValue,
+			functionality_storage: newValue,
+			personalization_storage: newValue,
+			security_storage: newValue,
+		})
+		setLocalStorage('cookie_consent', cookieConsent)
+	}, [cookieConsent])
 
-	return isMounted && gaDisabled === undefined ? (
+	return cookieConsent === null ? (
 		<CookieWrapper>
 			<p>
 				<Text content="cookieDescription" />
 			</p>
 			<CookieButtonWrapper>
-				<CookieButtonLink onClick={() => disable()}>
+				<CookieButtonLink onClick={() => setCookieConsent(false)}>
 					<Text content="cookieDeclineCTA" />
 				</CookieButtonLink>
-				<CookieButton onClick={() => enable()}>
+				<CookieButton onClick={() => setCookieConsent(true)}>
 					<Text content="cookieAcceptCTA" />
 				</CookieButton>
 			</CookieButtonWrapper>
