@@ -3,7 +3,7 @@
 import React, { useEffect } from 'react'
 import { usePathname, useSearchParams } from 'next/navigation'
 import Script from 'next/script'
-import { pageview } from '../../lib/gtagHelper'
+import { trackPageView } from '../../lib/gtagHelper'
 
 /**
  * hints for access in consent mode
@@ -20,7 +20,7 @@ export default function GoogleAnalytics({ GA_MEASUREMENT_ID }: { GA_MEASUREMENT_
 	useEffect(() => {
 		const url = pathname + searchParams.toString()
 
-		pageview(GA_MEASUREMENT_ID, url)
+		trackPageView(GA_MEASUREMENT_ID, url)
 	}, [pathname, searchParams, GA_MEASUREMENT_ID])
 
 	return (

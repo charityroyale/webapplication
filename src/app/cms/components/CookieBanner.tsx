@@ -3,7 +3,8 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { Text } from './Text'
 import { styled } from 'styled-components'
-import { getLocalStorage, setLocalStorage } from '../../lib/storageHelper'
+import { GTAG_COOKIE_CONSENT, getLocalStorage, setLocalStorage } from '../../lib/storageHelper'
+import { getGtagCookieConsent, updateGtagCookieConsent } from '../../lib/gtagHelper'
 
 const CookieWrapper = styled.div`
 	color: white;
@@ -73,21 +74,13 @@ const CookieBanner: React.FunctionComponent = () => {
 	const [cookieConsent, setCookieConsent] = useState<null | boolean>(false)
 
 	useEffect(() => {
-		const storedCookieConsent = getLocalStorage('cookie_consent', null)
-
-		setCookieConsent(storedCookieConsent)
+		setCookieConsent(getLocalStorage(GTAG_COOKIE_CONSENT, null))
 	}, [setCookieConsent])
 
 	useEffect(() => {
-		const newValue = cookieConsent ? 'granted' : 'denied'
-		window.gtag('consent', 'update', {
-			ad_storage: newValue,
-			analytics_storage: newValue,
-			functionality_storage: newValue,
-			personalization_storage: newValue,
-			security_storage: newValue,
-		})
-		setLocalStorage('cookie_consent', cookieConsent)
+		const newCookieConsent = getGtagCookieConsent(cookieConsent)
+		updateGtagCookieConsent(newCookieConsent)
+		setLocalStorage(GTAG_COOKIE_CONSENT, cookieConsent)
 	}, [cookieConsent])
 
 	return cookieConsent === null ? (
