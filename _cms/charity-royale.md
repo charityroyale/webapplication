@@ -4,7 +4,7 @@ title: Charity Royale ðŸ‘‘ Der Charity-Stream Marathon von Veni und willhaben fÃ
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: stegi/e-legoland
 makeAWishProjects: []
-featuredYoutubeStream: https://www.youtube.com/embed/l4wnbzIcerE?si=4u9DxAYGW7bdxfnO
+featuredYoutubeStream: ""
 customDonationLink: ""
 upcoming:
   - date: 2023-11-01T16:00:01.887Z
