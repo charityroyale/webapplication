@@ -137,14 +137,6 @@ upcoming:
     type: community
     wishes:
       - legoland1
-  - date: 2023-11-10T10:00:42.960Z
-    streamerName: Elibold
-    streamerChannel: elibold
-    streamLink: https://www.twitch.tv/elibold
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: community
-    wishes:
-      - legoland2
   - date: 2023-11-12T09:00:59.452Z
     streamerName: SuchASebi
     streamerChannel: suchasebi
@@ -201,14 +193,6 @@ upcoming:
     type: community
     wishes:
       - youtuberin1
-  - date: 2023-11-18T16:00:17.277Z
-    streamerName: jatti4win
-    streamerChannel: jatti4win
-    streamLink: https://twitch.tv/jatti4win
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: community
-    wishes:
-      - youtuberin2
   - date: 2023-11-05T16:00:18.804Z
     streamerName: TVInvincible
     streamerChannel: tvinvincible
@@ -329,6 +313,54 @@ upcoming:
     type: community
     wishes:
       - prinzessin6
+  - date: 2023-11-18T16:00:00.000Z
+    streamerName: jatti4win & gedropptesitems
+    streamLink: https://twitch.tv/gedropptesitems_timon
+    streamerChannel: gedropptesitems_timon
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin2
+  - date: 2023-11-18T16:00:17.277Z
+    streamerName: jatti4win & gedropptesitems
+    streamerChannel: jatti4win
+    streamLink: https://twitch.tv/jatti4win
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin2
+  - date: 2023-11-10T10:00:42.960Z
+    streamerName: Elibold & chugzockt
+    streamerChannel: elibold
+    streamLink: https://www.twitch.tv/elibold
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland2
+  - date: 2023-11-10T10:00:00.000Z
+    streamerName: Elibold & chugzockt
+    streamerChannel: chugzockt
+    streamLink: https://www.twitch.tv/chugzockt
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland2
+  - date: 2023-11-20T16:00:35.498Z
+    streamerName: stephantschany
+    streamerChannel: stephantschany
+    streamLink: https://www.twitch.tv/stephantschany
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin5
+  - date: 2023-11-03T16:00:36.194Z
+    streamerName: maginy
+    streamerChannel: maginy
+    streamLink: https://www.twitch.tv/maginy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin6
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -676,14 +708,6 @@ wishes:
     slug: youtuberin4
     childname: Wunschkind
     donationGoal: "500"
-  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
-    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
-      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
-      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
-      Wunsch!
-    slug: youtuberin5
-    childname: Wunschkind
-    donationGoal: "500"
   - slug: harrypotter1
     descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
       tolles Highlight und darum einer der meistgenannten Wünsche bei
@@ -854,6 +878,22 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "1000"
+  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    slug: youtuberin5
+    childname: Wunschkind
+    donationGoal: "500"
+  - slug: youtuberin6
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
