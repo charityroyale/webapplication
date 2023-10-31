@@ -15,6 +15,14 @@ upcoming:
     type: main
     imgUrl: /uploads/charity_royale_rgb.png
     streamLink: http://twitch.tv/stegi
+  - date: 2023-11-02T16:00:18.366Z
+    streamerName: Wichtiger
+    streamerChannel: wichtiger
+    streamLink: https://www.twitch.tv/wichtiger
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - paulina-disneyland
   - date: 2023-11-03T16:00:14.139Z
     streamerName: filow
     streamerChannel: filow
@@ -71,6 +79,22 @@ upcoming:
     type: main
     wishes:
       - kerem-ps5
+  - date: 2023-11-11T16:00:41.395Z
+    streamerName: Mahluna
+    streamerChannel: mahluna
+    streamLink: http://twitch.tv/mahluna
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - s-elsa
+  - date: 2023-11-12T16:00:12.209Z
+    streamerName: DerBanko
+    streamerChannel: derbanko
+    streamLink: https://www.twitch.tv/derbanko
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - p-bauernhof
   - date: 2023-11-13T16:00:22.982Z
     streamerName: xHankyy
     streamerChannel: xhankyy
@@ -387,30 +411,6 @@ upcoming:
     type: community
     wishes:
       - youtuberin6
-  - date: 2023-11-11T16:00:41.395Z
-    streamerName: Mahluna
-    streamerChannel: mahluna
-    streamLink: http://twitch.tv/mahluna
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - s-elsa
-  - date: 2023-11-02T16:00:18.366Z
-    streamerName: Wichtiger
-    streamerChannel: wichtiger
-    streamLink: https://www.twitch.tv/wichtiger
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - paulina-disneyland
-  - date: 2023-11-11T16:00:18.938Z
-    streamerName: Mahluna
-    streamerChannel: mahluna
-    streamLink: http://twitch.tv/mahluna
-    imgUrl: /uploads/charity_royale_rgb.png
-    wishes:
-      - s-elsa
-    type: main
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -1123,6 +1123,15 @@ wishes:
       wird, und eine Erinnerung, die sie für immer im Herzen tragen wird."
     childname: Ilayda
     donationGoal: "4000"
+  - slug: p-bauernhof
+    tagline: Ein Ausflug auf den Bauernhof
+    childname: P.
+    descripion: "Nach der jahrelangen, harten Therapie hat sich P. von uns eine
+      unbeschwerte Auszeit gewünscht. Da P. Tiere liebt und gerne draußen
+      unterwegs ist, würde er zu gerne mal sehen, wie es auf einem richtigen
+      Bauernhof zu geht – mit allem, was dazu gehört: Tiere füttern, Traktor
+      fahren, Stall ausmisten, etc."
+    donationGoal: "2600"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
