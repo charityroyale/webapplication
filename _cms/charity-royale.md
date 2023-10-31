@@ -31,6 +31,14 @@ upcoming:
     type: main
     wishes:
       - bernhard-teneriffa
+  - date: 2023-11-05T16:00:20.571Z
+    streamerName: Tolkin
+    streamerChannel: tolkin
+    streamLink: https://www.twitch.tv/tolkin
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - sultan-zimmereinrichtung
   - date: 2023-11-06T16:00:47.952Z
     streamerName: stev0rr
     streamerChannel: stev0rr
@@ -104,6 +112,14 @@ upcoming:
     wishes:
       - j-tokyo
       - maximilian-spielturm
+  - date: 2023-11-20T16:00:20.085Z
+    streamerName: rewinside
+    streamerChannel: rewinside
+    streamLink: https://www.twitch.tv/rewinside
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - frida-hochbett
   - date: 2023-11-21T16:00:03.973Z
     streamerName: BastiGHG
     streamerChannel: bastighg
@@ -361,22 +377,24 @@ upcoming:
     type: community
     wishes:
       - youtuberin6
-  - date: 2023-11-20T16:00:20.085Z
-    streamerName: rewinside
-    streamerChannel: rewinside
-    streamLink: https://www.twitch.tv/rewinside
+  - date: 2023-11-15T16:00:40.616Z
+    streamerName: Papaplatte
+    streamerChannel: papaplatte
+    streamLink: http://twitch.tv/papaplatte
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - frida-hochbett
-  - date: 2023-11-05T16:00:20.571Z
-    streamerName: Tolkin
-    streamerChannel: tolkin
-    streamLink: https://www.twitch.tv/tolkin
+      - anastasia-newyork
+      - k-gamingstation
+      - e-fahrradanhaenger
+  - date: 2023-11-11T16:00:41.395Z
+    streamerName: Mahluna
+    streamerChannel: mahluna
+    streamLink: http://twitch.tv/mahluna
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - sultan-zimmereinrichtung
+      - s-elsa
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -932,6 +950,64 @@ wishes:
       Hochbett klettert. Mit einer normalen Treppe wird die Unfallgefahr
       minimiert und Fridas Traum vom Hochbett kann wahr werden.
     donationGoal: "2700"
+  - slug: anastasia-newyork
+    tagline: Eine Reise nach New York
+    childname: Anastasia
+    descripion: 'Anastasia ist 22 Jahre alt. Weshalb sie trotzdem einen
+      Herzenswunsch erfüllt bekommen soll? Weil sie sich schon vor Corona bei
+      uns gemeldet hat und dann kam die Pandemie und damit ein Stop für ihre
+      Wunscherfüllung.   Die junge Frau lebt mit einem Keimzelltumor. Bei allem
+      Negativen, das diese Erkrankung mit sich bringt, hat diese Anastasia auch
+      Wertvolles gelehrt: Zum Beispiel, was wirklich wichtig ist im Leben. “Es
+      sind nicht die materiellen Dinge, sondern die Erlebnisse und Erfahrungen,
+      die man im Leben macht”, weiß Anastasia. “Ich möchte viel erleben und
+      entdecken, damit ich später mal sagen kann: Ich habe im Leben nichts
+      verpasst."   Und hier fügt sich Anastasias Herzenswunsch wie von selbst
+      ein. Denn sie möchte unbedingt mit ihrer Cousine New York entdecken. Wenn
+      sie an die Erfüllung ihres Herzenswunsches denkt, hört sie Alicia Keys
+      Song “Empire State of Mind” - passender geht’s nicht, oder?'
+    donationGoal: "6000"
+  - slug: p-snoezel
+    tagline: Eine Snoezel-Ecke für P.
+    childname: P.
+    descripion: P. ist 13 Jahre alt und lebt mit dem seltenen FOXG1 Syndrom, eine
+      sehr seltene Mutation des FOXG1 Gens welches die Entwicklung und Funktion
+      des Gehirns stört. P. liebt es Musik zu hören und Lichtspiele zu
+      beobachten, denn dabei kann er so richtig entspannen. Daher möchten wir
+      ihm eine vielseitige Entspannungs- und Kuschelecke in seinem Zimmer
+      einrichten.
+    donationGoal: "2700"
+  - slug: s-elsa
+    tagline: Ich will einen Tag "Elsa" sein
+    childname: S.
+    descripion: S. ist 4 Jahre alt und hat Leukämie. Während ihrer
+      Krankenhausaufenthalte hat sie häufig die Frozen Filme geschaut und
+      wünscht sich daher selbst gerne einmal Elsa zu sein. Ihre kleine Schwester
+      soll Anna sein und gemeinsam wollen sie zu „Let it go“ einen
+      Olaf-Schneemann bauen. Für ihr perfektes Elsa Abenteuer darf natürlich ein
+      Schloss nicht fehlen und natürlich brauchen beide Schwestern ein
+      Prinzessinnen Glitzerkleid!
+    donationGoal: "2500"
+  - slug: k-gamingstation
+    tagline: Eine Gaming-Station für K.
+    childname: K.
+    descripion: K. ist 7 Jahre alt und lebt mit Leukämie. Durch zahlreiche
+      Operationen und Krankenhausaufenthalte konnte K. natürlich auch die Schule
+      nicht besuchen. Sein größter Wunsch? Ein PC, den er sowohl für die Schule
+      als auch für’s Gaming mit seinen Freunden nutzen kann. Am liebsten spielt
+      K. Autorennen und Minecraft.
+    donationGoal: "4300"
+  - slug: e-fahrradanhaenger
+    tagline: Ein Fahrradanhänger für E.
+    childname: E.
+    descripion: Unser Wunschkind E. ist 4 Jahre alt und lebt mit dem CDG-Syndrom Typ
+      1A, einer neurologischen Erkrankung. Er liebt Bobo Siebenschläfer, wenn er
+      auf seiner Tonie Box Geschichten von Bobo hört, ist er ganz darin
+      versunken. Vor kurzem hat er aber auch das Trommeln für sich entdeckt und
+      übt fleißig mit seinen beiden größeren Brüdern. 🥁 E.s Familie wünscht
+      sich einen Fahrradanhänger, damit die Familie gemeinsame Ausflüge machen
+      kann und damit er künftig mit dem Fahrrad in den Kindergarten fahren kann.
+    donationGoal: "2100"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
