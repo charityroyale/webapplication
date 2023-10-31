@@ -395,6 +395,22 @@ upcoming:
     type: main
     wishes:
       - s-elsa
+  - date: 2023-11-02T16:00:18.366Z
+    streamerName: Wichtiger
+    streamerChannel: wichtiger
+    streamLink: https://www.twitch.tv/wichtiger
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - paulina-disneyland
+  - date: 2023-11-11T16:00:18.938Z
+    streamerName: Mahluna
+    streamerChannel: mahluna
+    streamLink: http://twitch.tv/mahluna
+    imgUrl: /uploads/charity_royale_rgb.png
+    wishes:
+      - s-elsa
+    type: main
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
