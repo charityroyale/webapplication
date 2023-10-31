@@ -79,6 +79,16 @@ upcoming:
     type: main
     wishes:
       - i-ps5
+  - date: 2023-11-14T16:00:40.616Z
+    streamerName: Papaplatte
+    streamerChannel: papaplatte
+    streamLink: http://twitch.tv/papaplatte
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - anastasia-newyork
+      - k-gamingstation
+      - e-fahrradanhaenger
   - date: 2023-11-15T16:00:06.220Z
     streamerName: RvNxMango
     streamerChannel: rvnxmango
@@ -377,16 +387,6 @@ upcoming:
     type: community
     wishes:
       - youtuberin6
-  - date: 2023-11-14T16:00:40.616Z
-    streamerName: Papaplatte
-    streamerChannel: papaplatte
-    streamLink: http://twitch.tv/papaplatte
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - anastasia-newyork
-      - k-gamingstation
-      - e-fahrradanhaenger
   - date: 2023-11-11T16:00:41.395Z
     streamerName: Mahluna
     streamerChannel: mahluna
@@ -1008,6 +1008,52 @@ wishes:
       sich einen Fahrradanhänger, damit die Familie gemeinsame Ausflüge machen
       kann und damit er künftig mit dem Fahrrad in den Kindergarten fahren kann.
     donationGoal: "2100"
+  - slug: nikita-gamingzubehoer
+    tagline: Ein Gaming-Stuhl und mehr
+    childname: Nikita
+    descripion: "Nikita ist ein 16-jähriger, schüchterner junger Mann, der
+      wahnsinnig gerne Videospiele spielt. Im echten Leben kämpft er mit einem
+      bösartigen Nierentumor, auch Willmstumor genannt   Dieser Tumor macht es
+      ihm schwer, lange zu sitzen, da er starke Rückenschmerzen auslöst.  (Der
+      Wunsch wurde von Make-A-Wish bereits erfüllt, aber noch nicht
+      finanziert.)  Nikitas größter Wunsch war es, einen ergonomischen
+      Gamingstuhl zu bekommen, um in die Welt der Videospiele eintauchen zu
+      können, ohne dass ihm sein Rücken zu sehr quält. Er konnte seinen Augen
+      kaum trauen, als das Make-A-Wish Team ihm seinen Traum eines Gaming-Stuhls
+      erfüllte. Obendrauf gab es außerdem ein Headset und LED-Leisten für seinen
+      Schreibtisch. Was für ein Tag! "
+    donationGoal: "400"
+  - slug: paulina-disneyland
+    tagline: Paulina will ins Disneyland
+    childname: Paulina
+    descripion: "Paulina wirkt wie eine ganz normale 10-jährige: Sie liebt Olaf, den
+      Schneemann von Disneys „Eiskönigin Elsa“, die Serie „Topmodel“ und
+      Schnitzel. Trotzdem ist sie keine gewöhnliche 10-jährige, denn sie ist an
+      Leukämie erkrankt.   Das tapfere Mädchen hat einen großen Herzenswunsch:
+      Sie möchte unbedingt mit ihrer Familie ins Disneyland fahren, um das
+      sagenhafte Feuerwerk und diesen Ort, mit all seiner Magie, live zu
+      erleben. Sie freut sich auch schon ganz besonders darauf, in einem der
+      tollen Hotels im Disneyland zu übernachten, wo sie schon beim Frühstück
+      die ersten Disney-Figuren begrüßen und auch die Pancakes Mickey Mouse
+      Ohren haben. "
+    donationGoal: "3600"
+  - slug: h-ipad
+    tagline: Ein iPad für H.
+    childname: H.
+    descripion: H. hatte zu Beginn seiner Krankheit ein iPad von der Schule geliehen
+      bekommen. Doch aufgrund der langen Krankheitsdauer musste der 11-jährige,
+      der an einem Gehirntumor leidet, das so sehr geliebte Tablet zurückgeben,
+      was ihn sehr traurig machte. Das iPad war für ihn nicht nur irgendein
+      Zeitvertreib, sondern eine wirklich wichtige Quelle der Freude, denn die
+      Spiele und Videos ließen H. ein wenig seine Situation vergessen.  (Der
+      Wunsch wurde von Make-A-Wish bereits erfüllt, aber noch nicht finanziert.)
+      Aufgrund seines schwachen Zustands wurde die Wunscherfüllung telefonisch
+      mit seinem Vater geplant, und das mobile Kinderteam überreichte ihm das
+      iPad am nächsten Tag persönlich. Obwohl H. sehr viel schläft, war er bei
+      der Übergabe wach und strahlte vor Freude über sein Geschenk. Trotz der
+      Schwere seiner Situation konnte ihm die Wunscherfüllung ein Lächeln auf
+      das Gesicht zaubern und Momente der Freude schenken.
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
