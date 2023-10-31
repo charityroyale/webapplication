@@ -361,6 +361,22 @@ upcoming:
     type: community
     wishes:
       - youtuberin6
+  - date: 2023-11-20T16:00:20.085Z
+    streamerName: rewinside
+    streamerChannel: rewinside
+    streamLink: https://www.twitch.tv/rewinside
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - frida-hochbett
+  - date: 2023-11-05T16:00:20.571Z
+    streamerName: Tolkin
+    streamerChannel: tolkin
+    streamLink: https://www.twitch.tv/tolkin
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - sultan-zimmereinrichtung
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -894,6 +910,28 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "500"
+  - slug: sultan-zimmereinrichtung
+    tagline: Eine neue Zimmereinrichtung für Sultan
+    childname: Sultan
+    descripion: "Sultan ist eine zielstrebige 12-jährige, die an der
+      Schmetterlingskrankheit leidet, und genau weiß, was sie will: Sie liebt
+      beispielsweise die Farben Türkis, im Sport favorisiert sie Schwimmen und
+      sie möchte Rechtsanwältin werden. Und weil sie eben genau weiß, was sie
+      will, weiß sie auch, dass sie sich ihr Zimmer ganz anders vorstellt. So
+      ist ihr großer Wunsch, eine neue Zimmereinrichtung mit einer großen
+      Hängeschaukel, in der sie gemütlich chillen kann."
+    donationGoal: "2400"
+  - slug: frida-hochbett
+    tagline: Ein Hochbett für Frida
+    childname: Frida
+    descripion: Frida musste aufgrund ihrer Krankheit oft und lange im Krankenhaus
+      sein. Momentan ist sie zuhause, um sich zu erholen und neue Kraft zu
+      tanken. Frida wünscht sich nichts sehnlicher als ein Hochbett, mit
+      Kuschelhöhle. Normalerweise wäre es aufgrund der blutverdünnenden
+      Medikamente zu gefährlich, dass Frida mit einer normalen Treppe in ihr
+      Hochbett klettert. Mit einer normalen Treppe wird die Unfallgefahr
+      minimiert und Fridas Traum vom Hochbett kann wahr werden.
+    donationGoal: "2700"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
