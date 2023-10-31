@@ -4,7 +4,7 @@ title: Charity Royale ðŸ‘‘ Der Charity-Stream Marathon von Veni und willhaben fÃ
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: stegi/e-legoland
 makeAWishProjects: []
-featuredYoutubeStream: https://www.youtube.com/embed/vU2ptSb66FE?si=ow0bnhEKXwf61JQC
+featuredYoutubeStream: ""
 customDonationLink: ""
 upcoming:
   - date: 2023-11-01T16:00:01.887Z
@@ -15,14 +15,6 @@ upcoming:
     type: main
     imgUrl: /uploads/charity_royale_rgb.png
     streamLink: http://twitch.tv/stegi
-  - date: 2023-11-02T16:00:15.725Z
-    streamerName: Sintica
-    streamerChannel: sintica
-    streamLink: http://twitch.tv/Sintica
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - a-gamingecke
   - date: 2023-11-03T16:00:14.139Z
     streamerName: filow
     streamerChannel: filow
@@ -87,6 +79,14 @@ upcoming:
     type: main
     wishes:
       - jayden-ps5
+  - date: 2023-11-16T16:00:15.725Z
+    streamerName: Sintica
+    streamerChannel: sintica
+    streamLink: http://twitch.tv/Sintica
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - a-gamingecke
   - date: 2023-11-17T16:00:19.324Z
     streamerName: Veyla
     streamerChannel: veyla
