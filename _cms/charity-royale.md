@@ -377,7 +377,7 @@ upcoming:
     type: community
     wishes:
       - youtuberin6
-  - date: 2023-11-15T16:00:40.616Z
+  - date: 2023-11-14T16:00:40.616Z
     streamerName: Papaplatte
     streamerChannel: papaplatte
     streamLink: http://twitch.tv/papaplatte
