@@ -1054,6 +1054,59 @@ wishes:
       Schwere seiner Situation konnte ihm die Wunscherfüllung ein Lächeln auf
       das Gesicht zaubern und Momente der Freude schenken.
     donationGoal: "500"
+  - slug: w-zimmereinrichtung
+    donationGoal: "4000"
+    childname: W.
+    tagline: Eine neue Zimmereinrichtung für W.
+    descripion: "W. ist ein 6-Jähriger mit großer Leidenschaft für Lego und einer
+      Faszination für Flugzeuge. Seine Geschichte zeigt uns, wie ein kleiner
+      Junge trotz großer Herausforderungen an seinen Träumen festhält, auch wenn
+      er die Folgen einer Quecksilbervergiftung tragen muss.  Doch trotz all
+      dem, was sein Gesundheitszustand mit sich bringt, hat W. einen
+      Herzenswunsch: Er träumt von einer neuen Zimmereinrichtung, die sein
+      kleines Reich in ein Paradies verwandeln soll. Ein blau gestaltetes
+      Stockbett, ein kleiner Tisch und ein Schrank, alles inspiriert von Paw
+      Patrol, seinen großen Helden.  Vielleicht zeigt seine Liebe zu Paw Patrol,
+      dass er sich nach Geborgenheit sehnt, nach einem Ort, an dem er sich
+      sicher und beschützt fühlen kann.   Für W. ist es auf alle Fälle mehr als
+      nur eine Zimmereinrichtung - es ist ein Stückchen Glück und Normalität
+      inmitten eines herausfordernden Weges."
+  - slug: ammar-real
+    donationGoal: "3900"
+    tagline: Real Madrid live erleben
+    childname: Ammar
+    descripion: "Mit gerade einmal acht Jahren trägt Ammar die Last einer
+      Stoffwechselerkrankung (Glykogenose Typ 1B), doch das hält ihn nicht davon
+      ab, das Leben eines ganz normalen Jungen so weit wie möglich zu
+      leben.   Er liebt es, Fußball zu spielen, und auch sein Herzenswunsch
+      dreht sich um das runde Leder: Er träumt davon, ein Spiel von Real Madrid
+      in ihrem beeindruckenden Stadion zu erleben und seine Lieblingsfußballer
+      live in Aktion zu sehen.  Ammar hat uns auch verraten, dass seine
+      Lieblingsspeisen, die seine Mama für ihn zubereitet, Brokkoli- und
+      Nudelsuppe sind. 🙂  In der Schule freut er sich besonders, wenn Sport und
+      Mathe auf dem Stundenplan stehen. Hier kann er sich austoben und seine
+      mathematischen Talente zeigen. Diese kleinen Momente der Freude machen
+      sein Leben bunt und lebenswert."
+  - slug: ilayda-london
+    tagline: Ilayda will London sehen
+    descripion: "Ilayda ist ein lebensfroher Teenager,  der gerne mit ihren Freunden
+      ausgeht, shoppt, ins Kino geht oder einfach nur Netflix schaut. Mit ihren
+      17 Jahren steht sie mitten im Leben, aber sie hat auch eine
+      Herausforderung zu meistern: Spinaler Muskelatrophie. Diese
+      fortschreitende neuromuskuläre Erkrankung mag ihr Leben zwar einschränken,
+      doch Ilayda ist entschlossen, ihre Leidenschaft für das Kennenlernen
+      fremder Kulturen und die Erkundung der Welt nicht aufzugeben. Deshalb hat
+      sie einen besonderen Wunsch - eine Reise nach London, um in diese
+      pulsierende Metropole einzutauchen und die Harry Potter Studios zu
+      besuchen.  Schon allein der Flug wird für Ilayda ein unvergessliches
+      Abenteuer sein, und sie kann es kaum erwarten, viele neue Menschen
+      kennenzulernen und das aufregende Großstadtflair von London zu erleben.
+      Diese Reise wird nicht nur ihre Reiselust stillen, sondern auch ihre
+      Lebensfreude und ihren Entdeckergeist auf ganz neue Höhen heben. London,
+      Harry Potter und das Flair der Großstadt - ein Traum, der für Ilayda wahr
+      wird, und eine Erinnerung, die sie für immer im Herzen tragen wird."
+    childname: Ilayda
+    donationGoal: "4000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
