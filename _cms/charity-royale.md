@@ -411,6 +411,22 @@ upcoming:
     type: community
     wishes:
       - youtuberin6
+  - date: 2023-11-05T16:00:39.914Z
+    streamerName: chef_jan
+    streamerChannel: chef_jan
+    streamLink: https://www.twitch.tv/chef_jan
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin7
+  - date: 2023-11-18T16:00:40.444Z
+    streamerName: zorrolp20
+    streamerChannel: zorrolp20
+    streamLink: https://www.twitch.tv/zorrolp20
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin7
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -750,14 +766,6 @@ wishes:
     slug: youtuberin3
     childname: Wunschkind
     donationGoal: "500"
-  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
-    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
-      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
-      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
-      Wunsch!
-    slug: youtuberin4
-    childname: Wunschkind
-    donationGoal: "500"
   - slug: harrypotter1
     descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
       tolles Highlight und darum einer der meistgenannten Wünsche bei
@@ -905,14 +913,6 @@ wishes:
       diesen Wunsch!
     donationGoal: "500"
   - slug: prinzessin5
-    tagline: Einen Tag lang Prinzessin sein
-    childname: Wunschkind
-    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
-    donationGoal: "500"
-  - slug: prinzessin6
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
     descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
@@ -1158,6 +1158,38 @@ wishes:
       Wochenende am Meer verbringen und dort mit ihrer Schwester auf einem
       Sandspielplatz spielen und eine riiiesen große Sandburg bauen.
     donationGoal: "1200"
+  - tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    slug: youtuberin4
+    childname: Wunschkind
+    donationGoal: "500"
+  - slug: youtuberin7
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin6
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin7
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
