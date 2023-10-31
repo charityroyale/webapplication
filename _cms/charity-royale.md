@@ -427,6 +427,16 @@ upcoming:
     type: community
     wishes:
       - youtuberin7
+  - date: 2023-11-24T11:00:47.343Z
+    streamerName: Veni
+    streamerChannel: veni
+    streamLink: https://www.twitch.tv/veni
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - a-disneyland
+      - w-zimmereinrichtung
+      - ammar-real
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
