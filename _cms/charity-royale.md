@@ -1132,6 +1132,32 @@ wishes:
       Bauernhof zu geht – mit allem, was dazu gehört: Tiere füttern, Traktor
       fahren, Stall ausmisten, etc."
     donationGoal: "2600"
+  - slug: pauline-universalstudios
+    tagline: Ich will die Universal Studios sehen
+    childname: Pauline
+    descripion: Die 14-Jährige Pauline, träumt davon, die Universal Studios in
+      Orlando zu besuchen, und sie hat dafür viele gute Gründe! Trotz ihrer
+      Leukämie-Erkrankung möchte sie unbedingt die magische Welt hinter den
+      Kulissen ihrer Lieblingsfilme erkunden. Die atemberaubenden Fahrgeschäfte
+      begeistern sie besonders, und wir können uns nur vorstellen, wie viel Spaß
+      sie dabei haben wird.  Neben ihrer Liebe zu aufregenden Abenteuern
+      betreibt Pauline gerne Sport, spielt leidenschaftlich gerne Klavier und
+      taucht in Bücher ein. Aber eines ihrer größten Leidenschaften sind die
+      Harry Potter Romane, und deshalb kann sie es kaum erwarten, den Harry
+      Potter-Bereich in den Studios zu erkunden. Besonders der Gedanke, mit dem
+      Hogwarts Express zu fahren, lässt ihr Herz höher schlagen.
+    donationGoal: "4800"
+  - slug: sarah-wasserspielplatz
+    tagline: Ich will an einen Wasserspielplatz am Meer
+    childname: Sarah
+    descripion: Sarah (Leukämie) ist 5 Jahre alt und liebt das Meer. Bei unserem
+      Kennenlernen hat sie unseren Wunscherfüllerinnen von dem letzten Urlaub am
+      Meer erzählt und ihre Augen haben richtig geleuchtet. Zusammen mit ihrer
+      Schwester ist sie auf dem Spielplatz am liebsten im Sandkasten und baut
+      Burgen und backt Sandkuchen. Sarah möchte am liebsten ein tolles
+      Wochenende am Meer verbringen und dort mit ihrer Schwester auf einem
+      Sandspielplatz spielen und eine riiiesen große Sandburg bauen.
+    donationGoal: "1200"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
