@@ -13,6 +13,7 @@ upcoming:
     wishes:
       - e-legoland
       - youtuberin8
+      - harrypotter3
     type: main
     imgUrl: /uploads/charity_royale_rgb.png
     streamLink: http://twitch.tv/stegi
