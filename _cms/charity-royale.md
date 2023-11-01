@@ -12,6 +12,7 @@ upcoming:
     streamerChannel: stegi
     wishes:
       - e-legoland
+      - youtuberin8
     type: main
     imgUrl: /uploads/charity_royale_rgb.png
     streamLink: http://twitch.tv/stegi
