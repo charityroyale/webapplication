@@ -1218,6 +1218,13 @@ wishes:
     slug: harrypotter3
     childname: Wunschkind
     tagline: Eine Reise zu den Harry Potter Studios
+  - slug: gamingpc3
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
