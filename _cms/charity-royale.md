@@ -15,6 +15,7 @@ upcoming:
       - youtuberin8
       - harrypotter3
       - gamingpc3
+      - zimmereinrichtung2
     type: main
     imgUrl: /uploads/charity_royale_rgb.png
     streamLink: http://twitch.tv/stegi
