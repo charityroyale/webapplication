@@ -1209,6 +1209,14 @@ wishes:
       einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
+  - descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter3
+    childname: Wunschkind
+    tagline: Eine Reise zu den Harry Potter Studios
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
