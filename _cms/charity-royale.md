@@ -1245,14 +1245,6 @@ wishes:
       der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
       einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
-  - slug: zimmereinrichtung2
-    descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    tagline: Eine neue Zimmereinrichtung
-    childname: Wunschkind
-    donationGoal: "1000"
   - descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
@@ -1325,6 +1317,78 @@ wishes:
     childname: Wunschkind
     slug: gamingpc10
     donationGoal: "1000"
+  - slug: zimmereinrichtung2
+    descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    donationGoal: "1000"
+  - descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: zimmereinrichtung3
+  - descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: zimmereinrichtung4
+  - descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: zimmereinrichtung5
+  - descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: zimmereinrichtung6
+  - descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: zimmereinrichtung7
+  - descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: zimmereinrichtung8
+  - descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: zimmereinrichtung9
+  - descripion: Eine neue Zimmereinrichtung ist für viele Kinder ein großer Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: zimmereinrichtung10
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
