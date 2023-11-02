@@ -67,6 +67,22 @@ upcoming:
     type: main
     wishes:
       - p-fahrrad
+  - date: 2023-11-08T16:00:24.231Z
+    streamerName: Tjan & Fuxelbau
+    streamerChannel: tjan
+    streamLink: https://www.twitch.tv/tjan
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - sarah-wasserspielplatz
+  - date: 2023-11-08T16:00:24.694Z
+    streamerName: Tjan & Fuxelbau
+    streamerChannel: fuxelbau
+    streamLink: https://www.twitch.tv/fuxelbau
+    type: main
+    wishes:
+      - sarah-wasserspielplatz
+    imgUrl: /uploads/charity_royale_rgb.png
   - date: 2023-11-09T16:00:52.360Z
     streamerName: MrsXeniaTV
     streamerChannel: mrsxeniatv
@@ -320,22 +336,6 @@ upcoming:
     type: community
     wishes:
       - gamingpc2
-  - date: 2023-11-08T16:00:24.231Z
-    streamerName: Tjan & Fuxelbau
-    streamerChannel: tjan
-    streamLink: https://www.twitch.tv/tjan
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - sarah-wasserspielplatz
-  - date: 2023-11-08T16:00:24.694Z
-    streamerName: Tjan & Fuxelbau
-    streamerChannel: fuxelbau
-    streamLink: https://www.twitch.tv/fuxelbau
-    type: main
-    wishes:
-      - sarah-wasserspielplatz
-    imgUrl: /uploads/charity_royale_rgb.png
   - date: 2023-11-13T16:00:00.000Z
     streamerName: nooreax & Faister
     streamerChannel: faister
