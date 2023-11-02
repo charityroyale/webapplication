@@ -936,13 +936,6 @@ wishes:
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
-  - slug: gamingpc2
-    tagline: Ein neuer Gaming-PC
-    childname: Wunschkind
-    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
-      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
-      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
-    donationGoal: "1000"
   - slug: legoland8
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
@@ -1276,6 +1269,62 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "500"
+  - slug: gamingpc2
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: gamingpc4
+  - descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: gamingpc5
+  - descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: gamingpc6
+  - descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: gamingpc7
+  - descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: gamingpc8
+  - descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    donationGoal: "1000"
+    slug: gamingpc9
+  - descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    slug: gamingpc10
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
