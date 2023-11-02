@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: stegi/e-legoland
+featuredStream: wichtiger/paulina-disneyland
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -83,14 +83,15 @@ upcoming:
     type: main
     wishes:
       - kerem-ps5
-  - date: 2023-11-18T16:00:41.395Z
-    streamerName: Mahluna
-    streamerChannel: mahluna
-    streamLink: http://twitch.tv/mahluna
+  - date: 2023-11-11T16:00:46.005Z
+    streamerName: Krokoboss
+    streamerChannel: krokoboss
+    streamLink: http://twitch.tv/krokoboss
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - s-elsa
+      - nikita-gamingzubehoer
+      - h-ipad
   - date: 2023-11-12T16:00:12.209Z
     streamerName: DerBanko
     streamerChannel: derbanko
@@ -141,6 +142,14 @@ upcoming:
     type: main
     wishes:
       - lauren-europapark
+  - date: 2023-11-18T16:00:41.395Z
+    streamerName: Mahluna
+    streamerChannel: mahluna
+    streamLink: http://twitch.tv/mahluna
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - s-elsa
   - date: 2023-11-19T16:00:50.526Z
     streamerName: Dhalucard
     streamerChannel: dhalucard
