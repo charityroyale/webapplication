@@ -449,6 +449,14 @@ upcoming:
     wishes:
       - prinzessin8
     imgUrl: /uploads/charity_royale_rgb.png
+  - date: 2023-11-22T16:00:03.211Z
+    streamLink: https://www.twitch.tv/minooo99_
+    streamerChannel: minooo99_
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin9
+    streamerName: Minooo99_
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
@@ -1251,6 +1259,14 @@ wishes:
     slug: prinzessin8
     donationGoal: "500"
     tagline: Einen Tag lang Prinzessin sein
+  - slug: youtuberin9
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
