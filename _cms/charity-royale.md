@@ -83,7 +83,7 @@ upcoming:
     type: main
     wishes:
       - kerem-ps5
-  - date: 2023-11-11T16:00:41.395Z
+  - date: 2023-11-18T16:00:41.395Z
     streamerName: Mahluna
     streamerChannel: mahluna
     streamLink: http://twitch.tv/mahluna
