@@ -19,7 +19,7 @@ upcoming:
     type: main
     imgUrl: /uploads/charity_royale_rgb.png
     streamLink: http://twitch.tv/stegi
-  - date: 2023-11-02T16:00:18.366Z
+  - date: 2023-11-02T15:00:18.366Z
     streamerName: Wichtiger
     streamerChannel: wichtiger
     streamLink: https://www.twitch.tv/wichtiger
