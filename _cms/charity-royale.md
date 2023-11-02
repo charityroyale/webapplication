@@ -936,14 +936,6 @@ wishes:
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
-  - slug: legoland8
-    tagline: Eine Reise ins Legoland
-    childname: Wunschkind
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    donationGoal: "500"
   - slug: prinzessin5
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
@@ -1445,6 +1437,54 @@ wishes:
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
     slug: harrypotter10
+  - slug: legoland8
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+    slug: legoland9
+  - tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+    slug: legoland10
+  - tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+    slug: legoland11
+  - tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+    slug: legoland12
+  - tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+    slug: legoland13
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
