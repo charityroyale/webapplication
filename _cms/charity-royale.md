@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: wichtiger/paulina-disneyland
+featuredStream: stegi/e-legoland
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -316,16 +316,16 @@ upcoming:
     streamerChannel: tjan
     streamLink: https://www.twitch.tv/tjan
     imgUrl: /uploads/charity_royale_rgb.png
-    type: community
+    type: main
     wishes:
-      - harrypotter2
+      - sarah-wasserspielplatz
   - date: 2023-11-08T16:00:24.694Z
     streamerName: Tjan & Fuxelbau
     streamerChannel: fuxelbau
     streamLink: https://www.twitch.tv/fuxelbau
-    type: community
+    type: main
     wishes:
-      - harrypotter2
+      - sarah-wasserspielplatz
     imgUrl: /uploads/charity_royale_rgb.png
   - date: 2023-11-13T16:00:00.000Z
     streamerName: nooreax & Faister
