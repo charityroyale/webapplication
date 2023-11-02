@@ -1243,6 +1243,14 @@ wishes:
     tagline: Eine neue Zimmereinrichtung
     childname: Wunschkind
     donationGoal: "1000"
+  - descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    childname: Wunschkind
+    slug: prinzessin8
+    donationGoal: "500"
+    tagline: Einen Tag lang Prinzessin sein
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
