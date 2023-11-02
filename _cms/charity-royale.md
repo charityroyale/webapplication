@@ -1565,6 +1565,78 @@ wishes:
     childname: Wunschkind
     donationGoal: "500"
     slug: youtuberin14
+  - slug: disneyland1
+    tagline: Eine Reise ins Disneyland
+    childname: Wunschkind
+    donationGoal: "2000"
+    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+  - childname: Wunschkind
+    donationGoal: "2000"
+    tagline: Eine Reise ins Disneyland
+    slug: disneyland2
+    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+  - childname: Wunschkind
+    donationGoal: "2000"
+    tagline: Eine Reise ins Disneyland
+    slug: disneyland3
+    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+  - childname: Wunschkind
+    donationGoal: "2000"
+    tagline: Eine neue Gaming-Ecke
+    slug: gamingecke1
+    descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+  - childname: Wunschkind
+    donationGoal: "2000"
+    tagline: Eine neue Gaming-Ecke
+    slug: gamingecke2
+    descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+  - childname: Wunschkind
+    donationGoal: "2000"
+    tagline: Eine neue Gaming-Ecke
+    slug: gamingecke3
+    descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+  - childname: Wunschkind
+    donationGoal: "2000"
+    tagline: Ein Stelzenhaus im Garten
+    slug: stelzenhaus1
+    descripion: Ein tolles Stelzenhaus im Garten ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+  - childname: Wunschkind
+    donationGoal: "2000"
+    tagline: Ein Stelzenhaus im Garten
+    slug: stelzenhaus2
+    descripion: Ein tolles Stelzenhaus im Garten ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+  - childname: Wunschkind
+    donationGoal: "2000"
+    tagline: Ein Stelzenhaus im Garten
+    slug: stelzenhaus3
+    descripion: Ein tolles Stelzenhaus im Garten ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
