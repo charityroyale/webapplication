@@ -288,7 +288,7 @@ upcoming:
     type: community
     wishes:
       - harrypotter1
-  - date: 2023-11-04T16:00:03.010Z
+  - date: 2023-11-04T09:00:03.010Z
     streamerName: s0ulrider & xmrcr4zy
     streamerChannel: s0ulrider
     streamLink: http://twitch.tv/s0ulrider
@@ -296,7 +296,7 @@ upcoming:
     type: community
     wishes:
       - gamingpc1
-  - date: 2023-11-04T16:00:07.022Z
+  - date: 2023-11-04T09:00:07.022Z
     streamerName: s0ulrider & xmrcr4zy
     streamerChannel: xmrcr4zy
     streamLink: https://www.twitch.tv/xmrcr4zy
@@ -376,7 +376,7 @@ upcoming:
     type: community
     wishes:
       - prinzessin6
-  - date: 2023-11-18T16:00:00.000Z
+  - date: 2023-11-18T11:00:00.000Z
     streamerName: jatti4win & gedropptesitems
     streamLink: https://twitch.tv/gedropptesitems_timon
     streamerChannel: gedropptesitems_timon
@@ -384,7 +384,7 @@ upcoming:
     type: community
     wishes:
       - youtuberin2
-  - date: 2023-11-18T16:00:17.277Z
+  - date: 2023-11-18T11:00:17.277Z
     streamerName: jatti4win & gedropptesitems
     streamerChannel: jatti4win
     streamLink: https://twitch.tv/jatti4win
@@ -392,7 +392,7 @@ upcoming:
     type: community
     wishes:
       - youtuberin2
-  - date: 2023-11-10T10:00:42.960Z
+  - date: 2023-11-10T08:00:42.960Z
     streamerName: Elibold & chugzockt
     streamerChannel: elibold
     streamLink: https://www.twitch.tv/elibold
@@ -400,7 +400,7 @@ upcoming:
     type: community
     wishes:
       - legoland2
-  - date: 2023-11-10T10:00:00.000Z
+  - date: 2023-11-10T08:00:00.000Z
     streamerName: Elibold & chugzockt
     streamerChannel: chugzockt
     streamLink: https://www.twitch.tv/chugzockt
