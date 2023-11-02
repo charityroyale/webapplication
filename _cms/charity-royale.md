@@ -416,7 +416,7 @@ upcoming:
     type: community
     wishes:
       - youtuberin5
-  - date: 2023-11-03T16:00:36.194Z
+  - date: 2023-11-03T17:00:36.194Z
     streamerName: maginy
     streamerChannel: maginy
     streamLink: https://www.twitch.tv/maginy
