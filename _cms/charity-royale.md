@@ -1230,14 +1230,6 @@ wishes:
       einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
-  - descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
-      tolles Highlight und darum einer der meistgenannten Wünsche bei
-      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
-      anonym bleiben möchte, diesen Wunsch!
-    donationGoal: "1000"
-    slug: harrypotter3
-    childname: Wunschkind
-    tagline: Eine Reise zu den Harry Potter Studios
   - slug: gamingpc3
     tagline: Ein neuer Gaming-PC
     childname: Wunschkind
@@ -1389,6 +1381,70 @@ wishes:
     childname: Wunschkind
     donationGoal: "1000"
     slug: zimmereinrichtung10
+  - descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter3
+    childname: Wunschkind
+    tagline: Eine Reise zu den Harry Potter Studios
+  - tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter4
+  - tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter5
+  - tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter6
+  - tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter7
+  - tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter8
+  - tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter9
+  - tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter10
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
