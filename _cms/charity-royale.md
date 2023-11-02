@@ -441,6 +441,14 @@ upcoming:
       - a-disneyland
       - w-zimmereinrichtung
       - ammar-real
+  - date: 2023-11-16T16:00:19.243Z
+    streamerName: Lunarie & Christensen
+    streamerChannel: lunarie_ttv
+    streamLink: https://www.twitch.tv/lunarie_ttv
+    type: community
+    wishes:
+      - prinzessin8
+    imgUrl: /uploads/charity_royale_rgb.png
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
