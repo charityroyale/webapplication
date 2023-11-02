@@ -113,6 +113,7 @@ const LiveChannel = styled.div`
 const LiveChannelsWrapper = styled.div`
 	margin: auto;
 	color: white;
+	grid-area: livechannels;
 	margin: 32px 32px;
 `
 

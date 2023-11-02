@@ -17,11 +17,23 @@ const channelsParam = (streamers: CmsUpcomingStreamer[]) => {
 
 const getUpcomingStreamers = (allStreamers: CmsUpcomingStreamer[]) => {
 	const now = new Date()
-	const twentyFourHoursFromNow = new Date(now.getTime() + 24 * 60 * 60 * 1000)
+	const todayMorningZero = new Date(now)
+	todayMorningZero.setHours(0, 0, 0, 0)
+	const twentyFourHoursFromStartDate = new Date(now)
+	twentyFourHoursFromStartDate.setHours(now.getHours() + 24)
 
 	return allStreamers.filter((item) => {
-		const itemDate = new Date(item.date)
-		return itemDate >= now && itemDate <= twentyFourHoursFromNow
+		const startDate = new Date(item.date)
+
+		// Only allow the following streamers:
+		// - Start date is on the same day as today (not tomorrow)
+		// - Start date is on or after today at 0:00:00
+		// - Start date is before 24 hours from now
+		return (
+			startDate.getDate() === todayMorningZero.getDate() &&
+			startDate >= todayMorningZero &&
+			startDate < twentyFourHoursFromStartDate
+		)
 	})
 }
 
