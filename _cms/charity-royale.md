@@ -43,6 +43,8 @@ upcoming:
     type: main
     wishes:
       - bernhard-teneriffa
+      - stelzenhaus1
+      - gamingecke1
   - date: 2023-11-05T16:00:20.571Z
     streamerName: Tolkin
     streamerChannel: tolkin
