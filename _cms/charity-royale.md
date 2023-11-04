@@ -306,6 +306,7 @@ upcoming:
     type: community
     wishes:
       - gamingpc1
+      - gamingpc4
   - date: 2023-11-17T16:00:22.006Z
     streamerName: Decoded2002
     streamerChannel: decoded2002
