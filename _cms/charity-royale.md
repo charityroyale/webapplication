@@ -436,6 +436,7 @@ upcoming:
     type: community
     wishes:
       - prinzessin7
+      - disneyland1
   - date: 2023-11-18T16:00:40.444Z
     streamerName: zorrolp20
     streamerChannel: zorrolp20
