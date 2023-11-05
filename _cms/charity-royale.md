@@ -43,6 +43,7 @@ upcoming:
     type: main
     wishes:
       - sultan-zimmereinrichtung
+      - gamingecke2
   - date: 2023-11-04T16:00:05.521Z
     streamerName: CastCrafter
     streamerChannel: castcrafter
