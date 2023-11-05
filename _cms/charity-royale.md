@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: castcrafter/gamingecke1
+featuredStream: tolkin/sultan-zimmereinrichtung
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -35,6 +35,14 @@ upcoming:
     type: main
     wishes:
       - damian-pawpatrol
+  - date: 2023-11-05T16:00:20.571Z
+    streamerName: Tolkin
+    streamerChannel: tolkin
+    streamLink: https://www.twitch.tv/tolkin
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - sultan-zimmereinrichtung
   - date: 2023-11-04T16:00:05.521Z
     streamerName: CastCrafter
     streamerChannel: castcrafter
@@ -45,14 +53,6 @@ upcoming:
       - bernhard-teneriffa
       - stelzenhaus1
       - gamingecke1
-  - date: 2023-11-05T16:00:20.571Z
-    streamerName: Tolkin
-    streamerChannel: tolkin
-    streamLink: https://www.twitch.tv/tolkin
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - sultan-zimmereinrichtung
   - date: 2023-11-06T16:00:47.952Z
     streamerName: stev0rr
     streamerChannel: stev0rr
