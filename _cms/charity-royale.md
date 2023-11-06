@@ -472,7 +472,7 @@ upcoming:
       - youtuberin9
     streamerName: Minooo99_
   - date: 2023-11-11T16:00:52.044Z
-    streamerName: LeonplayerMC
+    streamerName: LeonplayerMC & spidercraft_live
     streamerChannel: leonplayermc
     streamLink: https://www.twitch.tv/LeonplayerMC
     imgUrl: /uploads/charity_royale_rgb.png
@@ -493,7 +493,7 @@ upcoming:
     type: community
     streamLink: https://www.twitch.tv/spidercraft_live
     streamerChannel: spidercraft_live
-    streamerName: spidercraft_live
+    streamerName: LeonplayerMC & spidercraft_live
     imgUrl: /uploads/charity_royale_rgb.png
 wishes:
   - slug: a-disneyland
