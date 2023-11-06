@@ -364,7 +364,7 @@ upcoming:
     type: community
     wishes:
       - prinzessin5
-  - date: 2023-11-09T16:00:48.691Z
+  - date: 2023-11-08T16:00:48.691Z
     streamerName: huytastic
     streamerChannel: huytastic
     streamLink: https://www.twitch.tv/huytastic
@@ -471,6 +471,22 @@ upcoming:
     wishes:
       - youtuberin9
     streamerName: Minooo99_
+  - date: 2023-11-06T13:15:52.044Z
+    streamerName: LeonplayerMC
+    streamerChannel: leonplayermc
+    streamLink: https://www.twitch.tv/LeonplayerMC
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - youtuberin3
+  - date: 2023-11-22T13:23:32.257Z
+    streamerName: matrixxapex
+    streamerChannel: matrixxapex
+    streamLink: https://www.twitch.tv/matrixxapex
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - legoland8
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
