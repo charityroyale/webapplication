@@ -471,7 +471,7 @@ upcoming:
     wishes:
       - youtuberin9
     streamerName: Minooo99_
-  - date: 2023-11-06T13:15:52.044Z
+  - date: 2023-11-11T13:15:52.044Z
     streamerName: LeonplayerMC
     streamerChannel: leonplayermc
     streamLink: https://www.twitch.tv/LeonplayerMC
