@@ -471,7 +471,7 @@ upcoming:
     wishes:
       - youtuberin9
     streamerName: Minooo99_
-  - date: 2023-11-11T16:00:52.044Z
+  - date: 2023-11-11T09:00:52.044Z
     streamerName: LeonplayerMC & spidercraft_live
     streamerChannel: leonplayermc
     streamLink: https://www.twitch.tv/LeonplayerMC
@@ -487,7 +487,7 @@ upcoming:
     type: community
     wishes:
       - legoland8
-  - date: 2023-11-11T16:00:00.000Z
+  - date: 2023-11-11T09:00:00.000Z
     wishes:
       - youtuberin3
     type: community
