@@ -471,7 +471,7 @@ upcoming:
     wishes:
       - youtuberin9
     streamerName: Minooo99_
-  - date: 2023-11-11T13:15:52.044Z
+  - date: 2023-11-11T16:00:52.044Z
     streamerName: LeonplayerMC
     streamerChannel: leonplayermc
     streamLink: https://www.twitch.tv/LeonplayerMC
@@ -479,7 +479,7 @@ upcoming:
     type: community
     wishes:
       - youtuberin3
-  - date: 2023-11-22T13:23:32.257Z
+  - date: 2023-11-22T16:00:32.257Z
     streamerName: matrixxapex
     streamerChannel: matrixxapex
     streamLink: https://www.twitch.tv/matrixxapex
@@ -487,6 +487,14 @@ upcoming:
     type: community
     wishes:
       - legoland8
+  - date: 2023-11-11T16:00:00.000Z
+    wishes:
+      - youtuberin3
+    type: community
+    streamLink: https://www.twitch.tv/spidercraft_live
+    streamerChannel: spidercraft_live
+    streamerName: spidercraft_live
+    imgUrl: /uploads/charity_royale_rgb.png
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
