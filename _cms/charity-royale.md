@@ -70,6 +70,7 @@ upcoming:
     type: main
     wishes:
       - p-fahrrad
+      - gamingecke3
   - date: 2023-11-08T16:00:24.231Z
     streamerName: Tjan & Fuxelbau
     streamerChannel: tjan
