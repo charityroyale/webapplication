@@ -1723,6 +1723,68 @@ wishes:
       und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
+  - slug: l-abenteuer
+    tagline: Ein Survival Abenteuer im Wald für L.
+    childname: L.
+    descripion: "L., 17, mit Medulloblastom wünscht sich ein ganz besonderes
+      Ereignis: ein Survival-Abenteuer im Wald. "
+    donationGoal: "2800"
+  - slug: julie-newyork
+    tagline: Julie will nach New York
+    childname: Julie
+    descripion: "Julie kämpft entschlossen gegen das Anaplastische Astroblastom,
+      eine Herausforderung, die das Leben eines Teenagers völlig auf den Kopf
+      stellen kann. Inmitten von Krankenhausaufenthalten, Medikamenten und
+      Rückschlägen hat sie ein großes Ziel vor Augen: New York City. Diese
+      pulsierende Metropole ist der Ort, den sie nach ihrem Therapieabschluss
+      besuchen möchte - eine Belohnung für ihre unglaubliche Stärke und
+      Entschlossenheit.  Julie hat uns nicht allzu viele Details zu ihrem
+      Herzenswunsch verraten, aber sie hat uns anvertraut, dass diese Reise
+      nicht vor Juli 2024 stattfinden soll. Denn dieser Zeitpunkt markiert einen
+      Meilenstein in ihrer Heilungsreise - das Therapieende.  Die Stadt, die
+      niemals schläft, ist wie geschaffen dafür, einen Neustart hinzulegen und
+      wir sind uns sicher, dass der Big Apple Julies Leben zum Strahlen bringen
+      wird. Mit ihrer besten Freundin an ihrer Seite wird sie die Straßen von
+      New York erkunden, Wolkenkratzer bestaunen, durch den Central Park
+      schlendern und den Broadway besuchen. Diese Reise wird nicht nur eine
+      Belohnung sein, sondern auch eine Quelle der Inspiration für Julie, die
+      zeigen wird, dass Träume wahr werden können, auch in den schwierigsten
+      Zeiten."
+    donationGoal: "5500"
+  - slug: lena-rom
+    descripion: "Lena lebt mit dem Hodgkin Lymphom, das das Leben der 15-jährigen
+      komplett auf den Kopf gestellt. Inmitten von Arztterminen, Behandlungen
+      und Herausforderungen hat sie einen sehnlichen Wunsch: eine Reise nach
+      Rom. Diese Reise wäre für Lena ein absolutes Highlight in einer
+      herausfordernden Zeit. Sie hat schon eine Liste mit all den
+      atemberaubenden Sehenswürdigkeiten in Rom erstellt, darunter neben den
+      bekannten Sehenswürdigkeiten auch die vier päpstlichen Basiliken.  Was
+      Lenas Persönlichkeit betrifft, so ist sie nicht nur eine lebensfrohe
+      Reisende, sondern auch eine leidenschaftliche Saubermacherin. Sie liebt
+      es, ihr Zimmer ordentlich und sauber zu halten, was ihr wahrscheinlich ein
+      Gefühl von Kontrolle und Geborgenheit gibt.  Die Teenagerin verbringt
+      gerne Zeit mit ihren Freundinnen, geht gerne shoppen und liebt das
+      Schulfach Deutsch. Ihr Lieblingsessen, Ihr Lieblingsessen - Spaghetti
+      Bolognese - lässt sie wahrscheinlich an ihren Herzenswunsch denken, den
+      wir ihr so gerne erfüllen würden."
+    tagline: Spaghetti Bolognese essen in Rom
+    childname: Lena
+    donationGoal: "6000"
+  - slug: sarah-strandurlaub
+    descripion: Sarah, ein 7-jähriges Mädchen, hat in ihrem jungen Leben bereits
+      viel durchgemacht. Nach einer Herztransplantation wünscht sie sich nichts
+      sehnlicher, als unbeschwerte Zeit mit ihren Eltern und Großeltern am
+      Strand zu verbringen. Ihr Wunsch ist es, in einem kleinen Hotel an einem
+      Festlandstrand zu übernachten, damit im Notfall immer ein Krankenhaus in
+      Reichweite ist.  Sarah träumt davon, Muscheln am Strand zu sammeln,
+      gemeinsam mit ihrer Familie Pizza zu essen und vielleicht sogar Delfine im
+      Meer zu erspähen. Aber das Wichtigste für sie ist, sich einfach wie ein
+      normales kleines Mädchen zu fühlen. Sie möchte das Glück und die Freude
+      eines sorgenfreien Tages am Strand erleben, genau wie jedes andere Kind in
+      ihrem Alter.
+    childname: Sarah
+    tagline: Eine unbeschwerte Zeit am Strand für Sarah
+    donationGoal: "4800"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
