@@ -496,6 +496,14 @@ upcoming:
     streamerChannel: spidercraft_live
     streamerName: LeonplayerMC & spidercraft_live
     imgUrl: /uploads/charity_royale_rgb.png
+  - date: 2023-11-14T16:00:09.192Z
+    streamerName: Kartoffel_98
+    streamerChannel: kartoffel_98
+    streamLink: https://www.twitch.tv/kartoffel_98
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin9
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
