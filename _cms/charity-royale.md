@@ -162,7 +162,7 @@ upcoming:
     type: main
     wishes:
       - lauren-europapark
-  - date: 2023-11-18T16:00:41.395Z
+  - date: 2023-11-23T16:00:41.395Z
     streamerName: Mahluna
     streamerChannel: mahluna
     streamLink: http://twitch.tv/mahluna
@@ -187,7 +187,7 @@ upcoming:
     type: main
     wishes:
       - frida-hochbett
-  - date: 2023-11-21T16:00:03.973Z
+  - date: 2023-11-18T16:00:03.973Z
     streamerName: BastiGHG
     streamerChannel: bastighg
     streamLink: http://twitch.tv/BastiGHG
@@ -204,7 +204,7 @@ upcoming:
     type: main
     wishes:
       - salar-ipad
-  - date: 2023-11-23T16:00:26.361Z
+  - date: 2023-11-21T16:00:26.361Z
     streamerName: Vlesk
     streamerChannel: vlesk
     streamLink: http://twitch.tv/Vlesk
