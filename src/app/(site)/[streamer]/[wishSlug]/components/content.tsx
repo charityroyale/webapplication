@@ -187,7 +187,7 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 						languageContext.language === 'de'
 							? makeAWishAPI.donationFormURL
 							: makeAWishAPI.donationFormEnURL
-					}${cmsStreamerSlug}/${cms.wish.slug}`}
+					}${cms.streamer.streamerChannel.toLocaleLowerCase()}/${cms.wish.slug}`}
 					title="Spendenformular"
 				/>
 			</DonationIFrameWrapper>
