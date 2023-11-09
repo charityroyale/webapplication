@@ -174,7 +174,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = tru
 					<StyledHeaderRightItem>
 						<DonationHeaderCounterAndButtonWrapper>
 							<DonationHeaderCount
-								donation_goal={100000}
+								donation_goal={130000}
 								current_donation_count={
 									makeAWishDataIsLoading || makeAWishDataIsError
 										? 0
