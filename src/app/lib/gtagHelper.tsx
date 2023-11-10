@@ -7,12 +7,14 @@ export const getGtagCookieConsent = (consent: boolean | null) => {
 }
 
 export const trackPageView = (GA_MEASUREMENT_ID: string, url: string) => {
+	if (!window.gtag) return
 	window.gtag('config', GA_MEASUREMENT_ID, {
 		page_path: url,
 	})
 }
 
 export const updateGtagCookieConsent = (cookieConsent: CookieConsent) => {
+	if (!window.gtag) return
 	window.gtag('consent', 'update', {
 		ad_storage: cookieConsent,
 		analytics_storage: cookieConsent,
