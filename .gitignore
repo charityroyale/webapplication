@@ -5,3 +5,4 @@ node_modules/
 *.ics
 .env.local
 *local
+*.env
