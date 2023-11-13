@@ -352,6 +352,7 @@ upcoming:
     wishes:
       - gamingpc2
       - gamingpc5
+      - zimmereinrichtung3
   - date: 2023-11-13T16:00:00.000Z
     streamerName: nooreax & Faister
     streamerChannel: faister
@@ -361,6 +362,7 @@ upcoming:
     wishes:
       - gamingpc2
       - gamingpc5
+      - zimmereinrichtung3
   - date: 2023-11-17T16:00:47.875Z
     streamerName: Crowie
     streamerChannel: crowie
