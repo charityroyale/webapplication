@@ -162,31 +162,6 @@ upcoming:
     type: main
     wishes:
       - lauren-europapark
-  - date: 2023-11-20T16:00:41.395Z
-    streamerName: Mahluna
-    streamerChannel: mahluna
-    streamLink: http://twitch.tv/mahluna
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - s-elsa
-  - date: 2023-11-19T16:00:50.526Z
-    streamerName: Dhalucard
-    streamerChannel: dhalucard
-    streamLink: http://twitch.tv/Dhalucard
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - j-tokyo
-      - maximilian-spielturm
-  - date: 2023-11-22T16:00:20.085Z
-    streamerName: rewinside
-    streamerChannel: rewinside
-    streamLink: https://www.twitch.tv/rewinside
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - frida-hochbett
   - date: 2023-11-18T16:00:03.973Z
     streamerName: BastiGHG
     streamerChannel: bastighg
@@ -196,14 +171,23 @@ upcoming:
     wishes:
       - lena-meer
       - lucas-cl
-  - date: 2023-11-23T16:00:26.614Z
-    streamerName: thisEguy
-    streamerChannel: thiseguy
-    streamLink: http://twitch.tv/thiseguy
+  - date: 2023-11-19T16:00:50.526Z
+    streamerName: Dhalucard
+    streamerChannel: dhalucard
+    streamLink: http://twitch.tv/Dhalucard
     imgUrl: /uploads/charity_royale_rgb.png
     type: main
     wishes:
-      - salar-ipad
+      - j-tokyo
+      - maximilian-spielturm
+  - date: 2023-11-20T16:00:41.395Z
+    streamerName: Mahluna
+    streamerChannel: mahluna
+    streamLink: http://twitch.tv/mahluna
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - s-elsa
   - date: 2023-11-21T16:00:26.361Z
     streamerName: Vlesk
     streamerChannel: vlesk
@@ -212,6 +196,32 @@ upcoming:
     type: main
     wishes:
       - a-tropicalisland
+  - date: 2023-11-22T16:00:20.085Z
+    streamerName: rewinside
+    streamerChannel: rewinside
+    streamLink: https://www.twitch.tv/rewinside
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - frida-hochbett
+  - date: 2023-11-23T16:00:26.614Z
+    streamerName: thisEguy
+    streamerChannel: thiseguy
+    streamLink: http://twitch.tv/thiseguy
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - salar-ipad
+  - date: 2023-11-24T11:00:47.343Z
+    streamerName: Veni
+    streamerChannel: veni
+    streamLink: https://www.twitch.tv/veni
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - a-disneyland
+      - w-zimmereinrichtung
+      - ammar-real
   - date: 2023-11-19T16:00:13.194Z
     streamerName: fr0zennoah
     streamerChannel: fr0zennoah
@@ -446,16 +456,6 @@ upcoming:
     type: community
     wishes:
       - youtuberin7
-  - date: 2023-11-24T11:00:47.343Z
-    streamerName: Veni
-    streamerChannel: veni
-    streamLink: https://www.twitch.tv/veni
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - a-disneyland
-      - w-zimmereinrichtung
-      - ammar-real
   - date: 2023-11-16T16:00:19.243Z
     streamerName: Lunarie & Christensen
     streamerChannel: lunarie_ttv
