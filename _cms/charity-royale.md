@@ -162,7 +162,7 @@ upcoming:
     type: main
     wishes:
       - lauren-europapark
-  - date: 2023-11-23T16:00:41.395Z
+  - date: 2023-11-20T16:00:41.395Z
     streamerName: Mahluna
     streamerChannel: mahluna
     streamLink: http://twitch.tv/mahluna
@@ -179,7 +179,7 @@ upcoming:
     wishes:
       - j-tokyo
       - maximilian-spielturm
-  - date: 2023-11-20T16:00:20.085Z
+  - date: 2023-11-22T16:00:20.085Z
     streamerName: rewinside
     streamerChannel: rewinside
     streamLink: https://www.twitch.tv/rewinside
@@ -196,7 +196,7 @@ upcoming:
     wishes:
       - lena-meer
       - lucas-cl
-  - date: 2023-11-22T16:00:26.614Z
+  - date: 2023-11-23T16:00:26.614Z
     streamerName: thisEguy
     streamerChannel: thiseguy
     streamLink: http://twitch.tv/thiseguy
