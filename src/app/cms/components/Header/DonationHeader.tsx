@@ -88,6 +88,7 @@ const DonationHeaderStreamLink = styled.div`
 const DonationPageNavigation = styled.div`
 	& > a {
 		margin-right: 8px;
+		display: inline-block;
 	}
 `
 
