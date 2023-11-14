@@ -150,6 +150,7 @@ upcoming:
       - disneyland3 stelzenhaus3
       - gamingecke5
       - disneyland3
+      - sven-iglu
   - date: 2023-11-15T16:00:06.220Z
     streamerName: RvNxMango
     streamerChannel: rvnxmango
