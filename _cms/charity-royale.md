@@ -138,6 +138,7 @@ upcoming:
       - anastasia-newyork
       - k-gamingstation
       - e-fahrradanhaenger
+      - lena-rom
   - date: 2023-11-15T16:00:06.220Z
     streamerName: RvNxMango
     streamerChannel: rvnxmango
