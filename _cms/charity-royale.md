@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: papaplatte/sven-iglu
+featuredStream: papaplatte/disneyland4
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -151,6 +151,7 @@ upcoming:
       - stelzenhaus3
       - gamingecke5
       - sven-iglu
+      - disneyland4
   - date: 2023-11-15T16:00:06.220Z
     streamerName: RvNxMango
     streamerChannel: rvnxmango
