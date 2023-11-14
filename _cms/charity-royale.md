@@ -143,6 +143,7 @@ upcoming:
       - julie-newyork
       - damian-pawpatrol
       - paulina-disneyland
+      - theresa-fische
   - date: 2023-11-15T16:00:06.220Z
     streamerName: RvNxMango
     streamerChannel: rvnxmango
