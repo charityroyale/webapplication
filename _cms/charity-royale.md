@@ -1769,9 +1769,9 @@ wishes:
       es, ihr Zimmer ordentlich und sauber zu halten, was ihr wahrscheinlich ein
       Gefühl von Kontrolle und Geborgenheit gibt.  Die Teenagerin verbringt
       gerne Zeit mit ihren Freundinnen, geht gerne shoppen und liebt das
-      Schulfach Deutsch. Ihr Lieblingsessen, Ihr Lieblingsessen - Spaghetti
-      Bolognese - lässt sie wahrscheinlich an ihren Herzenswunsch denken, den
-      wir ihr so gerne erfüllen würden."
+      Schulfach Deutsch. Ihr Lieblingsessen - Spaghetti Bolognese - lässt sie
+      wahrscheinlich an ihren Herzenswunsch denken, den wir ihr so gerne
+      erfüllen würden."
     tagline: Spaghetti Bolognese essen in Rom
     childname: Lena
     donationGoal: "6000"
