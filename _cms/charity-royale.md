@@ -1801,6 +1801,17 @@ wishes:
     childname: Sarah
     tagline: Eine unbeschwerte Zeit am Strand für Sarah
     donationGoal: "4800"
+  - slug: sven-iglu
+    childname: Sven
+    tagline: Ich wünsche mir eine Übernachtung im Iglu
+    descripion: Sven ist 17 Jahre alt und hat mehrere Tumore im Kopf und der
+      Wirbelsäule. Außerdem ist Sven seit seiner Geburt blind. In einer
+      Fernsehserie hat er eine Reportage über das Iglu Hotel auf der Zugspitze
+      gehört und seitdem wünscht er sich sehnlichst einmal die Kälte und die
+      Struktur des Eises zu erleben. Besonders freut er sich auf die
+      Übernachtung im Iglu, bei der er hoffentlich nicht in seinem Schlafsack
+      festfriert.
+    donationGoal: "2900"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
