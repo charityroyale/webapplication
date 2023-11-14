@@ -141,6 +141,7 @@ upcoming:
       - lena-rom
       - sarah-strandurlaub
       - julie-newyork
+      - damian-pawpatrol
   - date: 2023-11-15T16:00:06.220Z
     streamerName: RvNxMango
     streamerChannel: rvnxmango
