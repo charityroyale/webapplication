@@ -139,6 +139,7 @@ upcoming:
       - k-gamingstation
       - e-fahrradanhaenger
       - lena-rom
+      - sarah-strandurlaub
   - date: 2023-11-15T16:00:06.220Z
     streamerName: RvNxMango
     streamerChannel: rvnxmango
