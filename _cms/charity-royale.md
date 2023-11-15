@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: rvnxmango/jayden-ps5
+featuredStream: rvnxmango/gamingpc6
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -160,6 +160,7 @@ upcoming:
     type: main
     wishes:
       - jayden-ps5
+      - gamingpc6
   - date: 2023-11-16T16:00:15.725Z
     streamerName: Sintica
     streamerChannel: sintica
