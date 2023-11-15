@@ -505,7 +505,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: community
     wishes:
-      - legoland8
+      - legoland9
   - date: 2023-11-11T09:00:00.000Z
     wishes:
       - youtuberin3
