@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: rvnxmango/gamingpc6
+featuredStream: sintica/a-gamingecke
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -44,16 +44,6 @@ upcoming:
     wishes:
       - sultan-zimmereinrichtung
       - gamingecke2
-  - date: 2023-11-04T16:00:05.521Z
-    streamerName: CastCrafter
-    streamerChannel: castcrafter
-    streamLink: http://twitch.tv/CastCrafter
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - bernhard-teneriffa
-      - stelzenhaus1
-      - gamingecke1
   - date: 2023-11-06T16:00:47.952Z
     streamerName: stev0rr
     streamerChannel: stev0rr
@@ -79,6 +69,16 @@ upcoming:
     type: main
     wishes:
       - sarah-wasserspielplatz
+  - date: 2023-11-04T16:00:05.521Z
+    streamerName: CastCrafter
+    streamerChannel: castcrafter
+    streamLink: http://twitch.tv/CastCrafter
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - bernhard-teneriffa
+      - stelzenhaus1
+      - gamingecke1
   - date: 2023-11-08T16:00:24.694Z
     streamerName: Tjan & Fuxelbau
     streamerChannel: fuxelbau
@@ -112,14 +112,6 @@ upcoming:
     wishes:
       - nikita-gamingzubehoer
       - h-ipad
-  - date: 2023-11-12T16:00:12.209Z
-    streamerName: DerBanko
-    streamerChannel: derbanko
-    streamLink: https://www.twitch.tv/derbanko
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: main
-    wishes:
-      - p-bauernhof
   - date: 2023-11-13T16:00:22.982Z
     streamerName: xHankyy
     streamerChannel: xhankyy
@@ -128,6 +120,14 @@ upcoming:
     type: main
     wishes:
       - i-ps5
+  - date: 2023-11-12T16:00:12.209Z
+    streamerName: DerBanko
+    streamerChannel: derbanko
+    streamLink: https://www.twitch.tv/derbanko
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: main
+    wishes:
+      - p-bauernhof
   - date: 2023-11-14T16:00:40.616Z
     streamerName: Papaplatte
     streamerChannel: papaplatte
