@@ -84,6 +84,12 @@ const ButtonsBox: React.FunctionComponent = () => {
 	return (
 		<ButtonsGrid>
 			<ButtonItemWrapper>
+				<Button href="https://forms.gle/o1fEkCKqMD2YeMtN8" target="_blank">
+					<Text content="applyAsStreamerCTA" />
+				</Button>
+			</ButtonItemWrapper>
+
+			<ButtonItemWrapper>
 				<Link href="/faq" legacyBehavior={true}>
 					<Button href="/faq">
 						<Text content="questionsAndAnswersCTA" />
