@@ -547,6 +547,14 @@ upcoming:
     type: community
     wishes:
       - zimmereinrichtung4
+  - date: 2023-11-21T16:30:44.357Z
+    streamerName: BlueberryYum
+    streamerChannel: blueberryyum
+    streamLink: https://www.twitch.tv/blueberryyum
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - prinzessin10
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
