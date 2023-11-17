@@ -556,6 +556,14 @@ upcoming:
     type: community
     wishes:
       - prinzessin10
+  - date: 2023-11-19T13:00:57.950Z
+    streamerName: lostsize
+    streamerChannel: lostsize
+    streamLink: https://www.twitch.tv/lostsize
+    type: community
+    wishes:
+      - legoland11
+    imgUrl: /uploads/charity_royale_rgb.png
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
