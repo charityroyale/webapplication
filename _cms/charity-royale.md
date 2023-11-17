@@ -523,7 +523,7 @@ upcoming:
     type: community
     wishes:
       - prinzessin9
-  - date: 2023-11-22T12:07:42.978Z
+  - date: 2023-11-21T12:07:42.978Z
     streamerName: ToD
     streamerChannel: tod
     streamLink: https://www.twitch.tv/ToD
@@ -531,6 +531,14 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     wishes:
       - gamingpc7
+  - date: 2023-11-22T17:00:33.444Z
+    wishes:
+      - harrypotter4
+    type: community
+    streamerName: Snipsska
+    streamerChannel: snipsska
+    streamLink: https://www.twitch.tv/snipsska
+    imgUrl: /uploads/charity_royale_rgb.png
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
