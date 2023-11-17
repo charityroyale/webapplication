@@ -523,6 +523,14 @@ upcoming:
     type: community
     wishes:
       - prinzessin9
+  - date: 2023-11-22T12:07:42.978Z
+    streamerName: ToD
+    streamerChannel: tod
+    streamLink: https://www.twitch.tv/ToD
+    type: community
+    imgUrl: /uploads/charity_royale_rgb.png
+    wishes:
+      - gamingpc7
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
