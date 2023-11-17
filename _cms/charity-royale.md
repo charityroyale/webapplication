@@ -691,10 +691,10 @@ wishes:
     childname: Lauren
     descripion: Lauren ist 6 Jahre alt und lebt mit Mukoviszidose. Wie viele Mädchen
       in ihrem Alter liebt sie alles mit Glitzer, Lila und Pink, aber Lauren
-      steht auch auf Gemeinsam mit ihrer Familie möchte Lauren gerne einen
-      Ausflug in den Europa Park, denn zusammen mit ihrem kleinen Bruder möchte
-      sie die vielen tollen Achterbahnen fahren und gaaaanz viel Zuckerwatte
-      essen :)
+      steht auch auf Action. Gemeinsam mit ihrer Familie möchte Lauren gerne
+      einen Ausflug in den Europa-Park, denn zusammen mit ihrem kleinen Bruder
+      möchte sie die vielen tollen Achterbahnen fahren und gaaaanz viel
+      Zuckerwatte essen :)
     donationGoal: "2100"
   - slug: damian-pawpatrol
     tagline: 'Damian: "Ich wünsche mir, meine Helden von Paw Patrol zu treffen"'
