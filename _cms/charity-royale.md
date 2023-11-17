@@ -293,6 +293,7 @@ upcoming:
     type: community
     wishes:
       - prinzessin4
+      - legoland10
   - date: 2023-11-11T16:00:14.266Z
     streamerName: geckarbre
     streamerChannel: geckarbre
