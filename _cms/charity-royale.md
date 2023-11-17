@@ -539,6 +539,14 @@ upcoming:
     streamerChannel: snipsska
     streamLink: https://www.twitch.tv/snipsska
     imgUrl: /uploads/charity_royale_rgb.png
+  - date: 2023-11-25T12:00:58.665Z
+    streamerName: Lele
+    streamerChannel: lele
+    streamLink: https://www.twitch.tv/lele
+    imgUrl: /uploads/charity_royale_rgb.png
+    type: community
+    wishes:
+      - zimmereinrichtung4
 wishes:
   - slug: a-disneyland
     tagline: A. wünscht sich eine Reise ins Disneyland
