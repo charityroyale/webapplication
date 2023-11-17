@@ -84,8 +84,8 @@ const ButtonsBox: React.FunctionComponent = () => {
 	return (
 		<ButtonsGrid>
 			<ButtonItemWrapper>
-				<Button href="https://forms.gle/o1fEkCKqMD2YeMtN8" target="_blank">
-					<Text content="applyAsStreamerCTA" />
+				<Button href="https://www.make-a-wish.at/" target="_blank">
+					<Text content="mawCta" />
 				</Button>
 			</ButtonItemWrapper>
 
