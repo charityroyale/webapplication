@@ -260,6 +260,7 @@ upcoming:
     imgUrl: /uploads/charity_royale_rgb.png
     type: community
     wishes:
+      - legoland12
       - legoland4
   - date: 2023-11-11T16:00:02.292Z
     streamerName: binangi
