@@ -73,15 +73,13 @@ export const UpcomingStreamImage = styled.img<{ $projectdone: boolean }>`
 `
 
 export const DoneStreamDonation = styled.div<{ $projectdone: boolean }>`
-	position: absolute;
-	bottom: 29px;
 	padding: 4px 8px;
 	background: linear-gradient(to right, ${(p) => p.theme.color.charityBlue}, ${(p) => p.theme.color.charityPink});
 	color: white;
 	font-weight: bold;
 	font-size: 28px;
-	z-index: 999;
 	display: ${(p) => (p.$projectdone ? 'block' : 'none')};
+	width: max-content;
 `
 
 export interface UpcomingStreamProps extends CmsUpcomingStreamer {
@@ -123,17 +121,29 @@ const UpcomingStream: FunctionComponent<UpcomingStreamProps> = (props: UpcomingS
 							alt={`Streamer ${streamerName} Avatar`}
 						/>
 					)}
-					<DoneStreamDonation $projectdone={$projectdone}>
-						{formatMoneyWithSign(donationProgress)}
-					</DoneStreamDonation>
-					<StreamProjectDateWrapper>
-						<p>{streamerName}</p>
-					</StreamProjectDateWrapper>
+
+					<StreamInfoWrapper>
+						<DoneStreamDonation $projectdone={$projectdone}>
+							{formatMoneyWithSign(donationProgress)}
+						</DoneStreamDonation>
+						<StreamProjectDateWrapper>
+							<p>{streamerName}</p>
+						</StreamProjectDateWrapper>
+					</StreamInfoWrapper>
 				</StreamerImageWrapper>
 			</ClientLink>
 			<UpcomingStreamFooter donateLinkHref={donateLinkHref} {...props} />
 		</StyledUpcomingStream>
 	)
 }
+
+const StreamInfoWrapper = styled.div`
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+	display: flex;
+	flex-direction: column;
+`
 
 export default UpcomingStream

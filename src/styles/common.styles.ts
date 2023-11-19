@@ -95,16 +95,12 @@ export const StyledFeatured = styled.div`
 `
 
 export const StreamProjectDateWrapper = styled.div`
-	position: absolute;
-	left: 0;
 	background-color: ${(p) => p.theme.color.charityTeal};
 	color: ${(p) => p.theme.color.veniPurple};
-	bottom: 0;
-	border-top-right-radius: ${(p) => p.theme.space.xs}px;
 	font-weight: bold;
 	font-size: ${(p) => p.theme.fontSize.xl}px;
 	padding: 0px 8px;
-	z-index: 999;
+	width: fit-content;
 `
 
 export const StyledUpcoming = styled.div`
