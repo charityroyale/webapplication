@@ -303,11 +303,13 @@ const getLatestDonators = (recentDonations: MakeWishInfoJsonRecentDonationDTO[])
 
 const getHighestDonatorsList = (topDonations: MakeAWishInfoJsonTopDonationDTO[]) => {
 	let highestDonatorsList: DonationListItem[] = []
-	highestDonatorsList = topDonations.map((highestDonatorsDonation, i) => ({
-		col_1: getTopDonatorFirstColum(i),
-		col_2: highestDonatorsDonation.username,
-		col_3: highestDonatorsDonation.amount_net,
-	}))
+	highestDonatorsList = topDonations
+		.filter((el) => el.username.toLowerCase() !== 'dhalucard community')
+		.map((highestDonatorsDonation, i) => ({
+			col_1: getTopDonatorFirstColum(i),
+			col_2: highestDonatorsDonation.username,
+			col_3: highestDonatorsDonation.amount_net,
+		}))
 
 	// Fill remaing slots
 	while (highestDonatorsList.length < 10) {
