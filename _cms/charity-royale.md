@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: dhalucard/p-snoezel
+featuredStream: dhalucard/harrypotter5
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -196,6 +196,7 @@ upcoming:
       - j-tokyo
       - maximilian-spielturm
       - p-snoezel
+      - harrypotter5
   - date: 2023-11-20T16:00:41.395Z
     streamerName: Mahluna
     streamerChannel: mahluna
