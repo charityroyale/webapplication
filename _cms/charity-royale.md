@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: mahluna/s-elsa
+featuredStream: mahluna/ilayda-london
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -205,6 +205,7 @@ upcoming:
     type: main
     wishes:
       - s-elsa
+      - ilayda-london
   - date: 2023-11-21T16:00:26.361Z
     streamerName: Vlesk
     streamerChannel: vlesk
