@@ -520,7 +520,7 @@ upcoming:
     type: community
     wishes:
       - prinzessin9
-  - date: 2023-11-21T12:07:42.978Z
+  - date: 2023-11-23T12:07:42.978Z
     streamerName: ToD
     streamerChannel: tod
     streamLink: https://www.twitch.tv/ToD
