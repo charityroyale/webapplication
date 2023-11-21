@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: vlesk/a-tropicalisland
+featuredStream: mahluna/ilayda-london
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -504,14 +504,6 @@ upcoming:
     type: community
     wishes:
       - youtuberin3
-  - date: 2023-11-22T16:00:32.257Z
-    streamerName: matrixxapex
-    streamerChannel: matrixxapex
-    streamLink: https://www.twitch.tv/matrixxapex
-    imgUrl: /uploads/charity_royale_rgb.png
-    type: community
-    wishes:
-      - legoland9
   - date: 2023-11-11T09:00:00.000Z
     wishes:
       - youtuberin3
