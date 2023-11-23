@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredStream: thiseguy/salar-ipad
+featuredStream: thiseguy/l-abenteuer
 makeAWishProjects: []
 featuredYoutubeStream: ""
 customDonationLink: ""
@@ -230,6 +230,7 @@ upcoming:
     type: main
     wishes:
       - salar-ipad
+      - l-abenteuer
   - date: 2023-11-24T11:00:47.343Z
     streamerName: Veni
     streamerChannel: veni
