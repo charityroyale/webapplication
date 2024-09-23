@@ -76,7 +76,7 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 							? mawWishData.current_donation_sum_net
 							: mawWStreamerWishData.current_donation_sum_net
 					donatorsCount = mawWStreamerWishData.current_donation_count.toLocaleString('de-DE')
-					progressPercentage = getPercentage(parseFloat(donationSum), parseFloat(cms.wish.donationGoal))
+					progressPercentage = getPercentage(parseFloat(donationSum), parseFloat(cms.wish.donationGoal) * 100)
 				}
 			}
 
