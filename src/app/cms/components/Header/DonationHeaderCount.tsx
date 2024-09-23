@@ -68,7 +68,7 @@ const DonationHeaderCount: React.FunctionComponent<DonationHeaderCountProps> = (
 	current_donation_count,
 	donations_count,
 }: DonationHeaderCountProps) => {
-	const percentage = getPercentage(current_donation_count, donation_goal).toFixed(2)
+	const percentage = getPercentage(current_donation_count / 100, donation_goal).toFixed(2)
 	return (
 		<DonationCountWrapper>
 			<DonationCountCol style={{ marginRight: '12px' }}>
@@ -78,7 +78,7 @@ const DonationHeaderCount: React.FunctionComponent<DonationHeaderCountProps> = (
 				/>
 				<DonationCountBox
 					title={<Text content="totalDonationGoal" />}
-					text={formatMoneyWithSign(donation_goal)}
+					text={formatMoneyWithSign(donation_goal, true)}
 				/>
 			</DonationCountCol>
 

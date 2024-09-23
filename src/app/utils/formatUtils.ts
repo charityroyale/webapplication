@@ -3,14 +3,14 @@ export function formatDate(date: Date) {
 	return dateFormatter.format(date)
 }
 
-export function formatMoney(amount: string | number) {
+export function formatMoney(amount: string | number, ignoreCents: boolean = false) {
 	const parsed = parseFloat(`${amount}`)
 	if (isNaN(parsed)) {
 		return '0,00'
 	}
-	return parsed.toLocaleString('de-DE', { minimumFractionDigits: 2 })
+	return (ignoreCents ? parsed : parsed / 100).toLocaleString('de-DE', { minimumFractionDigits: 2 })
 }
 
-export function formatMoneyWithSign(amount: string | number) {
-	return `${formatMoney(amount)}€`
+export function formatMoneyWithSign(amount: string | number, ignoreCents: boolean = false) {
+	return `${formatMoney(amount, ignoreCents)}€`
 }

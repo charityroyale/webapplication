@@ -31,8 +31,8 @@ const DonationWidgetCount: React.FunctionComponent<DonationWidgetCountProps> = (
 	donation_goal_amount,
 }: DonationWidgetCountProps) => {
 	const [hasReachedGoal, setHasReachGoal] = useState(false)
-	const percentage = getPercentage(parseFloat(current_amount), parseFloat(donation_goal_amount))
-	const absDiff = parseFloat(current_amount) - parseFloat(donation_goal_amount)
+	const percentage = getPercentage(parseFloat(current_amount), parseFloat(donation_goal_amount) * 100)
+	const absDiff = parseFloat(current_amount) - parseFloat(donation_goal_amount) * 100
 
 	useEffect(() => {
 		if (percentage >= 100) {
