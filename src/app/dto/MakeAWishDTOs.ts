@@ -10,9 +10,7 @@ export class MakeAWishInfoJsonDTO {
 	public total_donation_sum_net = '' // sum of donations netto - without taxes - pure
 	public total_donation_count = -1 // count of unqique donators
 	public last_update = -1 // unix timestamp of latest update
-	// eslint-disable-next-line @typescript-eslint/consistent-type-assertions
 	public streamers = {} as { [streamerSlug: string]: MakeAWishStreamerDTO }
-	// eslint-disable-next-line @typescript-eslint/consistent-type-assertions
 	public wishes = {} as { [wishSlug: string]: MakeAWishRootLevelWishDTO }
 	public recent_donations: MakeWishInfoJsonRecentDonationDTO[] = [] // latest 10 donations made over all wishes
 	public top_donors: MakeAWishInfoJsonTopDonationDTO[] = [] // top 10 donations made over all wishes

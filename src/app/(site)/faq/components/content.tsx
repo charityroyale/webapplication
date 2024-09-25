@@ -103,10 +103,10 @@ export const FaqContent: FunctionComponent = () => {
 				{languageContext.language === 'de'
 					? questionsDe.map((question, i) => (
 							<FaqQuestionBox key={i} question={question['question-de']} answer={question['answer-de']} />
-					  ))
+						))
 					: questionsEn.map((question, i) => (
 							<FaqQuestionBox key={i} question={question['answer-en']} answer={question['answer-en']} />
-					  ))}
+						))}
 			</FaqContenSection>
 		</FaqMainWrapper>
 	)
