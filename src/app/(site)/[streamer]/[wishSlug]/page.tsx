@@ -10,7 +10,7 @@ type Props = {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-	if (!params.streamer || !params.wishSlug) {
+	if (params.streamer === 'A' || params.wishSlug === 'A') {
 		return {}
 	}
 	const streamerSlug = params.streamer
@@ -33,11 +33,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
-	return cmsDonationPagePaths.length > 0 ? cmsDonationPagePaths : [{ streamer: '', wishSlug: '' }]
+	return cmsDonationPagePaths.length > 0 ? cmsDonationPagePaths : [{ streamer: 'A', wishSlug: 'A' }]
 }
 
 export default async function Page({ params }: Props) {
-	if (!params.streamer || !params.wishSlug) {
+	if (params.streamer === 'A' || params.wishSlug === 'A') {
 		return <React.Fragment></React.Fragment>
 	}
 	const streamerSlug = params.streamer
