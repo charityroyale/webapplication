@@ -27,6 +27,7 @@ collections:
                       required: true,
                       widget: 'string',
                   }
+                - { label: 'Bewerbungslink', name: 'applyLink', widget: 'string', required: false }
                 - {
                       label: 'Custom Donation Link (Can be left empty )',
                       name: 'customDonationLink',

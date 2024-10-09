@@ -12,6 +12,7 @@ export type DictionairyEntryType =
 	| 'totalDonationGoal'
 	| 'questionsAndAnswersCTA'
 	| 'mawCta'
+	| 'applyAsStreamerCTA'
 	| 'donateNowText'
 	| 'organizersTitle'
 	| 'imprintTitle'

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import { Text } from './Text'
 import { styled } from 'styled-components'
+import cmsContent from '../cms'
 
 const ButtonsGrid = styled.div`
 	grid-area: faq-box;
@@ -83,11 +84,19 @@ const ButtonItemWrapper = styled.div`
 const ButtonsBox: React.FunctionComponent = () => {
 	return (
 		<ButtonsGrid>
-			<ButtonItemWrapper>
-				<Button href="https://www.make-a-wish.at/" target="_blank">
-					<Text content="mawCta" />
-				</Button>
-			</ButtonItemWrapper>
+			{cmsContent.applyLink ? (
+				<ButtonItemWrapper>
+					<Button href={cmsContent.applyLink} target="_blank">
+						<Text content="applyAsStreamerCTA" />
+					</Button>
+				</ButtonItemWrapper>
+			) : (
+				<ButtonItemWrapper>
+					<Button href="https://www.make-a-wish.at/" target="_blank">
+						<Text content="mawCta" />
+					</Button>
+				</ButtonItemWrapper>
+			)}
 
 			<ButtonItemWrapper>
 				<Link href="/faq" legacyBehavior={true}>
