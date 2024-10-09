@@ -5,7 +5,7 @@ thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredStream: veni/ammar-real
 makeAWishProjects: []
 featuredYoutubeStream: https://www.youtube.com/embed/l4wnbzIcerE?si=MG5uIjMw90_yKfb9
-customDonationLink: https://make-a-wish.at/
+customDonationLink: ""
 upcoming: []
 wishes: []
 faq:
