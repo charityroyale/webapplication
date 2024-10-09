@@ -1,4 +1,4 @@
-const year = 2023
+const year = 2024
 
 export const makeAWishAPI = {
 	donationsURL: `https://streamer.make-a-wish.at/charityroyale${year}/info.json`,
