@@ -1,81 +1,85 @@
 backend:
-  name: git-gateway
-  branch: release # Branch to update (optional; defaults to master)
+    name: git-gateway
+    branch: release # Branch to update (optional; defaults to master)
 
 media_folder: 'public/uploads' # Media files will be stored in the repo under images/uploads
 public_folder: '/uploads'
 
 collections:
-  - name: 'pages' # Used in routes, e.g., /admin/collections/blog
-    label: 'Pages' # Used in the UI
-    files:
-      - label: Charity Royale
-        name: cr
-        file: _cms/charity-royale.md
-        fields: # The fields for each document, usually in front matter
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
-          - {
-              label: 'Featured YoutubeURL (always use "embed" links)',
-              name: 'featuredYoutubeStream',
-              required: false,
-              widget: 'string',
-            }
-          - {
-              label: 'Featured TwitchStream ("nqrmvn/philipp-fcbayern" format only)',
-              name: 'featuredStream',
-              required: true,
-              widget: 'string',
-            }
-          - { label: 'Custom Donation Link', name: 'customDonationLink', required: false, widget: 'string' }
+    - name: 'pages' # Used in routes, e.g., /admin/collections/blog
+      label: 'Pages' # Used in the UI
+      files:
+          - label: Charity Royale
+            name: cr
+            file: _cms/charity-royale.md
+            fields: # The fields for each document, usually in front matter
+                - { label: 'Title', name: 'title', widget: 'string' }
+                - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
+                - {
+                      label: 'Featured YoutubeURL (always use "embed" links)',
+                      name: 'featuredYoutubeStream',
+                      required: false,
+                      widget: 'string',
+                  }
+                - {
+                      label: 'Featured TwitchStream ("nqrmvn/philipp-fcbayern" format only)',
+                      name: 'featuredStream',
+                      required: true,
+                      widget: 'string',
+                  }
+                - { label: 'Custom Donation Link', name: 'customDonationLink', required: false, widget: 'string' }
 
-          - label: 'Upcoming Streams'
-            name: 'upcoming'
-            widget: 'list'
-            summary: '{{fields.streamerName}}'
-            fields:
-              - { label: 'Streamer Name', name: 'streamerName', widget: 'string' }
-              - { label: 'Streamer Channel (Twitch username in lower case)', name: 'streamerChannel', widget: 'string' }
-              - { label: 'Stream Link', name: 'streamLink', widget: 'string' }
-              - { label: 'Custom donation link', name: 'customLink', required: false, widget: 'string' }
-              - { label: 'Streamer Image', name: 'imgUrl', widget: 'image' }
-              - { label: 'Stream Date', name: 'date', widget: 'datetime' }
-              - { label: 'Type ("main" or "community")', name: 'type', widget: 'string', required: true }
-              - label: Make-a-Wish Wunsch
-                name: wishes
-                widget: 'list'
-                allow_add: true
+                - label: 'Upcoming Streams'
+                  name: 'upcoming'
+                  widget: 'list'
+                  summary: '{{fields.streamerName}}'
+                  fields:
+                      - { label: 'Streamer Name', name: 'streamerName', widget: 'string' }
+                      - {
+                            label: 'Streamer Channel (Twitch username in lower case)',
+                            name: 'streamerChannel',
+                            widget: 'string',
+                        }
+                      - { label: 'Stream Link', name: 'streamLink', widget: 'string' }
+                      - { label: 'Custom donation link', name: 'customLink', required: false, widget: 'string' }
+                      - { label: 'Streamer Image', name: 'imgUrl', widget: 'image', required: false }
+                      - { label: 'Stream Date', name: 'date', widget: 'datetime' }
+                      - { label: 'Type ("main" or "community")', name: 'type', widget: 'string', required: true }
+                      - label: Make-a-Wish Wunsch
+                        name: wishes
+                        widget: 'list'
+                        allow_add: true
 
-          - label: Make-a-Wish Wishes
-            name: 'wishes'
-            widget: list
-            summary: '{{fields.slug}} - {{fields.childname}}'
-            fields:
-              - { label: 'Slug', name: 'slug', widget: 'string', required: true }
-              - { label: 'Tagline', name: 'tagline', widget: 'string', required: true }
-              - { label: 'Child Name', name: 'childname', widget: 'string' }
-              - { label: 'Description', name: 'descripion', widget: 'string' }
-              - { label: 'Donation Goal', name: 'donationGoal', widget: 'string', required: true }
+                - label: Make-a-Wish Wishes
+                  name: 'wishes'
+                  widget: list
+                  summary: '{{fields.slug}} - {{fields.childname}}'
+                  fields:
+                      - { label: 'Slug', name: 'slug', widget: 'string', required: true }
+                      - { label: 'Tagline', name: 'tagline', widget: 'string', required: true }
+                      - { label: 'Child Name', name: 'childname', widget: 'string' }
+                      - { label: 'Description', name: 'descripion', widget: 'string' }
+                      - { label: 'Donation Goal', name: 'donationGoal', widget: 'string', required: true }
 
-          - label: FAQ
-            name: faq
-            widget: object
-            fields:
-              - label: Q&A German
-                name: questions-de
-                widget: list
-                fields:
-                  - { label: 'Question', name: 'question-de', widget: 'string' }
-                  - { label: 'Answer', name: 'answer-de', widget: 'markdown' }
-              - label: Q&A English
-                name: questions-en
-                widget: list
-                fields:
-                  - { label: 'Question', name: 'question-en', widget: 'string' }
-                  - { label: 'Answer', name: 'answer-en', widget: 'markdown' }
-              - label: Videos
-                name: videos
-                widget: list
-                fields:
-                  - { label: 'Video Url', name: 'url', widget: 'string' }
-                  - { label: 'Video Name', name: 'name', widget: 'string' }
+                - label: FAQ
+                  name: faq
+                  widget: object
+                  fields:
+                      - label: Q&A German
+                        name: questions-de
+                        widget: list
+                        fields:
+                            - { label: 'Question', name: 'question-de', widget: 'string' }
+                            - { label: 'Answer', name: 'answer-de', widget: 'markdown' }
+                      - label: Q&A English
+                        name: questions-en
+                        widget: list
+                        fields:
+                            - { label: 'Question', name: 'question-en', widget: 'string' }
+                            - { label: 'Answer', name: 'answer-en', widget: 'markdown' }
+                      - label: Videos
+                        name: videos
+                        widget: list
+                        fields:
+                            - { label: 'Video Url', name: 'url', widget: 'string' }
+                            - { label: 'Video Name', name: 'name', widget: 'string' }
