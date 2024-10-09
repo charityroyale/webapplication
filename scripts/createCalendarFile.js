@@ -21,6 +21,8 @@ readFile(cmsDataFileLocationPath, 'utf8', function (err, data) {
 	}
 
 	writeFileSync(calendarFileLocationPath, calendarData)
+
+	console.log(`❤️❤️❤️  Calendar file written.❤️❤️❤️`)
 })
 
 const getCalendarFromCms = (data) => {
