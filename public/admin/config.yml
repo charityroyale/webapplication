@@ -22,12 +22,17 @@ collections:
                       widget: 'string',
                   }
                 - {
-                      label: 'Featured TwitchStream ("nqrmvn/philipp-fcbayern" format only)',
+                      label: 'Featured TwitchStream ("nqrmvn/philipp-fcbayern" Pfad des Wunsches)',
                       name: 'featuredStream',
                       required: true,
                       widget: 'string',
                   }
-                - { label: 'Custom Donation Link', name: 'customDonationLink', required: false, widget: 'string' }
+                - {
+                      label: 'Custom Donation Link (Can be left empty )',
+                      name: 'customDonationLink',
+                      required: false,
+                      widget: 'string',
+                  }
 
                 - label: 'Upcoming Streams'
                   name: 'upcoming'
