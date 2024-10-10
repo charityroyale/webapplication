@@ -7,7 +7,13 @@ featuredStream: veni/ammar-real
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
 customDonationLink: ""
-upcoming: []
+upcoming:
+  - date: 2024-10-10T08:45:49.259Z
+    wishes: []
+    streamerName: Veni
+    streamerChannel: veni
+    streamLink: https://ww.twitch.tv/veni
+    type: MAIN
 wishes: []
 faq:
   videos:
