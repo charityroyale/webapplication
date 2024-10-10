@@ -3,24 +3,158 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: https://www.youtube.com/embed/l4wnbzIcerE?si=MG5uIjMw90_yKfb9
-featuredStream: heideltrauteuw/ipad01
+featuredStream: heideltrauteuw/quad01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
 customDonationLink: ""
 upcoming:
   - date: 2025-01-01T10:27:05.203Z
     wishes:
-      - ipad01
+      - quad01
     streamerName: HeideltrautEUW
     streamerChannel: heideltrauteuw
     streamLink: https://twitch.tv/heideltrauteuw
     type: MAIN
 wishes:
   - slug: ipad01
-    tagline: Ipad-Test
+    tagline: Mohammad-Ali wünscht sich ein iPad
     childname: Mohammad-Ali
-    descripion: Test
+    descripion: Spiderman ist für Mohammad nicht nur ein Held, sondern eine wichtige
+      Ablenkung von seiner Krankheit. Er liebt es, Spiderman-Spiele auf dem
+      Handy seiner Mama zu spielen, doch das alte Gerät hält nicht mehr lange
+      durch, der Akku gibt zu schnell auf.  Deshalb wünscht er sich ein Tablet,
+      damit er seinen Helden Spiderman zukünftig in Großformat genießen kann.
     donationGoal: "500"
+  - slug: ipad02
+    tagline: Munthi wünscht sich ein iPad
+    childname: Munthi
+    descripion: Für den 11-jährigen ist es unglaublich wichtig, mit seinen Lieben in
+      Verbindung zu bleiben. Deshalb wünschte er sich von Make-A-Wish ein iPad –
+      ein Fenster zur Welt, durch das er trotz der Distanz virtuell mit seinen
+      Freunden und Verwandten sprechen  kann. Das iPad ist für ihn nicht nur ein
+      technisches Gerät, sondern ein lebenswichtiger Anker, der ihm hilft, trotz
+      seiner gesundheitlichen Einschränkungen und der physischen Trennung, die
+      Nähe und Liebe seiner Familie zu spüren. Da er aufgrund seiner  Krankheit
+      manchmal Schwierigkeiten mit der Feinmotorik hat, wünschte er sich
+      zusätzlich ein externes Keyboard, das ihm die Nutzung erleichtert.
+    donationGoal: "600"
+  - slug: switch01
+    tagline: T. wünscht sich eine Nintendo Switch
+    descripion: Der 13-jährige T. ist aufgrund seines angeboren Herzfehlers stark
+      entwicklungsverzögert. Da T. häufig im Krankenhaus ist, ist seine einzige
+      Ablenkung sein Handy und die Spiele, die er dort offline spielen kann.  T.
+      liebt die Serie Miraculous und wünscht sich eine Nintendo Switch und das
+      neuste Miraculous Spiel.
+    childname: T.
+    donationGoal: "650"
+  - slug: lamborghini01
+    childname: Reinhard
+    tagline: Reinhard wünscht sich einen ferngesteuerten Lamborghini
+    descripion: Reinhard ist 7 Jahre alt und leidet an einem schweren Immundefekt.
+      Da er ein großer Fan der Automarke Lamborghini ist, wünschte er sich von
+      Herzen, einen ferngesteuerten Lamborghini zu besitzen, mit dem er
+      selbst  fahren kann – am besten in seinen Lieblingsfarben Blau und Grün
+      und mit flammenden Streifen darauf.
+    donationGoal: "750"
+  - childname: Joachim
+    descripion: Der 8-jährige Joachim ist ein echter Zugfan - vor allem interessiert
+      ihn die Technik, die dahinter steckt. Joachim ist ein richtiger Experte,
+      vor allem was ICE's betrifft und möchte gerne mehr erfahren und lernen,
+      wie Züge  funktionieren und vor allem, wie sie repariert und instand
+      gehalten werden.
+    donationGoal: "800"
+    tagline: Joachim wünscht sich eine Zugwerkstatt zu besuchen
+    slug: zugwerkstatt01
+  - childname: E.
+    descripion: Die zwölfjährige E. hat aufgrund ihrer Erkrankung schon einiges
+      durchmachen müssen. Seit nun mehr 10 Jahren ist sie mehr im Krankenhaus
+      als zu Hause. Häufig weiß sie nicht, wie sie sich während der langen
+      Krankenhausaufenthalte  beschäftigen soll, vor allem, wenn sie durch die
+      vorangegangenen Behandlungen geschwächt ist. Ihr großer Wunsch ist eine
+      Playstation 5, um mit ihren Freunden zu zocken.
+    donationGoal: "800"
+    tagline: E. wünscht sich eine Playstation 5
+    slug: playstation01
+  - childname: Darius wünscht sich einmal selbst in einem Lamborghini mitzufahren
+    descripion: Darius ist 13 Jahre und lebt mit Muskeldystrophie Duchenne, eine
+      fortschreitende Muskelerkrankung, die mit fortschreitendem Muskelschwund
+      einhergeht. Darius liebt schnelle Autos, besonders faszinieren ihn
+      Lamborghinis.  Als Darius jünger war, war sein Lieblingsspielzeug ein
+      Lamborghini Spielauto in grün. Sein größter Wunsch ist es, einmal selbst
+      in einem grünen Lamborghini zu sitzen und natürlich auch mitzufahren und
+      die Geschwindigkeit zu erleben.
+    donationGoal: "800"
+    slug: lamborghini02
+    tagline: "Darius wünscht sich "
+  - childname: J.
+    donationGoal: "900"
+    tagline: J. wünscht sich ein Abenteuer mit schnellen Autos
+    descripion: Der dreijährige J. ist ein großer Auto-Fan. Er ist ganz vernarrt in
+      Autos und spielt mit nichts anderem. Vor allem schnelle Autos haben es ihm
+      angetan. Wenn er mit seinen Eltern unterwegs ist, spielt er oft
+      ""Auto-Raten"" und kennt sich bei allen  Automarken sehr gut aus. J.'s
+      großer Wunsch ist ein Abenteuer mit schnellen Autos, ob er wirklich
+      mitfahren wird, weiß er aber selbst noch nicht genau ;)
+    slug: auto-abenteuer01
+  - donationGoal: "900"
+    childname: L.
+    tagline: L. wünscht sich ein Fahrrad
+    slug: fahrrad01
+    descripion: L. ist 4 Jahre alt und lebt mit Leukämie. Aufgrund ihrer
+      Behandlungen verbrachte sie viel Zeit im Krankenhaus, dabei spielt L. viel
+      lieber in der freien Natur und ist mit ihrer Familie mit dem Fahrrad
+      unterwegs.  L. möchte gerne selbst bald Fahrradfahren lernen, damit sie
+      ihre beste Freundin besuchen kann. L. wünscht sich das gleiche Fahrrad wie
+      ihre Freundin, natürlich in ihrer Lieblingsfarbe lila!
+  - slug: reiterferien01
+    childname: E.
+    donationGoal: "900"
+    tagline: E. wünscht sich einen Urlaub auf einem Reiterhof machen zu können
+    descripion: Viele junge Mädchen lieben Pferde und könnten sich nichts Schöneres
+      vorstellen, als jeden Tag in den Sattel zu steigen, durch die Natur zu
+      reiten und sich um die Pferde und Ponys zu kümmern. So auch E.  Eine
+      längere Zeit auf einem Reiterhof zu wohnen und ein richtiges Bibi & Tina
+      Abenteuer zu erleben, ist ein großer Traum für E.  Ein perfektes
+      Wochenende, an dem sie sich ihrer Freude an Pferden widmen kann. Abseits
+      von all den Einschränkungen und Sorgen, mit denen sie alltäglich aufgrund
+      ihres Hirntumors konfrontiert ist.
+  - childname: Jane
+    donationGoal: "900"
+    slug: trampolin01
+    tagline: Jane wünscht sich ein Trampolin
+    descripion: Jane ist 16 Jahre alt und aufgrund ihrer Krankheit dem
+      Cornelia-de-Longe-Syndrom schwerst mehrfach behindert. Jane ist sehr aktiv
+      und häufig weiß sie nicht wohin mit ihrer Energie, daher wünscht sich ihre
+      Familie für sie ein  großes Trampolin, auf dem sie toben und sich richtig
+      auspowern kann. Jane hat in ihrer Kindheit das Trampolin der Nachbarn sehr
+      geliebt und hat nicht nur das Hüpfen, sondern auch die gemeinsamen Pausen
+      mit einem  kleinen Picknick und Kuscheldecken auf dem Trampolin sehr
+      geliebt.
+  - childname: P.
+    donationGoal: "1000"
+    descripion: "P. ist ein kleiner Abenteurer, der die Natur liebt und eine ganz
+      besondere Faszination für Traktoren, Mähdrescher und alles, was sich auf
+      Rädern bewegt, hegt. Die Krankheit bringt nicht nur große körperliche
+      Belastungen mit sich, s ondern schränkt den 5-jährigen auch in vielen
+      Dingen ein, die für andere Kinder selbstverständlich sind. Umso größer ist
+      sein Traum, sich endlich wieder frei und wild in der Natur bewegen zu
+      können – auf einem eigenen Kinderquad!  Für ihn bedeutet dieser Wunsch
+      mehr als nur Spaß: Es ist ein Stück Freiheit, ein Moment des Vergessens,
+      eine Flucht aus dem Alltag, der oft von seiner Krankheit dominiert wird."
+    slug: quad01
+    tagline: P. wünscht sich ein eigenes Kinderquad
+  - childname: Yannik
+    donationGoal: "1200"
+    descripion: Yannik ist 5 Jahre alt und lebt mit Mukoviszidose, eine
+      Stoffwechselerkrankung, bei der Schleim lebenswichtige Organe nach und
+      nach verstopft. Durch diese chronische Krankheit ist sein Alltag oft
+      schwer beeinflusst.  Yannik liebt Playmobil und spielt am liebsten mit
+      seiner Playmobil-Polizeiwache. Ein Ausflug in den Playmobil Funpark wäre
+      ein richtiges Abenteuer, in dem er seine Lieblingsspielzeuge und -welten
+      in der Realität  erleben kann und natürlich möchte er auch einmal im
+      Playmobil Hotel übernachten.
+    slug: playmobil-funpark01
+    tagline: Yannik wünscht sich einen Ausflug in den Playmobil Funpark
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
