@@ -37,8 +37,8 @@ export default async function Page() {
 	}
 
 	const schedules: CmsSchedulesType = {
-		main: schedule.filter((scheduledStream) => scheduledStream.type === 'main'),
-		community: schedule.filter((scheduledStream) => scheduledStream.type === 'community'),
+		main: schedule.filter((scheduledStream) => scheduledStream.type.toLowerCase() === 'main'),
+		community: schedule.filter((scheduledStream) => scheduledStream.type.toLowerCase() === 'community'),
 	}
 
 	return (
