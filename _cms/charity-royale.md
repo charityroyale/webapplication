@@ -155,6 +155,58 @@ wishes:
       Playmobil Hotel übernachten.
     slug: playmobil-funpark01
     tagline: Yannik wünscht sich einen Ausflug in den Playmobil Funpark
+  - childname: I.
+    descripion: Der 5-jährige I. ist ein sehr aktiver Junge, der gerne Fußball
+      spielt und auf dem Spielplatz tobt.  I. liebt außerdem Achterbahnen und
+      wünscht sich daher einen Ausflug mit seiner Familie ins  Phantasialand,
+      denn dort möchte er alle Achterbahnen mit seinem Bruder ausprobieren.
+    donationGoal: "1200"
+    tagline: I. wünscht sich einen Ausflug ins Phantasieland
+    slug: phantasieland01
+  - childname: M.
+    tagline: M. wünscht sich eine Kuschelecke in ihrem Zimmer
+    descripion: M. ist 8 Jahre alt und lebt mit einem seltenen Gendefekt. Kinder wie
+      M., die mit seltenen Gendefekten leben, haben häufig Schwierigkeiten, die
+      alltäglichen Reize des Alltags zu filtern und zu verarbeiten und sind
+      schnell überfordert.  Besonders wichtig ist ein Rückzugsort zum Entspannen
+      und Wohlfühlen, einen Ort der Geborgenheit, ganz gleich, was der Tag
+      gebracht hat.  Daher wünsch sich M. von uns eine Kuschelecke in ihrem
+      Zimmer und dazu noch eine Wassersäule mit Strudel und Fischen, die sie
+      beobachten kann.
+    donationGoal: "1200"
+    slug: kuschelecke01
+  - childname: D.
+    descripion: Unser Wunschkind D. ist 8 Jahre alt und lebt mit einem
+      Retinoblastom, eine seltene Krebserkankung im Auge. D. ist ein sehr
+      aufgewecktes Mädchen, dass sich wünscht, einmal in dem Europa-Park  zu
+      fahren und dort die schnellste Achterbahn ausprobieren zu dürfen. Am
+      meisten freut sie sich auf den Looping, denn dann "kribbelt es so schön im
+      Bauch" :)
+    donationGoal: "1200"
+    slug: europa-park01
+    tagline: D. wünscht sich einen Ausflug in den Europa-Park
+  - tagline: Felix wünscht sich ein Stelzenhaus
+    childname: Felix
+    descripion: "Trotz seiner schweren Krankheit hat Felix einen großen Traum: Ein
+      Stelzenhaus mit einer blauen Rutsche, das groß genug ist, damit eine Küche
+      hineinpassen kann.  Dazu wünscht er sich eine eigene Kletterwand, die ihm
+      nicht nur Spaß bringt, sondern auch seine Stärke und Geschicklichkeit
+      herausfordert und beim Muskelaufbau seines Beins helfen soll."
+    donationGoal: "1300"
+    slug: stelzenhaus01
+  - slug: gaminglaptop01
+    tagline: Dayshaun wünscht sich einen Gaminglaptop
+    childname: Dayshaun
+    descripion: Dayshauns Krankheit bringt oft Schmerzen und Erschöpfung mit sich,
+      wodurch er nicht so unbeschwert, wie andere Kinde,r sein Leben genießen
+      kann. Er hat eine große Leidenschaft für IT und Gaming entwickelt – ein
+      Bereich,  in dem er sich vollkommen frei und lebendig fühlt. Sein größter
+      Wunsch war es, in die Welt des Gamings einzutauchen, um sich dort mit
+      anderen zu messen und vielleicht sogar eines Tages als Programmierer
+      die  Gaming-Welt selbst mitzugestalten. Mit einem neuen Gaming Notebook,
+      das er sich so sehr wünscht hat, kommt er diesem Traum ein großes Stück
+      näher.
+    donationGoal: "1300"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
