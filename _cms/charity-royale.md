@@ -13,7 +13,7 @@ upcoming:
       - ipad01
     streamerName: HeideltrautEUW
     streamerChannel: heideltrauteuw
-    streamLink: https://ww.twitch.tv/heideltrauteuw
+    streamLink: https://twitch.tv/heideltrauteuw
     type: MAIN
 wishes:
   - slug: ipad01
