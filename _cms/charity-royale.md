@@ -8,7 +8,7 @@ applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfS
 makeAWishProjects: []
 customDonationLink: ""
 upcoming:
-  - date: 2024-10-10T08:45:49.259Z
+  - date: 2024-10-11T08:45:49.259Z
     wishes: []
     streamerName: Veni
     streamerChannel: veni
