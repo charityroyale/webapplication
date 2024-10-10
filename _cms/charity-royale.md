@@ -10,12 +10,17 @@ customDonationLink: ""
 upcoming:
   - date: 2024-10-11T08:45:49.259Z
     wishes:
-      - abc
-    streamerName: Veni
-    streamerChannel: veni
-    streamLink: https://ww.twitch.tv/veni
+      - ipad01
+    streamerName: HeideltrautEUW
+    streamerChannel: heideltrauteuw
+    streamLink: https://ww.twitch.tv/heideltrauteuw
     type: MAIN
-wishes: []
+wishes:
+  - slug: ipad01
+    tagline: Ipad-Test
+    childname: Mohammad-Ali
+    descripion: Test
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
