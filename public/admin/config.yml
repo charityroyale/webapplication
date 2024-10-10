@@ -46,12 +46,16 @@ collections:
                             name: 'streamerChannel',
                             widget: 'string',
                         }
-                      - { label: 'Stream Link', name: 'streamLink', widget: 'string' }
+                      - {
+                            label: 'Stream Link (https://twitch.tv/veni, mit HTTPS)',
+                            name: 'streamLink',
+                            widget: 'string',
+                        }
                       - { label: 'Custom donation link', name: 'customLink', required: false, widget: 'string' }
                       - { label: 'Streamer Image', name: 'imgUrl', widget: 'image', required: false }
                       - { label: 'Stream Date', name: 'date', widget: 'datetime' }
                       - { label: 'Type ("main" or "community")', name: 'type', widget: 'string', required: true }
-                      - label: Make-a-Wish Wunsch
+                      - label: Make-a-Wish Wunsch (Slug)
                         name: wishes
                         widget: 'list'
                         allow_add: true
@@ -61,11 +65,11 @@ collections:
                   widget: list
                   summary: '{{fields.slug}} - {{fields.childname}}'
                   fields:
-                      - { label: 'Slug', name: 'slug', widget: 'string', required: true }
+                      - { label: 'Slug (same as in MAW backend)', name: 'slug', widget: 'string', required: true }
                       - { label: 'Tagline', name: 'tagline', widget: 'string', required: true }
                       - { label: 'Child Name', name: 'childname', widget: 'string' }
                       - { label: 'Description', name: 'descripion', widget: 'string' }
-                      - { label: 'Donation Goal', name: 'donationGoal', widget: 'string', required: true }
+                      - { label: 'Donation Goal (z.b. 500)', name: 'donationGoal', widget: 'string', required: true }
 
                 - label: FAQ
                   name: faq
