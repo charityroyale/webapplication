@@ -9,7 +9,8 @@ makeAWishProjects: []
 customDonationLink: ""
 upcoming:
   - date: 2024-10-11T08:45:49.259Z
-    wishes: []
+    wishes:
+      - abc
     streamerName: Veni
     streamerChannel: veni
     streamLink: https://ww.twitch.tv/veni
