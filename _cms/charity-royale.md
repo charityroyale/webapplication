@@ -271,20 +271,30 @@ faq:
         Familien Mut, Kraft und unvergessliche Momente in ihren schwersten
         Zeiten."
     - question-de: Wie kann ich spenden?
-      answer-de: >-
-        Jeder Programmpunkt bzw. Streamer hat sich für Charity Royale 2023 einen
-        Herzenswunsch eines schwerkranken Kindes ausgesucht. Während des
-        jeweiligen Live-Streams ist der aktuelle Spendenlink auf der Startseite
-        von charityroyale.at ausschließlich für diesen Wunsch freigeschaltet.
-        Zusätzlich hat jeder Streamer einen einzigartigen Spendenlink, um
-        mögliche Überschneidungen zu verhindern. Es gehen also alle Spenden
-        direkt an den ausgewählten Herzenswunsch des Streamers.
+      answer-de: "Jeder Programmpunkt bzw. jede:r Streamer:in hat sich für Charity
+        Royale 2024 einen Herzenswunsch eines schwerkranken Kindes ausgesucht.
+        Während des jeweiligen Live-Streams ist der aktuelle Spendenlink auf der
+        Startseite von charityroyale.at ausschließlich für diesen Wunsch
+        freigeschaltet. Zusätzlich hat jede:r Streamer:in einen einzigartigen
+        Spendenlink, um mögliche Überschneidungen zu verhindern. Es gehen also
+        alle Spenden direkt an den ausgewählten Herzenswunsch.
 
 
-        Sollten die Spenden das Spendenziel des Herzenswunsches übertreffen, werden die Beträge für weitere anonyme Wünsche schwerkranker Kinder bei Make-A-Wish genutzt.
+        \r
+
+        \r
+
+        Sollten die Spenden das Spendenziel des Herzenswunsches
+        übertreffen, werden die Beträge für weitere anonyme Wünsche
+        schwerkranker Kinder bei Make-A-Wish genutzt.
 
 
-        Gespendet werden kann per PayPal, eps-Überweisung, Sofort oder Kreditkarte.
+        \r
+
+        \r
+
+        Gespendet werden kann per PayPal, eps-Überweisung, Sofort oder
+        Kreditkarte."
     - question-de: Ist meine Spende von der Steuer absetzbar?
       answer-de: >-
         Ja, in Österreich und Deutschland geht das auf jeden Fall.
@@ -312,12 +322,14 @@ faq:
         Die Spenden-Formulare auf charityroyale.at sind direkte Einbindungen der Spendenformulare von Make-A-Wish und werden nicht über Drittanbieter gesammelt.
     - question-de: Wo wird meine Spendennachricht angezeigt?
       answer-de: Deine Spendennachricht wird als Alert im jeweiligen Live-Stream
-        automatisch angezeigt.
-    - question-de: Kann ich auch für Charity Royale 2023 Spenden sammeln?
+        automatisch angezeigt. (Das Ausmaß der Einblendung im Overlay der
+        Streams obliegt den Streamer:innen selbst.)
+    - question-de: Kann ich auch für Charity Royale 2024 Spenden sammeln?
       answer-de: N﻿ach vielfachen Anfragen haben wir auch dieses Jahr die Möglichkeit
         geschaffen, dass auch Community-Streamer:innen bei Charity Royale für
         den guten Zweck sammeln. Fülle bitte [dieses
-        Bewerbungsformular](https://forms.gle/D3ec5z7rMxPssjJx8) aus.
+        Bewerbungsformular](https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link)
+        aus.
   questions-en:
     - question-en: TBA
       answer-en: TBA
