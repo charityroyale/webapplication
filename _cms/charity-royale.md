@@ -7,14 +7,7 @@ featuredStream: heideltrauteuw/quad01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
 customDonationLink: ""
-upcoming:
-  - date: 2025-01-01T10:27:05.203Z
-    wishes:
-      - quad01
-    streamerName: HeideltrautEUW
-    streamerChannel: heideltrauteuw
-    streamLink: https://twitch.tv/heideltrauteuw
-    type: MAIN
+upcoming: []
 wishes:
   - slug: ipad01
     tagline: Mohammad-Ali wünscht sich ein iPad
