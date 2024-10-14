@@ -201,7 +201,7 @@ wishes:
       näher.
     donationGoal: "1300"
   - slug: sahil-legoland
-    tagline: Sahil wünscht sich einen Ausflug ins Legoland
+    tagline: Sahil wünscht sich einen Ausflug ins Legoland mit seiner Familie
     childname: Sahil
     descripion: "Shahil ist erst 5 Jahre alt und hat schon mehr durchgemacht als die
       meisten von uns. Aufgrund der Diagnose Leukämie und einer
@@ -290,6 +290,115 @@ wishes:
       Bauernhof herumzulaufen, Tiere zu sehen und die Natur zu genießen und
       seine Krankheit wenigstens für einige Stunden zu vergessen.
     donationGoal: "1800"
+  - slug: avelina-rutschturm
+    tagline: Avelina wünscht sich einen Rutschturm für den Garten
+    childname: Avelina
+    descripion: Avelina (6, Zerebralparese) ist nonverbal und motorisch stark
+      eingeschränkt, aber ihr Lachen und ihre Freude, wenn sie rutscht, sprechen
+      Bände. Da Avelina beim Rutschen Unterstützung braucht, ist es leider auf
+      öffentlichen  Spielplätzen oft schwierig für sie, zu rutschen. Ihr größter
+      Wunsch ist daher eine Rutsche für den Garten, die robust ist und ihr noch
+      viele Jahre eine Freude bereiten kann.
+    donationGoal: "1800"
+  - slug: g-schaukel
+    tagline: G. wünscht sich eine Schaukel zum Entspannen
+    childname: G.
+    descripion: G. ist 8 Jahre alt und lebt mit dem Rett-Syndrom. Kinder mit
+      Rett-Syndrom, einer seltenen neurologischen Erkrankung, haben oft
+      besondere Bedürfnisse, um sich zu entspannen und wohlzufühlen.  Aus diesem
+      Grund wünscht sich G. eine spezielle Schaukel, in der sie sicher und ohne
+      Beaufsichtigung liegen kann, um sich zu beruhigen und zu entspannen.  Eine
+      solche Schaukel würde nicht nur körperliche Entlastung bieten, sondern
+      auch eine wertvolle Möglichkeit zur sensorischen Stimulation und zur
+      Förderung der Entspannung im Alltag darstellen.
+    donationGoal: "1900"
+  - slug: henry-europa-park
+    tagline: Henry wünscht sich einen Ausflug in den Europa-Park mit seiner ganzen
+      Familie
+    childname: Henry
+    descripion: Familienzeit kommt bei schwerkranken Kindern häufig zu kurz, denn
+      häufig dreht sich der Alltag um die Behandlungen und Therapien. Unser
+      Wunschkind Henry wünscht sich daher einen Ausflug in den Europa-Park mit
+      seiner Familie.  Für ihn wäre dieser Besuch eine großartige Gelegenheit,
+      die vielfältigen Attraktionen und Abenteuer des Parks zu erleben und vor
+      allem gemeinsam mit seiner Familie. Von aufregenden Fahrgeschäften bis hin
+      zu tollen Shows – ein Tag im  Europa-Park würde Henry und seiner Familie
+      viele unvergessliche Momente und jede Menge Spaß bringen, die ihnen in
+      dieser schwierigen Zeit glückliche und sinnliche Erinnerungen zaubern.
+    donationGoal: "1800"
+  - slug: vivian-konzert
+    tagline: Vivian wünscht ein Konzert ihrer Lieblingsband in London zu sehen
+    childname: Vivian
+    descripion: Vivian ist 18 Jahre alt und lebt mit dem Rasmussen-Enzephalitis,
+      einer seltenen inflammatorischen und autoimmunen Erkankung. Vivian liebt
+      Musik - sie lenkt sie ab, wenn es ihr nicht gut geht und heitert sie
+      auf.  Ihr großer Wunsch ist es, ihre Lieblingsband live zu treffen und auf
+      einem Konzert ihre Lieblingslieder mitzusingen.
+    donationGoal: "2000"
+  - slug: daliia-kreuzfahrt
+    tagline: Daliia wünscht sich eine Kreuzfahrt mit der AIDA zu machen
+    childname: Daliia
+    descripion: Daliia ist 15 Jahre alt und kommt aus der Ukraine. Für die
+      Behandlung ist sie mit ihrer Mutter in Deutschland und vermisst ihre
+      Heimat und ihre Freunde zuhause sehr.  Daliia hat schon einiges
+      durchmachen müssen und würde so gern einmal eine Kreuzfahrt unternehmen,
+      denn sie möchte gern einmal auf einem großen Schiff übernachten.
+    donationGoal: "2000"
+  - slug: dominik-legoland
+    tagline: Dominik wünscht sich einen Trip ins Legoland
+    childname: Dominik
+    descripion: "Der fünfjährige Dominik kämpft mit Leukämie, was ihn und seine
+      Familie vor große Herausforderungen stellt. Denn es stehen immer wieder
+      medizinische Behandlungen an, die unbeschwertes Spielen und Toben nicht
+      zulassen.  Aber Dominik hat etwas, woran er sich festhalten kann: Er
+      wünscht sich mit Mama, Papa und Bruder Leon ein Abenteuer im Legoland zu
+      erleben, wo er in einem echten Ninjago-Zimmer übernachten möchte."
+    donationGoal: "2100"
+  - slug: doka-laptop
+    tagline: Doka wünscht sich einen Laptop und einen 3D Drucker
+    childname: Doka
+    descripion: Der ruhige und unglaublich kreative Doka ist an Krebs erkrankt.
+      Durch seine Leidenschaft, sich kreativ zu beschäftigen, kann er sich aber
+      immer wieder gut von seiner Erkrankung ablenken.  Doka liebt es nämlich,
+      zu kochen, zu malen und zu basteln. Besonders haben es ihm Dinosaurier
+      angetan – die er nicht nur gerne malt, sondern auch aus verschiedensten
+      Materialien bastelt. Doch der 11-jährige träumt von einer neuen
+      Möglichkeit, seine Kreativität auszuleben. Sein größter Wunsch ist ein
+      Laptop mit einem 3D-Drucker, damit er seine Dino-Kreationen digital
+      gestalten und dann in die Realität umsetzen kann.
+    donationGoal: "2100"
+  - slug: abdul-fahrradanhänger
+    tagline: Abdul wünscht sich einen Fahrradanhänger
+    childname: Abdul
+    descripion: Abdul, ein 17-jähriger Junge aus Syrien, träumt von mehr Freiheit
+      und Mobilität. Aufgrund des Kearns-Sayre-Syndroms, einer seltenen
+      Erkrankung der Augenmuskulatur und des Nervensystems, ist es ihm oft nicht
+      möglich, an den Ausflügen, die seine Familie so gerne macht, teilzunehmen.
+      Der Fahhradanhänger, der ihn bislang ermöglichte an den Familienausflügen
+      teilzunehmen ist nun endgültig zu klein geworden für Abdul, der in der
+      letzten Zeit ein ordentliches Stück gewachsen ist.  Sein Herzenswunsch?
+      Ein gößerer Fahrradanhänger, in dem er bequem Platz findet.
+    donationGoal: "2300"
+  - slug: anastasia-buch
+    tagline: Anastasia wünscht sich ein Buch zu veröffentlichen
+    childname: Anastasia
+    descripion: Anastasia ist 16 Jahre alt und wünscht sich, ihr eigenes Buch zu
+      veröffentlichen, in das sie während ihrer vielen Krankenhausaufenthalte
+      bereits viel Zeit investiert hat. Dieser Wunsch spiegelt ihre Leidenschaft
+      für das Geschichtenerzählen  und ihre kreative Ader wider. Für sie wäre es
+      ein wundervolles Erlebnis, ihre eigenen Ideen und Geschichten in einem
+      Buch festzuhalten und zu sehen, wie ihre Worte in gedruckter Form Gestalt
+      annehmen.
+    donationGoal: "2500"
+  - slug: ceylin-land-of-legends
+    tagline: Ceylin wünscht sich eine Reise in die Türkei und das Land of Legends
+    childname: Ceylin
+    descripion: "Ceylin hatte, seitdem sie ein kleines Mädchen war, einen großen
+      Wunsch: einmal in einem Hotel übernachten und einen echten Vergnügungspark
+      besuchen. Doch ihre Erkrankung und die körperliche Schwäche machten dies
+      bisher unmöglich.  Aber jetzt, mit ihrem neuen Herzen, fühlte sie sich
+      endlich stark genug, um diese Träume in die Tat umzusetzen."
+    donationGoal: "3000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
