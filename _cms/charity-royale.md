@@ -9,7 +9,7 @@ makeAWishProjects: []
 customDonationLink: ""
 upcoming: []
 wishes:
-  - slug: ipad01
+  - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
     childname: Mohammad-Ali
     descripion: Spiderman ist für Mohammad nicht nur ein Held, sondern eine wichtige
@@ -18,7 +18,7 @@ wishes:
       durch, der Akku gibt zu schnell auf.  Deshalb wünscht er sich ein Tablet,
       damit er seinen Helden Spiderman zukünftig in Großformat genießen kann.
     donationGoal: "500"
-  - slug: ipad02
+  - slug: munthi-ipad
     tagline: Munthi wünscht sich ein iPad
     childname: Munthi
     descripion: Für den 11-jährigen ist es unglaublich wichtig, mit seinen Lieben in
@@ -31,7 +31,7 @@ wishes:
       manchmal Schwierigkeiten mit der Feinmotorik hat, wünschte er sich
       zusätzlich ein externes Keyboard, das ihm die Nutzung erleichtert.
     donationGoal: "600"
-  - slug: switch01
+  - slug: t-switch
     tagline: T. wünscht sich eine Nintendo Switch
     descripion: Der 13-jährige T. ist aufgrund seines angeboren Herzfehlers stark
       entwicklungsverzögert. Da T. häufig im Krankenhaus ist, ist seine einzige
@@ -40,7 +40,7 @@ wishes:
       neuste Miraculous Spiel.
     childname: T.
     donationGoal: "650"
-  - slug: lamborghini01
+  - slug: reinhard-lamborghini
     childname: Reinhard
     tagline: Reinhard wünscht sich einen ferngesteuerten Lamborghini
     descripion: Reinhard ist 7 Jahre alt und leidet an einem schweren Immundefekt.
@@ -57,7 +57,7 @@ wishes:
       gehalten werden.
     donationGoal: "800"
     tagline: Joachim wünscht sich eine Zugwerkstatt zu besuchen
-    slug: zugwerkstatt01
+    slug: joachim-zugwerkstatt
   - childname: E.
     descripion: Die zwölfjährige E. hat aufgrund ihrer Erkrankung schon einiges
       durchmachen müssen. Seit nun mehr 10 Jahren ist sie mehr im Krankenhaus
@@ -67,8 +67,8 @@ wishes:
       Playstation 5, um mit ihren Freunden zu zocken.
     donationGoal: "800"
     tagline: E. wünscht sich eine Playstation 5
-    slug: playstation01
-  - childname: Darius wünscht sich einmal selbst in einem Lamborghini mitzufahren
+    slug: e-playstation
+  - childname: Darius
     descripion: Darius ist 13 Jahre und lebt mit Muskeldystrophie Duchenne, eine
       fortschreitende Muskelerkrankung, die mit fortschreitendem Muskelschwund
       einhergeht. Darius liebt schnelle Autos, besonders faszinieren ihn
@@ -77,8 +77,8 @@ wishes:
       in einem grünen Lamborghini zu sitzen und natürlich auch mitzufahren und
       die Geschwindigkeit zu erleben.
     donationGoal: "800"
-    slug: lamborghini02
-    tagline: "Darius wünscht sich "
+    slug: darius-lamborghini
+    tagline: Darius wünscht sich einmal selbst in einem Lamborghini mitzufahren
   - childname: J.
     donationGoal: "900"
     tagline: J. wünscht sich ein Abenteuer mit schnellen Autos
@@ -88,18 +88,18 @@ wishes:
       ""Auto-Raten"" und kennt sich bei allen  Automarken sehr gut aus. J.'s
       großer Wunsch ist ein Abenteuer mit schnellen Autos, ob er wirklich
       mitfahren wird, weiß er aber selbst noch nicht genau ;)
-    slug: auto-abenteuer01
+    slug: j-auto-abenteuer
   - donationGoal: "900"
     childname: L.
     tagline: L. wünscht sich ein Fahrrad
-    slug: fahrrad01
+    slug: l-fahrrad
     descripion: L. ist 4 Jahre alt und lebt mit Leukämie. Aufgrund ihrer
       Behandlungen verbrachte sie viel Zeit im Krankenhaus, dabei spielt L. viel
       lieber in der freien Natur und ist mit ihrer Familie mit dem Fahrrad
       unterwegs.  L. möchte gerne selbst bald Fahrradfahren lernen, damit sie
       ihre beste Freundin besuchen kann. L. wünscht sich das gleiche Fahrrad wie
       ihre Freundin, natürlich in ihrer Lieblingsfarbe lila!
-  - slug: reiterferien01
+  - slug: e-reiterferien
     childname: E.
     donationGoal: "900"
     tagline: E. wünscht sich einen Urlaub auf einem Reiterhof machen zu können
@@ -113,7 +113,7 @@ wishes:
       ihres Hirntumors konfrontiert ist.
   - childname: Jane
     donationGoal: "900"
-    slug: trampolin01
+    slug: jane-trampolin
     tagline: Jane wünscht sich ein Trampolin
     descripion: Jane ist 16 Jahre alt und aufgrund ihrer Krankheit dem
       Cornelia-de-Longe-Syndrom schwerst mehrfach behindert. Jane ist sehr aktiv
@@ -134,7 +134,7 @@ wishes:
       können – auf einem eigenen Kinderquad!  Für ihn bedeutet dieser Wunsch
       mehr als nur Spaß: Es ist ein Stück Freiheit, ein Moment des Vergessens,
       eine Flucht aus dem Alltag, der oft von seiner Krankheit dominiert wird."
-    slug: quad01
+    slug: p-quad
     tagline: P. wünscht sich ein eigenes Kinderquad
   - childname: Yannik
     donationGoal: "1200"
@@ -146,7 +146,7 @@ wishes:
       ein richtiges Abenteuer, in dem er seine Lieblingsspielzeuge und -welten
       in der Realität  erleben kann und natürlich möchte er auch einmal im
       Playmobil Hotel übernachten.
-    slug: playmobil-funpark01
+    slug: yannik-playmobil-funpark
     tagline: Yannik wünscht sich einen Ausflug in den Playmobil Funpark
   - childname: I.
     descripion: Der 5-jährige I. ist ein sehr aktiver Junge, der gerne Fußball
@@ -155,7 +155,7 @@ wishes:
       denn dort möchte er alle Achterbahnen mit seinem Bruder ausprobieren.
     donationGoal: "1200"
     tagline: I. wünscht sich einen Ausflug ins Phantasieland
-    slug: phantasieland01
+    slug: i-phantasieland
   - childname: M.
     tagline: M. wünscht sich eine Kuschelecke in ihrem Zimmer
     descripion: M. ist 8 Jahre alt und lebt mit einem seltenen Gendefekt. Kinder wie
@@ -167,7 +167,7 @@ wishes:
       Zimmer und dazu noch eine Wassersäule mit Strudel und Fischen, die sie
       beobachten kann.
     donationGoal: "1200"
-    slug: kuschelecke01
+    slug: m-kuschelecke
   - childname: D.
     descripion: Unser Wunschkind D. ist 8 Jahre alt und lebt mit einem
       Retinoblastom, eine seltene Krebserkankung im Auge. D. ist ein sehr
@@ -176,7 +176,7 @@ wishes:
       meisten freut sie sich auf den Looping, denn dann "kribbelt es so schön im
       Bauch" :)
     donationGoal: "1200"
-    slug: europa-park01
+    slug: d-europa-park
     tagline: D. wünscht sich einen Ausflug in den Europa-Park
   - tagline: Felix wünscht sich ein Stelzenhaus
     childname: Felix
@@ -186,8 +186,8 @@ wishes:
       nicht nur Spaß bringt, sondern auch seine Stärke und Geschicklichkeit
       herausfordert und beim Muskelaufbau seines Beins helfen soll."
     donationGoal: "1300"
-    slug: stelzenhaus01
-  - slug: gaminglaptop01
+    slug: felix-stelzenhaus
+  - slug: dayshaun-gaminglaptop
     tagline: Dayshaun wünscht sich einen Gaminglaptop
     childname: Dayshaun
     descripion: Dayshauns Krankheit bringt oft Schmerzen und Erschöpfung mit sich,
