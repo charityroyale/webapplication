@@ -200,6 +200,96 @@ wishes:
       das er sich so sehr wünscht hat, kommt er diesem Traum ein großes Stück
       näher.
     donationGoal: "1300"
+  - slug: sahil-legoland
+    tagline: Sahil wünscht sich einen Ausflug ins Legoland
+    childname: Sahil
+    descripion: "Shahil ist erst 5 Jahre alt und hat schon mehr durchgemacht als die
+      meisten von uns. Aufgrund der Diagnose Leukämie und einer
+      Knochenmarkspende musste er lange Zeit mit seiner Mama in Isolation
+      verbringen - getrennt von seiner  Zwillingsschwester und seinem
+      Papa.  Eine sehr anstrengende Zeit, die Shahil tapfer und mutig überstand!
+      Zu Beginn von Shahil’s Wunschreise hat er uns durch seinen Wunschbogen
+      gezeigt, was ihm besonders am Herzen liegt:  Er ist ein begeisterter
+      Lego-Baumeister und verbringt am liebsten Zeit zusammen mit seiner
+      Familie. Daher stand Shahils Wunsch schnell fest: Eine Reise ins Legoland
+      mit der ganzen Familie!"
+    donationGoal: "1400"
+  - slug: p-legoland
+    tagline: P. wünscht sich einen Ausflug ins Legoland
+    childname: P.
+    descripion: Der 5-jährige P. liebt Lego über alles und hat während seiner vielen
+      Krankenhausaufenthalte viele Legobauwerke fertiggestellt.  Sein großer
+      Wunsch stand schnell fest - er wünscht sich einen Ausflug ins Legoland,
+      denn er möchte die vielen einzigartigen Legobauten bestaunen und im
+      Piratenhotel übernachten.
+    donationGoal: "1400"
+  - slug: c-hollywood-schaukel
+    tagline: C. wünscht sich eine Hollywood Schaukel für den Garten
+    childname: C.
+    descripion: C. ist 11 Jahre alt und lebt mit einem tiefgreifenden Gendefekt. Er
+      ist aufgrund dessen nicht nur körperlich eingeschränkt, sondern hat auch
+      besondere Bedürfnisse, um sich zu entspannen und wohlzufühlen.  C. wünscht
+      sich daher eine Hollywoodschaukel für den Garten, denn er ist gern in der
+      freien Natur und die sanften Bewegungen der Schaukel helfen ihm, sich im
+      anstrengenden Alltag zu entspannen und zur Ruhe zu kommen.
+    donationGoal: "1400"
+  - slug: e-meerjungfrauentag
+    tagline: E. wünscht sich einen Meerjungfrauentag mit ihren Freundinnen
+    childname: E.
+    descripion: Für einen Tag eine Meerjungfrau sein, dies ist für viele jüngere
+      Kinder, die gerne schwimmen oder im Wasser spielen, ein großer Traum. So
+      auch die kleine E., die mit einem Hirntumor lebt.  Dabei hat E. auch eine
+      ganz genaue Vorstellung davon, wie ihr Kostüm als Meerjungfrau aussehen
+      soll - am besten in der Lieblingsfarbe und mit gaaanz viel Glitzer
+      verziert.  Außerdem sollen auch ihre beiden besten Freundinnen bei der
+      Meerjungfrauen Party dabei sein, denn gemeinsam schwimmen macht doch am
+      meisten Spaß!
+    donationGoal: "1600"
+  - slug: a-therme
+    tagline: A. wünscht sich einen Ausflug in die Therme Erding
+    childname: A.
+    descripion: A. ist ein sehr aufgeweckter 4-Jähriger, der sich auch von der
+      Leukämie nicht unterkriegen lässt. In seinem Wunschbogen hat er uns
+      geschrieben, dass er gerne wie Sonic suuuuper Speed hätte :)  A. liebt
+      schwimmen und ist meinst nicht aus dem Wasser zu kriegen, daher wünscht er
+      sich mit seiner Familie einen Ausflug in die Therme Erding und dabei hat
+      er uns fest versprochen, dass er alle Rutschen testen möchte!
+    donationGoal: "1600"
+  - slug: l-ipad
+    tagline: L. wünscht sich ein iPad mit besonderem Zubehör
+    childname: L.
+    descripion: Der technisch versierte junge Mann L. lässt sich trotz der Krankheit
+      nicht unterkriegen und nutzt seine Liebe zur Technik, um sich abzulenken
+      und sich weiterhin auf seine Zukunft zu konzentrieren. Besonders angetan
+      ist er von Apple-Produkten. Deshalb wünschte er sich nichts sehnlicher als
+      ein ipad mit Zubehör, um seine Ideen noch besser umsetzen zu können.  Egal
+      ob zum Zeichnen oder Mitschreiben in der Schule – sein iPad würde sein
+      täglicher Begleiter und kreatives Werkzeug werden, meinte er, als er
+      seinen Herzenswunsch äußerte.
+    donationGoal: "1700"
+  - slug: kurt-tropical-island
+    tagline: Kurt wünscht sich einen Ausflug ins Tropical Island
+    childname: Kurt
+    descripion: Kurt ist 4 Jahre alt und musste aufgrund seiner Erkrankung häufig
+      auf vieles verzichten, was andere Kinder in seinem Alter tun. Für ihn wäre
+      ein Besuch im Tropical Island ein echtes Abenteuer voller Spaß und Freude,
+      denn er möchte  unbedingt alle Rutschen austesten und das warme Wasser und
+      das Urlaubsfeeling genießen. Solche Erlebnisse und Abenteuer geben Kindern
+      wie Kurt ein Stück Kindheit zurück, die ihnen durch die Krankheit und den
+      darauffolgenden  Einschränkungen geraubt wurde. Wir freuen uns schon
+      darauf, Kurt als mutigsten Rutschenkönig zu krönen und sind gespannt, wie
+      ihm der Aufenthalt im Tropical Island gefallen hat.
+    donationGoal: "1800"
+  - slug: fiete-bauernhof
+    tagline: Fiete wünscht sich einen Ausflug auf den Bauernhof
+    childname: Fiete
+    descripion: Der fünfjährige Fiete lebt mit Leukämie und träumt von einem Ausflug
+      auf den Bauernhof. Dieser Wunsch würde ihm ermöglichen, die Welt der Tiere
+      und des Landlebens zu entdecken und eine unbeschwerte Zeit zu
+      verbringen.  Für Fiete wäre es ein unvergessliches Erlebnis, auf dem
+      Bauernhof herumzulaufen, Tiere zu sehen und die Natur zu genießen und
+      seine Krankheit wenigstens für einige Stunden zu vergessen.
+    donationGoal: "1800"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
