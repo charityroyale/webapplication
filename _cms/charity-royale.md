@@ -399,6 +399,139 @@ wishes:
       bisher unmöglich.  Aber jetzt, mit ihrem neuen Herzen, fühlte sie sich
       endlich stark genug, um diese Träume in die Tat umzusetzen."
     donationGoal: "3000"
+  - slug: yahya-pc
+    tagline: Yahya wünscht sich einen PC mit Blindenausstattung
+    childname: Yahya
+    descripion: Neben seiner Leidenschaft für Technik liebt Yahya Musik, vor allem
+      den Song „Hollywood Hills“ von Sunrise Avenue, der ihm Kraft und
+      Motivation gibt. Er träumt davon, eines Tages als IT-Spezialist zu
+      arbeiten und seine Fähigkeiten im  Programmieren zu perfektionieren. Um
+      diesem Ziel näherzukommen, wünscht sich Yahya einen speziellen Laptop mit
+      Braille-Tastatur, Voice-Over-Funktion, großem Bildschirm, Maus, Mauspad
+      und Kopfhörern. Mit diesem Laptop könnte Yahya nicht nur seine E-Mails
+      schreiben und sich im Internet bewegen, sondern vor allem in die Welt der
+      Programmierung eintauchen und so den Grundstein für seinen Traumberuf
+      legen.
+    donationGoal: "3300"
+  - slug: h-macbook
+    tagline: H. wünscht sich einen MacBook Pro für die Schule
+    childname: H.
+    descripion: H. hat aufgrund ihrer Krankheit lange Zeit nicht zur Schule gehen
+      können. Viele langen Krankenhausaufenthalten und intensiver Behandlungen
+      machten es ihr unmöglich, dem Schulstoff zu folgen, wodurch sie stark
+      zurückfiel.  H. wünscht sich daher ein MacBook, um während der Quarantäne
+      die Lerninhalte auch von zu Hause aufholen zu können. Damit das Lernen
+      noch etwas mehr Spaß macht, darf natürlich eine passende Hülle in der
+      Lieblingsfarbe nicht fehlen.
+    donationGoal: "3500"
+  - slug: p-gaming-pc
+    tagline: P. wünscht sich einen Gaming-PC
+    childname: P.
+    descripion: "Bei P. wurde ein malignes Melanom diagnostiziert, eine besonders
+      aggressive Form von Hautkrebs. Doch P. hat etwas,  das  ihn von seiner
+      Krankheit gut ablenken kann - Gaming.  Es ist mehr als nur ein Hobby für
+      ihn – es ist eine Welt, in der er seine Sorgen für einige Zeit vergessen
+      und sich mit anderen verbinden kann und ihm ein Stück Normalität
+      zurückgibt.  Sein größter Herzenswunsch ist daher ein leistungsstarker
+      Gaming-PC, der ihm ermöglicht, die neuesten Spiele flüssig zu spielen und
+      in diese Welt der Abenteuer und Herausforderungen einzutauchen "
+    donationGoal: "3500"
+  - slug: a-gaming-pc
+    tagline: A. wünscht sich einen Gaming-PC den sie selbst zusammenbaut
+    childname: A.
+    descripion: A. ist 17 Jahre und sehr technikaffin. Derzeit besitzt sie nur einen
+      sehr alten PC, der für die neusten Spiele aber viel zu langsam ist. Ihr
+      großer Wunsch ist ein neuer PC, den sie sich selbst konfigurieren möchte -
+      und da hat sie bereits ganz  genaue Vorstellungen. Sobald alles abgestimmt
+      und bestellt ist, möchte A. den PC auch selbst zusammen bauen.
+    donationGoal: "3800"
+  - slug: lian-disneyland
+    tagline: Lian wünscht sich eine Reise ins Disneyland Paris
+    childname: Lian
+    descripion: "Der kleine Held fühlt sich stark zu einem großen Helden hingezogen:
+      Lian ist ein großer Fan von Spiderman und genau diesen möchte er im
+      Disneyland Paris treffen und unbedingt ein Foto mit seinem Helden machen,
+      das dann einen  Ehrenplatz in seinem Zimmer bekommen soll. Natürlich
+      möchte er auch Sonic treffen, der ihm auch sehr imponiert und auch im
+      prachtvollen Schloss möchte er natürlich vorbeischauen.  Die Vorfreude auf
+      dieses besondere Erlebnis ist groß, denn für Lian wäre es eine Flucht in
+      die Welt der Magie und Helden, die ihm so viel bedeutet."
+    donationGoal: "4000"
+  - slug: mia-disneyland
+    tagline: Mia wünscht sich eine Reise ins Disneyland Paris
+    childname: Mia
+    descripion: "Während einer schweren Zeit ihrer Krankheit gab es für Mia einen
+      Herzenswunsch, der ihr Hoffnung und Vorfreude schenkte: eine Reise ins
+      Disneyland Paris. Bereits bei der Wunschholung hatte Mia ganz konkrete
+      Vorstellungen von ihrer Traumreise.  Sie erzählte den beiden
+      Wunschholerinnen mit leuchtenden Augen und detailreichen Zeichnungen von
+      ihren Lieblingsfiguren, den Prinzessinnen, und wie sehr sie sich wünschte,
+      das große Märchenschloss und die Disney-Welt in echt zu sehen."
+    donationGoal: "4000"
+  - slug: luca-aegypten
+    tagline: Luca wünscht sich eine Reise nach Ägypten
+    childname: Luca
+    descripion: Lucas Liebe zu Katzen und seine Begeisterung für Schwimmen und
+      Radfahren zeigen, wie viel und Lebensfreude in ihm steckt, auch wenn seine
+      Krankheit ihm manchmal Hindernisse in den Weg legt. Sein größter Wunsch?
+      Eine Woche voller Spaß und Abenteuer in einem Rutschenparadies am Meer
+      gemeinsam mit seiner Mama und seinem Stiefpapa.
+    donationGoal: "4100"
+  - slug: d-gardaland
+    tagline: D. wünscht sich eine Reise ins Gardaland
+    childname: D.
+    descripion: "Die 14-jährige D. ist ein freundliches und aufgeschlossenes
+      Mädchen, das es liebt, mit und im Wasser zu spielen. Das Wasser ist
+      sozusagen ihr Element. Hier fühlt sie sich frei und lebendig. Dershalb ist
+      ihr Wusch auch keine Überraschung: eine Reise nach Gardaland – ein Ort
+      voller Abenteuer und Vergnügen."
+    donationGoal: "4200"
+  - slug: michelle-personal-training
+    tagline: Michelle wünscht sich mit einer Personal Trainerin zu trainieren
+    childname: Michelle
+    descripion: Durch die intensiven Behandlungen der Krankheit hat Michelle viel
+      zugenommen und fühlt sich in ihrem Körper nicht mehr so wohl wie früher.
+      Um wieder mehr Selbstvertrauen zu gewinnen und ihre Gesundheit zu stärken,
+      hat sich Michelle eine  Personal Trainerin gewünscht, die sie ein Jahr
+      lang begleitet. Diese soll ihr helfen, ihre Ernährung umzustellen, sie zur
+      Bewegung zu motivieren und ihr beibringen, wie sie gesunde Einkäufe macht
+      und mit Freude selbst kocht.  Der Wunsch, gemeinsam mit jemandem die
+      Freude an Bewegung und gesunder Ernährung zu entdecken, war für Michelle
+      ein wichtiger Schritt.
+    donationGoal: "4300"
+  - slug: mykola-laptop
+    tagline: Mykola wünscht sich einen leistungsstarken Laptop und Monitor
+    childname: Mykola
+    descripion: Mykolas größter Wunsch ist ein hochleistungsstarker Laptop mit allem
+      notwendigen Zubehör, um seine Leidenschaft für Maschinenbau und
+      hochentwickelte Spiele endlich voll ausleben zu können.  Der Laptop ist
+      für Mykola vor allem ein wichtiger Baustein auf seinem Weg, seine Träume
+      zu verwirklichen und sein Studium in Wien erfolgreich zu meistern.
+    donationGoal: "4300"
+  - slug: paul-muscle-beach
+    tagline: Paul wünscht sich einmal am Muscle Beach zu trainieren
+    childname: Paul
+    descripion: "Trotz der schweren Diagnose Spindelzellsarkom kämpft er sich durch
+      jede Herausforderung und bleibt seinem größten Hobby treu: dem
+      Fitnesssport. Deshalb hat Paul einen ganz besonderen Wunsch: Er möchte
+      unbedingt nach Los Angeles reisen,  um dort an einem der legendärsten Orte
+      der Fitnesswelt zu trainieren – am Muscle Beach. Man kann sich schon
+      vorstellen, wie Paul dort mit funkelnden Augen zwischen all den gestählten
+      Athleten seine Gewichte stemmt, das Rauschen des  Pazifiks im Hintergrund,
+      und das alles unter der Sonne Kaliforniens. Ein Moment, der ihm unendliche
+      Motivation und Freude schenken würde!"
+    donationGoal: "7000"
+  - slug: lukas-motorrad
+    tagline: Lukas wünscht sich ein Motocross Motorrad
+    childname: Lukas
+    descripion: "Lukas leidet an einem schweren Kurzdarmsyndrom, einer seltenen
+      Erkrankung, bei der ein großer Teil des Dünndarms fehlt oder
+      funktionsunfähig ist und welche seinen Alltag maßgeblich beeinflusst. Der
+      17-jährige lässt sich durch seine Erkrankung  jedoch nicht beirren und
+      lebt seine große Leidenschaft: das Motorcross-Fahren. Für den Teenager,
+      der für diesen Sport lebt, war sein Herzenswunsch klar – ein neues
+      Motorcross-Motorrad. Sein altes Kindermotorrad war längst zu klein."
+    donationGoal: "8000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/s3eABap__xc
