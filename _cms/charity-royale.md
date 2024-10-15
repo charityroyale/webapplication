@@ -534,8 +534,8 @@ wishes:
     donationGoal: "8000"
 faq:
   videos:
-    - url: https://www.youtube.com/embed/s3eABap__xc
-      name: Best of Charity Royale 2021
+    - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
+      name: Best of Charity Royale 2024
     - url: https://www.youtube.com/embed/vU2ptSb66FE
       name: FAQs by Veni - Charity Royale 2022
   questions-de:
