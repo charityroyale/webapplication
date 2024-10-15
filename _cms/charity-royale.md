@@ -549,44 +549,28 @@ faq:
         sammeln dieses Jahr erneut für die Erfüllung von Herzenswünschen
         schwerkranker Kinder.
 
-
         \r
 
-        \r
+        \r"
+    - question-de: Wie viele Spenden konnten mit Charity Royale bereits gesammelt werden?
+      answer-de: >-
+        Seit dem Beginn der Zusammenarbeit zwischen Charity Royale by Veni und
+        willhaben und Make-A-Wish konnten bereits **618.497,44€ an
+        Spendensumme** von 19.016 Einzelspenden für Herzenswünsche schwerkranker
+        Kinder gesammelt werden.
 
-        * 2018 erreichten wir 10.450€ für die [Kinderkrebsforschung des
-        St. Anna Kinderspitals](https://kinderkrebsforschung.at/).\r
 
-        * 2019 ging es mit Licht ins Dunkel um das [Projekt PROSA -
-        Schule für alle](https://www.prosa-schule.org/), für das wir 27.100€
-        sammeln konnten.\r
+        * 2018 erreichten wir 10.450€ für die [Kinderkrebsforschung des St. Anna Kinderspitals](https://kinderkrebsforschung.at/).
 
-        * 2020 haben wir erstmals mit der [Make-A-Wish Foundation
-        Österreich](https://www.make-a-wish.at) Herzenswünsche schwerkranker
-        Kinder erfüllt und dafür rund 83.500€ während 23 Tagen täglicher
-        Livestreams sammeln können.\r
+        * 2019 ging es mit Licht ins Dunkel um das [Projekt PROSA - Schule für alle](https://www.prosa-schule.org/), für das wir 27.100€ sammeln konnten.
 
-        * 2021 konnten wir erstmalig eine sechsstellige Summe für die
-        [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at) sammeln,
-        und durften uns über ein gelungenes 24h-Stream-Finale freuen. Mehr als
-        155.000€ wurden dabei für Herzenswünsche schwerkranker Kinder
-        gespendet.\r
+        * 2020 haben wir erstmals mit der [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at) Herzenswünsche schwerkranker Kinder erfüllt und dafür rund 83.500€ während 23 Tagen täglicher Livestreams sammeln können.
 
-        * 2022 wurde das Projekt Charity Royale zweifach ausgezeichnet:
-        mit dem österreichischen Fundraising Award und mit dem \"Goldenen
-        Hashtag\" als bestes Influencer Projekt des Landes. Dieses Jahr wird es
-        erneut einen Monat voller Charity-Streams inkl. Final-Event by Veni
-        geben, nur haben wir uns diesmal für den Oktober entschieden. Bei den
-        mehr als 30 gemeinnützigen Streams haben wir in diesem Jahr 131.261,59€
-        für Make-A-Wish sammeln können.\r
+        * 2021 konnten wir erstmalig eine sechsstellige Summe für die [Make-A-Wish Foundation Österreich](https://www.make-a-wish.at) sammeln, und durften uns über ein gelungenes 24h-Stream-Finale freuen. Mehr als 155.000€ wurden dabei für Herzenswünsche schwerkranker Kinder gespendet.
 
-        * 2023 konnten wir unseren Spenden-Rekord von 2021 abermals
-        brechen und erreichten erstmals mehr als eine viertel Million Euro, um
-        genau zu sein 252.797,40€, die zugunsten schwerkranker Kinder bei
-        Make-A-Wish Österreich und Make-A-Wish Deutschland gingen. Mehr als 3
-        Millionen Besuche verzeichnete das Event und wurde bei der
-        internationalen Make-A-Wish Konferenz als \"Best in Streaming, Gaming
-        and Influencer Campaigning\" ausgezeichnet"
+        * 2022 wurde das Projekt Charity Royale zweifach ausgezeichnet: mit dem österreichischen Fundraising Award und mit dem "Goldenen Hashtag" als bestes Influencer Projekt des Landes. Dieses Jahr wird es erneut einen Monat voller Charity-Streams inkl. Final-Event by Veni geben, nur haben wir uns diesmal für den Oktober entschieden. Bei den mehr als 30 gemeinnützigen Streams haben wir in diesem Jahr 131.261,59€ für Make-A-Wish sammeln können.
+
+        * 2023 konnten wir unseren Spenden-Rekord von 2021 abermals brechen und erreichten erstmals mehr als eine viertel Million Euro, um genau zu sein 252.797,40€, die zugunsten schwerkranker Kinder bei Make-A-Wish Österreich und Make-A-Wish Deutschland gingen. Mehr als 3 Millionen Besuche verzeichnete das Event und wurde bei der internationalen Make-A-Wish Konferenz als "Best in Streaming, Gaming and Influencer Campaigning" ausgezeichnet
     - question-de: Was ist die Make-A-Wish Foundation?
       answer-de: "Vor 40 Jahren führte der Wunsch eines siebenjährigen krebskranken
         Jungen, der unbedingt Polizist werden wollte, zur Gründung einer
