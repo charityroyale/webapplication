@@ -65,7 +65,7 @@ export interface CmsContent {
 
 export const cmsContent = rawCmsContent.attributes as CmsContent
 const featuredDonationLink = cmsContent.customDonationLink || cmsContent.featuredStream
-export const cmsFeaturedStreamLink = featuredDonationLink.includes('www.make-a-wish.at')
+export const cmsFeaturedStreamLink = featuredDonationLink.includes('make-a-wish.at')
 	? 'https://www.make-a-wish.at'
 	: `/${featuredDonationLink}`
 
