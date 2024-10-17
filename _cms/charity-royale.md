@@ -7,7 +7,14 @@ featuredStream: heideltrauteuw/quad01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
 customDonationLink: https://make-a-wish.at
-upcoming: []
+upcoming:
+  - date: 2024-11-09T15:36:38.556Z
+    streamerName: Fr0zenNoah
+    streamerChannel: fr0zennoah
+    streamLink: https://www.twitch.tv/fr0zennoah
+    type: COMMUNITY
+    wishes:
+      - legoland01
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
