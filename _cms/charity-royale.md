@@ -12,7 +12,7 @@ upcoming:
     streamerName: Fr0zenNoah
     streamerChannel: fr0zennoah
     streamLink: https://www.twitch.tv/fr0zennoah
-    type: COMMUNITY
+    type: community
     wishes:
       - legoland01
 wishes:
