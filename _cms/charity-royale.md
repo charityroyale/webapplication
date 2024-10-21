@@ -36,6 +36,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland02
+  - date: 2024-11-15T14:52:27.378Z
+    streamerName: Kartoffel_98
+    streamerChannel: kartoffel_98
+    streamLink: https://twitch.tv/luaks
+    type: COMMUNITY
+    wishes:
+      - dino11
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -591,6 +598,14 @@ wishes:
       und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
+    donationGoal: "500"
+  - slug: dino11
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
     donationGoal: "500"
 faq:
   videos:
