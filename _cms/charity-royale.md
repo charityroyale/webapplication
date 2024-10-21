@@ -39,7 +39,7 @@ upcoming:
   - date: 2024-11-15T14:52:27.378Z
     streamerName: Kartoffel_98
     streamerChannel: kartoffel_98
-    streamLink: https://twitch.tv/luaks
+    streamLink: https://twitch.tv/kartoffel_98
     type: COMMUNITY
     wishes:
       - dino11
