@@ -8,7 +8,7 @@ applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfS
 makeAWishProjects: []
 customDonationLink: https://make-a-wish.at
 upcoming:
-  - date: 2024-11-09T15:36:38.556Z
+  - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
     streamerChannel: fr0zennoah
     streamLink: https://www.twitch.tv/fr0zennoah
