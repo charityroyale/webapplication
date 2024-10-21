@@ -15,6 +15,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland01
+  - date: 2024-11-23T15:01:10.088Z
+    streamerName: Schmistyy
+    streamerChannel: schmistyy
+    streamLink: https://twitch.tv/schmistyy
+    type: COMMUNITY
+    wishes:
+      - legoland10
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -540,6 +547,14 @@ wishes:
       Motorcross-Motorrad. Sein altes Kindermotorrad war längst zu klein."
     donationGoal: "8000"
   - slug: legoland01
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland10
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
