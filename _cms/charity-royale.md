@@ -12,9 +12,9 @@ upcoming:
     streamerName: Fr0zenNoah
     streamerChannel: fr0zennoah
     streamLink: https://www.twitch.tv/fr0zennoah
-    type: community
+    type: COMMUNITY
     wishes:
-      - legoland10
+      - legoland01
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -539,7 +539,7 @@ wishes:
       der für diesen Sport lebt, war sein Herzenswunsch klar – ein neues
       Motorcross-Motorrad. Sein altes Kindermotorrad war längst zu klein."
     donationGoal: "8000"
-  - slug: legoland10
+  - slug: legoland01
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
