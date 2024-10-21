@@ -29,6 +29,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube01
+  - date: 2024-11-12T14:38:23.275Z
+    streamerName: luaks
+    streamerChannel: luaks
+    streamLink: https://twitch.tv/luaks
+    type: COMMUNITY
+    wishes:
+      - legoland02
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -577,6 +584,14 @@ wishes:
     childname: Wunschkind
     donationGoal: "500"
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+  - slug: legoland02
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
