@@ -22,6 +22,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland10
+  - date: 2024-11-16T14:14:20.623Z
+    streamerName: papriga
+    streamerChannel: papriga
+    streamLink: https://twitch.tv/papriga
+    type: COMMUNITY
+    wishes:
+      - youtube01
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -562,6 +569,14 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "500"
+  - slug: youtube01
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    childname: Wunschkind
+    donationGoal: "500"
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
