@@ -57,7 +57,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin01
-  - date: 2024-10-22T09:48:25.614Z
+  - date: 2024-11-02T13:48:25.614Z
     streamerName: Atienne14
     streamerChannel: atienne14
     streamLink: https://www.twitch.tv/atienne14
