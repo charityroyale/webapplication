@@ -57,6 +57,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin01
+  - date: 2024-10-22T09:48:25.614Z
+    streamerName: Atienne14
+    streamerChannel: atienne14
+    streamLink: https://www.twitch.tv/atienne14
+    type: COMMUNITY
+    wishes:
+      - legoland11
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -636,6 +643,14 @@ wishes:
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland11
+    tagline: Eine Reise ins Legoland
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    childname: Wunschkind
     donationGoal: "500"
 faq:
   videos:
