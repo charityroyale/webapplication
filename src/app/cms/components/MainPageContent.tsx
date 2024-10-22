@@ -6,7 +6,7 @@ const MainGrid = styled.main`
 	grid-area: main;
 	display: grid;
 	grid-template-rows: auto auto auto auto auto auto auto;
-	grid-template-areas: 'featured' 'faq-box' 'livechannels' 'featured-header' 'upcoming' 'past-header' 'past';
+	grid-template-areas: 'featured' 'faq-box' 'livechannels' 'special-events-header' 'featured-header' 'upcoming' 'past-header' 'past';
 
 	padding-top: 20px;
 

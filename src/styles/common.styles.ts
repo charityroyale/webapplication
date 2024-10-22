@@ -205,3 +205,57 @@ export const StyledDonatorsWidget = styled.div`
 export const StyledLatestDonatorssWidget = styled.div`
 	grid-area: donation-widget-top-latest-donators;
 `
+
+export const StyleSpecialEventsHeader = styled.div`
+	color: ${(p) => p.theme.color.white};
+	grid-area: special-events-header;
+	margin-top: 64px;
+	text-align: center;
+
+	${(p) => p.theme.media.phone} {
+		margin-top: 44px;
+	}
+`
+
+export const StyledSpecialEventsGrid = styled.div`
+	padding: 0 ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xxl}px ${(p) => p.theme.space.xl}px;
+	grid-area: upcoming;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
+	margin: auto;
+	max-width: 1100px;
+	margin-top: 32px;
+
+	${(p) => p.theme.media.tablet} {
+		padding: ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xl}px;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: ${(p) => p.theme.gridGrap.tablet}px;
+	}
+
+	${(p) => p.theme.media.phone} {
+		padding: 0;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: ${(p) => p.theme.gridGrap.tablet}px;
+		margin: 0;
+	}
+`
+export const StyledSpecialEvent = styled.div`
+	aspect-ratio: 1/1;
+
+	border: 10px solid;
+	border-width: 3px;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(to right, #7df8ff, #c03be4);
+	box-shadow: 4px 4px 3px 1px #000000;
+	background-color: #231565;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+		display: block;
+		width: 56%;
+		height: auto;
+	}
+`

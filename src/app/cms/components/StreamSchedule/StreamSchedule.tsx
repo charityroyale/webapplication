@@ -16,10 +16,14 @@ import {
 	StyledUpcoming,
 	StylePastStreamsHeader,
 	StyledPast,
+	StyleSpecialEventsHeader,
+	StyledSpecialEventsGrid,
+	StyledSpecialEvent,
 } from '../../../../styles/common.styles'
 import { LiveChannels } from './LiveChannels'
 import { useLiveChannels } from '../../../hooks/useLiveChannels'
 import { isMultiStream } from '../../../utils/streamerUtils'
+import { BsFillQuestionSquareFill } from 'react-icons/bs'
 
 interface StreamScheduleProps {
 	schedules: CmsSchedulesType
@@ -73,6 +77,29 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 		<React.Fragment>
 			{liveChannelsData.length > 0 && <LiveChannels />}
 			<React.Fragment>
+				<StyleSpecialEventsHeader>
+					<StyleUpcomingStreamsTitle>
+						<Text content="specialEventsTitle" />
+					</StyleUpcomingStreamsTitle>
+					<p>
+						<Text content="specialEventsDescription" />{' '}
+					</p>
+					<StyledSpecialEventsGrid>
+						<StyledSpecialEvent>
+							<BsFillQuestionSquareFill />
+						</StyledSpecialEvent>
+						<StyledSpecialEvent>
+							<BsFillQuestionSquareFill />
+						</StyledSpecialEvent>
+						<StyledSpecialEvent>
+							<BsFillQuestionSquareFill />
+						</StyledSpecialEvent>
+						<StyledSpecialEvent>
+							<BsFillQuestionSquareFill />
+						</StyledSpecialEvent>
+					</StyledSpecialEventsGrid>
+				</StyleSpecialEventsHeader>
+
 				<StyleUpcomingStreamsHeader>
 					<StyleUpcomingStreamsTitle>
 						<Text content="scheduledStreamsTitle" />
