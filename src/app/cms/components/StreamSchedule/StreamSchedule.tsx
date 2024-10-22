@@ -72,43 +72,39 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 	return (
 		<React.Fragment>
 			{liveChannelsData.length > 0 && <LiveChannels />}
-			{futureStreamsSorted.length > 0 && (
-				<React.Fragment>
-					<StyleUpcomingStreamsHeader>
-						<StyleUpcomingStreamsTitle>
-							<Text content="scheduledStreamsTitle" />
-						</StyleUpcomingStreamsTitle>
-						<p>
-							<Text content="downloadScheduleTitle" />{' '}
-							<StyledKalenderDownloadLink
-								aria-describedby="Programm als Kalender"
-								href={`/calendar/all.ics`}
-							>
-								<Text content="downloadCTA" />
-							</StyledKalenderDownloadLink>
-							.
-						</p>
-						<ScheduleTypeGrid>
-							<ScheduleTypeButton
-								value="main"
-								onClick={changeScheduleTypeOnClick}
-								$isActive={scheduleType === 'main'}
-							>
-								Main
-							</ScheduleTypeButton>
-							<div></div>
-							<ScheduleTypeButton
-								value="community"
-								onClick={changeScheduleTypeOnClick}
-								$isActive={scheduleType === 'community'}
-							>
-								Community
-							</ScheduleTypeButton>
-						</ScheduleTypeGrid>
-					</StyleUpcomingStreamsHeader>
-					<StyledUpcoming>{futureStreamsSorted.map(createUpcomingStream)}</StyledUpcoming>
-				</React.Fragment>
-			)}
+			<React.Fragment>
+				<StyleUpcomingStreamsHeader>
+					<StyleUpcomingStreamsTitle>
+						<Text content="scheduledStreamsTitle" />
+					</StyleUpcomingStreamsTitle>
+					<p>
+						<Text content="downloadScheduleTitle" />{' '}
+						<StyledKalenderDownloadLink aria-describedby="Programm als Kalender" href={`/calendar/all.ics`}>
+							<Text content="downloadCTA" />
+						</StyledKalenderDownloadLink>
+						.
+					</p>
+					<ScheduleTypeGrid>
+						<ScheduleTypeButton
+							value="main"
+							onClick={changeScheduleTypeOnClick}
+							$isActive={scheduleType === 'main'}
+						>
+							Main
+						</ScheduleTypeButton>
+						<div></div>
+						<ScheduleTypeButton
+							value="community"
+							onClick={changeScheduleTypeOnClick}
+							$isActive={scheduleType === 'community'}
+						>
+							Community
+						</ScheduleTypeButton>
+					</ScheduleTypeGrid>
+				</StyleUpcomingStreamsHeader>
+				<StyledUpcoming>{futureStreamsSorted.map(createUpcomingStream)}</StyledUpcoming>
+			</React.Fragment>
+
 			{pastStreamsSorted.length > 0 && (
 				<React.Fragment>
 					<StylePastStreamsHeader>
