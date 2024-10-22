@@ -64,7 +64,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland11
-  - date: 2024-10-22T10:01:29.500Z
+  - date: 2024-11-16T11:01:29.500Z
     streamerName: jatti4win
     streamerChannel: jatti4win
     streamLink: https://www.twitch.tv/jatti4win
