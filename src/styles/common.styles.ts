@@ -224,7 +224,7 @@ export const StyledSpecialEventsGrid = styled.div`
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 	margin: auto;
-	max-width: 1100px;
+	max-width: 1300px;
 	margin-top: 32px;
 
 	${(p) => p.theme.media.tablet} {
@@ -234,28 +234,51 @@ export const StyledSpecialEventsGrid = styled.div`
 	}
 
 	${(p) => p.theme.media.phone} {
-		padding: 0;
+		padding: ${(p) => p.theme.space.s}px ${(p) => p.theme.space.s}px;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: ${(p) => p.theme.gridGrap.tablet}px;
 		margin: 0;
 	}
 `
-export const StyledSpecialEvent = styled.div`
+export const StyledSpecialEvent = styled.div<{ $bg: string }>`
 	aspect-ratio: 1/1;
+
+	background: url(${(p) => p.$bg});
+	background-size: contain;
 
 	border: 10px solid;
 	border-width: 3px;
 	border-image-slice: 1;
 	border-image-source: linear-gradient(to right, #7df8ff, #c03be4);
 	box-shadow: 4px 4px 3px 1px #000000;
-	background-color: #231565;
+
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: center;
+
+	background-position: center;
+	background-repeat: no-repeat;
 
 	svg {
 		display: block;
 		width: 56%;
 		height: auto;
+	}
+
+	div {
+		background-color: #231565b0;
+		padding: 8px 12px;
+		width: 100%;
+		text-align: left;
+	}
+
+	strong {
+		font-size: ${(p) => p.theme.fontSize.l}px;
+		margin-bottom: 2px;
+		display: block;
+	}
+
+	p {
+		font-size: 14px;
 	}
 `

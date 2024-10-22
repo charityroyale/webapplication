@@ -23,7 +23,6 @@ import {
 import { LiveChannels } from './LiveChannels'
 import { useLiveChannels } from '../../../hooks/useLiveChannels'
 import { isMultiStream } from '../../../utils/streamerUtils'
-import { BsFillQuestionSquareFill } from 'react-icons/bs'
 
 interface StreamScheduleProps {
 	schedules: CmsSchedulesType
@@ -85,18 +84,22 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 						<Text content="specialEventsDescription" />{' '}
 					</p>
 					<StyledSpecialEventsGrid>
-						<StyledSpecialEvent>
-							<BsFillQuestionSquareFill />
+						<StyledSpecialEvent $bg="/uploads/charity_royale_rgb_300x300.png"></StyledSpecialEvent>
+						<StyledSpecialEvent $bg="/specials/kochshow.png">
+							<div>
+								<p>
+									<strong>Kochshow</strong>
+								</p>
+								<p>08.11</p>
+								<p>
+									<a href="twitch.tv/chef_jan" target="_blank">
+										twitch.tv/chef_jan
+									</a>
+								</p>
+							</div>
 						</StyledSpecialEvent>
-						<StyledSpecialEvent>
-							<BsFillQuestionSquareFill />
-						</StyledSpecialEvent>
-						<StyledSpecialEvent>
-							<BsFillQuestionSquareFill />
-						</StyledSpecialEvent>
-						<StyledSpecialEvent>
-							<BsFillQuestionSquareFill />
-						</StyledSpecialEvent>
+						<StyledSpecialEvent $bg="/uploads/charity_royale_rgb_300x300.png"></StyledSpecialEvent>
+						<StyledSpecialEvent $bg="/uploads/charity_royale_rgb_300x300.png"></StyledSpecialEvent>
 					</StyledSpecialEventsGrid>
 				</StyleSpecialEventsHeader>
 
