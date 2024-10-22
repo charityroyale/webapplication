@@ -92,7 +92,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 								</p>
 								<p>08.11</p>
 								<p>
-									<a href="twitch.tv/chef_jan" target="_blank">
+									<a href="https://www.twitch.tv/chef_jan" target="_blank" rel="noreferrer">
 										twitch.tv/chef_jan
 									</a>
 								</p>
