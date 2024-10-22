@@ -85,6 +85,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - disneyland01
+  - date: 2024-11-05T14:11:14.475Z
+    streamerName: nofaceforanyone
+    streamerChannel: nofaceforanyone
+    streamLink: https://www.twitch.tv/nofaceforanyone
+    type: COMMUNITY
+    wishes:
+      - "500"
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -697,6 +704,14 @@ wishes:
     childname: Wunschkind
     tagline: Eine Reise ins Disneyland
     donationGoal: "2000"
+  - slug: prinzessin02
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
