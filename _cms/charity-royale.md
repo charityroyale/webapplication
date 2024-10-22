@@ -50,6 +50,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino01
+  - date: 2024-11-16T15:18:14.527Z
+    streamerName: Zeer0ni
+    streamerChannel: zeer0ni
+    streamLink: https://www.twitch.tv/zeer0ni
+    type: COMMUNITY
+    wishes:
+      - prinzessin01
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -618,6 +625,14 @@ wishes:
     tagline: Einen Dinosaurier treffen
     childname: Wunschkind
     descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin01
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
