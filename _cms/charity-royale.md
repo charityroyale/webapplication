@@ -64,6 +64,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland11
+  - date: 2024-10-22T10:01:29.500Z
+    streamerName: jatti4win
+    streamerChannel: jatti4win
+    streamLink: https://www.twitch.tv/jatti4win
+    type: COMMUNITY
+    wishes:
+      - youtube11
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -651,6 +658,14 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     childname: Wunschkind
+    donationGoal: "500"
+  - slug: youtube11
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
     donationGoal: "500"
 faq:
   videos:
