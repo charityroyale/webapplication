@@ -71,6 +71,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube11
+  - date: 2024-11-06T12:04:20.934Z
+    streamerName: SpaceMitX
+    streamerChannel: spacemitx
+    streamLink: https://www.twitch.tv/spacemitx
+    type: COMMUNITY
+    wishes:
+      - dino02
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -666,6 +673,14 @@ wishes:
       einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
+    donationGoal: "500"
+  - slug: dino02
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
     donationGoal: "500"
 faq:
   videos:
