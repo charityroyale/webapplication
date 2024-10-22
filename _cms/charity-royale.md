@@ -21,7 +21,7 @@ upcoming:
     streamLink: https://twitch.tv/schmistyy
     type: COMMUNITY
     wishes:
-      - legoland10
+      - legoland03
   - date: 2024-11-16T14:14:20.623Z
     streamerName: papriga
     streamerChannel: papriga
@@ -589,7 +589,7 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "500"
-  - slug: legoland10
+  - slug: legoland03
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
