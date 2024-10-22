@@ -99,6 +99,20 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube02
+  - date: 2024-11-16T14:46:13.816Z
+    streamerName: icyVACE & cherryylein
+    streamerChannel: icyVACE
+    streamLink: https://www.twitch.tv/icyvace
+    type: COMMUNITY
+    wishes:
+      - legoland04
+  - date: 2024-11-16T14:46:14.098Z
+    streamerName: icyVACE & cherryylein
+    streamerChannel: cherryylein
+    streamLink: https://www.twitch.tv/cherryylein
+    type: COMMUNITY
+    wishes:
+      - legoland04
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -726,6 +740,14 @@ wishes:
       Wunsch!
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
     childname: Wunschkind
+    donationGoal: "500"
+  - slug: legoland04
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine Reise ins Legoland
     donationGoal: "500"
 faq:
   videos:
