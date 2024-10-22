@@ -92,6 +92,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin02
+  - date: 2024-11-23T14:25:30.317Z
+    streamerName: ItsGleisi
+    streamerChannel: itsgleisi
+    streamLink: https://www.twitch.tv/itsgleisi
+    type: COMMUNITY
+    wishes:
+      - youtube02
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -711,6 +718,14 @@ wishes:
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: youtube02
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
     donationGoal: "500"
 faq:
   videos:
