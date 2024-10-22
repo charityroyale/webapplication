@@ -183,7 +183,7 @@ export const StyledKalenderDownloadLink = styled.a`
 
 export const StyleUpcomingStreamsTitle = styled.h2`
 	font-size: 54px;
-	margin-bottom: 4px;
+	margin-bottom: 12px;
 
 	${(p) => p.theme.media.tablet} {
 		font-size: 38px;

@@ -91,6 +91,9 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 							$isActive={scheduleType === 'main'}
 						>
 							Main
+							<span>
+								{schedules['main'].length > 0 ? `${schedules['main'].length} Streams` : 'Streams TBA'}
+							</span>
 						</ScheduleTypeButton>
 						<div></div>
 						<ScheduleTypeButton
@@ -99,6 +102,11 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 							$isActive={scheduleType === 'community'}
 						>
 							Community
+							<span>
+								{schedules['community'].length > 0
+									? `${schedules['community'].length} Streams`
+									: 'Streams TBA'}
+							</span>
 						</ScheduleTypeButton>
 					</ScheduleTypeGrid>
 				</StyleUpcomingStreamsHeader>
@@ -173,6 +181,7 @@ const ScheduleTypeButton = styled.button<{ $isActive: boolean }>`
 	color: ${(p) => p.theme.color.white};
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	align-items: center;
 	font-size: ${(p) => p.theme.fontSize.l}px;
 	font-weight: 600;
@@ -187,6 +196,10 @@ const ScheduleTypeButton = styled.button<{ $isActive: boolean }>`
 		${(p) => p.theme.color.charityPink}
 	);
 	box-shadow: 4px 4px 3px 1px #000000;
+
+	& > span {
+		font-size: ${(p) => p.theme.fontSize.s}px;
+	}
 
 	&:hover,
 	&:focus {
