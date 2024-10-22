@@ -91,7 +91,7 @@ upcoming:
     streamLink: https://www.twitch.tv/nofaceforanyone
     type: COMMUNITY
     wishes:
-      - "500"
+      - prinzessin02
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
