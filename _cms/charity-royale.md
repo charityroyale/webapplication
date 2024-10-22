@@ -78,7 +78,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino02
-  - date: 2024-10-22T11:18:31.567Z
+  - date: 2024-11-05T12:18:31.567Z
     streamLink: https://www.twitch.tv/huytastic
     streamerName: huytastic
     streamerChannel: huytastic
@@ -689,7 +689,7 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
-  - slug: disyneyland01
+  - slug: disneyland01
     descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
       und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
