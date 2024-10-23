@@ -120,6 +120,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin03
+  - date: 2024-11-20T12:39:19.944Z
+    streamerName: DerLiber
+    streamerChannel: derliber
+    streamLink: https://www.twitch.tv/derliber
+    type: COMMUNITY
+    wishes:
+      - prinzessin04
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -757,6 +764,14 @@ wishes:
     tagline: Eine Reise ins Legoland
     donationGoal: "500"
   - slug: prinzessin03
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin04
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
     descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
