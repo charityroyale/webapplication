@@ -113,6 +113,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland04
+  - date: 2024-11-22T13:31:55.390Z
+    streamerName: Kaijoken
+    streamerChannel: kaijoken
+    streamLink: twitch.tv/kaijoken
+    type: COMMUNITY
+    wishes:
+      - prinzessin03
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -748,6 +755,14 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     tagline: Eine Reise ins Legoland
+    donationGoal: "500"
+  - slug: prinzessin03
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
     donationGoal: "500"
 faq:
   videos:
