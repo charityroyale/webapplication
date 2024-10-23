@@ -127,6 +127,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin04
+  - date: 2024-11-08T12:53:48.129Z
+    streamerName: xtornadotommy
+    streamerChannel: xtornadotommy
+    streamLink: https://www.twitch.tv/xtornadotommy
+    type: COMMUNITY
+    wishes:
+      - gamingpc01
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -779,6 +786,13 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
+  - slug: gamingpc01
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
