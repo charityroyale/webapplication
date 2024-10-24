@@ -162,6 +162,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland05
+  - date: 2024-11-09T11:54:01.181Z
+    streamerName: TiaraGorgon
+    streamerChannel: tiaragorgon
+    streamLink: https://www.twitch.tv/tiaragorgon
+    type: COMMUNITY
+    wishes:
+      - legoland13
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -846,6 +853,14 @@ wishes:
       diesen Wunsch!
     donationGoal: "500"
   - slug: legoland05
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland13
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
