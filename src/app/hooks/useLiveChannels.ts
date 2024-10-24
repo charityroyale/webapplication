@@ -40,6 +40,14 @@ const getUpcomingStreamers = (allStreamers: CmsUpcomingStreamer[]) => {
 export const useLiveChannels = () => {
 	const liveNow = getUpcomingStreamers(upcomingStreamers ?? [])
 
+	if (!liveNow || liveNow.length < 0) {
+		return {
+			liveChannelsData: [],
+			liveChannelsDataIsLoading: false,
+			liveChannelsDataIsError: true,
+		}
+	}
+
 	const { data, error } = useSWR<LiveChannelsResponse>(
 		`${statsApi.liveStreamsUrl}?channels=${channelsParam(liveNow)}`,
 		fetcher,
