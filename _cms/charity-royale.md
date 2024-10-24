@@ -148,6 +148,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - disneyland02
+  - date: 2024-10-24T07:38:54.691Z
+    streamerName: Minooo99_
+    streamerChannel: minooo99_
+    streamLink: https://www.twitch.tv/minooo99_
+    type: COMMUNITY
+    wishes:
+      - legoland12
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -823,6 +830,14 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "2000"
+  - slug: legoland12
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
