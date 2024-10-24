@@ -141,6 +141,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino03
+  - date: 2024-11-15T13:27:40.253Z
+    streamerName: maaareq
+    streamerChannel: maaareq
+    streamLink: https://www.twitch.tv/maaareq
+    type: COMMUNITY
+    wishes:
+      - disneyland02
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -808,6 +815,14 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
+  - slug: disneyland02
+    tagline: Eine Reise ins Disneyland
+    childname: Wunschkind
+    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "2000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
