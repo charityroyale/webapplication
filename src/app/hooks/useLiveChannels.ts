@@ -40,7 +40,7 @@ const getUpcomingStreamers = (allStreamers: CmsUpcomingStreamer[]) => {
 export const useLiveChannels = () => {
 	const liveNow = getUpcomingStreamers(upcomingStreamers ?? [])
 
-	if (!liveNow || liveNow.length < 0) {
+	if (!liveNow || liveNow.length < 1) {
 		return {
 			liveChannelsData: [],
 			liveChannelsDataIsLoading: false,
