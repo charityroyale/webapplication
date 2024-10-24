@@ -155,6 +155,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland12
+  - date: 2024-11-08T13:47:12.449Z
+    streamerName: Breakez
+    streamerChannel: breakez
+    streamLink: https://www.twitch.tv/breakez
+    type: COMMUNITY
+    wishes:
+      - legoland05
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -831,6 +838,14 @@ wishes:
       diesen Wunsch!
     donationGoal: "2000"
   - slug: legoland12
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland05
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
