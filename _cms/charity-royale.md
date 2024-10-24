@@ -116,7 +116,7 @@ upcoming:
   - date: 2024-11-22T13:31:55.390Z
     streamerName: Kaijoken
     streamerChannel: kaijoken
-    streamLink: twitch.tv/kaijoken
+    streamLink: https://twitch.tv/kaijoken
     type: COMMUNITY
     wishes:
       - prinzessin03
@@ -134,6 +134,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - gamingpc01
+  - date: 2024-11-23T14:10:14.046Z
+    streamerName: space_warrior_19
+    streamerChannel: space_warrior_19
+    streamLink: https://twitch.tv/space_warrior_19
+    type: COMMUNITY
+    wishes:
+      - dino03
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -793,6 +800,14 @@ wishes:
       der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
       einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - slug: dino03
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
