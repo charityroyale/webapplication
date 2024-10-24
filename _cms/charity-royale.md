@@ -148,7 +148,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - disneyland02
-  - date: 2024-10-24T07:38:54.691Z
+  - date: 2024-11-21T12:38:54.691Z
     streamerName: Minooo99_
     streamerChannel: minooo99_
     streamLink: https://www.twitch.tv/minooo99_
