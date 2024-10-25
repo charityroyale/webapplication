@@ -169,6 +169,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland13
+  - date: 2024-11-17T13:42:20.423Z
+    streamerName: sylveenah
+    streamerChannel: sylveenah
+    streamLink: https://twitch.tv/sylveenah
+    type: COMMUNITY
+    wishes:
+      - legoland06
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -861,6 +868,14 @@ wishes:
       diesen Wunsch!
     donationGoal: "500"
   - slug: legoland13
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland06
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
