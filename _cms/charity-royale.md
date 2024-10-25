@@ -183,6 +183,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - gamingpc02
+  - date: 2024-11-10T11:23:57.063Z
+    streamerName: einjulchen
+    streamerChannel: einjulchen
+    streamLink: https://twitch.tv/einjulchen
+    type: COMMUNITY
+    wishes:
+      - prinzessin05
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -897,6 +904,14 @@ wishes:
       der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
       einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - slug: prinzessin05
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
