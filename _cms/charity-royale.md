@@ -176,6 +176,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland06
+  - date: 2024-11-30T10:57:43.815Z
+    streamerName: JessydeLua
+    streamerChannel: jessydelua
+    streamLink: https://www.twitch.tv/jessydelua
+    type: COMMUNITY
+    wishes:
+      - gamingpc02
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -883,6 +890,13 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "500"
+  - slug: gamingpc02
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
