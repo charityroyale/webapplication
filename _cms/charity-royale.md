@@ -204,6 +204,20 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube04
+  - date: 2024-11-09T12:49:50.673Z
+    streamerName: xMrCr4cy
+    streamerChannel: xmrcr4cy & s0ulrider
+    streamLink: https://www.twitch.tv/xmrcr4zy
+    type: COMMUNITY
+    wishes:
+      - gamingpc03
+  - date: 2024-11-09T12:49:57.881Z
+    wishes:
+      - gamingpc03
+    type: COMMUNITY
+    streamerName: xmrcr4cy & s0ulrider
+    streamerChannel: s0ulrider
+    streamLink: https://www.twitch.tv/s0ulrider
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -942,6 +956,13 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "500"
+  - slug: gamingpc03
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
