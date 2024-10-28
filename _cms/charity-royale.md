@@ -191,8 +191,8 @@ upcoming:
     wishes:
       - prinzessin05
   - date: 2024-11-16T10:53:18.220Z
-    streamerName: TVIncible
-    streamerChannel: tvincible
+    streamerName: TVInvincible
+    streamerChannel: tvinvincible
     streamLink: https://twitch.tv/TVInvincible
     type: COMMUNITY
     wishes:
