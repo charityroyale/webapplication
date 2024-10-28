@@ -206,7 +206,7 @@ upcoming:
       - youtube04
   - date: 2024-11-09T12:49:50.673Z
     streamerName: xMrCr4cy & s0ulrider
-    streamerChannel: xmrcr4cy
+    streamerChannel: xmrcr4zy
     streamLink: https://www.twitch.tv/xmrcr4zy
     type: COMMUNITY
     wishes:
