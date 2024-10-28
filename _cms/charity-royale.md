@@ -101,7 +101,7 @@ upcoming:
       - youtube02
   - date: 2024-11-16T14:46:13.816Z
     streamerName: icyVACE & cherryylein
-    streamerChannel: icyVACE
+    streamerChannel: icyvace
     streamLink: https://www.twitch.tv/icyvace
     type: COMMUNITY
     wishes:
