@@ -92,7 +92,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin02
-  - date: 2024-11-23T14:25:30.317Z
+  - date: 2024-11-16T14:25:30.317Z
     streamerName: ItsGleisi
     streamerChannel: itsgleisi
     streamLink: https://www.twitch.tv/itsgleisi
