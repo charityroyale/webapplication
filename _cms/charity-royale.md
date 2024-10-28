@@ -205,8 +205,8 @@ upcoming:
     wishes:
       - youtube04
   - date: 2024-11-09T12:49:50.673Z
-    streamerName: xMrCr4cy
-    streamerChannel: xmrcr4cy & s0ulrider
+    streamerName: xMrCr4cy & s0ulrider
+    streamerChannel: xmrcr4cy
     streamLink: https://www.twitch.tv/xmrcr4zy
     type: COMMUNITY
     wishes:
@@ -215,7 +215,7 @@ upcoming:
     wishes:
       - gamingpc03
     type: COMMUNITY
-    streamerName: xmrcr4cy & s0ulrider
+    streamerName: xMrCr4cy & s0ulrider
     streamerChannel: s0ulrider
     streamLink: https://www.twitch.tv/s0ulrider
 wishes:
