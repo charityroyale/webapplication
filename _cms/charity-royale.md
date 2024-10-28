@@ -218,6 +218,76 @@ upcoming:
     streamerName: xMrCr4zy & s0ulrider
     streamerChannel: s0ulrider
     streamLink: https://www.twitch.tv/s0ulrider
+  - date: 2024-11-05T13:43:49.881Z
+    streamerName: Fabo
+    streamerChannel: fabo
+    streamLink: https://www.twitch.tv/Fabo
+    type: MAIN
+    wishes:
+      - reinhard-lamborghini
+  - date: 2024-11-06T13:45:09.678Z
+    streamerName: merleperle
+    streamerChannel: merleperle
+    streamLink: https://www.twitch.tv/merleperle
+    type: MAIN
+    wishes:
+      - e-reiterferien
+  - date: 2024-11-07T13:45:12.161Z
+    streamerName: Clym
+    streamerChannel: clym
+    streamLink: https://www.twitch.tv/clym
+    type: MAIN
+    wishes:
+      - t-switch
+  - date: 2024-11-09T13:45:12.590Z
+    streamerName: CastCrafter
+    streamerChannel: castcrafter
+    streamLink: https://www.twitch.tv/CastCrafter
+    type: MAIN
+    wishes:
+      - luca-aegypten
+  - date: 2024-11-17T13:50:46.886Z
+    streamerName: mahluna
+    streamerChannel: mahluna
+    streamLink: https://www.twitch.tv/mahluna
+    type: MAIN
+    wishes:
+      - p-legoland
+  - date: 2024-11-18T13:50:47.297Z
+    streamerName: stev0rr
+    streamerChannel: stev0rr
+    streamLink: https://www.twitch.tv/stev0rr
+    type: MAIN
+    wishes:
+      - e-playstation
+  - date: 2024-11-19T13:50:48.027Z
+    streamerName: LetsHugo
+    streamerChannel: letshugotv
+    streamLink: https://www.twitch.tv/LetsHugoTV
+    type: MAIN
+    wishes:
+      - mia-disneyland
+  - date: 2024-11-20T13:50:48.685Z
+    streamerName: nooreax
+    streamerChannel: nooreax
+    streamLink: https://www.twitch.tv/nooreax
+    type: MAIN
+    wishes:
+      - mohammad-ali-ipad
+  - date: 2024-11-23T13:50:49.272Z
+    streamerName: Dhalucard
+    streamerChannel: dhalucard
+    streamLink: https://www.twitch.tv/Dhalucard
+    type: MAIN
+    wishes:
+      - yahya-pc
+  - date: 2024-11-22T13:50:49.868Z
+    streamerName: starletnova
+    streamerChannel: starletnova
+    streamLink: https://www.twitch.tv/StarletNova
+    type: MAIN
+    wishes:
+      - vivian-konzert
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -410,9 +480,9 @@ wishes:
       das er sich so sehr wünscht hat, kommt er diesem Traum ein großes Stück
       näher.
     donationGoal: "1300"
-  - slug: sahil-legoland
-    tagline: Sahil wünscht sich einen Ausflug ins Legoland mit seiner Familie
-    childname: Sahil
+  - slug: shahil-legoland
+    tagline: Shahil wünscht sich einen Ausflug ins Legoland mit seiner Familie
+    childname: Shahil
     descripion: "Shahil ist erst 5 Jahre alt und hat schon mehr durchgemacht als die
       meisten von uns. Aufgrund der Diagnose Leukämie und einer
       Knochenmarkspende musste er lange Zeit mit seiner Mama in Isolation
