@@ -190,6 +190,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin05
+  - date: 2024-11-16T10:53:18.220Z
+    streamerName: TVIncible
+    streamerChannel: tvincible
+    streamLink: https://twitch.tv/TVInvincible
+    type: COMMUNITY
+    wishes:
+      - youtube03
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -911,6 +918,14 @@ wishes:
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: youtube03
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
     donationGoal: "500"
 faq:
   videos:
