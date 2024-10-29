@@ -317,7 +317,7 @@ upcoming:
     wishes:
       - shahil-legoland
   - date: 2024-11-25T12:00:29.196Z
-    streamerName: Sinticia
+    streamerName: Sintica
     streamerChannel: sintica
     streamLink: https://www.twitch.tv/Sintica
     type: MAIN
