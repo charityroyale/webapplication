@@ -288,6 +288,27 @@ upcoming:
     type: MAIN
     wishes:
       - vivian-konzert
+  - date: 2024-11-02T09:27:12.222Z
+    streamerName: Wichtiger
+    streamerChannel: wichtiger
+    streamLink: https://www.twitch.tv/wichtiger
+    type: MAIN
+    wishes:
+      - jane-trampolin
+  - date: 2024-11-12T09:27:12.693Z
+    streamerName: krokoboss
+    streamerChannel: krokoboss
+    streamLink: https://www.twitch.tv/krokoboss
+    type: MAIN
+    wishes:
+      - anastasia-buch
+  - date: 2024-11-13T09:27:13.195Z
+    streamerName: MrsXeniaTV
+    streamerChannel: mrsxeniatv
+    streamLink: https://www.twitch.tv/MrsXeniaTV
+    type: MAIN
+    wishes:
+      - fiete-bauernhof
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
