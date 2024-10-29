@@ -323,6 +323,27 @@ upcoming:
     type: MAIN
     wishes:
       - a-therme
+  - date: 2024-11-16T12:30:08.003Z
+    streamerName: KrustiBurger
+    streamerChannel: krustiburger
+    streamLink: https://www.twitch.tv/krustiburger
+    type: COMMUNITY
+    wishes:
+      - legoland07
+  - date: 2024-11-16T12:30:08.413Z
+    streamerName: Elibold
+    streamerChannel: elibold
+    streamLink: https://www.twitch.tv/elibold
+    type: COMMUNITY
+    wishes:
+      - youtube05
+  - date: 2024-11-15T12:30:08.920Z
+    streamerName: Janskii_
+    streamerChannel: janskii_
+    streamLink: https://www.twitch.tv/Janskii_
+    type: COMMUNITY
+    wishes:
+      - prinzessin06
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1068,6 +1089,30 @@ wishes:
       der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
       einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - slug: legoland07
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: youtube05
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin06
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
