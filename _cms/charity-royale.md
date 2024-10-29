@@ -309,6 +309,20 @@ upcoming:
     type: MAIN
     wishes:
       - fiete-bauernhof
+  - date: 2024-11-21T12:00:28.824Z
+    streamerName: V1nKub
+    streamerChannel: v1nkub
+    streamLink: https://www.twitch.tv/V1nKub
+    type: MAIN
+    wishes:
+      - shahil-legoland
+  - date: 2024-11-25T12:00:29.196Z
+    streamerName: Sinticia
+    streamerChannel: sintica
+    streamLink: https://www.twitch.tv/Sintica
+    type: MAIN
+    wishes:
+      - a-therme
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
