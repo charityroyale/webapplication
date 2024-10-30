@@ -344,6 +344,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin06
+  - date: 2024-11-10T08:24:10.432Z
+    streamerName: BastiGHG
+    streamerChannel: bastighg
+    streamLink: https://www.twitch.tv/bastighg
+    type: MAIN
+    wishes:
+      - lukas-motorrad
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
