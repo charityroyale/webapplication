@@ -351,6 +351,13 @@ upcoming:
     type: MAIN
     wishes:
       - lukas-motorrad
+  - date: 2024-11-29T14:23:21.737Z
+    wishes:
+      - harrypotter01
+    type: COMMUNITY
+    streamerName: Arts_ly
+    streamerChannel: arts_ly
+    streamLink: https://www.twitch.tv/arts_ly
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1120,6 +1127,14 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
+  - slug: harrypotter01
+    tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
