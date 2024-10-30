@@ -162,7 +162,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland05
-  - date: 2024-11-09T11:54:01.181Z
+  - date: 2024-11-10T11:54:01.181Z
     streamerName: TiaraGorgon
     streamerChannel: tiaragorgon
     streamLink: https://www.twitch.tv/tiaragorgon
