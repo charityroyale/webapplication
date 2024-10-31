@@ -86,7 +86,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 					<StyledSpecialEventsGrid>
 						<StyledSpecialEvent
 							$bg="/specials/mc.jpg"
-							href="https://www.twitch.tv/derbanko"
+							href="/derbanko/event-minecraft"
 							target="_blank"
 							rel="noreferrer"
 						>
