@@ -106,7 +106,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 						>
 							<div>
 								<p>
-									<strong>Kochshow</strong>
+									<strong>Chef Royale</strong>
 								</p>
 								<p>08.11</p>
 								<p className="highlight-teal">twitch.tv/chef_jan</p>
