@@ -240,7 +240,7 @@ export const StyledSpecialEventsGrid = styled.div`
 		margin: 0;
 	}
 `
-export const StyledSpecialEvent = styled.div<{ $bg: string }>`
+export const StyledSpecialEvent = styled.a<{ $bg: string }>`
 	aspect-ratio: 1/1;
 
 	background: url(${(p) => p.$bg});
@@ -258,7 +258,8 @@ export const StyledSpecialEvent = styled.div<{ $bg: string }>`
 
 	background-position: center;
 	background-repeat: no-repeat;
-
+	text-decoration: none;
+	color: white;
 	svg {
 		display: block;
 		width: 56%;
@@ -270,6 +271,11 @@ export const StyledSpecialEvent = styled.div<{ $bg: string }>`
 		padding: 8px 12px;
 		width: 100%;
 		text-align: left;
+	}
+
+	.highlight-teal {
+		text-decoration: underline;
+		color: ${(p) => p.theme.color.charityTeal};
 	}
 
 	strong {

@@ -84,30 +84,32 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 						<Text content="specialEventsDescription" />{' '}
 					</p>
 					<StyledSpecialEventsGrid>
-						<StyledSpecialEvent $bg="/specials/mc.jpg">
+						<StyledSpecialEvent
+							$bg="/specials/mc.jpg"
+							href="https://www.twitch.tv/derbanko"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<div>
 								<p>
 									<strong>Minecraft Rivals</strong>
 								</p>
 								<p>01.11, 18:00</p>
-								<p>
-									<a href="https://www.twitch.tv/derbanko" target="_blank" rel="noreferrer">
-										twitch.tv/derbanko
-									</a>
-								</p>
+								<p className="highlight-teal">twitch.tv/derbanko</p>
 							</div>
 						</StyledSpecialEvent>
-						<StyledSpecialEvent $bg="/specials/kochshow.png">
+						<StyledSpecialEvent
+							$bg="/specials/kochshow.png"
+							href="https://www.twitch.tv/chef_jan"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<div>
 								<p>
 									<strong>Kochshow</strong>
 								</p>
 								<p>08.11</p>
-								<p>
-									<a href="https://www.twitch.tv/chef_jan" target="_blank" rel="noreferrer">
-										twitch.tv/chef_jan
-									</a>
-								</p>
+								<p className="highlight-teal">twitch.tv/chef_jan</p>
 							</div>
 						</StyledSpecialEvent>
 						<StyledSpecialEvent $bg="/uploads/charity_royale_rgb_300x300.png"></StyledSpecialEvent>
