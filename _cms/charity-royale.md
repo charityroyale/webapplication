@@ -358,6 +358,20 @@ upcoming:
     streamerName: Arts_ly
     streamerChannel: arts_ly
     streamLink: https://www.twitch.tv/arts_ly
+  - date: 2024-11-04T09:26:28.876Z
+    streamerName: mienah_
+    streamerChannel: mienah_
+    streamLink: https://www.twitch.tv/mienah_
+    type: MAIN
+    wishes:
+      - d-europa-park
+  - date: 2024-11-03T09:26:29.420Z
+    streamerName: Faister
+    streamerChannel: faister
+    streamLink: https://www.twitch.tv/Faister
+    type: MAIN
+    wishes:
+      - p-quad
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
