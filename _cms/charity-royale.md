@@ -1156,6 +1156,11 @@ wishes:
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - slug: event-minecraft
+    tagline: Charity Royale Rivals
+    donationGoal: "6000"
+    childname: " "
+    descripion: " "
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
