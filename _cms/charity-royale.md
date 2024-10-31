@@ -379,6 +379,20 @@ upcoming:
     type: MAIN
     wishes:
       - event-minecraft
+  - date: 2024-11-04T11:25:12.853Z
+    streamerName: StephanTschany & YourHostLaura
+    streamerChannel: stephantschany
+    streamLink: https://www.twitch.tv/stephantschany
+    type: COMMUNITY
+    wishes:
+      - dino04
+  - date: 2024-11-04T11:25:13.443Z
+    type: COMMUNITY
+    wishes:
+      - dino04
+    streamerName: YourHostLaura & StephanTschany
+    streamerChannel: yourhostlaura
+    streamLink: https://www.twitch.tv/yourhostlaura
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -959,14 +973,6 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
-  - slug: legoland11
-    tagline: Eine Reise ins Legoland
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    childname: Wunschkind
-    donationGoal: "500"
   - slug: youtube11
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
     childname: Wunschkind
@@ -1164,6 +1170,14 @@ wishes:
       Streamer:innen in 3 Spielmodi (Bingo, ItemHunt und SelloutRun)
       gegeneinander antreten. Dabei kannst Du mittels Donations für schwerkranke
       Kinder direkt in das Spielgeschehen eingreifen."
+  - slug: dino04
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
