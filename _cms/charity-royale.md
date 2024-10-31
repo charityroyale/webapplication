@@ -372,6 +372,13 @@ upcoming:
     type: MAIN
     wishes:
       - p-quad
+  - date: 2024-11-01T09:33:30.491Z
+    streamerName: DerBanko
+    streamerChannel: derbanko
+    streamLink: https://www.twitch.tv/derbanko
+    type: MAIN
+    wishes:
+      - event-minecraft
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
