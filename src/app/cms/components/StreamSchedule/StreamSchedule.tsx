@@ -89,7 +89,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 								<p>
 									<strong>Minecraft Rivals</strong>
 								</p>
-								<p>01.11, 13:00</p>
+								<p>01.11, 18:00</p>
 								<p>
 									<a href="https://www.twitch.tv/derbanko" target="_blank" rel="noreferrer">
 										twitch.tv/derbanko
