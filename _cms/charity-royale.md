@@ -393,13 +393,6 @@ upcoming:
     streamerName: YourHostLaura & StephanTschany
     streamerChannel: yourhostlaura
     streamLink: https://www.twitch.tv/yourhostlaura
-  - date: 2024-11-28T14:13:23.158Z
-    streamerName: ElyaraAer
-    streamerChannel: elyaraaer
-    streamLink: https://www.twitch.tv/elyaraaer
-    type: COMMUNITY
-    wishes:
-      - prinzessin07
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
