@@ -6,7 +6,7 @@ featuredYoutubeStream: https://www.youtube.com/embed/PIuJ4jLjQDc?si=JM_VgaMywVqQ
 featuredStream: heideltrauteuw/quad01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: https://make-a-wish.at
+customDonationLink: https://charityroyale.at/derbanko/event-minecraft
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
