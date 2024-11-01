@@ -1164,7 +1164,7 @@ wishes:
     donationGoal: "1000"
   - slug: event-minecraft
     tagline: Charity Royale Rivals
-    donationGoal: "40000"
+    donationGoal: "42000"
     childname: " "
     descripion: " Charity Royale Rivals ist ein Minecraft Event, bei dem Teams aus
       Streamer:innen in 3 Spielmodi (Bingo, ItemHunt und SelloutRun)
