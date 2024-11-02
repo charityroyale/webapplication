@@ -3,10 +3,10 @@ title: Charity Royale ðŸ‘‘ Der Charity-Stream Marathon von Veni und willhaben fÃ
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: https://www.youtube.com/embed/PIuJ4jLjQDc?si=JM_VgaMywVqQ8ki9
-featuredStream: wichtiger/jane-trampolin
+featuredStream: wichtiger/prinzessin07
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: wichtiger/jane-trampolin
+customDonationLink: wichtiger/prinzessin07
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -295,6 +295,7 @@ upcoming:
     type: MAIN
     wishes:
       - jane-trampolin
+      - prinzessin07
   - date: 2024-11-12T09:27:12.693Z
     streamerName: krokoboss
     streamerChannel: krokoboss
