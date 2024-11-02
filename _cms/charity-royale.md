@@ -6,7 +6,7 @@ featuredYoutubeStream: https://www.youtube.com/embed/PIuJ4jLjQDc?si=JM_VgaMywVqQ
 featuredStream: wichtiger/prinzessin07
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: wichtiger/prinzessin07
+customDonationLink: atienne14/gamingpc04
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -919,54 +919,14 @@ wishes:
       der für diesen Sport lebt, war sein Herzenswunsch klar – ein neues
       Motorcross-Motorrad. Sein altes Kindermotorrad war längst zu klein."
     donationGoal: "8000"
-  - slug: legoland01
-    tagline: Eine Reise ins Legoland
-    childname: Wunschkind
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    donationGoal: "500"
-  - slug: legoland03
-    tagline: Eine Reise ins Legoland
-    childname: Wunschkind
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    donationGoal: "500"
-  - slug: youtube01
-    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
-      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
-      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
-      Wunsch!
-    childname: Wunschkind
-    donationGoal: "500"
-    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
-  - slug: legoland02
-    tagline: Eine Reise ins Legoland
-    childname: Wunschkind
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    donationGoal: "500"
-  - slug: dino11
-    tagline: Einen Dinosaurier treffen
-    childname: Wunschkind
-    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
-    donationGoal: "500"
-  - slug: dino01
-    tagline: Einen Dinosaurier treffen
-    childname: Wunschkind
-    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
-    donationGoal: "500"
+  - slug: event-minecraft
+    tagline: Charity Royale Rivals
+    donationGoal: "55000"
+    childname: " "
+    descripion: " Charity Royale Rivals ist ein Minecraft Event, bei dem Teams aus
+      Streamer:innen in 3 Spielmodi (Bingo, ItemHunt und SelloutRun)
+      gegeneinander antreten. Dabei kannst Du mittels Donations für schwerkranke
+      Kinder direkt in das Spielgeschehen eingreifen."
   - slug: prinzessin01
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
@@ -975,30 +935,6 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
-  - slug: youtube11
-    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
-    childname: Wunschkind
-    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
-      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
-      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
-      Wunsch!
-    donationGoal: "500"
-  - slug: dino02
-    tagline: Einen Dinosaurier treffen
-    childname: Wunschkind
-    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
-    donationGoal: "500"
-  - slug: disneyland01
-    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    childname: Wunschkind
-    tagline: Eine Reise ins Disneyland
-    donationGoal: "2000"
   - slug: prinzessin02
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
@@ -1006,22 +942,6 @@ wishes:
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
-    donationGoal: "500"
-  - slug: youtube02
-    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
-      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
-      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
-      Wunsch!
-    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
-    childname: Wunschkind
-    donationGoal: "500"
-  - slug: legoland04
-    childname: Wunschkind
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    tagline: Eine Reise ins Legoland
     donationGoal: "500"
   - slug: prinzessin03
     tagline: Einen Tag lang Prinzessin sein
@@ -1039,46 +959,63 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
-  - slug: gamingpc01
-    tagline: Ein neuer Gaming-PC
+  - slug: prinzessin05
+    tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
-    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
-      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
-      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
-    donationGoal: "1000"
-  - slug: dino03
-    tagline: Einen Dinosaurier treffen
-    childname: Wunschkind
-    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
-  - slug: disneyland02
-    tagline: Eine Reise ins Disneyland
+  - slug: prinzessin06
+    tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
-    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    donationGoal: "2000"
-  - slug: legoland12
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin07
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland01
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
       und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland02
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland03
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland04
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine Reise ins Legoland
     donationGoal: "500"
   - slug: legoland05
-    tagline: Eine Reise ins Legoland
-    childname: Wunschkind
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    donationGoal: "500"
-  - slug: legoland13
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
@@ -1094,20 +1031,53 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "500"
-  - slug: gamingpc02
-    tagline: Ein neuer Gaming-PC
+  - slug: legoland07
+    tagline: Eine Reise ins Legoland
     childname: Wunschkind
-    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
-      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
-      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
-    donationGoal: "1000"
-  - slug: prinzessin05
-    tagline: Einen Tag lang Prinzessin sein
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland11
+    tagline: Eine Reise ins Legoland
     childname: Wunschkind
-    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland12
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland13
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: youtube01
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    childname: Wunschkind
+    donationGoal: "500"
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+  - slug: youtube02
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
     donationGoal: "500"
   - slug: youtube03
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
@@ -1125,21 +1095,6 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "500"
-  - slug: gamingpc03
-    tagline: Ein neuer Gaming-PC
-    childname: Wunschkind
-    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
-      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
-      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
-    donationGoal: "1000"
-  - slug: legoland07
-    tagline: Eine Reise ins Legoland
-    childname: Wunschkind
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    donationGoal: "500"
   - slug: youtube05
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
     childname: Wunschkind
@@ -1148,10 +1103,50 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "500"
-  - slug: prinzessin06
-    tagline: Einen Tag lang Prinzessin sein
+  - slug: youtube11
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
     childname: Wunschkind
-    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "500"
+  - slug: dino01
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: dino02
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: dino03
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: dino04
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: dino11
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
@@ -1164,38 +1159,27 @@ wishes:
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
-  - slug: event-minecraft
-    tagline: Charity Royale Rivals
-    donationGoal: "55000"
-    childname: " "
-    descripion: " Charity Royale Rivals ist ein Minecraft Event, bei dem Teams aus
-      Streamer:innen in 3 Spielmodi (Bingo, ItemHunt und SelloutRun)
-      gegeneinander antreten. Dabei kannst Du mittels Donations für schwerkranke
-      Kinder direkt in das Spielgeschehen eingreifen."
-  - slug: dino04
-    tagline: Einen Dinosaurier treffen
+  - slug: gamingpc01
+    tagline: Ein neuer Gaming-PC
     childname: Wunschkind
-    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
-    donationGoal: "500"
-  - slug: prinzessin07
-    tagline: Einen Tag lang Prinzessin sein
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: gamingpc02
+    tagline: Ein neuer Gaming-PC
     childname: Wunschkind
-    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
-    donationGoal: "500"
-  - slug: legoland11
-    tagline: Eine Reise ins Legoland
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: gamingpc03
+    tagline: Ein neuer Gaming-PC
     childname: Wunschkind
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    donationGoal: "500"
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
   - slug: gamingpc04
     tagline: Ein neuer Gaming-PC
     childname: Wunschkind
@@ -1203,6 +1187,22 @@ wishes:
       der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
       einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - slug: disneyland01
+    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    childname: Wunschkind
+    tagline: Eine Reise ins Disneyland
+    donationGoal: "2000"
+  - slug: disneyland02
+    tagline: Eine Reise ins Disneyland
+    childname: Wunschkind
+    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "2000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
