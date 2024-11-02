@@ -78,7 +78,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino02
-  - date: 2024-11-05T12:18:31.567Z
+  - date: 2024-11-19T12:18:31.567Z
     streamLink: https://www.twitch.tv/huytastic
     streamerName: huytastic
     streamerChannel: huytastic
