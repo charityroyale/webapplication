@@ -439,7 +439,7 @@ upcoming:
     streamLink: https://www.twitch.tv/trueseb4
     type: COMMUNITY
     wishes:
-      - leogland08
+      - legoland08
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
