@@ -433,6 +433,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino05
+  - date: 2024-11-04T15:05:32.286Z
+    streamerName: TrueSeb4
+    streamerChannel: trueseb4
+    streamLink: https://www.twitch.tv/trueseb4
+    type: COMMUNITY
+    wishes:
+      - leogland08
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1077,6 +1084,14 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "500"
+  - slug: legoland08
+    donationGoal: "500"
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    tagline: Eine Reise ins Legoland
   - slug: legoland11
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
