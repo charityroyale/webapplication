@@ -2,7 +2,7 @@
 title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben für
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
-featuredYoutubeStream: https://www.youtube.com/embed/PIuJ4jLjQDc?si=JM_VgaMywVqQ8ki9
+featuredYoutubeStream: ""
 featuredStream: faister/gamingecke01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
