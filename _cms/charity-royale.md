@@ -396,6 +396,13 @@ upcoming:
     streamerName: YourHostLaura & StephanTschany
     streamerChannel: yourhostlaura
     streamLink: https://www.twitch.tv/yourhostlaura
+  - date: 2024-11-09T09:53:50.042Z
+    streamerName: Wettermann_
+    streamLink: https://www.twitch.tv/wettermann_
+    streamerChannel: wettermann_
+    type: COMMUNITY
+    wishes:
+      - youtube06
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1104,6 +1111,14 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "500"
+  - slug: youtube06
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    donationGoal: "500"
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
   - slug: youtube11
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
     childname: Wunschkind
