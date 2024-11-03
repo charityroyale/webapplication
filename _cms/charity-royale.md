@@ -411,6 +411,13 @@ upcoming:
     type: MAIN
     wishes:
       - dayshaun-gaminglaptop
+  - date: 2024-11-24T11:28:58.375Z
+    streamLink: https://www.twitch.tv/Veyla
+    streamerName: Veyla
+    streamerChannel: veyla
+    type: MAIN
+    wishes:
+      - joachim-zugwerkstatt
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
