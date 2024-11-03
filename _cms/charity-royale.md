@@ -1188,6 +1188,14 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
+  - slug: dino05
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
   - slug: dino11
     tagline: Einen Dinosaurier treffen
     childname: Wunschkind
