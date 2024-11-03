@@ -418,6 +418,20 @@ upcoming:
     type: MAIN
     wishes:
       - joachim-zugwerkstatt
+  - date: 2024-11-26T15:19:17.723Z
+    streamerName: bxrbie
+    streamerChannel: bxrbiex
+    streamLink: https://www.twitch.tv/bxrbiex
+    type: COMMUNITY
+    wishes:
+      - dino05
+  - date: 2024-11-26T11:39:21.112Z
+    streamerName: Shillingplays
+    streamLink: https://www.twitch.tv/shillingplays
+    streamerChannel: shillingplays
+    type: COMMUNITY
+    wishes:
+      - dino05
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
