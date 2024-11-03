@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: https://www.youtube.com/embed/PIuJ4jLjQDc?si=JM_VgaMywVqQ8ki9
-featuredStream: faister/p-quad
+featuredStream: faister/gamingecke01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: faister/p-quad
+customDonationLink: faister/gamingecke01
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -374,6 +374,7 @@ upcoming:
     type: MAIN
     wishes:
       - p-quad
+      - gamingecke01
   - date: 2024-11-01T09:33:30.491Z
     streamerName: DerBanko
     streamerChannel: derbanko
@@ -1202,6 +1203,14 @@ wishes:
       und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
+    donationGoal: "2000"
+  - descripion: Eine Gaming-Ecke ist für viele Kinder ein großer Wunsch und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    childname: Wunschkind
+    slug: gamingecke01
+    tagline: Eine neue Gaming-Ecke
     donationGoal: "2000"
 faq:
   videos:
