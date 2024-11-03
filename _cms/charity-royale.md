@@ -404,6 +404,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube06
+  - date: 2024-11-26T11:23:20.924Z
+    streamerName: Papaplatte
+    streamLink: https://www.twitch.tv/papaplatte
+    streamerChannel: papaplatte
+    type: MAIN
+    wishes:
+      - dayshaun-gaminglaptop
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
