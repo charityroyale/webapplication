@@ -3,10 +3,10 @@ title: Charity Royale ðŸ‘‘ Der Charity-Stream Marathon von Veni und willhaben fÃ
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: mienah_/prinzessin07
+featuredStream: mienah_/disneyland03
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: mienah_/prinzessin07
+customDonationLink: mienah_/disneyland03
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -368,6 +368,7 @@ upcoming:
     wishes:
       - d-europa-park
       - prinzessin07
+      - disneyland03
   - date: 2024-11-03T09:26:29.420Z
     streamerName: Faister
     streamerChannel: faister
