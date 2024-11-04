@@ -393,10 +393,12 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino04
+      - legoland09
   - date: 2024-11-04T11:25:13.443Z
     type: COMMUNITY
     wishes:
       - dino04
+      - legoland09
     streamerName: YourHostLaura & StephanTschany
     streamerChannel: yourhostlaura
     streamLink: https://www.twitch.tv/yourhostlaura
