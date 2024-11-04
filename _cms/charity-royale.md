@@ -433,6 +433,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland08
+  - date: 2024-11-07T14:45:53.201Z
+    streamerName: Iljaech
+    streamerChannel: iljaech
+    streamLink: https://www.twitch.tv/iljaech
+    type: COMMUNITY
+    wishes:
+      - legoland14
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1281,6 +1288,14 @@ wishes:
       diesen Wunsch!
     childname: Wunschkind
     donationGoal: "2000"
+  - slug: legoland14
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
