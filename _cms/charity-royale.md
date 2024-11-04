@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: mienah_/d-europa-park
+featuredStream: mienah_/prinzessin07
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: mienah_/d-europa-park
+customDonationLink: mienah_/prinzessin07
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -367,6 +367,7 @@ upcoming:
     type: MAIN
     wishes:
       - d-europa-park
+      - prinzessin07
   - date: 2024-11-03T09:26:29.420Z
     streamerName: Faister
     streamerChannel: faister
@@ -398,6 +399,13 @@ upcoming:
     streamerName: YourHostLaura & StephanTschany
     streamerChannel: yourhostlaura
     streamLink: https://www.twitch.tv/yourhostlaura
+  - date: 2024-11-09T09:53:50.042Z
+    streamerName: Wettermann_
+    streamLink: https://www.twitch.tv/wettermann_
+    streamerChannel: wettermann_
+    type: COMMUNITY
+    wishes:
+      - youtube06
   - date: 2024-11-26T11:23:20.924Z
     streamerName: Papaplatte
     streamLink: https://www.twitch.tv/papaplatte
@@ -433,13 +441,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland08
-  - date: 2024-11-07T14:45:53.201Z
-    streamerName: Iljaech
-    streamerChannel: iljaech
-    streamLink: https://www.twitch.tv/iljaech
-    type: COMMUNITY
-    wishes:
-      - legoland14
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1156,6 +1157,14 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "500"
+  - slug: youtube06
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    donationGoal: "500"
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
   - slug: youtube11
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
     childname: Wunschkind
@@ -1288,14 +1297,6 @@ wishes:
       diesen Wunsch!
     childname: Wunschkind
     donationGoal: "2000"
-  - slug: legoland14
-    tagline: Eine Reise ins Legoland
-    childname: Wunschkind
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
