@@ -473,6 +473,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - disneyland04
+  - date: 2024-11-08T11:30:17.365Z
+    wishes:
+      - event-kochen
+    type: MAIN
+    streamerName: Chef Jan
+    streamerChannel: chef_jan
+    streamLink: https://www.twitch.tv/chef_jan
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1005,6 +1012,19 @@ wishes:
       Streamer:innen in 3 Spielmodi (Bingo, ItemHunt und SelloutRun)
       gegeneinander antreten. Dabei kannst Du mittels Donations für schwerkranke
       Kinder direkt in das Spielgeschehen eingreifen."
+  - slug: event-kochen
+    tagline: Chef Royale - Die Charity Royale Kochshow
+    descripion: "Bei Chef Royale treten drei stark besetzte Teams um die Krone -
+      oder besser gesagt Haube - des besten Charity-Koch-Duos 2024 an. Dabei
+      sammeln wir spenden für die herzenswünsche schwerkranker Kinder bei
+      Make-A-Wish, die lieber anonym bleiben möchten, und DU kannst mit deinen
+      Spenden deinem Lieblingsteam zum Erfolg verhelfen!  Jede Spende führt uns
+      näher an die nächste Challenge oder den nächsten Tipp, und mit einer
+      Spende von € 100 oder mehr kannst du direkt dein Lieblingsteam
+      unterstützen.  Schreibe dafür einfach den Teamnamen in die
+      Spenden-Nachricht:"
+    donationGoal: "6000"
+    childname: Herzenswünsche
   - slug: prinzessin01
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
@@ -1377,19 +1397,6 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "2000"
-  - slug: event-kochen
-    tagline: Chef Royale - Die Charity Royale Kochshow
-    descripion: "Bei Chef Royale treten drei stark besetzte Teams um die Krone -
-      oder besser gesagt Haube - des besten Charity-Koch-Duos 2024 an. Dabei
-      sammeln wir spenden für die herzenswünsche schwerkranker Kinder bei
-      Make-A-Wish, die lieber anonym bleiben möchten, und DU kannst mit deinen
-      Spenden deinem Lieblingsteam zum Erfolg verhelfen!  Jede Spende führt uns
-      näher an die nächste Challenge oder den nächsten Tipp, und mit einer
-      Spende von € 100 oder mehr kannst du direkt dein Lieblingsteam
-      unterstützen.  Schreibe dafür einfach den Teamnamen in die
-      Spenden-Nachricht:"
-    donationGoal: "6000"
-    childname: Herzenswünsche
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
