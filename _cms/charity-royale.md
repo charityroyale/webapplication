@@ -1315,22 +1315,6 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "2000"
-  - descripion: Eine Gaming-Ecke ist für viele Kinder ein großer Wunsch und darum
-      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
-      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
-      Wunsch!
-    childname: Wunschkind
-    slug: gamingecke01
-    tagline: Eine neue Gaming-Ecke
-    donationGoal: "2000"
-  - slug: stelzenhaus01
-    tagline: Ein Stelzenhaus im Garten
-    childname: Wunschkind
-    descripion: Ein Stelzenhaus ist für viele Kinder ein großer Wunsch und darum
-      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
-      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
-      Wunsch!
-    donationGoal: "2000"
   - slug: disneyland03
     tagline: Eine Reise ins Disneyland
     descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
@@ -1339,6 +1323,14 @@ wishes:
       diesen Wunsch!
     childname: Wunschkind
     donationGoal: "2000"
+  - descripion: Eine Gaming-Ecke ist für viele Kinder ein großer Wunsch und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    childname: Wunschkind
+    slug: gamingecke01
+    tagline: Eine neue Gaming-Ecke
+    donationGoal: "2000"
   - slug: gamingecke02
     tagline: Eine neue Gaming-Ecke
     childname: Wunschkind
@@ -1346,6 +1338,14 @@ wishes:
       Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte diesen Wunsch!
+    donationGoal: "2000"
+  - slug: stelzenhaus01
+    tagline: Ein Stelzenhaus im Garten
+    childname: Wunschkind
+    descripion: Ein Stelzenhaus ist für viele Kinder ein großer Wunsch und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
     donationGoal: "2000"
 faq:
   videos:
