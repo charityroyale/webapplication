@@ -6,7 +6,7 @@ featuredYoutubeStream: ""
 featuredStream: fabo/reinhard-lamborghini
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: ""
+customDonationLink: fabo/reinhard-lamborghini
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
