@@ -100,7 +100,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 						</StyledSpecialEvent>
 						<StyledSpecialEvent
 							$bg="/specials/kochshow.png"
-							href="https://www.twitch.tv/chef_jan"
+							href="https://charityroyale.at/chef_jan/event-kochen"
 							target="_blank"
 							rel="noreferrer"
 						>

@@ -25,7 +25,7 @@ import { hasProperty, getPercentage } from '../../../../utils/commonUtils'
 import { formatMoneyWithSign, formatDate } from '../../../../utils/formatUtils'
 import { ImTrophy } from 'react-icons/im'
 import ProgressBar from './progress-bar'
-import { mapStreamerSlugIncludingMultiStreams } from '../../../../utils/streamerUtils'
+import { isMultiStream } from '../../../../utils/streamerUtils'
 
 export interface DonationPageProps {
 	cms: {
@@ -56,7 +56,7 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	let donatorsCount = '0'
 	let wishCountry = ''
 
-	const cmsStreamerSlug = mapStreamerSlugIncludingMultiStreams(cms.streamer.streamerChannel.toLocaleLowerCase())
+	const cmsStreamerSlug = cms.streamer.streamerChannel.toLocaleLowerCase()
 	const cmsWishSlug = cms.wish.slug
 
 	if (isMakeAWishDataAvailable) {
@@ -70,12 +70,17 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 				const mawWishData = makeAWishData.wishes[cmsWishSlug]
 
 				if (!Array.isArray(mawStreamerData.wishes) && hasProperty(mawStreamerData.wishes, cmsWishSlug)) {
-					mawWStreamerWishData = mawStreamerData.wishes[cmsWishSlug]
+					const isMultiStreamFlag = isMultiStream(cmsStreamerSlug)
+					mawWStreamerWishData = isMultiStreamFlag
+						? makeAWishData.wishes[cmsWishSlug]
+						: mawStreamerData.wishes[cmsWishSlug]
+
 					donationSum =
 						mawStreamerData.type === 'main'
 							? mawWishData.current_donation_sum_net
 							: mawWStreamerWishData.current_donation_sum_net
 					donatorsCount = mawWStreamerWishData.current_donation_count.toLocaleString('de-DE')
+
 					progressPercentage = getPercentage(parseFloat(donationSum), parseFloat(cms.wish.donationGoal) * 100)
 				}
 			}
