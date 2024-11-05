@@ -459,13 +459,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin08
-  - date: 2024-11-08T11:30:41.817Z
-    streamerName: Chef_Jan
-    streamerChannel: chef_jan
-    streamLink: https://www.twitch.tv/chef_jan
-    type: MAIN
+  - date: 2024-11-07T12:07:25.874Z
+    streamerName: Iljaech
+    streamerChannel: iljaech
+    streamLink: https://www.twitch.tv/iljaech
+    type: COMMUNITY
     wishes:
-      - event-kochen
+      - legoland14
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1166,6 +1166,14 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "500"
+  - slug: legoland14
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
   - slug: youtube01
     descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
       einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
@@ -1322,14 +1330,6 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "2000"
-  - slug: disneyland03
-    tagline: Eine Reise ins Disneyland
-    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    childname: Wunschkind
-    donationGoal: "2000"
   - descripion: Eine Gaming-Ecke ist für viele Kinder ein großer Wunsch und darum
       einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
@@ -1337,14 +1337,6 @@ wishes:
     childname: Wunschkind
     slug: gamingecke01
     tagline: Eine neue Gaming-Ecke
-    donationGoal: "2000"
-  - slug: gamingecke02
-    tagline: Eine neue Gaming-Ecke
-    childname: Wunschkind
-    descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
-      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte diesen Wunsch!
     donationGoal: "2000"
   - slug: stelzenhaus01
     tagline: Ein Stelzenhaus im Garten
@@ -1354,16 +1346,22 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "2000"
-  - slug: event-kochen
-    donationGoal: "6000"
-    tagline: Chef Royale
-    descripion: "Drei Teams, eine Herausforderung: Bei Chef Royale müssen die Teams
-      gegeneinander kochen – ohne zu wissen, welche Rezepte sie zubereiten
-      müssen. Helft den Teams die Rezepte freizuschalten und leckere Gerichte
-      zuzubereiten die dann von Profi-Köchen, wie Chef Jan, bewertet werden.
-      Dabei sind: Veni, Veyla, Krokoboss, Satansbratan, DJ Mosaken &
-      JulianLePlay!"
-    childname: Herzenswunsch
+  - slug: disneyland03
+    tagline: Eine Reise ins Disneyland
+    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    childname: Wunschkind
+    donationGoal: "2000"
+  - slug: gamingecke02
+    tagline: Eine neue Gaming-Ecke
+    childname: Wunschkind
+    descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte diesen Wunsch!
+    donationGoal: "2000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
