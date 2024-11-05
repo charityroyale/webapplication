@@ -70,19 +70,19 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 				const mawWishData = makeAWishData.wishes[cmsWishSlug]
 
 				if (!Array.isArray(mawStreamerData.wishes) && hasProperty(mawStreamerData.wishes, cmsWishSlug)) {
-					const isMultiStreamFlag = isMultiStream(cmsStreamerSlug)
-					mawWStreamerWishData = isMultiStreamFlag
-						? makeAWishData.wishes[cmsWishSlug]
-						: mawStreamerData.wishes[cmsWishSlug]
-
-					donationSum =
-						mawStreamerData.type === 'main'
-							? mawWishData.current_donation_sum_net
-							: mawWStreamerWishData.current_donation_sum_net
-					donatorsCount = mawWStreamerWishData.current_donation_count.toLocaleString('de-DE')
-
-					progressPercentage = getPercentage(parseFloat(donationSum), parseFloat(cms.wish.donationGoal) * 100)
+					mawWStreamerWishData = mawStreamerData.wishes[cmsWishSlug]
 				}
+				const isMultiStreamFlag = isMultiStream(cmsStreamerSlug)
+				if (isMultiStreamFlag) {
+					mawWStreamerWishData = makeAWishData.wishes[cmsWishSlug]
+				}
+				donationSum =
+					mawStreamerData.type === 'main'
+						? mawWishData.current_donation_sum_net
+						: (mawWStreamerWishData?.current_donation_sum_net ?? '0')
+				donatorsCount = mawWStreamerWishData?.current_donation_count.toLocaleString('de-DE') ?? '0'
+
+				progressPercentage = getPercentage(parseFloat(donationSum), parseFloat(cms.wish.donationGoal) * 100)
 			}
 
 			latestDonatorsList = getLatestDonators(mawWStreamerWishData?.recent_donations ?? [])
