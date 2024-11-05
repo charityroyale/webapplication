@@ -480,6 +480,13 @@ upcoming:
     streamerName: Chef Jan
     streamerChannel: chef_jan
     streamLink: https://www.twitch.tv/chef_jan
+  - date: 2024-11-09T15:08:45.572Z
+    streamerName: Noobiver
+    streamerChannel: noobiver
+    streamLink: https://www.twitch.tv/noobiver
+    type: COMMUNITY
+    wishes:
+      - gamingpc05
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1335,6 +1342,13 @@ wishes:
       einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
   - slug: gamingpc04
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: gamingpc05
     tagline: Ein neuer Gaming-PC
     childname: Wunschkind
     descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
