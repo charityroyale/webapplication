@@ -459,6 +459,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin08
+  - date: 2024-11-08T11:30:41.817Z
+    streamerName: Chef_Jan
+    streamerChannel: chef_jan
+    streamLink: https://www.twitch.tv/chef_jan
+    type: MAIN
+    wishes:
+      - event-kochen
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1347,6 +1354,16 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "2000"
+  - slug: event-kochen
+    donationGoal: "6000"
+    tagline: Chef Royale
+    descripion: "Drei Teams, eine Herausforderung: Bei Chef Royale müssen die Teams
+      gegeneinander kochen – ohne zu wissen, welche Rezepte sie zubereiten
+      müssen. Helft den Teams die Rezepte freizuschalten und leckere Gerichte
+      zuzubereiten die dann von Profi-Köchen, wie Chef Jan, bewertet werden.
+      Dabei sind: Veni, Veyla, Krokoboss, Satansbratan, DJ Mosaken &
+      JulianLePlay!"
+    childname: Herzenswunsch
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
