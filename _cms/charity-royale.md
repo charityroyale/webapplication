@@ -1339,6 +1339,14 @@ wishes:
       diesen Wunsch!
     childname: Wunschkind
     donationGoal: "2000"
+  - slug: gamingecke02
+    tagline: Eine neue Gaming-Ecke
+    childname: Wunschkind
+    descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte diesen Wunsch!
+    donationGoal: "2000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
