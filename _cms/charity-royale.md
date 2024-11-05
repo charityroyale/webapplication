@@ -1029,8 +1029,8 @@ wishes:
       näher an die nächste Challenge oder den nächsten Tipp, und mit einer
       Spende von € 100 oder mehr kannst du direkt dein Lieblingsteam
       unterstützen.  Schreibe dafür einfach den Teamnamen in die
-      Spenden-Nachricht: Team 1: Veni & Satansbratan Team 2: Krokoboss & DJ
-      Mosaken Team 3: Veyla & Julian LePlay "
+      Spenden-Nachricht: Veni & Satansbratan, Veyla & Julian LePlay, Krokoboss &
+      DJ Mosaken"
     donationGoal: "6000"
     childname: Herzenswünsche
   - slug: prinzessin01
