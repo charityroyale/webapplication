@@ -444,6 +444,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland08
+  - date: 2024-11-12T09:26:36.571Z
+    streamerName: gedankendealerin
+    streamerChannel: gedankendealerin
+    streamLink: https://www.twitch.tv/gedankendealerin
+    type: COMMUNITY
+    wishes:
+      - legoland10
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1096,6 +1103,22 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     tagline: Eine Reise ins Legoland
+  - descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    childname: Wunschkind
+    tagline: Eine Reise ins Legoland
+    slug: legoland09
+    donationGoal: "500"
+  - slug: legoland10
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
   - slug: legoland11
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
@@ -1300,14 +1323,6 @@ wishes:
       diesen Wunsch!
     childname: Wunschkind
     donationGoal: "2000"
-  - descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    childname: Wunschkind
-    tagline: Eine Reise ins Legoland
-    slug: legoland09
-    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
