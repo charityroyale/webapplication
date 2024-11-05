@@ -451,6 +451,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland10
+  - date: 2024-11-16T09:51:18.940Z
+    streamerName: vynra_
+    streamerChannel: vynra_
+    streamLink: https://www.twitch.tv/vynra_
+    type: COMMUNITY
+    wishes:
+      - prinzessin08
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1032,6 +1039,14 @@ wishes:
       möchte, diesen Wunsch!
     donationGoal: "500"
   - slug: prinzessin07
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin08
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
     descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
