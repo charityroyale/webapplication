@@ -128,7 +128,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino03
-  - date: 2024-11-15T13:27:40.253Z
+  - date: 2024-11-22T13:27:40.253Z
     streamerName: maaareq
     streamerChannel: maaareq
     streamLink: https://www.twitch.tv/maaareq
