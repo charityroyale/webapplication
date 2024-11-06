@@ -403,13 +403,6 @@ upcoming:
     streamerName: YourHostLaura & StephanTschany
     streamerChannel: yourhostlaura
     streamLink: https://www.twitch.tv/yourhostlaura
-  - date: 2024-11-09T09:53:50.042Z
-    streamerName: Wettermann_
-    streamLink: https://www.twitch.tv/wettermann_
-    streamerChannel: wettermann_
-    type: COMMUNITY
-    wishes:
-      - youtube06
   - date: 2024-11-26T11:23:20.924Z
     streamerName: Papaplatte
     streamLink: https://www.twitch.tv/papaplatte
@@ -487,6 +480,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - gamingpc05
+  - date: 2024-11-12T11:21:52.218Z
+    streamerName: EinfachScorpion
+    streamerChannel: einfachscorpion
+    streamLink: https://www.twitch.tv/einfachscorpion
+    type: COMMUNITY
+    wishes:
+      - youtube06
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
