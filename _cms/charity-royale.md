@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: merleperle/e-reiterferien
+featuredStream: merleperle/prinzessin11
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: merleperle/e-reiterferien
+customDonationLink: merleperle/prinzessin11
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -234,6 +234,7 @@ upcoming:
     type: MAIN
     wishes:
       - e-reiterferien
+      - prinzessin11
   - date: 2024-11-07T13:45:12.161Z
     streamerName: Clym
     streamerChannel: clym
@@ -1090,6 +1091,14 @@ wishes:
       möchte, diesen Wunsch!
     donationGoal: "500"
   - slug: prinzessin08
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin11
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
     descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
