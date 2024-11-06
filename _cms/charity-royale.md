@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: merleperle/prinzessin11
+featuredStream: merleperle/stelzenhaus02
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: merleperle/prinzessin11
+customDonationLink: merleperle/stelzenhaus02
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -235,6 +235,7 @@ upcoming:
     wishes:
       - e-reiterferien
       - prinzessin11
+      - stelzenhaus02
   - date: 2024-11-07T13:45:12.161Z
     streamerName: Clym
     streamerChannel: clym
@@ -1414,6 +1415,14 @@ wishes:
       möchte diesen Wunsch!
     donationGoal: "2000"
   - slug: stelzenhaus01
+    tagline: Ein Stelzenhaus im Garten
+    childname: Wunschkind
+    descripion: Ein Stelzenhaus ist für viele Kinder ein großer Wunsch und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "2000"
+  - slug: stelzenhaus02
     tagline: Ein Stelzenhaus im Garten
     childname: Wunschkind
     descripion: Ein Stelzenhaus ist für viele Kinder ein großer Wunsch und darum
