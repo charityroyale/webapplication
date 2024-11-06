@@ -72,13 +72,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube11
-  - date: 2024-11-06T12:04:20.934Z
-    streamerName: SpaceMitX
-    streamerChannel: spacemitx
-    streamLink: https://www.twitch.tv/spacemitx
-    type: COMMUNITY
-    wishes:
-      - dino02
   - date: 2024-11-19T12:18:31.567Z
     streamLink: https://www.twitch.tv/huytastic
     streamerName: huytastic
