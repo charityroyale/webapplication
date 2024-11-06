@@ -86,13 +86,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - disneyland01
-  - date: 2024-11-05T14:11:14.475Z
-    streamerName: nofaceforanyone
-    streamerChannel: nofaceforanyone
-    streamLink: https://www.twitch.tv/nofaceforanyone
-    type: COMMUNITY
-    wishes:
-      - prinzessin02
   - date: 2024-11-16T14:25:30.317Z
     streamerName: ItsGleisi
     streamerChannel: itsgleisi
