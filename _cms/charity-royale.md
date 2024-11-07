@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: clym/t-switch
+featuredStream: clym/legoland15
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: clym/t-switch
+customDonationLink: clym/legoland15
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -229,6 +229,7 @@ upcoming:
     type: MAIN
     wishes:
       - t-switch
+      - legoland15
   - date: 2024-11-09T13:45:12.590Z
     streamerName: CastCrafter
     streamerChannel: castcrafter
@@ -1416,6 +1417,14 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "2000"
+  - slug: legoland15
+    childname: Wunschkind
+    tagline: Eine Reise ins Legoland
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
