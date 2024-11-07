@@ -243,7 +243,7 @@ upcoming:
     type: MAIN
     wishes:
       - p-legoland
-  - date: 2024-11-18T13:50:47.297Z
+  - date: 2024-11-14T13:50:47.297Z
     streamerName: stev0rr
     streamerChannel: stev0rr
     streamLink: https://www.twitch.tv/stev0rr
