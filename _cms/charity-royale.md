@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: fabo/gamingecke02
+featuredStream: clym/gamingecke02
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: fabo/gamingecke02
+customDonationLink: clym/gamingecke02
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -72,13 +72,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube11
-  - date: 2024-11-06T12:04:20.934Z
-    streamerName: SpaceMitX
-    streamerChannel: spacemitx
-    streamLink: https://www.twitch.tv/spacemitx
-    type: COMMUNITY
-    wishes:
-      - dino02
   - date: 2024-11-19T12:18:31.567Z
     streamLink: https://www.twitch.tv/huytastic
     streamerName: huytastic
@@ -86,13 +79,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - disneyland01
-  - date: 2024-11-05T14:11:14.475Z
-    streamerName: nofaceforanyone
-    streamerChannel: nofaceforanyone
-    streamLink: https://www.twitch.tv/nofaceforanyone
-    type: COMMUNITY
-    wishes:
-      - prinzessin02
   - date: 2024-11-16T14:25:30.317Z
     streamerName: ItsGleisi
     streamerChannel: itsgleisi
@@ -142,7 +128,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino03
-  - date: 2024-11-15T13:27:40.253Z
+  - date: 2024-11-22T13:27:40.253Z
     streamerName: maaareq
     streamerChannel: maaareq
     streamLink: https://www.twitch.tv/maaareq
@@ -234,6 +220,8 @@ upcoming:
     type: MAIN
     wishes:
       - e-reiterferien
+      - prinzessin11
+      - stelzenhaus02
   - date: 2024-11-07T13:45:12.161Z
     streamerName: Clym
     streamerChannel: clym
@@ -241,6 +229,8 @@ upcoming:
     type: MAIN
     wishes:
       - t-switch
+      - legoland15
+      - gamingecke02
   - date: 2024-11-09T13:45:12.590Z
     streamerName: CastCrafter
     streamerChannel: castcrafter
@@ -255,7 +245,7 @@ upcoming:
     type: MAIN
     wishes:
       - p-legoland
-  - date: 2024-11-18T13:50:47.297Z
+  - date: 2024-11-14T13:50:47.297Z
     streamerName: stev0rr
     streamerChannel: stev0rr
     streamLink: https://www.twitch.tv/stev0rr
@@ -403,13 +393,6 @@ upcoming:
     streamerName: YourHostLaura & StephanTschany
     streamerChannel: yourhostlaura
     streamLink: https://www.twitch.tv/yourhostlaura
-  - date: 2024-11-09T09:53:50.042Z
-    streamerName: Wettermann_
-    streamLink: https://www.twitch.tv/wettermann_
-    streamerChannel: wettermann_
-    type: COMMUNITY
-    wishes:
-      - youtube06
   - date: 2024-11-26T11:23:20.924Z
     streamerName: Papaplatte
     streamLink: https://www.twitch.tv/papaplatte
@@ -487,6 +470,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - gamingpc05
+  - date: 2024-11-12T11:21:52.218Z
+    streamerName: EinfachScorpion
+    streamerChannel: einfachscorpion
+    streamLink: https://www.twitch.tv/einfachscorpion
+    type: COMMUNITY
+    wishes:
+      - youtube06
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1029,7 +1019,8 @@ wishes:
       näher an die nächste Challenge oder den nächsten Tipp, und mit einer
       Spende von € 100 oder mehr kannst du direkt dein Lieblingsteam
       unterstützen.  Schreibe dafür einfach den Teamnamen in die
-      Spenden-Nachricht:"
+      Spenden-Nachricht: Veni & Satansbratan, Veyla & Julian LePlay, Krokoboss &
+      DJ Mosaken"
     donationGoal: "6000"
     childname: Herzenswünsche
   - slug: prinzessin01
@@ -1089,6 +1080,14 @@ wishes:
       möchte, diesen Wunsch!
     donationGoal: "500"
   - slug: prinzessin08
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin11
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
     descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
@@ -1411,6 +1410,22 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "2000"
+  - slug: stelzenhaus02
+    tagline: Ein Stelzenhaus im Garten
+    childname: Wunschkind
+    descripion: Ein Stelzenhaus ist für viele Kinder ein großer Wunsch und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "2000"
+  - slug: legoland15
+    childname: Wunschkind
+    tagline: Eine Reise ins Legoland
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
