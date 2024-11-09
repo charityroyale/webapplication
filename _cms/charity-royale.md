@@ -492,6 +492,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube06
+  - date: 2024-11-22T16:50:41.666Z
+    streamerName: BlueberryYum
+    streamerChannel: blueberryyum
+    type: COMMUNITY
+    streamLink: https://www.twitch.tv/blueberryyum
+    wishes:
+      - prinzessin11
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
