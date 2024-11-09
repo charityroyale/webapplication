@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: castcrafter/ebike01
+featuredStream: castcrafter/macbook01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: castcrafter/ebike01
+customDonationLink: castcrafter/macbook01
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -257,6 +257,7 @@ upcoming:
       - spielplatz01
       - ipad01
       - ebike01
+      - macbook01
   - date: 2024-11-17T13:50:46.886Z
     streamerName: mahluna
     streamerChannel: mahluna
@@ -1529,6 +1530,14 @@ wishes:
     donationGoal: "2000"
     descripion: Ein flottes E-Bike ist für viele Kinder ein riesiger Traum und darum
       einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+  - slug: macbook01
+    tagline: Ein Macbook mit Zubehör
+    childname: Wunschkind
+    donationGoal: "2000"
+    descripion: Ein Macbook mit Zubehör ist für viele Kinder ein riesiger Traum und
+      darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
 faq:
