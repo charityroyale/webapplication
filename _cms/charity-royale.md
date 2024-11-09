@@ -1553,7 +1553,7 @@ wishes:
   - slug: inselurlaub01
     tagline: Einen Urlaub auf Inseln
     childname: Wunschkind
-    descripion: Einen Urlaub auf einer Insel ist für viele Kinder ein riesiger Traum
+    descripion: Ein Urlaub auf einer Insel ist für viele Kinder ein riesiger Traum
       und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
