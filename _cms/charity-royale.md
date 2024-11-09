@@ -199,9 +199,11 @@ upcoming:
     type: COMMUNITY
     wishes:
       - gamingpc03
+      - dino02
   - date: 2024-11-09T12:49:57.881Z
     wishes:
       - gamingpc03
+      - dino02
     type: COMMUNITY
     streamerName: xMrCr4zy & s0ulrider
     streamerChannel: s0ulrider
