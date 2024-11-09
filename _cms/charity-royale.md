@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: castcrafter/henry-europa-park
+featuredStream: castcrafter/abdul-fahrradanhänger
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: castcrafter/henry-europa-park
+customDonationLink: castcrafter/abdul-fahrradanhänger
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -241,6 +241,7 @@ upcoming:
       - kurt-tropical-island
       - avelina-rutschturm
       - henry-europa-park
+      - abdul-fahrradanhänger
   - date: 2024-11-17T13:50:46.886Z
     streamerName: mahluna
     streamerChannel: mahluna
