@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: castcrafter/inselurlaub01
+featuredStream: castcrafter/baumhaus01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: castcrafter/inselurlaub01
+customDonationLink: castcrafter/baumhaus01
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -260,6 +260,7 @@ upcoming:
       - macbook01
       - gokart01
       - inselurlaub01
+      - baumhaus01
   - date: 2024-11-17T13:50:46.886Z
     streamerName: mahluna
     streamerChannel: mahluna
@@ -1558,6 +1559,14 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "4000"
+  - slug: baumhaus01
+    tagline: Ein Baumhaus im Garten
+    descripion: Ein Baumhaus im Garten für viele Kinder ein riesiger Traum und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    childname: Wunschkind
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
