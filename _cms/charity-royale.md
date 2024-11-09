@@ -15,6 +15,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland01
+      - gamingpc06
   - date: 2024-11-23T15:01:10.088Z
     streamerName: Schmistyy
     streamerChannel: schmistyy
@@ -1486,6 +1487,13 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "4000"
+  - slug: gamingpc06
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
