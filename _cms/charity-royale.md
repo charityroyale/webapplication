@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: castcrafter/baumhaus01
+featuredStream: castcrafter/iphone01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: castcrafter/baumhaus01
+customDonationLink: castcrafter/iphone01
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -261,6 +261,7 @@ upcoming:
       - gokart01
       - inselurlaub01
       - baumhaus01
+      - iphone01
   - date: 2024-11-17T13:50:46.886Z
     streamerName: mahluna
     streamerChannel: mahluna
@@ -1567,6 +1568,13 @@ wishes:
       Wunsch!
     childname: Wunschkind
     donationGoal: "1000"
+  - slug: iphone01
+    tagline: Ein neues iPhone
+    descripion: Ein neues iPhone für viele Kinder ein riesiger Traum und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    childname: Wunschkind
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
