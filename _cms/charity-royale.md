@@ -3,10 +3,10 @@ title: Charity Royale ðŸ‘‘ Der Charity-Stream Marathon von Veni und willhaben fÃ
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: castcrafter/felix-stelzenhaus
+featuredStream: castcrafter/lian-disneyland
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: castcrafter/felix-stelzenhaus
+customDonationLink: castcrafter/lian-disneyland
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -243,6 +243,7 @@ upcoming:
       - henry-europa-park
       - abdul-fahrradanhaenger
       - felix-stelzenhaus
+      - lian-disneyland
   - date: 2024-11-17T13:50:46.886Z
     streamerName: mahluna
     streamerChannel: mahluna
