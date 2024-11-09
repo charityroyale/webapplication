@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: castcrafter/harrypotter11
+featuredStream: castcrafter/zimmer11
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: castcrafter/harrypotter11
+customDonationLink: castcrafter/zimmer11
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -247,6 +247,7 @@ upcoming:
       - stelzenhaus02
       - gamingecke02
       - harrypotter11
+      - zimmer11
   - date: 2024-11-17T13:50:46.886Z
     streamerName: mahluna
     streamerChannel: mahluna
@@ -1328,6 +1329,14 @@ wishes:
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - slug: harrypotter11
+    tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
   - slug: gamingpc01
     tagline: Ein neuer Gaming-PC
     childname: Wunschkind
@@ -1435,14 +1444,14 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "500"
-  - slug: harrypotter11
-    tagline: Eine Reise zu den Harry Potter Studios
-    childname: Wunschkind
-    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
-      tolles Highlight und darum einer der meistgenannten Wünsche bei
+  - slug: zimmer11
+    descripion: Eine neue coole Zimmereinrichtung mit Gaming PC ist für viele Kinder
+      ein riesiger Traum und darum einer der meistgenannten Wünsche bei
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
-      anonym bleiben möchte, diesen Wunsch!
-    donationGoal: "1000"
+      anonym bleiben möchte diesen Wunsch!
+    donationGoal: "4000"
+    tagline: Eine neue Zimmereinrichtung + Gaming PC
+    childname: Wunschkind
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
