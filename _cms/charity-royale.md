@@ -3,10 +3,10 @@ title: Charity Royale 👑 Der Charity-Stream Marathon von Veni und willhaben f�
   Make-A-Wish.
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: castcrafter/macbook01
+featuredStream: castcrafter/gokart01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: castcrafter/macbook01
+customDonationLink: castcrafter/gokart01
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -258,6 +258,7 @@ upcoming:
       - ipad01
       - ebike01
       - macbook01
+      - gokart01
   - date: 2024-11-17T13:50:46.886Z
     streamerName: mahluna
     streamerChannel: mahluna
@@ -1540,6 +1541,14 @@ wishes:
       darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
+  - slug: gokart01
+    tagline: Ein flottes Go-Kart
+    childname: Wunschkind
+    descripion: Ein Go-Kart mit Zubehör ist für viele Kinder ein riesiger Traum und
+      darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "2000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
