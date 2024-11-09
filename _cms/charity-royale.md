@@ -498,7 +498,7 @@ upcoming:
     type: COMMUNITY
     streamLink: https://www.twitch.tv/blueberryyum
     wishes:
-      - prinzessin11
+      - prinzessin12
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1117,6 +1117,14 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
+  - slug: prinzessin12
+    tagline: Einen Tag lang Prinzessin sein
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+    childname: Wunschkind
   - slug: legoland01
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
