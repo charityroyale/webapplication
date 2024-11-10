@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 
 import { useMakeAWish } from '../../../hooks/useMakeAWish'
-import { cmsFeaturedStreamLink } from '../../cms'
+import cmsContent, { cmsFeaturedStreamLink } from '../../cms'
 import ClientLink from '../ClientLink'
 import { LanguageSelector } from '../LanguageSelector'
 import DonationHeaderCount from './DonationHeaderCount'
@@ -174,7 +174,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = tru
 					<StyledHeaderRightItem>
 						<DonationHeaderCounterAndButtonWrapper>
 							<DonationHeaderCount
-								donation_goal={250000}
+								donation_goal={cmsContent.donationGoal}
 								current_donation_count={
 									makeAWishDataIsLoading || makeAWishDataIsError
 										? 0
