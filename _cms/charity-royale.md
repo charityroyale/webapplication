@@ -156,6 +156,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland13
+      - disneyland11
   - date: 2024-11-17T13:42:20.423Z
     streamerName: sylveenah
     streamerChannel: sylveenah
@@ -1437,6 +1438,14 @@ wishes:
   - slug: disneyland04
     tagline: Eine Reise ins Disneyland
     childname: Wunschkind
+    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "2000"
+  - slug: disneyland11
+    childname: Wunschkind
+    tagline: Eine Reise ins Disneyland
     descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
       und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
