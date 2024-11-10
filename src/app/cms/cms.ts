@@ -49,6 +49,7 @@ export interface MakeAWishWish {
 export interface CmsContent {
 	title: string
 	date: string
+	donationGoal: number
 	thumbnail: string
 	featuredStream: string
 	customDonationLink?: string

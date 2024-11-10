@@ -14,6 +14,16 @@ collections:
             file: _cms/charity-royale.md
             fields: # The fields for each document, usually in front matter
                 - { label: 'Title', name: 'title', widget: 'string' }
+                - {
+                      label: 'Donation Goal (EUR)',
+                      name: 'donationGoal',
+                      widget: 'number',
+                      value_type: 'int',
+                      default: 250000,
+                      min: 10000,
+                      max: 999999999,
+                      step: 10000,
+                  }
                 - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
                 - {
                       label: 'Featured YoutubeURL (always use "embed" links)',
