@@ -13,7 +13,6 @@ collections:
             name: cr
             file: _cms/charity-royale.md
             fields: # The fields for each document, usually in front matter
-                - { label: 'Title', name: 'title', widget: 'string' }
                 - {
                       label: 'Donation Goal (EUR)',
                       name: 'donationGoal',
