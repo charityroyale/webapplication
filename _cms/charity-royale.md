@@ -1,5 +1,5 @@
 ---
-donationGoal: 240000
+donationGoal: 250000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
 featuredStream: castcrafter/playstation01
