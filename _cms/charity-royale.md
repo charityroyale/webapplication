@@ -504,6 +504,13 @@ upcoming:
     streamLink: https://www.twitch.tv/blueberryyum
     wishes:
       - prinzessin12
+  - date: 2024-11-16T19:58:25.094Z
+    streamerName: Ollyalrtaken
+    streamerChannel: ollyalrtaken
+    streamLink: https://www.twitch.tv/ollyalrtaken
+    type: COMMUNITY
+    wishes:
+      - legoland05
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
