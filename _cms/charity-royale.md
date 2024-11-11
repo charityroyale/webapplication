@@ -142,13 +142,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland12
-  - date: 2024-11-08T13:47:12.449Z
-    streamerName: Breakez
-    streamerChannel: breakez
-    streamLink: https://www.twitch.tv/breakez
-    type: COMMUNITY
-    wishes:
-      - legoland05
   - date: 2024-11-10T11:54:01.181Z
     streamerName: TiaraGorgon
     streamerChannel: tiaragorgon
