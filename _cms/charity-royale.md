@@ -497,7 +497,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - gamingpc05
-  - date: 2024-11-12T11:21:52.218Z
+  - date: 2024-11-17T11:21:52.218Z
     streamerName: EinfachScorpion
     streamerChannel: einfachscorpion
     streamLink: https://www.twitch.tv/einfachscorpion
