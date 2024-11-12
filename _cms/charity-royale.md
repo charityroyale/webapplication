@@ -1625,6 +1625,11 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
+  - slug: rift-showdown
+    childname: Wunschkind
+    tagline: A1 eSports X Charity Royale - LOL Tournament
+    donationGoal: "10000"
+    descripion: TBD
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
