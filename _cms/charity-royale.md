@@ -511,6 +511,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland05
+  - date: 2024-11-28T09:48:42.509Z
+    streamerName: ElyaraAer
+    streamerChannel: elyaraaer
+    streamLink: https://www.twitch.tv/elyaraaer
+    type: COMMUNITY
+    wishes:
+      - prinzessin09
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1610,6 +1617,14 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "1000"
+  - slug: prinzessin09
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
