@@ -1641,7 +1641,7 @@ wishes:
       möchte, diesen Wunsch!
     donationGoal: "500"
   - slug: rift-showdown
-    childname: LOL Tournament
+    childname: Wunschkind
     tagline: A1 eSports X Charity Royale - LOL Tournament
     donationGoal: "10000"
     descripion: TBD
