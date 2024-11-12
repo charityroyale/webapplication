@@ -2,10 +2,10 @@
 donationGoal: 250000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: krokoboss/legoland09
+featuredStream: krokoboss/playstation01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: krokoboss/legoland09
+customDonationLink: krokoboss/playstation01
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -316,6 +316,7 @@ upcoming:
     wishes:
       - anastasia-buch
       - legoland09
+      - playstation01
   - date: 2024-11-13T09:27:13.195Z
     streamerName: MrsXeniaTV
     streamerChannel: mrsxeniatv
