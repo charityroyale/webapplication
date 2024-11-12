@@ -518,6 +518,14 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin09
+  - date: 2024-11-15T13:00:00.000Z
+    imgUrl: /uploads/charity_royale-1.png
+    type: main
+    wishes:
+      - rift-showdown
+    streamerName: A1 eSports
+    streamerChannel: a1esports
+    streamLink: https://www.twitch.tv/a1esports
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
