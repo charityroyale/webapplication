@@ -519,13 +519,20 @@ upcoming:
     wishes:
       - prinzessin09
   - date: 2024-11-15T13:00:00.000Z
-    imgUrl: /uploads/charity_royale-1.png
-    type: main
+    imgUrl: ""
+    type: MAIN
     wishes:
       - rift-showdown
     streamerName: A1 eSports
     streamerChannel: a1esports
     streamLink: https://www.twitch.tv/a1esports
+  - date: 2024-11-16T13:00:00.000Z
+    streamerName: A1 eSports
+    streamerChannel: a1esports
+    streamLink: https://www.twitch.tv/a1esports
+    type: MAIN
+    wishes:
+      - rift-showdown
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1634,7 +1641,7 @@ wishes:
       möchte, diesen Wunsch!
     donationGoal: "500"
   - slug: rift-showdown
-    childname: Wunschkind
+    childname: LOL Tournament
     tagline: A1 eSports X Charity Royale - LOL Tournament
     donationGoal: "10000"
     descripion: TBD
