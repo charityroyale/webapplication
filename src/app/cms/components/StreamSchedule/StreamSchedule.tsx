@@ -114,7 +114,7 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 						</StyledSpecialEvent>
 						<StyledSpecialEvent
 							$bg="/specials/riftshowdown.png"
-							href="https://www.twitch.tv/a1esports"
+							href="https://charityroyale.at/a1esports/rift-showdown"
 							target="_blank"
 							rel="noreferrer"
 						>
