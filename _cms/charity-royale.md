@@ -1644,7 +1644,7 @@ wishes:
     donationGoal: "500"
   - slug: rift-showdown
     childname: Wunschkind
-    tagline: A1 eSports X Charity Royale - LOL Tournament
+    tagline: A1 eSports x Charity Royale Rift Showdown
     donationGoal: "10000"
     descripion: Beim Charity Royale x A1 eSports Rift Showdown treten insgesamt 8
       Teams aus League-Profis, -Streamern und absoluten Noobs in einem epsichen
