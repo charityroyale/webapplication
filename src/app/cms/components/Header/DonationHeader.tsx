@@ -6,6 +6,7 @@ import { Text } from '../Text'
 import { BiDonateHeart } from 'react-icons/bi'
 import { formatDate } from '../../../utils/formatUtils'
 import { styled } from 'styled-components'
+import { MakeAWishWishStreamerDTO } from '../../../dto/MakeAWishDTOs'
 
 const StyledDonationHeaderTitle = styled.h2`
 	font-size: ${(p) => p.theme.fontSize.l} px;
@@ -17,7 +18,13 @@ const StyledDonationHeaderDescription = styled.div``
 
 const StyledDonationHeaderDescriptionPrefix = styled.p`
 	color: ${(p) => p.theme.color.charityTeal};
+	margin-bottom: 12px;
+`
+
+const StyledStreamerContributors = styled.p`
+	color: ${(p) => p.theme.color.charityTeal};
 	margin-bottom: 2px;
+	margin-top: 12px;
 `
 
 const StyledDonationHeader = styled.div`
@@ -102,6 +109,11 @@ interface DonationHeaderProps {
 	noMargin?: boolean
 	streamerChannel: string
 	wishes: string[]
+	streamers:
+		| []
+		| {
+				[streamerSlug: string]: MakeAWishWishStreamerDTO
+		  }
 }
 
 const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
@@ -114,7 +126,9 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 	date,
 	noMargin,
 	wishes,
+	streamers,
 }: DonationHeaderProps) => {
+	const streamerContributions = Object.keys(streamers)
 	return (
 		<StyledDonationHeader>
 			<DonationDescriptionGridArea>
@@ -170,6 +184,14 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 							</StyledDonationHeaderDescriptionPrefix>
 							{description}
 						</StyledDonationHeaderDescription>
+						{streamerContributions.length > 1 && (
+							<div>
+								<StyledStreamerContributors>
+									<Text content="streamerContributionText" />
+								</StyledStreamerContributors>
+								<p>{Object.keys(streamers).join(', ')}</p>
+							</div>
+						)}
 					</DonationProjectContent>
 				</DonationHeaderProject>
 			</DonationDescriptionGridArea>

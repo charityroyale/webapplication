@@ -52,6 +52,7 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	let progressPercentage = 0
 	let donatorsCount = '0'
 	let wishCountry = ''
+	let contributors = {}
 
 	const cmsStreamerSlug = cms.streamer.streamerChannel.toLocaleLowerCase()
 	const cmsWishSlug = cms.wish.slug
@@ -59,6 +60,8 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	if (isMakeAWishDataAvailable) {
 		// Check if streamer exists in MAW info json
 		wishCountry = makeAWishData.wishes[cmsWishSlug].country
+		contributors = makeAWishData.wishes[cmsWishSlug].streamers
+
 		if (hasProperty(makeAWishData.streamers, cmsStreamerSlug)) {
 			const mawStreamerData = makeAWishData.streamers[cmsStreamerSlug]
 
@@ -126,6 +129,7 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 				date={cms.streamer.date}
 				streamerChannel={cms.streamer.streamerChannel}
 				wishes={cms.streamer.wishes}
+				streamers={contributors}
 			>
 				<React.Fragment>
 					<DonationStatsTitle>
