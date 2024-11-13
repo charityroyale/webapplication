@@ -1,6 +1,6 @@
 'use client'
 import { NextPage } from 'next'
-import React, { useState, useContext, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { BsFillPeopleFill } from 'react-icons/bs'
 import { FaDove } from 'react-icons/fa'
 import Skeleton from 'react-loading-skeleton'
@@ -19,7 +19,6 @@ import DonationWidgetList, { DonationListItem } from '../../../../cms/components
 import DonationHeader from '../../../../cms/components/Header/DonationHeader'
 import { MakeWishInfoJsonRecentDonationDTO, MakeAWishInfoJsonTopDonationDTO } from '../../../../dto/MakeAWishDTOs'
 import { useMakeAWish } from '../../../../hooks/useMakeAWish'
-import { IpInfoProviderContext } from '../../../../provider/IpInfoProvider'
 import { useLanguageContext } from '../../../../provider/LanguageProvider'
 import { hasProperty, getPercentage } from '../../../../utils/commonUtils'
 import { formatMoneyWithSign, formatDate } from '../../../../utils/formatUtils'
@@ -39,8 +38,6 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 	const [iFrameLoading, setIFrameLoaded] = useState(true)
 	const [iFrameError, setIFrameError] = useState(false)
 	const languageContext = useLanguageContext()
-	const ipInfoContext = useContext(IpInfoProviderContext)
-	const [shouldDisplayTaxHint, setShouldDisplayTaxHint] = useState(false)
 
 	const { makeAWishData, makeAWishDataIsLoading, makeAWishDataIsError } = useMakeAWish()
 	const isMakeAWishDataAvailable = !makeAWishDataIsError && !makeAWishDataIsLoading
@@ -119,12 +116,6 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 		setIFrameError(true)
 	}, [])
 
-	useEffect(() => {
-		if (wishCountry === 'DE' && ipInfoContext.country === 'AT') {
-			setShouldDisplayTaxHint(true)
-		}
-	}, [wishCountry, ipInfoContext.country])
-
 	return (
 		<MainGrid>
 			<DonationHeader
@@ -175,7 +166,11 @@ export const DonatePageContent: NextPage<DonationPageProps> = ({ cms }: Donation
 					<Text content="donationformTitle" />
 				</DonationFormHeader>
 
-				<TaxDeductionHint>{shouldDisplayTaxHint && <Text content="taxDeductionHint"></Text>}</TaxDeductionHint>
+				{wishCountry === 'DE' && (
+					<TaxDeductionHint>
+						<Text content="taxDeductionHint" />
+					</TaxDeductionHint>
+				)}
 
 				{iFrameLoading && <Skeleton height={'843px'} />}
 				{iFrameError && (
