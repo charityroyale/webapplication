@@ -1651,9 +1651,19 @@ wishes:
     donationGoal: "500"
   - slug: rift-showdown
     childname: Wunschkind
-    tagline: A1 eSports X Charity Royale - LOL Tournament
+    tagline: A1 eSports x Charity Royale Rift Showdown
     donationGoal: "10000"
-    descripion: TBD
+    descripion: Beim Charity Royale x A1 eSports Rift Showdown treten insgesamt
+      8       Teams aus League-Profis, -Streamern und absoluten Noobs in einem
+      epsichen       Turnier gegeneinander an und ihr könnt dabei direkt in das
+      Spielgeschehen       eingreifen! Durch das Erreichen von Spendengoals
+      können den einzelnen       Teams Handicaps und Challenges auferlegt
+      werden, um ihnen das Game zu       erschweren oder ihnen unter die Arme zu
+      greifen. Alle Spenden, die während       des Events gesammelt werden,
+      gehen an Make-A-Wish, um die Herzenswünsche       schwer kranker Kinder zu
+      erfüllen. Organisiert wird das Ganze von A1       eSports, für die Teams
+      geht es bei dem zweitägigen Turnier neben Ehre und       Ruhm außerdem um
+      ein Preisgeld von 1.000€.
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
