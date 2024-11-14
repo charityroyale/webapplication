@@ -536,8 +536,8 @@ upcoming:
     wishes:
       - yannik-playmobil-funpark
   - date: 2024-11-16T14:50:35.175Z
-    streamerName: " itslensu"
-    streamerChannel: " itslensu"
+    streamerName: itslensu
+    streamerChannel: itslensu
     streamLink: https://www.twitch.tv/itslensu
     type: COMMUNITY
     wishes:
