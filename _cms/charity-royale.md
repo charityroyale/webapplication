@@ -542,6 +542,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube07
+  - date: 2024-11-17T14:57:52.940Z
+    streamerName: Shaxreym
+    streamerChannel: shaxreym
+    streamLink: https://www.twitch.tv/shaxreym
+    type: COMMUNITY
+    wishes:
+      - harrypotter02
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
