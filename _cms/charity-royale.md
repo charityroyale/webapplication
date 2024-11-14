@@ -1679,6 +1679,14 @@ wishes:
       erfüllen. Organisiert wird das Ganze von A1       eSports, für die Teams
       geht es bei dem zweitägigen Turnier neben Ehre und       Ruhm außerdem um
       ein Preisgeld von 1.000€.
+  - childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter02
+    tagline: Eine Reise zu den Harry Potter Studios
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
