@@ -457,13 +457,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland10
-  - date: 2024-11-16T09:51:18.940Z
-    streamerName: vynra_
-    streamerChannel: vynra_
-    streamLink: https://www.twitch.tv/vynra_
-    type: COMMUNITY
-    wishes:
-      - prinzessin08
   - date: 2024-11-07T12:07:25.874Z
     streamerName: Iljaech
     streamerChannel: iljaech
