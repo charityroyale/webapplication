@@ -549,6 +549,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - harrypotter02
+  - date: 2024-11-28T15:50:52.049Z
+    streamerName: Felikah
+    streamerChannel: felikah
+    streamLink: https://www.twitch.tv/felikah
+    type: MAIN
+    wishes:
+      - c-hollywood-schaukel
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
