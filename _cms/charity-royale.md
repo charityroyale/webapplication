@@ -556,6 +556,13 @@ upcoming:
     type: MAIN
     wishes:
       - c-hollywood-schaukel
+  - date: 2024-11-16T11:23:44.293Z
+    streamerName: Badrick_
+    streamerChannel: badrick_
+    streamLink: https://www.twitch.tv/badrick_
+    type: COMMUNITY
+    wishes:
+      - harrypotter03
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1414,6 +1421,22 @@ wishes:
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+    slug: harrypotter02
+    tagline: Eine Reise zu den Harry Potter Studios
+  - slug: harrypotter03
+    tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
   - slug: harrypotter11
     tagline: Eine Reise zu den Harry Potter Studios
     childname: Wunschkind
@@ -1686,14 +1709,6 @@ wishes:
       erfüllen. Organisiert wird das Ganze von A1       eSports, für die Teams
       geht es bei dem zweitägigen Turnier neben Ehre und       Ruhm außerdem um
       ein Preisgeld von 1.000€.
-  - childname: Wunschkind
-    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
-      tolles Highlight und darum einer der meistgenannten Wünsche bei
-      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
-      anonym bleiben möchte, diesen Wunsch!
-    donationGoal: "1000"
-    slug: harrypotter02
-    tagline: Eine Reise zu den Harry Potter Studios
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
