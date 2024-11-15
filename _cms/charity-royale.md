@@ -563,7 +563,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - harrypotter03
-  - date: 2024-11-15T11:43:32.030Z
+  - date: 2024-11-29T11:43:32.030Z
     wishes:
       - mykola-laptop
     type: MAIN
