@@ -563,6 +563,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - harrypotter03
+  - date: 2024-11-15T11:43:32.030Z
+    wishes:
+      - mykola-laptop
+    type: MAIN
+    streamLink: https://www.twitch.tv/handofblood
+    streamerChannel: handofblood
+    streamerName: HandOfBlood
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
