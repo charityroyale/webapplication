@@ -570,6 +570,13 @@ upcoming:
     streamLink: https://www.twitch.tv/handofblood
     streamerChannel: handofblood
     streamerName: HandOfBlood
+  - date: 2024-11-19T12:24:19.635Z
+    streamerName: distance_couple
+    streamerChannel: distance_couple
+    streamLink: https://www.twitch.tv/distance_couple
+    type: COMMUNITY
+    wishes:
+      - prinzessin10
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1180,6 +1187,22 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
+  - slug: prinzessin09
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin10
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
   - slug: prinzessin11
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
@@ -1693,14 +1716,6 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "1000"
-  - slug: prinzessin09
-    tagline: Einen Tag lang Prinzessin sein
-    childname: Wunschkind
-    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
-    donationGoal: "500"
   - slug: rift-showdown
     childname: Wunschkind
     tagline: A1 eSports x Charity Royale Rift Showdown
