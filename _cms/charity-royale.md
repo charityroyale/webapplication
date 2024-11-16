@@ -171,13 +171,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin05
-  - date: 2024-11-16T10:53:18.220Z
-    streamerName: TVInvincible
-    streamerChannel: tvinvincible
-    streamLink: https://twitch.tv/TVInvincible
-    type: COMMUNITY
-    wishes:
-      - youtube03
   - date: 2024-11-11T12:24:33.923Z
     streamerName: bySeli
     streamerChannel: byseli
