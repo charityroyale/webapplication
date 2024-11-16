@@ -577,6 +577,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin10
+  - date: 2024-11-16T12:40:36.347Z
+    wishes:
+      - legoland16
+    type: COMMUNITY
+    streamerChannel: uzunaa
+    streamLink: https://www.twitch.tv/uzunaa
+    streamerName: Uzuna
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1324,6 +1331,14 @@ wishes:
       diesen Wunsch!
     donationGoal: "500"
   - slug: legoland14
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland16
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
