@@ -2,10 +2,10 @@
 donationGoal: 250000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: mahluna/darius-lamborghini
+featuredStream: mahluna/a-gaming-pc
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: mahluna/darius-lamborghini
+customDonationLink: mahluna/a-gaming-pc
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -260,6 +260,7 @@ upcoming:
       - p-legoland
       - i-phantasialand
       - darius-lamborghini
+      - a-gaming-pc
   - date: 2024-11-11T13:50:47.297Z
     streamerName: stev0rr
     streamerChannel: stev0rr
