@@ -579,6 +579,13 @@ upcoming:
     streamerChannel: uzunaa
     streamLink: https://www.twitch.tv/uzunaa
     streamerName: Uzuna
+  - date: 2024-11-18T16:58:04.618Z
+    streamerName: Rewinside
+    streamLink: https://www.twitch.tv/rewinside
+    streamerChannel: rewinside
+    type: MAIN
+    wishes:
+      - p-gaming-pc
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
