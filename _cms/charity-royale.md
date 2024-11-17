@@ -2,10 +2,10 @@
 donationGoal: 250000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: mahluna/i-phantasieland
+featuredStream: mahluna/darius-lamborghini
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: mahluna/i-phantasieland
+customDonationLink: mahluna/darius-lamborghini
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -258,7 +258,8 @@ upcoming:
     type: MAIN
     wishes:
       - p-legoland
-      - i-phantasieland
+      - i-phantasialand
+      - darius-lamborghini
   - date: 2024-11-11T13:50:47.297Z
     streamerName: stev0rr
     streamerChannel: stev0rr
@@ -724,8 +725,8 @@ wishes:
       wünscht sich daher einen Ausflug mit seiner Familie ins  Phantasialand,
       denn dort möchte er alle Achterbahnen mit seinem Bruder ausprobieren.
     donationGoal: "1200"
-    tagline: I. wünscht sich einen Ausflug ins Phantasieland
-    slug: i-phantasieland
+    tagline: I. wünscht sich einen Ausflug ins Phantasialand
+    slug: i-phantasialand
   - childname: M.
     tagline: M. wünscht sich eine Kuschelecke in ihrem Zimmer
     descripion: M. ist 8 Jahre alt und lebt mit einem seltenen Gendefekt. Kinder wie
