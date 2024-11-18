@@ -2,10 +2,10 @@
 donationGoal: 250000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: rewinside/p-gaming-pc
+featuredStream: letshugotv/mia-disneyland
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: rewinside/p-gaming-pc
+customDonationLink: letshugotv/mia-disneyland
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
