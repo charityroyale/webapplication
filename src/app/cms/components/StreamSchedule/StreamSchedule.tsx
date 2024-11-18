@@ -8,7 +8,6 @@ import { Text } from '../../components/Text'
 import { styled } from 'styled-components'
 import { MakeAWishRootLevelWishDTO, MakeAWishStreamerWishDTO } from '../../../dto/MakeAWishDTOs'
 import { sortByDateString } from '../../../utils/commonUtils'
-import { CmsSchedulesType } from '../../../(site)/page'
 import {
 	StyleUpcomingStreamsHeader,
 	StyleUpcomingStreamsTitle,
@@ -23,6 +22,7 @@ import {
 import { LiveChannels } from './LiveChannels'
 import { useLiveChannels } from '../../../hooks/useLiveChannels'
 import { isMultiStream } from '../../../utils/streamerUtils'
+import { CmsSchedulesType } from '../../../(site)/(main)/page'
 
 interface StreamScheduleProps {
 	schedules: CmsSchedulesType
