@@ -138,11 +138,39 @@ const DonationButton: React.FunctionComponent<DonationButtonProps> = ({ target }
 	)
 }
 
-interface HeaderProps {
-	showDonationButton?: boolean
+const DonationScrollButton: React.FunctionComponent<DonationButtonProps> = () => {
+	const handleScrollToElement = (id: string) => {
+		const element = document.getElementById(id)
+		if (element) {
+			element.scrollIntoView({
+				behavior: 'smooth',
+				block: 'start',
+				inline: 'nearest',
+			})
+		}
+	}
+	return (
+		<DonationButtonWrapper>
+			<DonateButton
+				type="button"
+				onClick={() => {
+					handleScrollToElement('donationform')
+				}}
+			>
+				<span>{<Text content="donateText" />}</span>
+			</DonateButton>
+			<HeaderSocials />
+			<LanguageSelector />
+		</DonationButtonWrapper>
+	)
 }
 
-const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = true }: HeaderProps) => {
+interface HeaderProps {
+	showDonationButton?: boolean
+	layout?: 'donationpage'
+}
+
+const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = true, layout }: HeaderProps) => {
 	const { makeAWishData, makeAWishDataIsError, makeAWishDataIsLoading } = useMakeAWish()
 
 	return (
@@ -186,7 +214,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({ showDonationButton = tru
 										: makeAWishData.total_donation_count
 								}
 							></DonationHeaderCount>
-							<DonationButton />
+							{layout === 'donationpage' ? <DonationScrollButton /> : <DonationButton />}
 						</DonationHeaderCounterAndButtonWrapper>
 					</StyledHeaderRightItem>
 				)}

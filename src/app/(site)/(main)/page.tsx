@@ -1,11 +1,11 @@
 import React from 'react'
-import cmsContent, { StreamerType, CmsUpcomingStreamer } from '../cms/cms'
-import ButtonsBox from '../cms/components/FaqBox'
-import FeaturedStream from '../cms/components/FeatureStream/FeaturedStream'
-import { StreamSchedule } from '../cms/components/StreamSchedule/StreamSchedule'
-import { TwitchUserDTO } from '../dto/TwitchUserDTO'
-import { fetchTwitchUsersBySchedule } from '../utils/commonUtils'
-import { MainPageContent } from '../cms/components/MainPageContent'
+import cmsContent, { StreamerType, CmsUpcomingStreamer } from '../../cms/cms'
+import ButtonsBox from '../../cms/components/FaqBox'
+import FeaturedStream from '../../cms/components/FeatureStream/FeaturedStream'
+import { MainPageContent } from '../../cms/components/MainPageContent'
+import { StreamSchedule } from '../../cms/components/StreamSchedule/StreamSchedule'
+import { TwitchUserDTO } from '../../dto/TwitchUserDTO'
+import { fetchTwitchUsersBySchedule } from '../../utils/commonUtils'
 
 export type CmsSchedulesType = { [key in StreamerType]: CmsUpcomingStreamer[] }
 

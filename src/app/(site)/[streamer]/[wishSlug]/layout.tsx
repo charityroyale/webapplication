@@ -1,10 +1,10 @@
 'use client'
 import React, { PropsWithChildren, Suspense } from 'react'
-import { StyledLayout } from '../../styles/common.styles'
-import CookieBanner from '../cms/components/CookieBanner'
-import Footer from '../cms/components/Footer/Footer'
-import Header from '../cms/components/Header/Header'
-import GoogleAnalytics from '../cms/components/GoogleAnalytics'
+import { StyledLayout } from '../../../../styles/common.styles'
+import CookieBanner from '../../../cms/components/CookieBanner'
+import Footer from '../../../cms/components/Footer/Footer'
+import GoogleAnalytics from '../../../cms/components/GoogleAnalytics'
+import Header from '../../../cms/components/Header/Header'
 
 const MainLayout: React.FunctionComponent<PropsWithChildren> = ({ children }) => {
 	return (
@@ -14,7 +14,7 @@ const MainLayout: React.FunctionComponent<PropsWithChildren> = ({ children }) =>
 			</Suspense>
 			<StyledLayout>
 				<CookieBanner />
-				<Header />
+				<Header layout="donationpage" />
 				{children}
 				<Footer />
 			</StyledLayout>
