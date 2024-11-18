@@ -587,6 +587,13 @@ upcoming:
     type: MAIN
     wishes:
       - p-gaming-pc
+  - date: 2024-11-23T12:55:31.692Z
+    wishes:
+      - prinzessin14
+    type: COMMUNITY
+    streamerName: litbeit
+    streamerChannel: litbeit
+    streamLink: https://www.twitch.tv/Litbeit
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1229,6 +1236,14 @@ wishes:
       möchte, diesen Wunsch!
     donationGoal: "500"
     childname: Wunschkind
+  - slug: prinzessin14
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
   - slug: legoland01
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
