@@ -34,7 +34,7 @@ curl -X POST \
 The project uses a netlify hosting plan to build, deploy and host charityroyale.at. `main` is defined as development branch and is expected to stay in sync with `release`. Any feature development is expected to a pullrequest to `main`. Once merged to `main`, the latest version is merged into `release` by hand. Changes to `release` trigger the netlify build pipeline and is automatically deployed.
 The project uses the nextjs static export which exports at build time all code in static html pages and bundles the relevant assets into the `out` folder which are then served by netlify (ssg pages).
 
-## Netlify CMS
+## Decap CMS (formerly Netlify CMS)
 
-This is especially useful when changes through the netlify cms interface are done, which changes `/_cms/charity-royale.md` in the `release` branch as a new commit. Changes to `/_cms/charity-royale.md` should not be done by hand.  
-Changes to the netlify cms UI are done via `config.yml` changes.
+This is especially useful when changes through the Decap CMS interface are done, which changes `/_cms/charity-royale.md` in the `release` branch as a new commit. Changes to `/_cms/charity-royale.md` should not be done by hand.  
+Changes to the Decap CMS UI are done via `config.yml` changes.
