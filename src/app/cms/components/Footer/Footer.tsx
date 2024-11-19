@@ -92,6 +92,9 @@ const Footer: React.FunctionComponent = () => {
 				</FooterListTitle>
 				<FooterList>
 					<FooterListItem>
+						<ClientLink href={'https://www.netlify.com'}>This site is powered by Netlify</ClientLink>
+					</FooterListItem>
+					<FooterListItem>
 						<ClientLink href={'https://github.com/charityroyale'}>Code</ClientLink>
 					</FooterListItem>
 				</FooterList>
@@ -117,7 +120,6 @@ const Footer: React.FunctionComponent = () => {
 						</a>
 					</FooterListItem>
 
-					<FooterListTitle style={{ display: 'flex', marginTop: '14px' }}>Development</FooterListTitle>
 					<FooterListItem>
 						<a target="_bank" rel="noreferrer" href="https://hammertime.studio/">
 							Hammertime
