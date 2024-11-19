@@ -1879,4 +1879,77 @@ faq:
         viewers, we are entering the seventh round of this fundraising event for
         a good cause in 2024, once again collecting donations to fulfill the
         heartfelt wishes of critically ill children.
+    - question-en: How much has Charity Royale raised so far?
+      answer-en: >-
+        Since the collaboration began between Charity Royale by Veni, willhaben,
+        and Make-A-Wish, a total of €618,497.44 has been raised through 19,016
+        individual donations to fulfill the heartfelt wishes of critically ill
+        children.
+
+
+        * In **2018**, we raised €10,450 for cancer research at the St. Anna Children’s Hospital.
+
+        * In **2019**, we supported "Licht ins Dunkel" and their project PROSA - School for All, raising €27,100.
+
+        * In **2020**, for the first time, we worked with the Make-A-Wish Foundation Austria to fulfill the wishes of critically ill children, collecting around €83,500 during 23 days of daily livestreams.
+
+        * In **2021**, we exceeded six figures for the first time for Make-A-Wish Foundation Austria, with a successful 24-hour stream finale. More than €155,000 was donated to fulfill the wishes of critically ill children.
+
+        * In **2022**, the Charity Royale project received two awards: the Austrian Fundraising Award and the "Golden Hashtag" for Best Influencer Project in the country. This year, we shifted our month-long charity streams, including the finale event hosted by Veni, to October. Over 30 nonprofit streams helped raise €131,261.59 for Make-A-Wish.
+
+        * In **2023**, we broke our 2021 record, raising over a quarter of a million euros for the first time. Specifically, €252,797.40 was raised for critically ill children with Make-A-Wish Austria and Make-A-Wish Germany. The event attracted over 3 million visits and was recognized at the international Make-A-Wish conference as "Best in Streaming, Gaming, and Influencer Campaigning."
+    - answer-en: "Forty years ago, the wish of a seven-year-old boy with cancer, who
+        desperately wanted to become a police officer, led to the creation of a
+        foundation that has since brought joy to countless critically ill
+        children around the world: the Make-A-Wish Foundation®. From that day
+        onward, the organization has been giving children between the ages of 3
+        and 18, along with their families, courage, strength, and unforgettable
+        moments during their most challenging times."
+      question-en: What is the Make-A-Wish Foundation?
+    - question-en: How can I donate?
+      answer-en: >-
+        Each program or streamer participating in Charity Royale 2024 has chosen
+        a heartfelt wish of a critically ill child to support. During their
+        respective live streams, the donation link on the homepage of
+        charityroyale.at is exclusively activated for that specific wish.
+        Additionally, each streamer has a unique donation link to avoid any
+        overlap. This ensures that all donations go directly to the selected
+        heartfelt wish.
+
+
+        If donations exceed the target amount for the chosen wish, the surplus will be used to fulfill additional anonymous wishes of critically ill children through Make-A-Wish.
+
+
+        Donations can be made via PayPal, EPS transfer, Sofort, or credit card.
+    - question-en: Is my donation tax-deductible?
+      answer-en: >-
+        Yes, it is definitely possible in Austria and Germany.
+
+
+        Donors will receive detailed information about tax deductibility and how to process it in the thank-you email from Make-A-Wish. Follow these instructions to claim your donation as tax-deductible.
+
+
+        *Note: Donations made in Austria for wishes originating in Germany cannot be claimed as tax-deductible in Austria. This is specified in the respective donation form.*
+    - question-en: Can I be sure that my donations will reach their destination?
+      answer-en: >-
+        Yes, the Make-A-Wish Foundation Austria has been awarded the Austrian
+        Donation Quality Seal, which is an important mark of quality and comes
+        with strict audit guidelines. All finances are transparently disclosed
+        annually in Make-A-Wish's annual report.
+
+
+        Make-A-Wish primarily operates with volunteer members. In Austria, this includes 127 volunteers and 5 part-time staff.
+
+
+        The donation forms on charityroyale.at are direct integrations of the official donation forms from Make-A-Wish and are not processed through third parties.
+    - answer-en: Your donation message will automatically appear as an alert in the
+        respective live stream. (The extent of its display in the stream overlay
+        is determined by the individual streamers.)
+      question-en: Where will my donation message be displayed?
+    - question-en: Can I also collect donations for Charity Royale?
+      answer-en: Due to popular demand, we have once again made it possible for
+        community streamers to collect donations for a good cause as part of
+        Charity Royale this year. Please fill out [this application
+        form](https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform)
+        to participate.
 ---
