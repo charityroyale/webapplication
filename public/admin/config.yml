@@ -17,7 +17,7 @@ collections:
                       label: 'Donation Goal (EUR)',
                       name: 'donationGoal',
                       widget: 'number',
-                      value_type: 'int',
+                      value_type: 'float',
                       default: 250000,
                       min: 10000,
                       max: 999999999,
