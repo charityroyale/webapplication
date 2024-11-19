@@ -228,9 +228,10 @@ export const StyledSpecialEventsGrid = styled.div`
 	margin-top: 64px;
 
 	${(p) => p.theme.media.tablet} {
-		padding: ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xl}px;
+		padding: ${(p) => p.theme.space.s}px ${(p) => p.theme.space.s}px;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: ${(p) => p.theme.gridGrap.tablet}px;
+		margin: 0;
 	}
 
 	${(p) => p.theme.media.phone} {
