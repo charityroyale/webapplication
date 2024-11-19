@@ -7,12 +7,15 @@ import cmsContent from '../cms'
 
 const ButtonsGrid = styled.div`
 	grid-area: faq-box;
-	display: grid;
 	margin: auto;
+	padding: ${(p) => p.theme.space.xxl}px ${(p) => p.theme.space.xl}px 0 ${(p) => p.theme.space.xl}px;
+`
+
+const ButtonsContent = styled.div`
+	display: grid;
 	grid-template-columns: minmax(auto, 300px) minmax(auto, 300px);
 	grid-template-rows: 100px;
 	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
-	padding: ${(p) => p.theme.space.xxl}px ${(p) => p.theme.space.xl}px 0 ${(p) => p.theme.space.xl}px;
 
 	${(p) => p.theme.media.tablet} {
 		padding: ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xl}px;
@@ -21,7 +24,7 @@ const ButtonsGrid = styled.div`
 	}
 
 	${(p) => p.theme.media.phone} {
-		grid-template-columns: minmax(auto, 300px);
+		grid-template-columns: minmax(auto, 900px);
 		grid-template-rows: 100px 100px;
 		padding: 0;
 		padding-top: ${(p) => p.theme.space.xxl}px;
@@ -81,30 +84,76 @@ const ButtonItemWrapper = styled.div`
 	}
 `
 
+const GoalText = styled.p`
+	color: ${(p) => p.theme.color.white};
+	max-width: 600px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 24px;
+	font-size: ${(p) => p.theme.fontSize.xl}px;
+
+	strong {
+		font-size: ${(p) => p.theme.fontSize.xl}px;
+		color: ${(p) => p.theme.color.charityTeal};
+		text-shadow: 2px 2px 0px #7df8ff30;
+	}
+
+	${(p) => p.theme.media.tablet} {
+		font-size: 24px;
+	}
+
+	${(p) => p.theme.media.phone} {
+		font-size: 18px;
+	}
+`
+
+const GoalTitle = styled.p`
+	font-size: 54px;
+	text-align: center;
+	margin-bottom: 32px;
+	color: ${(p) => p.theme.color.white};
+	font-weight: bold;
+
+	${(p) => p.theme.media.tablet} {
+		font-size: 38px;
+	}
+
+	${(p) => p.theme.media.phone} {
+		font-size: 24px;
+	}
+`
+
 const ButtonsBox: React.FunctionComponent = () => {
 	return (
 		<ButtonsGrid>
-			{cmsContent.applyLink ? (
-				<ButtonItemWrapper>
-					<Button href={cmsContent.applyLink} target="_blank">
-						<Text content="applyAsStreamerCTA" />
-					</Button>
-				</ButtonItemWrapper>
-			) : (
-				<ButtonItemWrapper>
-					<Button href="https://www.make-a-wish.at/" target="_blank">
-						<Text content="mawCta" />
-					</Button>
-				</ButtonItemWrapper>
-			)}
+			<GoalTitle>Road to 1 Million</GoalTitle>
+			<GoalText>
+				<Text content="donationGoalCall" />
+			</GoalText>
 
-			<ButtonItemWrapper>
-				<Link href="/faq" legacyBehavior={true}>
-					<Button href="/faq">
-						<Text content="questionsAndAnswersCTA" />
-					</Button>
-				</Link>
-			</ButtonItemWrapper>
+			<ButtonsContent>
+				{cmsContent.applyLink ? (
+					<ButtonItemWrapper>
+						<Button href={cmsContent.applyLink} target="_blank">
+							<Text content="applyAsStreamerCTA" />
+						</Button>
+					</ButtonItemWrapper>
+				) : (
+					<ButtonItemWrapper>
+						<Button href="https://www.make-a-wish.at/" target="_blank">
+							<Text content="mawCta" />
+						</Button>
+					</ButtonItemWrapper>
+				)}
+
+				<ButtonItemWrapper>
+					<Link href="/faq" legacyBehavior={true}>
+						<Button href="/faq">
+							<Text content="questionsAndAnswersCTA" />
+						</Button>
+					</Link>
+				</ButtonItemWrapper>
+			</ButtonsContent>
 		</ButtonsGrid>
 	)
 }

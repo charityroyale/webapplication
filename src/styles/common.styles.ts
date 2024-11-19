@@ -225,7 +225,7 @@ export const StyledSpecialEventsGrid = styled.div`
 	grid-gap: ${(p) => p.theme.gridGrap.desktop}px;
 	margin: auto;
 	max-width: 1300px;
-	margin-top: 32px;
+	margin-top: 64px;
 
 	${(p) => p.theme.media.tablet} {
 		padding: ${(p) => p.theme.space.xl}px ${(p) => p.theme.space.xl}px;

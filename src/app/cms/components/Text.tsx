@@ -5,5 +5,11 @@ import { DictionairyEntryType, useLanguageContext } from '../../provider/Languag
 
 export const Text: FunctionComponent<{ content: DictionairyEntryType }> = ({ content }) => {
 	const languageContext = useLanguageContext()
-	return <span>{languageContext.dictionary[content]}</span>
+	return (
+		<span
+			dangerouslySetInnerHTML={{
+				__html: languageContext.dictionary[content] || '',
+			}}
+		/>
+	)
 }

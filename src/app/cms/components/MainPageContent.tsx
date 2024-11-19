@@ -12,6 +12,8 @@ const MainGrid = styled.main`
 
 	${(p) => p.theme.media.phone} {
 		padding-top: 0;
+
+		grid-template-rows: 420px auto auto auto auto auto auto;
 	}
 `
 

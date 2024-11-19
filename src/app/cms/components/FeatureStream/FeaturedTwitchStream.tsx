@@ -17,6 +17,7 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 
 	useEffect(() => {
 		const twitchEmbdedScriptTag = document.createElement('script')
+
 		twitchEmbdedScriptTag.src = 'https://embed.twitch.tv/embed/v1.js'
 		twitchEmbdedScriptTag.async = true
 		twitchEmbdedScriptTag.addEventListener('load', () => {
@@ -45,6 +46,7 @@ const FeaturedTwitchStream: React.FunctionComponent<FeaturedTwitchStreamProps> =
 				featuredStreamIFrame.height = `${width * (9 / 16)}px`
 			}
 		}
+
 		window.addEventListener('resize', updateSize)
 		return () => window.removeEventListener('resize', updateSize)
 	}, [])
