@@ -1872,6 +1872,11 @@ faq:
         Bewerbungsformular](https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link)
         aus.
   questions-en:
-    - question-en: TBA
-      answer-en: TBA
+    - question-en: What is Charity Royale?
+      answer-en: Charity Royale was created in 2018 when Veni and Austria’s largest
+        digital marketplace, willhaben, teamed up for a unique 24-hour charity
+        stream. Due to its incredible success and the overwhelming generosity of
+        viewers, we are entering the seventh round of this fundraising event for
+        a good cause in 2024, once again collecting donations to fulfill the
+        heartfelt wishes of critically ill children.
 ---
