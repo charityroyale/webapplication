@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: nooreax/playstation01
+featuredStream: nooreax/zimmer01
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: nooreax/playstation01
+customDonationLink: nooreax/zimmer01
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -289,6 +289,7 @@ upcoming:
       - munthi-ipad
       - playstation01
       - prinzessin15
+      - zimmer01
   - date: 2024-11-23T13:50:49.272Z
     streamerName: Dhalucard
     streamerChannel: dhalucard
@@ -1831,6 +1832,14 @@ wishes:
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
+  - slug: zimmer01
+    donationGoal: "1000"
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    descripion: Eine neue coole Zimmereinrichtung ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte diesen Wunsch!
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
