@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: nooreax/harrypotter04
+featuredStream: nooreax/youtube08
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: nooreax/harrypotter04
+customDonationLink: nooreax/youtube08
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -296,6 +296,7 @@ upcoming:
       - m-kuschelecke
       - d-gardaland
       - harrypotter04
+      - youtube08
   - date: 2024-11-23T13:50:49.272Z
     streamerName: Dhalucard
     streamerChannel: dhalucard
@@ -1456,6 +1457,14 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
   - slug: youtube07
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "500"
+  - slug: youtube08
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
     childname: Wunschkind
     descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
