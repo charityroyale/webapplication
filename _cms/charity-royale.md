@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: nooreax/stelzenhaus02
+featuredStream: nooreax/stelzenhaus03
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: nooreax/stelzenhaus02
+customDonationLink: nooreax/stelzenhaus03
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -291,7 +291,7 @@ upcoming:
       - prinzessin15
       - zimmer01
       - dino07
-      - stelzenhaus02
+      - stelzenhaus03
   - date: 2024-11-23T13:50:49.272Z
     streamerName: Dhalucard
     streamerChannel: dhalucard
@@ -1850,7 +1850,7 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
-  - slug: stelzenhaus02
+  - slug: stelzenhaus03
     tagline: Ein Stelzenhaus im Garten
     childname: Wunschkind
     descripion: Ein Stelzenhaus ist für viele Kinder ein großer Wunsch und darum
