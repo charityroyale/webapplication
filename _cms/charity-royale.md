@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: nooreax/mohammad-ali-ipad
+featuredStream: nooreax/gamingpc07
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: nooreax/mohammad-ali-ipad
+customDonationLink: nooreax/gamingpc07
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -283,6 +283,7 @@ upcoming:
     type: MAIN
     wishes:
       - mohammad-ali-ipad
+      - gamingpc07
   - date: 2024-11-23T13:50:49.272Z
     streamerName: Dhalucard
     streamerChannel: dhalucard
@@ -1545,6 +1546,13 @@ wishes:
       einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
   - slug: gamingpc06
+    tagline: Ein neuer Gaming-PC
+    childname: Wunschkind
+    descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
+      der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: gamingpc07
     tagline: Ein neuer Gaming-PC
     childname: Wunschkind
     descripion: Ein Gaming-PC ist für viele Kinder ein großer Wunsch und darum einer
