@@ -605,6 +605,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - legoland17
+  - date: 2024-11-27T13:17:07.885Z
+    streamerName: Sawlties
+    streamLink: https://www.twitch.tv/sawlties
+    streamerChannel: sawlties
+    type: MAIN
+    wishes:
+      - l-fahrrad
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
