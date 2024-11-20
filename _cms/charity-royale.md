@@ -612,6 +612,13 @@ upcoming:
     type: MAIN
     wishes:
       - l-fahrrad
+  - date: 2024-11-29T14:14:31.274Z
+    wishes:
+      - dino06
+    type: COMMUNITY
+    streamerName: esportUBT
+    streamerChannel: esportubt
+    streamLink: https://www.twitch.tv/esportubt
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1487,6 +1494,14 @@ wishes:
       möchte, diesen Wunsch!
     donationGoal: "500"
   - slug: dino05
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: dino06
     tagline: Einen Dinosaurier treffen
     childname: Wunschkind
     descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
