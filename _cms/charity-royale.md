@@ -288,6 +288,7 @@ upcoming:
       - disneyland05
       - munthi-ipad
       - playstation01
+      - prinzessin15
   - date: 2024-11-23T13:50:49.272Z
     streamerName: Dhalucard
     streamerChannel: dhalucard
@@ -1822,6 +1823,14 @@ wishes:
       erfüllen. Organisiert wird das Ganze von A1       eSports, für die Teams
       geht es bei dem zweitägigen Turnier neben Ehre und       Ruhm außerdem um
       ein Preisgeld von 1.000€.
+  - slug: prinzessin15
+    donationGoal: "500"
+    childname: Wunschkind
+    tagline: Einen Tag lang Prinzessin sein
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
