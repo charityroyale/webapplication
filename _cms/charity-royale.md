@@ -1551,6 +1551,14 @@ wishes:
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - slug: harrypotter04
+    childname: Wunschkind
+    tagline: Eine Reise zu den Harry Potter Studios
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
   - slug: harrypotter11
     tagline: Eine Reise zu den Harry Potter Studios
     childname: Wunschkind
@@ -1665,6 +1673,14 @@ wishes:
     tagline: Eine neue Gaming-Ecke
     donationGoal: "2000"
   - slug: gamingecke02
+    tagline: Eine neue Gaming-Ecke
+    childname: Wunschkind
+    descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte diesen Wunsch!
+    donationGoal: "2000"
+  - slug: gamingecke03
     tagline: Eine neue Gaming-Ecke
     childname: Wunschkind
     descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
@@ -1861,14 +1877,6 @@ wishes:
       einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
-    donationGoal: "2000"
-  - slug: gamingecke03
-    tagline: Eine neue Gaming-Ecke
-    childname: Wunschkind
-    descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
-      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte diesen Wunsch!
     donationGoal: "2000"
 faq:
   videos:
