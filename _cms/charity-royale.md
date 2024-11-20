@@ -597,6 +597,13 @@ upcoming:
     streamerName: litbeit
     streamerChannel: litbeit
     streamLink: https://www.twitch.tv/Litbeit
+  - date: 2024-11-23T12:56:31.783Z
+    streamerName: zuzkia
+    streamerChannel: zuzkia
+    streamLink: https://www.twitch.tv/zuzkia
+    type: COMMUNITY
+    wishes:
+      - legoland17
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1360,6 +1367,14 @@ wishes:
       diesen Wunsch!
     donationGoal: "500"
   - slug: legoland16
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland17
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
