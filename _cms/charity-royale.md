@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: nooreax/zimmer01
+featuredStream: nooreax/dino07
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: nooreax/zimmer01
+customDonationLink: nooreax/dino07
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -290,6 +290,7 @@ upcoming:
       - playstation01
       - prinzessin15
       - zimmer01
+      - dino07
   - date: 2024-11-23T13:50:49.272Z
     streamerName: Dhalucard
     streamerChannel: dhalucard
@@ -1840,6 +1841,14 @@ wishes:
       Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte diesen Wunsch!
+  - slug: dino07
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
