@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: v1nkub/gamingpc08
+featuredStream: v1nkub/prinzessin16
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: v1nkub/gamingpc08
+customDonationLink: v1nkub/prinzessin16
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -343,6 +343,7 @@ upcoming:
     wishes:
       - shahil-legoland
       - gamingpc08
+      - prinzessin16
   - date: 2024-11-25T12:00:29.196Z
     streamerName: Sintica
     streamerChannel: sintica
@@ -1274,6 +1275,14 @@ wishes:
     donationGoal: "500"
     childname: Wunschkind
   - slug: prinzessin14
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
+  - slug: prinzessin16
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
     descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
