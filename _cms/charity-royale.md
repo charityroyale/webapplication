@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: v1nkub/harrypotter05
+featuredStream: v1nkub/gamingecke04
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: v1nkub/harrypotter05
+customDonationLink: v1nkub/gamingecke04
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -346,6 +346,7 @@ upcoming:
       - prinzessin16
       - disneyland06
       - harrypotter05
+      - gamingecke04
   - date: 2024-11-25T12:00:29.196Z
     streamerName: Sintica
     streamerChannel: sintica
@@ -1725,6 +1726,14 @@ wishes:
       möchte diesen Wunsch!
     donationGoal: "2000"
   - slug: gamingecke03
+    tagline: Eine neue Gaming-Ecke
+    childname: Wunschkind
+    descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte diesen Wunsch!
+    donationGoal: "2000"
+  - slug: gamingecke04
     tagline: Eine neue Gaming-Ecke
     childname: Wunschkind
     descripion: Eine coole Gaming-Ecke im Zimmer ist für viele Kinder ein riesiger
