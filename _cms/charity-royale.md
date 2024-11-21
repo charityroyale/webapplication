@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: v1nkub/prinzessin16
+featuredStream: v1nkub/disneyland06
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: v1nkub/prinzessin16
+customDonationLink: v1nkub/disneyland06
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -344,6 +344,7 @@ upcoming:
       - shahil-legoland
       - gamingpc08
       - prinzessin16
+      - disneyland06
   - date: 2024-11-25T12:00:29.196Z
     streamerName: Sintica
     streamerChannel: sintica
@@ -1675,6 +1676,14 @@ wishes:
       diesen Wunsch!
     donationGoal: "2000"
   - slug: disneyland05
+    tagline: Eine Reise ins Disneyland
+    childname: Wunschkind
+    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "2000"
+  - slug: disneyland06
     tagline: Eine Reise ins Disneyland
     childname: Wunschkind
     descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
