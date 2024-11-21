@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: v1nkub/disneyland06
+featuredStream: v1nkub/harrypotter05
 applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
 makeAWishProjects: []
-customDonationLink: v1nkub/disneyland06
+customDonationLink: v1nkub/harrypotter05
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -345,6 +345,7 @@ upcoming:
       - gamingpc08
       - prinzessin16
       - disneyland06
+      - harrypotter05
   - date: 2024-11-25T12:00:29.196Z
     streamerName: Sintica
     streamerChannel: sintica
@@ -1574,6 +1575,14 @@ wishes:
   - slug: harrypotter04
     childname: Wunschkind
     tagline: Eine Reise zu den Harry Potter Studios
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: harrypotter05
+    tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
     descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
       tolles Highlight und darum einer der meistgenannten Wünsche bei
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
