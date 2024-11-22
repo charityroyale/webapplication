@@ -304,8 +304,6 @@ upcoming:
     type: MAIN
     wishes:
       - yahya-pc
-      - h-macbook
-      - g-schaukel
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
@@ -1309,14 +1307,6 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
-  - slug: prinzessin17
-    tagline: Einen Tag lang Prinzessin sein
-    childname: Wunschkind
-    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
-    donationGoal: "500"
   - slug: legoland01
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
@@ -1955,34 +1945,22 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "2000"
-  - slug: gregor-kalifornien
-    tagline: Ein Wiedersehen in Kalifornien
-    childname: Gregor
-    donationGoal: "2200"
-    descripion: "Der kleine Gregor ist erst 3 Jahre alt und hat schon in diesem
-      zarten Alter mehr durchstehen müssen, als sich die meisten vorstellen
-      können. Bei ihm wurde ein Wilms-Tumor diagnostiziert, ein bösartiger
-      Nierentumor, der meist im frühen Kindesalter auftritt. Die Diagnose
-      bedeutete für Gregor und seine Familie eine Zeit voller Unsicherheit,
-      Angst und belastender Krankenhausaufenthalte. All das belastete den
-      Alltag, und Gregor musste viel Zeit fernab von einem unbeschwerten
-      Kinderleben verbringen.  Seit Langem träumt er davon, seine Lieblingstante
-      in den USA wiederzusehen und endlich wieder in die Arme schließen zu
-      können, denn die große Entfernung und die schwere Krankheit hatten ein
-      Wiedersehen bisher unmöglich gemacht.  Sein Herzenswunsch ist somit klar:
-      Eine Reise nach Kalifornien, wo seine Tante lebt. "
-  - slug: lina-disneylandparis
-    childname: Lina
-    donationGoal: "4400"
-    descripion: "Die 6-jährige Lina kämpft tapfer gegen Leukämie. Kraft schöpft die
-      kleine Kämpferin wenn sie an all die Helden aus den so sehr geliebten
-      Disneyfilmen denkt. Ihr größter Wunsch? Ein Besuch im Disneyland Paris mit
-      ihrer ganzen Familie – um all die Figuren zu treffen, die sie so sehr
-      liebt. Für Lina wäre es, als würden die Filme, die ihr so oft Trost
-      spenden, plötzlich lebendig werden. Besonders hat es ihr Bella aus „Die
-      Schöne und das Biest“ angetan. Lina träumt davon, ihre Märchenheldin zu
-      treffen und die zauberhafte Welt des Disneyland hautnah zu erleben. "
-    tagline: Ein Märchen wird wahr im Disneyland Paris
+  - slug: ellena-serengetipark
+    tagline: "Ellenas großes Erlebnis: Drei magische Tage im Serengeti-Park"
+    childname: Ellena
+    descripion: "Ellenas Herzenswunsch ist ein unvergesslicher Aufenthalt im
+      Serengeti-Park in Deutschland – drei Tage voller tierischer Begegnungen
+      und Spaß im Vergnügungspark. Besonders liebt die 11-jährige, die an
+      Leukämie erkrankt ist Giraffen und freut sich darauf, die faszinierende
+      Tierwelt hautnah zu erleben.  Ellena ist ein kreatives und zielstrebiges
+      Mädchen. Sie hat sogar Fotos vom Serengeti-Park ausgeschnitten und
+      beschrieben, was sie dort alles erleben möchte. Ihr großer Wunsch: Ein
+      Zimmer direkt am Wasser, das ihre Erlebnisse noch besonderer macht. Ellena
+      liebt Schwimmen, Spaghetti und Englisch – und eines Tages möchte sie
+      Kinderkrankenschwester werden. Diese Reise wäre für sie nicht nur ein
+      Abenteuer, sondern ein Moment, in dem sie einfach Kind sein und das Leben
+      genießen kann."
+    donationGoal: "5000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
