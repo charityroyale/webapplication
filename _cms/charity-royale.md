@@ -304,6 +304,8 @@ upcoming:
     type: MAIN
     wishes:
       - yahya-pc
+      - h-macbook
+      - g-schaukel
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
@@ -1307,6 +1309,14 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
+  - slug: prinzessin17
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
   - slug: legoland01
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
@@ -1945,41 +1955,53 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "2000"
-  - slug: ellena-serengetipark
-    tagline: "Ellenas großes Erlebnis: Drei magische Tage im Serengeti-Park"
-    childname: Ellena
-    descripion: "Ellenas Herzenswunsch ist ein unvergesslicher Aufenthalt im
-      Serengeti-Park in Deutschland – drei Tage voller tierischer Begegnungen
-      und Spaß im Vergnügungspark. Besonders liebt die 11-jährige, die an
-      Leukämie erkrankt ist Giraffen und freut sich darauf, die faszinierende
-      Tierwelt hautnah zu erleben.  Ellena ist ein kreatives und zielstrebiges
-      Mädchen. Sie hat sogar Fotos vom Serengeti-Park ausgeschnitten und
-      beschrieben, was sie dort alles erleben möchte. Ihr großer Wunsch: Ein
-      Zimmer direkt am Wasser, das ihre Erlebnisse noch besonderer macht. Ellena
-      liebt Schwimmen, Spaghetti und Englisch – und eines Tages möchte sie
-      Kinderkrankenschwester werden. Diese Reise wäre für sie nicht nur ein
-      Abenteuer, sondern ein Moment, in dem sie einfach Kind sein und das Leben
-      genießen kann."
-    donationGoal: "5000"
-  - slug: silvia-karibik
-    tagline: "Silvias Traumreise: Eine Reise in die Karibik"
-    childname: Silvia
-    descripion: "Silvia ist 17 Jahre alt und lebt mit CML, chronischer myeloischer
-      Leukämie, einer seltenen Form von Blutkrebs, die eine intensive Behandlung
-      erfordert und den Alltag oft erschwert. Doch Silvia lässt sich nicht
-      aufhalten: Sie liebt es, Klavier und Saxophon zu spielen, probiert gerne
-      neue Dinge aus und ist begeistert von Sport in jeder Form. Reisen und neue
-      Orte zu entdecken ist ihre große Leidenschaft, auch wenn es aufgrund ihrer
-      Erkrankung manchmal anstrengend ist.  Ihr größter Herzenswunsch? Eine
-      Reise in die Karibik – ein Punkt auf ihrer Bucket List. Silvia träumt
-      davon, mit ihren Eltern an einem weißen Sandstrand zu entspannen, das
-      türkisblaue Meer zu genießen und einfach einmal richtig abzuschalten. Sie
-      war noch nie außerhalb Europas, und diese Reise wäre für sie eine
-      unvergessliche Gelegenheit, ihre Abenteuerlust zu stillen und neue Energie
-      zu tanken. Silvia möchte später Medizin studieren und Ärztin werden, um
-      anderen Menschen zu helfen – doch jetzt ist es an der Zeit, ihr einen
-      Moment voller Freude und Leichtigkeit zu schenken."
-    donationGoal: "5300"
+  - slug: gregor-kalifornien
+    tagline: Ein Wiedersehen in Kalifornien
+    childname: Gregor
+    donationGoal: "2200"
+    descripion: "Der kleine Gregor ist erst 3 Jahre alt und hat schon in diesem
+      zarten Alter mehr durchstehen müssen, als sich die meisten vorstellen
+      können. Bei ihm wurde ein Wilms-Tumor diagnostiziert, ein bösartiger
+      Nierentumor, der meist im frühen Kindesalter auftritt. Die Diagnose
+      bedeutete für Gregor und seine Familie eine Zeit voller Unsicherheit,
+      Angst und belastender Krankenhausaufenthalte. All das belastete den
+      Alltag, und Gregor musste viel Zeit fernab von einem unbeschwerten
+      Kinderleben verbringen.  Seit Langem träumt er davon, seine Lieblingstante
+      in den USA wiederzusehen und endlich wieder in die Arme schließen zu
+      können, denn die große Entfernung und die schwere Krankheit hatten ein
+      Wiedersehen bisher unmöglich gemacht.  Sein Herzenswunsch ist somit klar:
+      Eine Reise nach Kalifornien, wo seine Tante lebt. "
+  - slug: lina-disneylandparis
+    childname: Lina
+    donationGoal: "4400"
+    descripion: "Die 6-jährige Lina kämpft tapfer gegen Leukämie. Kraft schöpft die
+      kleine Kämpferin wenn sie an all die Helden aus den so sehr geliebten
+      Disneyfilmen denkt. Ihr größter Wunsch? Ein Besuch im Disneyland Paris mit
+      ihrer ganzen Familie – um all die Figuren zu treffen, die sie so sehr
+      liebt. Für Lina wäre es, als würden die Filme, die ihr so oft Trost
+      spenden, plötzlich lebendig werden. Besonders hat es ihr Bella aus „Die
+      Schöne und das Biest“ angetan. Lina träumt davon, ihre Märchenheldin zu
+      treffen und die zauberhafte Welt des Disneyland hautnah zu erleben. "
+    tagline: Ein Märchen wird wahr im Disneyland Paris
+  - slug: theo-spacecenter
+    tagline: Raketen in echt sehen
+    childname: Theo
+    descripion: Theo ist sieben Jahre alt, liebt es draußen in der Natur zu sein und
+      spielt mit Leidenschaft Fußball. Doch noch mehr als das begeistern ihn
+      seine LEGO-Bausteine, mit denen er immer wieder fantasievolle Raketen
+      erschafft, die selbst eine Saturn V mühelos in den Schatten stellen
+      würden. Theo träumt davon, seine geliebten Raketen nicht nur in Miniatur,
+      sondern auch in voller Größe zu sehen – und wo ginge das besser als im
+      NASA Kennedy Space Center in den USA? Für Theo, der an Leukämie erkrankt
+      ist und viele Behandlungen über sich ergehen lassen muss, bedeutet diese
+      Reise ins Space Center weit mehr als nur ein Ausflug. Es ist ein Wunsch,
+      der ihm für einen Moment die Möglichkeit gibt, in seine eigene Welt
+      einzutauchen, in der alles möglich ist.  Wir können uns vorstellen, wie
+      groß seine Augen werden, wenn er die majestätischen Raketen der NASA
+      sieht, die er sonst nur aus Büchern und Videos kennt! Von der Saturn V bis
+      zur Space Shuttle Atlantis – diese gewaltigen Konstruktionen wären für ihn
+      die Erfüllung eines Traums, der größer ist als jede Rakete der Welt.
+    donationGoal: "5500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
