@@ -1961,6 +1961,25 @@ wishes:
       Abenteuer, sondern ein Moment, in dem sie einfach Kind sein und das Leben
       genießen kann."
     donationGoal: "5000"
+  - slug: silvia-karibik
+    tagline: "Silvias Traumreise: Eine Reise in die Karibik"
+    childname: Silvia
+    descripion: "Silvia ist 17 Jahre alt und lebt mit CML, chronischer myeloischer
+      Leukämie, einer seltenen Form von Blutkrebs, die eine intensive Behandlung
+      erfordert und den Alltag oft erschwert. Doch Silvia lässt sich nicht
+      aufhalten: Sie liebt es, Klavier und Saxophon zu spielen, probiert gerne
+      neue Dinge aus und ist begeistert von Sport in jeder Form. Reisen und neue
+      Orte zu entdecken ist ihre große Leidenschaft, auch wenn es aufgrund ihrer
+      Erkrankung manchmal anstrengend ist.  Ihr größter Herzenswunsch? Eine
+      Reise in die Karibik – ein Punkt auf ihrer Bucket List. Silvia träumt
+      davon, mit ihren Eltern an einem weißen Sandstrand zu entspannen, das
+      türkisblaue Meer zu genießen und einfach einmal richtig abzuschalten. Sie
+      war noch nie außerhalb Europas, und diese Reise wäre für sie eine
+      unvergessliche Gelegenheit, ihre Abenteuerlust zu stillen und neue Energie
+      zu tanken. Silvia möchte später Medizin studieren und Ärztin werden, um
+      anderen Menschen zu helfen – doch jetzt ist es an der Zeit, ihr einen
+      Moment voller Freude und Leichtigkeit zu schenken."
+    donationGoal: "5300"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
