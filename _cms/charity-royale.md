@@ -2008,6 +2008,24 @@ wishes:
       Edna die Gelegenheit geben, sich fernab von Arztbesuchen und Therapien zu
       entspannen und einfach das Leben zu genießen.
     donationGoal: "6700"
+  - tagline: Eine magische Reise nach Paris
+    childname: D.
+    descripion: 'Der 9-jährige D. lebt mit Aortenklappenstenose, einer
+      Herzkrankheit, bei der die Klappe, die das Blut aus dem Herzen in die
+      Hauptschlagader leitet, verengt ist. Das macht viele alltägliche Dinge für
+      ihn anstrengender, doch D. ist voller Lebensfreude und Begeisterung. Er
+      liebt Turnen, Rollerskaten, Fußball und Disneyfilme. Seine große
+      Leidenschaft ist jedoch die Animationsserie "Miraculous – Geschichten von
+      Ladybug und Cat Noir", die an den schönsten Schauplätzen von Paris spielt.
+      D.s größter Wunsch ist es, diese Schauplätze in Paris mit seiner Familie
+      zu besuchen die Magie seiner Lieblingsserie hautnah zu spüren und
+      unbeschwerte Zeit mit seiner Familie zu genießen. Die Reise soll mit einem
+      Nachtreisezug in einem eigenen Abteil beginnen – ein Detail, das ihm
+      besonders wichtig ist. Gemeinsam mit seinen Eltern und seinen zwei Brüdern
+      möchte er vier Tage in der Stadt der Liebe verbringen, die Welt seiner
+      Lieblingsserie live erleben und unvergessliche Momente sammeln. '
+    donationGoal: "7200"
+    slug: d-paris
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
