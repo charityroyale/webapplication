@@ -3,7 +3,7 @@ donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
 featuredStream: starletnova/vivian-konzert
-applyLink: https://docs.google.com/forms/d/e/1FAIpQLSclKMN_u_j9ETvERDgsnxX8WKwfSUEj987kD8OvaqTacgVjjQ/viewform?usp=sf_link
+applyLink: ""
 makeAWishProjects: []
 customDonationLink: starletnova/vivian-konzert
 upcoming:
