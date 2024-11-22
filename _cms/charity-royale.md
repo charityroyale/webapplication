@@ -2040,6 +2040,27 @@ wishes:
       plantschen. Und um diesen Herzenswunsch zu erfüllen, gab es keinen
       besseren Ort als einen sonnigen Strandurlaub in Italien, kombiniert mit
       einem Besuch in einem riesigen Aquapark."
+  - slug: leni-spanien
+    tagline: Eine Auszeit in Spanien
+    childname: Leni
+    donationGoal: "8500"
+    descripion: Leni, 15 Jahre alt, liebt Krapfen, die Farbe Lila, ihre Katze und
+      Skifahren. Doch der Herzenswunsch der tapferen Jugendlichen, die gegen ein
+      Medulloblastom kämpft, hat nichts mit ihren typischen Lieblingsdingen zu
+      tun. Ihr Traum ist eine Reise mit ihrer Familie nach Spanien – ans Meer,
+      in ein Hotel „bitte mit Pool“. Nach den anstrengenden Therapien und den
+      Herausforderungen, die diese seltene Form von Hirntumor mit sich bringt,
+      sehnt sich Leni danach, Sonne, Strand und das sanfte Rauschen des Ozeans
+      zu erleben.  Zusammen mit ihren Eltern möchte sie nicht nur am Wasser
+      entspannen, sondern auch die Kultur Spaniens entdecken und das Land mit
+      all seinen Facetten ein bisschen besser kennenlernen. Ihre Begeisterung
+      für die englische Sprache zeigt, dass sie neugierig auf die Welt ist und
+      gerne Neues erlebt. Obwohl wir noch keine Details über Lenis Erlebnisse
+      erhalten haben, klingt dieser Wunsch nach einer wunderbaren Auszeit, die
+      ihr und ihrer Familie kostbare Erinnerungen schenken wird.  Mit diesem
+      Urlaub kann Leni ihre schweren Zeiten für eine Weile hinter sich lassen,
+      die warmen Sonnenstrahlen auf der Haut spüren und einfach das Leben
+      genießen – ein Moment der Leichtigkeit, der ihr so viel bedeutet.
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
