@@ -2026,6 +2026,20 @@ wishes:
       Lieblingsserie live erleben und unvergessliche Momente sammeln. '
     donationGoal: "7200"
     slug: d-paris
+  - slug: mia-aquapark
+    tagline: Ein Wasser-Abenteuer in Italien
+    childname: Mia
+    donationGoal: "8100"
+    descripion: "Mia, ein fünfjähriges Mädchen mit einem Tumor an der
+      Halswirbelsäule, hat schon viel durchmachen müssen. Der Alltag mit
+      Schmerzen und Einschränkungen wäre für jedes Kind schwer zu ertragen, doch
+      Mia lässt sich davon nicht unterkriegen. Sie hat eine große Leidenschaft:
+      Wasser. Sie ist eine echte kleine „Wasserratte“ und liebt es, zu rutschen
+      und sich im kühlen Nass auszutoben. Ihr größter Wunsch war deshalb ganz
+      klar: Einmal ans Meer fahren, im Sand spielen und stundenlang im Wasser
+      plantschen. Und um diesen Herzenswunsch zu erfüllen, gab es keinen
+      besseren Ort als einen sonnigen Strandurlaub in Italien, kombiniert mit
+      einem Besuch in einem riesigen Aquapark."
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
