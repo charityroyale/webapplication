@@ -2061,6 +2061,25 @@ wishes:
       Urlaub kann Leni ihre schweren Zeiten für eine Weile hinter sich lassen,
       die warmen Sonnenstrahlen auf der Haut spüren und einfach das Leben
       genießen – ein Moment der Leichtigkeit, der ihr so viel bedeutet.
+  - slug: luke-kreuzfahrt
+    donationGoal: "8700"
+    childname: Luke
+    descripion: "Luke ist erst 6 Jahre alt und lebt mit RCC/MDS – einer seltenen
+      Kombination aus Nierenkrebs (Renal Cell Carcinoma) und Myelodysplastischem
+      Syndrom, einer Störung der Blutzellenbildung. Diese Erkrankungen haben
+      sein Leben komplett verändert: „Plötzlich war alles anders, vieles darf
+      ich nicht mehr tun. Keine Geschäfte, kein Kindergarten, keine Freunde mehr
+      sehen. Ich war oft im Krankenhaus, und das Blut abnehmen mag ich gar
+      nicht,“ erzählt Luke.  Doch trotz all dieser Einschränkungen träumt Luke
+      von einem großen Abenteuer: einer Kreuzfahrt mit seiner Familie von London
+      nach Island. Auf dieser Reise möchte er nicht nur neue Länder entdecken,
+      sondern freut sich besonders auf die Go-Karts und die Spielhalle am
+      Schiff. Luke liebt Sport – vor allem American Football –, baut begeistert
+      Lego-Sets und wird sicher jede Beschäftigungsmöglichkeit auf dem Schiff
+      auskosten. Für ihn wäre diese Kreuzfahrt eine Reise voller Spaß,
+      Entdeckungen und unvergesslicher Momente mit seiner Familie – eine
+      Auszeit, die er nach all den Herausforderungen so sehr verdient hat."
+    tagline: Kreuzfahrt-Abenteuer
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
