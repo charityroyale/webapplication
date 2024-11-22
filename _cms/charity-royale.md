@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: starletnova/vivian-konzert
+featuredStream: starletnova/e-meerjungfrauentag
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: starletnova/vivian-konzert
+customDonationLink: starletnova/e-meerjungfrauentag
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -311,6 +311,7 @@ upcoming:
     type: MAIN
     wishes:
       - vivian-konzert
+      - e-meerjungfrauentag
   - date: 2024-11-02T09:27:12.222Z
     streamerName: Wichtiger
     streamerChannel: wichtiger
