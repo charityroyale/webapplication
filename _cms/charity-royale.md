@@ -1992,6 +1992,22 @@ wishes:
       der Beauty-Produkte zu stürzen. Seit sie denken kann, bewundert sie die
       Sephora Stores, die es in Österreich leider nicht gibt, und träumt von
       einer Reise zu den Beauty-Hotspots der 5th Avenue mit ihrer Familie."
+  - slug: eda-tuerkeiurlaub
+    childname: Eda
+    tagline: "Ednas Wunschurlaub: Zeit mit der Familie in Fethiye"
+    descripion: Die 14-jährige Eda ist ein lebensfrohes Mädchen, das trotz der
+      Herausforderungen, die ein Hirntumor mit sich bringt, nie ihre positive
+      Einstellung verloren hat. Sie liebt Lasagne, spielt begeistert Klavier,
+      fotografiert und tanzt voller Freude. Ihre Lieblingsfarbe Gelb spiegelt
+      ihre sonnige Persönlichkeit wider, und Englisch gehört zu ihren
+      Lieblingsfächern in der Schule.  Ednas größter Wunsch ist es, gemeinsam
+      mit ihrer Familie einen erholsamen Urlaub in Fethiye, Türkei, zu
+      verbringen. Für sie bedeutet diese Reise eine Auszeit von den Strapazen
+      ihrer Krankheit – eine Zeit, in der sie mit ihren Liebsten unbeschwerte
+      Momente genießen und neue Kraft schöpfen kann. Dieser Herzenswunsch würde
+      Edna die Gelegenheit geben, sich fernab von Arztbesuchen und Therapien zu
+      entspannen und einfach das Leben zu genießen.
+    donationGoal: "6700"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
