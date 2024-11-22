@@ -1955,6 +1955,22 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "2000"
+  - slug: gregor-kalifornien
+    tagline: Ein Wiedersehen in Kalifornien
+    childname: Gregor
+    donationGoal: "2200"
+    descripion: "Der kleine Gregor ist erst 3 Jahre alt und hat schon in diesem
+      zarten Alter mehr durchstehen müssen, als sich die meisten vorstellen
+      können. Bei ihm wurde ein Wilms-Tumor diagnostiziert, ein bösartiger
+      Nierentumor, der meist im frühen Kindesalter auftritt. Die Diagnose
+      bedeutete für Gregor und seine Familie eine Zeit voller Unsicherheit,
+      Angst und belastender Krankenhausaufenthalte. All das belastete den
+      Alltag, und Gregor musste viel Zeit fernab von einem unbeschwerten
+      Kinderleben verbringen.  Seit Langem träumt er davon, seine Lieblingstante
+      in den USA wiederzusehen und endlich wieder in die Arme schließen zu
+      können, denn die große Entfernung und die schwere Krankheit hatten ein
+      Wiedersehen bisher unmöglich gemacht.  Sein Herzenswunsch ist somit klar:
+      Eine Reise nach Kalifornien, wo seine Tante lebt. "
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
