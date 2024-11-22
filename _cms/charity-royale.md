@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: starletnova/e-meerjungfrauentag
+featuredStream: starletnova/j-auto-abenteuer
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: starletnova/e-meerjungfrauentag
+customDonationLink: starletnova/j-auto-abenteuer
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -312,6 +312,7 @@ upcoming:
     wishes:
       - vivian-konzert
       - e-meerjungfrauentag
+      - j-auto-abenteuer
   - date: 2024-11-02T09:27:12.222Z
     streamerName: Wichtiger
     streamerChannel: wichtiger
