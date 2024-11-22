@@ -635,6 +635,20 @@ upcoming:
     streamerName: esportUBT
     streamerChannel: esportubt
     streamLink: https://www.twitch.tv/esportubt
+  - date: 2024-11-26T12:42:30.439Z
+    streamerName: Christensen
+    streamerChannel: jens
+    streamLink: https://twitch.tv/jens
+    type: COMMUNITY
+    wishes:
+      - prinzessin17
+  - date: 2024-11-26T12:46:45.953Z
+    streamerName: Lunarie
+    streamLink: https://www.twitch.tv/lunarie_ttv
+    streamerChannel: lunarie_ttv
+    type: COMMUNITY
+    wishes:
+      - prinzessin17
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
