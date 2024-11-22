@@ -304,6 +304,8 @@ upcoming:
     type: MAIN
     wishes:
       - yahya-pc
+      - h-macbook
+      - g-schaukel
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
