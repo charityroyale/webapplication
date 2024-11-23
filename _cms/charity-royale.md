@@ -303,6 +303,7 @@ upcoming:
     streamLink: https://www.twitch.tv/Dhalucard
     type: MAIN
     wishes:
+      - michelle-personal-training
       - yahya-pc
       - g-schaukel
       - h-macbook
