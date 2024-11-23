@@ -2090,6 +2090,25 @@ wishes:
       Entdeckungen und unvergesslicher Momente mit seiner Familie – eine
       Auszeit, die er nach all den Herausforderungen so sehr verdient hat."
     tagline: Kreuzfahrt-Abenteuer
+  - childname: Theo
+    tagline: Raketen in echt sehen
+    slug: theo-spacecenter
+    donationGoal: "5500"
+    descripion: Theo ist sieben Jahre alt, liebt es draußen in der Natur zu sein und
+      spielt mit Leidenschaft Fußball. Doch noch mehr als das begeistern ihn
+      seine LEGO-Bausteine, mit denen er immer wieder fantasievolle Raketen
+      erschafft, die selbst eine Saturn V mühelos in den Schatten stellen
+      würden. Theo träumt davon, seine geliebten Raketen nicht nur in Miniatur,
+      sondern auch in voller Größe zu sehen – und wo ginge das besser als im
+      NASA Kennedy Space Center in den USA? Für Theo, der an Leukämie erkrankt
+      ist und viele Behandlungen über sich ergehen lassen muss, bedeutet diese
+      Reise ins Space Center weit mehr als nur ein Ausflug. Es ist ein Wunsch,
+      der ihm für einen Moment die Möglichkeit gibt, in seine eigene Welt
+      einzutauchen, in der alles möglich ist.  Wir können uns vorstellen, wie
+      groß seine Augen werden, wenn er die majestätischen Raketen der NASA
+      sieht, die er sonst nur aus Büchern und Videos kennt! Von der Saturn V bis
+      zur Space Shuttle Atlantis – diese gewaltigen Konstruktionen wären für ihn
+      die Erfüllung eines Traums, der größer ist als jede Rakete der Welt.
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
