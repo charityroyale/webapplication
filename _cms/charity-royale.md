@@ -5,7 +5,7 @@ featuredYoutubeStream: ""
 featuredStream: dhalucard/theo-spacecenter
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: dhalucard/prinzessin18
+customDonationLink: dhalucard/harrypotter06
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
