@@ -5,7 +5,7 @@ featuredYoutubeStream: ""
 featuredStream: dhalucard/theo-spacecenter
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: dhalucard/prinzessin19
+customDonationLink: dhalucard/zimmer02
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -2179,7 +2179,7 @@ wishes:
     tagline: Eine neue Zimmereinrichtung
     childname: Wunschkind
     descripion: Eine neue coole Zimmereinrichtung ist für viele Kinder ein riesiger
-      Wunsch, da sie dort of viel Zeit verbringen. Darum ist das einer der
+      Wunsch, da sie dort oft viel Zeit verbringen. Darum ist das einer der
       meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
       einem schwerkranken Kind, das anonym bleiben möchte diesen Wunsch!
     donationGoal: "1000"
