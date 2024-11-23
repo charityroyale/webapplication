@@ -318,6 +318,7 @@ upcoming:
       - prinzessin19
       - zimmer02
       - legoland18
+      - harrypotter07
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
@@ -2119,14 +2120,6 @@ wishes:
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
-  - slug: harrypotter06
-    tagline: Eine Reise zu den Harry Potter Studios
-    childname: Wunschkind
-    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
-      tolles Highlight und darum einer der meistgenannten Wünsche bei
-      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
-      anonym bleiben möchte, diesen Wunsch!
-    donationGoal: "1000"
   - slug: stelzenhaus02
     tagline: Ein Stelzenhaus im Garten
     childname: Wunschkind
@@ -2192,6 +2185,22 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "500"
+  - slug: harrypotter06
+    tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
+  - slug: harrypotter07
+    tagline: Eine Reise zu den Harry Potter Studios
+    childname: Wunschkind
+    descripion: Eine Reise zu den Harry Potter Studios ist für viele Kinder ein
+      tolles Highlight und darum einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
