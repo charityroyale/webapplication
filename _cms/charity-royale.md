@@ -313,6 +313,7 @@ upcoming:
       - j-auto-abenteuer
       - theo-spacecenter
       - prinzessin18
+      - harrypotter06
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
