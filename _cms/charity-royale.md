@@ -5,7 +5,7 @@ featuredYoutubeStream: ""
 featuredStream: dhalucard/yahya-pc
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: dhalucard/yahya-pc
+customDonationLink: dhalucard/michelle-personal-training
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
