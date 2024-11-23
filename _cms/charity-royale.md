@@ -5,7 +5,7 @@ featuredYoutubeStream: ""
 featuredStream: dhalucard/theo-spacecenter
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: dhalucard/theo-spacecenter
+customDonationLink: dhalucard/prinzessin18
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -312,6 +312,7 @@ upcoming:
       - l-ipad
       - j-auto-abenteuer
       - theo-spacecenter
+      - prinzessin18
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
@@ -1931,6 +1932,14 @@ wishes:
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
+  - slug: prinzessin18
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
   - slug: zimmer01
     donationGoal: "1000"
     tagline: Eine neue Zimmereinrichtung
