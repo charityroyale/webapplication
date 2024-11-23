@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: dhalucard/j-auto-abenteuer
+featuredStream: dhalucard/theo-spacecenter
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: dhalucard/j-auto-abenteuer
+customDonationLink: dhalucard/theo-spacecenter
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -311,6 +311,7 @@ upcoming:
       - ceylin-land-of-legends
       - l-ipad
       - j-auto-abenteuer
+      - theo-spacecenter
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
