@@ -316,6 +316,7 @@ upcoming:
       - harrypotter06
       - stelzenhaus04
       - prinzessin19
+      - zimmer02
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
@@ -1919,14 +1920,6 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
-  - slug: zimmer01
-    donationGoal: "1000"
-    tagline: Eine neue Zimmereinrichtung
-    childname: Wunschkind
-    descripion: Eine neue coole Zimmereinrichtung ist für viele Kinder ein riesiger
-      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte diesen Wunsch!
   - slug: dino07
     tagline: Einen Dinosaurier treffen
     childname: Wunschkind
@@ -2174,6 +2167,22 @@ wishes:
       Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
+  - slug: zimmer01
+    donationGoal: "1000"
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    descripion: Eine neue coole Zimmereinrichtung ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte diesen Wunsch!
+  - slug: zimmer02
+    tagline: Eine neue Zimmereinrichtung
+    childname: Wunschkind
+    descripion: Eine neue coole Zimmereinrichtung ist für viele Kinder ein riesiger
+      Wunsch, da sie dort of viel Zeit verbringen. Darum ist das einer der
+      meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte diesen Wunsch!
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
