@@ -2125,6 +2125,18 @@ wishes:
       hatten ein Wiedersehen bisher unmöglich gemacht.  Sein Herzenswunsch war
       somit klar: Eine Reise nach Kalifornien, wo seine Tante lebt."
     donationGoal: "2200"
+  - childname: Lina
+    descripion: Die 6-jährige Lina kämpft tapfer gegen Leukämie. Kraft schöpft die
+      kleine Kämpferin wenn sie an all die Helden aus den so sehr geliebten
+      Disneyfilmen denkt. Ihr größter Wunsch? Ein Besuch im Disneyland Paris mit
+      ihrer ganzen Familie – um all die Figuren zu treffen, die sie so sehr
+      liebt. Für Lina wäre es, als würden die Filme, die ihr so oft Trost
+      spenden, plötzlich lebendig werden. Besonders hat es ihr Bella aus „Die
+      Schöne und das Biest“ angetan. Lina träumt davon, ihre Märchenheldin zu
+      treffen und die zauberhafte Welt des Disneyland hautnah zu erleben.
+    donationGoal: "4400"
+    slug: lina-disneylandparis
+    tagline: Disney-Träume wahr werden lassen
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
