@@ -5,7 +5,7 @@ featuredYoutubeStream: ""
 featuredStream: dhalucard/theo-spacecenter
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: dhalucard/harrypotter06
+customDonationLink: dhalucard/stelzenhaus04
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -314,6 +314,7 @@ upcoming:
       - theo-spacecenter
       - prinzessin18
       - harrypotter06
+      - stelzenhaus04
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
@@ -1767,14 +1768,6 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "2000"
-  - slug: stelzenhaus02
-    tagline: Ein Stelzenhaus im Garten
-    childname: Wunschkind
-    descripion: Ein Stelzenhaus ist für viele Kinder ein großer Wunsch und darum
-      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
-      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
-      Wunsch!
-    donationGoal: "2000"
   - slug: legoland15
     childname: Wunschkind
     tagline: Eine Reise ins Legoland
@@ -2155,6 +2148,23 @@ wishes:
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - slug: stelzenhaus02
+    tagline: Ein Stelzenhaus im Garten
+    childname: Wunschkind
+    descripion: Ein Stelzenhaus ist für viele Kinder ein großer Wunsch und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "2000"
+  - slug: stelzenhaus04
+    tagline: Ein Stelzenhaus im Garten
+    childname: Wunschkind
+    donationGoal: "2000"
+    descripion: Ein Stelzenhaus ist für viele Kinder ein großer Traum, der nicht nur
+      Spaß bringt, sondern auch Stärke und Geschicklichkeit der Kleinen fördert.
+      Darum ist ein Stelzenhaus im Garten einer der meistgenannten Wünsche bei
+      Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
+      anonym bleiben möchte, diesen Wunsch!
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
