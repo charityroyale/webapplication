@@ -5,7 +5,7 @@ featuredYoutubeStream: ""
 featuredStream: dhalucard/theo-spacecenter
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: dhalucard/zimmer02
+customDonationLink: dhalucard/legoland18
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -317,6 +317,7 @@ upcoming:
       - stelzenhaus04
       - prinzessin19
       - zimmer02
+      - legoland18
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
@@ -1762,14 +1763,6 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "2000"
-  - slug: legoland15
-    childname: Wunschkind
-    tagline: Eine Reise ins Legoland
-    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
-      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
-      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
-      diesen Wunsch!
-    donationGoal: "500"
   - slug: zimmer11
     descripion: Eine neue coole Zimmereinrichtung mit Gaming PC ist für viele Kinder
       ein riesiger Traum und darum einer der meistgenannten Wünsche bei
@@ -2183,6 +2176,22 @@ wishes:
       meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
       einem schwerkranken Kind, das anonym bleiben möchte diesen Wunsch!
     donationGoal: "1000"
+  - slug: legoland15
+    childname: Wunschkind
+    tagline: Eine Reise ins Legoland
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland18
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
