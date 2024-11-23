@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: starletnova/j-auto-abenteuer
+featuredStream: dhalucard/yahya-pc
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: starletnova/j-auto-abenteuer
+customDonationLink: dhalucard/yahya-pc
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
