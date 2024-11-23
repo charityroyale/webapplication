@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: dhalucard/yahya-pc
+featuredStream: dhalucard/daliia-kreuzfahrt
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: dhalucard/michelle-personal-training
+customDonationLink: dhalucard/daliia-kreuzfahrt
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -307,6 +307,7 @@ upcoming:
       - yahya-pc
       - g-schaukel
       - h-macbook
+      - daliia-kreuzfahrt
   - date: 2024-11-22T13:50:49.868Z
     streamerName: starletnova
     streamerChannel: starletnova
