@@ -668,6 +668,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin17
+  - date: 2024-11-24T14:42:09.104Z
+    streamerName: Cleanniko
+    streamerChannel: cleanniko
+    streamLink: https://www.twitch.tv/cleanniko
+    wishes:
+      - youtube09
+    type: COMMUNITY
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1503,6 +1510,14 @@ wishes:
       Wunsch!
     donationGoal: "500"
   - slug: youtube08
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "500"
+  - slug: youtube09
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
     childname: Wunschkind
     descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
