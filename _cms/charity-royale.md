@@ -462,6 +462,7 @@ upcoming:
       - leni-spanien
       - c-newyork
       - luke-kreuzfahrt
+      - d-paris
   - date: 2024-11-24T11:28:58.375Z
     streamLink: https://www.twitch.tv/Veyla
     streamerName: Veyla
