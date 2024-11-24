@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: veyla/dino08
+featuredStream: sintica/gregor-kalifornien
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: veyla/dino08
+customDonationLink: sintica/gregor-kalifornien
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -370,8 +370,8 @@ upcoming:
     streamLink: https://www.twitch.tv/Sintica
     type: MAIN
     wishes:
-      - a-therme
       - gregor-kalifornien
+      - a-therme
   - date: 2024-11-16T12:30:08.003Z
     streamerName: KrustiBurger
     streamerChannel: krustiburger
