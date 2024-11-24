@@ -676,6 +676,13 @@ upcoming:
     wishes:
       - youtube09
     type: COMMUNITY
+  - date: 2024-11-24T15:14:13.960Z
+    streamerName: Baayraamx
+    streamerChannel: baayraamx
+    type: COMMUNITY
+    wishes:
+      - legoland19
+    streamLink: https://www.twitch.tv/baayraamx
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1495,6 +1502,14 @@ wishes:
       diesen Wunsch!
     donationGoal: "500"
   - slug: legoland18
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland19
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
