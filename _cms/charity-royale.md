@@ -1349,6 +1349,14 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
+  - slug: prinzessin17
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    childname: Wunschkind
+    tagline: Einen Tag lang Prinzessin sein
+    donationGoal: "500"
   - slug: prinzessin18
     tagline: Einen Tag lang Prinzessin sein
     childname: Wunschkind
