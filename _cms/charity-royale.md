@@ -683,6 +683,13 @@ upcoming:
     wishes:
       - legoland19
     streamLink: https://www.twitch.tv/baayraamx
+  - date: 2024-11-26T15:43:13.918Z
+    streamerName: Tillit
+    streamerChannel: tillitlive
+    streamLink: https://www.twitch.tv/tillitlive
+    type: COMMUNITY
+    wishes:
+      - youtube10
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
@@ -1590,6 +1597,14 @@ wishes:
       Wunsch!
     donationGoal: "500"
   - slug: youtube09
+    tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
+    childname: Wunschkind
+    descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
+      einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    donationGoal: "500"
+  - slug: youtube10
     tagline: Ein Meet & Greet mit eine:r YouTuber:in oder Streamer:in
     childname: Wunschkind
     descripion: Ein Meet & Greet ist für viele Kinder ein tolles Highlight und darum
