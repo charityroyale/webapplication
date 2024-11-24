@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: veyla/joachim-zugwerkstatt
+featuredStream: veyla/dino08
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: veyla/joachim-zugwerkstatt
+customDonationLink: veyla/dino08
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -371,7 +371,6 @@ upcoming:
     type: MAIN
     wishes:
       - a-therme
-      - gregor-kalifornien
   - date: 2024-11-16T12:30:08.003Z
     streamerName: KrustiBurger
     streamerChannel: krustiburger
@@ -463,6 +462,7 @@ upcoming:
     type: MAIN
     wishes:
       - joachim-zugwerkstatt
+      - dino08
   - date: 2024-11-26T15:19:17.723Z
     streamerName: bxrbie
     streamerChannel: bxrbiex
@@ -2202,6 +2202,14 @@ wishes:
       Make-A-Wish. Mit deiner Spende erfüllst du einem schwerkranken Kind, das
       anonym bleiben möchte, diesen Wunsch!
     donationGoal: "1000"
+  - descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    slug: dino08
+    donationGoal: "500"
+    childname: Wunschkind
+    tagline: Einen Dinosaurier treffen
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
