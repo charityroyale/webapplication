@@ -371,6 +371,7 @@ upcoming:
     type: MAIN
     wishes:
       - a-therme
+      - gregor-kalifornien
   - date: 2024-11-16T12:30:08.003Z
     streamerName: KrustiBurger
     streamerChannel: krustiburger
