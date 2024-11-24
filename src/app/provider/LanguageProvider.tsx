@@ -51,6 +51,7 @@ export type DictionairyEntryType =
 	| 'latestDonatorsTitle'
 	| 'faqPageTitle'
 	| 'donationProjectTitle'
+	| 'donationProjectNavigationTitle'
 
 export type LanguageType = 'en' | 'de'
 type LanguageDictionairyType = { [key in LanguageType]: { [key in DictionairyEntryType]: string } }

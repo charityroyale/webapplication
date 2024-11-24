@@ -44,5 +44,6 @@
 	"donationFormLoadErrorText": "Leider ist ein Fehler beim laden des Formular aufgetreten.",
 	"latestDonatorsTitle": "Letzte Spender:innen",
 	"faqPageTitle": "Fragen und Antworten zum Projekt und Spenden",
-	"donationProjectTitle": "Spendenprojekt"
+	"donationProjectTitle": "Spendenprojekt",
+	"donationProjectNavigationTitle": "Meine Spendenwünsche"
 }

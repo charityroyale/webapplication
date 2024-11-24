@@ -3,7 +3,6 @@ import React, { ReactElement } from 'react'
 import { RiTwitchFill } from 'react-icons/ri'
 import { BsCalendar } from 'react-icons/bs'
 import { Text } from '../Text'
-import { BiDonateHeart } from 'react-icons/bi'
 import { formatDate } from '../../../utils/formatUtils'
 import { styled } from 'styled-components'
 import { MakeAWishWishStreamerDTO } from '../../../dto/MakeAWishDTOs'
@@ -65,9 +64,23 @@ const DonationHeaderProject = styled.div<{ noMargin: boolean | undefined }>`
 	}
 `
 
+const DonationPageNavigationWrapper = styled.h2`
+	font-size: ${(p) => p.theme.fontSize.l}px;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 16px;
+`
+
 const DonationHeaderProjectTitle = styled.h2`
 	font-size: ${(p) => p.theme.fontSize.xl}px;
 	font-weight: normal;
+	margin-bottom: 4px;
+`
+
+const DonationSubHeaderProjectTitle = styled.h2`
+	font-size: ${(p) => p.theme.fontSize.xl}px;
+	font-weight: normal;
+	margin-bottom: 4px;
 `
 
 const DonationDescriptionGridArea = styled.div`
@@ -155,9 +168,11 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 					</DonationHeaderStreamLink>
 				)}
 
-				{wishes && wishes.length > 1 && (
-					<DonationHeaderStreamLink>
-						<BiDonateHeart size={20} style={{ marginRight: '8px', marginLeft: '2px' }} />
+				{streamerName && wishes && wishes.length > 1 && (
+					<DonationPageNavigationWrapper>
+						<DonationSubHeaderProjectTitle>
+							<Text content="donationProjectNavigationTitle" />
+						</DonationSubHeaderProjectTitle>
 						<DonationPageNavigation>
 							{wishes.map((slug, i) => {
 								return (
@@ -172,7 +187,7 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 								)
 							})}
 						</DonationPageNavigation>
-					</DonationHeaderStreamLink>
+					</DonationPageNavigationWrapper>
 				)}
 
 				<DonationHeaderProject noMargin={noMargin}>

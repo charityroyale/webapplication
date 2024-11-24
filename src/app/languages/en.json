@@ -44,5 +44,6 @@
 	"donationFormLoadErrorText": "There was an issue loading donation form.",
 	"latestDonatorsTitle": "Latest donators",
 	"faqPageTitle": "Answers and questions about the project and donation process",
-	"donationProjectTitle": "project"
+	"donationProjectTitle": "project",
+	"donationProjectNavigationTitle": "My projects"
 }
