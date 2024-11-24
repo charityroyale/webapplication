@@ -456,6 +456,7 @@ upcoming:
     type: MAIN
     wishes:
       - dayshaun-gaminglaptop
+      - dominik-legoland
   - date: 2024-11-24T11:28:58.375Z
     streamLink: https://www.twitch.tv/Veyla
     streamerName: Veyla
