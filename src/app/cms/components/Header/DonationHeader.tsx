@@ -6,6 +6,7 @@ import { Text } from '../Text'
 import { formatDate } from '../../../utils/formatUtils'
 import { styled } from 'styled-components'
 import { MakeAWishWishStreamerDTO } from '../../../dto/MakeAWishDTOs'
+import cmsContent from '../../cms'
 
 const StyledDonationHeaderTitle = styled.h2`
 	font-size: ${(p) => p.theme.fontSize.l} px;
@@ -64,11 +65,21 @@ const DonationHeaderProject = styled.div<{ noMargin: boolean | undefined }>`
 	}
 `
 
-const DonationPageNavigationWrapper = styled.h2`
+const DonationPageNavigationWrapper = styled.div`
 	font-size: ${(p) => p.theme.fontSize.l}px;
 	font-weight: normal;
 	margin-bottom: 4px;
 	margin-top: 16px;
+
+	& a {
+		font-size: 16px;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	& a:hover {
+		text-decoration: underline;
+	}
 `
 
 const DonationHeaderProjectTitle = styled.h2`
@@ -77,8 +88,8 @@ const DonationHeaderProjectTitle = styled.h2`
 	margin-bottom: 4px;
 `
 
-const DonationSubHeaderProjectTitle = styled.h2`
-	font-size: ${(p) => p.theme.fontSize.xl}px;
+const DonationSubHeaderProjectTitle = styled.p`
+	font-size: ${(p) => p.theme.fontSize.l}px;
 	font-weight: normal;
 	margin-bottom: 4px;
 `
@@ -168,28 +179,6 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 					</DonationHeaderStreamLink>
 				)}
 
-				{streamerName && wishes && wishes.length > 1 && (
-					<DonationPageNavigationWrapper>
-						<DonationSubHeaderProjectTitle>
-							<Text content="donationProjectNavigationTitle" />
-						</DonationSubHeaderProjectTitle>
-						<DonationPageNavigation>
-							{wishes.map((slug, i) => {
-								return (
-									<a
-										href={`/${streamerChannel}/${slug}`}
-										key={`${slug}-${i}-link`}
-										target="_blank"
-										rel="noreferrer"
-									>
-										{slug}
-									</a>
-								)
-							})}
-						</DonationPageNavigation>
-					</DonationPageNavigationWrapper>
-				)}
-
 				<DonationHeaderProject noMargin={noMargin}>
 					<DonationProjectContent>
 						<StyledDonationHeaderTitle>{title}</StyledDonationHeaderTitle>
@@ -209,6 +198,26 @@ const DonationHeader: React.FunctionComponent<DonationHeaderProps> = ({
 						)}
 					</DonationProjectContent>
 				</DonationHeaderProject>
+
+				{streamerName && wishes && wishes.length > 1 && (
+					<DonationPageNavigationWrapper>
+						<DonationSubHeaderProjectTitle>
+							<Text content="donationProjectNavigationTitle" /> {streamerName}
+						</DonationSubHeaderProjectTitle>
+						<DonationPageNavigation>
+							{wishes.map((slug, i) => {
+								const actualWish = cmsContent.wishes.find((wish) => wish.slug === slug)
+								return (
+									<p key={`${slug}-${i}-link`}>
+										<a href={`/${streamerChannel}/${slug}`} target="_blank" rel="noreferrer">
+											{actualWish?.tagline}
+										</a>
+									</p>
+								)
+							})}
+						</DonationPageNavigation>
+					</DonationPageNavigationWrapper>
+				)}
 			</DonationDescriptionGridArea>
 			<DonationWidgetGridArea>{children}</DonationWidgetGridArea>
 		</StyledDonationHeader>
