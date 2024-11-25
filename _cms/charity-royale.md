@@ -675,13 +675,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin17
-  - date: 2024-11-24T14:42:09.104Z
-    streamerName: Cleanniko
-    streamerChannel: cleanniko
-    streamLink: https://www.twitch.tv/cleanniko
-    wishes:
-      - youtube09
-    type: COMMUNITY
   - date: 2024-11-24T15:14:13.960Z
     streamerName: Baayraamx
     streamerChannel: baayraamx
