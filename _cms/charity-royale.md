@@ -471,14 +471,14 @@ upcoming:
     wishes:
       - joachim-zugwerkstatt
       - dino08
-  - date: 2024-11-26T15:19:17.723Z
+  - date: 2024-11-28T15:19:17.723Z
     streamerName: bxrbie
     streamerChannel: bxrbiex
     streamLink: https://www.twitch.tv/bxrbiex
     type: COMMUNITY
     wishes:
       - dino05
-  - date: 2024-11-26T11:39:21.112Z
+  - date: 2024-11-28T11:39:21.112Z
     streamerName: Shillingplays
     streamLink: https://www.twitch.tv/shillingplays
     streamerChannel: shillingplays
