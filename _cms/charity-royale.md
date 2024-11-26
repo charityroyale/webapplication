@@ -2139,7 +2139,7 @@ wishes:
       einer Reise zu den Beauty-Hotspots der 5th Avenue mit ihrer Familie."
   - slug: eda-tuerkeiurlaub
     childname: Eda
-    tagline: "Ednas Wunschurlaub: Zeit mit der Familie in Fethiye"
+    tagline: "Edas Wunschurlaub: Zeit mit der Familie in Fethiye"
     descripion: Die 14-jährige Eda ist ein lebensfrohes Mädchen, das trotz der
       Herausforderungen, die ein Hirntumor mit sich bringt, nie ihre positive
       Einstellung verloren hat. Sie liebt Lasagne, spielt begeistert Klavier,
