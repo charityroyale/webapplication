@@ -455,11 +455,11 @@ upcoming:
     streamerChannel: papaplatte
     type: MAIN
     wishes:
+      - leni-spanien
       - dayshaun-gaminglaptop
       - dominik-legoland
       - paul-muscle-beach
       - mia-aquapark
-      - leni-spanien
       - c-newyork
       - d-paris
   - date: 2024-11-24T11:28:58.375Z
