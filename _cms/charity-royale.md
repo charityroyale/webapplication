@@ -1,5 +1,5 @@
 ---
-donationGoal: 381502.56
+donationGoal: 450000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
 featuredStream: papaplatte/mia-aquapark
