@@ -2,10 +2,10 @@
 donationGoal: 450000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: papaplatte/ellena-serengetipark
+featuredStream: papaplatte/japan02
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: papaplatte/ellena-serengetipark
+customDonationLink: papaplatte/japan02
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -455,6 +455,7 @@ upcoming:
     streamerChannel: papaplatte
     type: MAIN
     wishes:
+      - japan02
       - ellena-serengetipark
       - silvia-karibik
       - eda-tuerkeiurlaub
@@ -465,7 +466,6 @@ upcoming:
       - dominik-legoland
       - paul-muscle-beach
       - mia-aquapark
-      - japan02
       - bigfive01
   - date: 2024-11-24T11:28:58.375Z
     streamLink: https://www.twitch.tv/Veyla
