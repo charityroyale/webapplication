@@ -2,10 +2,10 @@
 donationGoal: 450000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: papaplatte/c-newyork
+featuredStream: papaplatte/d-paris
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: papaplatte/c-newyork
+customDonationLink: papaplatte/d-paris
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -455,13 +455,13 @@ upcoming:
     streamerChannel: papaplatte
     type: MAIN
     wishes:
+      - d-paris
       - c-newyork
       - leni-spanien
       - dayshaun-gaminglaptop
       - dominik-legoland
       - paul-muscle-beach
       - mia-aquapark
-      - d-paris
       - eda-tuerkeiurlaub
       - silvia-karibik
   - date: 2024-11-24T11:28:58.375Z
