@@ -9,7 +9,7 @@ export const ClientSideRedirectComponent = () => {
 	const searchParams = useSearchParams()
 
 	useEffect(() => {
-		router.replace(cmsContent.featuredStream)
+		router.replace(`/${cmsContent.featuredStream}`)
 	}, [router, searchParams])
 	return <div />
 }
