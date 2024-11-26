@@ -462,6 +462,8 @@ upcoming:
       - paul-muscle-beach
       - mia-aquapark
       - d-paris
+      - eda-tuerkeiurlaub
+      - silvia-karibik
   - date: 2024-11-24T11:28:58.375Z
     streamLink: https://www.twitch.tv/Veyla
     streamerName: Veyla
