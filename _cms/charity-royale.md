@@ -465,6 +465,7 @@ upcoming:
       - dominik-legoland
       - paul-muscle-beach
       - mia-aquapark
+      - japan02
   - date: 2024-11-24T11:28:58.375Z
     streamLink: https://www.twitch.tv/Veyla
     streamerName: Veyla
@@ -1990,6 +1991,14 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
   - slug: japan01
+    tagline: Eine Reise nach Japan
+    childname: Wunschkind
+    descripion: Eine spannende Reise nach Japan ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "4000"
+  - slug: japan02
     tagline: Eine Reise nach Japan
     childname: Wunschkind
     descripion: Eine spannende Reise nach Japan ist für viele Kinder ein riesiger
