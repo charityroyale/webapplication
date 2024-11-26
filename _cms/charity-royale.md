@@ -2,10 +2,10 @@
 donationGoal: 450000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: papaplatte/silvia-karibik
+featuredStream: papaplatte/ellena-serengetipark
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: papaplatte/silvia-karibik
+customDonationLink: papaplatte/ellena-serengetipark
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -455,6 +455,7 @@ upcoming:
     streamerChannel: papaplatte
     type: MAIN
     wishes:
+      - ellena-serengetipark
       - silvia-karibik
       - eda-tuerkeiurlaub
       - d-paris
@@ -464,7 +465,6 @@ upcoming:
       - dominik-legoland
       - paul-muscle-beach
       - mia-aquapark
-      - ellena-serengetipark
   - date: 2024-11-24T11:28:58.375Z
     streamLink: https://www.twitch.tv/Veyla
     streamerName: Veyla
