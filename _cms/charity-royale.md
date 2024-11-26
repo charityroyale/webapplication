@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: papaplatte/dominik-legoland
+featuredStream: papaplatte/paul-muscle-beach
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: papaplatte/dominik-legoland
+customDonationLink: papaplatte/paul-muscle-beach
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
