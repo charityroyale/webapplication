@@ -689,6 +689,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube10
+  - date: 2024-11-29T10:23:52.061Z
+    streamerName: TVInvincible
+    streamerChannel: tvinvincible
+    streamLink: https://www.twitch.tv/tvinvincible
+    type: COMMUNITY
+    wishes:
+      - youtube03
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
