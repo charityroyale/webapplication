@@ -2,10 +2,10 @@
 donationGoal: 450000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: papaplatte/mia-aquapark
+featuredStream: papaplatte/leni-spanien
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: papaplatte/mia-aquapark
+customDonationLink: papaplatte/leni-spanien
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
