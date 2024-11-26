@@ -2,10 +2,10 @@
 donationGoal: 450000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: papaplatte/d-paris
+featuredStream: papaplatte/eda-tuerkeiurlaub
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: papaplatte/d-paris
+customDonationLink: papaplatte/eda-tuerkeiurlaub
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -455,6 +455,7 @@ upcoming:
     streamerChannel: papaplatte
     type: MAIN
     wishes:
+      - eda-tuerkeiurlaub
       - d-paris
       - c-newyork
       - leni-spanien
@@ -462,7 +463,6 @@ upcoming:
       - dominik-legoland
       - paul-muscle-beach
       - mia-aquapark
-      - eda-tuerkeiurlaub
       - silvia-karibik
   - date: 2024-11-24T11:28:58.375Z
     streamLink: https://www.twitch.tv/Veyla
