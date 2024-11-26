@@ -2,10 +2,10 @@
 donationGoal: 381502.56
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: veyla/dino08
+featuredStream: papaplatte/dayshaun-gaminglaptop
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: veyla/dino08
+customDonationLink: papaplatte/dayshaun-gaminglaptop
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -370,8 +370,8 @@ upcoming:
     streamLink: https://www.twitch.tv/Sintica
     type: MAIN
     wishes:
-      - a-therme
       - gregor-kalifornien
+      - a-therme
   - date: 2024-11-16T12:30:08.003Z
     streamerName: KrustiBurger
     streamerChannel: krustiburger
@@ -471,14 +471,14 @@ upcoming:
     wishes:
       - joachim-zugwerkstatt
       - dino08
-  - date: 2024-11-26T15:19:17.723Z
+  - date: 2024-11-28T15:19:17.723Z
     streamerName: bxrbie
     streamerChannel: bxrbiex
     streamLink: https://www.twitch.tv/bxrbiex
     type: COMMUNITY
     wishes:
       - dino05
-  - date: 2024-11-26T11:39:21.112Z
+  - date: 2024-11-28T11:39:21.112Z
     streamerName: Shillingplays
     streamLink: https://www.twitch.tv/shillingplays
     streamerChannel: shillingplays
@@ -675,13 +675,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - prinzessin17
-  - date: 2024-11-24T14:42:09.104Z
-    streamerName: Cleanniko
-    streamerChannel: cleanniko
-    streamLink: https://www.twitch.tv/cleanniko
-    wishes:
-      - youtube09
-    type: COMMUNITY
   - date: 2024-11-24T15:14:13.960Z
     streamerName: Baayraamx
     streamerChannel: baayraamx
@@ -696,6 +689,13 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube10
+  - date: 2024-11-29T10:23:52.061Z
+    streamerName: TVInvincible
+    streamerChannel: tvinvincible
+    streamLink: https://www.twitch.tv/tvinvincible
+    type: COMMUNITY
+    wishes:
+      - youtube03
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
