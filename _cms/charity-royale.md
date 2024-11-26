@@ -466,6 +466,7 @@ upcoming:
       - paul-muscle-beach
       - mia-aquapark
       - japan02
+      - bigfive01
   - date: 2024-11-24T11:28:58.375Z
     streamLink: https://www.twitch.tv/Veyla
     streamerName: Veyla
@@ -2085,6 +2086,14 @@ wishes:
       erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
       Wunsch!
     donationGoal: "1000"
+  - slug: bigfive01
+    tagline: Eine Big Five Safari
+    childname: Wunschkind
+    descripion: Eine Big Five Safari in Afrika ist für viele Kinder ein riesiger
+      Traum und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "5000"
   - slug: rift-showdown
     childname: Wunschkind
     tagline: A1 eSports x Charity Royale Rift Showdown
