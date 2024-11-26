@@ -2,6 +2,8 @@ const multiStreams = [
 	['icyvace', 'cherryylein'],
 	['xmrcr4zy', 's0ulrider'],
 	['stephantschany', 'yourhostlaura'],
+	['lunarie_ttv', 'jens'],
+	['shillingplays', 'bxrbiex'],
 ]
 
 const flatMultiStreams = multiStreams.reduce((prev, curr) => prev.concat(curr), [])
