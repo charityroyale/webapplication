@@ -1,5 +1,5 @@
 ---
-donationGoal: 450000
+donationGoal: 500000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
 featuredStream: sawlties/l-fahrrad
