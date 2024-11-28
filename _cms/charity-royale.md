@@ -482,6 +482,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino05
+      - prinzessin20
   - date: 2024-11-28T11:39:21.112Z
     streamerName: Shillingplays
     streamLink: https://www.twitch.tv/shillingplays
