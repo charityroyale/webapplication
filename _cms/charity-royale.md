@@ -490,6 +490,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino05
+      - prinzessin20
   - date: 2024-11-04T15:05:32.286Z
     streamerName: TrueSeb4
     streamerChannel: trueseb4
