@@ -2,10 +2,10 @@
 donationGoal: 500000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: felikah/zimmer03
+featuredStream: felikah/disneyland07
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: felikah/zimmer03
+customDonationLink: felikah/disneyland07
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -482,7 +482,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino05
-      - prinzessin20
   - date: 2024-11-28T11:39:21.112Z
     streamerName: Shillingplays
     streamLink: https://www.twitch.tv/shillingplays
@@ -490,7 +489,6 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino05
-      - prinzessin20
   - date: 2024-11-04T15:05:32.286Z
     streamerName: TrueSeb4
     streamerChannel: trueseb4
@@ -607,6 +605,7 @@ upcoming:
       - japan02
       - prinzessinenhaus01
       - zimmer03
+      - disneyland07
   - date: 2024-11-16T11:23:44.293Z
     streamerName: Badrick_
     streamerChannel: badrick_
@@ -1875,6 +1874,14 @@ wishes:
       Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
       diesen Wunsch!
     donationGoal: "2000"
+  - slug: disneyland07
+    tagline: Eine Reise ins Disneyland
+    childname: Wunschkind
+    descripion: Eine Reise ins Disneyland ist für viele Kinder ein riesiger Traum
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "2000"
   - slug: disneyland11
     childname: Wunschkind
     tagline: Eine Reise ins Disneyland
@@ -2312,14 +2319,6 @@ wishes:
       einem schwerkranken Kind, das anonym bleiben möchte diesen Wunsch!
     childname: Wunschkind
     donationGoal: "1000"
-  - slug: prinzessin20
-    tagline: Einen Tag lang Prinzessin sein
-    childname: Wunschkind
-    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
-      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
-      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
-      möchte, diesen Wunsch!
-    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
