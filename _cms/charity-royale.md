@@ -2,10 +2,10 @@
 donationGoal: 500000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: felikah/japan02
+featuredStream: felikah/prinzessinenhaus01
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: felikah/japan02
+customDonationLink: felikah/prinzessinenhaus01
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -603,6 +603,7 @@ upcoming:
     wishes:
       - c-hollywood-schaukel
       - japan02
+      - prinzessinenhaus01
   - date: 2024-11-16T11:23:44.293Z
     streamerName: Badrick_
     streamerChannel: badrick_
@@ -2292,6 +2293,14 @@ wishes:
     donationGoal: "4400"
     slug: lina-disneylandparis
     tagline: Disney-Träume wahr werden lassen
+  - slug: prinzessinenhaus01
+    descripion: Ein Prinzessinenhaus ist für viele Kinder ein riesiger Traum und
+      darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    childname: Wunschkind
+    tagline: Prinzessinenhaus
+    donationGoal: "2000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
