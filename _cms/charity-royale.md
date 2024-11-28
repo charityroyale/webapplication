@@ -482,6 +482,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino05
+      - prinzessin20
   - date: 2024-11-28T11:39:21.112Z
     streamerName: Shillingplays
     streamLink: https://www.twitch.tv/shillingplays
@@ -489,6 +490,7 @@ upcoming:
     type: COMMUNITY
     wishes:
       - dino05
+      - prinzessin20
   - date: 2024-11-04T15:05:32.286Z
     streamerName: TrueSeb4
     streamerChannel: trueseb4
@@ -2310,6 +2312,14 @@ wishes:
       einem schwerkranken Kind, das anonym bleiben möchte diesen Wunsch!
     childname: Wunschkind
     donationGoal: "1000"
+  - slug: prinzessin20
+    tagline: Einen Tag lang Prinzessin sein
+    childname: Wunschkind
+    descripion: Einen Tag lang Prinzessin zu sein ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
