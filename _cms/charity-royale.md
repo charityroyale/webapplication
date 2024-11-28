@@ -2,10 +2,10 @@
 donationGoal: 500000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: felikah/prinzessinenhaus01
+featuredStream: felikah/zimmer03
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: felikah/prinzessinenhaus01
+customDonationLink: felikah/zimmer03
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -604,6 +604,7 @@ upcoming:
       - c-hollywood-schaukel
       - japan02
       - prinzessinenhaus01
+      - zimmer03
   - date: 2024-11-16T11:23:44.293Z
     streamerName: Badrick_
     streamerChannel: badrick_
@@ -2301,6 +2302,14 @@ wishes:
     childname: Wunschkind
     tagline: Prinzessinenhaus
     donationGoal: "2000"
+  - slug: zimmer03
+    tagline: Eine neue Zimmereinrichtung
+    descripion: Eine neue coole Zimmereinrichtung ist für viele Kinder ein riesiger
+      Wunsch, da sie dort oft viel Zeit verbringen. Darum ist das einer der
+      meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte diesen Wunsch!
+    childname: Wunschkind
+    donationGoal: "1000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
