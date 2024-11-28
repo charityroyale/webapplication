@@ -2,10 +2,10 @@
 donationGoal: 500000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: felikah/c-hollywood-schaukel
+featuredStream: felikah/japan02
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: felikah/c-hollywood-schaukel
+customDonationLink: felikah/japan02
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -602,6 +602,7 @@ upcoming:
     type: MAIN
     wishes:
       - c-hollywood-schaukel
+      - japan02
   - date: 2024-11-16T11:23:44.293Z
     streamerName: Badrick_
     streamerChannel: badrick_
