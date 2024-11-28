@@ -126,7 +126,7 @@ const GoalTitle = styled.p`
 const ButtonsBox: React.FunctionComponent = () => {
 	return (
 		<ButtonsGrid>
-			<GoalTitle>Road to 1 Million Euro</GoalTitle>
+			<GoalTitle>Road to 500.000 €</GoalTitle>
 			<GoalText>
 				<Text content="donationGoalCall" />
 			</GoalText>
