@@ -126,7 +126,20 @@ export const StreamSchedule: React.FunctionComponent<StreamScheduleProps> = ({ s
 								<p className="highlight-teal">twitch.tv/a1esports</p>
 							</div>
 						</StyledSpecialEvent>
-						<StyledSpecialEvent $bg="/uploads/charity_royale_rgb_300x300.png"></StyledSpecialEvent>
+						<StyledSpecialEvent
+							$bg="/specials/finale_maw.png"
+							href="https://charityroyale.at/veni/luke-kreuzfahrt"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div>
+								<p>
+									<strong>Finale Make-A-Wish</strong>
+								</p>
+								<p>30.11, 16:00</p>
+								<p className="highlight-teal">twitch.tv/veni</p>
+							</div>
+						</StyledSpecialEvent>
 					</StyledSpecialEventsGrid>
 				</StyleSpecialEventsHeader>
 
