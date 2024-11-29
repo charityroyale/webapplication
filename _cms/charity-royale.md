@@ -1995,6 +1995,14 @@ wishes:
       meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
       einem schwerkranken Kind, das anonym bleiben möchte diesen Wunsch!
     donationGoal: "1000"
+  - slug: zimmer04
+    childname: Wunschkind
+    descripion: Eine neue coole Zimmereinrichtung ist für viele Kinder ein riesiger
+      Wunsch, da sie dort oft viel Zeit verbringen. Darum ist das einer der
+      meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende erfüllst du
+      einem schwerkranken Kind, das anonym bleiben möchte diesen Wunsch!
+    tagline: Eine neue Zimmereinrichtung
+    donationGoal: "1000"
   - slug: zimmer11
     descripion: Eine neue coole Zimmereinrichtung mit Gaming PC ist für viele Kinder
       ein riesiger Traum und darum einer der meistgenannten Wünsche bei
