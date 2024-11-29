@@ -2337,6 +2337,40 @@ wishes:
       deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
       möchte, diesen Wunsch!
     donationGoal: "500"
+  - slug: anna-disneyland
+    tagline: Eine kleine Kämpferin mit großer Liebe zur Eiskönigin
+    childname: Anna
+    descripion: Anna ist 4 Jahre alt und kämpft tapfer gegen ein Nephroblastom III,
+      einen bösartigen Tumor an der Niere. Die Behandlung erfordert intensive
+      Krankenhausaufenthalte und Therapien, die für ein so junges Kind besonders
+      belastend sind.  Doch Anna lässt sich ihre Lebensfreude nicht nehmen. Die
+      Zeit im Krankenhaus verbringt sie am liebsten mit dem Schauen der
+      Abenteuer von Eiskönigin Elsa, Anna und ihren Freunden. Die Lieder aus dem
+      Disney-Blockbuster begleiten sie durch schwere Tage, und der kleine
+      Sonnenschein liebt es dazu zu tanzen. Annas Lieblingsfarbe ist Lila, sie
+      liebt Panda-Bären und hat großen Spaß an Peppa Pig – eine ganz normale
+      4-Jährige mit einem großen Herzen, die jeden mit ihrem Strahlen
+      verzaubert.
+    donationGoal: "4400"
+  - slug: tobias-niagara
+    tagline: Wölfe, Bisons und die majestätischen Niagarafälle
+    childname: Tobias
+    descripion: Tobias, ein wissbegieriger 13-jähriger, hatte trotz der
+      Herausforderungen durch Muskeldystrophie Duchenne (DMD ist eine genetisch
+      bedingte Erkrankung, bei der den Muskeln das Protein Dystrophin fehlt, das
+      für ihre Stabilität und Funktion entscheidend ist. Dies führt zu
+      fortschreitendem Muskelschwund.) einen wirklich großen Traum - er wollte
+      unbedingt die Niagara Fälle sehen. Ursprünglich plante die Familie eine
+      umfangreiche Weltreise, die aufgrund von Tobias' gesundheitlichen
+      Bedürfnissen nun in kleineren Abschnitten stattfand. Dabei standen die USA
+      und Kanada auf der Wunschliste, insbesondere die majestätischen
+      Niagarafälle.  Tobias hoffte darauf, dort nicht nur die beeindruckenden
+      Wasserfälle zu erleben, sondern auch einige seiner Lieblingstiere, nämlich
+      Wölfe und Bisons, zu sehen. Der Teenager hat eine Vorliebe für
+      Matchbox-Autos und träumt davon, seine Sammlung zu erweitern. Lesen und
+      das Spielen von Brett- und Kartenspielen gehören zu seinen
+      Lieblingsbeschäftigungen.
+    donationGoal: "8800"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
