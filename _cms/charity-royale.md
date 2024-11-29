@@ -2,10 +2,10 @@
 donationGoal: 500000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: felikah/disneyland07
+featuredStream: handofblood/mykola-laptop
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: felikah/disneyland07
+customDonationLink: handofblood/mykola-laptop
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
