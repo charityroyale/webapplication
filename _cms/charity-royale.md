@@ -2,10 +2,10 @@
 donationGoal: 500000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: handofblood/mykola-laptop
+featuredStream: handofblood/prinzessinenhaus02
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: handofblood/mykola-laptop
+customDonationLink: handofblood/prinzessinenhaus02
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -619,6 +619,7 @@ upcoming:
   - date: 2024-11-29T11:43:32.030Z
     wishes:
       - mykola-laptop
+      - prinzessinenhaus02
     type: MAIN
     streamLink: https://www.twitch.tv/handofblood
     streamerChannel: handofblood
@@ -2380,6 +2381,14 @@ wishes:
       das Spielen von Brett- und Kartenspielen gehören zu seinen
       Lieblingsbeschäftigungen.
     donationGoal: "8800"
+  - slug: prinzessinenhaus02
+    descripion: Ein Prinzessinenhaus ist für viele Kinder ein riesiger Traum und
+      darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner Spende
+      erfüllst du einem schwerkranken Kind, das anonym bleiben möchte, diesen
+      Wunsch!
+    tagline: Prinzessinenhaus
+    childname: Wunschkind
+    donationGoal: "2000"
 faq:
   videos:
     - url: https://www.youtube.com/embed/zTB2l3sgY4w?si=Od9MLFYBjnNgd9DX
