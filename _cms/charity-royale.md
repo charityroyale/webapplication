@@ -706,6 +706,14 @@ upcoming:
     type: COMMUNITY
     wishes:
       - youtube03
+  - date: 2024-11-30T15:00:10.137Z
+    streamerName: Veni
+    streamerChannel: veni
+    streamLink: https://twitch.tv/veni
+    imgUrl: /uploads/charity_royale_rgb_300x300.png
+    type: MAIN
+    wishes:
+      - luke-kreuzfahrt
 wishes:
   - slug: mohammad-ali-ipad
     tagline: Mohammad-Ali wünscht sich ein iPad
