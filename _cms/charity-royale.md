@@ -636,6 +636,7 @@ upcoming:
       - prinzessin10
   - date: 2024-11-29T12:40:36.347Z
     wishes:
+      - prinzessin20
       - legoland16
     type: COMMUNITY
     streamerChannel: uzunaa
