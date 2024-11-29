@@ -2,10 +2,10 @@
 donationGoal: 500000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: handofblood/prinzessinenhaus02
+featuredStream: handofblood/lina-disneylandparis
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: handofblood/prinzessinenhaus02
+customDonationLink: handofblood/lina-disneylandparis
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -619,6 +619,7 @@ upcoming:
       - harrypotter03
   - date: 2024-11-29T11:43:32.030Z
     wishes:
+      - lina-disneylandparis
       - mykola-laptop
       - prinzessinenhaus02
     type: MAIN
