@@ -404,6 +404,7 @@ upcoming:
     wishes:
       - dino09
       - harrypotter01
+      - legoland20
     type: COMMUNITY
     streamerName: Arts_ly
     streamerChannel: arts_ly
@@ -1543,6 +1544,14 @@ wishes:
       diesen Wunsch!
     donationGoal: "500"
   - slug: legoland19
+    tagline: Eine Reise ins Legoland
+    childname: Wunschkind
+    descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
+      und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit deiner
+      Spende erfüllst du einem schwerkranken Kind, das anonym bleiben möchte,
+      diesen Wunsch!
+    donationGoal: "500"
+  - slug: legoland20
     tagline: Eine Reise ins Legoland
     childname: Wunschkind
     descripion: Eine Reise ins Legoland ist für viele Kinder ein tolles Highlight
