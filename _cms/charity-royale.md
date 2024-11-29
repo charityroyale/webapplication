@@ -2,10 +2,10 @@
 donationGoal: 500000
 thumbnail: /uploads/charity_royale_rgb_300x300.png
 featuredYoutubeStream: ""
-featuredStream: handofblood/lina-disneylandparis
+featuredStream: handofblood/tobias-niagara
 applyLink: ""
 makeAWishProjects: []
-customDonationLink: handofblood/lina-disneylandparis
+customDonationLink: handofblood/tobias-niagara
 upcoming:
   - date: 2024-11-09T13:36:38.556Z
     streamerName: Fr0zenNoah
@@ -619,6 +619,7 @@ upcoming:
       - harrypotter03
   - date: 2024-11-29T11:43:32.030Z
     wishes:
+      - tobias-niagara
       - lina-disneylandparis
       - mykola-laptop
       - prinzessinenhaus02
