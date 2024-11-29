@@ -402,6 +402,7 @@ upcoming:
       - lukas-motorrad
   - date: 2024-11-29T14:23:21.737Z
     wishes:
+      - dino09
       - harrypotter01
     type: COMMUNITY
     streamerName: Arts_ly
@@ -1700,6 +1701,14 @@ wishes:
     donationGoal: "500"
     childname: Wunschkind
     tagline: Einen Dinosaurier treffen
+  - slug: dino09
+    tagline: Einen Dinosaurier treffen
+    childname: Wunschkind
+    descripion: Einen Dinosaurier zu treffen ist für viele Kinder ein tolles
+      Highlight und darum einer der meistgenannten Wünsche bei Make-A-Wish. Mit
+      deiner Spende erfüllst du einem schwerkranken Kind, das anonym bleiben
+      möchte, diesen Wunsch!
+    donationGoal: "500"
   - slug: dino11
     tagline: Einen Dinosaurier treffen
     childname: Wunschkind
